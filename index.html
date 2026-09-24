@@ -1,583 +1,866 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#080808">
-<meta name="description" content="Cineinsta — Indian cinema news, movies, trailers and reviews.">
-<title>Cineinsta — Indian Cinema. One Place.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cineinsta — Indian Cinema</title>
+<meta name="description" content="Cineinsta — latest Indian cinema news, reviews, movies and trailers.">
 
 <style>
 :root{
   --bg:#070707;
-  --panel:#111;
+  --panel:#111111;
   --panel2:#171717;
-  --red:#f21f2f;
-  --text:#f7f7f7;
+  --text:#f5f5f5;
   --muted:#999;
-  --line:#292929;
-  --gold:#ffd45a;
+  --red:#e50914;
+  --red2:#ff2632;
+  --line:#242424;
+  --max:1280px;
 }
 
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
 
 body{
-  margin:0;
-  background:var(--bg);
+  background:
+    radial-gradient(circle at 80% -10%,rgba(229,9,20,.16),transparent 30%),
+    var(--bg);
   color:var(--text);
-  font-family:Arial,Helvetica,sans-serif
+  font-family:Inter,Arial,Helvetica,sans-serif;
+  line-height:1.5;
 }
 
 a{
+  color:inherit;
   text-decoration:none;
-  color:inherit
 }
 
-button,input{
-  font:inherit
+img{
+  display:block;
+  width:100%;
 }
 
-.wrap{
-  max-width:1100px;
+button{
+  font:inherit;
+}
+
+.container{
+  width:min(var(--max),calc(100% - 40px));
   margin:auto;
-  padding:0 14px
 }
 
-/* HEADER */
+/* ================= HEADER ================= */
 
 header{
   position:sticky;
   top:0;
-  z-index:50;
-  background:rgba(7,7,7,.96);
-  backdrop-filter:blur(12px);
-  border-bottom:1px solid #202020
+  z-index:1000;
+  background:rgba(7,7,7,.92);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--line);
 }
 
 .nav{
-  height:62px;
+  height:72px;
   display:flex;
   align-items:center;
-  gap:10px
-}
-
-.brand{
-  display:flex;
-  align-items:center;
-  gap:8px;
-  font-weight:900;
-  font-size:20px
+  justify-content:space-between;
+  gap:25px;
 }
 
 .logo{
-  width:36px;
-  height:36px;
-  border-radius:50%;
-  background:#111;
-  border:1px solid #333;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:24px;
+  font-weight:900;
+  letter-spacing:-1px;
+}
+
+.logo-mark{
+  width:34px;
+  height:34px;
+  border-radius:10px;
+  background:var(--red);
   display:grid;
   place-items:center;
+  font-weight:900;
+  font-size:20px;
+  box-shadow:0 5px 25px rgba(229,9,20,.35);
+}
+
+.logo span{
   color:var(--red);
-  font-size:20px
 }
 
-.brand b{
-  color:var(--red)
+.nav-links{
+  display:flex;
+  align-items:center;
+  gap:26px;
 }
 
-.searchLink{
-  margin-left:auto;
-  background:#151515;
-  border:1px solid var(--line);
-  border-radius:22px;
-  padding:9px 12px;
+.nav-links button{
+  border:0;
+  background:none;
   color:#bbb;
-  font-size:12px
+  cursor:pointer;
+  font-weight:600;
 }
 
-.menu{
-  font-size:23px;
-  padding:5px
+.nav-links button:hover,
+.nav-links button.active{
+  color:#fff;
 }
 
-/* MAIN */
-
-main{
-  padding-bottom:90px
+.search-box{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  background:#151515;
+  border:1px solid #292929;
+  padding:9px 13px;
+  border-radius:12px;
 }
 
-.page{
-  display:none
+.search-box input{
+  width:170px;
+  background:none;
+  border:0;
+  outline:none;
+  color:white;
 }
 
-.page.active{
-  display:block
+.mobile-menu{
+  display:none;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 
 .hero{
-  padding:16px 0
-}
-
-.heroCard{
-  min-height:350px;
-  border:1px solid #292929;
-  border-radius:22px;
-  overflow:hidden;
+  min-height:500px;
   position:relative;
-  background:
-    linear-gradient(
-      90deg,
-      rgba(0,0,0,.92),
-      rgba(0,0,0,.55) 55%,
-      rgba(0,0,0,.12)
-    ),
-    url('https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg')
-    center/cover
+  overflow:hidden;
+  display:flex;
+  align-items:flex-end;
+  background:#111;
 }
 
-.heroText{
+.hero-bg{
   position:absolute;
-  left:20px;
-  bottom:22px;
-  max-width:600px
+  inset:0;
+  background-size:cover;
+  background-position:center;
+  opacity:.48;
+}
+
+.hero-bg:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg,#070707 5%,rgba(7,7,7,.82) 40%,rgba(7,7,7,.22) 100%),
+    linear-gradient(0deg,#070707 0%,transparent 55%);
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  width:min(var(--max),calc(100% - 40px));
+  margin:0 auto;
+  padding:90px 0 75px;
 }
 
 .eyebrow{
-  font-size:10px;
-  letter-spacing:1.7px;
-  color:#ff6872;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:#ff6670;
+  font-size:12px;
   font-weight:800;
-  text-transform:uppercase
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  margin-bottom:14px;
+}
+
+.eyebrow:before{
+  content:"";
+  width:22px;
+  height:2px;
+  background:var(--red);
 }
 
 .hero h1{
-  font-size:37px;
-  line-height:1.03;
-  margin:10px 0
+  font-size:clamp(38px,6vw,76px);
+  line-height:.98;
+  max-width:760px;
+  letter-spacing:-3px;
+  margin-bottom:20px;
 }
 
 .hero h1 span{
-  color:var(--red)
+  color:var(--red);
 }
 
 .hero p{
-  color:#ccc;
-  line-height:1.45;
-  font-size:13px
+  max-width:620px;
+  color:#bbb;
+  font-size:17px;
+  margin-bottom:26px;
+}
+
+.hero-buttons{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
 }
 
 .btn{
-  display:inline-block;
-  padding:11px 14px;
+  border:0;
   border-radius:10px;
-  background:var(--red);
+  padding:12px 20px;
+  cursor:pointer;
   font-weight:800;
-  font-size:12px;
-  margin:4px 5px 0 0
 }
 
-.btn.alt{
-  background:#242424
+.btn-primary{
+  background:var(--red);
+  color:#fff;
 }
 
-/* SECTIONS */
-
-.section{
-  padding:12px 0
+.btn-primary:hover{
+  background:var(--red2);
 }
 
-.sectionHead{
+.btn-secondary{
+  background:#fff;
+  color:#111;
+}
+
+/* ================= SECTIONS ================= */
+
+section{
+  padding:65px 0;
+}
+
+.section-heading{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:20px;
+  margin-bottom:25px;
+}
+
+.section-heading h2{
+  font-size:30px;
+  letter-spacing:-1px;
+}
+
+.section-heading p{
+  color:var(--muted);
+  font-size:14px;
+}
+
+/* ================= CAROUSEL ================= */
+
+.carousel-wrap{
+  position:relative;
+}
+
+.carousel{
+  display:grid;
+  grid-auto-flow:column;
+  grid-auto-columns:minmax(320px,1fr);
+  gap:18px;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  scrollbar-width:none;
+  padding-bottom:6px;
+}
+
+.carousel::-webkit-scrollbar{
+  display:none;
+}
+
+.carousel-card{
+  position:relative;
+  min-height:370px;
+  border-radius:18px;
+  overflow:hidden;
+  scroll-snap-align:start;
+  background:#151515;
+  border:1px solid #272727;
+}
+
+.carousel-card img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.carousel-card:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(0deg,#050505 0%,rgba(5,5,5,.75) 30%,transparent 70%);
+}
+
+.carousel-info{
+  position:absolute;
+  z-index:2;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:24px;
+}
+
+.badge{
+  display:inline-block;
+  padding:5px 9px;
+  border-radius:6px;
+  background:rgba(229,9,20,.92);
+  color:#fff;
+  font-size:11px;
+  font-weight:800;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+
+.carousel-info h3{
+  font-size:24px;
+  line-height:1.15;
+  margin-bottom:7px;
+}
+
+.carousel-info p{
+  color:#bbb;
+  font-size:13px;
+}
+
+/* ================= NEWS ================= */
+
+.news-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+
+.news-card{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:15px;
+  overflow:hidden;
+  transition:.25s ease;
+}
+
+.news-card:hover{
+  transform:translateY(-5px);
+  border-color:#444;
+}
+
+.news-image{
+  height:205px;
+  background:#1b1b1b;
+  overflow:hidden;
+}
+
+.news-image img{
+  height:100%;
+  object-fit:cover;
+}
+
+.news-body{
+  padding:18px;
+}
+
+.news-meta{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  margin:7px 0 12px
-}
-
-.section h2{
-  font-size:20px;
-  margin:0
-}
-
-.see{
+  gap:10px;
+  margin-bottom:10px;
+  color:#888;
   font-size:11px;
-  color:#ff6570;
-  font-weight:800
 }
 
-/* CHIPS */
-
-.chips{
-  display:flex;
-  gap:7px;
-  overflow:auto;
-  padding-bottom:4px
+.news-body h3{
+  font-size:18px;
+  line-height:1.25;
+  margin-bottom:8px;
 }
 
-.chip{
-  border:1px solid #303030;
-  background:#121212;
-  border-radius:20px;
-  padding:8px 13px;
-  color:#ccc;
-  white-space:nowrap
+.news-body p{
+  color:#999;
+  font-size:13px;
+  margin-bottom:15px;
 }
 
-.chip.active{
-  background:var(--red);
-  border-color:var(--red);
-  color:#fff
+.read-more{
+  color:#ff5360;
+  font-size:13px;
+  font-weight:800;
 }
 
-/* CAROUSEL */
+/* ================= REVIEWS ================= */
 
-.carousel{
-  position:relative;
-  border-radius:20px;
+.review-layout{
+  display:grid;
+  grid-template-columns:1.6fr .8fr;
+  gap:20px;
+}
+
+.review-list{
+  display:grid;
+  gap:14px;
+}
+
+.review-card{
+  display:grid;
+  grid-template-columns:130px 1fr auto;
+  gap:18px;
+  align-items:center;
+  padding:15px;
+  border:1px solid var(--line);
+  background:var(--panel);
+  border-radius:15px;
+}
+
+.review-poster{
+  width:130px;
+  height:165px;
+  border-radius:10px;
   overflow:hidden;
-  border:1px solid #292929;
-  background:#111
+  background:#222;
 }
 
-.slide{
-  display:none;
-  aspect-ratio:16/8.8
-}
-
-.slide.active{
-  display:block
-}
-
-.slide img{
-  width:100%;
+.review-poster img{
   height:100%;
   object-fit:cover;
-  display:block
 }
 
-.carouselBtn{
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  z-index:3;
-  width:38px;
-  height:38px;
-  border-radius:50%;
-  border:1px solid rgba(255,255,255,.3);
-  background:rgba(0,0,0,.5);
-  color:#fff;
-  font-size:25px
+.review-info h3{
+  font-size:22px;
+  margin-bottom:5px;
 }
 
-.prev{left:10px}
-.next{right:10px}
+.review-language{
+  color:#aaa;
+  font-size:12px;
+  margin-bottom:12px;
+}
 
-.dots{
+.review-info p{
+  color:#999;
+  font-size:13px;
+  margin-bottom:13px;
+}
+
+.sources{
   display:flex;
-  justify-content:center;
+  flex-wrap:wrap;
   gap:6px;
-  margin:8px 0
 }
 
-.dot{
-  width:7px;
-  height:7px;
+.source-pill{
+  padding:5px 8px;
+  background:#202020;
+  border:1px solid #303030;
+  border-radius:6px;
+  color:#aaa;
+  font-size:10px;
+}
+
+.score{
+  min-width:75px;
+  height:75px;
   border-radius:50%;
-  background:#444
+  background:#1b1b1b;
+  border:2px solid var(--red);
+  display:grid;
+  place-items:center;
+  text-align:center;
+  font-weight:900;
+  font-size:16px;
 }
 
-.dot.active{
-  width:18px;
-  border-radius:5px;
-  background:var(--red)
+.score small{
+  display:block;
+  font-size:9px;
+  color:#888;
+  font-weight:600;
 }
 
-.carouselMeta{
+.review-side{
+  border:1px solid var(--line);
+  background:
+    linear-gradient(145deg,rgba(229,9,20,.18),transparent 55%),
+    var(--panel);
+  border-radius:17px;
+  padding:25px;
+}
+
+.review-side h3{
+  font-size:23px;
+  margin-bottom:12px;
+}
+
+.review-side p{
+  color:#999;
+  font-size:14px;
+  margin-bottom:20px;
+}
+
+.stat{
+  border-top:1px solid #292929;
+  padding:15px 0;
   display:flex;
   justify-content:space-between;
-  font-size:11px;
   color:#aaa;
-  padding:0 2px
 }
 
-.carouselMeta strong{
-  color:#fff
+.stat strong{
+  color:white;
 }
 
-/* CARDS */
+/* ================= MOVIES ================= */
 
-.grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:10px
-}
-
-.card{
-  background:var(--panel);
-  border:1px solid #252525;
-  border-radius:14px;
-  overflow:hidden
-}
-
-.poster{
-  height:235px
-}
-
-.poster img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block
-}
-
-.info{
-  padding:10px
-}
-
-.title{
-  font-weight:800;
-  font-size:14px
-}
-
-.meta{
-  color:#999;
-  font-size:10px;
-  margin-top:5px
-}
-
-.rating{
-  color:var(--gold);
-  font-size:11px;
-  margin-top:6px
-}
-
-.play{
-  display:inline-block;
-  margin-top:8px;
-  border:1px solid #3b3b3b;
-  background:#181818;
-  border-radius:9px;
-  padding:7px 9px;
-  font-size:10px
-}
-
-/* WIDE CARDS */
-
-.list{
-  display:grid;
-  gap:10px
-}
-
-.wide{
-  display:grid;
-  grid-template-columns:92px 1fr;
-  gap:11px;
-  background:var(--panel);
-  border:1px solid #252525;
-  border-radius:14px;
-  padding:9px
-}
-
-.thumb{
-  height:110px;
-  border-radius:9px;
-  overflow:hidden;
-  background:#222
-}
-
-.thumb img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block
-}
-
-.tag{
-  font-size:9px;
-  color:#ff6872;
-  border:1px solid #55262c;
-  border-radius:12px;
-  padding:3px 6px;
-  display:inline-block
-}
-
-.wide h3{
-  font-size:14px;
-  margin:6px 0 4px
-}
-
-.wide p{
-  font-size:11px;
-  color:#aaa;
-  line-height:1.4;
-  margin:0
-}
-
-.source{
-  font-size:9px;
-  color:#777;
-  margin-top:6px
-}
-
-/* FILTERS */
-
-.filterbar{
+.filters{
   display:flex;
-  gap:7px;
-  overflow:auto;
-  margin:10px 0 14px
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:22px;
 }
 
 .filter{
-  white-space:nowrap;
-  border:1px solid #303030;
-  background:#121212;
-  color:#bbb;
-  border-radius:18px;
-  padding:8px 11px
+  background:#161616;
+  border:1px solid #292929;
+  color:#aaa;
+  border-radius:8px;
+  padding:8px 13px;
+  cursor:pointer;
 }
 
-.filter.active{
+.filter.active,
+.filter:hover{
+  color:#fff;
   background:var(--red);
   border-color:var(--red);
-  color:#fff
 }
 
-/* PAGE TITLES */
-
-.pageTitle{
-  font-size:29px;
-  margin:18px 0 4px
-}
-
-.pageSub{
-  font-size:12px;
-  color:#999;
-  line-height:1.45;
-  margin:0
-}
-
-/* TRIVIA */
-
-.triviaGrid{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:10px;
-  margin-top:15px
-}
-
-.trivia{
-  padding:17px;
-  border-radius:15px;
-  background:linear-gradient(145deg,#181818,#0f0f0f);
-  border:1px solid #33282a
-}
-
-.trivia h3{
-  margin:7px 0;
-  font-size:16px
-}
-
-.trivia p{
-  color:#bbb;
-  font-size:12px;
-  line-height:1.5;
-  margin:0
-}
-
-/* BOTTOM NAV */
-
-.bottom{
-  position:fixed;
-  left:0;
-  right:0;
-  bottom:0;
-  z-index:60;
-  background:rgba(9,9,9,.98);
-  border-top:1px solid #252525;
+.movie-grid{
   display:grid;
   grid-template-columns:repeat(5,1fr);
-  padding:7px 2px calc(7px + env(safe-area-inset-bottom))
+  gap:17px;
 }
 
-.bottom a{
-  text-align:center;
+.movie-card{
+  position:relative;
+  overflow:hidden;
+  border-radius:13px;
+  background:#151515;
+  border:1px solid var(--line);
+}
+
+.movie-poster{
+  height:320px;
+  background:#202020;
+}
+
+.movie-poster img{
+  height:100%;
+  object-fit:cover;
+}
+
+.movie-info{
+  padding:13px;
+}
+
+.movie-info h3{
+  font-size:16px;
+  margin-bottom:4px;
+}
+
+.movie-info p{
   color:#888;
-  font-size:9px
+  font-size:12px;
 }
 
-.bottom span{
+/* ================= TRAILERS ================= */
+
+.trailer-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.trailer-card{
+  position:relative;
+  min-height:230px;
+  border-radius:15px;
+  overflow:hidden;
+  background:#161616;
+  border:1px solid var(--line);
+}
+
+.trailer-card img{
+  position:absolute;
+  inset:0;
+  height:100%;
+  object-fit:cover;
+  opacity:.7;
+}
+
+.trailer-card:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(0deg,#050505,transparent 65%);
+}
+
+.play{
+  position:absolute;
+  z-index:2;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:54px;
+  height:54px;
+  border-radius:50%;
+  background:var(--red);
+  display:grid;
+  place-items:center;
+  font-size:21px;
+  padding-left:3px;
+}
+
+.trailer-info{
+  position:absolute;
+  z-index:3;
+  bottom:15px;
+  left:17px;
+}
+
+.trailer-info h3{
+  font-size:18px;
+}
+
+.trailer-info p{
+  color:#aaa;
+  font-size:12px;
+}
+
+/* ================= SEARCH ================= */
+
+.search-section{
+  display:none;
+}
+
+.search-section.visible{
   display:block;
-  font-size:17px;
-  margin-bottom:2px
 }
 
-.bottom a.active{
-  color:#fff
+.search-results{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
 }
 
-.bottom a.active span{
-  color:var(--red)
-}
-
-/* SEARCH */
-
-.searchBox{
-  width:100%;
-  padding:12px;
-  border-radius:12px;
-  background:#111;
-  border:1px solid #303030;
-  color:#fff;
-  outline:none;
-  margin:12px 0
-}
+/* ================= EMPTY ================= */
 
 .empty{
-  padding:28px;
-  text-align:center;
-  color:#888;
+  padding:35px;
   border:1px dashed #333;
-  border-radius:14px
+  border-radius:14px;
+  color:#777;
+  text-align:center;
 }
 
-/* FEED STATUS */
+/* ================= FOOTER ================= */
 
-.feedStatus{
-  font-size:9px;
-  color:#666;
-  margin-top:5px
+footer{
+  border-top:1px solid var(--line);
+  padding:40px 0 90px;
+  color:#777;
+  font-size:13px;
 }
 
-/* DESKTOP */
+.footer-inner{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+}
 
-@media(min-width:700px){
+/* ================= MOBILE NAV ================= */
 
-  .grid{
-    grid-template-columns:repeat(5,1fr)
+.bottom-nav{
+  display:none;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:1050px){
+
+  .news-grid{
+    grid-template-columns:repeat(2,1fr);
   }
 
-  .poster{
-    height:310px
+  .movie-grid{
+    grid-template-columns:repeat(4,1fr);
   }
 
-  .triviaGrid{
-    grid-template-columns:repeat(3,1fr)
+  .review-layout{
+    grid-template-columns:1fr;
   }
 
-  .bottom{
-    display:none
+}
+
+@media(max-width:800px){
+
+  .nav-links{
+    display:none;
   }
 
-  .heroCard{
-    min-height:430px
+  .search-box{
+    display:none;
+  }
+
+  .mobile-menu{
+    display:block;
+    border:0;
+    background:#191919;
+    color:white;
+    border-radius:9px;
+    padding:9px 12px;
+  }
+
+  .hero{
+    min-height:570px;
+  }
+
+  .hero-content{
+    padding-bottom:65px;
   }
 
   .hero h1{
-    font-size:52px
+    letter-spacing:-2px;
   }
+
+  .carousel{
+    grid-auto-columns:85%;
+  }
+
+  .news-grid{
+    grid-template-columns:1fr;
+  }
+
+  .movie-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .trailer-grid{
+    grid-template-columns:1fr;
+  }
+
+  .review-card{
+    grid-template-columns:90px 1fr;
+  }
+
+  .review-poster{
+    width:90px;
+    height:125px;
+  }
+
+  .review-card .score{
+    grid-column:2;
+    justify-self:start;
+  }
+
+  .search-results{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .bottom-nav{
+    position:fixed;
+    z-index:999;
+    bottom:0;
+    left:0;
+    right:0;
+    height:65px;
+    background:rgba(10,10,10,.96);
+    border-top:1px solid #292929;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    backdrop-filter:blur(15px);
+  }
+
+  .bottom-nav button{
+    border:0;
+    background:none;
+    color:#888;
+    font-size:10px;
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+    align-items:center;
+  }
+
+  .bottom-nav button.active{
+    color:#fff;
+  }
+
+}
+
+@media(max-width:520px){
+
+  .container{
+    width:calc(100% - 26px);
+  }
+
+  .hero-content{
+    width:calc(100% - 26px);
+  }
+
+  section{
+    padding:45px 0;
+  }
+
+  .section-heading h2{
+    font-size:25px;
+  }
+
+  .review-card{
+    grid-template-columns:80px 1fr;
+  }
+
+  .review-poster{
+    width:80px;
+    height:110px;
+  }
+
+  .review-info h3{
+    font-size:18px;
+  }
+
+  .movie-poster{
+    height:245px;
+  }
+
+  .search-results{
+    grid-template-columns:1fr;
+  }
+
 }
 </style>
 </head>
@@ -585,1284 +868,1435 @@ main{
 <body>
 
 <header>
-  <div class="wrap nav">
+  <div class="container nav">
 
-    <a class="brand" href="#home" data-route="home">
-      <span class="logo">◉</span>
-      <span>CINE<b>INSTA</b></span>
+    <a href="#" class="logo" onclick="showHome()">
+      <div class="logo-mark">C</div>
+      CINE<span>INSTA</span>
     </a>
 
-    <a class="searchLink" href="#search" data-route="search">
-      ⌕ Search
-    </a>
+    <nav class="nav-links">
+      <button class="active" onclick="showHome()">Home</button>
+      <button onclick="scrollToSection('news')">News</button>
+      <button onclick="scrollToSection('reviews')">Reviews</button>
+      <button onclick="scrollToSection('movies')">Movies</button>
+      <button onclick="scrollToSection('trailers')">Trailers</button>
+    </nav>
 
-    <a class="menu" href="#menu" data-route="menu">
-      ☰
-    </a>
+    <div class="search-box">
+      <span>⌕</span>
+      <input id="searchInput" type="text" placeholder="Search cinema..." oninput="performSearch()">
+    </div>
+
+    <button class="mobile-menu" onclick="toggleMobileSearch()">⌕</button>
 
   </div>
 </header>
 
-<main class="wrap">
 
-<!-- HOME -->
+<!-- ================= HERO ================= -->
 
-<section class="page active" id="page-home">
+<section class="hero">
 
-  <div class="section" style="padding-top:14px">
+  <div class="hero-bg" id="heroBg"></div>
 
-    <div class="carousel" id="newsCarousel">
+  <div class="hero-content">
 
-      <div class="slide active">
-        <a href="https://www.thehawk.in/news/showbiz/allu-arjuns-first-look-of-raaka-with-atlee-unveiled" target="_blank" rel="noopener">
-          <img src="https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg" alt="Latest Indian film news">
-        </a>
-      </div>
+    <div class="eyebrow">Indian Cinema • What's New</div>
 
-      <div class="slide">
-        <a href="https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/nani-starrer-the-paradise-hiked-in-telangana-ahead-of-september-24-release-special-show-approved-on-september-23-at-rs-500-including-gst/articleshow/134386506.cms" target="_blank" rel="noopener">
-          <img src="https://www.thehawk.in/_next/image?q=75&url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F7f32f4cf-7d94-4023-82ad-0bd5dcfb3295%2F202604083739252-65fece00-a4e4-48da-980d-5190c98247ad.jpg&w=3840" alt="Raaka film news">
-        </a>
-      </div>
+    <h1>
+      Cinema that keeps<br>
+      <span>you watching.</span>
+    </h1>
 
-      <div class="slide">
-        <a href="https://www.filmibeat.com/telugu/movies/secret-soldier.html" target="_blank" rel="noopener">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Secret_Soldier_theatrical_poster.jpg" alt="Secret Soldier film news">
-        </a>
-      </div>
+    <p id="heroDescription">
+      Discover the latest movie news, reviews, trailers and stories
+      from Indian cinema — all in one place.
+    </p>
 
-      <div class="slide">
-        <a href="https://www.freepressjournal.in/regional-film-news" target="_blank" rel="noopener">
-          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/18a55c124931809.610e76bf79209.jpg" alt="Malayalam cinema news">
-        </a>
-      </div>
+    <div class="hero-buttons">
+      <button class="btn btn-primary" onclick="scrollToSection('news')">
+        Explore Latest
+      </button>
 
-      <button class="carouselBtn prev" id="prev" aria-label="Previous">‹</button>
-      <button class="carouselBtn next" id="next" aria-label="Next">›</button>
-
-    </div>
-
-    <div class="dots" id="dots">
-      <span class="dot active"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-
-    <div class="carouselMeta">
-      <strong id="caption">Latest film news</strong>
-      <span>Auto • 5 sec</span>
+      <button class="btn btn-secondary" onclick="scrollToSection('reviews')">
+        Read Reviews
+      </button>
     </div>
 
   </div>
 
-  <div class="hero">
+</section>
 
-    <div class="heroCard">
 
-      <div class="heroText">
+<!-- ================= WHAT'S HAPPENING ================= -->
 
-        <div class="eyebrow">
-          Indian Cinema. One Place.
-        </div>
+<section>
 
-        <h1>
-          Everything cinema,<br>
-          <span>in one place.</span>
-        </h1>
+  <div class="container">
+
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">Live Feed</div>
+        <h2>What's happening now</h2>
+      </div>
+
+      <p id="feedStatus">Loading latest updates...</p>
+    </div>
+
+    <div class="carousel" id="heroCarousel"></div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= NEWS ================= -->
+
+<section id="news">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div>
+        <div class="eyebrow">Fresh from cinema</div>
+        <h2>Latest News</h2>
+      </div>
+
+      <p>Stories worth knowing</p>
+
+    </div>
+
+    <div class="news-grid" id="newsGrid"></div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= REVIEWS ================= -->
+
+<section id="reviews">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div>
+        <div class="eyebrow">What critics are saying</div>
+        <h2>Review Aggregator</h2>
+      </div>
+
+      <p>Ratings & coverage from multiple sources</p>
+
+    </div>
+
+    <div class="review-layout">
+
+      <div class="review-list" id="reviewList"></div>
+
+      <aside class="review-side">
+
+        <div class="eyebrow">Cineinsta</div>
+
+        <h3>Reviews, without the noise.</h3>
 
         <p>
-          Movies, trailers, reviews and cinema news across
-          Telugu, Tamil, Malayalam, Kannada and Hindi.
+          We bring together movie reviews and ratings from
+          multiple publications so you can quickly understand
+          how a film is being received.
         </p>
 
-        <a class="btn" href="#movies" data-route="movies">
-          Explore Movies
-        </a>
+        <div class="stat">
+          <span>Movies tracked</span>
+          <strong id="movieCount">0</strong>
+        </div>
 
-        <a class="btn alt" href="#trailers" data-route="trailers">
-          Watch Trailers
-        </a>
+        <div class="stat">
+          <span>Latest stories</span>
+          <strong id="newsCount">0</strong>
+        </div>
 
-      </div>
+        <div class="stat">
+          <span>Languages</span>
+          <strong>5+</strong>
+        </div>
 
-    </div>
-
-  </div>
-
-  <div class="section">
-
-    <div class="sectionHead">
-      <h2>Explore by language</h2>
-    </div>
-
-    <div class="chips">
-
-      <a class="chip active" href="#movies" data-route="movies">Telugu</a>
-      <a class="chip" href="#movies" data-route="movies">Tamil</a>
-      <a class="chip" href="#movies" data-route="movies">Malayalam</a>
-      <a class="chip" href="#movies" data-route="movies">Kannada</a>
-      <a class="chip" href="#movies" data-route="movies">Hindi</a>
+      </aside>
 
     </div>
 
   </div>
 
-  <div class="section">
-
-    <div class="sectionHead">
-      <h2>▶ Latest trailers</h2>
-      <a class="see" href="#trailers" data-route="trailers">View all</a>
-    </div>
-
-    <div class="grid" id="homeTrailers"></div>
-
-  </div>
-
-  <div class="section">
-
-    <div class="sectionHead">
-      <h2>⭐ Latest reviews</h2>
-      <a class="see" href="#reviews" data-route="reviews">View all</a>
-    </div>
-
-    <div class="grid" id="homeReviews"></div>
-
-  </div>
-
-  <div class="section">
-
-    <div class="sectionHead">
-      <h2>📰 Latest film news</h2>
-      <a class="see" href="#news" data-route="news">View all</a>
-    </div>
-
-    <div class="grid" id="homeNews"></div>
-
-    <div class="feedStatus" id="feedStatus"></div>
-
-  </div>
-
-  <div class="section">
-
-    <div class="sectionHead">
-      <h2>💡 Trivia</h2>
-      <a class="see" href="#trivia" data-route="trivia">View all</a>
-    </div>
-
-    <div class="triviaGrid" id="homeTrivia"></div>
-
-  </div>
-
 </section>
 
 
-<!-- MOVIES -->
+<!-- ================= MOVIES ================= -->
 
-<section class="page" id="page-movies">
+<section id="movies">
 
-  <h1 class="pageTitle">Movies</h1>
+  <div class="container">
 
-  <p class="pageSub">
-    Indian films across five major languages.
-  </p>
+    <div class="section-heading">
 
-  <div class="filterbar" id="movieFilters"></div>
-
-  <div class="grid" id="movieGrid"></div>
-
-</section>
-
-
-<!-- TRAILERS -->
-
-<section class="page" id="page-trailers">
-
-  <h1 class="pageTitle">Trailers</h1>
-
-  <p class="pageSub">
-    Latest trailers and teasers. Tap Play Trailer to open the official video.
-  </p>
-
-  <div class="filterbar" id="trailerFilters"></div>
-
-  <div class="grid" id="trailerGrid"></div>
-
-</section>
-
-
-<!-- REVIEWS -->
-
-<section class="page" id="page-reviews">
-
-  <h1 class="pageTitle">Reviews</h1>
-
-  <p class="pageSub">
-    Cineinsta aggregates ratings and links to original review sources.
-  </p>
-
-  <div class="filterbar" id="reviewFilters"></div>
-
-  <div class="list" id="reviewList"></div>
-
-</section>
-
-
-<!-- NEWS -->
-
-<section class="page" id="page-news">
-
-  <h1 class="pageTitle">Film News</h1>
-
-  <p class="pageSub">
-    Fresh cinema news, summaries and source attribution.
-  </p>
-
-  <div class="list" id="newsList"></div>
-
-  <div class="feedStatus" id="newsFeedStatus"></div>
-
-</section>
-
-
-<!-- TRIVIA -->
-
-<section class="page" id="page-trivia">
-
-  <h1 class="pageTitle">Trivia</h1>
-
-  <p class="pageSub">
-    Cinema facts, behind-the-scenes curiosities and Guess the Movie.
-  </p>
-
-  <div class="triviaGrid" id="triviaGrid"></div>
-
-</section>
-
-
-<!-- SEARCH -->
-
-<section class="page" id="page-search">
-
-  <h1 class="pageTitle">Search</h1>
-
-  <p class="pageSub">
-    Find movies, trailers, reviews and news.
-  </p>
-
-  <input
-    class="searchBox"
-    id="searchBox"
-    placeholder="Search a movie or language…"
-  >
-
-  <div class="list" id="searchResults"></div>
-
-</section>
-
-
-<!-- MENU -->
-
-<section class="page" id="page-menu">
-
-  <h1 class="pageTitle">More</h1>
-
-  <div class="list">
-
-    <a class="wide" href="#movies" data-route="movies">
-      <div class="thumb">
-        <span>🎬</span>
-      </div>
       <div>
-        <h3>Movies</h3>
-        <p>Browse Indian films.</p>
+        <div class="eyebrow">Explore</div>
+        <h2>Movies</h2>
       </div>
-    </a>
 
-    <a class="wide" href="#trivia" data-route="trivia">
-      <div class="thumb">
-        <span>💡</span>
-      </div>
-      <div>
-        <h3>Trivia</h3>
-        <p>Daily cinema facts and quizzes.</p>
-      </div>
-    </a>
+      <p>Indian cinema across languages</p>
+
+    </div>
+
+    <div class="filters">
+
+      <button class="filter active" onclick="filterMovies('All',this)">
+        All
+      </button>
+
+      <button class="filter" onclick="filterMovies('Telugu',this)">
+        Telugu
+      </button>
+
+      <button class="filter" onclick="filterMovies('Tamil',this)">
+        Tamil
+      </button>
+
+      <button class="filter" onclick="filterMovies('Malayalam',this)">
+        Malayalam
+      </button>
+
+      <button class="filter" onclick="filterMovies('Kannada',this)">
+        Kannada
+      </button>
+
+      <button class="filter" onclick="filterMovies('Hindi',this)">
+        Hindi
+      </button>
+
+    </div>
+
+    <div class="movie-grid" id="movieGrid"></div>
 
   </div>
 
 </section>
 
-</main>
+
+<!-- ================= TRAILERS ================= -->
+
+<section id="trailers">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div>
+        <div class="eyebrow">Watch</div>
+        <h2>Trailers & Videos</h2>
+      </div>
+
+      <p>Latest cinema previews</p>
+
+    </div>
+
+    <div class="trailer-grid" id="trailerGrid"></div>
+
+  </div>
+
+</section>
 
 
-<!-- MOBILE NAV -->
+<!-- ================= SEARCH ================= -->
 
-<nav class="bottom">
+<section class="search-section" id="searchSection">
 
-  <a href="#home" data-route="home">
-    <span>⌂</span>Home
-  </a>
+  <div class="container">
 
-  <a href="#movies" data-route="movies">
-    <span>🎬</span>Movies
-  </a>
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">Search</div>
+        <h2>Search Cineinsta</h2>
+      </div>
+    </div>
 
-  <a href="#trailers" data-route="trailers">
-    <span>▶</span>Trailers
-  </a>
+    <div class="search-results" id="searchResults"></div>
 
-  <a href="#reviews" data-route="reviews">
-    <span>★</span>Reviews
-  </a>
+  </div>
 
-  <a href="#trivia" data-route="trivia">
-    <span>💡</span>Trivia
-  </a>
+</section>
 
-</nav>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+  <div class="container footer-inner">
+
+    <div>
+      © 2026 Cineinsta
+    </div>
+
+    <div>
+      Indian Cinema • News • Reviews • Movies
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!-- ================= MOBILE NAV ================= -->
+
+<div class="bottom-nav">
+
+  <button class="active" onclick="showHome()">
+    <span>⌂</span>
+    Home
+  </button>
+
+  <button onclick="scrollToSection('news')">
+    <span>◉</span>
+    News
+  </button>
+
+  <button onclick="scrollToSection('reviews')">
+    <span>★</span>
+    Reviews
+  </button>
+
+  <button onclick="scrollToSection('movies')">
+    <span>▣</span>
+    Movies
+  </button>
+
+  <button onclick="toggleMobileSearch()">
+    <span>⌕</span>
+    Search
+  </button>
+
+</div>
 
 
 <script>
 
-/* =========================================================
-   CINEINSTA DATA
-   ========================================================= */
+/* ============================================================
+   CINEINSTA V2
+   Dynamic content comes from:
 
-const IMG = {
+   data/feed.json
 
-  paradise:
-    'https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg',
-
-  raaka:
-    'https://www.thehawk.in/_next/image?q=75&url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F7f32f4cf-7d94-4023-82ad-0bd5dcfb3295%2F202604083739252-65fece00-a4e4-48da-980d-5190c98247ad.jpg&w=3840',
-
-  secret:
-    'https://upload.wikimedia.org/wikipedia/commons/d/d5/Secret_Soldier_theatrical_poster.jpg',
-
-  nizhal:
-    'https://mir-s3-cdn-cf.behance.net/project_modules/1400/18a55c124931809.610e76bf79209.jpg'
-
-};
+   DO NOT put API keys here.
+============================================================ */
 
 
-/* MOVIES */
+/* ================= FALLBACK IMAGE ================= */
 
-const movies = [
+const FALLBACK_IMG =
+'data:image/svg+xml;charset=UTF-8,' +
+encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="500"
+     viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#171717"/>
+  <circle cx="400" cy="220" r="70"
+          fill="#e50914"
+          opacity=".85"/>
+  <text x="400"
+        y="330"
+        text-anchor="middle"
+        fill="#fff"
+        font-family="Arial"
+        font-size="42"
+        font-weight="700">
+        CINEINSTA
+  </text>
+</svg>
+`);
+
+
+/* ================= DATA ================= */
+
+let news = [];
+let reviews = [];
+
+let movies = [
 
   {
-    t:'The Paradise',
-    l:'Telugu',
-    d:'24 Sep 2026',
-    img:IMG.paradise
+    title:"The Paradise",
+    language:"Telugu",
+    image:"https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg"
   },
 
   {
-    t:'Raaka',
-    l:'Telugu',
-    d:'Upcoming',
-    img:IMG.raaka
+    title:"Raaka",
+    language:"Telugu",
+    image:"https://www.thehawk.in/_next/image?q=75&url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F7f32f4cf-7d94-4023-82ad-0bd5dcfb3295%2F202604083739252-65fece00-a4e4-48da-980d-5190c98247ad.jpg&w=3840"
   },
 
   {
-    t:'Secret Soldier',
-    l:'Telugu',
-    d:'18 Sep 2026',
-    img:IMG.secret
+    title:"Secret Soldier",
+    language:"Telugu",
+    image:"https://upload.wikimedia.org/wikipedia/commons/d/d5/Secret_Soldier_theatrical_poster.jpg"
   },
 
   {
-    t:'Nizhal',
-    l:'Malayalam',
-    d:'Malayalam cinema',
-    img:IMG.nizhal
+    title:"Nizhal",
+    language:"Malayalam",
+    image:"https://mir-s3-cdn-cf.behance.net/project_modules/1400/18a55c124931809.610e76bf79209.jpg"
   },
 
   {
-    t:'The Paradise',
-    l:'Tamil',
-    d:'24 Sep 2026',
-    img:IMG.paradise
+    title:"Upcoming Cinema",
+    language:"Tamil",
+    image:FALLBACK_IMG
   },
 
   {
-    t:'Raaka',
-    l:'Hindi',
-    d:'Pan-India',
-    img:IMG.raaka
-  },
-
-  {
-    t:'Secret Soldier',
-    l:'Telugu',
-    d:'18 Sep 2026',
-    img:IMG.secret
-  },
-
-  {
-    t:'Nizhal',
-    l:'Malayalam',
-    d:'Cinema pick',
-    img:IMG.nizhal
+    title:"New Release",
+    language:"Hindi",
+    image:FALLBACK_IMG
   }
 
 ];
 
 
-/* TRAILERS */
-
-const trailers = [
+let trailers = [
 
   {
-    t:'The Paradise — Official Teaser',
-    l:'Telugu',
-    d:'Official video',
-    img:IMG.paradise,
-    u:'https://www.youtube.com/watch?v=Y3xewv1ZnHc'
+    title:"The Paradise",
+    language:"Telugu",
+    image:"https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg"
   },
 
   {
-    t:'Raaka — First Look',
-    l:'Telugu',
-    d:'Official first look',
-    img:IMG.raaka,
-    u:'https://www.youtube.com/results?search_query=Raaka+Allu+Arjun+official+teaser'
+    title:"Raaka",
+    language:"Telugu",
+    image:"https://www.thehawk.in/_next/image?q=75&url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F7f32f4cf-7d94-4023-82ad-0bd5dcfb3295%2F202604083739252-65fece00-a4e4-48da-980d-5190c98247ad.jpg&w=3840"
   },
 
   {
-    t:'Secret Soldier — Official Trailer',
-    l:'Telugu',
-    d:'Official trailer',
-    img:IMG.secret,
-    u:'https://www.youtube.com/results?search_query=Secret+Soldier+official+trailer+Telugu'
-  },
-
-  {
-    t:'Dhoomakethu — Official Trailer',
-    l:'Malayalam',
-    d:'Official trailer search',
-    img:IMG.nizhal,
-    u:'https://www.youtube.com/results?search_query=Dhoomakethu+official+trailer'
-  },
-
-  {
-    t:'Thaainilam — Official Trailer',
-    l:'Tamil',
-    d:'Official trailer search',
-    img:IMG.raaka,
-    u:'https://www.youtube.com/results?search_query=Thaainilam+official+trailer'
+    title:"Latest Cinema Trailer",
+    language:"Indian Cinema",
+    image:FALLBACK_IMG
   }
 
 ];
 
 
-/* FALLBACK REVIEWS */
+/* ================= IMAGE HELPER ================= */
 
-let reviews = [
+function imgTag(src, alt){
 
-  {
-    t:'Secret Soldier',
-    l:'Telugu',
-    rating:'2.5/5',
-    img:IMG.secret,
-    source:'FilmiBeat + other coverage',
-    u:'https://www.filmibeat.com/telugu/movies/secret-soldier.html'
-  },
-
-  {
-    t:'The Paradise',
-    l:'Telugu',
-    rating:'Coming soon',
-    img:IMG.paradise,
-    source:'Multiple sources',
-    u:'https://www.filmibeat.com/telugu/movies/nani-the-paradise/photos.html'
-  },
-
-  {
-    t:'Nizhal',
-    l:'Malayalam',
-    rating:'Review hub',
-    img:IMG.nizhal,
-    source:'Review coverage',
-    u:'https://www.behance.net/gallery/124931809/Nizhal-Malayalam-Movie-(2021)'
-  },
-
-  {
-    t:'Raaka',
-    l:'Telugu',
-    rating:'Buzz / preview',
-    img:IMG.raaka,
-    source:'Film news coverage',
-    u:'https://www.thehawk.in/news/showbiz/allu-arjuns-first-look-of-raaka-with-atlee-unveiled'
-  }
-
-];
-
-
-/* FALLBACK NEWS */
-
-let news = [
-
-  {
-    t:'The Paradise approaches theatrical release',
-    d:'Latest release and promotional updates.',
-    img:IMG.paradise,
-    source:'Times of India',
-    u:'https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/nani-starrer-the-paradise-hiked-in-telangana-ahead-of-september-24-release-special-show-approved-on-september-23-at-rs-500-including-gst/articleshow/134386506.cms'
-  },
-
-  {
-    t:'Raaka first-look buzz',
-    d:'A new look from the upcoming pan-India film.',
-    img:IMG.raaka,
-    source:'The Hawk',
-    u:'https://www.thehawk.in/news/showbiz/allu-arjuns-first-look-of-raaka-with-atlee-unveiled'
-  },
-
-  {
-    t:'Secret Soldier in cinemas',
-    d:'Current Telugu spy-thriller updates and coverage.',
-    img:IMG.secret,
-    source:'FilmiBeat',
-    u:'https://www.filmibeat.com/telugu/movies/secret-soldier.html'
-  },
-
-  {
-    t:'Malayalam cinema spotlight',
-    d:'Explore current Malayalam film conversations.',
-    img:IMG.nizhal,
-    source:'Cinema coverage',
-    u:'https://www.behance.net/gallery/124931809/Nizhal-Malayalam-Movie-(2021)'
-  }
-
-];
-
-
-/* TRIVIA */
-
-const trivia = [
-
-  {
-    e:'DID YOU KNOW?',
-    t:'The interval is a storytelling tool',
-    p:'Many Indian commercial films build a major turning point before the interval to create a strong hook for the second half.'
-  },
-
-  {
-    e:'BEHIND THE SCENES',
-    t:'One film can have many versions',
-    p:'Multilingual releases can adapt dialogue, songs, titles and promotional material for different audiences.'
-  },
-
-  {
-    e:'GUESS THE MOVIE',
-    t:'Three clues. One answer.',
-    p:'Cineinsta can turn this into a daily interactive quiz that reveals the answer after a tap.'
-  },
-
-  {
-    e:'TRAILER DETECTIVE',
-    t:'Watch the background',
-    p:'Posters, props, signs and small visual details in trailers can contain clues about a film.'
-  },
-
-  {
-    e:'CINEMA CURIOSITY',
-    t:'Movie posters tell stories',
-    p:'A good poster can establish genre, mood, characters and the visual identity of a film before release.'
-  },
-
-  {
-    e:'TRIVIA OF THE DAY',
-    t:'A reason to return',
-    p:'This area can rotate daily and later become shareable trivia cards for Instagram and WhatsApp.'
-  }
-
-];
-
-
-/* =========================================================
-   CARD BUILDERS
-   ========================================================= */
-
-function movieCard(x){
+  const safeSrc = src || FALLBACK_IMG;
 
   return `
-    <article class="card">
-
-      <div class="poster">
-        <img
-          src="${x.img}"
-          alt="${x.t} poster"
-          loading="lazy"
-        >
-      </div>
-
-      <div class="info">
-
-        <div class="title">
-          ${x.t}
-        </div>
-
-        <div class="meta">
-          ${x.l} • ${x.d}
-        </div>
-
-      </div>
-
-    </article>
+    <img
+      src="${safeSrc}"
+      alt="${escapeHtml(alt || 'Cineinsta')}"
+      loading="lazy"
+      onerror="this.onerror=null;this.src=FALLBACK_IMG;"
+    >
   `;
-}
-
-
-function trailerCard(x){
-
-  return `
-    <article class="card">
-
-      <div class="poster">
-        <img
-          src="${x.img}"
-          alt="${x.t}"
-          loading="lazy"
-        >
-      </div>
-
-      <div class="info">
-
-        <div class="title">
-          ${x.t}
-        </div>
-
-        <div class="meta">
-          ${x.l} • ${x.d}
-        </div>
-
-        <a
-          class="play"
-          href="${x.u}"
-          target="_blank"
-          rel="noopener"
-        >
-          ▶ Play Trailer
-        </a>
-
-      </div>
-
-    </article>
-  `;
-}
-
-
-function reviewCard(x){
-
-  return `
-    <article class="wide">
-
-      <div class="thumb">
-        <img
-          src="${x.img}"
-          alt="${x.t}"
-          loading="lazy"
-        >
-      </div>
-
-      <div>
-
-        <span class="tag">
-          ⭐ REVIEW • ${x.l || ''}
-        </span>
-
-        <h3>
-          ${x.t}
-        </h3>
-
-        <p>
-          ${x.rating || ''} · ${x.source || ''}
-        </p>
-
-        ${
-          x.u
-          ?
-          `<a
-             class="play"
-             href="${x.u}"
-             target="_blank"
-             rel="noopener"
-           >
-             Read source ↗
-           </a>`
-          :
-          ''
-        }
-
-      </div>
-
-    </article>
-  `;
-}
-
-
-function newsCard(x){
-
-  return `
-    <article class="wide">
-
-      <div class="thumb">
-        <img
-          src="${x.img}"
-          alt="${x.t}"
-          loading="lazy"
-        >
-      </div>
-
-      <div>
-
-        <span class="tag">
-          📰 FILM NEWS
-        </span>
-
-        <h3>
-          ${x.t}
-        </h3>
-
-        <p>
-          ${x.d || x.summary || ''}
-        </p>
-
-        <div class="source">
-          Source: ${x.source || ''}
-        </div>
-
-        ${
-          x.u
-          ?
-          `<a
-             class="play"
-             href="${x.u}"
-             target="_blank"
-             rel="noopener"
-           >
-             Read source ↗
-           </a>`
-          :
-          ''
-        }
-
-      </div>
-
-    </article>
-  `;
-}
-
-
-function triviaCard(x){
-
-  return `
-    <article class="trivia">
-
-      <span class="eyebrow">
-        ${x.e}
-      </span>
-
-      <h3>
-        ${x.t}
-      </h3>
-
-      <p>
-        ${x.p}
-      </p>
-
-    </article>
-  `;
-}
-
-
-/* =========================================================
-   FILTERS
-   ========================================================= */
-
-function filters(id, render){
-
-  const langs = [
-    'All',
-    'Telugu',
-    'Tamil',
-    'Malayalam',
-    'Kannada',
-    'Hindi'
-  ];
-
-  const el = document.getElementById(id);
-
-  el.innerHTML = langs.map(
-    (l,i) => `
-      <button
-        class="filter ${i===0?'active':''}"
-        data-lang="${l}"
-      >
-        ${l}
-      </button>
-    `
-  ).join('');
-
-  el.onclick = function(e){
-
-    const b = e.target.closest('.filter');
-
-    if(!b) return;
-
-    el.querySelectorAll('.filter')
-      .forEach(x => x.classList.remove('active'));
-
-    b.classList.add('active');
-
-    render(b.dataset.lang);
-
-  };
 
 }
 
 
-/* =========================================================
-   RENDER FUNCTIONS
-   ========================================================= */
+/* ================= HTML ESCAPE ================= */
 
-function renderMovies(lang='All'){
+function escapeHtml(value){
 
-  const a =
-    lang === 'All'
-    ? movies
-    : movies.filter(x => x.l === lang);
-
-  document.getElementById('movieGrid').innerHTML =
-    a.map(movieCard).join('');
-}
-
-
-function renderTrailers(lang='All'){
-
-  const a =
-    lang === 'All'
-    ? trailers
-    : trailers.filter(x => x.l === lang);
-
-  document.getElementById('trailerGrid').innerHTML =
-    a.map(trailerCard).join('');
-}
-
-
-function renderReviews(lang='All'){
-
-  const a =
-    lang === 'All'
-    ? reviews
-    : reviews.filter(x => x.l === lang);
-
-  document.getElementById('reviewList').innerHTML =
-    a.map(reviewCard).join('');
-}
-
-
-function renderNews(){
-
-  document.getElementById('newsList').innerHTML =
-    news.map(newsCard).join('');
+  return String(value || "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
 
 }
 
 
-/* =========================================================
-   LOAD AUTOMATED FEED
-   ========================================================= */
+/* ================= LOAD FEED ================= */
 
 async function loadFeed(){
+
+  const status =
+    document.getElementById("feedStatus");
 
   try{
 
     const response =
       await fetch(
-        'data/feed.json?v=' + Date.now(),
+        "data/feed.json?v=" + Date.now(),
         {
-          cache:'no-store'
+          cache:"no-store"
         }
       );
 
     if(!response.ok){
-      throw new Error('Feed unavailable');
+      throw new Error("Feed unavailable");
     }
 
     const feed =
       await response.json();
 
-    if(Array.isArray(feed.news)){
-      news = feed.news;
-    }
+    news =
+      Array.isArray(feed.news)
+        ? feed.news
+        : [];
 
-    if(Array.isArray(feed.reviews)){
-      reviews = feed.reviews;
-    }
+    reviews =
+      Array.isArray(feed.reviews)
+        ? feed.reviews
+        : [];
 
-    const updated =
+    status.textContent =
       feed.updatedAt
-      ? `Feed updated: ${feed.updatedAt}`
-      : 'Live feed connected';
-
-    document.getElementById('feedStatus').textContent =
-      updated;
-
-    document.getElementById('newsFeedStatus').textContent =
-      updated;
-
-    console.log(
-      'Cineinsta feed loaded:',
-      feed.updatedAt
-    );
+        ? "Updated " + formatDate(feed.updatedAt)
+        : "Latest updates";
 
   }catch(error){
 
-    console.log(
-      'Cineinsta feed unavailable. Using fallback content.',
+    console.warn(
+      "Cineinsta feed error:",
       error
     );
 
-    document.getElementById('feedStatus').textContent =
-      'Showing latest available Cineinsta content.';
+    /*
+      Fallback content so the site never
+      appears completely empty.
+    */
 
-    document.getElementById('newsFeedStatus').textContent =
-      'Showing latest available Cineinsta content.';
+    news = [
+
+      {
+        t:"The Paradise",
+        d:"Latest release and promotional updates.",
+        img:"https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg",
+        source:"Cineinsta",
+        u:"#"
+      },
+
+      {
+        t:"Raaka",
+        d:"Latest updates from the upcoming film.",
+        img:FALLBACK_IMG,
+        source:"Cineinsta",
+        u:"#"
+      }
+
+    ];
+
+    reviews = [
+
+      {
+        t:"Secret Soldier",
+        l:"Telugu",
+        rating:"2.5/5",
+        img:"https://upload.wikimedia.org/wikipedia/commons/d/d5/Secret_Soldier_theatrical_poster.jpg",
+        source:"FilmiBeat",
+        u:"#"
+      }
+
+    ];
+
+    status.textContent =
+      "Showing latest available feed";
 
   }
+
+  renderEverything();
 
 }
 
 
-/* =========================================================
-   ROUTING
-   ========================================================= */
+/* ================= DATE ================= */
 
-function route(name){
+function formatDate(date){
 
-  if(!name){
-    name='home';
+  const d =
+    new Date(date);
+
+  if(Number.isNaN(d.getTime())){
+    return date;
   }
 
-  document
-    .querySelectorAll('.page')
-    .forEach(x => x.classList.remove('active'));
+  return d.toLocaleDateString(
+    "en-IN",
+    {
+      day:"numeric",
+      month:"short",
+      year:"numeric"
+    }
+  );
 
-  const page =
-    document.getElementById('page-'+name)
-    ||
-    document.getElementById('page-home');
+}
 
-  page.classList.add('active');
 
-  document
-    .querySelectorAll('.bottom a')
-    .forEach(a =>
-      a.classList.toggle(
-        'active',
-        a.dataset.route === name
-      )
+/* ================= HERO CAROUSEL ================= */
+
+function renderCarousel(){
+
+  const container =
+    document.getElementById(
+      "heroCarousel"
     );
 
-  window.scrollTo(0,0);
+  if(!news.length){
+
+    container.innerHTML =
+      `<div class="empty">
+        No news available right now.
+      </div>`;
+
+    return;
+
+  }
+
+  container.innerHTML =
+    news.slice(0,6).map((item,index)=>{
+
+      const title =
+        item.t ||
+        item.title ||
+        "Latest Cinema Update";
+
+      const description =
+        item.d ||
+        item.summary ||
+        "Latest Indian cinema update.";
+
+      const image =
+        item.img ||
+        item.image ||
+        FALLBACK_IMG;
+
+      const source =
+        item.source ||
+        "Cineinsta";
+
+      const url =
+        item.u ||
+        item.url ||
+        "#";
+
+      return `
+
+        <a
+          class="carousel-card"
+          href="${url}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          ${imgTag(image,title)}
+
+          <div class="carousel-info">
+
+            <span class="badge">
+              ${escapeHtml(source)}
+            </span>
+
+            <h3>
+              ${escapeHtml(title)}
+            </h3>
+
+            <p>
+              ${escapeHtml(description)}
+            </p>
+
+          </div>
+
+        </a>
+
+      `;
+
+    }).join("");
 
 }
 
 
-/* =========================================================
-   SEARCH
-   ========================================================= */
+/* ================= NEWS ================= */
 
-function setupSearch(){
+function renderNews(){
 
-  const box =
-    document.getElementById('searchBox');
+  const container =
+    document.getElementById(
+      "newsGrid"
+    );
 
-  box.addEventListener(
-    'input',
-    function(e){
+  if(!news.length){
 
-      const q =
-        e.target.value
-        .toLowerCase()
-        .trim();
+    container.innerHTML =
+      `<div class="empty">
+        No news available.
+      </div>`;
 
-      const all = [
+    return;
 
-        ...movies.map(x => ({
-          ...x,
-          type:'Movie'
-        })),
+  }
 
-        ...trailers.map(x => ({
-          ...x,
-          type:'Trailer'
-        })),
+  container.innerHTML =
+    news.map(item=>{
 
-        ...reviews.map(x => ({
-          ...x,
-          type:'Review'
-        })),
+      const title =
+        item.t ||
+        item.title ||
+        "Cinema News";
 
-        ...news.map(x => ({
-          ...x,
-          type:'News'
-        }))
+      const description =
+        item.d ||
+        item.summary ||
+        "Latest cinema update.";
 
-      ];
+      const image =
+        item.img ||
+        item.image ||
+        FALLBACK_IMG;
 
-      const out =
-        q
-        ?
-        all.filter(
-          x =>
-            `${x.t} ${x.l || ''} ${x.d || ''}`
-              .toLowerCase()
-              .includes(q)
-        )
-        :
-        [];
+      const source =
+        item.source ||
+        "Cineinsta";
 
-      document.getElementById('searchResults').innerHTML =
-        out.length
+      const url =
+        item.u ||
+        item.url ||
+        "#";
 
-        ?
+      const language =
+        item.l ||
+        item.language ||
+        "Indian Cinema";
 
-        out.map(x => `
+      return `
 
-          <article class="wide">
+        <article class="news-card">
 
-            <div class="thumb">
+          <div class="news-image">
 
-              <img
-                src="${x.img}"
-                alt="${x.t}"
-              >
+            ${imgTag(image,title)}
+
+          </div>
+
+          <div class="news-body">
+
+            <div class="news-meta">
+
+              <span>
+                ${escapeHtml(language)}
+              </span>
+
+              <span>
+                ${escapeHtml(source)}
+              </span>
 
             </div>
 
-            <div>
+            <h3>
+              ${escapeHtml(title)}
+            </h3>
 
-              <span class="tag">
-                ${x.type}
-              </span>
+            <p>
+              ${escapeHtml(description)}
+            </p>
+
+            <a
+              class="read-more"
+              href="${url}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read story →
+            </a>
+
+          </div>
+
+        </article>
+
+      `;
+
+    }).join("");
+
+}
+
+
+/* ================= REVIEWS ================= */
+
+function renderReviews(){
+
+  const container =
+    document.getElementById(
+      "reviewList"
+    );
+
+  if(!reviews.length){
+
+    container.innerHTML =
+      `<div class="empty">
+        No reviews available.
+      </div>`;
+
+    return;
+
+  }
+
+  container.innerHTML =
+    reviews.map(item=>{
+
+      const title =
+        item.t ||
+        item.title ||
+        "Untitled";
+
+      const language =
+        item.l ||
+        item.language ||
+        "Indian Cinema";
+
+      const rating =
+        item.rating ||
+        item.score ||
+        item.aggregateScore ||
+        "—";
+
+      const image =
+        item.img ||
+        item.image ||
+        FALLBACK_IMG;
+
+      const source =
+        item.source ||
+        "Multiple sources";
+
+      const url =
+        item.u ||
+        item.url ||
+        "#";
+
+      const summary =
+        item.summary ||
+        item.d ||
+        "Review coverage from cinema publications.";
+
+      let sourceHtml = "";
+
+      if(Array.isArray(item.sources)){
+
+        sourceHtml =
+          item.sources
+            .map(sourceItem=>{
+
+              const name =
+                sourceItem.name ||
+                sourceItem.source ||
+                "Source";
+
+              const sourceUrl =
+                sourceItem.url ||
+                "#";
+
+              return `
+                <a
+                  class="source-pill"
+                  href="${sourceUrl}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ${escapeHtml(name)}
+                </a>
+              `;
+
+            })
+            .join("");
+
+      }else{
+
+        sourceHtml =
+          `
+          <a
+            class="source-pill"
+            href="${url}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ${escapeHtml(source)}
+          </a>
+          `;
+
+      }
+
+      return `
+
+        <article class="review-card">
+
+          <div class="review-poster">
+
+            ${imgTag(image,title)}
+
+          </div>
+
+          <div class="review-info">
+
+            <h3>
+              ${escapeHtml(title)}
+            </h3>
+
+            <div class="review-language">
+              ${escapeHtml(language)}
+            </div>
+
+            <p>
+              ${escapeHtml(summary)}
+            </p>
+
+            <div class="sources">
+              ${sourceHtml}
+            </div>
+
+          </div>
+
+          <div class="score">
+
+            <div>
+              ${escapeHtml(rating)}
+
+              <small>
+                SCORE
+              </small>
+            </div>
+
+          </div>
+
+        </article>
+
+      `;
+
+    }).join("");
+
+}
+
+
+/* ================= MOVIES ================= */
+
+function renderMovies(language="All"){
+
+  const container =
+    document.getElementById(
+      "movieGrid"
+    );
+
+  let filtered =
+    language === "All"
+      ? movies
+      : movies.filter(
+          movie =>
+            movie.language === language
+        );
+
+  if(!filtered.length){
+
+    container.innerHTML =
+      `<div class="empty">
+        No movies found.
+      </div>`;
+
+    return;
+
+  }
+
+  container.innerHTML =
+    filtered.map(movie=>{
+
+      return `
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+
+            ${imgTag(
+              movie.image,
+              movie.title
+            )}
+
+          </div>
+
+          <div class="movie-info">
+
+            <h3>
+              ${escapeHtml(movie.title)}
+            </h3>
+
+            <p>
+              ${escapeHtml(movie.language)}
+            </p>
+
+          </div>
+
+        </article>
+
+      `;
+
+    }).join("");
+
+}
+
+
+/* ================= TRAILERS ================= */
+
+function renderTrailers(){
+
+  const container =
+    document.getElementById(
+      "trailerGrid"
+    );
+
+  container.innerHTML =
+    trailers.map(item=>{
+
+      return `
+
+        <article class="trailer-card">
+
+          ${imgTag(
+            item.image,
+            item.title
+          )}
+
+          <div class="play">
+            ▶
+          </div>
+
+          <div class="trailer-info">
+
+            <h3>
+              ${escapeHtml(item.title)}
+            </h3>
+
+            <p>
+              ${escapeHtml(item.language)}
+            </p>
+
+          </div>
+
+        </article>
+
+      `;
+
+    }).join("");
+
+}
+
+
+/* ================= MOVIE FILTER ================= */
+
+function filterMovies(
+  language,
+  button
+){
+
+  document
+    .querySelectorAll(".filter")
+    .forEach(btn =>
+      btn.classList.remove("active")
+    );
+
+  button.classList.add("active");
+
+  renderMovies(language);
+
+}
+
+
+/* ================= SEARCH ================= */
+
+function performSearch(){
+
+  const input =
+    document.getElementById(
+      "searchInput"
+    );
+
+  const query =
+    input.value
+      .trim()
+      .toLowerCase();
+
+  const searchSection =
+    document.getElementById(
+      "searchSection"
+    );
+
+  const results =
+    document.getElementById(
+      "searchResults"
+    );
+
+  if(!query){
+
+    searchSection.classList.remove(
+      "visible"
+    );
+
+    return;
+
+  }
+
+  searchSection.classList.add(
+    "visible"
+  );
+
+  const newsResults =
+    news
+      .filter(item=>{
+
+        const text =
+          [
+            item.t,
+            item.title,
+            item.d,
+            item.summary,
+            item.source,
+            item.l,
+            item.language
+          ]
+          .join(" ")
+          .toLowerCase();
+
+        return text.includes(query);
+
+      })
+      .map(item=>({
+
+        type:"News",
+
+        title:
+          item.t ||
+          item.title,
+
+        description:
+          item.d ||
+          item.summary,
+
+        image:
+          item.img ||
+          item.image,
+
+        url:
+          item.u ||
+          item.url
+
+      }));
+
+
+  const reviewResults =
+    reviews
+      .filter(item=>{
+
+        const text =
+          [
+            item.t,
+            item.title,
+            item.l,
+            item.language,
+            item.source
+          ]
+          .join(" ")
+          .toLowerCase();
+
+        return text.includes(query);
+
+      })
+      .map(item=>({
+
+        type:"Review",
+
+        title:
+          item.t ||
+          item.title,
+
+        description:
+          item.l ||
+          item.language,
+
+        image:
+          item.img ||
+          item.image,
+
+        url:
+          item.u ||
+          item.url
+
+      }));
+
+
+  const movieResults =
+    movies
+      .filter(item=>{
+
+        return [
+          item.title,
+          item.language
+        ]
+        .join(" ")
+        .toLowerCase()
+        .includes(query);
+
+      })
+      .map(item=>({
+
+        type:"Movie",
+
+        title:item.title,
+
+        description:item.language,
+
+        image:item.image,
+
+        url:"#"
+
+      }));
+
+
+  const allResults =
+    [
+      ...newsResults,
+      ...reviewResults,
+      ...movieResults
+    ];
+
+
+  if(!allResults.length){
+
+    results.innerHTML =
+      `<div class="empty">
+        No results found for
+        <strong>${escapeHtml(query)}</strong>.
+      </div>`;
+
+    return;
+
+  }
+
+
+  results.innerHTML =
+    allResults
+      .slice(0,20)
+      .map(item=>{
+
+        return `
+
+          <article class="news-card">
+
+            <div class="news-image">
+
+              ${imgTag(
+                item.image,
+                item.title
+              )}
+
+            </div>
+
+            <div class="news-body">
+
+              <div class="news-meta">
+
+                <span>
+                  ${escapeHtml(item.type)}
+                </span>
+
+              </div>
 
               <h3>
-                ${x.t}
+                ${escapeHtml(item.title)}
               </h3>
 
               <p>
-                ${x.l || x.source || ''}
+                ${escapeHtml(
+                  item.description ||
+                  ""
+                )}
               </p>
+
+              ${
+                item.url &&
+                item.url !== "#"
+                ?
+                `
+                <a
+                  class="read-more"
+                  href="${item.url}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open →
+                </a>
+                `
+                :
+                ""
+              }
 
             </div>
 
           </article>
 
-        `).join('')
+        `;
 
-        :
+      })
+      .join("");
 
-        `<div class="empty">
-          Type a movie or language to search.
-        </div>`;
 
+  searchSection.scrollIntoView({
+    behavior:"smooth"
+  });
+
+}
+
+
+/* ================= MOBILE SEARCH ================= */
+
+function toggleMobileSearch(){
+
+  const search =
+    document.querySelector(
+      ".search-box"
+    );
+
+  const input =
+    document.getElementById(
+      "searchInput"
+    );
+
+  if(
+    window.innerWidth <= 800
+  ){
+
+    search.style.display =
+      search.style.display === "flex"
+        ? "none"
+        : "flex";
+
+    if(
+      search.style.display === "flex"
+    ){
+      input.focus();
     }
 
-  );
+  }else{
 
-}
-
-
-/* =========================================================
-   INITIALISE WEBSITE
-   ========================================================= */
-
-async function setup(){
-
-  /*
-    Load the external feed FIRST.
-    This means future GitHub automation can
-    update News and Reviews without changing
-    index.html.
-  */
-
-  await loadFeed();
-
-
-  document.getElementById('homeTrailers').innerHTML =
-    trailers
-      .slice(0,4)
-      .map(trailerCard)
-      .join('');
-
-
-  document.getElementById('homeReviews').innerHTML =
-    reviews
-      .slice(0,4)
-      .map(reviewCard)
-      .join('');
-
-
-  document.getElementById('homeNews').innerHTML =
-    news
-      .slice(0,4)
-      .map(newsCard)
-      .join('');
-
-
-  document.getElementById('homeTrivia').innerHTML =
-    trivia
-      .slice(0,3)
-      .map(triviaCard)
-      .join('');
-
-
-  document.getElementById('triviaGrid').innerHTML =
-    trivia
-      .map(triviaCard)
-      .join('');
-
-
-  filters(
-    'movieFilters',
-    renderMovies
-  );
-
-
-  filters(
-    'trailerFilters',
-    renderTrailers
-  );
-
-
-  filters(
-    'reviewFilters',
-    renderReviews
-  );
-
-
-  renderMovies();
-  renderTrailers();
-  renderReviews();
-  renderNews();
-
-}
-
-
-/* =========================================================
-   CAROUSEL
-   ========================================================= */
-
-let ci = 0;
-
-const slides =
-  [...document.querySelectorAll('.slide')];
-
-const dots =
-  [...document.querySelectorAll('.dot')];
-
-const captions = [
-
-  'The Paradise — Release Update',
-  'Raaka — First Look Buzz',
-  'Secret Soldier — Latest',
-  'Malayalam Cinema Spotlight'
-
-];
-
-
-function show(i){
-
-  ci =
-    (i + slides.length)
-    % slides.length;
-
-  slides.forEach(
-    (s,n) =>
-      s.classList.toggle(
-        'active',
-        n === ci
-      )
-  );
-
-  dots.forEach(
-    (d,n) =>
-      d.classList.toggle(
-        'active',
-        n === ci
-      )
-  );
-
-  document.getElementById('caption')
-    .textContent =
-    captions[ci];
-
-}
-
-
-document.getElementById('prev').onclick =
-  () => show(ci-1);
-
-document.getElementById('next').onclick =
-  () => show(ci+1);
-
-
-setInterval(
-  () => show(ci+1),
-  5000
-);
-
-
-/* =========================================================
-   NAVIGATION
-   ========================================================= */
-
-document.addEventListener(
-  'click',
-  function(e){
-
-    const a =
-      e.target.closest('[data-route]');
-
-    if(!a) return;
-
-    e.preventDefault();
-
-    const r =
-      a.dataset.route;
-
-    location.hash = r;
-
-    route(r);
+    input.focus();
 
   }
-);
+
+}
 
 
-window.addEventListener(
-  'hashchange',
-  () =>
-    route(
-      location.hash.slice(1)
-    )
-);
+/* ================= NAVIGATION ================= */
+
+function scrollToSection(id){
+
+  const element =
+    document.getElementById(id);
+
+  if(!element) return;
+
+  element.scrollIntoView({
+    behavior:"smooth"
+  });
+
+}
 
 
-/* =========================================================
-   START
-   ========================================================= */
+function showHome(){
 
-setup();
+  window.scrollTo({
+    top:0,
+    behavior:"smooth"
+  });
 
-setupSearch();
+}
 
-route(
-  location.hash.slice(1)
-  || 'home'
+
+/* ================= HERO ================= */
+
+function updateHero(){
+
+  if(!news.length) return;
+
+  const first =
+    news[0];
+
+  const image =
+    first.img ||
+    first.image ||
+    FALLBACK_IMG;
+
+  document.getElementById(
+    "heroBg"
+  ).style.backgroundImage =
+    `url("${image}")`;
+
+}
+
+
+/* ================= COUNTERS ================= */
+
+function updateStats(){
+
+  document.getElementById(
+    "movieCount"
+  ).textContent =
+    reviews.length;
+
+  document.getElementById(
+    "newsCount"
+  ).textContent =
+    news.length;
+
+}
+
+
+/* ================= RENDER ALL ================= */
+
+function renderEverything(){
+
+  renderCarousel();
+
+  renderNews();
+
+  renderReviews();
+
+  renderMovies();
+
+  renderTrailers();
+
+  updateHero();
+
+  updateStats();
+
+}
+
+
+/* ================= INITIAL LOAD ================= */
+
+loadFeed();
+
+
+/* ================= AUTO REFRESH ================= */
+
+/*
+  Refresh the feed every 30 minutes.
+
+  This does NOT generate content.
+  It simply picks up a newer feed.json
+  when your automated GitHub workflow
+  updates it.
+*/
+
+setInterval(
+  loadFeed,
+  30 * 60 * 1000
 );
 
 </script>
