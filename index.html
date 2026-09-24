@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080808">
+<title>Cineinsta — Indian Cinema. One Place.</title>
+<style>
+:root{--bg:#070707;--panel:#111;--panel2:#171717;--red:#f21f2f;--text:#f7f7f7;--muted:#999;--line:#292929;--gold:#ffd45a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}a{text-decoration:none;color:inherit}button,input{font:inherit}.wrap{max-width:1100px;margin:auto;padding:0 14px}
+header{position:sticky;top:0;z-index:50;background:rgba(7,7,7,.96);backdrop-filter:blur(12px);border-bottom:1px solid #202020}.nav{height:62px;display:flex;align-items:center;gap:10px}.brand{display:flex;align-items:center;gap:8px;font-weight:900;font-size:20px}.logo{width:36px;height:36px;border-radius:50%;background:#111;border:1px solid #333;display:grid;place-items:center;color:var(--red);font-size:20px}.brand b{color:var(--red)}.searchLink{margin-left:auto;background:#151515;border:1px solid var(--line);border-radius:22px;padding:9px 12px;color:#bbb;font-size:12px}.menu{font-size:23px;padding:5px}
+main{padding-bottom:90px}.page{display:none}.page.active{display:block}.hero{padding:16px 0}.heroCard{min-height:350px;border:1px solid #292929;border-radius:22px;overflow:hidden;position:relative;background:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.55) 55%,rgba(0,0,0,.12)),url('https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg') center/cover}.heroText{position:absolute;left:20px;bottom:22px;max-width:600px}.eyebrow{font-size:10px;letter-spacing:1.7px;color:#ff6872;font-weight:800;text-transform:uppercase}.hero h1{font-size:37px;line-height:1.03;margin:10px 0}.hero h1 span{color:var(--red)}.hero p{color:#ccc;line-height:1.45;font-size:13px}.btn{display:inline-block;padding:11px 14px;border-radius:10px;background:var(--red);font-weight:800;font-size:12px;margin:4px 5px 0 0}.btn.alt{background:#242424}
+.section{padding:12px 0}.sectionHead{display:flex;align-items:center;justify-content:space-between;margin:7px 0 12px}.section h2{font-size:20px;margin:0}.see{font-size:11px;color:#ff6570;font-weight:800}.chips{display:flex;gap:7px;overflow:auto;padding-bottom:4px}.chip{border:1px solid #303030;background:#121212;border-radius:20px;padding:8px 13px;color:#ccc;white-space:nowrap}.chip.active{background:var(--red);border-color:var(--red);color:#fff}
+.carousel{position:relative;border-radius:20px;overflow:hidden;border:1px solid #292929;background:#111}.slide{display:none;aspect-ratio:16/8.8}.slide.active{display:block}.slide img{width:100%;height:100%;object-fit:cover;display:block}.carouselBtn{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:rgba(0,0,0,.5);color:#fff;font-size:25px}.prev{left:10px}.next{right:10px}.dots{display:flex;justify-content:center;gap:6px;margin:8px 0}.dot{width:7px;height:7px;border-radius:50%;background:#444}.dot.active{width:18px;border-radius:5px;background:var(--red)}.carouselMeta{display:flex;justify-content:space-between;font-size:11px;color:#aaa;padding:0 2px}.carouselMeta strong{color:#fff}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.card{background:var(--panel);border:1px solid #252525;border-radius:14px;overflow:hidden}.poster{height:235px}.poster img{width:100%;height:100%;object-fit:cover;display:block}.info{padding:10px}.title{font-weight:800;font-size:14px}.meta{color:#999;font-size:10px;margin-top:5px}.rating{color:var(--gold);font-size:11px;margin-top:6px}.play{display:inline-block;margin-top:8px;border:1px solid #3b3b3b;background:#181818;border-radius:9px;padding:7px 9px;font-size:10px}.list{display:grid;gap:10px}.wide{display:grid;grid-template-columns:92px 1fr;gap:11px;background:var(--panel);border:1px solid #252525;border-radius:14px;padding:9px}.thumb{height:110px;border-radius:9px;overflow:hidden;background:#222}.thumb img{width:100%;height:100%;object-fit:cover;display:block}.tag{font-size:9px;color:#ff6872;border:1px solid #55262c;border-radius:12px;padding:3px 6px;display:inline-block}.wide h3{font-size:14px;margin:6px 0 4px}.wide p{font-size:11px;color:#aaa;line-height:1.4;margin:0}.source{font-size:9px;color:#777;margin-top:6px}.filterbar{display:flex;gap:7px;overflow:auto;margin:10px 0 14px}.filter{white-space:nowrap;border:1px solid #303030;background:#121212;color:#bbb;border-radius:18px;padding:8px 11px}.filter.active{background:var(--red);border-color:var(--red);color:#fff}.pageTitle{font-size:29px;margin:18px 0 4px}.pageSub{font-size:12px;color:#999;line-height:1.45;margin:0}.triviaGrid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:15px}.trivia{padding:17px;border-radius:15px;background:linear-gradient(145deg,#181818,#0f0f0f);border:1px solid #33282a}.trivia h3{margin:7px 0;font-size:16px}.trivia p{color:#bbb;font-size:12px;line-height:1.5;margin:0}.bottom{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(9,9,9,.98);border-top:1px solid #252525;display:grid;grid-template-columns:repeat(5,1fr);padding:7px 2px calc(7px + env(safe-area-inset-bottom))}.bottom a{text-align:center;color:#888;font-size:9px}.bottom span{display:block;font-size:17px;margin-bottom:2px}.bottom a.active{color:#fff}.bottom a.active span{color:var(--red)}.searchBox{width:100%;padding:12px;border-radius:12px;background:#111;border:1px solid #303030;color:#fff;outline:none;margin:12px 0}.empty{padding:28px;text-align:center;color:#888;border:1px dashed #333;border-radius:14px}
+@media(min-width:700px){.grid{grid-template-columns:repeat(5,1fr)}.poster{height:310px}.triviaGrid{grid-template-columns:repeat(3,1fr)}.bottom{display:none}.heroCard{min-height:430px}.hero h1{font-size:52px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#home" data-route="home"><span class="logo">◉</span><span>CINE<b>INSTA</b></span></a><a class="searchLink" href="#search" data-route="search">⌕ Search</a><a class="menu" href="#menu" data-route="menu">☰</a></div></header>
+<main class="wrap">
+<section class="page active" id="page-home">
+  <div class="section" style="padding-top:14px">
+    <div class="carousel" id="newsCarousel">
+      <div class="slide active"><a href="https://www.thehawk.in/news/showbiz/allu-arjuns-first-look-of-raaka-with-atlee-unveiled" target="_blank" rel="noopener"><img src="https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg" alt="Latest Indian film news"></a></div>
+      <div class="slide"><a href="https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/nani-starrer-the-paradise-hiked-in-telangana-ahead-of-september-24-release-special-show-approved-on-september-23-at-rs-500-including-gst/articleshow/134386506.cms" target="_blank" rel="noopener"><img src="https://www.thehawk.in/_next/image?q=75&url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F7f32f4cf-7d94-4023-82ad-0bd5dcfb3295%2F202604083739252-65fece00-a4e4-48da-980d-5190c98247ad.jpg&w=3840" alt="Raaka film news"></a></div>
+      <div class="slide"><a href="https://www.filmibeat.com/telugu/movies/secret-soldier.html" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Secret_Soldier_theatrical_poster.jpg" alt="Secret Soldier film news"></a></div>
+      <div class="slide"><a href="https://www.freepressjournal.in/regional-film-news" target="_blank" rel="noopener"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/18a55c124931809.610e76bf79209.jpg" alt="Malayalam cinema news"></a></div>
+      <button class="carouselBtn prev" id="prev" aria-label="Previous">‹</button><button class="carouselBtn next" id="next" aria-label="Next">›</button>
+    </div>
+    <div class="dots" id="dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+    <div class="carouselMeta"><strong id="caption">Latest film news</strong><span>Auto • 5 sec</span></div>
+  </div>
+  <div class="hero"><div class="heroCard"><div class="heroText"><div class="eyebrow">Indian Cinema. One Place.</div><h1>Everything cinema,<br><span>in one place.</span></h1><p>Movies, trailers, reviews and cinema news across Telugu, Tamil, Malayalam, Kannada and Hindi.</p><a class="btn" href="#movies" data-route="movies">Explore Movies</a><a class="btn alt" href="#trailers" data-route="trailers">Watch Trailers</a></div></div></div>
+  <div class="section"><div class="sectionHead"><h2>Explore by language</h2></div><div class="chips"><a class="chip active" href="#movies" data-route="movies">Telugu</a><a class="chip" href="#movies" data-route="movies">Tamil</a><a class="chip" href="#movies" data-route="movies">Malayalam</a><a class="chip" href="#movies" data-route="movies">Kannada</a><a class="chip" href="#movies" data-route="movies">Hindi</a></div></div>
+  <div class="section"><div class="sectionHead"><h2>▶ Latest trailers</h2><a class="see" href="#trailers" data-route="trailers">View all</a></div><div class="grid" id="homeTrailers"></div></div>
+  <div class="section"><div class="sectionHead"><h2>⭐ Latest reviews</h2><a class="see" href="#reviews" data-route="reviews">View all</a></div><div class="grid" id="homeReviews"></div></div>
+  <div class="section"><div class="sectionHead"><h2>📰 Latest film news</h2><a class="see" href="#news" data-route="news">View all</a></div><div class="grid" id="homeNews"></div></div>
+  <div class="section"><div class="sectionHead"><h2>💡 Trivia</h2><a class="see" href="#trivia" data-route="trivia">View all</a></div><div class="triviaGrid" id="homeTrivia"></div></div>
+</section>
+<section class="page" id="page-movies"><h1 class="pageTitle">Movies</h1><p class="pageSub">Indian films across five major languages.</p><div class="filterbar" id="movieFilters"></div><div class="grid" id="movieGrid"></div></section>
+<section class="page" id="page-trailers"><h1 class="pageTitle">Trailers</h1><p class="pageSub">Latest trailers and teasers. Tap Play Trailer to open the official video.</p><div class="filterbar" id="trailerFilters"></div><div class="grid" id="trailerGrid"></div></section>
+<section class="page" id="page-reviews"><h1 class="pageTitle">Reviews</h1><p class="pageSub">Cineinsta aggregates ratings and links to multiple original review sources.</p><div class="filterbar" id="reviewFilters"></div><div class="list" id="reviewList"></div></section>
+<section class="page" id="page-news"><h1 class="pageTitle">Film News</h1><p class="pageSub">News cards with source attribution and links to the original publisher.</p><div class="list" id="newsList"></div></section>
+<section class="page" id="page-trivia"><h1 class="pageTitle">Trivia</h1><p class="pageSub">Cinema facts, behind-the-scenes curiosities and Guess the Movie.</p><div class="triviaGrid" id="triviaGrid"></div></section>
+<section class="page" id="page-search"><h1 class="pageTitle">Search</h1><p class="pageSub">Find movies, trailers and reviews.</p><input class="searchBox" id="searchBox" placeholder="Search a movie or language…"><div class="list" id="searchResults"></div></section>
+<section class="page" id="page-menu"><h1 class="pageTitle">More</h1><div class="list"><a class="wide" href="#movies" data-route="movies"><div class="thumb"><span>🎬</span></div><div><h3>Movies</h3><p>Browse Indian films.</p></div></a><a class="wide" href="#trivia" data-route="trivia"><div class="thumb"><span>💡</span></div><div><h3>Trivia</h3><p>Daily cinema facts and quizzes.</p></div></a></div></section>
+</main>
+<nav class="bottom"><a href="#home" data-route="home"><span>⌂</span>Home</a><a href="#movies" data-route="movies"><span>🎬</span>Movies</a><a href="#trailers" data-route="trailers"><span>▶</span>Trailers</a><a href="#reviews" data-route="reviews"><span>★</span>Reviews</a><a href="#trivia" data-route="trivia"><span>💡</span>Trivia</a></nav>
+<script>
+const IMG={
+ paradise:'https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg',
+ raaka:'https://www.thehawk.in/_next/image?q=75&url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F7f32f4cf-7d94-4023-82ad-0bd5dcfb3295%2F202604083739252-65fece00-a4e4-48da-980d-5190c98247ad.jpg&w=3840',
+ secret:'https://upload.wikimedia.org/wikipedia/commons/d/d5/Secret_Soldier_theatrical_poster.jpg',
+ nizhal:'https://mir-s3-cdn-cf.behance.net/project_modules/1400/18a55c124931809.610e76bf79209.jpg'
+};
+const movies=[
+ {t:'The Paradise',l:'Telugu',d:'24 Sep 2026',img:IMG.paradise},
+ {t:'Raaka',l:'Telugu',d:'Upcoming',img:IMG.raaka},
+ {t:'Secret Soldier',l:'Telugu',d:'18 Sep 2026',img:IMG.secret},
+ {t:'Nizhal',l:'Malayalam',d:'Malayalam cinema',img:IMG.nizhal},
+ {t:'The Paradise',l:'Tamil',d:'24 Sep 2026',img:IMG.paradise},
+ {t:'Raaka',l:'Hindi',d:'Pan-India',img:IMG.raaka},
+ {t:'Secret Soldier',l:'Telugu',d:'18 Sep 2026',img:IMG.secret},
+ {t:'Nizhal',l:'Malayalam',d:'Cinema pick',img:IMG.nizhal}
+];
+const trailers=[
+ {t:'The Paradise — Official Teaser',l:'Telugu',d:'Official video',img:IMG.paradise,u:'https://www.youtube.com/watch?v=Y3xewv1ZnHc'},
+ {t:'Raaka — First Look',l:'Telugu',d:'Official first look',img:IMG.raaka,u:'https://www.youtube.com/results?search_query=Raaka+Allu+Arjun+official+teaser'},
+ {t:'Secret Soldier — Official Trailer',l:'Telugu',d:'Official trailer',img:IMG.secret,u:'https://www.youtube.com/results?search_query=Secret+Soldier+official+trailer+Telugu'},
+ {t:'Dhoomakethu — Official Trailer',l:'Malayalam',d:'Official trailer search',img:IMG.nizhal,u:'https://www.youtube.com/results?search_query=Dhoomakethu+official+trailer'},
+ {t:'Thaainilam — Official Trailer',l:'Tamil',d:'Official trailer search',img:IMG.raaka,u:'https://www.youtube.com/results?search_query=Thaainilam+official+trailer'}
+];
+const reviews=[
+ {t:'Secret Soldier',l:'Telugu',rating:'2.5/5',img:IMG.secret,source:'FilmiBeat + other coverage',u:'https://www.filmibeat.com/telugu/movies/secret-soldier.html'},
+ {t:'The Paradise',l:'Telugu',rating:'Coming soon',img:IMG.paradise,source:'Multiple sources',u:'https://www.filmibeat.com/telugu/movies/nani-the-paradise/photos.html'},
+ {t:'Nizhal',l:'Malayalam',rating:'Review hub',img:IMG.nizhal,source:'Review coverage',u:'https://www.behance.net/gallery/124931809/Nizhal-Malayalam-Movie-(2021)'},
+ {t:'Raaka',l:'Telugu',rating:'Buzz / preview',img:IMG.raaka,source:'Film news coverage',u:'https://www.thehawk.in/news/showbiz/allu-arjuns-first-look-of-raaka-with-atlee-unveiled'}
+];
+const news=[
+ {t:'The Paradise approaches theatrical release',d:'Latest release and promotional updates.',img:IMG.paradise,source:'Times of India',u:'https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/nani-starrer-the-paradise-hiked-in-telangana-ahead-of-september-24-release-special-show-approved-on-september-23-at-rs-500-including-gst/articleshow/134386506.cms'},
+ {t:'Raaka first-look buzz',d:'A new look from the upcoming pan-India film.',img:IMG.raaka,source:'The Hawk',u:'https://www.thehawk.in/news/showbiz/allu-arjuns-first-look-of-raaka-with-atlee-unveiled'},
+ {t:'Secret Soldier in cinemas',d:'Current Telugu spy-thriller updates and coverage.',img:IMG.secret,source:'FilmiBeat',u:'https://www.filmibeat.com/telugu/movies/secret-soldier.html'},
+ {t:'Malayalam cinema spotlight',d:'Explore current Malayalam film conversations.',img:IMG.nizhal,source:'Cinema coverage',u:'https://www.behance.net/gallery/124931809/Nizhal-Malayalam-Movie-(2021)'}
+];
+const trivia=[
+ {e:'DID YOU KNOW?',t:'The interval is a storytelling tool',p:'Many Indian commercial films build a major turning point before the interval to create a strong hook for the second half.'},
+ {e:'BEHIND THE SCENES',t:'One film can have many versions',p:'Multilingual releases can adapt dialogue, songs, titles and promotional material for different audiences.'},
+ {e:'GUESS THE MOVIE',t:'Three clues. One answer.',p:'Cineinsta can turn this into a daily interactive quiz that reveals the answer after a tap.'},
+ {e:'TRAILER DETECTIVE',t:'Watch the background',p:'Posters, props, signs and small visual details in trailers can contain clues about a film.'},
+ {e:'CINEMA CURIOSITY',t:'Movie posters tell stories',p:'A good poster can establish genre, mood, characters and the visual identity of a film before release.'},
+ {e:'TRIVIA OF THE DAY',t:'A reason to return',p:'This area can rotate daily and later become shareable trivia cards for Instagram and WhatsApp.'}
+];
+function movieCard(x){return `<article class="card"><div class="poster"><img src="${x.img}" alt="${x.t} poster" loading="lazy"></div><div class="info"><div class="title">${x.t}</div><div class="meta">${x.l} • ${x.d}</div></div></article>`}
+function trailerCard(x){return `<article class="card"><div class="poster"><img src="${x.img}" alt="${x.t}" loading="lazy"></div><div class="info"><div class="title">${x.t}</div><div class="meta">${x.l} • ${x.d}</div><a class="play" href="${x.u}" target="_blank" rel="noopener">▶ Play Trailer</a></div></article>`}
+function reviewCard(x){return `<article class="wide"><div class="thumb"><img src="${x.img}" alt="${x.t}" loading="lazy"></div><div><span class="tag">⭐ REVIEW • ${x.l}</span><h3>${x.t}</h3><p>${x.rating} · ${x.source}</p><a class="play" href="${x.u}" target="_blank" rel="noopener">Read source ↗</a></div></article>`}
+function newsCard(x){return `<article class="wide"><div class="thumb"><img src="${x.img}" alt="${x.t}" loading="lazy"></div><div><span class="tag">📰 FILM NEWS</span><h3>${x.t}</h3><p>${x.d}</p><div class="source">Source: ${x.source}</div><a class="play" href="${x.u}" target="_blank" rel="noopener">Read source ↗</a></div></article>`}
+function triviaCard(x){return `<article class="trivia"><span class="eyebrow">${x.e}</span><h3>${x.t}</h3><p>${x.p}</p></article>`}
+function filters(id,items,render){const langs=['All','Telugu','Tamil','Malayalam','Kannada','Hindi'];const el=document.getElementById(id);el.innerHTML=langs.map((l,i)=>`<button class="filter ${i===0?'active':''}" data-lang="${l}">${l}</button>`).join('');el.onclick=e=>{const b=e.target.closest('.filter');if(!b)return;el.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');render(b.dataset.lang)}}
+function renderMovies(lang='All'){const a=lang==='All'?movies:movies.filter(x=>x.l===lang);document.getElementById('movieGrid').innerHTML=a.map(movieCard).join('')}
+function renderTrailers(lang='All'){const a=lang==='All'?trailers:trailers.filter(x=>x.l===lang);document.getElementById('trailerGrid').innerHTML=a.map(trailerCard).join('')}
+function renderReviews(lang='All'){const a=lang==='All'?reviews:reviews.filter(x=>x.l===lang);document.getElementById('reviewList').innerHTML=a.map(reviewCard).join('')}
+function renderNews(){document.getElementById('newsList').innerHTML=news.map(newsCard).join('')}
+function route(name){if(!name||name==='menu')name=name==='menu'?'menu':'home';document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));const p=document.getElementById('page-'+name)||document.getElementById('page-home');p.classList.add('active');document.querySelectorAll('.bottom a').forEach(a=>a.classList.toggle('active',a.dataset.route===name));window.scrollTo(0,0)}
+function setup(){document.getElementById('homeTrailers').innerHTML=trailers.slice(0,4).map(trailerCard).join('');document.getElementById('homeReviews').innerHTML=reviews.slice(0,4).map(reviewCard).join('');document.getElementById('homeNews').innerHTML=news.map(newsCard).join('');document.getElementById('homeTrivia').innerHTML=trivia.slice(0,3).map(triviaCard).join('');document.getElementById('triviaGrid').innerHTML=trivia.map(triviaCard).join('');filters('movieFilters',movies,renderMovies);filters('trailerFilters',trailers,renderTrailers);filters('reviewFilters',reviews,renderReviews);renderMovies();renderTrailers();renderReviews();renderNews();}
+let ci=0;const slides=[...document.querySelectorAll('.slide')],dots=[...document.querySelectorAll('.dot')],captions=['The Paradise — Release Update','Raaka — First Look Buzz','Secret Soldier — Latest','Malayalam Cinema Spotlight'];function show(i){ci=(i+slides.length)%slides.length;slides.forEach((s,n)=>s.classList.toggle('active',n===ci));dots.forEach((d,n)=>d.classList.toggle('active',n===ci));document.getElementById('caption').textContent=captions[ci]};document.getElementById('prev').onclick=()=>show(ci-1);document.getElementById('next').onclick=()=>show(ci+1);setInterval(()=>show(ci+1),5000);
+document.addEventListener('click',e=>{const a=e.target.closest('[data-route]');if(a){e.preventDefault();const r=a.dataset.route;location.hash=r;route(r)}});window.addEventListener('hashchange',()=>route(location.hash.slice(1)));document.getElementById('searchBox').addEventListener('input',e=>{const q=e.target.value.toLowerCase().trim();const all=[...movies.map(x=>({...x,type:'Movie'})),...trailers.map(x=>({...x,type:'Trailer'})),...reviews.map(x=>({...x,type:'Review'}))];const out=q?all.filter(x=>`${x.t} ${x.l}`.toLowerCase().includes(q)):[];document.getElementById('searchResults').innerHTML=out.length?out.map(x=>`<article class="wide"><div class="thumb"><img src="${x.img}" alt="${x.t}"></div><div><span class="tag">${x.type}</span><h3>${x.t}</h3><p>${x.l}</p></div></article>`).join(''):'<div class="empty">Type a movie or language to search.</div>'});setup();route(location.hash.slice(1)||'home');
+</script>
+</body>
+</html>
