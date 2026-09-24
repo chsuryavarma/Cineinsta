@@ -1,0 +1,48 @@
+name: Update Cineinsta Feed
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Cineinsta
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install rss-parser openai
+
+      - name: Update cinema feed
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          node scripts/update-feed.mjs
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "Cineinsta Feed Bot"
+          git config user.email "cineinsta-bot@users.noreply.github.com"
+
+          git add data/feed.json
+
+          git diff --cached --quiet || \
+            git commit -m "Update Cineinsta cinema feed"
+
+          git push
