@@ -1,0 +1,67 @@
+{
+  "updatedAt": "2026-09-24",
+  "news": [
+    {
+      "t": "The Paradise approaches theatrical release",
+      "d": "Latest release and promotional updates.",
+      "img": "https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg",
+      "source": "Times of India",
+      "u": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/nani-starrer-the-paradise-hiked-in-telangana-ahead-of-september-24-release-special-show-approved-on-september-23-at-rs-500-including-gst/articleshow/134386506.cms"
+    },
+    {
+      "t": "Raaka first-look buzz",
+      "d": "A new look from the upcoming pan-India film.",
+      "img": "https://www.thehawk.in/_next/image?q=75&url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F7f32f4cf-7d94-4023-82ad-0bd5dcfb3295%2F202604083739252-65fece00-a4e4-48da-980d-5190c98247ad.jpg&w=3840",
+      "source": "The Hawk",
+      "u": "https://www.thehawk.in/news/showbiz/allu-arjuns-first-look-of-raaka-with-atlee-unveiled"
+    },
+    {
+      "t": "Secret Soldier in cinemas",
+      "d": "Current Telugu spy-thriller updates and coverage.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Secret_Soldier_theatrical_poster.jpg",
+      "source": "FilmiBeat",
+      "u": "https://www.filmibeat.com/telugu/movies/secret-soldier.html"
+    },
+    {
+      "t": "Malayalam cinema spotlight",
+      "d": "Explore current Malayalam film conversations.",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/18a55c124931809.610e76bf79209.jpg",
+      "source": "Cinema coverage",
+      "u": "https://www.behance.net/gallery/124931809/Nizhal-Malayalam-Movie-(2021)"
+    }
+  ],
+  "reviews": [
+    {
+      "t": "Secret Soldier",
+      "l": "Telugu",
+      "rating": "2.5/5",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Secret_Soldier_theatrical_poster.jpg",
+      "source": "FilmiBeat + other coverage",
+      "u": "https://www.filmibeat.com/telugu/movies/secret-soldier.html"
+    },
+    {
+      "t": "The Paradise",
+      "l": "Telugu",
+      "rating": "Coming soon",
+      "img": "https://images.filmibeat.com/ph-big/2026/09/the-paradise1789645190_1.jpg",
+      "source": "Multiple sources",
+      "u": "https://www.filmibeat.com/telugu/movies/nani-the-paradise/photos.html"
+    },
+    {
+      "t": "Nizhal",
+      "l": "Malayalam",
+      "rating": "Review hub",
+      "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/18a55c124931809.610e76bf79209.jpg",
+      "source": "Review coverage",
+      "u": "https://www.behance.net/gallery/124931809/Nizhal-Malayalam-Movie-(2021)"
+    },
+    {
+      "t": "Raaka",
+      "l": "Telugu",
+      "rating": "Buzz / preview",
+      "img": "https://www.thehawk.in/_next/image?q=75&url=https%3A%2F%2Fd2py10ayqu2jji.cloudfront.net%2F7f32f4cf-7d94-4023-82ad-0bd5dcfb3295%2F202604083739252-65fece00-a4e4-48da-980d-5190c98247ad.jpg&w=3840",
+      "source": "Film news coverage",
+      "u": "https://www.thehawk.in/news/showbiz/allu-arjuns-first-look-of-raaka-with-atlee-unveiled"
+    }
+  ]
+}
