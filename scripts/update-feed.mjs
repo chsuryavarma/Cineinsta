@@ -45,8 +45,30 @@ function cleanText(text = "") {
     .replace(/<[^>]*>/g, " ")
     .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function cleanHeadline(title = "") {
+  let value = cleanText(title);
+
+  const parts = value.split(" - ");
+
+  if (parts.length > 1) {
+    const last = parts[parts.length - 1].trim();
+
+    if (
+      last.length > 1 &&
+      last.length < 80 &&
+      !/[.!?]$/.test(last)
+    ) {
+      value = parts.slice(0, -1).join(" - ").trim();
+    }
+  }
+
+  return value;
 }
 
 function normalizeUrl(url = "") {
@@ -76,55 +98,52 @@ function stripTracking(url = "") {
   }
 }
 
-async function getImage(url) {
+function getPublisher(item, cleanedTitle) {
+  const source = item.source || {};
 
-  if (!url) return "";
-
-  try {
-
-    const response = await fetch(url, {
-      headers: {
-        "User-Agent": "Mozilla/5.0 CineinstaBot/1.0"
-      }
-    });
-
-    if (!response.ok) return "";
-
-    const html = await response.text();
-
-    const patterns = [
-      /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
-      /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
-      /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i,
-      /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i
-    ];
-
-    for (const pattern of patterns) {
-
-      const match = html.match(pattern);
-
-      if (match && match[1]) {
-        return match[1]
-          .replace(/&amp;/g, "&")
-          .trim();
-      }
-    }
-
-  } catch (error) {
-    console.log("Image lookup failed:", url);
+  if (typeof source === "string" && source.trim()) {
+    return cleanText(source);
   }
 
-  return "";
-}
-
-function detectLanguage(title, description, requestedLanguage) {
-
-  const text =
-    `${title} ${description}`.toLowerCase();
+  const sourceName =
+    source.name ||
+    source.title ||
+    "";
 
   if (
-    requestedLanguage !== "Indian"
+    sourceName &&
+    !/google news/i.test(sourceName)
   ) {
+    return cleanText(sourceName);
+  }
+
+  const parts =
+    cleanText(item.title || "").split(" - ");
+
+  if (parts.length > 1) {
+    const candidate =
+      parts[parts.length - 1].trim();
+
+    if (
+      candidate &&
+      candidate !== cleanedTitle
+    ) {
+      return candidate;
+    }
+  }
+
+  return "Source";
+}
+
+function detectLanguage(
+  title,
+  description,
+  requestedLanguage
+) {
+  const text =
+    (title + " " + description).toLowerCase();
+
+  if (requestedLanguage !== "Indian") {
     return requestedLanguage;
   }
 
@@ -167,7 +186,6 @@ function detectLanguage(title, description, requestedLanguage) {
 }
 
 function makeId(title) {
-
   return title
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
@@ -175,44 +193,136 @@ function makeId(title) {
     .slice(0, 80);
 }
 
-async function rewriteStory(item) {
+async function fetchArticle(url) {
+  if (!url) {
+    return {
+      html: "",
+      finalUrl: ""
+    };
+  }
 
   try {
+    const response =
+      await fetch(url, {
+        redirect: "follow",
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 CineinstaBot/1.0"
+        }
+      });
 
+    if (!response.ok) {
+      return {
+        html: "",
+        finalUrl: response.url || url
+      };
+    }
+
+    return {
+      html: await response.text(),
+      finalUrl:
+        response.url || url
+    };
+  } catch {
+    return {
+      html: "",
+      finalUrl: url
+    };
+  }
+}
+
+function extractImage(html = "") {
+  const patterns = [
+    /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
+    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i
+  ];
+
+  for (const pattern of patterns) {
+    const match =
+      html.match(pattern);
+
+    if (match && match[1]) {
+      return match[1]
+        .replace(/&amp;/g, "&")
+        .trim();
+    }
+  }
+
+  return "";
+}
+
+function hostname(url = "") {
+  try {
+    return new URL(url)
+      .hostname
+      .replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
+async function rewriteStory(item) {
+  try {
     const response =
       await openai.responses.create({
-
         model: "gpt-5.6-luna",
 
         input: [
           {
             role: "system",
+
             content:
-              `You are the editorial assistant for Cineinsta,
-an Indian cinema news platform.
+              `You are the senior entertainment editor for Cineinsta, an Indian cinema news platform.
 
-Rewrite the supplied cinema news item into original,
-concise Cineinsta copy.
+Create original, concise Cineinsta editorial copy from the supplied news metadata.
 
-Do not copy article sentences.
-Do not invent facts.
-Do not exaggerate.
-Do not give opinions unless the source explicitly reports
-an opinion and it is clearly attributed.
+Rules:
+- Do not copy sentences from the source.
+- Do not invent facts.
+- Do not invent names, dates, ratings, quotes or events.
+- Do not exaggerate.
+- Keep the tone factual, polished and entertainment-focused.
+- Create a clean headline.
+- NEVER include the publisher name in the headline.
+- Summary must be 1-2 useful sentences.
+- Reject irrelevant stories.
 
-Return JSON only with:
+Relevant stories include:
+Indian films,
+Indian film actors,
+Indian directors,
+trailers,
+teasers,
+movie releases,
+movie reviews,
+OTT film releases,
+Indian cinema business.
+
+Reject:
+Hollywood,
+non-Indian movies,
+TV-only stories,
+sports,
+politics,
+music unrelated to films,
+unrelated international entertainment.
+
+Return JSON only:
+
 {
+  "relevant": true,
   "title": "...",
   "summary": "...",
   "category": "News|Review|Trailer|OTT|Release|Celebrity",
   "language": "Telugu|Tamil|Malayalam|Kannada|Hindi|Indian"
-}
-
-Title should be short and engaging.
-Summary should be 1-2 sentences.`
+}`
           },
+
           {
             role: "user",
+
             content:
               JSON.stringify({
                 title: item.title,
@@ -224,13 +334,60 @@ Summary should be 1-2 sentences.`
         ]
       });
 
-    const text =
-      response.output_text || "";
-
     const parsed =
-      JSON.parse(text);
+      JSON.parse(
+        response.output_text || "{}"
+      );
 
-    return parsed;
+    if (
+      !parsed ||
+      parsed.relevant !== true
+    ) {
+      return null;
+    }
+
+    if (
+      !parsed.title ||
+      !parsed.summary
+    ) {
+      return null;
+    }
+
+    return {
+      title:
+        cleanHeadline(
+          parsed.title
+        ).slice(0, 140),
+
+      summary:
+        cleanText(
+          parsed.summary
+        ).slice(0, 420),
+
+      category:
+        [
+          "News",
+          "Review",
+          "Trailer",
+          "OTT",
+          "Release",
+          "Celebrity"
+        ].includes(parsed.category)
+          ? parsed.category
+          : "News",
+
+      language:
+        [
+          "Telugu",
+          "Tamil",
+          "Malayalam",
+          "Kannada",
+          "Hindi",
+          "Indian"
+        ].includes(parsed.language)
+          ? parsed.language
+          : item.language
+    };
 
   } catch (error) {
 
@@ -240,12 +397,22 @@ Summary should be 1-2 sentences.`
     );
 
     return {
-      title: item.title,
+      title:
+        cleanHeadline(
+          item.title
+        ),
+
       summary:
-        item.description ||
+        cleanText(
+          item.description
+        ) ||
         "Latest Indian cinema update.",
-      category: "News",
-      language: item.language
+
+      category:
+        "News",
+
+      language:
+        item.language
     };
   }
 }
@@ -254,9 +421,16 @@ async function collectStories() {
 
   const stories = [];
 
-  for (const [language, query] of queries) {
+  for (
+    const [language, query]
+    of queries
+  ) {
 
-    console.log(`Fetching: ${language} / ${query}`);
+    console.log(
+      "Fetching:",
+      language,
+      query
+    );
 
     try {
 
@@ -266,19 +440,16 @@ async function collectStories() {
         );
 
       for (
-        const item of (feed.items || []).slice(0, 8)
+        const item of
+        (feed.items || []).slice(0, 8)
       ) {
 
         const title =
-          cleanText(item.title || "");
+          cleanHeadline(
+            item.title || ""
+          );
 
         if (!title) continue;
-
-        const source =
-          item.creator ||
-          item.source?.name ||
-          feed.title ||
-          "News";
 
         const description =
           cleanText(
@@ -303,7 +474,11 @@ async function collectStories() {
 
           description,
 
-          source,
+          source:
+            getPublisher(
+              item,
+              title
+            ),
 
           url,
 
@@ -318,17 +493,16 @@ async function collectStories() {
             item.isoDate ||
             item.pubDate ||
             new Date().toISOString()
-
         });
       }
 
     } catch (error) {
 
       console.log(
-        `RSS failed: ${query}`,
+        "RSS failed:",
+        query,
         error.message
       );
-
     }
   }
 
@@ -337,34 +511,47 @@ async function collectStories() {
 
 function deduplicate(stories) {
 
-  const seen = new Set();
+  const seen =
+    new Set();
 
-  return stories.filter(item => {
+  return stories.filter(
+    item => {
 
-    const key =
-      item.title
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, " ")
-        .trim();
+      const key =
+        item.title
+          .toLowerCase()
+          .replace(
+            /[^a-z0-9]+/g,
+            " "
+          )
+          .trim();
 
-    if (seen.has(key)) {
-      return false;
+      if (
+        !key ||
+        seen.has(key)
+      ) {
+        return false;
+      }
+
+      seen.add(key);
+
+      return true;
     }
-
-    seen.add(key);
-
-    return true;
-  });
+  );
 }
 
-async function buildNewsFeed(stories) {
+async function buildNewsFeed(
+  stories
+) {
 
   const limited =
     stories.slice(0, 80);
 
   const results = [];
 
-  for (const item of limited) {
+  for (
+    const item of limited
+  ) {
 
     console.log(
       "Processing:",
@@ -372,92 +559,163 @@ async function buildNewsFeed(stories) {
     );
 
     const rewritten =
-      await rewriteStory(item);
+      await rewriteStory(
+        item
+      );
+
+    if (!rewritten) {
+
+      console.log(
+        "Rejected:",
+        item.title
+      );
+
+      continue;
+    }
+
+    const article =
+      await fetchArticle(
+        item.url
+      );
+
+    const finalUrl =
+      article.finalUrl &&
+      !/news\.google\.com/i.test(
+        article.finalUrl
+      )
+        ? stripTracking(
+            article.finalUrl
+          )
+        : item.url;
 
     const image =
-      await getImage(item.url);
+      extractImage(
+        article.html
+      );
+
+    let source =
+      item.source;
+
+    if (
+      !source ||
+      /google news/i.test(
+        source
+      ) ||
+      source === "Source"
+    ) {
+
+      source =
+        hostname(
+          finalUrl
+        ) ||
+        "Source";
+    }
 
     results.push({
 
       id:
         makeId(
-          rewritten.title ||
-          item.title
+          rewritten.title
         ),
 
       t:
-        rewritten.title ||
-        item.title,
+        rewritten.title,
 
       d:
-        rewritten.summary ||
-        item.description,
+        rewritten.summary,
 
       l:
-        rewritten.language ||
-        item.language,
+        rewritten.language,
 
       category:
-        rewritten.category ||
-        "News",
+        rewritten.category,
 
       img:
         image,
 
       imageSource:
         image
-          ? item.url
+          ? finalUrl
           : "",
 
-      source:
-        item.source,
+      source,
 
       u:
-        item.url,
+        finalUrl,
 
       publishedAt:
         item.publishedAt
-
     });
   }
 
   return results;
 }
 
-function buildReviews(news) {
+function buildReviews(
+  news
+) {
 
   return news
-    .filter(item =>
-      item.category === "Review"
+    .filter(
+      item =>
+        item.category ===
+        "Review"
     )
     .slice(0, 20)
-    .map(item => ({
+    .map(
+      item => ({
 
-      id: item.id,
+        id:
+          item.id,
 
-      t: item.t,
+        t:
+          item.t,
 
-      l: item.l,
+        l:
+          item.l,
 
-      rating: "Review",
+        rating:
+          "Review",
 
-      img: item.img,
+        img:
+          item.img,
 
-      imageSource:
-        item.imageSource,
+        imageSource:
+          item.imageSource,
 
-      source:
-        item.source,
+        source:
+          item.source,
 
-      u: item.u,
+        u:
+          item.u,
 
-      summary:
-        item.d,
+        summary:
+          item.d,
 
-      publishedAt:
-        item.publishedAt
+        publishedAt:
+          item.publishedAt
+      })
+    );
+}
 
-    }));
+async function readExistingFeed() {
+
+  try {
+
+    const raw =
+      await fs.readFile(
+        FEED_FILE,
+        "utf8"
+      );
+
+    return JSON.parse(
+      raw
+    );
+
+  } catch {
+
+    return null;
+  }
 }
 
 async function main() {
@@ -478,27 +736,60 @@ async function main() {
     await collectStories();
 
   console.log(
-    `Collected ${raw.length} stories`
+    "Collected:",
+    raw.length
   );
 
   const unique =
-    deduplicate(raw);
+    deduplicate(
+      raw
+    );
 
   console.log(
-    `After deduplication: ${unique.length}`
+    "After deduplication:",
+    unique.length
   );
 
   unique.sort(
-    (a,b) =>
-      new Date(b.publishedAt) -
-      new Date(a.publishedAt)
+    (a, b) =>
+      new Date(
+        b.publishedAt
+      ) -
+      new Date(
+        a.publishedAt
+      )
   );
 
   const news =
-    await buildNewsFeed(unique);
+    await buildNewsFeed(
+      unique
+    );
+
+  /*
+   * Safety check:
+   * Never replace a healthy feed
+   * with an almost-empty feed.
+   */
+
+  if (
+    news.length < 12
+  ) {
+
+    throw new Error(
+      "Only " +
+      news.length +
+      " valid stories were produced. " +
+      "Existing feed was protected."
+    );
+  }
 
   const reviews =
-    buildReviews(news);
+    buildReviews(
+      news
+    );
+
+  const previous =
+    await readExistingFeed();
 
   const feed = {
 
@@ -506,8 +797,10 @@ async function main() {
       new Date().toISOString(),
 
     news:
-
-      news.slice(0, 60),
+      news.slice(
+        0,
+        60
+      ),
 
     reviews,
 
@@ -526,10 +819,58 @@ async function main() {
         "Kannada",
         "Hindi"
       ]
-
     }
-
   };
+
+  /*
+   * Keep older stories when
+   * fewer than 60 fresh stories
+   * are available.
+   */
+
+  if (
+    previous &&
+    Array.isArray(
+      previous.news
+    )
+  ) {
+
+    const existingIds =
+      new Set(
+        feed.news.map(
+          item =>
+            item.id
+        )
+      );
+
+    for (
+      const oldItem
+      of previous.news
+    ) {
+
+      if (
+        feed.news.length >= 60
+      ) {
+        break;
+      }
+
+      if (
+        existingIds.has(
+          oldItem.id
+        )
+      ) {
+        continue;
+      }
+
+      feed.news.push(
+        oldItem
+      );
+
+      existingIds.add(
+        oldItem.id
+      );
+    }
+  }
 
   await fs.mkdir(
     "data",
@@ -548,23 +889,30 @@ async function main() {
   );
 
   console.log(
-    `Wrote ${FEED_FILE}`
+    "Wrote:",
+    FEED_FILE
   );
 
   console.log(
-    `News: ${news.length}`
+    "Fresh stories:",
+    news.length
   );
 
   console.log(
-    `Reviews: ${reviews.length}`
+    "Reviews:",
+    reviews.length
   );
-
 }
 
-main().catch(error => {
+main().catch(
+  error => {
 
-  console.error(error);
+    console.error(
+      error
+    );
 
-  process.exit(1);
-
-});
+    process.exit(
+      1
+    );
+  }
+);
