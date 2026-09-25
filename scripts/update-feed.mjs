@@ -308,6 +308,54 @@ const INTERVIEW_BLOCKED_TERMS = [
 ];
 
 
+function xmlDecode(text = "") {
+
+  return decodeEntities(
+    text
+      .replace(/<!\[CDATA\[/gi, "")
+      .replace(/\]\]>/gi, "")
+      .trim()
+  );
+
+}
+
+
+function xmlTag(xml, tag) {
+
+  const escaped =
+    tag.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
+
+  const match =
+    xml.match(
+      new RegExp(
+        "<" +
+          escaped +
+          "[^>]*>([\\s\\S]*?)</" +
+          escaped +
+          ">",
+        "i"
+      )
+    );
+
+  return match?.[1]
+    ? xmlDecode(match[1])
+    : "";
+
+}
+
+
+function extractYoutubeIdFromUrl(url = "") {
+
+  const match =
+    url.match(
+      /(?:v=|youtu\.be\/|youtube\.com\/shorts\/)([A-Za-z0-9_-]{11})/i
+    );
+
+  return match?.[1] || "";
+
+}
+
+
 function isMovieInterview(
   title,
   description = "",
