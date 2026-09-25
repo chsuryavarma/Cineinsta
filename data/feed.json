@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-09-25T10:02:45.924Z",
+  "updatedAt": "2026-09-25T10:18:50.311Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/the-paradise-nizam-collections-all-time-record-for-a-tier-2-hero-prp.html",
+      "title": "The Paradise Nizam collections: All-time record for a tier 2 hero",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు The Paradise Nizam collections: All-time...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/the-paradise-nizam-collections-all-time-record-for-a-tier-2-hero-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-1.webp",
+      "publishedAt": "2026-09-25T10:16:42.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/nani-on-the-paradise-response-learnt-from-the-flaws-that-critics-and-reviewers-have-pointed-out-hk.html",
       "title": "Nani On The Paradise Response: “Learnt From The Flaws That Critics And Reviewers Have Pointed Out”",
@@ -318,17 +329,6 @@
       "url": "https://www.123telugu.com/reviews/nani-the-paradise-telugu-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-2.webp",
       "publishedAt": "2026-09-24T20:33:46.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/the-paradise-day-1-estimates-nani-starrer-off-to-a-mind-blowing-start-prp.html",
-      "title": "The Paradise day 1 estimates: Nani starrer off to a mind-blowing start",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు The Paradise day 1 estimates: Nani starrer...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/the-paradise-day-1-estimates-nani-starrer-off-to-a-mind-blowing-start-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-3-2.webp",
-      "publishedAt": "2026-09-24T19:38:59.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     }
@@ -1298,12 +1298,12 @@
       "t": "Romanchakam",
       "l": "Telugu",
       "releaseDate": "2026-09-03",
-      "rating": "2.33/5",
+      "rating": "2.5/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/romanchakam-movie-review-entertaining-in-parts/",
       "aggregator": {
-        "average": 2.33,
+        "average": 2.5,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1319,8 +1319,8 @@
           },
           {
             "source": "M9.news",
-            "rating": 2,
-            "ratingText": "2/5",
+            "rating": null,
+            "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/romanchakam-movie-review-rating/"
           },
           {
@@ -1363,8 +1363,8 @@
           },
           {
             "source": "M9.news",
-            "rating": 1.75,
-            "ratingText": "1.75/5",
+            "rating": null,
+            "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/toxic-movie-review-rating/"
           },
           {
