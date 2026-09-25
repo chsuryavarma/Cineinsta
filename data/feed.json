@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T10:18:50.311Z",
+  "updatedAt": "2026-09-25T10:30:11.581Z",
   "language": "Telugu",
   "news": [
     {
@@ -1298,12 +1298,12 @@
       "t": "Romanchakam",
       "l": "Telugu",
       "releaseDate": "2026-09-03",
-      "rating": "2.5/5",
+      "rating": "2.33/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/romanchakam-movie-review-entertaining-in-parts/",
       "aggregator": {
-        "average": 2.5,
+        "average": 2.33,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1319,8 +1319,8 @@
           },
           {
             "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
+            "rating": 2,
+            "ratingText": "2/5",
             "url": "https://www.m9.news/reviews/romanchakam-movie-review-rating/"
           },
           {
@@ -1363,8 +1363,8 @@
           },
           {
             "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
+            "rating": 1.75,
+            "ratingText": "1.75/5",
             "url": "https://www.m9.news/reviews/toxic-movie-review-rating/"
           },
           {
