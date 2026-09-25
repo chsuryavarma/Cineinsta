@@ -345,7 +345,7 @@ feed.trailers.forEach(function(item){if((item.title||"").toLowerCase().includes(
 feed.interviews.forEach(function(item){if((item.title||"").toLowerCase().includes(q))results.push("Interview: "+item.title)});
 feed.reviews.forEach(function(item){if((item.t||"").toLowerCase().includes(q))results.push("Review: "+item.t)});
 if(!results.length){alert("No results found.");return}
-alert(results.slice(0,10).join("
+alert(results.slice(0,10).join("\n"));"
 "));
 }
 
