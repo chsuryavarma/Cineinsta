@@ -68,9 +68,9 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <body>
 <header>
 <div class="headerInner">
-<a class="logo" href="#/">CINE<span>INSTA</span></a>
+<a class="logo" href="/">CINE<span>INSTA</span></a>
 <nav class="headerNav">
-<a href="#/">Home</a><a href="#/news">News</a><a href="#/trailers">Trailers</a><a href="#/interviews">Interviews</a><a href="#/reviews">Reviews</a>
+<a href="/">Home</a><a href="/news">News</a><a href="/trailers">Trailers</a><a href="/interviews">Interviews</a><a href="/reviews">Reviews</a>
 </nav>
 <button class="searchBtn" onclick="openSearch()" aria-label="Search">🔍</button>
 </div>
@@ -92,32 +92,32 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <section class="section" id="newsSection">
 <div class="sectionHead"><h2>Latest Film News</h2><span>Telugu</span></div>
 <div class="newsGrid" id="newsGrid"><div class="empty">Loading latest Telugu cinema news...</div></div>
-<a href="#/news" class="moreBtn">View All News</a>
+<a href="/news" class="moreBtn">View All News</a>
 </section>
 
 <section class="section" id="trailersSection">
 <div class="sectionHead"><h2>Latest Trailers</h2><span>Telugu</span></div>
 <div class="trailerGrid" id="trailerGrid"><div class="empty">Loading latest Telugu trailers...</div></div>
-<a href="#/trailers" class="moreBtn">View All Trailers</a>
+<a href="/trailers" class="moreBtn">View All Trailers</a>
 </section>
 
 <section class="section" id="interviewsSection">
 <div class="sectionHead"><h2>Movie Interviews</h2><span>Telugu Cinema</span></div>
 <div class="interviewGrid" id="interviewGrid"><div class="empty">Loading movie interviews...</div></div>
-<a href="#/interviews" class="moreBtn">View All Interviews</a>
+<a href="/interviews" class="moreBtn">View All Interviews</a>
 </section>
 
 <section class="section" id="reviewsSection">
 <div class="sectionHead"><h2>Movie Reviews</h2><span>Release order</span></div>
 <div class="reviewList" id="reviewList"><div class="empty">Loading reviews...</div></div>
-<a href="#/reviews" class="moreBtn">View All Reviews</a>
+<a href="/reviews" class="moreBtn">View All Reviews</a>
 </section>
 </main>
 
 <footer>Cineinsta · Telugu Cinema<br><br>News and reviews link to their original publishers.</footer>
 
 <nav class="mobileNav">
-<a href="#/"><span>⌂</span>Home</a><a href="#/news"><span>▤</span>News</a><a href="#/trailers"><span>▶</span>Trailers</a><a href="#/interviews"><span>◉</span>Interviews</a><a href="#/reviews"><span>★</span>Reviews</a>
+<a href="/"><span>⌂</span>Home</a><a href="/news"><span>▤</span>News</a><a href="/trailers"><span>▶</span>Trailers</a><a href="/interviews"><span>◉</span>Interviews</a><a href="/reviews"><span>★</span>Reviews</a>
 </nav>
 
 <script>
@@ -400,7 +400,7 @@ renderInterviews(feed.interviews,12);
 interviewTitle.textContent="Movie Interviews";
 interviewLabel.textContent="Telugu Cinema";
 interviewButton.textContent="View All Interviews";
-interviewButton.href="#/interviews";
+interviewButton.href="/interviews";
 }
 
 if(route==="interviews"){
@@ -413,7 +413,7 @@ interviewsSection.style.display="";
 interviewTitle.textContent="All Movie Interviews";
 interviewLabel.textContent="Telugu Cinema";
 interviewButton.textContent="← Back to Home";
-interviewButton.href="#/";
+interviewButton.href="/";
 renderInterviews(feed.interviews,50);
 window.scrollTo({top:0,behavior:"smooth"});
 return;
