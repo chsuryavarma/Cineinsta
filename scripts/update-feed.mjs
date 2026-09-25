@@ -1,918 +1,495 @@
-import Parser from "rss-parser";
-import OpenAI from "openai";
-import fs from "fs/promises";
+import fs from "node:fs/promises";
 
-const parser = new Parser({
-  timeout: 20000,
-  headers: {
-    "User-Agent": "Cineinsta News Bot/1.0"
+const SOURCES = [
+  {
+    name: "GreatAndhra",
+    url: "https://www.greatandhra.com/",
+    domain: "greatandhra.com"
+  },
+  {
+    name: "Gulte",
+    url: "https://www.gulte.com/moviereviews",
+    domain: "gulte.com"
+  },
+  {
+    name: "M9.news",
+    url: "https://www.m9.news/",
+    domain: "m9.news"
+  },
+  {
+    name: "Telugu360",
+    url: "https://www.telugu360.com/category/movies/telugu-movies-reviews/",
+    domain: "telugu360.com"
+  },
+  {
+    name: "123telugu",
+    url: "https://www.123telugu.com/category/reviews/",
+    domain: "123telugu.com"
   }
-});
-
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
-});
-
-const FEED_FILE = "data/feed.json";
-
-const queries = [
-  ["Telugu", "Telugu cinema movie news"],
-  ["Telugu", "Tollywood latest movie news"],
-  ["Tamil", "Tamil cinema movie news"],
-  ["Tamil", "Kollywood latest movie news"],
-  ["Malayalam", "Malayalam cinema movie news"],
-  ["Malayalam", "Mollywood latest movie news"],
-  ["Kannada", "Kannada cinema movie news"],
-  ["Kannada", "Sandalwood latest movie news"],
-  ["Hindi", "Hindi cinema Bollywood movie news"],
-  ["Hindi", "Bollywood latest movie news"],
-  ["Indian", "Indian cinema latest movie news"],
-  ["Indian", "Indian movie trailer teaser release news"],
-  ["Indian", "Indian OTT movie news"],
-  ["Indian", "Indian movie reviews"]
 ];
 
-function googleNewsUrl(query) {
-  return (
-    "https://news.google.com/rss/search?q=" +
-    encodeURIComponent(query) +
-    "&hl=en-IN&gl=IN&ceid=IN:en"
-  );
+const USER_AGENT =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
+
+async function fetchHTML(url) {
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": USER_AGENT,
+        "Accept":
+          "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`${response.status} ${response.statusText}`);
+    }
+
+    return await response.text();
+  } catch (error) {
+    console.log(`Failed: ${url}`, error.message);
+    return "";
+  }
 }
 
-function cleanText(text = "") {
-  return text
-    .replace(/<[^>]*>/g, " ")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
+function stripHTML(html) {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&#8217;|&#39;/gi, "'")
+    .replace(/&#8211;/gi, "-")
+    .replace(/&#8220;|&#8221;/gi, '"')
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function cleanHeadline(title = "") {
-  let value = cleanText(title);
-
-  const parts = value.split(" - ");
-
-  if (parts.length > 1) {
-    const last = parts[parts.length - 1].trim();
-
-    if (
-      last.length > 1 &&
-      last.length < 80 &&
-      !/[.!?]$/.test(last)
-    ) {
-      value = parts.slice(0, -1).join(" - ").trim();
-    }
-  }
-
-  return value;
+function decode(text) {
+  return stripHTML(text)
+    .replace(/&quot;/gi, '"')
+    .replace(/&#x27;/gi, "'")
+    .replace(/&#039;/gi, "'")
+    .trim();
 }
 
-function normalizeUrl(url = "") {
+function absoluteUrl(url, base) {
   try {
-    return new URL(url).toString();
+    return new URL(url, base).href;
   } catch {
     return "";
   }
 }
 
-function stripTracking(url = "") {
-  try {
-    const u = new URL(url);
+function cleanMovieTitle(title) {
+  let t = decode(title);
 
-    [
-      "utm_source",
-      "utm_medium",
-      "utm_campaign",
-      "utm_term",
-      "utm_content",
-      "ocid"
-    ].forEach(p => u.searchParams.delete(p));
+  t = t
+    .replace(/^review\s*:\s*/i, "")
+    .replace(/^movie\s*review\s*:\s*/i, "")
+    .replace(/^movie\s*review\s*/i, "")
+    .replace(/^review\s*/i, "")
+    .replace(/^telugu\s*movie\s*review\s*:\s*/i, "")
+    .replace(/^the\s+/i, "The ")
+    .replace(/\s*[|–—-]\s*.*$/i, "")
+    .trim();
 
-    return u.toString();
-  } catch {
-    return url;
-  }
+  return t;
 }
 
-function getPublisher(item, cleanedTitle) {
-  const source = item.source || {};
-
-  if (typeof source === "string" && source.trim()) {
-    return cleanText(source);
-  }
-
-  const sourceName =
-    source.name ||
-    source.title ||
-    "";
-
-  if (
-    sourceName &&
-    !/google news/i.test(sourceName)
-  ) {
-    return cleanText(sourceName);
-  }
-
-  const parts =
-    cleanText(item.title || "").split(" - ");
-
-  if (parts.length > 1) {
-    const candidate =
-      parts[parts.length - 1].trim();
-
-    if (
-      candidate &&
-      candidate !== cleanedTitle
-    ) {
-      return candidate;
-    }
-  }
-
-  return "Source";
-}
-
-function detectLanguage(
-  title,
-  description,
-  requestedLanguage
-) {
-  const text =
-    (title + " " + description).toLowerCase();
-
-  if (requestedLanguage !== "Indian") {
-    return requestedLanguage;
-  }
-
-  if (
-    text.includes("telugu") ||
-    text.includes("tollywood")
-  ) {
-    return "Telugu";
-  }
-
-  if (
-    text.includes("tamil") ||
-    text.includes("kollywood")
-  ) {
-    return "Tamil";
-  }
-
-  if (
-    text.includes("malayalam") ||
-    text.includes("mollywood")
-  ) {
-    return "Malayalam";
-  }
-
-  if (
-    text.includes("kannada") ||
-    text.includes("sandalwood")
-  ) {
-    return "Kannada";
-  }
-
-  if (
-    text.includes("bollywood") ||
-    text.includes("hindi")
-  ) {
-    return "Hindi";
-  }
-
-  return "Indian";
-}
-
-function makeId(title) {
-  return title
+function normalizeTitle(title) {
+  return cleanMovieTitle(title)
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")
-    .slice(0, 80);
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\b(movie|review|rating|telugu|first report)\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-async function fetchArticle(url) {
-  if (!url) {
-    return {
-      html: "",
-      finalUrl: ""
-    };
+function extractLinks(html, baseUrl) {
+  const links = [];
+  const regex =
+    /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+
+  let match;
+
+  while ((match = regex.exec(html))) {
+    const href = absoluteUrl(match[1], baseUrl);
+    const text = decode(match[2]);
+
+    if (!href || !text) continue;
+
+    links.push({
+      url: href,
+      text
+    });
   }
 
-  try {
-    const response =
-      await fetch(url, {
-        redirect: "follow",
-        headers: {
-          "User-Agent":
-            "Mozilla/5.0 CineinstaBot/1.0"
-        }
-      });
+  return links;
+}
 
-    if (!response.ok) {
-      return {
-        html: "",
-        finalUrl: response.url || url
-      };
+function looksLikeReview(title, url) {
+  const value = `${title} ${url}`.toLowerCase();
+
+  return (
+    value.includes("review") ||
+    value.includes("movie-review") ||
+    value.includes("movie_review")
+  );
+}
+
+function extractRating(text, source) {
+  const clean = text.replace(/\s+/g, " ");
+
+  const patterns = {
+    GreatAndhra: [
+      /rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
+      /(\d+(?:\.\d+)?)\s*\/\s*5/i
+    ],
+
+    Gulte: [
+      /(\d+(?:\.\d+)?)\s*\/\s*5/i
+    ],
+
+    "M9.news": [
+      /our\s*rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
+      /rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
+    ],
+
+    Telugu360: [
+      /telugu360\s*rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
+      /rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
+    ],
+
+    "123telugu": [
+      /123telugu(?:\.com)?\s*rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
+      /rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
+    ]
+  };
+
+  const sourcePatterns = patterns[source] || [];
+
+  for (const pattern of sourcePatterns) {
+    const match = clean.match(pattern);
+
+    if (match) {
+      const rating = Number(match[1]);
+
+      if (rating >= 0 && rating <= 5) {
+        return rating;
+      }
     }
-
-    return {
-      html: await response.text(),
-      finalUrl:
-        response.url || url
-    };
-  } catch {
-    return {
-      html: "",
-      finalUrl: url
-    };
   }
+
+  return null;
 }
 
-function extractImage(html = "") {
+function extractImage(html) {
   const patterns = [
     /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
-    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
-    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i,
-    /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i
+    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i
   ];
 
   for (const pattern of patterns) {
-    const match =
-      html.match(pattern);
+    const match = html.match(pattern);
 
     if (match && match[1]) {
-      return match[1]
-        .replace(/&amp;/g, "&")
-        .trim();
+      return match[1];
     }
   }
 
   return "";
 }
 
-function hostname(url = "") {
-  try {
-    return new URL(url)
-      .hostname
-      .replace(/^www\./, "");
-  } catch {
-    return "";
-  }
-}
+function extractDescription(html) {
+  const patterns = [
+    /<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']/i
+  ];
 
-async function rewriteStory(item) {
-  try {
-    const response =
-      await openai.responses.create({
-        model: "gpt-5.6-luna",
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
 
-        input: [
-          {
-            role: "system",
-
-            content:
-              `You are the senior entertainment editor for Cineinsta, an Indian cinema news platform.
-
-Create original, concise Cineinsta editorial copy from the supplied news metadata.
-
-Rules:
-- Do not copy sentences from the source.
-- Do not invent facts.
-- Do not invent names, dates, ratings, quotes or events.
-- Do not exaggerate.
-- Keep the tone factual, polished and entertainment-focused.
-- Create a clean headline.
-- NEVER include the publisher name in the headline.
-- Summary must be 1-2 useful sentences.
-- Reject irrelevant stories.
-
-Relevant stories include:
-Indian films,
-Indian film actors,
-Indian directors,
-trailers,
-teasers,
-movie releases,
-movie reviews,
-OTT film releases,
-Indian cinema business.
-
-Reject:
-Hollywood,
-non-Indian movies,
-TV-only stories,
-sports,
-politics,
-music unrelated to films,
-unrelated international entertainment.
-
-Return JSON only:
-
-{
-  "relevant": true,
-  "title": "...",
-  "summary": "...",
-  "category": "News|Review|Trailer|OTT|Release|Celebrity",
-  "language": "Telugu|Tamil|Malayalam|Kannada|Hindi|Indian"
-}`
-          },
-
-          {
-            role: "user",
-
-            content:
-              JSON.stringify({
-                title: item.title,
-                description: item.description,
-                source: item.source,
-                language: item.language
-              })
-          }
-        ]
-      });
-
-    const parsed =
-      JSON.parse(
-        response.output_text || "{}"
-      );
-
-    if (
-      !parsed ||
-      parsed.relevant !== true
-    ) {
-      return null;
-    }
-
-    if (
-      !parsed.title ||
-      !parsed.summary
-    ) {
-      return null;
-    }
-
-    return {
-      title:
-        cleanHeadline(
-          parsed.title
-        ).slice(0, 140),
-
-      summary:
-        cleanText(
-          parsed.summary
-        ).slice(0, 420),
-
-      category:
-        [
-          "News",
-          "Review",
-          "Trailer",
-          "OTT",
-          "Release",
-          "Celebrity"
-        ].includes(parsed.category)
-          ? parsed.category
-          : "News",
-
-      language:
-        [
-          "Telugu",
-          "Tamil",
-          "Malayalam",
-          "Kannada",
-          "Hindi",
-          "Indian"
-        ].includes(parsed.language)
-          ? parsed.language
-          : item.language
-    };
-
-  } catch (error) {
-
-    console.log(
-      "AI rewrite failed:",
-      error.message
-    );
-
-    return {
-      title:
-        cleanHeadline(
-          item.title
-        ),
-
-      summary:
-        cleanText(
-          item.description
-        ) ||
-        "Latest Indian cinema update.",
-
-      category:
-        "News",
-
-      language:
-        item.language
-    };
-  }
-}
-
-async function collectStories() {
-
-  const stories = [];
-
-  for (
-    const [language, query]
-    of queries
-  ) {
-
-    console.log(
-      "Fetching:",
-      language,
-      query
-    );
-
-    try {
-
-      const feed =
-        await parser.parseURL(
-          googleNewsUrl(query)
-        );
-
-      for (
-        const item of
-        (feed.items || []).slice(0, 8)
-      ) {
-
-        const title =
-          cleanHeadline(
-            item.title || ""
-          );
-
-        if (!title) continue;
-
-        const description =
-          cleanText(
-            item.contentSnippet ||
-            item.content ||
-            item.summary ||
-            ""
-          );
-
-        const url =
-          stripTracking(
-            normalizeUrl(
-              item.link || ""
-            )
-          );
-
-        if (!url) continue;
-
-        stories.push({
-
-          title,
-
-          description,
-
-          source:
-            getPublisher(
-              item,
-              title
-            ),
-
-          url,
-
-          language:
-            detectLanguage(
-              title,
-              description,
-              language
-            ),
-
-          publishedAt:
-            item.isoDate ||
-            item.pubDate ||
-            new Date().toISOString()
-        });
-      }
-
-    } catch (error) {
-
-      console.log(
-        "RSS failed:",
-        query,
-        error.message
-      );
+    if (match && match[1]) {
+      return decode(match[1]).slice(0, 240);
     }
   }
 
-  return stories;
+  return "";
 }
 
-function deduplicate(stories) {
+async function getReviewCandidates(source) {
+  const html = await fetchHTML(source.url);
 
-  const seen =
-    new Set();
+  if (!html) return [];
 
-  return stories.filter(
-    item => {
+  const links = extractLinks(html, source.url);
 
-      const key =
-        item.title
-          .toLowerCase()
-          .replace(
-            /[^a-z0-9]+/g,
-            " "
-          )
-          .trim();
+  const candidates = [];
 
-      if (
-        !key ||
-        seen.has(key)
-      ) {
-        return false;
-      }
+  for (const link of links) {
+    if (!looksLikeReview(link.text, link.url)) continue;
 
-      seen.add(key);
+    if (!link.url.includes(source.domain)) continue;
 
-      return true;
-    }
-  );
-}
+    const title = cleanMovieTitle(link.text);
 
-async function buildNewsFeed(
-  stories
-) {
+    if (!title || title.length < 3) continue;
 
-  const limited =
-    stories.slice(0, 80);
-
-  const results = [];
-
-  for (
-    const item of limited
-  ) {
-
-    console.log(
-      "Processing:",
-      item.title
-    );
-
-    const rewritten =
-      await rewriteStory(
-        item
-      );
-
-    if (!rewritten) {
-
-      console.log(
-        "Rejected:",
-        item.title
-      );
-
-      continue;
-    }
-
-    const article =
-      await fetchArticle(
-        item.url
-      );
-
-    const finalUrl =
-      article.finalUrl &&
-      !/news\.google\.com/i.test(
-        article.finalUrl
-      )
-        ? stripTracking(
-            article.finalUrl
-          )
-        : item.url;
-
-    const image =
-      extractImage(
-        article.html
-      );
-
-    let source =
-      item.source;
-
-    if (
-      !source ||
-      /google news/i.test(
-        source
-      ) ||
-      source === "Source"
-    ) {
-
-      source =
-        hostname(
-          finalUrl
-        ) ||
-        "Source";
-    }
-
-    results.push({
-
-      id:
-        makeId(
-          rewritten.title
-        ),
-
-      t:
-        rewritten.title,
-
-      d:
-        rewritten.summary,
-
-      l:
-        rewritten.language,
-
-      category:
-        rewritten.category,
-
-      img:
-        image,
-
-      imageSource:
-        image
-          ? finalUrl
-          : "",
-
-      source,
-
-      u:
-        finalUrl,
-
-      publishedAt:
-        item.publishedAt
+    candidates.push({
+      source: source.name,
+      title,
+      url: link.url
     });
   }
 
-  return results;
+  const unique = new Map();
+
+  for (const item of candidates) {
+    const key = `${item.source}|${item.url}`;
+
+    if (!unique.has(key)) {
+      unique.set(key, item);
+    }
+  }
+
+  return [...unique.values()].slice(0, 12);
 }
 
-function buildReviews(
-  news
-) {
+async function readReview(source, candidate) {
+  const html = await fetchHTML(candidate.url);
 
-  return news
-    .filter(
-      item =>
-        item.category ===
-        "Review"
-    )
-    .slice(0, 20)
-    .map(
-      item => ({
+  if (!html) return null;
 
-        id:
-          item.id,
+  const text = stripHTML(html);
 
-        t:
-          item.t,
+  const rating = extractRating(text, source.name);
 
-        l:
-          item.l,
+  const image = extractImage(html);
 
-        rating:
-          "Review",
+  const description = extractDescription(html);
 
-        img:
-          item.img,
-
-        imageSource:
-          item.imageSource,
-
-        source:
-          item.source,
-
-        u:
-          item.u,
-
-        summary:
-          item.d,
-
-        publishedAt:
-          item.publishedAt
-      })
-    );
+  return {
+    source: source.name,
+    movie: candidate.title,
+    key: normalizeTitle(candidate.title),
+    rating,
+    ratingText: rating === null ? "Not available" : `${rating}/5`,
+    url: candidate.url,
+    image,
+    description
+  };
 }
 
-async function readExistingFeed() {
+function averageRatings(items) {
+  const values = items
+    .map(x => x.rating)
+    .filter(x => typeof x === "number");
 
-  try {
-
-    const raw =
-      await fs.readFile(
-        FEED_FILE,
-        "utf8"
-      );
-
-    return JSON.parse(
-      raw
-    );
-
-  } catch {
-
+  if (!values.length) {
     return null;
   }
+
+  const average =
+    values.reduce((sum, value) => sum + value, 0) /
+    values.length;
+
+  return Math.round(average * 100) / 100;
+}
+
+function groupReviews(reviews) {
+  const groups = new Map();
+
+  for (const review of reviews) {
+    if (!review.key) continue;
+
+    if (!groups.has(review.key)) {
+      groups.set(review.key, {
+        movie: review.movie,
+        image: review.image || "",
+        reviews: []
+      });
+    }
+
+    const group = groups.get(review.key);
+
+    if (!group.image && review.image) {
+      group.image = review.image;
+    }
+
+    const alreadyExists = group.reviews.some(
+      x => x.source === review.source
+    );
+
+    if (!alreadyExists) {
+      group.reviews.push(review);
+    }
+  }
+
+  return [...groups.values()]
+    .map(group => ({
+      ...group,
+      average: averageRatings(group.reviews)
+    }))
+    .sort((a, b) => {
+      const ar = a.average ?? -1;
+      const br = b.average ?? -1;
+
+      return br - ar;
+    });
+}
+
+async function buildReviewFeed() {
+  console.log("=================================");
+  console.log("CINEINSTA REVIEW AGGREGATOR");
+  console.log("=================================");
+
+  const allReviews = [];
+
+  for (const source of SOURCES) {
+    console.log(`\nChecking ${source.name}...`);
+
+    const candidates =
+      await getReviewCandidates(source);
+
+    console.log(
+      `${source.name}: ${candidates.length} review candidates`
+    );
+
+    /*
+     * Read only a small number of the newest
+     * candidates to keep GitHub Actions fast.
+     */
+
+    for (const candidate of candidates.slice(0, 8)) {
+      const review =
+        await readReview(source, candidate);
+
+      if (!review) continue;
+
+      console.log(
+        `${source.name} | ${review.movie} | ${review.ratingText}`
+      );
+
+      allReviews.push(review);
+    }
+  }
+
+  const grouped =
+    groupReviews(allReviews);
+
+  console.log(
+    `\nMovies with aggregated reviews: ${grouped.length}`
+  );
+
+  return grouped;
+}
+
+function buildFeedReviews(groups) {
+  const output = [];
+
+  for (const group of groups) {
+    const sourceRatings =
+      group.reviews.map(review => ({
+        source: review.source,
+        rating: review.rating,
+        ratingText: review.ratingText,
+        url: review.url
+      }));
+
+    /*
+     * The existing Cineinsta UI expects a simple review
+     * object. We keep that format while adding the
+     * complete source-by-source aggregation.
+     */
+
+    output.push({
+      t: group.movie,
+      l: "Telugu",
+      rating:
+        group.average === null
+          ? "Not available"
+          : `${group.average}/5`,
+      img: group.image || "",
+      source: "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      u:
+        group.reviews[0]?.url ||
+        "",
+      aggregator: {
+        average:
+          group.average,
+        sources: sourceRatings
+      }
+    });
+  }
+
+  return output;
 }
 
 async function main() {
-
-  console.log(
-    "================================="
-  );
-
-  console.log(
-    "CINEINSTA FEED UPDATE"
-  );
-
-  console.log(
-    "================================="
-  );
-
-  const raw =
-    await collectStories();
-
-  console.log(
-    "Collected:",
-    raw.length
-  );
-
-  const unique =
-    deduplicate(
-      raw
-    );
-
-  console.log(
-    "After deduplication:",
-    unique.length
-  );
-
-  unique.sort(
-    (a, b) =>
-      new Date(
-        b.publishedAt
-      ) -
-      new Date(
-        a.publishedAt
-      )
-  );
-
-  const news =
-    await buildNewsFeed(
-      unique
-    );
-
-  /*
-   * Safety check:
-   * Never replace a healthy feed
-   * with an almost-empty feed.
-   */
-
-  if (
-    news.length < 12
-  ) {
-
-    throw new Error(
-      "Only " +
-      news.length +
-      " valid stories were produced. " +
-      "Existing feed was protected."
-    );
-  }
+  const groups =
+    await buildReviewFeed();
 
   const reviews =
-    buildReviews(
-      news
-    );
+    buildFeedReviews(groups);
 
-  const previous =
-    await readExistingFeed();
-
-  const feed = {
-
-    updatedAt:
-      new Date().toISOString(),
-
-    news:
-      news.slice(
-        0,
-        60
-      ),
-
-    reviews,
-
-    stats: {
-
-      totalNews:
-        news.length,
-
-      totalReviews:
-        reviews.length,
-
-      languages: [
-        "Telugu",
-        "Tamil",
-        "Malayalam",
-        "Kannada",
-        "Hindi"
-      ]
-    }
+  let existingFeed = {
+    updatedAt: new Date().toISOString(),
+    news: [],
+    reviews: []
   };
 
-  /*
-   * Keep older stories when
-   * fewer than 60 fresh stories
-   * are available.
-   */
-
-  if (
-    previous &&
-    Array.isArray(
-      previous.news
-    )
-  ) {
-
-    const existingIds =
-      new Set(
-        feed.news.map(
-          item =>
-            item.id
-        )
+  try {
+    const existing =
+      await fs.readFile(
+        "data/feed.json",
+        "utf8"
       );
 
-    for (
-      const oldItem
-      of previous.news
-    ) {
-
-      if (
-        feed.news.length >= 60
-      ) {
-        break;
-      }
-
-      if (
-        existingIds.has(
-          oldItem.id
-        )
-      ) {
-        continue;
-      }
-
-      feed.news.push(
-        oldItem
-      );
-
-      existingIds.add(
-        oldItem.id
-      );
-    }
+    existingFeed =
+      JSON.parse(existing);
+  } catch {
+    console.log(
+      "Existing feed.json not found. Creating a new one."
+    );
   }
+
+  const feed = {
+    updatedAt: new Date().toISOString(),
+    news:
+      Array.isArray(existingFeed.news)
+        ? existingFeed.news
+        : [],
+    reviews
+  };
 
   await fs.mkdir(
     "data",
-    {
-      recursive: true
-    }
+    { recursive: true }
   );
 
   await fs.writeFile(
-    FEED_FILE,
-    JSON.stringify(
-      feed,
-      null,
-      2
-    ) + "\n"
+    "data/feed.json",
+    JSON.stringify(feed, null, 2),
+    "utf8"
   );
 
   console.log(
-    "Wrote:",
-    FEED_FILE
+    `\nSaved ${reviews.length} aggregated movie reviews.`
   );
 
   console.log(
-    "Fresh stories:",
-    news.length
-  );
-
-  console.log(
-    "Reviews:",
-    reviews.length
+    "Feed written to data/feed.json"
   );
 }
 
-main().catch(
-  error => {
+main().catch(error => {
+  console.error(
+    "Cineinsta review aggregator failed:",
+    error
+  );
 
-    console.error(
-      error
-    );
-
-    process.exit(
-      1
-    );
-  }
-);
+  process.exit(1);
+});
