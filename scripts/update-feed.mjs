@@ -380,6 +380,45 @@ function isMovieInterview(
 }
 
 
+function xmlTag(xml = "", tag = "") {
+
+  if (!xml || !tag) return "";
+
+  const escapedTag = tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  // YouTube RSS <link> entries store the video URL in href rather than
+  // between opening/closing tags.
+  if (tag === "link") {
+    const linkMatch = xml.match(
+      /<link\b[^>]*href=["']([^"']+)["'][^>]*\/?\s*>/i
+    );
+    if (linkMatch?.[1]) {
+      return decodeEntities(linkMatch[1]);
+    }
+  }
+
+  const match = xml.match(
+    new RegExp(
+      `<${escapedTag}\\b[^>]*>([\\s\\S]*?)<\\/${escapedTag}>`,
+      "i"
+    )
+  );
+
+  if (!match?.[1]) return "";
+
+  let value = match[1]
+    .replace(/^<!\[CDATA\[/i, "")
+    .replace(/\]\]>$/i, "")
+    .trim();
+
+  return decodeEntities(stripHTML(value)).trim();
+}
+
+function extractYoutubeIdFromUrl(url = "") {
+  return extractYouTubeId(url);
+}
+
+
 async function collectInterviews() {
 
   const all = [];
