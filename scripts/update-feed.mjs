@@ -8,6 +8,9 @@ import fs from "node:fs/promises";
    3. M9.news
    4. Telugu360
    5. 123telugu
+
+   Reviews are sorted by actual release/streaming date,
+   newest first.
    ========================================================= */
 
 const SOURCES = [
@@ -191,7 +194,7 @@ function extractLinks(html, baseUrl) {
 
   /*
    * Jina Reader returns Markdown links.
-   * This is primarily required for M9.news.
+   * Required for M9.news.
    */
   const markdownRegex =
     /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
@@ -326,6 +329,75 @@ function extractImage(html) {
     ) ||
     ""
   );
+}
+
+
+/* =========================================================
+   RELEASE DATE EXTRACTION
+   ========================================================= */
+
+function extractReleaseDate(text) {
+  const clean =
+    text.replace(
+      /\s+/g,
+      " "
+    );
+
+  const patterns = [
+    /*
+     * September 24, 2026
+     */
+    /Release\s*Date\s*:\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})/i,
+
+    /*
+     * 24 September 2026
+     */
+    /Release\s*Date\s*:\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})/i,
+
+    /*
+     * September 24, 2026
+     */
+    /Streaming\s*Date\s*:\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})/i,
+
+    /*
+     * 24 September 2026
+     */
+    /Streaming\s*Date\s*:\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})/i,
+
+    /*
+     * Release Date - September 24, 2026
+     */
+    /Release\s*Date\s*[-–—]\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})/i,
+
+    /*
+     * Streaming Date - September 24, 2026
+     */
+    /Streaming\s*Date\s*[-–—]\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})/i
+  ];
+
+  for (const pattern of patterns) {
+    const match =
+      clean.match(pattern);
+
+    if (match?.[1]) {
+      const date =
+        new Date(
+          match[1]
+        );
+
+      if (
+        !Number.isNaN(
+          date.getTime()
+        )
+      ) {
+        return date
+          .toISOString()
+          .slice(0, 10);
+      }
+    }
+  }
+
+  return null;
 }
 
 
@@ -597,7 +669,7 @@ function cleanTitle(
   );
 
   /*
-   * Current known title aliases.
+   * Known title aliases.
    */
   const lower =
     t.toLowerCase();
@@ -720,7 +792,6 @@ function extractMovieTitle(
    *
    * Movie Name : The Paradise
    * Release Date : ...
-   * Rating : ...
    */
   if (
     source.name ===
@@ -966,6 +1037,15 @@ async function readReview(
       source.name
     );
 
+  /*
+   * Extract actual movie release
+   * or OTT streaming date.
+   */
+  const releaseDate =
+    extractReleaseDate(
+      pageText
+    );
+
   const image =
     extractImage(
       html
@@ -976,6 +1056,8 @@ async function readReview(
       source.name,
 
     movie,
+
+    releaseDate,
 
     rating,
 
@@ -1161,6 +1243,10 @@ function groupReviews(
         movie:
           review.movie,
 
+        releaseDate:
+          review.releaseDate ||
+          null,
+
         image:
           review.image || "",
 
@@ -1170,6 +1256,41 @@ function groupReviews(
       groups.push(
         group
       );
+
+    } else {
+      /*
+       * If the group does not yet have
+       * a release date, use this review's
+       * release date.
+       */
+      if (
+        !group.releaseDate &&
+        review.releaseDate
+      ) {
+        group.releaseDate =
+          review.releaseDate;
+      }
+
+      /*
+       * If this review has a date and
+       * it is newer, use it.
+       *
+       * This protects against one
+       * source having an older/wrong
+       * date while another has the
+       * current release date.
+       */
+      if (
+        review.releaseDate &&
+        (
+          !group.releaseDate ||
+          review.releaseDate >
+            group.releaseDate
+        )
+      ) {
+        group.releaseDate =
+          review.releaseDate;
+      }
     }
 
     /*
@@ -1310,6 +1431,14 @@ function buildReviews(
           l:
             "Telugu",
 
+          /*
+           * Actual movie release date
+           * or OTT streaming date.
+           */
+          releaseDate:
+            group.releaseDate ||
+            null,
+
           rating:
             average === null
               ? "Not available"
@@ -1327,22 +1456,38 @@ function buildReviews(
 
           aggregator: {
             average,
+
             sources
           }
         };
       }
     )
+
+    /*
+     * IMPORTANT:
+     * Sort by actual release date,
+     * newest first.
+     *
+     * Movies without a release date
+     * go to the bottom.
+     */
     .sort(
       (a, b) => {
-        const ar =
-          a.aggregator.average ??
-          -1;
+        const ad =
+          a.releaseDate
+            ? new Date(
+                a.releaseDate
+              ).getTime()
+            : 0;
 
-        const br =
-          b.aggregator.average ??
-          -1;
+        const bd =
+          b.releaseDate
+            ? new Date(
+                b.releaseDate
+              ).getTime()
+            : 0;
 
-        return br - ar;
+        return bd - ad;
       }
     );
 }
@@ -1402,7 +1547,7 @@ async function main() {
       }
 
       console.log(
-        `${source.name} | ${review.movie} | ${review.ratingText}`
+        `${source.name} | ${review.movie} | ${review.releaseDate || "No release date"} | ${review.ratingText}`
       );
 
       allReviews.push(
@@ -1444,7 +1589,10 @@ async function main() {
       );
 
     console.log(
-      `${group.movie} | Average: ${
+      `${group.movie} | Release: ${
+        group.releaseDate ||
+        "Not available"
+      } | Average: ${
         average === null
           ? "Not available"
           : average
