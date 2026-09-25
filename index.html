@@ -6,26 +6,24 @@
 <title>Cineinsta — Telugu Cinema</title>
 <meta name="description" content="Latest Telugu cinema news, trailers, movie interviews and reviews.">
 <style>
-:root{--bg:#f6f3ef;--surface:#fff;--line:#e4ddd5;--text:#171717;--muted:#746f69;--red:#e3262e;--gold:#c58b25;--shadow:0 8px 28px rgba(30,20,10,.07)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
-header{position:sticky;top:0;z-index:1000;background:rgba(246,243,239,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.headerInner{max-width:1180px;margin:auto;min-height:70px;padding:0 20px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:25px;font-weight:900;letter-spacing:-1px}.logo span{color:var(--red)}
-.headerNav{display:flex;gap:24px;font-size:12px;font-weight:800}.headerNav a{color:#5e5954}.headerNav a:hover{color:var(--red)}
-.searchBtn{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;background:#fff;color:#222;cursor:pointer}
-main{max-width:1180px;margin:auto;padding:34px 20px 100px}.intro{margin:4px 0 26px}.intro h1{margin:0 0 8px;font-size:clamp(34px,5vw,52px);line-height:1;letter-spacing:-2px}.intro p{margin:0;color:var(--muted);font-size:14px}
-.hero{position:relative;min-height:420px;margin-bottom:42px;border:1px solid #ddd4cb;border-radius:18px;overflow:hidden;background:#222;box-shadow:var(--shadow)}.heroImage{position:absolute;inset:0}.heroImage img{width:100%;height:100%;object-fit:cover}.heroOverlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,10,10,.9),rgba(10,10,10,.68) 45%,rgba(10,10,10,.12))}
-.heroContent{position:relative;z-index:2;min-height:420px;max-width:670px;padding:52px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;color:#fff}.heroTag{display:inline-block;background:var(--red);color:#fff;padding:7px 10px;border-radius:999px;font-size:9px;font-weight:900;letter-spacing:1px;text-transform:uppercase;margin-bottom:15px}.heroTitle{margin:0 0 13px;font-size:clamp(29px,4vw,48px);line-height:1.04;font-weight:900;letter-spacing:-1.5px}.heroSummary{margin:0 0 15px;color:#e8e4df;font-size:14px;line-height:1.65}.heroMeta{color:#c9c4be;font-size:11px;margin-bottom:20px}.heroButton{display:inline-block;background:#fff;color:#161616;padding:11px 18px;border-radius:8px;font-size:10px;font-weight:900;text-transform:uppercase}
-.section{margin-top:42px}.sectionHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:16px}.sectionHead h2{margin:0;font-size:22px}.sectionHead span{color:#8a827b;font-size:10px;text-transform:uppercase;letter-spacing:1px}
-.newsGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.newsCard,.trailerCard,.interviewCard,.reviewWide{background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow)}.newsCard,.trailerCard,.interviewCard{border-radius:14px;overflow:hidden;transition:transform .18s ease,box-shadow .18s ease}.newsCard:hover,.trailerCard:hover,.interviewCard:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(30,20,10,.11)}
-.newsImage{width:100%;aspect-ratio:16/9;background:#ddd7d0;overflow:hidden}.newsImage img{width:100%;height:100%;object-fit:cover}.newsBody{padding:15px 16px 17px}.newsSource{color:var(--red);font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.7px}.newsTitle{margin:7px 0 8px;font-size:16px;line-height:1.3;font-weight:900}.newsSummary{margin:0;color:var(--muted);font-size:11px;line-height:1.55}.newsMeta{display:flex;justify-content:space-between;margin-top:12px;color:#948d86;font-size:9px}
-.trailerGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.trailerCard{border-radius:14px}.trailerThumb{position:relative;aspect-ratio:16/9;background:#ddd7d0;overflow:hidden}.trailerThumb img{width:100%;height:100%;object-fit:cover}.play,.interviewPlay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:rgba(227,38,46,.94);color:#fff;display:grid;place-items:center;font-size:18px;box-shadow:0 6px 20px rgba(0,0,0,.24)}.trailerBody{padding:13px 14px}.trailerTitle{font-size:13px;font-weight:900;line-height:1.35;margin-bottom:7px}.trailerSource{color:#8a827b;font-size:9px}
-.interviewGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.interviewCard{border-radius:14px}.interviewThumb{position:relative;aspect-ratio:16/9;background:#ddd7d0;overflow:hidden}.interviewThumb img{width:100%;height:100%;object-fit:cover}.interviewBody{padding:13px 14px}.interviewTitle{font-size:13px;font-weight:900;line-height:1.35;margin-bottom:7px}.interviewSource{color:var(--red);font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.5px}.interviewMeta{color:#8a827b;font-size:9px;margin-top:5px}
-.reviewList{display:grid;gap:14px}.reviewWide{display:grid;grid-template-columns:190px 1fr;gap:20px;padding:15px;border-radius:14px}.reviewThumb{aspect-ratio:16/10;background:#ddd7d0;border-radius:9px;overflow:hidden}.reviewThumb img{width:100%;height:100%;object-fit:cover}.reviewTag{color:var(--red);font-size:8px;font-weight:900;letter-spacing:.8px}.reviewTitle{margin:6px 0 4px;font-size:19px;font-weight:900}.releaseDate{color:#8a827b;font-size:10px;margin-bottom:8px}.cineRating{color:var(--gold);font-size:16px;font-weight:900;margin-bottom:9px}.cineRating span{display:block;color:#8a827b;font-size:8px;font-weight:normal;margin-top:2px;text-transform:uppercase}.reviewSources{border-top:1px solid var(--line)}.reviewSource{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #eee8e2;color:#746f69;font-size:10px}.reviewSource a{color:var(--red);font-weight:900}.reviewSource strong{color:#aaa39c;font-weight:normal}
-.moreBtn{display:block;width:max-content;margin:19px auto 0;padding:11px 19px;border:1px solid #d8cfc7;border-radius:8px;background:#fff;color:#5e5954;font-size:10px;font-weight:900;text-transform:uppercase}.moreBtn:hover{border-color:var(--red);color:var(--red)}
-.empty{padding:35px 15px;text-align:center;border:1px dashed #d9d0c8;border-radius:10px;color:#8a827b;font-size:12px;background:rgba(255,255,255,.55)}
-.articlePage{max-width:900px;margin:0 auto;background:var(--surface);padding:30px;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}.articleBack{display:inline-block;margin-bottom:22px;color:#746f69;font-size:11px;font-weight:800}.articleBack:hover{color:var(--red)}.articleSource{color:var(--red);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.articleTitle{margin:0 0 14px;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-1.5px}.articleMeta{color:#8a827b;font-size:11px;margin-bottom:22px}.articleVideo{width:100%;aspect-ratio:16/9;margin:20px 0 24px;border-radius:14px;overflow:hidden;background:#111}.articleVideo iframe{width:100%;height:100%;display:block;border:0}.articleImage{width:100%;max-height:520px;object-fit:cover;border-radius:12px;margin-bottom:25px;border:1px solid var(--line)}.articleSummary{color:#403c38;font-size:16px;line-height:1.75;margin-bottom:25px}.articleSourceBox{border-top:1px solid var(--line);padding-top:18px;color:#746f69;font-size:11px}.articleSourceBox a{color:var(--red);font-weight:900}
-footer{border-top:1px solid var(--line);padding:28px 20px 40px;text-align:center;color:#8a827b;font-size:10px}.mobileNav{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1000;height:62px;background:rgba(246,243,239,.97);backdrop-filter:blur(12px);border-top:1px solid var(--line);grid-template-columns:repeat(5,1fr)}.mobileNav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;color:#746f69;font-size:9px;font-weight:800}.mobileNav a:hover{color:var(--red)}
-@media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.interviewGrid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:650px){.headerNav{display:none}main{padding:22px 13px 90px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(0,0,0,.92),rgba(0,0,0,.5) 58%,rgba(0,0,0,.08))}.newsGrid{grid-template-columns:1fr}.trailerGrid,.interviewGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:20px}.mobileNav{display:grid}}@media(max-width:420px){.trailerGrid,.interviewGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}}
+:root{--bg:#f4f1eb;--surface:#fffdf9;--surface2:#eeeae2;--line:#ded8ce;--text:#202124;--muted:#707070;--accent:#c9282d;--accent2:#8f171b;--gold:#b1842f;--shadow:0 10px 30px rgba(30,25,20,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+header{position:sticky;top:0;z-index:1000;background:rgba(255,253,249,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.headerInner{max-width:1180px;margin:auto;min-height:72px;padding:0 20px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:25px;font-weight:950;letter-spacing:-1.2px}.logo span{color:var(--accent)}
+.headerNav{display:flex;gap:24px;font-size:12px;font-weight:850}.headerNav a{color:#666}.headerNav a:hover{color:var(--accent)}.searchBtn{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--text);cursor:pointer}
+main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 24px}.intro h1{margin:0 0 8px;font-size:clamp(34px,5vw,54px);line-height:1;letter-spacing:-2px}.intro p{margin:0;color:var(--muted);font-size:14px}
+.hero{position:relative;min-height:430px;margin-bottom:44px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#2b2927;box-shadow:var(--shadow)}.heroImage{position:absolute;inset:0}.heroImage img{width:100%;height:100%;object-fit:cover}.heroOverlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,18,17,.9) 0%,rgba(20,18,17,.58) 48%,rgba(20,18,17,.08) 100%)}.heroContent{position:relative;z-index:2;min-height:430px;max-width:680px;padding:52px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.heroTag{display:inline-block;background:var(--accent);color:#fff;padding:6px 10px;border-radius:999px;font-size:9px;font-weight:900;letter-spacing:1px;text-transform:uppercase;margin-bottom:15px}.heroTitle{margin:0 0 12px;color:#fff;font-size:clamp(30px,4vw,50px);line-height:1.05;font-weight:900;letter-spacing:-1.7px}.heroSummary{margin:0 0 14px;color:#eee;font-size:14px;line-height:1.65}.heroMeta{color:#d3d0cb;font-size:10px;margin-bottom:18px}.heroButton{display:inline-block;background:#fff;color:#222;padding:12px 18px;border-radius:999px;font-size:10px;font-weight:900;text-transform:uppercase}
+.section{margin-top:46px}.sectionHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:16px}.sectionHead h2{margin:0;font-size:24px;letter-spacing:-.5px}.sectionHead span{color:#8a857d;font-size:10px;text-transform:uppercase;letter-spacing:1.3px}
+.newsGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.newsCard,.trailerCard,.interviewCard{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.04);transition:transform .18s ease,box-shadow .18s ease}.newsCard:hover,.trailerCard:hover,.interviewCard:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.newsImage,.trailerThumb,.interviewThumb{width:100%;aspect-ratio:16/9;background:#e5e1da;overflow:hidden}.newsImage img,.trailerThumb img,.interviewThumb img{width:100%;height:100%;object-fit:cover}.newsBody{padding:15px 16px 17px}.newsSource,.interviewSource{color:var(--accent);font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}.newsTitle{margin:7px 0 8px;font-size:17px;line-height:1.25;font-weight:850}.newsSummary{margin:0;color:#777;font-size:11px;line-height:1.55}.newsMeta{display:flex;justify-content:space-between;margin-top:12px;color:#999;font-size:9px}
+.trailerGrid,.interviewGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.trailerThumb,.interviewThumb{position:relative}.trailerBody,.interviewBody{padding:13px 14px 15px}.trailerTitle,.interviewTitle{font-size:14px;font-weight:850;line-height:1.35;margin-bottom:7px}.trailerSource,.interviewMeta{color:#8b8882;font-size:9px}.play,.interviewPlay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--accent);display:grid;place-items:center;font-size:17px;box-shadow:0 4px 16px rgba(0,0,0,.22)}
+.reviewList{display:grid;gap:14px}.reviewWide{display:grid;grid-template-columns:190px 1fr;gap:20px;padding:15px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 5px 18px rgba(30,25,20,.04)}.reviewThumb{aspect-ratio:16/10;background:#e5e1da;border-radius:9px;overflow:hidden}.reviewThumb img{width:100%;height:100%;object-fit:cover}.reviewTag{color:var(--accent);font-size:8px;font-weight:900;letter-spacing:.9px}.reviewTitle{margin:6px 0 4px;font-size:19px;font-weight:900}.releaseDate{color:#888;font-size:10px;margin-bottom:8px}.cineRating{color:var(--gold);font-size:16px;font-weight:900;margin-bottom:9px}.cineRating span{display:block;color:#999;font-size:8px;font-weight:normal;margin-top:2px;text-transform:uppercase}.reviewSources{border-top:1px solid var(--line)}.reviewSource{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #eee9e0;color:#777;font-size:10px}.reviewSource a{color:var(--accent);font-weight:900}.reviewSource strong{color:#aaa;font-weight:normal}
+.moreBtn{display:block;width:max-content;margin:20px auto 0;padding:10px 18px;border:1px solid #cfc8bd;border-radius:999px;color:#555;font-size:10px;font-weight:900;text-transform:uppercase;background:transparent}.moreBtn:hover{border-color:var(--accent);color:var(--accent)}.empty{padding:35px 15px;text-align:center;border:1px dashed #d5cfc5;border-radius:12px;color:#999;font-size:12px;background:rgba(255,253,249,.5)}
+.articlePage{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px 32px 38px;box-shadow:var(--shadow)}.articleBack{display:inline-block;margin-bottom:22px;color:#777;font-size:11px;font-weight:800}.articleSource{color:var(--accent);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.articleTitle{margin:0 0 14px;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-1.5px}.articleMeta{color:#888;font-size:11px;margin-bottom:22px}.articleImage{width:100%;max-height:520px;object-fit:cover;border-radius:12px;margin-bottom:25px}.articleVideo{position:relative;width:100%;aspect-ratio:16/9;margin:0 0 25px;border-radius:12px;overflow:hidden;background:#111}.articleVideo iframe{width:100%;height:100%;border:0}.articleSummary{color:#4f4f4f;font-size:16px;line-height:1.8;margin-bottom:25px}.articleSourceBox{border-top:1px solid var(--line);padding-top:18px;color:#777;font-size:11px}.articleSourceBox a{color:var(--accent);font-weight:900}
+footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center;color:#999;font-size:10px}.mobileNav{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1000;height:62px;background:rgba(255,253,249,.97);border-top:1px solid var(--line);grid-template-columns:repeat(5,1fr)}.mobileNav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;color:#777;font-size:9px;font-weight:800}.mobileNav a:hover{color:var(--accent)}
+@media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.interviewGrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.headerNav{display:none}main{padding:22px 13px 90px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.trailerGrid,.interviewGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid}}
+@media(max-width:420px){.trailerGrid,.interviewGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -77,7 +75,7 @@ footer{border-top:1px solid var(--line);padding:28px 20px 40px;text-align:center
 </section>
 </main>
 
-<footer>Cineinsta · Telugu Cinema<br><br>Fresh cinema updates, original-source news links and direct YouTube interviews.</footer>
+<footer>Cineinsta · Telugu Cinema<br><br>News and reviews link to their original publishers.</footer>
 
 <nav class="mobileNav">
 <a href="/"><span>⌂</span>Home</a><a href="/news"><span>▤</span>News</a><a href="/trailers"><span>▶</span>Trailers</a><a href="/interviews"><span>◉</span>Interviews</a><a href="/reviews"><span>★</span>Reviews</a>
@@ -99,21 +97,9 @@ return date.toLocaleDateString("en-IN",{day:"numeric",month:"short"});
 
 function cleanSummary(text){
 text=String(text||"");
-text=text.replace(/<[^>]+>/g," ");
-text=text.replace(/(?:Home|Movie News|Political News|Movie Reviews|OTT Reviews|Photos|Videos|Interviews|OTT|More|Trends|Paparazzi Pics|Overseas|Press Release|Life Style|Movie-Schedule|Gallery|Search for:|Skip to main content)/gi," ");
-text=text.replace(/\|/g," ").replace(/-->/g," ").replace(/--/g," ");
-text=text.replace(/\s+/g," ").trim();
-if(text.length<50)return text||"Latest Telugu cinema update.";
-if(text.length>240)text=text.substring(0,240).replace(/\s+\S*$/,"")+"...";
+text=text.replace(/Home\s+/gi,"").replace(/Movie News\s+/gi,"").replace(/Movie Reviews\s+/gi,"").replace(/Videos\s+/gi,"").replace(/Photos\s+/gi,"").replace(/Interviews\s+/gi,"").replace(/Gallery\s+/gi,"").replace(/Search for:\s*/gi,"").replace(/Skip to main content/gi,"").replace(/-->/g,"").replace(/--/g,"").trim();
+if(text.length>220)text=text.substring(0,220)+"...";
 return text;
-}
-
-function isGenuineInterview(item){
-const text=((item.title||"")+" "+(item.summary||"")).toLowerCase();
-const blocked=["public talk","public talks","fan meet","fans gather","trailer launch","trailer launch event","audio launch","pre release event","pre-release event","press meet","press conference","media meet","media interaction","press interaction","live event","event"];
-if(blocked.some(term=>text.includes(term)))return false;
-const positive=["interview","exclusive conversation","in conversation","conversation with","chat with","exclusive chat","q&a","talks about","opens up","speaks about","discusses","shares about","reveals about"];
-return positive.some(term=>text.includes(term));
 }
 
 function slugify(value){
@@ -193,7 +179,7 @@ const summary=cleanSummary(item.summary||item.d||"Latest Indian cinema update.")
 const image=item.img||"";
 const source=item.source||"Cineinsta";
 const date=formatDate(item.publishedAt);
-const originalUrl=item.url||item.u||"#";
+const originalUrl=item.originalUrl||item.url||item.u||"#";
 
 articlePage.innerHTML=`
 <div class="articlePage">
@@ -201,7 +187,7 @@ articlePage.innerHTML=`
 <div class="articleSource">${escapeHTML(source)}</div>
 <h1 class="articleTitle">${escapeHTML(title)}</h1>
 <div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>
-${entry.type==="interviews" && item.youtubeId ? `<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&playsinline=1&origin=https%3A%2F%2Fwww.cineinsta.com" title="${escapeHTML(title)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>` : image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:""}
+${(entry.type==="interviews" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}
 <div class="articleSummary">${escapeHTML(summary)}</div>
 <div class="articleSourceBox">
 Source: <strong>${escapeHTML(source)}</strong>
@@ -215,40 +201,28 @@ updateSEO(entry);
 }
 
 async function loadFeed(){
-const urls=[
-new URL("/data/feed.json",window.location.origin).href+"?v="+Date.now(),
-"/data/feed.json?v="+Date.now()
-];
-let loaded=null,lastError=null;
-for(const url of urls){
 try{
-const response=await fetch(url,{cache:"no-store",headers:{"Accept":"application/json"}});
-if(!response.ok)throw new Error("Feed request returned "+response.status);
-const raw=await response.text();
-if(!raw.trim().startsWith("{"))throw new Error("Feed response was not JSON");
-loaded=JSON.parse(raw);
-break;
-}catch(error){lastError=error;console.error("Cineinsta feed attempt failed:",url,error);}
-}
-if(!loaded){
-console.error("Cineinsta feed failed:",lastError);
-document.getElementById("newsGrid").innerHTML='<div class="empty">News could not be loaded. Please refresh once.</div>';
-document.getElementById("trailerGrid").innerHTML='<div class="empty">Trailers could not be loaded.</div>';
-document.getElementById("interviewGrid").innerHTML='<div class="empty">Movie interviews could not be loaded.</div>';
-document.getElementById("reviewList").innerHTML='<div class="empty">Reviews could not be loaded.</div>';
-return;
-}
-feed=loaded||{};
+const response=await fetch("/data/feed.json?v="+Date.now());
+if(!response.ok)throw new Error("Feed unavailable");
+feed=await response.json();
 feed.news=Array.isArray(feed.news)?feed.news:[];
 feed.trailers=Array.isArray(feed.trailers)?feed.trailers:[];
 feed.interviews=Array.isArray(feed.interviews)?feed.interviews:[];
 feed.reviews=Array.isArray(feed.reviews)?feed.reviews:[];
-try{renderHero(feed.news);}catch(error){console.error("Hero render failed:",error);}
-try{renderNews(feed.news);}catch(error){console.error("News render failed:",error);document.getElementById("newsGrid").innerHTML='<div class="empty">News could not be displayed.</div>';}
-try{renderTrailers(feed.trailers);}catch(error){console.error("Trailer render failed:",error);document.getElementById("trailerGrid").innerHTML='<div class="empty">Trailers could not be displayed.</div>';}
-try{renderInterviews(feed.interviews,12);}catch(error){console.error("Interview render failed:",error);document.getElementById("interviewGrid").innerHTML='<div class="empty">Interviews could not be displayed.</div>';}
-try{renderReviews(feed.reviews);}catch(error){console.error("Review render failed:",error);document.getElementById("reviewList").innerHTML='<div class="empty">Reviews could not be displayed.</div>';}
+renderHero(feed.news);
+renderNews(feed.news);
+renderTrailers(feed.trailers);
+renderInterviews(feed.interviews,12);
+renderReviews(feed.reviews);
+}catch(error){
+console.error(error);
+document.getElementById("newsGrid").innerHTML='<div class="empty">News could not be loaded.</div>';
+document.getElementById("trailerGrid").innerHTML='<div class="empty">Trailers could not be loaded.</div>';
+document.getElementById("interviewGrid").innerHTML='<div class="empty">Movie interviews could not be loaded.</div>';
+document.getElementById("reviewList").innerHTML='<div class="empty">Reviews could not be loaded.</div>';
 }
+}
+
 function renderHero(items){
 const hero=document.getElementById("homeHero");
 const item=items.find(function(news){return news&&typeof news.img==="string"&&news.img.trim()!==""&&news.url;});
@@ -266,7 +240,7 @@ const grid=document.getElementById("newsGrid");
 const validNews=items.filter(function(item){return item&&typeof item.img==="string"&&item.img.trim()!==""&&item.url;});
 if(!validNews.length){grid.innerHTML='<div class="empty">No latest Telugu news with thumbnails available right now.</div>';return}
 grid.innerHTML=validNews.slice(0,9).map(function(item){return `
-<article class="newsCard"><a href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer">
+<article class="newsCard"><a href="/news/${articleSlug(item)}">
 <div class="newsImage"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.title)}" loading="lazy"></div>
 <div class="newsBody"><div class="newsSource">${escapeHTML(item.source||"Telugu Cinema")}</div>
 <div class="newsTitle">${escapeHTML(item.title||"")}</div>
@@ -290,7 +264,6 @@ return `
 
 function renderInterviews(items,limit){
 const grid=document.getElementById("interviewGrid");
-items=items.filter(isGenuineInterview);
 if(!items.length){grid.innerHTML='<div class="empty">No latest Telugu movie interviews available right now.</div>';return}
 grid.innerHTML=items.slice(0,Number.isInteger(limit)?limit:12).map(function(item){
 const image=item.img||(item.youtubeId?"https://i.ytimg.com/vi/"+item.youtubeId+"/hqdefault.jpg":"");
