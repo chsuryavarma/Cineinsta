@@ -1,11 +1,23 @@
 {
   "rewrites": [
     {
-      "source": "/news",
+      "source": "/news/:slug",
       "destination": "/"
     },
     {
-      "source": "/trailers",
+      "source": "/interviews/:slug",
+      "destination": "/"
+    },
+    {
+      "source": "/reviews/:slug",
+      "destination": "/"
+    },
+    {
+      "source": "/trailers/:slug",
+      "destination": "/"
+    },
+    {
+      "source": "/news",
       "destination": "/"
     },
     {
@@ -14,6 +26,10 @@
     },
     {
       "source": "/reviews",
+      "destination": "/"
+    },
+    {
+      "source": "/trailers",
       "destination": "/"
     }
   ]
