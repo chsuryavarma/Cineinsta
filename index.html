@@ -376,7 +376,9 @@ return;
 
 hideArticlePage();
 
-const route=location.hash.replace("#/","");
+const pathRoute=window.location.pathname.replace(/^\//,"").replace(/\/$/,"");
+const hashRoute=location.hash.replace("#/","");
+const route=pathRoute || hashRoute;
 const intro=document.querySelector(".intro");
 const hero=document.getElementById("homeHero");
 const newsSection=document.getElementById("newsSection");
