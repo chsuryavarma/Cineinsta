@@ -2,30 +2,29 @@ import fs from "node:fs/promises";
 
 /* =========================================================
    CINEINSTA FEED UPDATER
-   =========================================================
+   Telugu News + Telugu Trailers + Reviews
 
-   CONTENT:
-   - Telugu News
-   - Telugu Trailers
-   - Telugu Movie Interviews
-   - Telugu Reviews
+   NEWS SOURCES:
+   - 123telugu
+   - TeluguCinema
+   - Telugu360
+   - Gulte
+   - GreatAndhra
+   - CineJosh
+   - IndiaGlitz Telugu
 
-   TRAILERS:
-   - Finds YouTube IDs directly from source pages
-   - Falls back to YouTube search when needed
-   - Requires a strong title match
-   - Only publishes trailers with a verified YouTube ID
-   - Filters non-Telugu trailers
+   REVIEW SOURCES:
+   - GreatAndhra
+   - Gulte
+   - M9.news
+   - Telugu360
+   - 123telugu
 
-   INTERVIEWS:
-   - Uses YouTube channel RSS feeds
-   - Filters genuine movie/film interviews
-   - Removes public talks, fan meets, launches, events etc.
+   TRAILER SOURCE:
+   - Times of India / ETimes Telugu video section
 
-   NEWS:
-   - Uses article metadata where available
-   - Removes navigation / website boilerplate
-   - Produces short clean summaries
+   Reviews are sorted by actual release/streaming date.
+   News and trailers are sorted newest first.
    ========================================================= */
 
 
@@ -38,49 +37,61 @@ const USER_AGENT =
    ========================================================= */
 
 const NEWS_SOURCES = [
-
   {
     name: "123telugu",
-    url: "https://www.123telugu.com/category/mnews/",
-    domain: "123telugu.com"
+    url:
+      "https://www.123telugu.com/category/mnews/",
+    domain:
+      "123telugu.com"
   },
 
   {
     name: "TeluguCinema",
-    url: "https://telugucinema.com/news",
-    domain: "telugucinema.com"
+    url:
+      "https://telugucinema.com/news",
+    domain:
+      "telugucinema.com"
   },
 
   {
     name: "Telugu360",
-    url: "https://www.telugu360.com/category/movies/",
-    domain: "telugu360.com"
+    url:
+      "https://www.telugu360.com/category/movies/",
+    domain:
+      "telugu360.com"
   },
 
   {
     name: "Gulte",
-    url: "https://www.gulte.com/movienews",
-    domain: "gulte.com"
+    url:
+      "https://www.gulte.com/movienews",
+    domain:
+      "gulte.com"
   },
 
   {
     name: "GreatAndhra",
-    url: "https://www.greatandhra.com/movies/news",
-    domain: "greatandhra.com"
+    url:
+      "https://www.greatandhra.com/movies/news",
+    domain:
+      "greatandhra.com"
   },
 
   {
     name: "CineJosh",
-    url: "https://www.cinejosh.com/news",
-    domain: "cinejosh.com"
+    url:
+      "https://www.cinejosh.com/news",
+    domain:
+      "cinejosh.com"
   },
 
   {
     name: "IndiaGlitz Telugu",
-    url: "https://indiaglitz.com/telugu/movie-news",
-    domain: "indiaglitz.com"
+    url:
+      "https://indiaglitz.com/telugu/movie-news",
+    domain:
+      "indiaglitz.com"
   }
-
 ];
 
 
@@ -89,9 +100,9 @@ const NEWS_SOURCES = [
    ========================================================= */
 
 const TRAILER_SOURCES = [
-
   {
-    name: "ETimes Telugu",
+    name:
+      "ETimes Telugu",
     url:
       "https://timesofindia.indiatimes.com/entertainment/telugu/movies",
     domain:
@@ -99,13 +110,13 @@ const TRAILER_SOURCES = [
   },
 
   {
-    name: "IndiaGlitz Telugu",
+    name:
+      "IndiaGlitz Telugu",
     url:
       "https://indiaglitz.com/telugu",
     domain:
       "indiaglitz.com"
   }
-
 ];
 
 
@@ -114,47 +125,60 @@ const TRAILER_SOURCES = [
    ========================================================= */
 
 const REVIEW_SOURCES = [
-
   {
-    name: "GreatAndhra",
+    name:
+      "GreatAndhra",
+
     archive:
       "https://www.greatandhra.com/movies/reviews/",
+
     domain:
       "greatandhra.com"
   },
 
   {
-    name: "Gulte",
+    name:
+      "Gulte",
+
     archive:
       "https://www.gulte.com/moviereviews",
+
     domain:
       "gulte.com"
   },
 
   {
-    name: "M9.news",
+    name:
+      "M9.news",
+
     archive:
       "https://www.m9.news/reviews/",
+
     domain:
       "m9.news"
   },
 
   {
-    name: "Telugu360",
+    name:
+      "Telugu360",
+
     archive:
       "https://www.telugu360.com/category/movies/telugu-movies-reviews/",
+
     domain:
       "telugu360.com"
   },
 
   {
-    name: "123telugu",
+    name:
+      "123telugu",
+
     archive:
       "https://www.123telugu.com/category/reviews/",
+
     domain:
       "123telugu.com"
   }
-
 ];
 
 
@@ -168,215 +192,17 @@ const REVIEW_SOURCE_NAMES = [
 
 
 /* =========================================================
-   INTERVIEW SOURCES
-   ========================================================= */
-
-const INTERVIEW_SOURCES = [
-
-  {
-    name: "iDream Media",
-    channelId:
-      "UC60U1OtwT9Y6Buecc6P0L5g"
-  },
-
-  {
-    name: "GreatAndhra",
-    channelId:
-      "UCoarMz-cpxAnBy8tszp35wA"
-  },
-
-  {
-    name: "Telugu Filmnagar",
-    channelId:
-      "UCintIUOJEktQBfhEI9XXpuw"
-  },
-
-  {
-    name: "iDream Filmnagar",
-    channelId:
-      "UCt5rjohPa7ue6n9x8qDnREA"
-  }
-
-];
-
-
-/* =========================================================
-   INTERVIEW FILTERS
-   ========================================================= */
-
-const INTERVIEW_TERMS = [
-
-  "interview",
-  "exclusive interview",
-  "special interview",
-  "unfiltered interview",
-  "exclusive conversation",
-  "special conversation",
-  "conversation with",
-  "in conversation",
-  "exclusive chat",
-  "special chat",
-  "chat with",
-  "q&a",
-  "media q&a",
-  "talking movies",
-  "movie talk",
-  "talks about",
-  "talks on",
-  "opens up",
-  "speaks about",
-  "speaks on",
-  "discusses",
-  "shares about",
-  "reveals about"
-
-];
-
-
-const INTERVIEW_CINEMA_TERMS = [
-
-  "movie",
-  "movies",
-  "film",
-  "films",
-  "cinema",
-  "tollywood",
-  "telugu cinema",
-  "telugu movie",
-  "telugu film",
-  "actor",
-  "actress",
-  "hero",
-  "heroine",
-  "director",
-  "producer",
-  "star",
-  "filmmaker",
-  "technician",
-  "music director",
-  "composer",
-  "lyricist",
-  "movie team",
-  "film team",
-  "pre release",
-  "release",
-  "ott",
-  "trailer",
-  "teaser",
-  "song",
-  "songs",
-  "film industry",
-  "cinema industry"
-
-];
-
-
-const INTERVIEW_BLOCKED_TERMS = [
-
-  "public talk",
-  "public talks",
-  "fan meet",
-  "fans gather",
-  "trailer launch",
-  "trailer launch event",
-  "audio launch",
-  "audio launch event",
-  "pre release event",
-  "pre-release event",
-  "pre release function",
-  "press meet",
-  "press conference",
-  "media meet",
-  "media interaction",
-  "press interaction",
-  "live event",
-  "live program",
-  "live programme",
-  "event",
-  "politics",
-  "political",
-  "election",
-  "mla",
-  "mp",
-  "crime",
-  "police",
-  "ias",
-  "ips",
-  "stock market",
-  "health",
-  "doctor",
-  "spiritual",
-  "astrology",
-  "sports",
-  "cricket"
-
-];
-
-
-/* =========================================================
-   XML HELPERS
-   ========================================================= */
-
-function xmlDecode(text = "") {
-
-  return decodeEntities(
-    text
-      .replace(
-        /<!\[CDATA\[/gi,
-        ""
-      )
-      .replace(
-        /\]\]>/gi,
-        ""
-      )
-      .trim()
-  );
-
-}
-
-
-function xmlTag(
-  xml,
-  tag
-) {
-
-  const escaped =
-    tag.replace(
-      /[-/\\^$*+?.()|[\]{}]/g,
-      "\\$&"
-    );
-
-  const match =
-    xml.match(
-      new RegExp(
-        "<" +
-        escaped +
-        "[^>]*>([\\s\\S]*?)</" +
-        escaped +
-        ">",
-        "i"
-      )
-    );
-
-  return match?.[1]
-    ? xmlDecode(
-        match[1]
-      )
-    : "";
-
-}
-
-
-/* =========================================================
    FETCH
    ========================================================= */
 
-async function fetchHTML(
-  url
-) {
+async function fetchHTML(url) {
 
   try {
 
+    /*
+     * M9.news blocks GitHub Actions.
+     * Jina Reader is used only for M9.
+     */
     const requestUrl =
       url.includes(
         "m9.news"
@@ -389,13 +215,11 @@ async function fetchHTML(
         requestUrl,
         {
           headers: {
-
             "User-Agent":
               USER_AGENT,
 
             "Accept":
               "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-
           }
         }
       );
@@ -409,7 +233,6 @@ async function fetchHTML(
       );
 
       return "";
-
     }
 
     return await response.text();
@@ -427,9 +250,7 @@ async function fetchHTML(
     );
 
     return "";
-
   }
-
 }
 
 
@@ -442,86 +263,68 @@ function decodeEntities(
 ) {
 
   return text
-
     .replace(
       /&nbsp;/gi,
       " "
     )
-
     .replace(
       /&amp;/gi,
       "&"
     )
-
     .replace(
       /&quot;/gi,
       '"'
     )
-
     .replace(
       /&#39;/gi,
       "'"
     )
-
     .replace(
       /&#x27;/gi,
       "'"
     )
-
     .replace(
       /&#8217;/gi,
       "'"
     )
-
     .replace(
       /&#8216;/gi,
       "'"
     )
-
     .replace(
       /&#8220;/gi,
       '"'
     )
-
     .replace(
       /&#8221;/gi,
       '"'
     )
-
     .replace(
       /&#8211;/gi,
       "-"
     )
-
     .replace(
       /&#8212;/gi,
       "-"
     )
-
     .replace(
       /&#8230;/gi,
       "..."
     )
-
     .replace(
       /&#(\d+);/g,
       (_, n) => {
 
         try {
-
           return String.fromCharCode(
             Number(n)
           );
-
         } catch {
-
           return "";
-
         }
 
       }
     );
-
 }
 
 
@@ -530,7 +333,6 @@ function stripHTML(
 ) {
 
   return decodeEntities(
-
     html
 
       .replace(
@@ -564,9 +366,7 @@ function stripHTML(
       )
 
       .trim()
-
   );
-
 }
 
 
@@ -585,9 +385,7 @@ function absoluteUrl(
   } catch {
 
     return "";
-
   }
-
 }
 
 
@@ -621,7 +419,6 @@ function extractMeta(
       `<meta[^>]+content=["']([^"']+)["'][^>]+name=["']${property}["']`,
       "i"
     )
-
   ];
 
 
@@ -641,14 +438,11 @@ function extractMeta(
       return decodeEntities(
         match[1]
       ).trim();
-
     }
-
   }
 
 
   return "";
-
 }
 
 
@@ -673,7 +467,6 @@ function extractHeadline(
     return stripHTML(
       h1[1]
     );
-
   }
 
 
@@ -688,7 +481,6 @@ function extractHeadline(
   ) {
 
     return ogTitle;
-
   }
 
 
@@ -704,12 +496,10 @@ function extractHeadline(
     return stripHTML(
       title[1]
     );
-
   }
 
 
   return fallback;
-
 }
 
 
@@ -722,7 +512,6 @@ function extractImage(
 ) {
 
   return (
-
     extractMeta(
       html,
       "og:image"
@@ -734,9 +523,7 @@ function extractImage(
     ) ||
 
     ""
-
   );
-
 }
 
 
@@ -769,7 +556,6 @@ function extractDate(
       html,
       "date"
     )
-
   ];
 
 
@@ -789,9 +575,7 @@ function extractDate(
       return new Date(
         value
       ).toISOString();
-
     }
-
   }
 
 
@@ -823,71 +607,11 @@ function extractDate(
     ) {
 
       return date.toISOString();
-
     }
-
   }
 
 
   return null;
-
-}
-
-
-function extractReleaseDate(
-  text = ""
-) {
-
-  const patterns = [
-
-    /(?:release|release date)\s*:\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})/i,
-
-    /(?:streaming date)\s*:\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})/i,
-
-    /\b(?:Jan|January|Feb|February|Mar|March|Apr|April|May|Jun|June|Jul|July|Aug|August|Sep|September|Oct|October|Nov|November|Dec|December)\s+\d{1,2},\s+\d{4}\b/i
-
-  ];
-
-
-  for (
-    const pattern of patterns
-  ) {
-
-    const match =
-      text.match(
-        pattern
-      );
-
-    if (
-      match
-    ) {
-
-      const value =
-        match[1] ||
-        match[0];
-
-      const date =
-        new Date(
-          value
-        );
-
-      if (
-        !Number.isNaN(
-          date.getTime()
-        )
-      ) {
-
-        return date.toISOString();
-
-      }
-
-    }
-
-  }
-
-
-  return null;
-
 }
 
 
@@ -902,6 +626,10 @@ function extractLinks(
 
   const links = [];
 
+
+  /*
+   * HTML links
+   */
   const htmlRegex =
     /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
 
@@ -931,27 +659,61 @@ function extractLinks(
       !url ||
       !text
     ) {
-
       continue;
-
     }
 
 
     links.push({
-
       url,
-
       text
-
     });
+  }
 
+
+  /*
+   * Markdown links from Jina
+   */
+  const markdownRegex =
+    /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+
+
+  while (
+    (match =
+      markdownRegex.exec(
+        html
+      ))
+  ) {
+
+    const text =
+      stripHTML(
+        match[1]
+      );
+
+    const url =
+      absoluteUrl(
+        match[2],
+        baseUrl
+      );
+
+
+    if (
+      !url ||
+      !text
+    ) {
+      continue;
+    }
+
+
+    links.push({
+      url,
+      text
+    });
   }
 
 
   return uniqueLinks(
     links
   );
-
 }
 
 
@@ -977,16 +739,13 @@ function uniqueLinks(
         link.url,
         link
       );
-
     }
-
   }
 
 
   return [
     ...map.values()
   ];
-
 }
 
 
@@ -995,7 +754,7 @@ function uniqueLinks(
    ========================================================= */
 
 function isBadTitle(
-  title = ""
+  title
 ) {
 
   const value =
@@ -1007,22 +766,36 @@ function isBadTitle(
   const bad = [
 
     "home",
-    "menu",
-    "read more",
-    "view all",
-    "more",
-    "latest news",
-    "movie news",
-    "news",
-    "movie reviews",
-    "reviews",
-    "photos",
-    "gallery",
-    "videos",
-    "video",
-    "advertisement",
-    "subscribe"
 
+    "menu",
+
+    "read more",
+
+    "view all",
+
+    "more",
+
+    "latest news",
+
+    "movie news",
+
+    "news",
+
+    "movie reviews",
+
+    "reviews",
+
+    "photos",
+
+    "gallery",
+
+    "videos",
+
+    "video",
+
+    "advertisement",
+
+    "subscribe"
   ];
 
 
@@ -1031,14 +804,18 @@ function isBadTitle(
       value
     )
   ) {
-
     return true;
-
   }
 
 
-  return value.length < 10;
+  if (
+    value.length < 10
+  ) {
+    return true;
+  }
 
+
+  return false;
 }
 
 
@@ -1063,9 +840,7 @@ function isNewsLink(
       source.domain
     )
   ) {
-
     return false;
-
   }
 
 
@@ -1074,9 +849,7 @@ function isNewsLink(
       text
     )
   ) {
-
     return false;
-
   }
 
 
@@ -1084,27 +857,31 @@ function isNewsLink(
     text.length < 15 ||
     text.length > 220
   ) {
-
     return false;
-
   }
 
 
-  const blocked = [
+  /*
+   * Remove obvious navigation.
+   */
+  const blocked =
+    [
+      "/category/",
+      "/tag/",
+      "/author/",
+      "/page/",
+      "/search",
+      "/contact",
+      "/about",
+      "/privacy",
+      "/terms"
+    ];
 
-    "/category/",
-    "/tag/",
-    "/author/",
-    "/page/",
-    "/search",
-    "/contact",
-    "/about",
-    "/privacy",
-    "/terms"
 
-  ];
-
-
+  /*
+   * Keep category landing pages
+   * only as source archives.
+   */
   if (
     blocked.some(
       part =>
@@ -1115,43 +892,44 @@ function isNewsLink(
   ) {
 
     return false;
-
   }
 
 
-  const newsWords = [
-
-    "movie",
-    "film",
-    "hero",
-    "actress",
-    "actor",
-    "director",
-    "trailer",
-    "teaser",
-    "song",
-    "release",
-    "ott",
-    "box office",
-    "shooting",
-    "first look",
-    "poster",
-    "glimpse",
-    "update",
-    "nani",
-    "prabhas",
-    "allu",
-    "mahesh",
-    "ntr",
-    "ram charan",
-    "vijay",
-    "rashmika",
-    "samantha",
-    "chiranjeevi",
-    "pawan kalyan",
-    "deverakonda"
-
-  ];
+  /*
+   * News keywords.
+   */
+  const newsWords =
+    [
+      "movie",
+      "film",
+      "hero",
+      "actress",
+      "actor",
+      "director",
+      "trailer",
+      "teaser",
+      "song",
+      "release",
+      "ott",
+      "box office",
+      "shooting",
+      "first look",
+      "poster",
+      "glimpse",
+      "update",
+      "nani",
+      "prabhas",
+      "allu",
+      "mahesh",
+      "ntr",
+      "ram charan",
+      "vijay",
+      "rashmika",
+      "samantha",
+      "chiranjeevi",
+      "pawan kalyan",
+      "deverakonda"
+    ];
 
 
   const combined =
@@ -1168,135 +946,12 @@ function isNewsLink(
         word
       )
   );
-
 }
 
 
 /* =========================================================
-   ARTICLE BODY EXTRACTION
+   NEWS SUMMARY
    ========================================================= */
-
-function extractArticleText(
-  html
-) {
-
-  const candidates = [
-
-    /<article\b[^>]*>([\s\S]*?)<\/article>/i,
-
-    /<main\b[^>]*>([\s\S]*?)<\/main>/i,
-
-    /<div[^>]+class=["'][^"']*(?:article-body|article-content|story-body|story-content|post-content|entry-content|content-body)[^"']*["'][^>]*>([\s\S]*?)<\/div>/i
-
-  ];
-
-
-  for (
-    const pattern of candidates
-  ) {
-
-    const match =
-      html.match(
-        pattern
-      );
-
-    if (
-      match?.[1]
-    ) {
-
-      const text =
-        stripHTML(
-          match[1]
-        );
-
-      if (
-        text.length >= 80
-      ) {
-
-        return text;
-
-      }
-
-    }
-
-  }
-
-
-  return stripHTML(
-    html
-  );
-
-}
-
-
-/* =========================================================
-   SUMMARY CLEANING
-   ========================================================= */
-
-function cleanSummaryText(
-  text = ""
-) {
-
-  let clean =
-    decodeEntities(
-      text
-    )
-      .replace(
-        /\s+/g,
-        " "
-      )
-      .trim();
-
-
-  const junkPatterns = [
-
-    /skip to main content/gi,
-    /search for/gi,
-    /home/gi,
-    /movie news/gi,
-    /political news/gi,
-    /movie reviews/gi,
-    /ott reviews/gi,
-    /photos/gi,
-    /videos/gi,
-    /interviews/gi,
-    /ott/gi,
-    /more/gi,
-    /trends/gi,
-    /paparazzi pics/gi,
-    /overseas/gi,
-    /press release/gi,
-    /life style/gi,
-    /movie schedule/gi,
-    /movie-schedule/gi,
-    /gallery/gi,
-    /×/g
-
-  ];
-
-
-  for (
-    const pattern of junkPatterns
-  ) {
-
-    clean =
-      clean.replace(
-        pattern,
-        " "
-      );
-
-  }
-
-
-  return clean
-    .replace(
-      /\s+/g,
-      " "
-    )
-    .trim();
-
-}
-
 
 function makeSummary(
   text,
@@ -1304,35 +959,25 @@ function makeSummary(
 ) {
 
   let clean =
-    cleanSummaryText(
-      text
-    );
-
-
-  const normalizedTitle =
-    title
-      .toLowerCase()
+    text
       .replace(
-        /[^a-z0-9]+/g,
+        /\s+/g,
         " "
       )
       .trim();
 
 
-  const normalizedClean =
+  /*
+   * Remove title if repeated
+   * at beginning of article.
+   */
+  if (
     clean
       .toLowerCase()
-      .replace(
-        /[^a-z0-9]+/g,
-        " "
+      .startsWith(
+        title
+          .toLowerCase()
       )
-      .trim();
-
-
-  if (
-    normalizedClean.startsWith(
-      normalizedTitle
-    )
   ) {
 
     clean =
@@ -1341,7 +986,6 @@ function makeSummary(
           title.length
         )
         .trim();
-
   }
 
 
@@ -1350,102 +994,44 @@ function makeSummary(
   ) {
 
     return `Latest Telugu cinema update: ${title}.`;
-
   }
 
 
-  const sentences =
+  /*
+   * Take first useful sentence.
+   */
+  const sentence =
     clean.match(
-      /[^.!?]+[.!?]/g
-    ) || [];
+      /^(.{60,260}?[.!?])\s/
+    );
 
 
-  let summary = "";
-
-
-  for (
-    const sentence of sentences
-  ) {
-
-    const candidate =
-      sentence.trim();
-
-
-    if (
-      candidate.length < 45
-    ) {
-
-      continue;
-
-    }
-
-
-    const lower =
-      candidate.toLowerCase();
-
-
-    if (
-      lower.includes(
-        "subscribe"
-      ) ||
-      lower.includes(
-        "advertisement"
-      ) ||
-      lower.includes(
-        "follow us"
-      ) ||
-      lower.includes(
-        "read more"
-      )
-    ) {
-
-      continue;
-
-    }
-
-
-    summary =
-      candidate;
-
-    break;
-
-  }
-
-
-  if (
-    !summary
-  ) {
-
-    summary =
-      clean.slice(
-        0,
-        220
-      );
-
-  }
-
-
-  if (
-    summary.length > 220
-  ) {
-
-    summary =
-      summary
-        .slice(
+  let summary =
+    sentence
+      ? sentence[1]
+      : clean.slice(
           0,
           220
-        )
-        .replace(
-          /\s+\S*$/,
-          ""
-        ) +
-      "...";
+        );
 
+
+  /*
+   * Don't leave an incomplete
+   * word at the end.
+   */
+  if (
+    summary.length >= 220
+  ) {
+
+    summary =
+      summary.replace(
+        /\s+\S*$/,
+        "..."
+      );
   }
 
 
   return summary;
-
 }
 
 
@@ -1467,9 +1053,7 @@ async function readNewsArticle(
   if (
     !html
   ) {
-
     return null;
-
   }
 
 
@@ -1486,9 +1070,7 @@ async function readNewsArticle(
       title
     )
   ) {
-
     return null;
-
   }
 
 
@@ -1504,39 +1086,15 @@ async function readNewsArticle(
     );
 
 
-  /*
-   * Prefer article body instead of the entire page.
-   * This prevents navigation and footer content
-   * from becoming the news summary.
-   */
-
-  const articleText =
-    extractArticleText(
+  const text =
+    stripHTML(
       html
     );
 
 
-  /*
-   * Prefer description metadata when available.
-   */
-
-  const metaDescription =
-    extractMeta(
-      html,
-      "description"
-    );
-
-
-  const summarySource =
-    metaDescription &&
-    metaDescription.length >= 60
-      ? metaDescription
-      : articleText;
-
-
   const summary =
     makeSummary(
-      summarySource,
+      text,
       title
     );
 
@@ -1566,9 +1124,7 @@ async function readNewsArticle(
 
     category:
       "Telugu Cinema"
-
   };
-
 }
 
 
@@ -1612,9 +1168,7 @@ async function collectNews() {
     if (
       !html
     ) {
-
       continue;
-
     }
 
 
@@ -1646,7 +1200,8 @@ async function collectNews() {
 
 
     for (
-      const candidate of candidates
+      const candidate of
+        candidates
     ) {
 
       const article =
@@ -1668,11 +1223,8 @@ async function collectNews() {
         all.push(
           article
         );
-
       }
-
     }
-
   }
 
 
@@ -1680,10 +1232,7 @@ async function collectNews() {
     all
   )
     .sort(
-      (
-        a,
-        b
-      ) => {
+      (a, b) => {
 
         const ad =
           a.publishedAt
@@ -1700,14 +1249,12 @@ async function collectNews() {
             : 0;
 
         return bd - ad;
-
       }
     )
     .slice(
       0,
       30
     );
-
 }
 
 
@@ -1730,7 +1277,6 @@ function normalizeTitle(
       " "
     )
     .trim();
-
 }
 
 
@@ -1759,9 +1305,7 @@ function similarity(
     !aa.size ||
     !bb.size
   ) {
-
     return 0;
-
   }
 
 
@@ -1779,9 +1323,7 @@ function similarity(
     ) {
 
       common++;
-
     }
-
   }
 
 
@@ -1792,7 +1334,6 @@ function similarity(
       bb.size
     )
   );
-
 }
 
 
@@ -1817,7 +1358,6 @@ function dedupeNews(
           ) {
 
             return true;
-
           }
 
 
@@ -1827,7 +1367,6 @@ function dedupeNews(
               item.title
             ) >= 0.72
           );
-
         }
       );
 
@@ -1839,19 +1378,16 @@ function dedupeNews(
       output.push(
         item
       );
-
     }
-
   }
 
 
   return output;
-
 }
 
 
 /* =========================================================
-   TRAILER FILTER
+   TRAILERS
    ========================================================= */
 
 function isTrailerLink(
@@ -1862,6 +1398,7 @@ function isTrailerLink(
     link.text
       .toLowerCase();
 
+
   const url =
     link.url
       .toLowerCase();
@@ -1870,21 +1407,18 @@ function isTrailerLink(
   if (
     text.length < 8
   ) {
-
     return false;
-
   }
 
 
-  const keywords = [
-
-    "official trailer",
-    "trailer",
-    "official teaser",
-    "teaser",
-    "glimpse"
-
-  ];
+  const keywords =
+    [
+      "official trailer",
+      "trailer",
+      "official teaser",
+      "teaser",
+      "glimpse"
+    ];
 
 
   return keywords.some(
@@ -1899,7 +1433,6 @@ function isTrailerLink(
         )
       )
   );
-
 }
 
 
@@ -1908,31 +1441,18 @@ function isTrailerLink(
    ========================================================= */
 
 function extractYouTubeId(
-  html = ""
+  html
 ) {
 
   const patterns = [
 
     /youtube\.com\/embed\/([A-Za-z0-9_-]{11})/i,
 
-    /youtube-nocookie\.com\/embed\/([A-Za-z0-9_-]{11})/i,
-
-    /youtube\.com\/watch\?[^"'&\s]*v=([A-Za-z0-9_-]{11})/i,
-
     /youtube\.com\/watch\?v=([A-Za-z0-9_-]{11})/i,
 
     /youtu\.be\/([A-Za-z0-9_-]{11})/i,
 
-    /youtube\.com\/shorts\/([A-Za-z0-9_-]{11})/i,
-
-    /["']videoId["']\s*:\s*["']([A-Za-z0-9_-]{11})["']/i,
-
-    /["']video_id["']\s*:\s*["']([A-Za-z0-9_-]{11})["']/i,
-
-    /data-video-id=["']([A-Za-z0-9_-]{11})["']/i,
-
-    /data-youtube-id=["']([A-Za-z0-9_-]{11})["']/i
-
+    /youtube-nocookie\.com\/embed\/([A-Za-z0-9_-]{11})/i
   ];
 
 
@@ -1951,401 +1471,11 @@ function extractYouTubeId(
     ) {
 
       return match[1];
-
     }
-
   }
 
 
   return "";
-
-}
-
-
-/* =========================================================
-   YOUTUBE TITLE MATCHING
-   ========================================================= */
-
-function normalizeYouTubeTitle(
-  text = ""
-) {
-
-  return text
-    .toLowerCase()
-    .replace(
-      /&amp;/g,
-      "and"
-    )
-    .replace(
-      /[^a-z0-9]+/g,
-      " "
-    )
-    .replace(
-      /\s+/g,
-      " "
-    )
-    .trim();
-
-}
-
-
-function youtubeTitleTokens(
-  text = ""
-) {
-
-  const stopWords =
-    new Set([
-
-      "official",
-      "trailer",
-      "teaser",
-      "video",
-      "hd",
-      "telugu",
-      "movie",
-      "film",
-      "the",
-      "a",
-      "an",
-      "and",
-      "of",
-      "in",
-      "on",
-      "for",
-      "out",
-      "now",
-      "new",
-      "latest"
-
-    ]);
-
-
-  return new Set(
-
-    normalizeYouTubeTitle(
-      text
-    )
-      .split(" ")
-      .filter(
-        word =>
-          word.length >= 2 &&
-          !stopWords.has(
-            word
-          )
-      )
-
-  );
-
-}
-
-
-function youtubeTitleSimilarity(
-  a,
-  b
-) {
-
-  const aa =
-    youtubeTitleTokens(
-      a
-    );
-
-  const bb =
-    youtubeTitleTokens(
-      b
-    );
-
-
-  if (
-    !aa.size ||
-    !bb.size
-  ) {
-
-    return 0;
-
-  }
-
-
-  let common = 0;
-
-
-  for (
-    const token of aa
-  ) {
-
-    if (
-      bb.has(
-        token
-      )
-    ) {
-
-      common++;
-
-    }
-
-  }
-
-
-  return (
-    common /
-    Math.max(
-      aa.size,
-      bb.size
-    )
-  );
-
-}
-
-
-/* =========================================================
-   YOUTUBE SEARCH FALLBACK
-   ========================================================= */
-
-async function findYouTubeTrailerId(
-  title
-) {
-
-  try {
-
-    const searchQuery =
-      `${title} official Telugu trailer`;
-
-
-    const searchUrl =
-      `https://www.youtube.com/results?search_query=${encodeURIComponent(searchQuery)}`;
-
-
-    const html =
-      await fetchHTML(
-        searchUrl
-      );
-
-
-    if (
-      !html
-    ) {
-
-      return "";
-
-    }
-
-
-    const candidates = [];
-
-
-    const videoRegex =
-      /"videoId":"([A-Za-z0-9_-]{11})"[\s\S]{0,1800}?"title":\{"runs":\[\{"text":"([^"]+)/gi;
-
-
-    let match;
-
-
-    while (
-      (match =
-        videoRegex.exec(
-          html
-        ))
-    ) {
-
-      const videoId =
-        match[1];
-
-      const videoTitle =
-        decodeEntities(
-          match[2]
-        );
-
-
-      if (
-        !candidates.some(
-          item =>
-            item.videoId ===
-            videoId
-        )
-      ) {
-
-        candidates.push({
-
-          videoId,
-
-          title:
-            videoTitle
-
-        });
-
-      }
-
-    }
-
-
-    const reverseRegex =
-      /"title":\{"runs":\[\{"text":"([^"]+)"[\s\S]{0,1200}?"videoId":"([A-Za-z0-9_-]{11})"/gi;
-
-
-    while (
-      (match =
-        reverseRegex.exec(
-          html
-        ))
-    ) {
-
-      const videoTitle =
-        decodeEntities(
-          match[1]
-        );
-
-      const videoId =
-        match[2];
-
-
-      if (
-        !candidates.some(
-          item =>
-            item.videoId ===
-            videoId
-        )
-      ) {
-
-        candidates.push({
-
-          videoId,
-
-          title:
-            videoTitle
-
-        });
-
-      }
-
-    }
-
-
-    if (
-      !candidates.length
-    ) {
-
-      return "";
-
-    }
-
-
-    const scored =
-      candidates
-        .map(
-          item => {
-
-            const lower =
-              item.title
-                .toLowerCase();
-
-
-            let score =
-              youtubeTitleSimilarity(
-                title,
-                item.title
-              );
-
-
-            if (
-              lower.includes(
-                "official"
-              )
-            ) {
-
-              score += 0.08;
-
-            }
-
-
-            if (
-              lower.includes(
-                "trailer"
-              )
-            ) {
-
-              score += 0.10;
-
-            }
-
-
-            if (
-              lower.includes(
-                "teaser"
-              )
-            ) {
-
-              score += 0.06;
-
-            }
-
-
-            if (
-              lower.includes(
-                "telugu"
-              )
-            ) {
-
-              score += 0.08;
-
-            }
-
-
-            return {
-
-              ...item,
-
-              score
-
-            };
-
-          }
-        )
-        .sort(
-          (
-            a,
-            b
-          ) =>
-            b.score -
-            a.score
-        );
-
-
-    const best =
-      scored[0];
-
-
-    if (
-      !best ||
-      best.score < 0.45
-    ) {
-
-      return "";
-
-    }
-
-
-    console.log(
-      `YouTube match: ${title} -> ${best.title} -> ${best.videoId} (${best.score.toFixed(2)})`
-    );
-
-
-    return best.videoId;
-
-  } catch (
-    error
-  ) {
-
-    console.log(
-      `YouTube search failed for: ${title}`
-    );
-
-    console.log(
-      error.message
-    );
-
-    return "";
-
-  }
-
 }
 
 
@@ -2367,9 +1497,7 @@ async function readTrailer(
   if (
     !html
   ) {
-
     return null;
-
   }
 
 
@@ -2394,10 +1522,12 @@ async function readTrailer(
   ) {
 
     return null;
-
   }
 
 
+  /*
+   * We only want Telugu trailers.
+   */
   const combined =
     (
       title +
@@ -2408,18 +1538,13 @@ async function readTrailer(
     ).toLowerCase();
 
 
-  const trailerWords = [
-
-    "telugu",
-    "tollywood",
-    "telugu movie",
-    "telugu film",
-    "telugu trailer",
-    "telugu teaser",
-    "telugu cinema",
-    "telugu version"
-
-  ];
+  const trailerWords =
+    [
+      "telugu",
+      "tollywood",
+      "telugu movie",
+      "telugu film"
+    ];
 
 
   const appearsTelugu =
@@ -2432,19 +1557,17 @@ async function readTrailer(
 
 
   /*
-   * Every trailer must pass the Telugu check.
+   * IndiaGlitz Telugu is already
+   * a Telugu section, so it does
+   * not need the keyword check.
    */
-
   if (
+    source.name !==
+      "IndiaGlitz Telugu" &&
     !appearsTelugu
   ) {
 
-    console.log(
-      `Rejected non-Telugu trailer: ${title}`
-    );
-
     return null;
-
   }
 
 
@@ -2454,53 +1577,16 @@ async function readTrailer(
     );
 
 
-  /*
-   * First find the YouTube ID directly.
-   */
-
-  let youtubeId =
+  const youtubeId =
     extractYouTubeId(
       html
     );
 
 
-  /*
-   * If the source page doesn't expose
-   * the YouTube ID, search YouTube.
-   */
-
-  if (
-    !youtubeId
-  ) {
-
-    youtubeId =
-      await findYouTubeTrailerId(
-        title
-      );
-
-  }
-
-
-  /*
-   * Do not publish a trailer without
-   * a verified YouTube video.
-   */
-
-  if (
-    !youtubeId
-  ) {
-
-    console.log(
-      `No verified YouTube trailer found: ${title}`
-    );
-
-    return null;
-
-  }
-
-
   const thumbnail =
-    `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`;
+    youtubeId
+      ? `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`
+      : image;
 
 
   const publishedAt =
@@ -2520,9 +1606,6 @@ async function readTrailer(
       source.name,
 
     url:
-      `https://www.youtube.com/watch?v=${youtubeId}`,
-
-    originalUrl:
       candidate.url,
 
     img:
@@ -2533,13 +1616,8 @@ async function readTrailer(
     publishedAt,
 
     language:
-      "Telugu",
-
-    category:
-      "Telugu Trailers"
-
+      "Telugu"
   };
-
 }
 
 
@@ -2583,9 +1661,7 @@ async function collectTrailers() {
     if (
       !html
     ) {
-
       continue;
-
     }
 
 
@@ -2603,7 +1679,7 @@ async function collectTrailers() {
         )
         .slice(
           0,
-          20
+          15
         );
 
 
@@ -2613,7 +1689,8 @@ async function collectTrailers() {
 
 
     for (
-      const candidate of candidates
+      const candidate of
+        candidates
     ) {
 
       const trailer =
@@ -2635,11 +1712,8 @@ async function collectTrailers() {
         all.push(
           trailer
         );
-
       }
-
     }
-
   }
 
 
@@ -2647,10 +1721,7 @@ async function collectTrailers() {
     all
   )
     .sort(
-      (
-        a,
-        b
-      ) => {
+      (a, b) => {
 
         const ad =
           a.publishedAt
@@ -2667,20 +1738,14 @@ async function collectTrailers() {
             : 0;
 
         return bd - ad;
-
       }
     )
     .slice(
       0,
       12
     );
-
 }
 
-
-/* =========================================================
-   TRAILER DEDUPLICATION
-   ========================================================= */
 
 function dedupeTrailers(
   items
@@ -2701,21 +1766,7 @@ function dedupeTrailers(
             existing.url ===
             item.url
           ) {
-
             return true;
-
-          }
-
-
-          if (
-            existing.youtubeId &&
-            item.youtubeId &&
-            existing.youtubeId ===
-            item.youtubeId
-          ) {
-
-            return true;
-
           }
 
 
@@ -2725,7 +1776,6 @@ function dedupeTrailers(
               item.title
             ) >= 0.75
           );
-
         }
       );
 
@@ -2737,376 +1787,88 @@ function dedupeTrailers(
       output.push(
         item
       );
-
     }
-
   }
 
 
   return output;
-
 }
 
 
 /* =========================================================
-   MOVIE INTERVIEW FILTER
+   REVIEW DATE
    ========================================================= */
 
-function isMovieInterview(
-  title,
-  description = "",
-  sourceName = ""
+function extractReleaseDate(
+  text
 ) {
 
-  const combined =
-    (
-      title +
-      " " +
-      description
-    )
-      .toLowerCase()
-      .replace(
-        /[^\p{L}\p{N}]+/gu,
-        " "
-      );
-
-
-  const source =
-    sourceName.toLowerCase();
-
-
-  /*
-   * Strongly reject event/publicity content.
-   */
-
-  if (
-    INTERVIEW_BLOCKED_TERMS.some(
-      term =>
-        combined.includes(
-          term
-        )
-    )
-  ) {
-
-    return false;
-
-  }
-
-
-  const hasInterviewTerm =
-    INTERVIEW_TERMS.some(
-      term =>
-        combined.includes(
-          term
-        )
+  const clean =
+    text.replace(
+      /\s+/g,
+      " "
     );
 
 
-  if (
-    !hasInterviewTerm
-  ) {
+  const patterns = [
 
-    return false;
+    /Release\s*Date\s*:\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})/i,
 
-  }
+    /Release\s*Date\s*:\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})/i,
 
+    /Streaming\s*Date\s*:\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})/i,
 
-  const hasCinemaTerm =
-    INTERVIEW_CINEMA_TERMS.some(
-      term =>
-        combined.includes(
-          term
-        )
-    );
+    /Streaming\s*Date\s*:\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})/i,
 
+    /Release\s*Date\s*[-–—]\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})/i,
 
-  /*
-   * Dedicated cinema channels can publish
-   * titles without explicitly saying "movie".
-   */
-
-  if (
-    hasCinemaTerm &&
-    (
-      source.includes(
-        "idream"
-      ) ||
-      source.includes(
-        "greatandhra"
-      ) ||
-      source.includes(
-        "filmnagar"
-      )
-    )
-  ) {
-
-    return true;
-
-  }
-
-
-  return hasCinemaTerm;
-
-}
-
-
-/* =========================================================
-   YOUTUBE URL
-   ========================================================= */
-
-function extractYoutubeIdFromUrl(
-  url = ""
-) {
-
-  const match =
-    url.match(
-      /(?:v=|youtu\.be\/|youtube\.com\/shorts\/)([A-Za-z0-9_-]{11})/i
-    );
-
-
-  return match?.[1] || "";
-
-}
-
-
-/* =========================================================
-   COLLECT INTERVIEWS
-   ========================================================= */
-
-async function collectInterviews() {
-
-  const all = [];
-
-
-  console.log("");
-  console.log(
-    "======================================"
-  );
-  console.log(
-    "TELUGU MOVIE INTERVIEWS"
-  );
-  console.log(
-    "======================================"
-  );
+    /Streaming\s*Date\s*[-–—]\s*([A-Za-z]+\s+\d{1,2},\s*\d{4})/i
+  ];
 
 
   for (
-    const source of INTERVIEW_SOURCES
+    const pattern of patterns
   ) {
 
-    const rssUrl =
-      `https://www.youtube.com/feeds/videos.xml?channel_id=${source.channelId}`;
-
-
-    console.log("");
-    console.log(
-      `Loading interview source: ${source.name}`
-    );
-
-
-    const xml =
-      await fetchHTML(
-        rssUrl
+    const match =
+      clean.match(
+        pattern
       );
 
 
     if (
-      !xml
+      match?.[1]
     ) {
 
-      continue;
-
-    }
-
-
-    const entries =
-      xml.match(
-        /<entry>[\s\S]*?<\/entry>/gi
-      ) || [];
-
-
-    console.log(
-      `${source.name}: ${entries.length} YouTube entries found`
-    );
-
-
-    let sourceCount = 0;
-
-
-    for (
-      const entry of entries
-    ) {
-
-      const videoId =
-        xmlTag(
-          entry,
-          "yt:videoId"
-        ) ||
-        extractYoutubeIdFromUrl(
-          xmlTag(
-            entry,
-            "link"
-          )
-        );
-
-
-      const title =
-        xmlTag(
-          entry,
-          "title"
-        );
-
-
-      const description =
-        xmlTag(
-          entry,
-          "media:description"
-        );
-
-
-      const publishedAt =
-        xmlTag(
-          entry,
-          "published"
-        ) ||
-        xmlTag(
-          entry,
-          "updated"
+      const date =
+        new Date(
+          match[1]
         );
 
 
       if (
-        !videoId ||
-        !title ||
-        !isMovieInterview(
-          title,
-          description,
-          source.name
+        !Number.isNaN(
+          date.getTime()
         )
       ) {
 
-        continue;
-
+        return date
+          .toISOString()
+          .slice(
+            0,
+            10
+          );
       }
-
-
-      all.push({
-
-        id:
-          videoId,
-
-        youtubeId:
-          videoId,
-
-        title,
-
-        source:
-          source.name,
-
-        url:
-          `https://www.youtube.com/watch?v=${videoId}`,
-
-        img:
-          `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`,
-
-        publishedAt:
-          publishedAt &&
-          !Number.isNaN(
-            new Date(
-              publishedAt
-            ).getTime()
-          )
-            ? new Date(
-                publishedAt
-              ).toISOString()
-            : null,
-
-        language:
-          "Telugu",
-
-        category:
-          "Movie Interviews"
-
-      });
-
-
-      sourceCount++;
-
     }
-
-
-    console.log(
-      `${source.name}: ${sourceCount} interviews accepted`
-    );
-
   }
 
 
-  const seen =
-    new Set();
-
-
-  return all
-
-    .filter(
-      item => {
-
-        if (
-          seen.has(
-            item.youtubeId
-          )
-        ) {
-
-          return false;
-
-        }
-
-
-        seen.add(
-          item.youtubeId
-        );
-
-
-        return true;
-
-      }
-    )
-
-    .sort(
-      (
-        a,
-        b
-      ) => {
-
-        const ad =
-          a.publishedAt
-            ? new Date(
-                a.publishedAt
-              ).getTime()
-            : 0;
-
-        const bd =
-          b.publishedAt
-            ? new Date(
-                b.publishedAt
-              ).getTime()
-            : 0;
-
-        return bd - ad;
-
-      }
-    )
-
-    .slice(
-      0,
-      20
-    );
-
+  return null;
 }
 
 
 /* =========================================================
-   REVIEW TITLE CLEANING
+   REVIEW TITLE
    ========================================================= */
 
 function cleanTitle(
@@ -3128,187 +1890,193 @@ function cleanTitle(
       .trim();
 
 
-  t =
-    t
-      .replace(
-        /^['"“”‘’]+/,
-        ""
-      )
-      .replace(
-        /['"“”‘’]+$/,
-        ""
-      )
-      .trim();
+  t = t
+    .replace(
+      /^['"“”‘’]+/,
+      ""
+    )
+    .replace(
+      /['"“”‘’]+$/,
+      ""
+    )
+    .trim();
 
 
-  t =
-    t.replace(
-      /^movie\s*name\s*:\s*/i,
+  t = t.replace(
+    /^movie\s*name\s*:\s*/i,
+    ""
+  );
+
+
+  t = t.replace(
+    /\s+(?:release|streaming)\s+date\s*:.*$/i,
+    ""
+  );
+
+
+  t = t.replace(
+    /\s+123telugu\.com\s+rating\s*:.*$/i,
+    ""
+  );
+
+
+  t = t
+    .replace(
+      /^review\s*:\s*/i,
+      ""
+    )
+    .replace(
+      /^movie\s+review\s*:\s*/i,
+      ""
+    )
+    .replace(
+      /^telugu\s+movie\s+review\s*:\s*/i,
+      ""
+    )
+    .replace(
+      /^ott\s+review\s*:\s*/i,
       ""
     );
 
 
-  t =
-    t.replace(
-      /\s+(?:release|streaming)\s+date\s*:.*$/i,
-      ""
-    );
+  t = t.replace(
+    /\s+(?:movie\s+)?review\s*[:\-–—].*$/i,
+    ""
+  );
 
 
-  t =
-    t.replace(
-      /\s+123telugu\.com\s+rating\s*:.*$/i,
-      ""
-    );
+  t = t.replace(
+    /\s+movie\s+review\s*$/i,
+    ""
+  );
 
 
-  t =
-    t
-      .replace(
-        /^review\s*:\s*/i,
-        ""
-      )
-      .replace(
-        /^movie\s+review\s*:\s*/i,
-        ""
-      )
-      .replace(
-        /^telugu\s+movie\s+review\s*:\s*/i,
-        ""
-      )
-      .replace(
-        /^ott\s+review\s*:\s*/i,
-        ""
-      );
-
-
-  t =
-    t.replace(
-      /\s+(?:movie\s+)?review\s*[:\-–—].*$/i,
-      ""
-    );
-
-
-  t =
-    t.replace(
-      /\s+movie\s+review\s*$/i,
-      ""
-    );
-
-
-  t =
-    t.replace(
-      /\s+review\s*$/i,
-      ""
-    );
+  t = t.replace(
+    /\s+review\s*$/i,
+    ""
+  );
 
 
   const lower =
     t.toLowerCase();
 
 
-  const knownTitles = [
-
-    [
-      "the paradise",
-      "The Paradise"
-    ],
-
-    [
-      "mahendragiri varahi",
-      "Mahendragiri Varahi"
-    ],
-
-    [
-      "epic first semester",
-      "Epic First Semester"
-    ],
-
-    [
-      "ramba oorvasi menaka",
-      "Ramba Oorvasi Menaka"
-    ],
-
-    [
-      "ramba oorvashi menaka",
-      "Ramba Oorvasi Menaka"
-    ],
-
-    [
-      "sardar 2",
-      "Sardar 2"
-    ],
-
-    [
-      "sardaar 2",
-      "Sardar 2"
-    ],
-
-    [
-      "bethlehem kudumba unit",
-      "Bethlehem Kudumba Unit"
-    ],
-
-    [
-      "i'm game",
-      "I'm Game"
-    ],
-
-    [
-      "im game",
-      "I'm Game"
-    ],
-
-    [
-      "romanchakam",
-      "Romanchakam"
-    ],
-
-    [
-      "irumudi",
-      "Irumudi"
-    ],
-
-    [
-      "pallaburusu",
-      "Pallaburusu"
-    ],
-
-    [
-      "toxic",
-      "Toxic"
-    ]
-
-  ];
-
-
-  for (
-    const [
-      search,
-      result
-    ] of knownTitles
+  if (
+    lower.includes(
+      "the paradise"
+    )
   ) {
+    return "The Paradise";
+  }
 
-    if (
-      lower.includes(
-        search
-      )
-    ) {
 
-      return result;
+  if (
+    lower.includes(
+      "mahendragiri varahi"
+    )
+  ) {
+    return "Mahendragiri Varahi";
+  }
 
-    }
 
+  if (
+    lower.includes(
+      "epic first semester"
+    ) ||
+    lower === "epic"
+  ) {
+    return "Epic First Semester";
+  }
+
+
+  if (
+    lower.includes(
+      "ramba oorvasi menaka"
+    ) ||
+    lower.includes(
+      "ramba oorvashi menaka"
+    )
+  ) {
+    return "Ramba Oorvasi Menaka";
+  }
+
+
+  if (
+    lower.includes(
+      "sardar 2"
+    ) ||
+    lower.includes(
+      "sardaar 2"
+    )
+  ) {
+    return "Sardar 2";
+  }
+
+
+  if (
+    lower.includes(
+      "bethlehem kudumba unit"
+    )
+  ) {
+    return "Bethlehem Kudumba Unit";
+  }
+
+
+  if (
+    lower.includes(
+      "i'm game"
+    ) ||
+    lower.includes(
+      "im game"
+    )
+  ) {
+    return "I'm Game";
+  }
+
+
+  if (
+    lower.includes(
+      "romanchakam"
+    )
+  ) {
+    return "Romanchakam";
+  }
+
+
+  if (
+    lower.includes(
+      "irumudi"
+    )
+  ) {
+    return "Irumudi";
+  }
+
+
+  if (
+    lower.includes(
+      "pallaburusu"
+    )
+  ) {
+    return "Pallaburusu";
+  }
+
+
+  if (
+    lower.includes(
+      "toxic"
+    ) &&
+    lower.length < 30
+  ) {
+    return "Toxic";
   }
 
 
   return t;
-
 }
 
 
 /* =========================================================
-   REVIEW MOVIE TITLE
+   REVIEW TITLE EXTRACTION
    ========================================================= */
 
 function extractMovieTitle(
@@ -3336,9 +2104,7 @@ function extractMovieTitle(
       return cleanTitle(
         match[1]
       );
-
     }
-
   }
 
 
@@ -3360,9 +2126,7 @@ function extractMovieTitle(
       return cleanTitle(
         match[1]
       );
-
     }
-
   }
 
 
@@ -3372,7 +2136,6 @@ function extractMovieTitle(
       candidateText
     )
   );
-
 }
 
 
@@ -3395,47 +2158,30 @@ function extractRating(
   const patterns = {
 
     GreatAndhra: [
-
       /Movie\s*:\s*.*?Rating\s*:\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-
       /Rating\s*:\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
-
     ],
 
     Gulte: [
-
       /Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-
       /(?:^|\s)(\d+(?:\.\d+)?)\s*\/\s*5/i
-
     ],
 
     "M9.news": [
-
       /(?:OUR\s+)?RATING\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-
       /M9\s*Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-
       /Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
-
     ],
 
     Telugu360: [
-
       /Telugu360\s*Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-
       /Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
-
     ],
 
     "123telugu": [
-
       /123telugu(?:\.com)?\s*Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-
       /Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
-
     ]
-
   };
 
 
@@ -3453,9 +2199,7 @@ function extractRating(
     if (
       !match
     ) {
-
       continue;
-
     }
 
 
@@ -3474,19 +2218,16 @@ function extractRating(
     ) {
 
       return rating;
-
     }
-
   }
 
 
   return null;
-
 }
 
 
 /* =========================================================
-   REVIEW LINK FILTER
+   REVIEW CANDIDATES
    ========================================================= */
 
 function isReviewLink(
@@ -3506,9 +2247,7 @@ function isReviewLink(
       source.domain
     )
   ) {
-
     return false;
-
   }
 
 
@@ -3517,9 +2256,7 @@ function isReviewLink(
       link.text
     )
   ) {
-
     return false;
-
   }
 
 
@@ -3527,9 +2264,7 @@ function isReviewLink(
     link.text.length < 4 ||
     link.text.length > 250
   ) {
-
     return false;
-
   }
 
 
@@ -3545,7 +2280,6 @@ function isReviewLink(
       url !==
         source.archive
     );
-
   }
 
 
@@ -3557,7 +2291,6 @@ function isReviewLink(
     return url.includes(
       "/moviereviews/"
     );
-
   }
 
 
@@ -3573,7 +2306,6 @@ function isReviewLink(
       url !==
         source.archive
     );
-
   }
 
 
@@ -3590,7 +2322,6 @@ function isReviewLink(
         "-review/"
       )
     );
-
   }
 
 
@@ -3612,12 +2343,10 @@ function isReviewLink(
         )
       )
     );
-
   }
 
 
   return false;
-
 }
 
 
@@ -3643,9 +2372,7 @@ async function getReviewCandidates(
   if (
     !html
   ) {
-
     return [];
-
   }
 
 
@@ -3677,7 +2404,6 @@ async function getReviewCandidates(
     0,
     20
   );
-
 }
 
 
@@ -3699,9 +2425,7 @@ async function readReview(
   if (
     !html
   ) {
-
     return null;
-
   }
 
 
@@ -3746,7 +2470,6 @@ async function readReview(
   ) {
 
     return null;
-
   }
 
 
@@ -3789,14 +2512,12 @@ async function readReview(
       candidate.url,
 
     image
-
   };
-
 }
 
 
 /* =========================================================
-   REVIEW TITLE TOKENS
+   REVIEW TITLE MATCHING
    ========================================================= */
 
 function titleTokens(
@@ -3804,7 +2525,6 @@ function titleTokens(
 ) {
 
   return new Set(
-
     cleanTitle(
       title
     )
@@ -3824,9 +2544,7 @@ function titleTokens(
       .split(
         /\s+/
       )
-      .filter(
-        Boolean
-      )
+      .filter(Boolean)
       .filter(
         word =>
           ![
@@ -3841,9 +2559,7 @@ function titleTokens(
             word
           )
       )
-
   );
-
 }
 
 
@@ -3867,9 +2583,7 @@ function titlesMatch(
     !aa.size ||
     !bb.size
   ) {
-
     return false;
-
   }
 
 
@@ -3885,7 +2599,6 @@ function titlesMatch(
   ) {
 
     return true;
-
   }
 
 
@@ -3914,7 +2627,6 @@ function titlesMatch(
   ) {
 
     return true;
-
   }
 
 
@@ -3932,9 +2644,7 @@ function titlesMatch(
     ) {
 
       common++;
-
     }
-
   }
 
 
@@ -3945,7 +2655,6 @@ function titlesMatch(
       bb.size
     )
   ) >= 0.7;
-
 }
 
 
@@ -3993,7 +2702,6 @@ function groupReviews(
 
         reviews:
           []
-
       };
 
 
@@ -4014,9 +2722,7 @@ function groupReviews(
 
         group.releaseDate =
           review.releaseDate;
-
       }
-
     }
 
 
@@ -4033,7 +2739,6 @@ function groupReviews(
     ) {
 
       continue;
-
     }
 
 
@@ -4049,14 +2754,11 @@ function groupReviews(
 
       group.image =
         review.image;
-
     }
-
   }
 
 
   return groups;
-
 }
 
 
@@ -4070,12 +2772,10 @@ function calculateAverage(
 
   const ratings =
     reviews
-
       .map(
         item =>
           item.rating
       )
-
       .filter(
         value =>
           typeof value ===
@@ -4091,7 +2791,6 @@ function calculateAverage(
   ) {
 
     return null;
-
   }
 
 
@@ -4110,7 +2809,6 @@ function calculateAverage(
   return Math.round(
     average * 100
   ) / 100;
-
 }
 
 
@@ -4162,9 +2860,7 @@ function buildReviews(
 
                   url:
                     ""
-
                 };
-
               }
 
 
@@ -4181,9 +2877,7 @@ function buildReviews(
 
                 url:
                   found.url
-
               };
-
             }
           );
 
@@ -4221,14 +2915,14 @@ function buildReviews(
             average,
 
             sources
-
           }
-
         };
-
       }
     )
 
+    /*
+     * NEWEST RELEASE FIRST
+     */
     .sort(
       (
         a,
@@ -4242,6 +2936,7 @@ function buildReviews(
               ).getTime()
             : 0;
 
+
         const bd =
           b.releaseDate
             ? new Date(
@@ -4249,11 +2944,10 @@ function buildReviews(
               ).getTime()
             : 0;
 
-        return bd - ad;
 
+        return bd - ad;
       }
     );
-
 }
 
 
@@ -4304,20 +2998,6 @@ async function main() {
 
 
   /* -------------------------------------------------------
-     INTERVIEWS
-     ------------------------------------------------------- */
-
-  const interviews =
-    await collectInterviews();
-
-
-  console.log("");
-  console.log(
-    `Final Telugu movie interviews: ${interviews.length}`
-  );
-
-
-  /* -------------------------------------------------------
      REVIEWS
      ------------------------------------------------------- */
 
@@ -4353,7 +3033,8 @@ async function main() {
 
 
     for (
-      const candidate of candidates
+      const candidate of
+        candidates
     ) {
 
       const review =
@@ -4366,9 +3047,7 @@ async function main() {
       if (
         !review
       ) {
-
         continue;
-
       }
 
 
@@ -4380,9 +3059,7 @@ async function main() {
       allReviews.push(
         review
       );
-
     }
-
   }
 
 
@@ -4410,6 +3087,39 @@ async function main() {
 
 
   /* -------------------------------------------------------
+     EXISTING FEED
+     ------------------------------------------------------- */
+
+  let existingFeed = {
+    news: [],
+    trailers: [],
+    reviews: []
+  };
+
+
+  try {
+
+    const existing =
+      await fs.readFile(
+        "data/feed.json",
+        "utf8"
+      );
+
+
+    existingFeed =
+      JSON.parse(
+        existing
+      );
+
+  } catch {
+
+    console.log(
+      "Existing feed.json not found."
+    );
+  }
+
+
+  /* -------------------------------------------------------
      FINAL FEED
      ------------------------------------------------------- */
 
@@ -4425,18 +3135,14 @@ async function main() {
 
     trailers,
 
-    interviews,
-
     reviews
-
   };
 
 
   await fs.mkdir(
     "data",
     {
-      recursive:
-        true
+      recursive: true
     }
   );
 
@@ -4473,17 +3179,12 @@ async function main() {
   );
 
   console.log(
-    `Interviews: ${interviews.length}`
-  );
-
-  console.log(
     `Reviews: ${reviews.length}`
   );
 
   console.log(
     "feed.json updated successfully."
   );
-
 }
 
 
@@ -4495,7 +3196,6 @@ main().catch(
   error => {
 
     console.error("");
-
     console.error(
       "Cineinsta feed updater failed:"
     );
@@ -4507,6 +3207,5 @@ main().catch(
     process.exit(
       1
     );
-
   }
 );
