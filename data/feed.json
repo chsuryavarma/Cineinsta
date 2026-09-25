@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T00:22:51.613Z",
+  "updatedAt": "2026-09-25T05:28:11.674Z",
   "news": [
     {
       "id": "jason-sanjay-reveals-why-he-would-choose-comedy-if-he-ever-directs-thalapathy-vi",
@@ -722,16 +722,424 @@
       "publishedAt": "2026-08-03T07:00:00.000Z"
     }
   ],
-  "reviews": [],
-  "stats": {
-    "totalNews": 80,
-    "totalReviews": 0,
-    "languages": [
-      "Telugu",
-      "Tamil",
-      "Malayalam",
-      "Kannada",
-      "Hindi"
-    ]
-  }
+  "reviews": [
+    {
+      "t": "Nani's The Paradise",
+      "l": "Telugu",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-2.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/nani-the-paradise-telugu-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/nani-the-paradise-telugu-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Immortal",
+      "l": "Telugu",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Immortal.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/gv-prakash-kumars-immortal-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/gv-prakash-kumars-immortal-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "OTT Review: Lust Stories 3",
+      "l": "Telugu",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Lust-Stories-3.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/lust-stories-3-ott-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/lust-stories-3-ott-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Happy Journey",
+      "l": "Telugu",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Happy-Journey-1.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/happy-journey-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/happy-journey-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "OTT Review: Modha Rathri",
+      "l": "Telugu",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Modha-Rathri.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/modha-rathri-ott-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/modha-rathri-ott-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Missing Meghana",
+      "l": "Telugu",
+      "rating": "2.5/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Missing-Meghana.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/missing-meghana-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.5,
+        "sources": [
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/reviews/missing-meghana-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Telugu Review : Secret Soldier",
+      "l": "Telugu",
+      "rating": "2.5/5",
+      "img": "https://cdn.123telugu.com/telugu/wp-content/uploads/2026/09/screct.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html",
+      "aggregator": {
+        "average": 2.5,
+        "sources": [
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "&#8216;Mahendragiri Varahi' Review: A Divine Mystery",
+      "l": "Telugu",
+      "rating": "2.25/5",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.greatandhra.com/movies/reviews/mahendragiri-varahi-review-a-divine-mystery/",
+      "aggregator": {
+        "average": 2.25,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.greatandhra.com/movies/reviews/mahendragiri-varahi-review-a-divine-mystery/"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Epic Movie Review",
+      "l": "Telugu",
+      "rating": "2.25/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/epic-a-certificate-.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/moviereviews/430985/epic-movie-review",
+      "aggregator": {
+        "average": 2.25,
+        "sources": [
+          {
+            "source": "Gulte",
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.gulte.com/moviereviews/430985/epic-movie-review"
+          }
+        ]
+      }
+    },
+    {
+      "t": "I'm Game Movie Review",
+      "l": "Telugu",
+      "rating": "2.25/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/game-cover-c2067630-8ca2-11f1-90f1-cfc063ca7201.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/moviereviews/429769/im-game-movie-review",
+      "aggregator": {
+        "average": 2.25,
+        "sources": [
+          {
+            "source": "Gulte",
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.gulte.com/moviereviews/429769/im-game-movie-review"
+          }
+        ]
+      }
+    },
+    {
+      "t": "&#8216;The Paradise' Movie Review: Disappointing Narrative",
+      "l": "Telugu",
+      "rating": "2/5",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.greatandhra.com/movies/reviews/the-paradise-movie-review-disappointing-narrative/",
+      "aggregator": {
+        "average": 2,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": 2,
+            "ratingText": "2/5",
+            "url": "https://www.greatandhra.com/movies/reviews/the-paradise-movie-review-disappointing-narrative/"
+          }
+        ]
+      }
+    },
+    {
+      "t": "&#8216;Epic First Semester' Review: Bold But Uneven",
+      "l": "Telugu",
+      "rating": "2/5",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.greatandhra.com/movies/reviews/epic-first-semester-review-bold-but-uneven/",
+      "aggregator": {
+        "average": 2,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": 2,
+            "ratingText": "2/5",
+            "url": "https://www.greatandhra.com/movies/reviews/epic-first-semester-review-bold-but-uneven/"
+          }
+        ]
+      }
+    },
+    {
+      "t": "The Paradise Review",
+      "l": "Telugu",
+      "rating": "2/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/The-Paradise-Review.jpeg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/featured/433381/the-paradise-review",
+      "aggregator": {
+        "average": 2,
+        "sources": [
+          {
+            "source": "Gulte",
+            "rating": 2,
+            "ratingText": "2/5",
+            "url": "https://www.gulte.com/featured/433381/the-paradise-review"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Mahendragiri Varahi Review",
+      "l": "Telugu",
+      "rating": "2/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/Mahendragiri-Varahi.jpeg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/moviereviews/431120/mahendragiri-varahi-review",
+      "aggregator": {
+        "average": 2,
+        "sources": [
+          {
+            "source": "Gulte",
+            "rating": 2,
+            "ratingText": "2/5",
+            "url": "https://www.gulte.com/moviereviews/431120/mahendragiri-varahi-review"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Ramba Oorvashi Menaka Review",
+      "l": "Telugu",
+      "rating": "2/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/06f9a9ea-fac3-4803-9028-f2c196f4436f.jpeg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/moviereviews/429825/ramba-oorvashi-menaka-review",
+      "aggregator": {
+        "average": 2,
+        "sources": [
+          {
+            "source": "Gulte",
+            "rating": 2,
+            "ratingText": "2/5",
+            "url": "https://www.gulte.com/moviereviews/429825/ramba-oorvashi-menaka-review"
+          }
+        ]
+      }
+    },
+    {
+      "t": "&#8216;Happy Journey' Review: A Bumpy and Uneventful Trip",
+      "l": "Telugu",
+      "rating": "1.75/5",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/happyjourney2.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.greatandhra.com/movies/reviews/happy-journey-review-a-bumpy-and-uneventful-trip/",
+      "aggregator": {
+        "average": 1.75,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": 1.75,
+            "ratingText": "1.75/5",
+            "url": "https://www.greatandhra.com/movies/reviews/happy-journey-review-a-bumpy-and-uneventful-trip/"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Skip to main content",
+      "l": "Telugu",
+      "rating": "1.75/5",
+      "img": "",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.telugu360.com/category/movies/telugu-movies-reviews/#t360-main-content",
+      "aggregator": {
+        "average": 1.75,
+        "sources": [
+          {
+            "source": "Telugu360",
+            "rating": 1.75,
+            "ratingText": "1.75/5",
+            "url": "https://www.telugu360.com/category/movies/telugu-movies-reviews/#t360-main-content"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Sardar 2 Movie Review",
+      "l": "Telugu",
+      "rating": "1.5/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/Sardaar-2.jpeg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/moviereviews/430832/sardar-2-movie-review",
+      "aggregator": {
+        "average": 1.5,
+        "sources": [
+          {
+            "source": "Gulte",
+            "rating": 1.5,
+            "ratingText": "1.5/5",
+            "url": "https://www.gulte.com/moviereviews/430832/sardar-2-movie-review"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Pitapuramlo Ala Modalaindi",
+      "l": "Telugu",
+      "rating": "1.5/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Pitapuramlo-Ala-Modalaindi.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/pitapuramlo-ala-modalaindi-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 1.5,
+        "sources": [
+          {
+            "source": "123telugu",
+            "rating": 1.5,
+            "ratingText": "1.5/5",
+            "url": "https://www.123telugu.com/reviews/pitapuramlo-ala-modalaindi-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "&#8216;Sardar 2' Movie Review: Boring Spy Thriller",
+      "l": "Telugu",
+      "rating": "1/5",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.greatandhra.com/movies/reviews/sardar-2-movie-review-boring-spy-thriller/",
+      "aggregator": {
+        "average": 1,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": 1,
+            "ratingText": "1/5",
+            "url": "https://www.greatandhra.com/movies/reviews/sardar-2-movie-review-boring-spy-thriller/"
+          }
+        ]
+      }
+    },
+    {
+      "t": "OTT Reviews",
+      "l": "Telugu",
+      "rating": "Not available",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2023/04/gulte-1638255776.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/ott/ott-reviews",
+      "aggregator": {
+        "average": null,
+        "sources": [
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": "https://www.gulte.com/ott/ott-reviews"
+          }
+        ]
+      }
+    },
+    {
+      "t": "More",
+      "l": "Telugu",
+      "rating": "Not available",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2023/04/gulte-1638255776.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/moviereviews#",
+      "aggregator": {
+        "average": null,
+        "sources": [
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": "https://www.gulte.com/moviereviews#"
+          }
+        ]
+      }
+    }
+  ]
 }
