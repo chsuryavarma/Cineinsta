@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Cineinsta — Telugu Cinema</title>
-
 <meta
   name="description"
-  content="Latest Telugu cinema news, trailers and movie reviews."
+  content="Latest Telugu cinema news, trailers, movie interviews and reviews."
 >
-
 <style>
-
 :root{
   --bg:#080808;
   --card:#111;
@@ -23,37 +18,26 @@
   --red:#ff3040;
   --gold:#f5c451;
 }
-
 *{
   box-sizing:border-box;
 }
-
 html{
   scroll-behavior:smooth;
 }
-
 body{
   margin:0;
   background:var(--bg);
   color:var(--text);
   font-family:Arial,Helvetica,sans-serif;
 }
-
 a{
   color:inherit;
   text-decoration:none;
 }
-
 img{
   display:block;
   max-width:100%;
 }
-
-
-/* =========================
-   HEADER
-   ========================= */
-
 header{
   position:sticky;
   top:0;
@@ -61,43 +45,35 @@ header{
   background:rgba(8,8,8,.97);
   border-bottom:1px solid var(--line);
 }
-
 .headerInner{
   max-width:1180px;
   margin:auto;
   min-height:68px;
   padding:0 20px;
-
   display:flex;
   align-items:center;
   justify-content:space-between;
 }
-
 .logo{
   font-size:25px;
   font-weight:900;
   letter-spacing:-1px;
 }
-
 .logo span{
   color:var(--red);
 }
-
 .headerNav{
   display:flex;
   gap:20px;
   font-size:12px;
   font-weight:800;
 }
-
 .headerNav a{
   color:#aaa;
 }
-
 .headerNav a:hover{
   color:#fff;
 }
-
 .searchBtn{
   width:36px;
   height:36px;
@@ -107,45 +83,25 @@ header{
   color:#fff;
   cursor:pointer;
 }
-
-
-/* =========================
-   MAIN
-   ========================= */
-
 main{
   max-width:1180px;
   margin:auto;
   padding:28px 20px 100px;
 }
-
-
-/* =========================
-   INTRO
-   ========================= */
-
 .intro{
   margin-bottom:24px;
 }
-
 .intro h1{
   margin:0 0 7px;
   font-size:clamp(30px,5vw,48px);
   line-height:1;
   letter-spacing:-1.8px;
 }
-
 .intro p{
   margin:0;
   color:var(--muted);
   font-size:13px;
 }
-
-
-/* =========================
-   HOME BANNER
-   ========================= */
-
 .hero{
   position:relative;
   min-height:390px;
@@ -155,18 +111,15 @@ main{
   overflow:hidden;
   background:#111;
 }
-
 .heroImage{
   position:absolute;
   inset:0;
 }
-
 .heroImage img{
   width:100%;
   height:100%;
   object-fit:cover;
 }
-
 .heroOverlay{
   position:absolute;
   inset:0;
@@ -177,140 +130,104 @@ main{
     rgba(0,0,0,.15) 100%
   );
 }
-
 .heroContent{
   position:relative;
   z-index:2;
-
   min-height:390px;
   max-width:650px;
-
   padding:45px;
-
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:flex-start;
 }
-
 .heroTag{
   display:inline-block;
   background:var(--red);
   color:#fff;
   padding:6px 9px;
   border-radius:4px;
-
   font-size:9px;
   font-weight:900;
   letter-spacing:1px;
   text-transform:uppercase;
-
   margin-bottom:14px;
 }
-
 .heroTitle{
   margin:0 0 12px;
-
   font-size:clamp(27px,4vw,46px);
   line-height:1.05;
   font-weight:900;
   letter-spacing:-1.5px;
 }
-
 .heroSummary{
   margin:0 0 14px;
   color:#d0d0d0;
   font-size:13px;
   line-height:1.6;
 }
-
 .heroMeta{
   color:#999;
   font-size:10px;
   margin-bottom:18px;
 }
-
 .heroButton{
   display:inline-block;
-
   background:#fff;
   color:#080808;
-
   padding:11px 17px;
   border-radius:6px;
-
   font-size:10px;
   font-weight:900;
   text-transform:uppercase;
 }
-
-
-/* =========================
-   SECTIONS
-   ========================= */
-
 .section{
   margin-top:38px;
 }
-
 .sectionHead{
   display:flex;
   justify-content:space-between;
   align-items:end;
   margin-bottom:14px;
 }
-
 .sectionHead h2{
   margin:0;
   font-size:21px;
 }
-
 .sectionHead span{
   color:#666;
   font-size:10px;
   text-transform:uppercase;
   letter-spacing:1px;
 }
-
-
-/* =========================
-   NEWS
-   ========================= */
-
 .newsGrid{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
   gap:14px;
 }
-
 .newsCard{
   background:var(--card);
   border:1px solid var(--line);
   border-radius:10px;
   overflow:hidden;
 }
-
 .newsCard:hover{
   border-color:#444;
 }
-
 .newsImage{
   width:100%;
   aspect-ratio:16/9;
   background:#191919;
   overflow:hidden;
 }
-
 .newsImage img{
   width:100%;
   height:100%;
   object-fit:cover;
 }
-
 .newsBody{
   padding:14px;
 }
-
 .newsSource{
   color:var(--red);
   font-size:9px;
@@ -318,21 +235,18 @@ main{
   text-transform:uppercase;
   letter-spacing:.7px;
 }
-
 .newsTitle{
   margin:7px 0 8px;
   font-size:16px;
   line-height:1.25;
   font-weight:900;
 }
-
 .newsSummary{
   margin:0;
   color:#999;
   font-size:11px;
   line-height:1.5;
 }
-
 .newsMeta{
   display:flex;
   justify-content:space-between;
@@ -340,133 +254,159 @@ main{
   color:#666;
   font-size:9px;
 }
-
-
-/* =========================
-   TRAILERS
-   ========================= */
-
 .trailerGrid{
   display:grid;
   grid-template-columns:repeat(4,minmax(0,1fr));
   gap:14px;
 }
-
 .trailerCard{
   background:var(--card);
   border:1px solid var(--line);
   border-radius:10px;
   overflow:hidden;
 }
-
 .trailerThumb{
   position:relative;
   aspect-ratio:16/9;
   background:#191919;
   overflow:hidden;
 }
-
 .trailerThumb img{
   width:100%;
   height:100%;
   object-fit:cover;
 }
-
 .play{
   position:absolute;
   left:50%;
   top:50%;
   transform:translate(-50%,-50%);
-
   width:46px;
   height:46px;
   border-radius:50%;
-
   background:var(--red);
-
   display:grid;
   place-items:center;
-
   font-size:18px;
 }
-
 .trailerBody{
   padding:12px;
 }
-
 .trailerTitle{
   font-size:13px;
   font-weight:900;
   line-height:1.3;
   margin-bottom:7px;
 }
-
 .trailerSource{
   color:#777;
   font-size:9px;
 }
-
-
-/* =========================
-   REVIEWS
-   ========================= */
-
+.interviewGrid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+}
+.interviewCard{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:10px;
+  overflow:hidden;
+}
+.interviewCard:hover{
+  border-color:#444;
+}
+.interviewThumb{
+  position:relative;
+  aspect-ratio:16/9;
+  background:#191919;
+  overflow:hidden;
+}
+.interviewThumb img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.interviewPlay{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width:46px;
+  height:46px;
+  border-radius:50%;
+  background:var(--red);
+  display:grid;
+  place-items:center;
+  font-size:18px;
+}
+.interviewBody{
+  padding:12px;
+}
+.interviewTitle{
+  font-size:13px;
+  font-weight:900;
+  line-height:1.3;
+  margin-bottom:7px;
+}
+.interviewSource{
+  color:var(--red);
+  font-size:9px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
+.interviewMeta{
+  color:#777;
+  font-size:9px;
+  margin-top:5px;
+}
 .reviewList{
   display:grid;
   gap:12px;
 }
-
 .reviewWide{
   display:grid;
   grid-template-columns:180px 1fr;
   gap:18px;
-
   padding:14px;
-
   background:var(--card);
   border:1px solid var(--line);
   border-radius:10px;
 }
-
 .reviewThumb{
   aspect-ratio:16/10;
   background:#191919;
   border-radius:7px;
   overflow:hidden;
 }
-
 .reviewThumb img{
   width:100%;
   height:100%;
   object-fit:cover;
 }
-
 .reviewTag{
   color:var(--red);
   font-size:8px;
   font-weight:900;
   letter-spacing:.8px;
 }
-
 .reviewTitle{
   margin:6px 0 4px;
   font-size:18px;
   font-weight:900;
 }
-
 .releaseDate{
   color:#777;
   font-size:10px;
   margin-bottom:8px;
 }
-
 .cineRating{
   color:var(--gold);
   font-size:16px;
   font-weight:900;
   margin-bottom:9px;
 }
-
 .cineRating span{
   display:block;
   color:#666;
@@ -475,154 +415,100 @@ main{
   margin-top:2px;
   text-transform:uppercase;
 }
-
 .reviewSources{
   border-top:1px solid var(--line);
 }
-
 .reviewSource{
   display:flex;
   justify-content:space-between;
   padding:6px 0;
-
   border-bottom:1px solid #1d1d1d;
-
   color:#999;
   font-size:10px;
 }
-
 .reviewSource a{
   color:#ff6570;
   font-weight:900;
 }
-
 .reviewSource strong{
   color:#555;
   font-weight:normal;
 }
-
-
-/* =========================
-   BUTTONS / EMPTY
-   ========================= */
-
 .moreBtn{
   display:block;
   width:max-content;
-
   margin:18px auto 0;
-
   padding:10px 18px;
-
   border:1px solid #333;
   border-radius:7px;
-
   color:#aaa;
-
   font-size:10px;
   font-weight:900;
   text-transform:uppercase;
 }
-
 .empty{
   padding:35px 15px;
   text-align:center;
-
   border:1px dashed #292929;
   border-radius:9px;
-
   color:#666;
   font-size:12px;
 }
-
-
-/* =========================
-   FOOTER
-   ========================= */
-
 footer{
   border-top:1px solid var(--line);
-
   padding:25px 20px 40px;
-
   text-align:center;
-
   color:#555;
-
   font-size:10px;
 }
-
-
-/* =========================
-   MOBILE NAV
-   ========================= */
-
 .mobileNav{
   display:none;
-
   position:fixed;
   left:0;
   right:0;
   bottom:0;
   z-index:1000;
-
   height:62px;
-
   background:rgba(10,10,10,.97);
   border-top:1px solid var(--line);
-
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns:repeat(5,1fr);
 }
-
 .mobileNav a{
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
   gap:4px;
-
   color:#777;
   font-size:9px;
   font-weight:800;
 }
-
-
-/* =========================
-   RESPONSIVE
-   ========================= */
-
 @media(max-width:900px){
-
   .newsGrid{
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
-
   .trailerGrid{
     grid-template-columns:repeat(3,minmax(0,1fr));
   }
-
+  .interviewGrid{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
 }
-
 @media(max-width:650px){
-
   .headerNav{
     display:none;
   }
-
   main{
     padding:22px 13px 90px;
   }
-
   .hero{
     min-height:430px;
   }
-
   .heroContent{
     min-height:430px;
     padding:25px 22px;
     justify-content:flex-end;
   }
-
   .heroOverlay{
     background:linear-gradient(
       0deg,
@@ -631,52 +517,43 @@ footer{
       rgba(0,0,0,.10) 100%
     );
   }
-
   .newsGrid{
     grid-template-columns:1fr;
   }
-
   .trailerGrid{
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
-
+  .interviewGrid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
   .reviewWide{
     grid-template-columns:110px 1fr;
     gap:12px;
     padding:10px;
   }
-
   .reviewTitle{
     font-size:15px;
   }
-
   .mobileNav{
     display:grid;
   }
-
 }
-
 @media(max-width:420px){
-
   .trailerGrid{
     grid-template-columns:1fr;
   }
-
+  .interviewGrid{
+    grid-template-columns:1fr;
+  }
   .reviewWide{
     grid-template-columns:1fr;
   }
-
 }
-
 </style>
-
 </head>
-
 <body>
 
-
 <header>
-
   <div class="headerInner">
 
     <a class="logo" href="#/">CINE<span>INSTA</span></a>
@@ -685,6 +562,7 @@ footer{
       <a href="#/">Home</a>
       <a href="#/news">News</a>
       <a href="#/trailers">Trailers</a>
+      <a href="#/interviews">Interviews</a>
       <a href="#/reviews">Reviews</a>
     </nav>
 
@@ -697,9 +575,7 @@ footer{
     </button>
 
   </div>
-
 </header>
-
 
 <main>
 
@@ -708,7 +584,7 @@ footer{
     <h1>Telugu Cinema</h1>
 
     <p>
-      Fresh film news, trailers and reviews — all in one place.
+      Fresh film news, trailers, interviews and reviews — all in one place.
     </p>
 
   </section>
@@ -832,6 +708,42 @@ footer{
   </section>
 
 
+  <!-- MOVIE INTERVIEWS -->
+
+  <section
+    class="section"
+    id="interviewsSection"
+  >
+
+    <div class="sectionHead">
+
+      <h2>Movie Interviews</h2>
+
+      <span>Telugu Cinema</span>
+
+    </div>
+
+    <div
+      class="interviewGrid"
+      id="interviewGrid"
+    >
+
+      <div class="empty">
+        Loading movie interviews...
+      </div>
+
+    </div>
+
+    <a
+      href="#/interviews"
+      class="moreBtn"
+    >
+      View All Interviews
+    </a>
+
+  </section>
+
+
   <!-- REVIEWS -->
 
   <section
@@ -898,6 +810,11 @@ footer{
     Trailers
   </a>
 
+  <a href="#/interviews">
+    <span>◉</span>
+    Interviews
+  </a>
+
   <a href="#/reviews">
     <span>★</span>
     Reviews
@@ -911,13 +828,10 @@ footer{
 let feed = {
   news: [],
   trailers: [],
+  interviews: [],
   reviews: []
 };
 
-
-/* =========================
-   ESCAPE
-   ========================= */
 
 function escapeHTML(value){
 
@@ -927,12 +841,9 @@ function escapeHTML(value){
     .replace(/>/g,"&gt;")
     .replace(/"/g,"&quot;")
     .replace(/'/g,"&#039;");
+
 }
 
-
-/* =========================
-   DATE
-   ========================= */
 
 function formatDate(value){
 
@@ -953,12 +864,9 @@ function formatDate(value){
       month:"short"
     }
   );
+
 }
 
-
-/* =========================
-   LOAD FEED
-   ========================= */
 
 async function loadFeed(){
 
@@ -984,6 +892,11 @@ async function loadFeed(){
         ? feed.trailers
         : [];
 
+    feed.interviews =
+      Array.isArray(feed.interviews)
+        ? feed.interviews
+        : [];
+
     feed.reviews =
       Array.isArray(feed.reviews)
         ? feed.reviews
@@ -994,6 +907,8 @@ async function loadFeed(){
     renderNews(feed.news);
 
     renderTrailers(feed.trailers);
+
+    renderInterviews(feed.interviews);
 
     renderReviews(feed.reviews);
 
@@ -1007,25 +922,21 @@ async function loadFeed(){
     document.getElementById("trailerGrid").innerHTML =
       '<div class="empty">Trailers could not be loaded.</div>';
 
+    document.getElementById("interviewGrid").innerHTML =
+      '<div class="empty">Movie interviews could not be loaded.</div>';
+
     document.getElementById("reviewList").innerHTML =
       '<div class="empty">Reviews could not be loaded.</div>';
+
   }
+
 }
 
-
-/* =========================
-   HOME BANNER
-   ========================= */
 
 function renderHero(items){
 
   const hero =
     document.getElementById("homeHero");
-
-  /*
-   * Pick the newest news item that
-   * actually has a thumbnail.
-   */
 
   const item = items.find(function(news){
 
@@ -1038,7 +949,6 @@ function renderHero(items){
 
   });
 
-
   if(!item){
 
     hero.style.display = "none";
@@ -1046,9 +956,7 @@ function renderHero(items){
     return;
   }
 
-
   hero.style.display = "block";
-
 
   document.getElementById("heroImage").innerHTML =
     '<img src="' +
@@ -1057,14 +965,11 @@ function renderHero(items){
     escapeHTML(item.title) +
     '">';
 
-
   document.getElementById("heroTitle").textContent =
     item.title || "";
 
-
   document.getElementById("heroSummary").textContent =
     cleanSummary(item.summary || "");
-
 
   document.getElementById("heroMeta").textContent =
     (item.source || "Telugu Cinema") +
@@ -1074,24 +979,15 @@ function renderHero(items){
         : ""
     );
 
-
   document.getElementById("heroLink").href =
     item.url;
+
 }
 
-
-/* =========================
-   CLEAN SUMMARY
-   ========================= */
 
 function cleanSummary(text){
 
   text = String(text || "");
-
-  /*
-   * Remove common navigation garbage
-   * from scraped article summaries.
-   */
 
   text = text
     .replace(/Home\s+/gi,"")
@@ -1108,27 +1004,20 @@ function cleanSummary(text){
     .trim();
 
   if(text.length > 220){
+
     text = text.substring(0,220) + "...";
+
   }
 
   return text;
+
 }
 
-
-/* =========================
-   NEWS
-   ========================= */
 
 function renderNews(items){
 
   const grid =
     document.getElementById("newsGrid");
-
-
-  /*
-   * IMPORTANT:
-   * News without thumbnails are completely removed.
-   */
 
   const validNews =
     items.filter(function(item){
@@ -1142,7 +1031,6 @@ function renderNews(items){
 
     });
 
-
   if(!validNews.length){
 
     grid.innerHTML =
@@ -1150,7 +1038,6 @@ function renderNews(items){
 
     return;
   }
-
 
   grid.innerHTML =
     validNews
@@ -1209,18 +1096,14 @@ function renderNews(items){
 
       })
       .join("");
+
 }
 
-
-/* =========================
-   TRAILERS
-   ========================= */
 
 function renderTrailers(items){
 
   const grid =
     document.getElementById("trailerGrid");
-
 
   if(!items.length){
 
@@ -1229,7 +1112,6 @@ function renderTrailers(items){
 
     return;
   }
-
 
   grid.innerHTML =
     items
@@ -1244,8 +1126,8 @@ function renderTrailers(items){
             "https://i.ytimg.com/vi/" +
             item.youtubeId +
             "/hqdefault.jpg";
-        }
 
+        }
 
         return `
           <article class="trailerCard">
@@ -1295,12 +1177,15 @@ function renderTrailers(items){
                 </div>
 
                 <div class="trailerSource">
+
                   ${escapeHTML(item.source || "Telugu Trailer")}
+
                   ${
                     formatDate(item.publishedAt)
                       ? " · " + formatDate(item.publishedAt)
                       : ""
                   }
+
                 </div>
 
               </div>
@@ -1312,18 +1197,100 @@ function renderTrailers(items){
 
       })
       .join("");
+
 }
 
 
-/* =========================
-   REVIEWS
-   ========================= */
+function renderInterviews(items){
+
+  const grid =
+    document.getElementById(
+      "interviewGrid"
+    );
+
+  if(!items.length){
+
+    grid.innerHTML =
+      '<div class="empty">No latest Telugu movie interviews available right now.</div>';
+
+    return;
+  }
+
+  grid.innerHTML =
+    items
+      .slice(0,12)
+      .map(function(item){
+
+        const image =
+          item.img ||
+          (
+            item.youtubeId
+              ? "https://i.ytimg.com/vi/" +
+                item.youtubeId +
+                "/hqdefault.jpg"
+              : ""
+          );
+
+        return `
+          <article class="interviewCard">
+
+            <a
+              href="${escapeHTML(item.url || "#")}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <div class="interviewThumb">
+
+                ${
+                  image
+                    ? `
+                      <img
+                        src="${escapeHTML(image)}"
+                        alt="${escapeHTML(item.title || "")}"
+                        loading="lazy"
+                      >
+                    `
+                    : ""
+                }
+
+                <div class="interviewPlay">
+                  ▶
+                </div>
+
+              </div>
+
+              <div class="interviewBody">
+
+                <div class="interviewTitle">
+                  ${escapeHTML(item.title || "")}
+                </div>
+
+                <div class="interviewSource">
+                  ${escapeHTML(item.source || "YouTube")}
+                </div>
+
+                <div class="interviewMeta">
+                  ${formatDate(item.publishedAt)}
+                </div>
+
+              </div>
+
+            </a>
+
+          </article>
+        `;
+
+      })
+      .join("");
+
+}
+
 
 function renderReviews(items){
 
   const list =
     document.getElementById("reviewList");
-
 
   if(!items.length){
 
@@ -1333,7 +1300,6 @@ function renderReviews(items){
     return;
   }
 
-
   const names = [
     "GreatAndhra",
     "Gulte",
@@ -1341,7 +1307,6 @@ function renderReviews(items){
     "Telugu360",
     "123telugu"
   ];
-
 
   list.innerHTML =
     items
@@ -1354,22 +1319,21 @@ function renderReviews(items){
             ? item.aggregator.sources
             : [];
 
-
         const average =
           item.aggregator &&
           typeof item.aggregator.average === "number"
             ? item.aggregator.average
             : null;
 
-
         const rows =
           names.map(function(name){
 
             const source =
               sources.find(function(s){
-                return s.source === name;
-              });
 
+                return s.source === name;
+
+              });
 
             if(
               source &&
@@ -1394,7 +1358,6 @@ function renderReviews(items){
 
             }
 
-
             return `
               <div class="reviewSource">
 
@@ -1406,7 +1369,6 @@ function renderReviews(items){
             `;
 
           }).join("");
-
 
         const image =
           item.img
@@ -1430,7 +1392,6 @@ function renderReviews(items){
                 🎬
               </div>
             `;
-
 
         return `
           <article class="reviewWide">
@@ -1485,30 +1446,23 @@ function renderReviews(items){
 
       })
       .join("");
+
 }
 
-
-/* =========================
-   SEARCH
-   ========================= */
 
 function openSearch(){
 
   const query =
     prompt("Search Cineinsta");
 
-
   if(!query){
     return;
   }
 
-
   const q =
     query.toLowerCase().trim();
 
-
   const results = [];
-
 
   feed.news.forEach(function(item){
 
@@ -1525,10 +1479,10 @@ function openSearch(){
       results.push(
         "News: " + item.title
       );
+
     }
 
   });
-
 
   feed.trailers.forEach(function(item){
 
@@ -1541,10 +1495,26 @@ function openSearch(){
       results.push(
         "Trailer: " + item.title
       );
+
     }
 
   });
 
+  feed.interviews.forEach(function(item){
+
+    if(
+      (item.title || "")
+        .toLowerCase()
+        .includes(q)
+    ){
+
+      results.push(
+        "Interview: " + item.title
+      );
+
+    }
+
+  });
 
   feed.reviews.forEach(function(item){
 
@@ -1557,10 +1527,10 @@ function openSearch(){
       results.push(
         "Review: " + item.t
       );
+
     }
 
   });
-
 
   if(!results.length){
 
@@ -1569,24 +1539,19 @@ function openSearch(){
     return;
   }
 
-
   alert(
     results
       .slice(0,10)
       .join("\n")
   );
+
 }
 
-
-/* =========================
-   ROUTING
-   ========================= */
 
 function handleRoute(){
 
   const route =
     location.hash.replace("#/","");
-
 
   if(route === "news"){
 
@@ -1599,7 +1564,6 @@ function handleRoute(){
     return;
   }
 
-
   if(route === "trailers"){
 
     document
@@ -1611,6 +1575,16 @@ function handleRoute(){
     return;
   }
 
+  if(route === "interviews"){
+
+    document
+      .getElementById("interviewsSection")
+      .scrollIntoView({
+        behavior:"smooth"
+      });
+
+    return;
+  }
 
   if(route === "reviews"){
 
@@ -1623,11 +1597,11 @@ function handleRoute(){
     return;
   }
 
-
   window.scrollTo({
     top:0,
     behavior:"smooth"
   });
+
 }
 
 
@@ -1636,10 +1610,6 @@ window.addEventListener(
   handleRoute
 );
 
-
-/* =========================
-   START
-   ========================= */
 
 loadFeed();
 
