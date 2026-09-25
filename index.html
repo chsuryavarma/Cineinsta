@@ -53,7 +53,7 @@ main{max-width:1180px;margin:auto;padding:28px 20px 100px}
 .articleSource{color:var(--red);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}
 .articleTitle{margin:0 0 14px;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-1.5px}
 .articleMeta{color:#777;font-size:11px;margin-bottom:22px}
-.articleImage{width:100%;max-height:520px;object-fit:cover;border-radius:12px;margin-bottom:25px;border:1px solid var(--line)}
+.articleVideo{width:100%;aspect-ratio:16/9;margin:20px 0 24px;border-radius:14px;overflow:hidden;background:#111}.articleVideo iframe{width:100%;height:100%;display:block;border:0}.articleImage{width:100%;max-height:520px;object-fit:cover;border-radius:12px;margin-bottom:25px;border:1px solid var(--line)}
 .articleSummary{color:#d0d0d0;font-size:16px;line-height:1.75;margin-bottom:25px}
 .articleSourceBox{border-top:1px solid var(--line);padding-top:18px;color:#777;font-size:11px}
 .articleSourceBox a{color:#ff6570;font-weight:900}
@@ -226,7 +226,7 @@ articlePage.innerHTML=`
 <div class="articleSource">${escapeHTML(source)}</div>
 <h1 class="articleTitle">${escapeHTML(title)}</h1>
 <div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>
-${image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:""}
+${entry.type==="interviews" && item.youtubeId ? `<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&playsinline=1&origin=https%3A%2F%2Fwww.cineinsta.com" title="${escapeHTML(title)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>` : image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:""}
 <div class="articleSummary">${escapeHTML(summary)}</div>
 <div class="articleSourceBox">
 Source: <strong>${escapeHTML(source)}</strong>
@@ -279,7 +279,7 @@ const grid=document.getElementById("newsGrid");
 const validNews=items.filter(function(item){return item&&typeof item.img==="string"&&item.img.trim()!==""&&item.url;});
 if(!validNews.length){grid.innerHTML='<div class="empty">No latest Telugu news with thumbnails available right now.</div>';return}
 grid.innerHTML=validNews.slice(0,9).map(function(item){return `
-<article class="newsCard"><a href="/news/${articleSlug(item)}">
+<article class="newsCard"><a href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer">
 <div class="newsImage"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.title)}" loading="lazy"></div>
 <div class="newsBody"><div class="newsSource">${escapeHTML(item.source||"Telugu Cinema")}</div>
 <div class="newsTitle">${escapeHTML(item.title||"")}</div>
