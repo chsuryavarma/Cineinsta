@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/news",
+      "destination": "/"
+    },
+    {
+      "source": "/trailers",
+      "destination": "/"
+    },
+    {
+      "source": "/interviews",
+      "destination": "/"
+    },
+    {
+      "source": "/reviews",
+      "destination": "/"
+    }
+  ]
+}
