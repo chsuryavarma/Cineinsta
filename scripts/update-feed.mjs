@@ -216,29 +216,52 @@ const INTERVIEW_SOURCES = [
 
 const INTERVIEW_TERMS = [
   "interview",
+  "exclusive interview",
+  "special interview",
+  "unfiltered interview",
   "exclusive conversation",
   "special conversation",
   "conversation with",
   "in conversation",
-  "unfiltered interview",
+  "conversation",
+  "exclusive chat",
+  "special chat",
+  "chat with",
+  "q&a",
+  "media q&a",
+  "media interaction",
+  "special interaction",
+  "exclusive interaction",
+  "interaction with media",
+  "interacts with media",
+  "media meet",
+  "press meet",
+  "press interaction",
   "talking movies",
   "movie talk",
-  "media interaction",
-  "media q&a",
-  "q&a",
-  "chat with",
-  "special interview",
-  "exclusive chat"
+  "talks about",
+  "talks on",
+  "talks",
+  "opens up",
+  "speaks about",
+  "speaks on",
+  "discusses",
+  "shares about",
+  "reveals about",
+  "reveals"
 ];
 
 
 const INTERVIEW_CINEMA_TERMS = [
   "movie",
+  "movies",
   "film",
+  "films",
   "cinema",
   "tollywood",
   "telugu cinema",
   "telugu movie",
+  "telugu film",
   "actor",
   "actress",
   "hero",
@@ -255,7 +278,13 @@ const INTERVIEW_CINEMA_TERMS = [
   "film team",
   "pre-release",
   "release",
-  "ott"
+  "ott",
+  "trailer",
+  "teaser",
+  "song",
+  "songs",
+  "film industry",
+  "cinema industry"
 ];
 
 
@@ -279,57 +308,10 @@ const INTERVIEW_BLOCKED_TERMS = [
 ];
 
 
-function xmlDecode(text = "") {
-
-  return decodeEntities(
-    text
-      .replace(/<!\[CDATA\[/gi, "")
-      .replace(/\]\]>/gi, "")
-      .trim()
-  );
-
-}
-
-
-function xmlTag(xml, tag) {
-
-  const escaped =
-    tag.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
-
-  const match =
-    xml.match(
-      new RegExp(
-        "<" +
-          escaped +
-          "[^>]*>([\\s\\S]*?)</" +
-          escaped +
-          ">",
-        "i"
-      )
-    );
-
-  return match?.[1]
-    ? xmlDecode(match[1])
-    : "";
-
-}
-
-
-function extractYoutubeIdFromUrl(url = "") {
-
-  const match =
-    url.match(
-      /(?:v=|youtu\.be\/|youtube\.com\/shorts\/)([A-Za-z0-9_-]{11})/i
-    );
-
-  return match?.[1] || "";
-
-}
-
-
 function isMovieInterview(
   title,
-  description = ""
+  description = "",
+  sourceName = ""
 ) {
 
   const combined =
@@ -337,17 +319,17 @@ function isMovieInterview(
       title +
       " " +
       description
-    ).toLowerCase();
+    )
+      .toLowerCase()
+      .replace(
+        /[^\p{L}\p{N}]+/gu,
+        " "
+      );
 
-  const hasInterviewTerm =
-    INTERVIEW_TERMS.some(
-      term =>
-        combined.includes(term)
-    );
 
-  if (!hasInterviewTerm) {
-    return false;
-  }
+  const source =
+    sourceName.toLowerCase();
+
 
   if (
     INTERVIEW_BLOCKED_TERMS.some(
@@ -358,17 +340,50 @@ function isMovieInterview(
     return false;
   }
 
-  return INTERVIEW_CINEMA_TERMS.some(
-    term =>
-      combined.includes(term)
-  );
 
+  const hasInterviewTerm =
+    INTERVIEW_TERMS.some(
+      term =>
+        combined.includes(term)
+    );
+
+
+  if (!hasInterviewTerm) {
+    return false;
+  }
+
+
+  const hasCinemaTerm =
+    INTERVIEW_CINEMA_TERMS.some(
+      term =>
+        combined.includes(term)
+    );
+
+
+  /*
+   * These are dedicated Telugu cinema/media channels.
+   * If their title clearly looks like an interview,
+   * do not require the title to explicitly say
+   * "movie", "actor", "film", etc.
+   */
+  if (
+    hasCinemaTerm ||
+    source.includes("idream") ||
+    source.includes("greatandhra") ||
+    source.includes("filmnagar")
+  ) {
+    return true;
+  }
+
+
+  return false;
 }
 
 
 async function collectInterviews() {
 
   const all = [];
+
 
   console.log("");
   console.log(
@@ -381,6 +396,7 @@ async function collectInterviews() {
     "======================================"
   );
 
+
   for (
     const source of INTERVIEW_SOURCES
   ) {
@@ -388,10 +404,18 @@ async function collectInterviews() {
     const rssUrl =
       `https://www.youtube.com/feeds/videos.xml?channel_id=${source.channelId}`;
 
+
+    console.log("");
+    console.log(
+      `Loading interview source: ${source.name}`
+    );
+
+
     const xml =
       await fetchHTML(
         rssUrl
       );
+
 
     if (!xml) {
 
@@ -402,12 +426,20 @@ async function collectInterviews() {
       continue;
     }
 
+
     const entries =
       xml.match(
         /<entry>[\s\S]*?<\/entry>/gi
       ) || [];
 
+
+    console.log(
+      `${source.name}: ${entries.length} YouTube entries found`
+    );
+
+
     let sourceCount = 0;
+
 
     for (
       const entry of entries
@@ -425,17 +457,20 @@ async function collectInterviews() {
           )
         );
 
+
       const title =
         xmlTag(
           entry,
           "title"
         );
 
+
       const description =
         xmlTag(
           entry,
           "media:description"
         );
+
 
       const publishedAt =
         xmlTag(
@@ -447,16 +482,19 @@ async function collectInterviews() {
           "updated"
         );
 
+
       if (
         !videoId ||
         !title ||
         !isMovieInterview(
           title,
-          description
+          description,
+          source.name
         )
       ) {
         continue;
       }
+
 
       all.push({
 
@@ -496,16 +534,20 @@ async function collectInterviews() {
           "Movie Interviews"
       });
 
+
       sourceCount++;
     }
 
+
     console.log(
-      `${source.name}: ${sourceCount} interviews`
+      `${source.name}: ${sourceCount} interviews accepted`
     );
   }
 
+
   const seen =
     new Set();
+
 
   return all
     .filter(
@@ -519,9 +561,11 @@ async function collectInterviews() {
           return false;
         }
 
+
         seen.add(
           item.youtubeId
         );
+
 
         return true;
       }
@@ -536,12 +580,14 @@ async function collectInterviews() {
               ).getTime()
             : 0;
 
+
         const bd =
           b.publishedAt
             ? new Date(
                 b.publishedAt
               ).getTime()
             : 0;
+
 
         return bd - ad;
       }
