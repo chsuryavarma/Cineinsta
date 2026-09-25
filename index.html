@@ -241,7 +241,7 @@ updateSEO(entry);
 
 async function loadFeed(){
 try{
-const response=await fetch("data/feed.json?v="+Date.now());
+const response=await fetch("/data/feed.json?v="+Date.now());
 if(!response.ok)throw new Error("Feed unavailable");
 feed=await response.json();
 feed.news=Array.isArray(feed.news)?feed.news:[];
