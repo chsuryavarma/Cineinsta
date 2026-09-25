@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-09-25T12:16:46.654Z",
+  "updatedAt": "2026-09-25T12:30:31.119Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.gulte.com/movienews/433616/the-paradise-day-1-collections-territory-wise-breakup",
+      "title": "The Paradise Day 1 Collections Territory Wise Breakup",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/433616/the-paradise-day-1-collections-territory-wise-breakup",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2025/04/Nani-the-Paradise.jpg",
+      "publishedAt": "2026-09-25T12:19:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/varanasi-star-mahesh-babus-new-look-grabs-attention-avd.html",
       "title": "Varanasi star Mahesh Babu's new look grabs attention",
@@ -278,17 +289,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.gulte.com/movienews/433543/how-is-paradise-performing-in-non-telugu-markets",
-      "title": "How Is Paradise Performing In Non Telugu Markets?",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/433543/how-is-paradise-performing-in-non-telugu-markets",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/paradise-hindi.jpg",
-      "publishedAt": "2026-09-25T04:02:39.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/the-paradise-actor-disappointed-over-his-7-minute-scene-being-cut-hk.html",
       "title": "The Paradise: Actor Disappointed Over His 7-Minute Scene Being Cut",
       "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు The Paradise: Actor Disappointed Over His...",
@@ -453,6 +453,52 @@
       "youtubeId": "",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "language": "Telugu"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "C2QPbsjf90o",
+      "youtubeId": "C2QPbsjf90o",
+      "title": "నిజంగా బాలేదన్నా.. ఏదో తీశారు.. డ‌బ్బులు వేస్ట్ : The Paradise Movie Public Talk | greatandhra",
+      "source": "GreatAndhra",
+      "url": "https://www.youtube.com/watch?v=C2QPbsjf90o",
+      "img": "https://i.ytimg.com/vi/C2QPbsjf90o/hqdefault.jpg",
+      "publishedAt": "2026-09-24T07:31:20.000Z",
+      "language": "Telugu",
+      "category": "Movie Interviews"
+    },
+    {
+      "id": "pjQQGcTAiBU",
+      "youtubeId": "pjQQGcTAiBU",
+      "title": "The Paradise Movie Public Talk | Nani Paradise Review | Mohan Babu | Srikanth Odela | greatandhra",
+      "source": "GreatAndhra",
+      "url": "https://www.youtube.com/watch?v=pjQQGcTAiBU",
+      "img": "https://i.ytimg.com/vi/pjQQGcTAiBU/hqdefault.jpg",
+      "publishedAt": "2026-09-23T20:50:40.000Z",
+      "language": "Telugu",
+      "category": "Movie Interviews"
+    },
+    {
+      "id": "42Rw7XrGut4",
+      "youtubeId": "42Rw7XrGut4",
+      "title": "LIVE : Thellakaagitham Movie Trailer Launch Event | Harsh Roshan, Nakshatra | greatandhra.com",
+      "source": "GreatAndhra",
+      "url": "https://www.youtube.com/watch?v=42Rw7XrGut4",
+      "img": "https://i.ytimg.com/vi/42Rw7XrGut4/hqdefault.jpg",
+      "publishedAt": "2026-09-22T22:07:56.000Z",
+      "language": "Telugu",
+      "category": "Movie Interviews"
+    },
+    {
+      "id": "thJkaE5pi0E",
+      "youtubeId": "thJkaE5pi0E",
+      "title": "10 వేల మందితో హీరో నాని ఫ్యాన్ మీట్ : 10,000 Fans Gather for Natural Star Nani | The Paradise",
+      "source": "GreatAndhra",
+      "url": "https://www.youtube.com/watch?v=thJkaE5pi0E",
+      "img": "https://i.ytimg.com/vi/thJkaE5pi0E/hqdefault.jpg",
+      "publishedAt": "2026-09-21T11:21:27.000Z",
+      "language": "Telugu",
+      "category": "Movie Interviews"
     }
   ],
   "reviews": [
