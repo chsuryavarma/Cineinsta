@@ -187,7 +187,7 @@ articlePage.innerHTML=`
 <div class="articleSource">${escapeHTML(source)}</div>
 <h1 class="articleTitle">${escapeHTML(title)}</h1>
 <div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>
-${(entry.type==="interviews" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}
+${(entry.type==="interviews" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div style="text-align:center;margin:-10px 0 25px"><a href="https://www.youtube.com/watch?v=${encodeURIComponent(item.youtubeId)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:10px 16px;border:1px solid #ddd;border-radius:999px;color:#333;font-weight:800;font-size:12px;text-decoration:none">▶ Watch on YouTube</a></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}
 <div class="articleSummary">${escapeHTML(summary)}</div>
 <div class="articleSourceBox">
 Source: <strong>${escapeHTML(source)}</strong>
