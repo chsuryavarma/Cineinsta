@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T10:39:18.576Z",
+  "updatedAt": "2026-09-25T10:45:39.964Z",
   "language": "Telugu",
   "news": [
     {
@@ -10,6 +10,17 @@
       "url": "https://www.gulte.com/movienews/433517/ott-movies-web-series-this-week-21st-27th-sep",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/2cd06f50-197c-4cef-8460-85e2b18886a0-scaled.jpeg",
       "publishedAt": "2026-09-25T10:30:29.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130170/sankranthi-mega-film-in-doldrums.html",
+      "title": "Sankranthi Mega Film In Doldrums",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Chiranjeevi Sankranti 2027 Release Puzzle Sankranthi Mega Film In Doldrums By Rambabu Updated at: 2026-09-25 10:29:59 AM IST...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130170/sankranthi-mega-film-in-doldrums.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sankranthi-mega-film-in-doldrums-1790332197350-1790332197975.jpg",
+      "publishedAt": "2026-09-25T10:29:59.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -296,17 +307,6 @@
       "url": "https://www.gulte.com/movienews/433529/ys-jagan-skips-sharmila-daughters-engagement",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/Sharmila-Daughter.jpeg",
       "publishedAt": "2026-09-25T02:43:45.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130155/what-will-happen-to-chiranjeevi-srikanth-odela-project.html",
-      "title": "What will happen to Chiranjeevi - Srikanth Odela project",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Will Mega Star take Mega 159 forward What will happen to Chiranjeevi - Srikanth Odela project By Rambabu Updated at: 2026-09-25...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130155/what-will-happen-to-chiranjeevi-srikanth-odela-project.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/what-will-happen-to-chiranj-1790300440946-1790300441314.jpg",
-      "publishedAt": "2026-09-25T01:41:32.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
