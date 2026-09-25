@@ -3,27 +3,28 @@ import fs from "node:fs/promises";
 const SOURCES = [
   {
     name: "GreatAndhra",
-    url: "https://www.greatandhra.com/",
+    archive: "https://www.greatandhra.com/movies/reviews/",
     domain: "greatandhra.com"
   },
   {
     name: "Gulte",
-    url: "https://www.gulte.com/moviereviews",
+    archive: "https://www.gulte.com/moviereviews",
     domain: "gulte.com"
   },
   {
     name: "M9.news",
-    url: "https://www.m9.news/",
+    archive: "https://www.m9.news/reviews/",
     domain: "m9.news"
   },
   {
     name: "Telugu360",
-    url: "https://www.telugu360.com/category/movies/telugu-movies-reviews/",
+    archive:
+      "https://www.telugu360.com/category/movies/telugu-movies-reviews/",
     domain: "telugu360.com"
   },
   {
     name: "123telugu",
-    url: "https://www.123telugu.com/category/reviews/",
+    archive: "https://www.123telugu.com/category/reviews/",
     domain: "123telugu.com"
   }
 ];
@@ -48,7 +49,7 @@ async function fetchHTML(url) {
 
     return await response.text();
   } catch (error) {
-    console.log(`FAILED: ${url}`);
+    console.log(`FAILED ${url}`);
     console.log(error.message);
     return "";
   }
@@ -83,6 +84,7 @@ function stripHTML(html = "") {
       .replace(/<script[\s\S]*?<\/script>/gi, " ")
       .replace(/<style[\s\S]*?<\/style>/gi, " ")
       .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
+      .replace(/<svg[\s\S]*?<\/svg>/gi, " ")
       .replace(/<[^>]+>/g, " ")
       .replace(/\s+/g, " ")
       .trim()
@@ -132,50 +134,6 @@ function uniqueLinks(links) {
   return [...map.values()];
 }
 
-function looksLikeReview(source, link) {
-  const value =
-    `${link.text} ${link.url}`.toLowerCase();
-
-  if (!value.includes(source.domain)) {
-    return false;
-  }
-
-  if (
-    link.text.length < 5 ||
-    link.text.length > 250
-  ) {
-    return false;
-  }
-
-  const badWords = [
-    "skip to main",
-    "view all",
-    "read more",
-    "more",
-    "menu",
-    "home",
-    "contact",
-    "advertise",
-    "privacy",
-    "terms"
-  ];
-
-  if (
-    badWords.some(word =>
-      link.text.trim().toLowerCase() === word
-    )
-  ) {
-    return false;
-  }
-
-  return (
-    value.includes("review") ||
-    value.includes("movie-review") ||
-    value.includes("moviereview") ||
-    value.includes("/reviews/")
-  );
-}
-
 function extractMeta(html, property) {
   const patterns = [
     new RegExp(
@@ -184,6 +142,14 @@ function extractMeta(html, property) {
     ),
     new RegExp(
       `<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${property}["']`,
+      "i"
+    ),
+    new RegExp(
+      `<meta[^>]+name=["']${property}["'][^>]+content=["']([^"']+)["']`,
+      "i"
+    ),
+    new RegExp(
+      `<meta[^>]+content=["']([^"']+)["'][^>]+name=["']${property}["']`,
       "i"
     )
   ];
@@ -199,136 +165,260 @@ function extractMeta(html, property) {
   return "";
 }
 
-function extractTitleFromPage(html, fallback) {
+function extractHeadline(html, fallback = "") {
+  const h1 = html.match(
+    /<h1[^>]*>([\s\S]*?)<\/h1>/i
+  );
+
+  if (h1?.[1]) {
+    return stripHTML(h1[1]);
+  }
+
   const ogTitle = extractMeta(html, "og:title");
 
   if (ogTitle) {
-    return cleanMovieTitle(ogTitle);
+    return ogTitle;
   }
 
-  const titleMatch =
-    html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+  const title = html.match(
+    /<title[^>]*>([\s\S]*?)<\/title>/i
+  );
 
-  if (titleMatch?.[1]) {
-    return cleanMovieTitle(titleMatch[1]);
+  if (title?.[1]) {
+    return stripHTML(title[1]);
   }
 
-  return cleanMovieTitle(fallback);
+  return fallback;
 }
 
-function extractMovieNameFromText(text) {
-  const patterns = [
-    /Movie\s*:\s*([^|]{2,100}?)(?:\s+Rating\s*:|\s+Banner\s*:)/i,
-    /Movie\s*Name\s*:\s*([^|]{2,100}?)(?:\s+Rating\s*:)/i,
-    /Film\s*:\s*([^|]{2,100}?)(?:\s+Rating\s*:)/i
+function isBadLink(text) {
+  const value = text.trim().toLowerCase();
+
+  const bad = [
+    "skip to main content",
+    "view all",
+    "read more",
+    "more",
+    "menu",
+    "home",
+    "contact",
+    "advertise",
+    "privacy",
+    "terms",
+    "movie reviews",
+    "reviews"
   ];
 
-  for (const pattern of patterns) {
-    const match = text.match(pattern);
-
-    if (match?.[1]) {
-      return cleanMovieTitle(match[1]);
-    }
-  }
-
-  return "";
+  return bad.includes(value);
 }
 
-function cleanMovieTitle(title = "") {
+function isReviewLink(source, link) {
+  const url = link.url.toLowerCase();
+  const text = link.text.toLowerCase();
+
+  if (!url.includes(source.domain)) {
+    return false;
+  }
+
+  if (isBadLink(link.text)) {
+    return false;
+  }
+
+  if (link.text.length < 4 || link.text.length > 250) {
+    return false;
+  }
+
+  if (source.name === "GreatAndhra") {
+    return (
+      url.includes("/movies/reviews/") &&
+      url !== source.archive
+    );
+  }
+
+  if (source.name === "Gulte") {
+    return url.includes("/moviereviews/");
+  }
+
+  if (source.name === "M9.news") {
+    return (
+      url.includes("m9.news/reviews/") &&
+      url !== "https://www.m9.news/reviews/"
+    );
+  }
+
+  if (source.name === "Telugu360") {
+    return (
+      url.includes("telugu360.com/") &&
+      (
+        url.includes("-movie-review") ||
+        url.includes("-review/")
+      )
+    );
+  }
+
+  if (source.name === "123telugu") {
+    return (
+      url.includes("123telugu.com/reviews/") ||
+      (
+        url.includes("123telugu.com/telugu/") &&
+        text.includes("review")
+      )
+    );
+  }
+
+  return false;
+}
+
+function cleanTitle(title = "") {
   let t = decodeEntities(title)
+    .replace(/\u200b/g, "")
     .replace(/\s+/g, " ")
     .trim();
 
   t = t
-    .replace(/^\s*['"“”‘’]+/, "")
-    .replace(/['"“”‘’]+\s*$/g, "");
-
-  const removePatterns = [
-    /^movie review\s*:\s*/i,
-    /^movie review\s+/i,
-    /^telugu movie review\s*:\s*/i,
-    /^telugu movie review\s+/i,
-    /^movie review and rating\s*:\s*/i,
-    /^review and rating\s*:\s*/i,
-    /^review\s*:\s*/i,
-    /^review\s+/i
-  ];
-
-  for (const pattern of removePatterns) {
-    t = t.replace(pattern, "");
-  }
-
-  /*
-   * Remove common review-site headline suffixes.
-   */
-  t = t
-    .replace(/\s*[-|:]\s*(movie review|review).*$/i, "")
-    .replace(/\s*\|\s*.*$/i, "")
+    .replace(/^['"“”‘’]+/, "")
+    .replace(/['"“”‘’]+$/, "")
     .trim();
 
   /*
-   * Specific headline cleanups.
+   * 123telugu
+   */
+  t = t.replace(
+    /^movie\s*name\s*:\s*/i,
+    ""
+  );
+
+  t = t.replace(
+    /\s+release\s+date\s*:.*$/i,
+    ""
+  );
+
+  t = t.replace(
+    /\s+123telugu\.com\s+rating\s*:.*$/i,
+    ""
+  );
+
+  /*
+   * Generic review prefixes.
    */
   t = t
-    .replace(/^the\s+paradise\s+movie\s+review.*$/i, "The Paradise")
-    .replace(/^the\s+paradise\s+review.*$/i, "The Paradise")
-    .replace(/^nani['’]s\s+the\s+paradise.*$/i, "The Paradise")
-    .replace(/^the\s+paradise.*$/i, "The Paradise");
+    .replace(/^review\s*:\s*/i, "")
+    .replace(/^movie\s+review\s*:\s*/i, "")
+    .replace(/^telugu\s+movie\s+review\s*:\s*/i, "")
+    .replace(/^ott\s+review\s*:\s*/i, "");
+
+  /*
+   * Remove common suffixes.
+   */
+  t = t
+    .replace(/\s*[-|]\s*gulte\s*$/i, "")
+    .replace(/\s*[-|]\s*123telugu.*$/i, "")
+    .replace(/\s*[-|]\s*m9\.news.*$/i, "")
+    .replace(/\s*[-|]\s*telugu360.*$/i, "");
+
+  /*
+   * GreatAndhra / Telugu360 headlines.
+   */
+  t = t.replace(
+    /\s+(?:movie\s+)?review\s*[:\-–—].*$/i,
+    ""
+  );
+
+  /*
+   * Gulte / M9 headlines.
+   */
+  t = t.replace(
+    /\s+review\s*[:\-–—].*$/i,
+    ""
+  );
+
+  /*
+   * If "Movie Review" appears at the end.
+   */
+  t = t.replace(
+    /\s+movie\s+review\s*$/i,
+    ""
+  );
+
+  t = t.replace(
+    /\s+review\s*$/i,
+    ""
+  );
+
+  /*
+   * Known titles.
+   */
+  const lower = t.toLowerCase();
+
+  if (lower.includes("the paradise")) {
+    return "The Paradise";
+  }
+
+  if (lower.includes("mahendragiri varahi")) {
+    return "Mahendragiri Varahi";
+  }
+
+  if (
+    lower.includes("epic first semester") ||
+    lower === "epic"
+  ) {
+    return "Epic First Semester";
+  }
+
+  if (
+    lower.includes("ramba oorvasi menaka") ||
+    lower.includes("ramba oorvashi menaka")
+  ) {
+    return "Ramba Oorvasi Menaka";
+  }
+
+  if (
+    lower.includes("sardar 2") ||
+    lower.includes("sardaar 2")
+  ) {
+    return "Sardar 2";
+  }
 
   return t.trim();
 }
 
-function normalizeTitle(title = "") {
-  let t = cleanMovieTitle(title).toLowerCase();
+function extractMovieTitle(source, html, candidateText, pageText) {
+  /*
+   * 123telugu has a very reliable Movie Name field.
+   */
+  if (source.name === "123telugu") {
+    const match = pageText.match(
+      /Movie\s*Name\s*:\s*(.+?)(?:\s+Release\s+Date\s*:|\s+123telugu\.com\s+Rating\s*:)/i
+    );
+
+    if (match?.[1]) {
+      return cleanTitle(match[1]);
+    }
+  }
 
   /*
-   * Known aliases / titles.
+   * GreatAndhra has:
+   * Movie: The Paradise Rating: 2/5
    */
-  if (
-    t.includes("the paradise") ||
-    t.includes("nani's the paradise") ||
-    t.includes("nani the paradise")
-  ) {
-    return "the paradise";
+  if (source.name === "GreatAndhra") {
+    const match = pageText.match(
+      /Movie\s*:\s*(.+?)\s+Rating\s*:/i
+    );
+
+    if (match?.[1]) {
+      return cleanTitle(match[1]);
+    }
   }
 
-  if (
-    t.includes("mahendragiri varahi")
-  ) {
-    return "mahendragiri varahi";
-  }
+  /*
+   * Page headline is best for M9, Gulte and Telugu360.
+   */
+  const headline = extractHeadline(
+    html,
+    candidateText
+  );
 
-  if (
-    t.includes("epic first semester") ||
-    t === "epic"
-  ) {
-    return "epic first semester";
-  }
-
-  if (
-    t.includes("ramba oorvasi menaka") ||
-    t.includes("ramba oorvashi menaka")
-  ) {
-    return "ramba oorvasi menaka";
-  }
-
-  if (
-    t.includes("sardar 2") ||
-    t.includes("sardaar 2")
-  ) {
-    return "sardar 2";
-  }
-
-  return t
-    .replace(/&/g, " and ")
-    .replace(/['’]/g, "")
-    .replace(/[^a-z0-9]+/g, " ")
-    .replace(
-      /\b(movie|review|rating|telugu|film|first report)\b/g,
-      " "
-    )
-    .replace(/\s+/g, " ")
-    .trim();
+  return cleanTitle(headline || candidateText);
 }
 
 function extractRating(text, source) {
@@ -342,13 +432,12 @@ function extractRating(text, source) {
 
     Gulte: [
       /Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-      /(\d+(?:\.\d+)?)\s*\/\s*5/i
+      /(?:^|\s)(\d+(?:\.\d+)?)\s*\/\s*5/i
     ],
 
     "M9.news": [
-      /Our\s*Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-      /M9(?:\.news)?\s*Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i,
-      /Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
+      /RATING\s+(\d+(?:\.\d+)?)\s*\/\s*5/i,
+      /M9\s*Rating\s*[:\-]?\s*(\d+(?:\.\d+)?)\s*\/\s*5/i
     ],
 
     Telugu360: [
@@ -365,16 +454,16 @@ function extractRating(text, source) {
   for (const pattern of patterns[source] || []) {
     const match = clean.match(pattern);
 
-    if (match) {
-      const rating = Number(match[1]);
+    if (!match) continue;
 
-      if (
-        Number.isFinite(rating) &&
-        rating >= 0 &&
-        rating <= 5
-      ) {
-        return rating;
-      }
+    const rating = Number(match[1]);
+
+    if (
+      Number.isFinite(rating) &&
+      rating >= 0 &&
+      rating <= 5
+    ) {
+      return rating;
     }
   }
 
@@ -389,16 +478,12 @@ function extractImage(html) {
   );
 }
 
-function extractDescription(html) {
-  return (
-    extractMeta(html, "og:description") ||
-    extractMeta(html, "description") ||
-    ""
-  ).slice(0, 240);
-}
-
 async function getCandidates(source) {
-  const html = await fetchHTML(source.url);
+  console.log(
+    `Loading ${source.name}: ${source.archive}`
+  );
+
+  const html = await fetchHTML(source.archive);
 
   if (!html) {
     return [];
@@ -406,22 +491,20 @@ async function getCandidates(source) {
 
   const links = extractLinks(
     html,
-    source.url
+    source.archive
   );
 
-  const candidates = links
-    .filter(link =>
-      looksLikeReview(source, link)
-    );
+  const candidates = uniqueLinks(
+    links.filter(link =>
+      isReviewLink(source, link)
+    )
+  );
 
-  const unique = uniqueLinks(candidates);
+  console.log(
+    `${source.name}: found ${candidates.length} review links`
+  );
 
-  /*
-   * Don't take random old pages.
-   * The review archive pages put newest reviews first,
-   * so we take the first 15 unique candidates.
-   */
-  return unique.slice(0, 15);
+  return candidates.slice(0, 20);
 }
 
 async function readReview(source, candidate) {
@@ -431,145 +514,146 @@ async function readReview(source, candidate) {
     return null;
   }
 
-  const text = stripHTML(html);
+  const pageText = stripHTML(html);
 
-  /*
-   * First try to get the actual movie name from
-   * the review page itself.
-   */
-  let movie =
-    extractMovieNameFromText(text);
-
-  /*
-   * If that fails, use page title / headline.
-   */
-  if (!movie) {
-    movie =
-      extractTitleFromPage(
-        html,
-        candidate.text
-      );
-  }
-
-  movie = cleanMovieTitle(movie);
+  const movie = extractMovieTitle(
+    source,
+    html,
+    candidate.text,
+    pageText
+  );
 
   if (
     !movie ||
     movie.length < 2 ||
-    movie.length > 120
+    movie.length > 100
   ) {
     return null;
   }
 
-  /*
-   * Reject obvious navigation garbage.
-   */
-  const badTitles = [
-    "skip to main content",
-    "movie reviews",
-    "reviews",
-    "more",
-    "ott reviews"
-  ];
+  const rating = extractRating(
+    pageText,
+    source.name
+  );
 
-  if (
-    badTitles.includes(
-      movie.toLowerCase()
-    )
-  ) {
-    return null;
-  }
-
-  const rating =
-    extractRating(
-      text,
-      source.name
-    );
-
-  const image =
-    extractImage(html);
-
-  const description =
-    extractDescription(html);
+  const image = extractImage(html);
 
   return {
     source: source.name,
     movie,
-    key: normalizeTitle(movie),
     rating,
     ratingText:
       rating === null
         ? "Not available"
         : `${rating}/5`,
     url: candidate.url,
-    image,
-    description
+    image
   };
 }
 
-function calculateAverage(reviews) {
-  const ratings = reviews
-    .map(item => item.rating)
-    .filter(
-      rating =>
-        typeof rating === "number" &&
-        Number.isFinite(rating)
-    );
+function titleTokens(title) {
+  return new Set(
+    cleanTitle(title)
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/['’]/g, "")
+      .replace(/[^a-z0-9]+/g, " ")
+      .split(/\s+/)
+      .filter(Boolean)
+      .filter(
+        word =>
+          ![
+            "movie",
+            "review",
+            "rating",
+            "film",
+            "telugu",
+            "ott",
+            "the"
+          ].includes(word)
+      )
+  );
+}
 
-  if (!ratings.length) {
-    return null;
+function titlesMatch(a, b) {
+  const aa = titleTokens(a);
+  const bb = titleTokens(b);
+
+  if (!aa.size || !bb.size) {
+    return false;
   }
 
-  const average =
-    ratings.reduce(
-      (sum, rating) =>
-        sum + rating,
-      0
-    ) / ratings.length;
+  /*
+   * Exact token match.
+   */
+  if (
+    aa.size === bb.size &&
+    [...aa].every(x => bb.has(x))
+  ) {
+    return true;
+  }
 
-  return Math.round(
-    average * 100
-  ) / 100;
+  /*
+   * One title is a shortened version of the other.
+   * Example:
+   * Epic
+   * Epic First Semester
+   */
+  const smaller =
+    aa.size <= bb.size ? aa : bb;
+
+  const larger =
+    aa.size <= bb.size ? bb : aa;
+
+  if (
+    smaller.size >= 1 &&
+    [...smaller].every(x => larger.has(x))
+  ) {
+    return true;
+  }
+
+  /*
+   * Token overlap.
+   */
+  let common = 0;
+
+  for (const token of aa) {
+    if (bb.has(token)) {
+      common++;
+    }
+  }
+
+  const overlap =
+    common / Math.max(aa.size, bb.size);
+
+  return overlap >= 0.7;
 }
 
 function groupReviews(reviews) {
-  const groups = new Map();
+  const groups = [];
 
   for (const review of reviews) {
-    if (!review.key) {
-      continue;
-    }
+    let group = groups.find(
+      item =>
+        titlesMatch(
+          item.movie,
+          review.movie
+        )
+    );
 
-    if (!groups.has(review.key)) {
-      groups.set(review.key, {
+    if (!group) {
+      group = {
         movie: review.movie,
         image: review.image || "",
         reviews: []
-      });
-    }
+      };
 
-    const group =
-      groups.get(review.key);
-
-    /*
-     * Prefer a proper movie title.
-     */
-    if (
-      group.movie.length < review.movie.length &&
-      !review.movie.toLowerCase().includes("review")
-    ) {
-      group.movie = review.movie;
-    }
-
-    if (
-      !group.image &&
-      review.image
-    ) {
-      group.image = review.image;
+      groups.push(group);
     }
 
     /*
-     * Only one review per source per movie.
+     * Never duplicate the same source
+     * inside one movie.
      */
     const existing =
       group.reviews.find(
@@ -578,108 +662,149 @@ function groupReviews(reviews) {
           review.source
       );
 
-    if (!existing) {
-      group.reviews.push(review);
+    if (existing) {
+      return;
+    }
+
+    group.reviews.push(review);
+
+    if (
+      !group.image &&
+      review.image
+    ) {
+      group.image = review.image;
     }
   }
 
-  return [...groups.values()]
-    .map(group => ({
-      ...group,
-      average:
-        calculateAverage(
-          group.reviews
-        )
-    }))
-    .sort((a, b) => {
-      const ad =
-        a.average === null
-          ? -1
-          : a.average;
-
-      const bd =
-        b.average === null
-          ? -1
-          : b.average;
-
-      return bd - ad;
-    });
+  return groups;
 }
 
-function buildFeedReviews(groups) {
-  const output = [];
+function calculateAverage(reviews) {
+  const ratings = reviews
+    .map(x => x.rating)
+    .filter(
+      x =>
+        typeof x === "number" &&
+        Number.isFinite(x)
+    );
 
-  for (const group of groups) {
-    const sourceRatings =
-      group.reviews.map(
-        review => ({
-          source: review.source,
-          rating: review.rating,
-          ratingText:
-            review.ratingText,
-          url: review.url
-        })
-      );
-
-    output.push({
-      t: group.movie,
-      l: "Telugu",
-
-      rating:
-        group.average === null
-          ? "Not available"
-          : `${group.average}/5`,
-
-      img:
-        group.image || "",
-
-      source:
-        "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-
-      u:
-        group.reviews[0]?.url ||
-        "",
-
-      aggregator: {
-        average:
-          group.average,
-
-        sources:
-          sourceRatings
-      }
-    });
+  if (!ratings.length) {
+    return null;
   }
 
-  return output;
+  const average =
+    ratings.reduce(
+      (sum, value) =>
+        sum + value,
+      0
+    ) / ratings.length;
+
+  return Math.round(
+    average * 100
+  ) / 100;
+}
+
+function buildReviews(groups) {
+  const SOURCE_NAMES = [
+    "GreatAndhra",
+    "Gulte",
+    "M9.news",
+    "Telugu360",
+    "123telugu"
+  ];
+
+  return groups
+    .map(group => {
+      const average =
+        calculateAverage(
+          group.reviews
+        );
+
+      const sources =
+        SOURCE_NAMES.map(
+          name => {
+            const found =
+              group.reviews.find(
+                review =>
+                  review.source ===
+                  name
+              );
+
+            if (!found) {
+              return {
+                source: name,
+                rating: null,
+                ratingText:
+                  "Not available",
+                url: ""
+              };
+            }
+
+            return {
+              source: name,
+              rating: found.rating,
+              ratingText:
+                found.ratingText,
+              url: found.url
+            };
+          }
+        );
+
+      return {
+        t: group.movie,
+        l: "Telugu",
+
+        rating:
+          average === null
+            ? "Not available"
+            : `${average}/5`,
+
+        img:
+          group.image || "",
+
+        source:
+          "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+
+        u:
+          group.reviews[0]?.url ||
+          "",
+
+        aggregator: {
+          average,
+          sources
+        }
+      };
+    })
+    .sort((a, b) => {
+      const ar =
+        a.aggregator.average ?? -1;
+
+      const br =
+        b.aggregator.average ?? -1;
+
+      return br - ar;
+    });
 }
 
 async function main() {
   console.log("");
-  console.log("=================================");
+  console.log("======================================");
   console.log("CINEINSTA REVIEW AGGREGATOR");
-  console.log("=================================");
+  console.log("======================================");
   console.log("");
 
   const allReviews = [];
 
   for (const source of SOURCES) {
+    console.log("");
     console.log(
-      `\nChecking ${source.name}...`
+      `========== ${source.name} ==========`
     );
 
     const candidates =
       await getCandidates(source);
 
-    console.log(
-      `${source.name}: ${candidates.length} candidates`
-    );
-
-    /*
-     * Read the newest candidates.
-     */
-    for (
-      const candidate of candidates.slice(0, 10)
-    ) {
+    for (const candidate of candidates) {
       const review =
         await readReview(
           source,
@@ -698,42 +823,46 @@ async function main() {
     }
   }
 
-  const groups =
-    groupReviews(
-      allReviews
-    );
-
   console.log("");
+  console.log(
+    `Raw reviews collected: ${allReviews.length}`
+  );
+
+  const groups =
+    groupReviews(allReviews);
+
   console.log(
     `Movies after grouping: ${groups.length}`
   );
 
+  console.log("");
+
   for (const group of groups) {
+    const average =
+      calculateAverage(
+        group.reviews
+      );
+
     console.log(
-      `\n${group.movie} | Average: ${
-        group.average === null
+      `${group.movie} | Average: ${
+        average === null
           ? "Not available"
-          : group.average
+          : average
       }`
     );
 
-    for (const source of group.reviews) {
+    for (const review of group.reviews) {
       console.log(
-        `  ${source.source}: ${source.ratingText}`
+        `   ${review.source}: ${review.ratingText}`
       );
     }
   }
 
   const reviews =
-    buildFeedReviews(
-      groups
-    );
+    buildReviews(groups);
 
   let existingFeed = {
-    updatedAt:
-      new Date().toISOString(),
-    news: [],
-    reviews: []
+    news: []
   };
 
   try {
@@ -747,7 +876,7 @@ async function main() {
       JSON.parse(existing);
   } catch {
     console.log(
-      "Could not read existing feed.json."
+      "Existing feed.json not found. Creating new feed."
     );
   }
 
@@ -784,20 +913,19 @@ async function main() {
 
   console.log("");
   console.log(
-    `Saved ${reviews.length} aggregated reviews.`
+    `Saved ${reviews.length} aggregated movies.`
   );
 
   console.log(
-    "data/feed.json updated successfully."
+    "feed.json updated successfully."
   );
 }
 
 main().catch(error => {
+  console.error("");
   console.error(
     "Cineinsta review aggregator failed:"
   );
-
   console.error(error);
-
   process.exit(1);
 });
