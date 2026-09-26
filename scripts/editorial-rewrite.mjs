@@ -401,10 +401,10 @@ async function main() {
       }
 
       prepared.push(story);
-    } catch (error) {
-      console.error(`FAILED TO PREPARE: ${input[i].title || input[i].url}`);
-      console.error(error.message);
-      throw error;
+  } catch (error) {
+      console.warn(`SKIPPED SOURCE: ${input[i].title || input[i].url}`);
+      console.warn(error.message);
+      continue;
     }
   }
 
