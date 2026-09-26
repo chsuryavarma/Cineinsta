@@ -35,6 +35,12 @@ jobs:
         run: |
           node scripts/update-feed.mjs
 
+      - name: Create Cineinsta editorial content
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          node scripts/editorial-rewrite.mjs
+
       - name: Commit updated feed
         run: |
           git config user.name "Cineinsta Feed Bot"
