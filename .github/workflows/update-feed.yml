@@ -37,7 +37,7 @@ jobs:
 
       - name: Create Cineinsta editorial content
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.CINEINSTA_GOOGLE }}
         run: |
           node scripts/editorial-rewrite.mjs
 
@@ -48,7 +48,6 @@ jobs:
 
           git add data/feed.json
 
-          git diff --cached --quiet || \
-            git commit -m "Update Cineinsta cinema feed"
+          git diff --cached --quiet ||             git commit -m "Update Cineinsta cinema feed"
 
           git push
