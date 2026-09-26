@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-09-25T18:15:59.823Z",
+  "updatedAt": "2026-09-26T00:20:59.489Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/dorothy-keerthy-sureshs-bold-film-gets-trolled-brutally-avd.html",
+      "title": "Dorothy: Keerthy Suresh's bold film gets trolled brutally",
+      "summary": "Dorothy: Keerthy Suresh’s bold film gets trolled brutally Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/dorothy-keerthy-sureshs-bold-film-gets-trolled-brutally-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
+      "publishedAt": "2026-09-25T19:34:53.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/dont-trouble-the-trouble-jr-ntr-to-attend-the-pre-release-event-avd.html",
+      "title": "Don’t Trouble The Trouble: Jr NTR to attend the pre-release event",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Don’t Trouble The Trouble: Jr NTR to attend...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/dont-trouble-the-trouble-jr-ntr-to-attend-the-pre-release-event-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Jr-NTR-1.webp",
+      "publishedAt": "2026-09-25T18:33:23.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.gulte.com/movienews/433651/chirus-big-push-for-cm-vijays-sons-debut",
       "title": "Chiru's Big Push For CM Vijay's Son's Debut",
@@ -9,7 +31,7 @@
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/433651/chirus-big-push-for-cm-vijays-sons-debut",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/chiru-sigma.jpg",
-      "publishedAt": "2026-09-25T17:37:00.000Z",
+      "publishedAt": "2026-09-25T18:15:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -190,17 +212,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.123telugu.com/mnews/varanasi-star-mahesh-babus-new-look-grabs-attention-avd.html",
-      "title": "Varanasi star Mahesh Babu's new look grabs attention",
-      "summary": "Varanasi star Mahesh Babu’s new look grabs attention Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/varanasi-star-mahesh-babus-new-look-grabs-attention-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mahesh.webp",
-      "publishedAt": "2026-09-25T11:30:20.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.gulte.com/movienews/433614/kaaka-for-sankranthi-bobby-in-no-mood-to-compromise",
       "title": "Kaaka For Sankranthi: Bobby In No Mood To Compromise",
       "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
@@ -230,17 +241,6 @@
       "url": "https://www.cinejosh.com/news/1/130170/sankranthi-mega-film-in-doldrums.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/sankranthi-mega-film-in-doldrums-1790332197350-1790332197975.jpg",
       "publishedAt": "2026-09-25T10:29:59.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/the-paradise-nizam-collections-all-time-record-for-a-tier-2-hero-prp.html",
-      "title": "The Paradise Nizam collections: All-time record for a tier 2 hero",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు The Paradise Nizam collections: All-time...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/the-paradise-nizam-collections-all-time-record-for-a-tier-2-hero-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-1.webp",
-      "publishedAt": "2026-09-25T10:16:42.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -334,6 +334,16 @@
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/sharwanands-george-krish-teaser-out-actor-seen-in-two-different-religious-avatars-manasa-varanasi-plays-female-lead/articleshow/134474291.cms",
       "title": "Sharwanand’s ‘George Krish’ teaser out: Actor seen in two different religious avatars; Manasa Varanasi plays female lead",
@@ -442,16 +452,6 @@
       "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-09T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
-      "title": "Vibe - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
-      "img": "https://static.toiimg.com/thumb/msid-133713137,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
@@ -1839,50 +1839,6 @@
             "rating": null,
             "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/secret-soldier-telugu-movie-review-rating/"
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
-      "t": "Sahaa",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/sahaa-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/sahaa-movie-review-rating/"
           },
           {
             "source": "Telugu360",
