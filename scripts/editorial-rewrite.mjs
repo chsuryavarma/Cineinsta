@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 
 const GEMINI_MODEL = "gemini-3.5-flash-lite";
-const BATCH_SIZE = 5;
+const BATCH_SIZE = 4;
 
 const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
@@ -117,11 +117,7 @@ function extractArticleBody(html = "") {
 }
 
 function extractImage(html = "") {
-  return (
-    extractMeta(html, "og:image") ||
-    extractMeta(html, "twitter:image") ||
-    ""
-  );
+  return extractMeta(html, "og:image") || extractMeta(html, "twitter:image") || "";
 }
 
 function isIndianCinemaStory(title, body) {
@@ -175,6 +171,29 @@ function validateStory(story) {
   return true;
 }
 
+function extractJsonObject(text = "") {
+  const cleaned = String(text)
+    .replace(/^\s*```json\s*/i, "")
+    .replace(/^\s*```\s*/i, "")
+    .replace(/\s*```\s*$/i, "")
+    .trim();
+
+  try {
+    return JSON.parse(cleaned);
+  } catch {}
+
+  const first = cleaned.indexOf("{");
+  const last = cleaned.lastIndexOf("}");
+
+  if (first >= 0 && last > first) {
+    try {
+      return JSON.parse(cleaned.slice(first, last + 1));
+    } catch {}
+  }
+
+  return null;
+}
+
 async function callGemini(prompt) {
   const apiKey = process.env.GEMINI_API_KEY;
 
@@ -187,14 +206,12 @@ async function callGemini(prompt) {
       `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${encodeURIComponent(apiKey)}`,
       {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           systemInstruction: {
             parts: [
               {
-                text: "You are a careful cinema editor. Return valid JSON only."
+                text: "You are a careful cinema editor. Return JSON only. Never use Markdown fences."
               }
             ]
           },
@@ -205,7 +222,7 @@ async function callGemini(prompt) {
             }
           ],
           generationConfig: {
-            temperature: 0.3,
+            temperature: 0.2,
             responseMimeType: "application/json"
           }
         })
@@ -219,14 +236,23 @@ async function callGemini(prompt) {
         .join("");
 
       if (!text) {
+        if (attempt < 3) {
+          await new Promise(resolve => setTimeout(resolve, attempt * 2000));
+          continue;
+        }
         throw new Error("Gemini returned an empty response.");
       }
 
-      try {
-        return JSON.parse(text);
-      } catch {
-        throw new Error("Gemini returned invalid JSON.");
+      const parsed = extractJsonObject(text);
+      if (parsed) return parsed;
+
+      if (attempt < 3) {
+        console.log(`Gemini returned non-JSON output. Retrying (attempt ${attempt + 1}/3)...`);
+        await new Promise(resolve => setTimeout(resolve, attempt * 2000));
+        continue;
       }
+
+      throw new Error("Gemini returned invalid JSON after retries.");
     }
 
     const errorText = await response.text();
@@ -241,6 +267,86 @@ async function callGemini(prompt) {
   }
 
   throw new Error("Gemini request failed after retries.");
+}
+
+function buildBatchPrompt(batch) {
+  const stories = batch.map((story, index) => [
+    `STORY ${index + 1}`,
+    `Source publisher: ${story.item.source || "Unknown"}`,
+    `Source headline: ${story.sourceTitle}`,
+    "Article text:",
+    story.body
+  ].join("\n")).join("\n\n==============================\n\n");
+
+  return [
+    "You are the editorial writer for Cineinsta, an Indian cinema news website.",
+    "",
+    `Rewrite ALL ${batch.length} stories below in one response.`,
+    "",
+    "Rules:",
+    "1. Keep only Indian cinema stories. Telugu cinema is the priority.",
+    "2. Preserve facts, but rewrite all wording in fresh original language.",
+    "3. Do not copy the source headline or sentence structure.",
+    "4. Do not invent names, dates, quotes, ratings, box-office numbers, release plans or other facts.",
+    "5. Write one natural, engaging headline for each story.",
+    "6. Write a concise 2-3 sentence summary for each story.",
+    "7. Ignore menus, navigation, advertisements, related links, social prompts and publisher boilerplate.",
+    "8. If a story is not an Indian cinema story, return keep=false.",
+    "9. If there are not enough reliable facts, return keep=false.",
+    "10. Return JSON only. No Markdown.",
+    "11. Return exactly one result for every input story, in the same order.",
+    "12. Each result must contain keep, title, summary, category.",
+    "",
+    'Required JSON shape: {"stories":[{"keep":true,"title":"...","summary":"...","category":"Telugu Cinema"}]}',
+    "",
+    stories
+  ].join("\n");
+}
+
+async function rewriteBatch(batch) {
+  try {
+    const response = await callGemini(buildBatchPrompt(batch));
+
+    if (!response || !Array.isArray(response.stories)) {
+      throw new Error("Gemini returned an invalid batch response.");
+    }
+
+    if (response.stories.length !== batch.length) {
+      throw new Error(
+        `Gemini returned ${response.stories.length} stories for a batch of ${batch.length}.`
+      );
+    }
+
+    return response.stories;
+  } catch (error) {
+    if (batch.length === 1) throw error;
+
+    console.log(`Batch rewrite failed. Retrying ${batch.length} stories individually...`);
+
+    const individual = [];
+
+    for (const story of batch) {
+      try {
+        const single = await callGemini(buildBatchPrompt([story]));
+
+        if (
+          single &&
+          Array.isArray(single.stories) &&
+          single.stories.length === 1
+        ) {
+          individual.push(single.stories[0]);
+        } else {
+          individual.push({ keep: false });
+        }
+      } catch (singleError) {
+        console.log(`Individual rewrite failed: ${story.sourceTitle}`);
+        console.log(singleError.message);
+        individual.push({ keep: false });
+      }
+    }
+
+    return individual;
+  }
 }
 
 async function prepareStory(item, index) {
@@ -266,60 +372,6 @@ async function prepareStory(item, index) {
     body,
     image: item.img || extractImage(html)
   };
-}
-
-function buildBatchPrompt(batch) {
-  const stories = batch.map((story, index) => {
-    return [
-      `STORY ${index + 1}`,
-      `Source publisher: ${story.item.source || "Unknown"}`,
-      `Source headline: ${story.sourceTitle}`,
-      "Article text:",
-      story.body
-    ].join("\n");
-  }).join("\n\n==============================\n\n");
-
-  return [
-    "You are the editorial writer for Cineinsta, an Indian cinema news website.",
-    "",
-    `Rewrite ALL ${batch.length} stories below in one response.`,
-    "",
-    "Rules:",
-    "1. Keep only Indian cinema stories. Telugu cinema is the priority.",
-    "2. Preserve facts, but rewrite all wording in fresh original language.",
-    "3. Do not copy the source headline or sentence structure.",
-    "4. Do not invent names, dates, quotes, ratings, box-office numbers, release plans or other facts.",
-    "5. Write one natural, engaging headline for each story.",
-    "6. Write a concise 2-3 sentence summary for each story.",
-    "7. Ignore menus, navigation, advertisements, related links, social prompts and publisher boilerplate.",
-    "8. If a story is not an Indian cinema story, return keep=false for that story.",
-    "9. If there are not enough reliable facts to write a clean story, return keep=false for that story.",
-    "10. Return JSON only.",
-    "11. The JSON must be an object with an `stories` array.",
-    "12. Return exactly one result object for every input story, in the same order.",
-    "13. Each result object must have these keys: keep, title, summary, category.",
-    "",
-    "Required JSON shape:",
-    '{"stories":[{"keep":true,"title":"...","summary":"...","category":"Telugu Cinema"}]}',
-    "",
-    stories
-  ].join("\n");
-}
-
-async function rewriteBatch(batch) {
-  const response = await callGemini(buildBatchPrompt(batch));
-
-  if (!response || !Array.isArray(response.stories)) {
-    throw new Error("Gemini returned an invalid batch response.");
-  }
-
-  if (response.stories.length !== batch.length) {
-    throw new Error(
-      `Gemini returned ${response.stories.length} stories for a batch of ${batch.length}.`
-    );
-  }
-
-  return response.stories;
 }
 
 async function main() {
@@ -410,7 +462,8 @@ async function main() {
     );
   }
 
-  feed.news = output.slice(0, 30);
+  // Keep the homepage at the requested 24 news stories.
+  feed.news = output.slice(0, 24);
   feed.updatedAt = new Date().toISOString();
 
   await fs.writeFile(feedPath, JSON.stringify(feed, null, 2), "utf8");
