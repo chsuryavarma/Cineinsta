@@ -1,6 +1,8 @@
 import fs from "node:fs/promises";
 
 const GEMINI_MODEL = "gemini-3.5-flash-lite";
+const BATCH_SIZE = 5;
+
 const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
 
@@ -235,13 +237,13 @@ async function callGemini(prompt) {
       continue;
     }
 
-    throw new Error(`Gemini HTTP ${response.status}: ${errorText.slice(0, 500)}`);
+    throw new Error(`Gemini HTTP ${response.status}: ${errorText.slice(0, 800)}`);
   }
 
   throw new Error("Gemini request failed after retries.");
 }
 
-async function rewriteStory(item, index) {
+async function prepareStory(item, index) {
   if (!item?.url) {
     throw new Error(`News item ${index + 1} has no source URL.`);
   }
@@ -258,44 +260,66 @@ async function rewriteStory(item, index) {
     return null;
   }
 
-  const prompt = [
+  return {
+    item,
+    sourceTitle,
+    body,
+    image: item.img || extractImage(html)
+  };
+}
+
+function buildBatchPrompt(batch) {
+  const stories = batch.map((story, index) => {
+    return [
+      `STORY ${index + 1}`,
+      `Source publisher: ${story.item.source || "Unknown"}`,
+      `Source headline: ${story.sourceTitle}`,
+      "Article text:",
+      story.body
+    ].join("\n");
+  }).join("\n\n==============================\n\n");
+
+  return [
     "You are the editorial writer for Cineinsta, an Indian cinema news website.",
     "",
-    "Create ORIGINAL Cineinsta copy from the source article below.",
+    `Rewrite ALL ${batch.length} stories below in one response.`,
     "",
     "Rules:",
     "1. Keep only Indian cinema stories. Telugu cinema is the priority.",
     "2. Preserve facts, but rewrite all wording in fresh original language.",
     "3. Do not copy the source headline or sentence structure.",
     "4. Do not invent names, dates, quotes, ratings, box-office numbers, release plans or other facts.",
-    "5. Write one natural, engaging headline.",
-    "6. Write a concise 2-3 sentence summary.",
+    "5. Write one natural, engaging headline for each story.",
+    "6. Write a concise 2-3 sentence summary for each story.",
     "7. Ignore menus, navigation, advertisements, related links, social prompts and publisher boilerplate.",
-    "8. If this is not an Indian cinema story, return keep=false.",
-    "9. If there are not enough reliable facts to write a clean story, return keep=false.",
-    "10. Return JSON only with keys: keep, title, summary, category.",
+    "8. If a story is not an Indian cinema story, return keep=false for that story.",
+    "9. If there are not enough reliable facts to write a clean story, return keep=false for that story.",
+    "10. Return JSON only.",
+    "11. The JSON must be an object with an `stories` array.",
+    "12. Return exactly one result object for every input story, in the same order.",
+    "13. Each result object must have these keys: keep, title, summary, category.",
     "",
-    `Source publisher: ${item.source || "Unknown"}`,
-    `Source headline: ${sourceTitle}`,
+    "Required JSON shape:",
+    '{"stories":[{"keep":true,"title":"...","summary":"...","category":"Telugu Cinema"}]}',
     "",
-    "Article text:",
-    body
+    stories
   ].join("\n");
+}
 
-  const story = await callGemini(prompt);
+async function rewriteBatch(batch) {
+  const response = await callGemini(buildBatchPrompt(batch));
 
-  if (!validateStory(story)) return null;
+  if (!response || !Array.isArray(response.stories)) {
+    throw new Error("Gemini returned an invalid batch response.");
+  }
 
-  return {
-    ...item,
-    title: cleanText(story.title),
-    summary: cleanText(story.summary),
-    category: cleanText(story.category || item.category || "Telugu Cinema"),
-    source: item.source || "Source",
-    url: item.url,
-    img: item.img || extractImage(html),
-    editorial: "Cineinsta"
-  };
+  if (response.stories.length !== batch.length) {
+    throw new Error(
+      `Gemini returned ${response.stories.length} stories for a batch of ${batch.length}.`
+    );
+  }
+
+  return response.stories;
 }
 
 async function main() {
@@ -313,32 +337,77 @@ async function main() {
 
   console.log(`News stories received from collector: ${input.length}`);
 
-  const output = [];
-  let rejected = 0;
+  const prepared = [];
 
   for (let i = 0; i < input.length; i++) {
-    const item = input[i];
-
     try {
-      const rewritten = await rewriteStory(item, i);
+      const story = await prepareStory(input[i], i);
 
-      if (!rewritten) {
-        rejected++;
-        console.log(`REJECTED: ${item.title || item.url}`);
+      if (!story) {
+        console.log(`PRE-FILTERED: ${input[i].title || input[i].url}`);
         continue;
       }
 
-      output.push(rewritten);
-      console.log(`ACCEPTED: ${rewritten.title}`);
+      prepared.push(story);
     } catch (error) {
-      console.error(`FAILED: ${item.title || item.url}`);
+      console.error(`FAILED TO PREPARE: ${input[i].title || input[i].url}`);
       console.error(error.message);
       throw error;
     }
   }
 
+  if (!prepared.length) {
+    throw new Error("No usable Indian cinema stories were prepared.");
+  }
+
+  console.log(`Stories ready for Gemini: ${prepared.length}`);
+  console.log(`Gemini batch size: ${BATCH_SIZE}`);
+  console.log(`Expected Gemini requests: ${Math.ceil(prepared.length / BATCH_SIZE)}`);
+
+  const output = [];
+  let rejected = 0;
+
+  for (let start = 0; start < prepared.length; start += BATCH_SIZE) {
+    const batch = prepared.slice(start, start + BATCH_SIZE);
+    const batchNumber = Math.floor(start / BATCH_SIZE) + 1;
+
+    console.log("");
+    console.log(`Processing Gemini batch ${batchNumber}: ${batch.length} stories`);
+
+    const results = await rewriteBatch(batch);
+
+    for (let i = 0; i < batch.length; i++) {
+      const source = batch[i];
+      const story = results[i];
+
+      if (!validateStory(story)) {
+        rejected++;
+        console.log(`REJECTED: ${source.sourceTitle}`);
+        continue;
+      }
+
+      const rewritten = {
+        ...source.item,
+        title: cleanText(story.title),
+        summary: cleanText(story.summary),
+        category: cleanText(
+          story.category || source.item.category || "Telugu Cinema"
+        ),
+        source: source.item.source || "Source",
+        url: source.item.url,
+        img: source.item.img || source.image,
+        editorial: "Cineinsta"
+      };
+
+      output.push(rewritten);
+      console.log(`ACCEPTED: ${rewritten.title}`);
+    }
+  }
+
   if (!output.length) {
-    throw new Error("No clean Cineinsta stories were produced. Existing feed was not replaced.");
+    throw new Error(
+      "No clean Cineinsta stories were produced. Existing feed was not replaced."
+    );
   }
 
   feed.news = output.slice(0, 30);
