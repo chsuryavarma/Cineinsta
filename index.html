@@ -14,7 +14,7 @@ header{position:sticky;top:0;z-index:1000;background:rgba(255,253,249,.94);backd
 .headerNav{display:flex;gap:24px;font-size:12px;font-weight:850}.headerNav a{color:#666}.headerNav a:hover{color:var(--accent)}.searchBtn{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--text);cursor:pointer}
 main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 24px}.intro h1{margin:0 0 8px;font-size:clamp(34px,5vw,54px);line-height:1;letter-spacing:-2px}.intro p{margin:0;color:var(--muted);font-size:14px}
 .hero{position:relative;min-height:430px;margin-bottom:44px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#2b2927;box-shadow:var(--shadow)}.heroImage{position:absolute;inset:0}.heroImage img{width:100%;height:100%;object-fit:cover}.heroOverlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,18,17,.9) 0%,rgba(20,18,17,.58) 48%,rgba(20,18,17,.08) 100%)}.heroContent{position:relative;z-index:2;min-height:430px;max-width:680px;padding:52px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.heroTag{display:inline-block;background:var(--accent);color:#fff;padding:6px 10px;border-radius:999px;font-size:9px;font-weight:900;letter-spacing:1px;text-transform:uppercase;margin-bottom:15px}.heroTitle{margin:0 0 12px;color:#fff;font-size:clamp(30px,4vw,50px);line-height:1.05;font-weight:900;letter-spacing:-1.7px}.heroSummary{margin:0 0 14px;color:#eee;font-size:14px;line-height:1.65}.heroMeta{color:#d3d0cb;font-size:10px;margin-bottom:18px}.heroButton{display:inline-block;background:#fff;color:#222;padding:12px 18px;border-radius:999px;font-size:10px;font-weight:900;text-transform:uppercase}
-.jumpNav{position:sticky;top:64px;z-index:20;display:flex;gap:8px;overflow-x:auto;padding:10px 0;margin:8px 0 2px;scrollbar-width:none;background:rgba(247,245,240,.94);backdrop-filter:blur(10px)}.jumpNav::-webkit-scrollbar{display:none}.jumpNav a{flex:0 0 auto;text-decoration:none;color:#333;background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 14px;font-size:11px;font-weight:850;box-shadow:0 3px 10px rgba(30,25,20,.04)}.jumpNav a:hover{border-color:var(--accent);color:var(--accent)}.section{margin-top:46px}.sectionHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:16px}.sectionHead h2{margin:0;font-size:24px;letter-spacing:-.5px}.sectionHead span{color:#8a857d;font-size:10px;text-transform:uppercase;letter-spacing:1.3px}
+.jumpNav{position:sticky;top:64px;z-index:20;display:flex;gap:8px;overflow-x:auto;padding:10px 0;margin:8px 0 2px;scrollbar-width:none;background:rgba(247,245,240,.94);backdrop-filter:blur(10px)}.jumpNav::-webkit-scrollbar{display:none}.jumpNav a{flex:0 0 auto;text-decoration:none;color:#333;background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 14px;font-size:11px;font-weight:850;box-shadow:0 3px 10px rgba(30,25,20,.04)}.jumpNav a:hover{border-color:var(--accent);color:var(--accent)}.section{margin-top:46px;scroll-margin-top:128px}.sectionHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:16px}.sectionHead h2{margin:0;font-size:24px;letter-spacing:-.5px}.sectionHead span{color:#8a857d;font-size:10px;text-transform:uppercase;letter-spacing:1.3px}
 .newsGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.newsCard,.trailerCard,.interviewCard{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.04);transition:transform .18s ease,box-shadow .18s ease}.newsCard:hover,.trailerCard:hover,.interviewCard:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .newsImage,.trailerThumb,.interviewThumb{width:100%;aspect-ratio:16/9;background:#e5e1da;overflow:hidden}.newsImage img,.trailerThumb img,.interviewThumb img{width:100%;height:100%;object-fit:cover}.newsBody{padding:15px 16px 17px}.newsSource,.interviewSource{color:var(--accent);font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}.newsTitle{margin:7px 0 8px;font-size:17px;line-height:1.25;font-weight:850}.newsSummary{margin:0;color:#777;font-size:11px;line-height:1.55}.newsMeta{display:flex;justify-content:space-between;margin-top:12px;color:#999;font-size:9px}
 .trailerGrid,.interviewGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.trailerThumb,.interviewThumb{position:relative}.trailerBody,.interviewBody{padding:13px 14px 15px}.trailerTitle,.interviewTitle{font-size:14px;font-weight:850;line-height:1.35;margin-bottom:7px}.trailerSource,.interviewMeta{color:#8b8882;font-size:9px}.play,.interviewPlay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--accent);display:grid;place-items:center;font-size:17px;box-shadow:0 4px 16px rgba(0,0,0,.22)}
@@ -52,6 +52,12 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <a id="heroLink" class="heroButton" href="#">Read on Cineinsta →</a>
 </div>
 </section>
+
+<nav class="jumpNav" aria-label="Quick navigation">
+<a href="#reviewsSection">Jump to Reviews</a>
+<a href="#interviewsSection">Jump to Interviews</a>
+<a href="#trailersSection">Jump to Trailers</a>
+</nav>
 
 <section class="section" id="newsSection">
 <div class="sectionHead"><h2>Latest Film News</h2><span>Telugu</span></div>
@@ -243,7 +249,7 @@ function renderNews(items){
 const grid=document.getElementById("newsGrid");
 const validNews=items.filter(function(item){return item&&typeof item.img==="string"&&item.img.trim()!==""&&item.url;});
 if(!validNews.length){grid.innerHTML='<div class="empty">No latest Telugu news with thumbnails available right now.</div>';return}
-grid.innerHTML=validNews.slice(0,9).map(function(item){return `
+grid.innerHTML=validNews.slice(0,24).map(function(item){return `
 <article class="newsCard"><a href="/news/${articleSlug(item)}">
 <div class="newsImage"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.title)}" loading="lazy"></div>
 <div class="newsBody"><div class="newsSource">${escapeHTML(item.source||"Telugu Cinema")}</div>
@@ -362,7 +368,7 @@ interviewsSection.style.display="";
 reviewsSection.style.display="";
 renderHero(feed.news);
 renderInterviews(feed.interviews,12);
-interviewTitle.textContent="Movie Interviews";
+interviewTitle.textContent="Celebrity Interviews";
 interviewLabel.textContent="Telugu Cinema";
 interviewButton.textContent="View All Interviews";
 interviewButton.href="/interviews";
@@ -392,6 +398,16 @@ if(route==="reviews"){reviewsSection.scrollIntoView({behavior:"smooth"});return}
 
 window.scrollTo({top:0,behavior:"smooth"});
 }
+
+document.querySelectorAll(".jumpNav a").forEach(function(link){
+link.addEventListener("click",function(event){
+const targetId=link.getAttribute("href").slice(1);
+const target=document.getElementById(targetId);
+if(!target)return;
+event.preventDefault();
+target.scrollIntoView({behavior:"smooth",block:"start"});
+});
+});
 
 window.addEventListener("hashchange",handleRoute);
 
