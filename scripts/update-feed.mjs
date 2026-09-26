@@ -976,6 +976,58 @@ function isMovieInterview(title, description = "", sourceName = "") {
   return false;
 }
 
+async function searchYouTubeInterviews(query, sourceLabel) {
+  try {
+    const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
+    const html = await fetchHTML(url);
+    if (!html) return [];
+
+    const results = [];
+    const rendererRegex = /"videoRenderer":\{([\s\S]*?)\}\s*,\s*"/g;
+    let match;
+
+    while ((match = rendererRegex.exec(html))) {
+      const block = match[1];
+      const idMatch = block.match(/"videoId":"([A-Za-z0-9_-]{11})"/);
+      if (!idMatch) continue;
+
+      const titleMatch = block.match(/"title":\{"runs":\[\{"text":"((?:\\.|[^"\\])*)"/);
+      const title = titleMatch?.[1]
+        ? decodeEntities(titleMatch[1].replace(/\\"/g, '"').replace(/\\\\/g, '\\'))
+        : "";
+
+      const descriptionMatch = block.match(/"detailedMetadataSnippets":\[\{"snippetText":\{"runs":\[([\s\S]*?)\]\}/);
+      const description = descriptionMatch?.[1]
+        ? decodeEntities(descriptionMatch[1].replace(/.*?"text":"/g, "").replace(/".*$/g, "").replace(/\\"/g, '"'))
+        : "";
+
+      if (!title || !isMovieInterview(title, description, sourceLabel)) continue;
+
+      const publishedMatch = block.match(/"publishedTimeText":\{"simpleText":"([^"]+)"/);
+
+      results.push({
+        id: idMatch[1],
+        youtubeId: idMatch[1],
+        title,
+        source: sourceLabel,
+        url: `https://www.youtube.com/watch?v=${idMatch[1]}`,
+        img: `https://i.ytimg.com/vi/${idMatch[1]}/hqdefault.jpg`,
+        publishedAt: publishedMatch?.[1] || null,
+        language: "Telugu",
+        category: "Movie Interviews"
+      });
+
+      if (results.length >= 8) break;
+    }
+
+    return results;
+  } catch (error) {
+    console.log(`YouTube interview search failed: ${query}`);
+    console.log(error.message);
+    return [];
+  }
+}
+
 async function collectInterviews() {
   const all = [];
 
@@ -1043,6 +1095,24 @@ async function collectInterviews() {
         category: "Movie Interviews"
       });
     }
+  }
+
+  if (!all.length) {
+    console.log("No channel RSS interviews found. Searching YouTube directly for current celebrity/movie interviews...");
+  }
+
+  const interviewQueries = [
+    "Telugu celebrity interview movie",
+    "Telugu actor interview latest movie",
+    "Telugu actress interview latest movie",
+    "Telugu director interview latest film",
+    "Telugu movie team interview"
+  ];
+
+  for (const query of interviewQueries) {
+    const found = await searchYouTubeInterviews(query, "YouTube Cinema Interviews");
+    console.log(`${query}: ${found.length} interview candidates`);
+    all.push(...found);
   }
 
   const seen = new Set();
