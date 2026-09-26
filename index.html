@@ -10,11 +10,11 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 header{position:sticky;top:0;z-index:1000;background:rgba(255,253,249,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .headerInner{max-width:1180px;margin:auto;min-height:72px;padding:0 20px;display:flex;align-items:center;justify-content:space-between}
-.logo{position:relative;display:flex;align-items:center;height:64px;width:175px;overflow:hidden;border-radius:8px;background:transparent}.logo img{width:100%;height:100%;object-fit:contain}.logo:before{content:"";position:absolute;z-index:2;right:0;top:0;width:34px;height:30px;background:#fff}.logo:after{content:"";position:absolute;z-index:3;right:7px;top:2px;width:22px;height:22px;background:linear-gradient(90deg,var(--accent) 0 50%,transparent 50% 100%);clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 94%,50% 72%,21% 94%,32% 57%,2% 35%,39% 35%);pointer-events:none}
+.logo{position:relative;display:flex;align-items:center;height:64px;width:175px;overflow:hidden;border-radius:8px;background:transparent}.logo img{width:100%;height:100%;object-fit:contain}
 .headerNav{display:flex;gap:24px;font-size:12px;font-weight:850}.headerNav a{color:#666}.headerNav a:hover{color:var(--accent)}.searchBtn{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--text);cursor:pointer}
 main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 24px}.intro h1{margin:0 0 8px;font-size:clamp(34px,5vw,54px);line-height:1;letter-spacing:-2px}.intro p{margin:0;color:var(--muted);font-size:14px}
 .hero{position:relative;min-height:430px;margin-bottom:44px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#2b2927;box-shadow:var(--shadow)}.heroImage{position:absolute;inset:0}.heroImage img{width:100%;height:100%;object-fit:cover}.heroOverlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,18,17,.9) 0%,rgba(20,18,17,.58) 48%,rgba(20,18,17,.08) 100%)}.heroContent{position:relative;z-index:2;min-height:430px;max-width:680px;padding:52px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.heroTag{display:inline-block;background:var(--accent);color:#fff;padding:6px 10px;border-radius:999px;font-size:9px;font-weight:900;letter-spacing:1px;text-transform:uppercase;margin-bottom:15px}.heroTitle{margin:0 0 12px;color:#fff;font-size:clamp(30px,4vw,50px);line-height:1.05;font-weight:900;letter-spacing:-1.7px}.heroSummary{margin:0 0 14px;color:#eee;font-size:14px;line-height:1.65}.heroMeta{color:#d3d0cb;font-size:10px;margin-bottom:18px}.heroButton{display:inline-block;background:#fff;color:#222;padding:12px 18px;border-radius:999px;font-size:10px;font-weight:900;text-transform:uppercase}
-.section{margin-top:46px}.sectionHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:16px}.sectionHead h2{margin:0;font-size:24px;letter-spacing:-.5px}.sectionHead span{color:#8a857d;font-size:10px;text-transform:uppercase;letter-spacing:1.3px}
+.jumpNav{position:sticky;top:64px;z-index:20;display:flex;gap:8px;overflow-x:auto;padding:10px 0;margin:8px 0 2px;scrollbar-width:none;background:rgba(247,245,240,.94);backdrop-filter:blur(10px)}.jumpNav::-webkit-scrollbar{display:none}.jumpNav a{flex:0 0 auto;text-decoration:none;color:#333;background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 14px;font-size:11px;font-weight:850;box-shadow:0 3px 10px rgba(30,25,20,.04)}.jumpNav a:hover{border-color:var(--accent);color:var(--accent)}.section{margin-top:46px}.sectionHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:16px}.sectionHead h2{margin:0;font-size:24px;letter-spacing:-.5px}.sectionHead span{color:#8a857d;font-size:10px;text-transform:uppercase;letter-spacing:1.3px}
 .newsGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.newsCard,.trailerCard,.interviewCard{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.04);transition:transform .18s ease,box-shadow .18s ease}.newsCard:hover,.trailerCard:hover,.interviewCard:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
 .newsImage,.trailerThumb,.interviewThumb{width:100%;aspect-ratio:16/9;background:#e5e1da;overflow:hidden}.newsImage img,.trailerThumb img,.interviewThumb img{width:100%;height:100%;object-fit:cover}.newsBody{padding:15px 16px 17px}.newsSource,.interviewSource{color:var(--accent);font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}.newsTitle{margin:7px 0 8px;font-size:17px;line-height:1.25;font-weight:850}.newsSummary{margin:0;color:#777;font-size:11px;line-height:1.55}.newsMeta{display:flex;justify-content:space-between;margin-top:12px;color:#999;font-size:9px}
 .trailerGrid,.interviewGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.trailerThumb,.interviewThumb{position:relative}.trailerBody,.interviewBody{padding:13px 14px 15px}.trailerTitle,.interviewTitle{font-size:14px;font-weight:850;line-height:1.35;margin-bottom:7px}.trailerSource,.interviewMeta{color:#8b8882;font-size:9px}.play,.interviewPlay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--accent);display:grid;place-items:center;font-size:17px;box-shadow:0 4px 16px rgba(0,0,0,.22)}
@@ -23,7 +23,7 @@ main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 
 .articlePage{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px 32px 38px;box-shadow:var(--shadow)}.articleBack{display:inline-block;margin-bottom:22px;color:#777;font-size:11px;font-weight:800}.articleSource{color:var(--accent);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.articleTitle{margin:0 0 14px;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-1.5px}.articleMeta{color:#888;font-size:11px;margin-bottom:22px}.articleImage{width:100%;max-height:520px;object-fit:cover;border-radius:12px;margin-bottom:25px}.articleVideo{position:relative;width:100%;aspect-ratio:16/9;margin:0 0 25px;border-radius:12px;overflow:hidden;background:#111}.articleVideo iframe{width:100%;height:100%;border:0}.articleSummary{color:#4f4f4f;font-size:16px;line-height:1.8;margin-bottom:25px}.articleSourceBox{border-top:1px solid var(--line);padding-top:18px;color:#777;font-size:11px}.articleSourceBox a{color:var(--accent);font-weight:900}.articleSourceBox .sourceNote{color:#999;font-size:10px}
 footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center;color:#999;font-size:10px}.mobileNav{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1000;height:62px;background:rgba(255,253,249,.97);border-top:1px solid var(--line);grid-template-columns:repeat(5,1fr)}.mobileNav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#777;font-size:11px;font-weight:850}.mobileNav a span{font-size:20px;line-height:20px;font-weight:900}.mobileNav a:hover{color:var(--accent)}
 @media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.interviewGrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:650px){.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.logo:before{width:31px;height:27px}.logo:after{right:6px;top:1px;width:21px;height:21px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.trailerGrid,.interviewGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
+@media(max-width:650px){.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.trailerGrid,.interviewGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
 @media(max-width:420px){.logo{width:140px;height:56px}.trailerGrid,.interviewGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}}
 </style>
 </head>
@@ -43,6 +43,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 
 <section class="intro"><h1>Telugu Cinema</h1><p>Fresh film news, trailers, interviews and reviews — all in one place.</p></section>
 
+<section class="jumpNav" aria-label="Jump to section"><a href="#reviewsSection">Jump to Reviews</a><a href="#interviewsSection">Jump to Interviews</a><a href="#trailersSection">Jump to Trailers</a></section>
+
 <section class="hero" id="homeHero" style="display:none;">
 <div class="heroImage" id="heroImage"></div><div class="heroOverlay"></div>
 <div class="heroContent">
@@ -57,22 +59,22 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <a href="/news" class="moreBtn">View All News</a>
 </section>
 
-<section class="section" id="trailersSection">
-<div class="sectionHead"><h2>Latest Trailers</h2><span>Telugu</span></div>
-<div class="trailerGrid" id="trailerGrid"><div class="empty">Loading latest Telugu trailers...</div></div>
-<a href="/trailers" class="moreBtn">View All Trailers</a>
-</section>
-
-<section class="section" id="interviewsSection">
-<div class="sectionHead"><h2>Movie Interviews</h2><span>Telugu Cinema</span></div>
-<div class="interviewGrid" id="interviewGrid"><div class="empty">Loading movie interviews...</div></div>
-<a href="/interviews" class="moreBtn">View All Interviews</a>
-</section>
-
 <section class="section" id="reviewsSection">
 <div class="sectionHead"><h2>Movie Reviews</h2><span>Release order</span></div>
 <div class="reviewList" id="reviewList"><div class="empty">Loading reviews...</div></div>
 <a href="/reviews" class="moreBtn">View All Reviews</a>
+</section>
+
+<section class="section" id="interviewsSection">
+<div class="sectionHead"><h2>Celebrity Interviews</h2><span>Telugu Cinema</span></div>
+<div class="interviewGrid" id="interviewGrid"><div class="empty">Loading movie interviews...</div></div>
+<a href="/interviews" class="moreBtn">View All Interviews</a>
+</section>
+
+<section class="section" id="trailersSection">
+<div class="sectionHead"><h2>Latest Trailers</h2><span>Telugu</span></div>
+<div class="trailerGrid" id="trailerGrid"><div class="empty">Loading latest Telugu trailers...</div></div>
+<a href="/trailers" class="moreBtn">View All Trailers</a>
 </section>
 </main>
 
@@ -266,7 +268,7 @@ return `
 
 function renderInterviews(items,limit){
 const grid=document.getElementById("interviewGrid");
-if(!items.length){grid.innerHTML='<div class="empty">No latest Telugu movie interviews available right now.</div>';return}
+if(!items.length){grid.innerHTML='<div class="empty">No latest Telugu celebrity interviews available right now.</div>';return}
 grid.innerHTML=items.slice(0,Number.isInteger(limit)?limit:12).map(function(item){
 const image=item.img||(item.youtubeId?"https://i.ytimg.com/vi/"+item.youtubeId+"/hqdefault.jpg":"");
 return `
