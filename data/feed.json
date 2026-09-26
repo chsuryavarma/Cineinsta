@@ -1,349 +1,297 @@
 {
-  "updatedAt": "2026-09-26T00:20:59.489Z",
+  "updatedAt": "2026-09-26T06:34:56.729Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.cinejosh.com/news/1/130184/sigma-sets-up-chiranjeevi-viral-moment.html",
+      "title": "Megastar Chiranjeevi Turns Troll Comments into Humor at Sigma Event",
+      "summary": "Megastar Chiranjeevi addressed social media memes regarding claims that he blocks others' growth with characteristic humor at the pre-release event for Sigma. He playfully teased actress Faria Abdullah about missing a chance to dance with him and whether she rejected him or tried to stall her own opportunities. Chiranjeevi attended the gathering directly from the sets of Kaaka to support the team of the upcoming action heist adventure.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130184/sigma-sets-up-chiranjeevi-viral-moment.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sigma-sets-up-chiranjeevi-viral-moment-1790402690843-1790402691598.jpg",
+      "publishedAt": "2026-09-26T06:04:55.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/aadarsha-kutumbam-big-update-on-special-song-ft-dimple-hayathi-nivetha-out-now-prp.html",
+      "title": "Venkatesh and Trivikram's Aadarsha Kutumbam Shifts Release Date",
+      "summary": "The family entertainer Aadarsha Kutumbam, starring Venkatesh and directed by Trivikram, has moved its theatrical arrival from October 2 to October 9. Alongside the revised schedule, the release of its first single titled Narayanamma has also been pushed back. The special musical track features leading ladies Srinidhi Shetty, Nivetha Pethuraj, and Dimple Hayathi alongside Venkatesh.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/aadarsha-kutumbam-big-update-on-special-song-ft-dimple-hayathi-nivetha-out-now-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Kutumbam.webp",
+      "publishedAt": "2026-09-26T05:36:03.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/433710/bo-how-is-paradise-performing-after-criticism",
+      "title": "Nani and The Paradise Team Face Criticism Head-On After Strong Opening",
+      "summary": "Nani's latest movie The Paradise raked in over ₹75 crore on its opening day, marking a career-best start for the actor despite mixed reactions and heavy trolling. The second day maintained steady occupancy across major centers as audiences continued to check out the film in theaters. The core team, including Nani and director Srikanth Odela, organized a press meet to directly address the critical feedback and discuss the project's momentum.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/433710/bo-how-is-paradise-performing-after-criticism",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/08/paradise-teaser-.jpg",
+      "publishedAt": "2026-09-26T05:22:32.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130181/chiranjeevi-keen-to-watch-sigma.html",
+      "title": "Chiranjeevi Praises Jason Sanjay's Directorial Debut Sigma",
+      "summary": "Megastar Chiranjeevi attended the pre-release promotional event of the upcoming Kollywood film Sigma as the chief guest. Directed by Jason Sanjay, son of Tamil actor and politician Vijay, the action adventure features Sundeep Kishan and Faria Abdullah in the lead roles. Chiranjeevi shared his excitement to watch the movie and recalled his past association with the director's grandfather, S.A. Chandrasekhar.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130181/chiranjeevi-keen-to-watch-sigma.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-keen-to-watch-sigma-1790399932582-1790399933112.jpg",
+      "publishedAt": "2026-09-26T05:18:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://telugucinema.com/news/preity-mukhundhan-gets-to-play-dhanushs-heroine-in-d56",
+      "title": "Preity Mukhundhan Lands Lead Role Opposite Dhanush in D56",
+      "summary": "Actress Preity Mukhundhan, who recently appeared in Lubber Pandhu and Kannappa, has secured the female lead opposite Dhanush in his 56th project, D56. The film officially launched its production with a traditional pooja ceremony held at the Karuppanasamy Temple in Sivaganga district. Directed by Tamizharasan Pachamuthu, the upcoming feature also stars SJ Suryah and Vadivelu in prominent roles.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/preity-mukhundhan-gets-to-play-dhanushs-heroine-in-d56",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/d56preitymukhundhan-sep2626.jpg",
+      "publishedAt": "2026-09-26T04:53:20.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/the-paradise-overseas-collections-take-a-steep-drop-prp.html",
+      "title": "Nani's The Paradise Suffers Overseas Slump After Record-Breaking Premiere",
+      "summary": "Actor Nani's latest movie, The Paradise, registered a massive $2.3 million collection on its opening day in international markets, marking a career-best start. However, the film experienced a sharp decline on its second day by pulling in only $250K, bringing its two-day offshore total to $2.55 million. Industry trends indicate that such immediate drops overseas usually stem from negative critical reception.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/the-paradise-overseas-collections-take-a-steep-drop-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/the-paradise-5.webp",
+      "publishedAt": "2026-09-26T04:30:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130179/chiranjeevi-gives-latest-update-on-kaaka.html",
+      "title": "Megastar Chiranjeevi Shares Progress Report on Upcoming Actioner Kaaka",
+      "summary": "Chiranjeevi has provided fresh updates regarding his anticipated action entertainer Kaaka, directed by Bobby. The star revealed that the first half of filming is complete, while the second half has finished thirty percent of its shoot. The team is currently busy with dubbing work, keeping the film on schedule for a grand Sankranti release on January 13, 2027.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130179/chiranjeevi-gives-latest-update-on-kaaka.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-gives-latest-update-on-kaaka-1790395499390-1790395499740.jpg",
+      "publishedAt": "2026-09-26T04:05:03.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://telugucinema.com/news/dorothy-keerthy-sureshs-film-divides-audiences-over-queer-theme",
+      "title": "Keerthy Suresh Starrer Dorothy Sparks Debate Over Queer Narrative",
+      "summary": "Keerthy Suresh traveled to the Toronto International Film Festival to promote her Tamil project Dorothy, directed by Karthik Subbaraj. Following its theatrical release, the movie has drawn heavy online criticism and polarized reactions due to its sudden shift into a queer theme during the second half and its climactic message. Despite mixed reviews from critics and audiences alike, the film's unconventional narrative choices have become a major talking point.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/dorothy-keerthy-sureshs-film-divides-audiences-over-queer-theme",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/keerthysuresh-sep1226ne1226.jpg",
+      "publishedAt": "2026-09-26T03:43:49.000Z",
+      "language": "Telugu",
+      "category": "Tamil Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130173/rashmika-crushes-on-vijay-deverakonda.html",
+      "title": "Rashmika Mandanna and Vijay Deverakonda Spark Social Media Buzz Over Ranabaali",
+      "summary": "Rashmika Mandanna and Vijay Deverakonda charmed fans with a viral social media exchange while promoting their upcoming period action drama Ranabaali. Rashmika shared a romantic track from the film, expressing her ongoing admiration for Vijay, who playfully responded in kind. Directed by Rahul Sankrityan, the film features the couple in lead roles and is slated for a worldwide theatrical release on October 16, 2026.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130173/rashmika-crushes-on-vijay-deverakonda.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rashmika-crushes-on-vijay-deverakonda-1790348124176-1790348124944.jpg",
+      "publishedAt": "2026-09-26T02:55:32.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/megastar-chiranjeevi-takes-the-internet-by-storm-with-one-statement-prp.html",
+      "title": "Chiranjeevi Addresses Online Critics with Humor",
+      "summary": "Megastar Chiranjeevi surprised attendees at a recent pre-release event by poking fun at online trolls who accused him of holding back other actors. His witty self-deprecating joke quickly went viral across various social media platforms. The veteran actor proved once again that he closely tracks digital chatter and handles criticism with sarcasm.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/megastar-chiranjeevi-takes-the-internet-by-storm-with-one-statement-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/chiranjeevi.webp",
+      "publishedAt": "2026-09-26T02:30:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.telugu360.com/sundeep-kishan-reminds-me-of-my-younger-days-chiranjeevi/",
+      "title": "Megastar Praises Sundeep Kishan's Drive",
+      "summary": "Chiranjeevi attended the pre-release event for the upcoming film Sigma as the chief guest. During the gathering, the legendary actor noted that Sundeep Kishan's dedication reminds him of his own early days in the industry. The movie, directed by Jason Sanjay, is set to arrive in theaters on October 2.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/sundeep-kishan-reminds-me-of-my-younger-days-chiranjeevi/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Sundeep-Kishan-reminds-me-of-my-younger-days-Chiranjeevi.jpg",
+      "publishedAt": "2026-09-26T01:50:06.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/the-paradise-nanis-film-avoids-a-crash-on-day-2-prp.html",
+      "title": "Nani's Latest Project Sustains Momentum on Day Two",
+      "summary": "Despite encountering a mixed initial response, Nani's newly released film The Paradise managed to avoid a severe box office drop. Trade data indicates that the movie pulled in over Rs. 20 crores gross globally on its second day. Strong audience retention in the Nizam area helped stabilize the numbers over the weekday.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/the-paradise-nanis-film-avoids-a-crash-on-day-2-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/theparadise.webp",
+      "publishedAt": "2026-09-26T01:31:36.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://indiaglitz.com/ranabaali-new-poster-unveiled-vijay-deverakondas-warrior-look-grabs-attention",
+      "title": "Fresh Poster Confirms October Release for Vijay Deverakonda's Period Drama",
+      "summary": "The creators of Ranabaali have dropped a striking new poster featuring Vijay Deverakonda in a fierce warrior stance. Directed by Rahul Sankrityan, the pan-India 19th-century action drama has locked in an October 16 release for Vijayadashami. The promotional rollout also highlights the chemistry between the lead actor and co-star Rashmika Mandanna.",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/ranabaali-new-poster-unveiled-vijay-deverakondas-warrior-look-grabs-attention",
+      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/09/ranabaali-new-poster.jpg",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://indiaglitz.com/chiranjeevis-kaaka-dubbing-works-begin-with-a-pooja-ceremony",
+      "title": "Dubbing Activities Kick Off for Chiranjeevi and Bobby's Kaaka",
+      "summary": "Following their collaboration on Waltair Veerayya, Megastar Chiranjeevi and director Bobby Kolli have officially started dubbing for Kaaka with a traditional pooja ceremony. The action entertainer is backed by KVN Productions and features S. Thaman as the music director. Producers are aiming for a massive worldwide theatrical rollout during Sankranthi 2027.",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/chiranjeevis-kaaka-dubbing-works-begin-with-a-pooja-ceremony",
+      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/08/chiranjeevi-as-kaaka.jpg",
+      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
+    },
+    {
       "id": "https://www.123telugu.com/mnews/dorothy-keerthy-sureshs-bold-film-gets-trolled-brutally-avd.html",
-      "title": "Dorothy: Keerthy Suresh's bold film gets trolled brutally",
-      "summary": "Dorothy: Keerthy Suresh’s bold film gets trolled brutally Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
+      "title": "Keerthy Suresh Faces Online Backlash Over Bold Content in Karthik Subbaraj's Tamil Venture",
+      "summary": "Keerthy Suresh's latest Tamil film Dorothy, directed by Karthik Subbaraj and co-starring Sananth and Rishikanth, has stirred controversy online. The project explores LGBTQ themes and features intimate sequences between two male characters, drawing heavy trolling from a section of viewers. However, urban crowds have appreciated the makers for taking up a sensitive subject.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/dorothy-keerthy-sureshs-bold-film-gets-trolled-brutally-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
       "publishedAt": "2026-09-25T19:34:53.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Tamil Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.123telugu.com/mnews/dont-trouble-the-trouble-jr-ntr-to-attend-the-pre-release-event-avd.html",
-      "title": "Don’t Trouble The Trouble: Jr NTR to attend the pre-release event",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Don’t Trouble The Trouble: Jr NTR to attend...",
+      "title": "Jr NTR to Grace Pre-Release Gathering for Fahadh Faasil's Telugu Outing",
+      "summary": "The upcoming Telugu film Don’t Trouble The Trouble, featuring Fahadh Faasil in his debut Telugu lead role, is gearing up for release. Presented by SS Rajamouli, the movie is looking to boost its buzz with an upcoming pre-release event. Organizers have roped in Jr NTR as the chief guest to help ramp up visibility among local audiences.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/dont-trouble-the-trouble-jr-ntr-to-attend-the-pre-release-event-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Jr-NTR-1.webp",
       "publishedAt": "2026-09-25T18:33:23.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.gulte.com/movienews/433651/chirus-big-push-for-cm-vijays-sons-debut",
-      "title": "Chiru's Big Push For CM Vijay's Son's Debut",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "title": "Megastar Chiranjeevi Appears at Sigma Event for Jason Sanjay's Directorial Debut",
+      "summary": "Megastar Chiranjeevi surprised film circles by attending the pre-release event of Sigma, starring Sundeep Kishan. The October 2, 2026 release marks the directorial debut of Jason Sanjay, son of actor Vijay, backed by Lyca Productions. Chiranjeevi praised the young filmmaker's Gen Z-focused approach during his speech at the gathering.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/433651/chirus-big-push-for-cm-vijays-sons-debut",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/chiru-sigma.jpg",
       "publishedAt": "2026-09-25T18:15:00.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/chiranjeevi-i-wish-jason-sanjay-reaches-great-heights-with-sigma-being-his-first-step-prp.html",
-      "title": "Chiranjeevi: I wish Jason Sanjay reaches great heights, with Sigma being his first step",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Chiranjeevi: I wish Jason Sanjay reaches...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/chiranjeevi-i-wish-jason-sanjay-reaches-great-heights-with-sigma-being-his-first-step-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/SIGMA-6.webp",
-      "publishedAt": "2026-09-25T17:32:52.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/433645/jailer-2-songs-where-is-the-hukum-mode",
-      "title": "Jailer 2 Songs: Where Is The Hukum Mode?",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/433645/jailer-2-songs-where-is-the-hukum-mode",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/jailer-2-hukum-mode.jpg",
-      "publishedAt": "2026-09-25T16:48:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.cinejosh.com/news/3/130177/from-glamour-to-legends-actresses-chase-biopics.html",
-      "title": "From Glamour to Legends: Actresses Chase Biopics",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Gossips &gt;&gt; The New Biopic Wave Among Actresses From Glamour to Legends: Actresses Chase Biopics By Rambabu Updated at: 2026-09-25 04:40:48 PM...",
+      "title": "Leading Actresses Embrace Real-Life Icons in Upcoming Biopics Wave",
+      "summary": "Several prominent heroines are shifting away from commercial glamour to star in biographical dramas. Shraddha Kapoor has been cast as Lavani dancer Vithabai Narayangaonkar, while Rashmika Mandanna prepares for the legendary M.S. Subbulakshmi biopic and Kiara Advani takes on Meena Kumari. This trend follows past successes like Keerthy Suresh's role in Mahanati.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/3/130177/from-glamour-to-legends-actresses-chase-biopics.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/from-glamour-to-legends-actresses-chase-biopics-1790354443622-1790354444459.jpg",
       "publishedAt": "2026-09-25T16:40:48.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/big-update-about-drishyam-the-conclusions-advance-bookings-revealed-prp.html",
-      "title": "Big update about Drishyam The Conclusion's advance bookings revealed",
-      "summary": "Big update about Drishyam The Conclusion’s advance bookings revealed Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/big-update-about-drishyam-the-conclusions-advance-bookings-revealed-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/06/Drishyam-3-Hindi.webp",
-      "publishedAt": "2026-09-25T16:34:02.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Indian Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.123telugu.com/mnews/nanis-the-paradise-springs-a-pleasant-surprise-in-hindi-prp.html",
-      "title": "Nani's The Paradise springs a pleasant surprise in Hindi",
-      "summary": "Nani’s The Paradise springs a pleasant surprise in Hindi Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
+      "title": "Nani’s The Paradise Captures Attention with Strong Hindi-Belt Opening",
+      "summary": "Without backing from major national multiplex chains, Nani's Hindi-dubbed version of The Paradise pulled off an impressive opening by collecting Rs. 2.15 crores nett. Driven by solid support from regions like Odisha and Uttar Pradesh, the film performed well despite receiving minimal promotional push in the Hindi heartland. This unexpected milestone highlights the strong digital-era goodwill the actor has built among audiences over the years.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/nanis-the-paradise-springs-a-pleasant-surprise-in-hindi-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-2.webp",
       "publishedAt": "2026-09-25T15:30:27.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://telugucinema.com/news/kalki-2-prabhas-kalki-2898-ad-sequel-to-begin-regular-shoot-in-october",
-      "title": "Kalki 2: Prabhas' Kalki 2898 AD Sequel to begin regular shoot in October",
-      "summary": "--> --> Kalki 2: Prabhas' Kalki 2898 AD Sequel to begin regular shoot in October - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home...",
+      "title": "Nag Ashwin's Kalki 2898 AD Sequel Sets October Start for Principal Photography",
+      "summary": "Following the massive blockbuster success and National Award wins of the original sci-fi epic, the sequel to Kalki 2898 AD is preparing to kick off regular filming in October. Director Nag Ashwin has spent extensive time expanding the narrative and scale of the upcoming chapter, which will feature returning stars Prabhas, Amitabh Bachchan, and Kamal Haasan. Producer Ashwini Dutt and the team are targeting a complete wrap by mid-2027.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/kalki-2-prabhas-kalki-2898-ad-sequel-to-begin-regular-shoot-in-october",
       "img": "https://telugucinema.com/wp-content/uploads/2026/07/kalki2898ad-national-award-july1826.jpg",
       "publishedAt": "2026-09-25T15:13:32.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130173/rashmika-crushes-on-vijay-deverakonda.html",
-      "title": "Rashmika Crushes on Vijay Deverakonda",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Rashmika, Vijay Adorable Social Media Exchange Rashmika Crushes on Vijay Deverakonda By Rambabu Updated at: 2026-09-25 02:55:30 PM...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130173/rashmika-crushes-on-vijay-deverakonda.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rashmika-crushes-on-vijay-deverakonda-1790348124176-1790348124944.jpg",
-      "publishedAt": "2026-09-25T14:55:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/the-paradise-karnataka-delivers-career-best-opening-for-nani-hk.html",
-      "title": "The Paradise: Karnataka Delivers Career-Best Opening for Nani",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు The Paradise: Karnataka Delivers...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/the-paradise-karnataka-delivers-career-best-opening-for-nani-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-6.webp",
-      "publishedAt": "2026-09-25T14:05:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/433622/karthik-subbaraj-under-fire-for-dorothys-lgbtq-shock",
-      "title": "Karthik Subbaraj Under Fire For Dorothy’s LGBTQ Shock",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/433622/karthik-subbaraj-under-fire-for-dorothys-lgbtq-shock",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/Karthik-Subbaraj-.jpg",
-      "publishedAt": "2026-09-25T13:35:42.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.gulte.com/movienews/433616/the-paradise-day-1-collections-territory-wise-breakup",
-      "title": "The Paradise Day 1 Collections Territory Wise Breakup",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "title": "The Paradise Debuts to Massive Global Numbers on Opening Day",
+      "summary": "Nani's latest theatrical outing, The Paradise, recorded a phenomenal global opening by grossing roughly 75 crores alongside a 44.53 crore share on its first day and premieres. While urban centers like Hyderabad held strong, the film experienced noticeable drops across rural pockets in Nizam and parts of Andhra and Ceeded. The upcoming weekend box-office reports will ultimately chart the trajectory needed to reach its ambitious breakeven target.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/433616/the-paradise-day-1-collections-territory-wise-breakup",
       "img": "https://cdn.gulte.com/wp-content/uploads/2025/04/Nani-the-Paradise.jpg",
       "publishedAt": "2026-09-25T13:35:00.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ranabaali-new-poster-out-team-sticks-to-october-16-release-prp.html",
-      "title": "Ranabaali new poster out; team sticks to October 16 release",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Ranabaali new poster out; team sticks to...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ranabaali-new-poster-out-team-sticks-to-october-16-release-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/rana-1.webp",
-      "publishedAt": "2026-09-25T13:24:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.telugu360.com/vijay-deverakondas-ranabaali-confirms-oct-16th-as-release-date/",
-      "title": "Vijay Deverakonda's Ranabaali Confirms Oct 16th as release date",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "title": "Vijay Deverakonda's Historical Epic Ranabaali Locks October 16 Release",
+      "summary": "Putting an end to ongoing speculation, the makers of Ranabaali have officially confirmed that the film will hit global theaters on October 16 for Vijayadashami. Directed by Rahul Sankrityan and backed by Mythri Movie Makers, the pan-India project features Vijay Deverakonda in a striking warrior persona alongside Rashmika and Arnold Vosloo. Fresh promotional material highlights the actor taking an oath to defend his homeland, building anticipation following the success of the film's teaser and debut track.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/vijay-deverakondas-ranabaali-confirms-oct-16th-as-release-date/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Ranabaali-release-date.jpg",
       "publishedAt": "2026-09-25T13:19:55.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130171/the-paradise-trolls-nani-reacts.html",
-      "title": "The Paradise trolls: Nani Reacts",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Nani reacts to The Paradise trolls The Paradise trolls: Nani Reacts By Rambabu Updated at: 2026-09-25 01:15:04 PM IST Nani's The...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130171/the-paradise-trolls-nani-reacts.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/the-paradise-trolls-nani-reacts-1790342101988-1790342102410.jpg",
-      "publishedAt": "2026-09-25T13:15:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/the-paradise-day-one-ap-ts-collections-nani-scores-big-prp.html",
-      "title": "The Paradise day-one AP & TS collections: Nani scores big",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు The Paradise day-one AP & TS collections:...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/the-paradise-day-one-ap-ts-collections-nani-scores-big-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-6.webp",
-      "publishedAt": "2026-09-25T12:53:42.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/anumana-pakshi-movie-review-and-rating.html",
-      "title": "Review: Anumana Pakshi - A Tedious Watch",
-      "summary": "Anumana Pakshi Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/anumana-pakshi-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/anumana-1.webp",
-      "publishedAt": "2026-09-25T12:31:28.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/the-vvaan-hindi-movie-review-and-rating.html",
-      "title": "Review: Sidharth Malhotra & Tamannaah's The Vvaan - A Lifeless Mystery Thriller",
-      "summary": "The Vvaan Hindi Movie Review and Rating | Sidharth Malhotra, Tamannaah Bhatia Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/the-vvaan-hindi-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
-      "publishedAt": "2026-09-25T12:31:03.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.gulte.com/movienews/433614/kaaka-for-sankranthi-bobby-in-no-mood-to-compromise",
-      "title": "Kaaka For Sankranthi: Bobby In No Mood To Compromise",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "title": "Director Bobby pushes full throttle to release Chiranjeevi's Kaaka for Sankranthi",
+      "summary": "Filmmaker Bobby and megastar Chiranjeevi are collaborating once again for the upcoming movie Kaaka, aiming for a January 13, 2027 theatrical arrival. Despite whispers of a possible delay to steer clear of overlapping with Vishwambhara, the team has officially kicked off dubbing sessions with a traditional puja. Production and post-production are moving at a rapid pace, with the director aiming to wrap up remaining scenes by November to dodge any last-minute stress.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/433614/kaaka-for-sankranthi-bobby-in-no-mood-to-compromise",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/08/kaaka-chiru-.jpg",
       "publishedAt": "2026-09-25T11:03:18.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/433517/ott-movies-web-series-this-week-21st-27th-sep",
-      "title": "OTT – Movies & Web Series – This Week (21st – 27th Sep)",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/433517/ott-movies-web-series-this-week-21st-27th-sep",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/2cd06f50-197c-4cef-8460-85e2b18886a0-scaled.jpeg",
-      "publishedAt": "2026-09-25T10:30:29.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130170/sankranthi-mega-film-in-doldrums.html",
-      "title": "Sankranthi Mega Film In Doldrums",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Chiranjeevi Sankranti 2027 Release Puzzle Sankranthi Mega Film In Doldrums By Rambabu Updated at: 2026-09-25 10:29:59 AM IST...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130170/sankranthi-mega-film-in-doldrums.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sankranthi-mega-film-in-doldrums-1790332197350-1790332197975.jpg",
-      "publishedAt": "2026-09-25T10:29:59.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.gulte.com/featured/433605/nani-reacts-to-trolls-on-paradise",
-      "title": "Nani Reacts To Trolls On Paradise",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "title": "Nani gracefully addresses online critique and humor surrounding The Paradise",
+      "summary": "Actor Nani has publicly addressed the mixed reactions and humorous memes directed at his latest release, The Paradise, which fell short of lofty fan expectations. Rather than ignoring the backlash, the star took to social media to express gratitude for the audience engagement while openly recognizing the shortcomings highlighted by reviewers. Armed with valuable feedback, Nani is preparing to shift his complete focus toward his upcoming collaboration with director Sujeeth, titled Bloody Remeo.",
       "source": "Gulte",
       "url": "https://www.gulte.com/featured/433605/nani-reacts-to-trolls-on-paradise",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/nani-paradise-reaction.jpg",
       "publishedAt": "2026-09-25T09:29:50.000Z",
       "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/nani-on-the-paradise-response-learnt-from-the-flaws-critics-pointed-out",
-      "title": "Nani on The Paradise response: ‘Learnt from the flaws critics pointed out’",
-      "summary": "--> --> Nani on The Paradise response: ‘Learnt from the flaws critics pointed out’ - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home...",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/nani-on-the-paradise-response-learnt-from-the-flaws-critics-pointed-out",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/09/nani-theparadise-sep2026.jpg",
-      "publishedAt": "2026-09-25T09:19:21.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/433603/kalki-sequel-to-wrap-up-sooner-than-expected",
-      "title": "Kalki Sequel To Wrap Up Sooner Than Expected?",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/433603/kalki-sequel-to-wrap-up-sooner-than-expected",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/06/nag-ashwin-prabhas-kalki-2.jpg",
-      "publishedAt": "2026-09-25T09:16:10.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/433601/what-a-changeover-dhanush",
-      "title": "What A Changeover Dhanush!",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/433601/what-a-changeover-dhanush",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/07/dhanush-bjp-.jpg",
-      "publishedAt": "2026-09-25T09:13:37.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130169/mahesh-babu-s-clean-shaven-look-creates-a-social-media-storm.html",
-      "title": "Mahesh Babu’s Clean Shaven Look Creates a Social Media Storm",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Mahesh Latest Look Stuns All Mahesh Babu’s Clean Shaven Look Creates a Social Media Storm By Rambabu Updated at: 2026-09-25...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130169/mahesh-babu-s-clean-shaven-look-creates-a-social-media-storm.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/mahesh-babu-s-clean-shaven-look-creates-a-social-media-storm-1790327096719-1790327097516.jpg",
-      "publishedAt": "2026-09-25T09:05:01.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/3/130168/fauzi-teaser-buzz-builds-around-prabhas-birthday.html",
-      "title": "Fauzi Teaser Buzz Builds Around Prabhas Birthday",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Gossips &gt;&gt; Interesting Update About Fauzi Fauzi Teaser Buzz Builds Around Prabhas Birthday By Rambabu Updated at: 2026-09-25 08:58:30 AM IST...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/3/130168/fauzi-teaser-buzz-builds-around-prabhas-birthday.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/fauzi-teaser-buzz-builds-around-prabhas-birthday-1790326705337-1790326706223.jpg",
-      "publishedAt": "2026-09-25T08:58:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/megastar-chiraneevis-kaaka-director-bobby-begins-dubbing-work",
-      "title": "Megastar Chiraneevi's Kaaka: Director Bobby begins dubbing work",
-      "summary": "--> --> Megastar Chiraneevi's Kaaka: Director Bobby begins dubbing work - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News Movie...",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/megastar-chiraneevis-kaaka-director-bobby-begins-dubbing-work",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/09/chiranjeevi-bobby-kaaka-sep0426.jpg",
-      "publishedAt": "2026-09-25T08:56:08.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/nani-responds-about-the-paradise-in-heartwarming-fashion/",
-      "title": "Nani Responds about The Paradise in Heartwarming fashion",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Editor's...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/nani-responds-about-the-paradise-in-heartwarming-fashion/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Nani.jpg",
-      "publishedAt": "2026-09-25T08:51:50.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta"
     }
   ],
   "trailers": [
-    {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
-      "youtubeId": "",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
-      "language": "Telugu"
-    },
     {
       "id": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/sharwanands-george-krish-teaser-out-actor-seen-in-two-different-religious-avatars-manasa-varanasi-plays-female-lead/articleshow/134474291.cms",
       "title": "Sharwanand’s ‘George Krish’ teaser out: Actor seen in two different religious avatars; Manasa Varanasi plays female lead",
@@ -453,87 +401,19 @@
       "youtubeId": "",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
+      "title": "Vibe - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
+      "img": "https://static.toiimg.com/thumb/msid-133713137,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "language": "Telugu"
     }
   ],
-  "interviews": [
-    {
-      "id": "IAssn84nYYQ",
-      "youtubeId": "IAssn84nYYQ",
-      "title": "Director Jason Sanjay Speech at SIGMA (Telugu) Grand Pre-Release Event | Sundeep Kishan, Faria",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=IAssn84nYYQ",
-      "img": "https://i.ytimg.com/vi/IAssn84nYYQ/hqdefault.jpg",
-      "publishedAt": "2026-09-25T15:58:45.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "iZ6QdBFigK4",
-      "youtubeId": "iZ6QdBFigK4",
-      "title": "Music Director Thaman S Speech at SIGMA (Telugu) Grand Pre-Release Event | Sundeep Kishan",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=iZ6QdBFigK4",
-      "img": "https://i.ytimg.com/vi/iZ6QdBFigK4/hqdefault.jpg",
-      "publishedAt": "2026-09-25T15:38:33.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "89ibsJRPVMo",
-      "youtubeId": "89ibsJRPVMo",
-      "title": "Megastar Chiranjeevi Entry Visuals at SIGMA Telugu Grand Pre-Release Event | Sundeep Kishan",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=89ibsJRPVMo",
-      "img": "https://i.ytimg.com/vi/89ibsJRPVMo/hqdefault.jpg",
-      "publishedAt": "2026-09-25T14:46:25.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "NP5ANIwE3vs",
-      "youtubeId": "NP5ANIwE3vs",
-      "title": "LIVE : SIGMA (Telugu) Grand Pre-Release Event | Sundeep Kishan | Jason Sanjay | Thaman | greatandhra",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=NP5ANIwE3vs",
-      "img": "https://i.ytimg.com/vi/NP5ANIwE3vs/hqdefault.jpg",
-      "publishedAt": "2026-09-25T10:00:52.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "C2QPbsjf90o",
-      "youtubeId": "C2QPbsjf90o",
-      "title": "నిజంగా బాలేదన్నా.. ఏదో తీశారు.. డ‌బ్బులు వేస్ట్ : The Paradise Movie Public Talk | greatandhra",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=C2QPbsjf90o",
-      "img": "https://i.ytimg.com/vi/C2QPbsjf90o/hqdefault.jpg",
-      "publishedAt": "2026-09-24T07:31:20.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "pjQQGcTAiBU",
-      "youtubeId": "pjQQGcTAiBU",
-      "title": "The Paradise Movie Public Talk | Nani Paradise Review | Mohan Babu | Srikanth Odela | greatandhra",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=pjQQGcTAiBU",
-      "img": "https://i.ytimg.com/vi/pjQQGcTAiBU/hqdefault.jpg",
-      "publishedAt": "2026-09-23T20:50:40.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "42Rw7XrGut4",
-      "youtubeId": "42Rw7XrGut4",
-      "title": "LIVE : Thellakaagitham Movie Trailer Launch Event | Harsh Roshan, Nakshatra | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=42Rw7XrGut4",
-      "img": "https://i.ytimg.com/vi/42Rw7XrGut4/hqdefault.jpg",
-      "publishedAt": "2026-09-22T22:07:56.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    }
-  ],
+  "interviews": [],
   "reviews": [
     {
       "t": "Anumana Pakshi",
@@ -1839,6 +1719,50 @@
             "rating": null,
             "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/secret-soldier-telugu-movie-review-rating/"
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "t": "Sahaa",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "Not available",
+      "img": "",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.m9.news/reviews/sahaa-movie-review-rating/",
+      "aggregator": {
+        "average": null,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": "https://www.m9.news/reviews/sahaa-movie-review-rating/"
           },
           {
             "source": "Telugu360",
