@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 
-const OPENAI_MODEL = "gpt-5.6-luna";
+const GEMINI_MODEL = "gemini-2.5-flash-lite";
 const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
 
@@ -173,6 +173,74 @@ function validateStory(story) {
   return true;
 }
 
+async function callGemini(prompt) {
+  const apiKey = process.env.GEMINI_API_KEY;
+
+  if (!apiKey) {
+    throw new Error("GEMINI_API_KEY is missing. Feed publication is blocked.");
+  }
+
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${encodeURIComponent(apiKey)}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          systemInstruction: {
+            parts: [
+              {
+                text: "You are a careful cinema editor. Return valid JSON only."
+              }
+            ]
+          },
+          contents: [
+            {
+              role: "user",
+              parts: [{ text: prompt }]
+            }
+          ],
+          generationConfig: {
+            temperature: 0.3,
+            responseMimeType: "application/json"
+          }
+        })
+      }
+    );
+
+    if (response.ok) {
+      const data = await response.json();
+      const text = (data?.candidates?.[0]?.content?.parts || [])
+        .map(part => part?.text || "")
+        .join("");
+
+      if (!text) {
+        throw new Error("Gemini returned an empty response.");
+      }
+
+      try {
+        return JSON.parse(text);
+      } catch {
+        throw new Error("Gemini returned invalid JSON.");
+      }
+    }
+
+    const errorText = await response.text();
+
+    if (response.status === 429 && attempt < 3) {
+      console.log(`Gemini rate limit reached. Retrying in ${attempt * 5} seconds...`);
+      await new Promise(resolve => setTimeout(resolve, attempt * 5000));
+      continue;
+    }
+
+    throw new Error(`Gemini HTTP ${response.status}: ${errorText.slice(0, 500)}`);
+  }
+
+  throw new Error("Gemini request failed after retries.");
+}
+
 async function rewriteStory(item, index) {
   if (!item?.url) {
     throw new Error(`News item ${index + 1} has no source URL.`);
@@ -214,39 +282,7 @@ async function rewriteStory(item, index) {
     body
   ].join("\n");
 
-  const response = await fetch("https://api.openai.com/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      model: OPENAI_MODEL,
-      temperature: 0.3,
-      response_format: { type: "json_object" },
-      messages: [
-        {
-          role: "system",
-          content: "You are a careful cinema editor. Return valid JSON only."
-        },
-        { role: "user", content: prompt }
-      ]
-    })
-  });
-
-  if (!response.ok) {
-    const error = await response.text();
-    throw new Error(`OpenAI HTTP ${response.status}: ${error.slice(0, 500)}`);
-  }
-
-  const data = await response.json();
-  let story;
-
-  try {
-    story = JSON.parse(data?.choices?.[0]?.message?.content || "{}");
-  } catch {
-    throw new Error("OpenAI returned invalid JSON.");
-  }
+  const story = await callGemini(prompt);
 
   if (!validateStory(story)) return null;
 
@@ -263,8 +299,8 @@ async function rewriteStory(item, index) {
 }
 
 async function main() {
-  if (!process.env.OPENAI_API_KEY) {
-    throw new Error("OPENAI_API_KEY is missing. Feed publication is blocked.");
+  if (!process.env.GEMINI_API_KEY) {
+    throw new Error("GEMINI_API_KEY is missing. Feed publication is blocked.");
   }
 
   const feedPath = "data/feed.json";
