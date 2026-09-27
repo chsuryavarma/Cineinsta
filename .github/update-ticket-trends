@@ -1,0 +1,32 @@
+name: Update Cineinsta Ticket Trends
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-ticket-trends:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update ticket trends
+        run: node scripts/update-ticket-trends.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "Cineinsta Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ticket-trends.json
+          git diff --cached --quiet || git commit -m "Update Cineinsta ticket trends"
+          git push
