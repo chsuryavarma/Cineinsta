@@ -275,21 +275,29 @@ Source: <strong>${escapeHTML(source)}</strong>
 updateSEO(entry);
 }
 
-let ticketTrendData=[];
+
+const ticketTrendFallback=[
+{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],signals:["Advance booking signal","Hyderabad: public show listings visible"],img:"https://i.ytimg.com/vi/yX90gF4_EjI/hqdefault.jpg"},
+{movie:"Avengers Endgame: Encore",lang:"English / Hindi / Tamil",language:["english","hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow listing visible"],img:"https://i.ytimg.com/vi/L2NAh3CIdig/hqdefault.jpg"},
+{movie:"Hanuman Ansh",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","Cinépolis listing visible"],img:"https://i.ytimg.com/vi/CdCfyjeR_5k/hqdefault.jpg"},
+{movie:"VIBE",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow listing visible"],img:"https://i.ytimg.com/vi/meknZizkusk/hqdefault.jpg"}
+];
+
+let ticketTrendData=ticketTrendFallback.slice();
 
 async function loadTicketTrends(){
 try{
 const response=await fetch("/data/ticket-trends.json?v="+Date.now());
 if(!response.ok)throw new Error("Ticket trends unavailable");
 const data=await response.json();
-ticketTrendData=Array.isArray(data.movies)?data.movies:[];
+ticketTrendData=Array.isArray(data.movies)&&data.movies.length?data.movies:ticketTrendFallback.slice();
 document.querySelectorAll(".ticketUpdated").forEach(function(el){
 const stamp=el.querySelector(".ticketDate");
 if(stamp&&data.updatedAt)stamp.textContent=new Date(data.updatedAt).toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric"});
 });
 }catch(error){
 console.error("Ticket trends:",error);
-ticketTrendData=[];
+ticketTrendData=ticketTrendFallback.slice();
 }
 }
 
