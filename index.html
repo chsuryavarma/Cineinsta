@@ -114,9 +114,6 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </p>
 </div>
 
-<div class="buzzHeroGrid" id="buzzFeaturedGrid"></div>
-
-<div class="buzzSectionLabel">What's Buzzing</div>
 <div class="buzzFilters" aria-label="Movie filters">
 <button class="buzzFilter active" type="button" data-filter="all">All</button>
 <button class="buzzFilter" type="button" data-filter="telugu">Telugu</button>
@@ -127,8 +124,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </div>
 
 <div class="ticketUpdated">
-<span>Updated today</span>
-<span>27 Sep 2026</span>
+<span>Updated</span>
+<span class="ticketDate">—</span>
 </div>
 
 <div class="ticketCards" id="ticketTrendGrid"><div class="empty">Loading movie signals...</div></div>
@@ -278,12 +275,23 @@ Source: <strong>${escapeHTML(source)}</strong>
 updateSEO(entry);
 }
 
-const ticketTrendData=[
-{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],signals:["Advance booking #1 (India)","Hyderabad: public show listings visible"],links:["https://www.bollywoodhungama.com/box-office/advance-booking/28-09-26/","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/yX90gF4_EjI/hqdefault.jpg",verified:"Bollywood Hungama advance-booking snapshot + Hyderabad BookMyShow listings"},
-{movie:"Avengers Endgame: Encore",lang:"English / Hindi / Tamil",language:["english","hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow shows available for Sep 27–Oct 1"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.marvel.com/movies/avengers-endgame"],img:"https://i.ytimg.com/vi/L2NAh3CIdig/hqdefault.jpg",verified:"Hyderabad BookMyShow cinema listings"},
-{movie:"Hanuman Ansh",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","Cinépolis release / booking listing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://cinepolisindia.com/movie-details/HANUMAN-ANSH-HO00002433?cid=9"],img:"https://i.ytimg.com/vi/CdCfyjeR_5k/hqdefault.jpg",verified:"Hyderabad BookMyShow listings + Cinépolis listing"},
-{movie:"VIBE",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow listings visible"],links:["https://in.bookmyshow.com/movies/smne%3Asangamner/vibe-smne%3Asangamner/buytickets/et00506465","https://www.bollywoodhungama.com/videos/movie-promos/vibe-official-trailer-kunal-kemmu-preity-g-zinta-sparsh-shrivastava/"],img:"https://i.ytimg.com/vi/meknZizkusk/hqdefault.jpg",verified:"BookMyShow Hyderabad listings"},
-];
+let ticketTrendData=[];
+
+async function loadTicketTrends(){
+try{
+const response=await fetch("/data/ticket-trends.json?v="+Date.now());
+if(!response.ok)throw new Error("Ticket trends unavailable");
+const data=await response.json();
+ticketTrendData=Array.isArray(data.movies)?data.movies:[];
+document.querySelectorAll(".ticketUpdated").forEach(function(el){
+const stamp=el.querySelector(".ticketDate");
+if(stamp&&data.updatedAt)stamp.textContent=new Date(data.updatedAt).toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric"});
+});
+}catch(error){
+console.error("Ticket trends:",error);
+ticketTrendData=[];
+}
+}
 
 function handlePosterError(img){
 const movie=img.getAttribute("alt")||"Movie poster";
@@ -303,21 +311,6 @@ if(s.includes("tickets"))return "🎟";
 return "•";
 }
 
-function renderBuzzFeature(item,mini){
-return `<a href="${escapeHTML(item.links[0]||"#")}" target="_blank" rel="noopener noreferrer" class="${mini?"buzzMini":"buzzFeature"}">
-<img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)">
-${mini?`<div class="buzzMiniContent"><div class="buzzMiniTitle">${escapeHTML(item.movie)}</div><div class="buzzMiniMeta">${escapeHTML(item.lang)} · ${escapeHTML(item.signals[0]||"Public signal")}</div></div>`:`<div class="buzzFeatureOverlay"></div><div class="buzzFeatureContent"><span class="buzzFeatureTag">${signalIcon(item.signals[0])} Featured signal</span><h3 class="buzzFeatureTitle">${escapeHTML(item.movie)}</h3><div class="buzzFeatureMeta">${escapeHTML(item.lang)}</div><div class="buzzFeatureSignals">${item.signals.map(s=>`<span>${signalIcon(s)} ${escapeHTML(s)}</span>`).join("")}</div></div>`}
-</a>`;
-}
-
-function renderBuzzFeatured(){
-const grid=document.getElementById("buzzFeaturedGrid");
-if(!grid)return;
-const items=ticketTrendData.slice(0,5);
-if(!items.length){grid.innerHTML='<div class="empty">No featured ticket trends available.</div>';return;}
-grid.innerHTML=renderBuzzFeature(items[0],false)+`<div class="buzzSideGrid">${items.slice(1,5).map(item=>renderBuzzFeature(item,true)).join("")}</div>`;
-}
-
 function renderTicketTrends(filter){
 const grid=document.getElementById("ticketTrendGrid");
 if(!grid)return;
@@ -330,8 +323,9 @@ return true;
 });
 if(!items.length){grid.innerHTML='<div class="empty buzzEmpty">No movies match this filter.</div>';return;}
 grid.innerHTML=items.map(function(item){
-const status=item.status&&item.status[0]==="showing"?"Now Showing":"Public signal";
-return `<article class="ticketCard"><div class="ticketPoster"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)"><span class="ticketPosterBadge">${status}</span></div><div class="ticketCardInfo"><div class="ticketCardTop"><div class="ticketMovie">${escapeHTML(item.movie)}</div><div class="ticketLang">${escapeHTML(item.lang)}</div></div><div class="ticketStatus">${signalIcon(item.signals[0])} ${escapeHTML(item.signals[0]||"Public signal")}</div><div class="ticketSignals">${item.signals.map(function(signal){return `<span class="ticketSignal">${signalIcon(signal)} ${escapeHTML(signal)}</span>`}).join("")}</div></div></article>`;
+const status=item.status&&item.status[0]==="showing"?"Now Showing":"Booking Signal";
+const signals=Array.isArray(item.signals)?item.signals:[];
+return `<article class="ticketCard"><div class="ticketPoster"><img src="${escapeHTML(item.img||"")}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)"><span class="ticketPosterBadge">${status}</span></div><div class="ticketCardInfo"><div class="ticketCardTop"><div class="ticketMovie">${escapeHTML(item.movie)}</div><div class="ticketLang">${escapeHTML(item.lang||"")}</div></div><div class="ticketSignals">${signals.length?signals.map(function(signal){return `<span class="ticketSignal">${signalIcon(signal)} ${escapeHTML(signal)}</span>`}).join(""):'<span class="ticketSignal">Booking/showing visible</span>'}</div></div></article>`;
 }).join("");
 }
 
@@ -345,12 +339,12 @@ renderTicketTrends(button.getAttribute("data-filter"));
 });
 }
 
-renderBuzzFeatured();
-renderTicketTrends();
 setupBuzzFilters();
 
 async function loadFeed(){
 try{
+await loadTicketTrends();
+renderTicketTrends();
 const response=await fetch("/data/feed.json?v="+Date.now());
 if(!response.ok)throw new Error("Feed unavailable");
 feed=await response.json();
@@ -369,7 +363,7 @@ renderReviews(feed.reviews);
 console.error(error);
 document.getElementById("newsGrid").innerHTML='<div class="empty">News could not be loaded.</div>';
 document.getElementById("trailerGrid").innerHTML='<div class="empty">Trailers could not be loaded.</div>';
-document.getElementById("ticketTrendGrid").innerHTML='<div class="empty">Ticket trends could not be loaded.</div>';
+document.getElementById("ticketTrendGrid").innerHTML='<div class="empty">Ticket trends are temporarily unavailable.</div>';
 document.getElementById("reviewList").innerHTML='<div class="empty">Reviews could not be loaded.</div>';
 }
 }
