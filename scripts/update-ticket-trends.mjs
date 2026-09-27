@@ -1,121 +1,107 @@
 import fs from "node:fs/promises";
 
-const CITY_URL = "https://in.bookmyshow.com/explore/home/hyderabad";
-const CINEMA_BASES = [
-  "https://in.bookmyshow.com/cinemas/hyderabad/pvr-atrium-gachibowli-hyderabad/buytickets/PVTS",
-  "https://in.bookmyshow.com/cinemas/hyderabad/pvr-central-mall-panjagutta/buytickets/PVYH",
-  "https://in.bookmyshow.com/cinemas/hyderabad/pvr-preston-gachibowli-hyderabad/buytickets/PVTP",
-  "https://in.bookmyshow.com/cinemas/hyderabad/pvr-icon-hitech-madhapur-hyderabad/buytickets/PVHM"
-];
+const API_BASE = "https://api.internationalshowtimes.com/v5";
+const CITY = "Hyderabad";
+const COUNTRY = "IN";
 const OUTPUT = new URL("../data/ticket-trends.json", import.meta.url);
 const FEED = new URL("../data/feed.json", import.meta.url);
+const API_KEY = process.env.SHOWTIMES_API_KEY?.trim();
 
-const FALLBACK = [
-  ["The Paradise", ["telugu"]],
-  ["Avengers Endgame: Encore", ["english", "hindi", "tamil"]],
-  ["The Vvaan - Force of the Forrest", ["hindi"]],
-  ["Hanuman Ansh", ["hindi"]],
-  ["Heart of the Beast", ["english"]],
-  ["Resident Evil", ["english", "tamil", "telugu", "hindi", "malayalam"]]
-];
+function key(s = "") {
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
 
-function decode(s = "") {
-  return s.replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&#x27;/g, "'").replace(/&nbsp;/g, " ");
-}
-function strip(s = "") { return decode(s.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim()); }
-function key(s = "") { return strip(s).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
-function slugTitle(s = "") { return key(s).replace(/\b(ua\d+|u|a)\b/g, "").replace(/\s+/g, " ").trim(); }
-function extractAnchors(html) {
-  const out = [];
-  const re = /<a\b[^>]*href=["']([^"']*\/movies\/[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
-  let m;
-  while ((m = re.exec(html))) {
-    const title = strip(m[2]);
-    if (title && title.length < 120) out.push({ title, href: m[1] });
-  }
-  return out;
-}
-function section(html, startText, endText) {
-  const a = html.toLowerCase().indexOf(startText.toLowerCase());
-  if (a < 0) return "";
-  const b = html.toLowerCase().indexOf(endText.toLowerCase(), a + startText.length);
-  return html.slice(a, b > 0 ? b : undefined);
-}
 function bestFeedImage(title, feed) {
   const pools = [...(feed.news || []), ...(feed.trailers || []), ...(feed.reviews || [])];
-  const k = slugTitle(title);
-  const match = pools.find(x => x?.title && (slugTitle(x.title).includes(k) || k.includes(slugTitle(x.title))));
+  const k = key(title);
+  const match = pools.find(x => {
+    const t = key(x?.title || "");
+    return t && (t.includes(k) || k.includes(t));
+  });
   return match?.img || "";
 }
-async function fetchText(url) {
-  const r = await fetch(url, { headers: { "user-agent": "Cineinsta/1.0", accept: "text/html,application/xhtml+xml" } });
-  if (!r.ok) throw new Error(`${r.status} ${url}`);
-  return r.text();
+
+async function api(path) {
+  const r = await fetch(`${API_BASE}${path}`, {
+    headers: {
+      "X-API-Key": API_KEY,
+      "Accept": "application/json"
+    }
+  });
+  if (!r.ok) throw new Error(`International Showtimes API ${r.status} for ${path}`);
+  return r.json();
 }
 
 async function main() {
+  // GitHub Actions must remain green even before the optional API key is configured.
+  // Until then, preserve the last verified dataset instead of failing the workflow.
+  if (!API_KEY) {
+    console.log("SHOWTIMES_API_KEY is not configured; preserving the last verified ticket-trends.json.");
+    return;
+  }
+
   const feed = JSON.parse(await fs.readFile(FEED, "utf8"));
-  const cityHtml = await fetchText(CITY_URL);
-  const recommended = section(cityHtml, "Recommended Movies", "The Best Of Live Events");
-  const nowShowing = section(cityHtml, "Movies Now Showing in Hyderabad", "Upcoming Movies Per Week");
-  const allCity = [...extractAnchors(recommended), ...extractAnchors(nowShowing)];
-  const cityTitles = [...new Map(allCity.map(x => [key(x.title), x.title])).values()];
-  const recommendedKeys = new Set(extractAnchors(recommended).map(x => key(x.title)));
 
-  const counts = new Map();
-  for (const title of cityTitles) counts.set(key(title), { title, coverage: 0 });
+  const cityData = await api(`/cities?countries=${COUNTRY}&query=${encodeURIComponent(CITY)}&limit=20`);
+  const city = (cityData.cities || []).find(x => key(x.name) === key(CITY)) || cityData.cities?.[0];
+  if (!city?.id) throw new Error("Hyderabad was not found in the International Showtimes API for India.");
 
-  const todayIST = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date()).replaceAll("-", "");
-  const cinemaUrls = CINEMA_BASES.map(base => `${base}/${todayIST}`);
+  const movieData = await api(`/movies?city_ids=${encodeURIComponent(city.id)}&countries=${COUNTRY}&limit=100&fields=id,title,poster_image_thumbnail`);
+  const candidates = Array.isArray(movieData.movies) ? movieData.movies : [];
+  if (!candidates.length) throw new Error("No Hyderabad movies were returned by the showtimes API.");
 
-  for (const url of cinemaUrls) {
+  const scored = [];
+  for (const movie of candidates.slice(0, 20)) {
     try {
-      const html = await fetchText(url);
-      const text = strip(html).toLowerCase();
-      for (const item of counts.values()) if (text.includes(item.title.toLowerCase())) item.coverage += 1;
-    } catch (e) {
-      console.warn(`Skipping cinema source: ${e.message}`);
+      const showData = await api(`/showtimes?city_ids=${encodeURIComponent(city.id)}&movie_id=${encodeURIComponent(movie.id)}&countries=${COUNTRY}`);
+      const shows = Array.isArray(showData.showtimes) ? showData.showtimes : [];
+      const cinemaIds = new Set();
+      for (const show of shows) {
+        if (show.cinema_id != null) cinemaIds.add(String(show.cinema_id));
+        if (show.cinema?.id != null) cinemaIds.add(String(show.cinema.id));
+      }
+      if (shows.length) scored.push({ movie, showCount: shows.length, cinemaCount: cinemaIds.size });
+    } catch (error) {
+      console.warn(`Skipping ${movie.title}: ${error.message}`);
     }
   }
 
-  const movies = [...counts.values()].map(item => {
-    const k = key(item.title);
-    const recommendedBonus = recommendedKeys.has(k) ? 6 : 0;
-    const coverageScore = Math.min(item.coverage, cinemaUrls.length);
-    const score = recommendedBonus + coverageScore;
-    return { ...item, score };
-  }).filter(x => x.score > 0)
-    .sort((a,b) => b.score - a.score || a.title.localeCompare(b.title))
-    .slice(0, 8);
+  if (!scored.length) throw new Error("No current Hyderabad showtime signals were returned; previous data was preserved.");
 
-  if (!movies.length) throw new Error("No current Hyderabad movie signals were detected; previous data was preserved.");
+  scored.sort((a, b) =>
+    (b.cinemaCount - a.cinemaCount) ||
+    (b.showCount - a.showCount) ||
+    String(a.movie.title).localeCompare(String(b.movie.title))
+  );
 
-  const outputMovies = movies.map((m, i) => {
-    const fallback = FALLBACK.find(([t]) => key(t) === key(m.title));
-    const language = fallback?.[1] || [];
-    return {
-      movie: m.title,
-      lang: language.length ? language.map(x => x[0].toUpperCase()+x.slice(1)).join(" / ") : "Now Showing",
-      language,
-      status: ["showing"],
-      trendScore: m.score,
-      trendRank: i + 1,
-      img: bestFeedImage(m.title, feed),
-      source: "Public Hyderabad booking/showing signals"
-    };
-  });
+  const outputMovies = scored.slice(0, 8).map((item, i) => ({
+    movie: item.movie.title,
+    lang: "Now Showing",
+    language: [],
+    status: ["showing"],
+    trendScore: item.cinemaCount * 10 + item.showCount,
+    trendRank: i + 1,
+    img: item.movie.poster_image_thumbnail || bestFeedImage(item.movie.title, feed),
+    source: "International Showtimes API — Hyderabad public showtime coverage",
+    signal: {
+      cinemas: item.cinemaCount,
+      shows: item.showCount
+    }
+  }));
 
   const payload = {
     updatedAt: new Date().toISOString(),
-    city: "Hyderabad",
+    city: CITY,
     movies: outputMovies,
-    methodology: "Cineinsta trend ranking uses public Hyderabad booking/showing visibility and cinema coverage. It does not estimate tickets sold or claim a rating ranking."
+    methodology: "Cineinsta trend ranking uses current Hyderabad public showtime coverage from an authorized showtimes API. It measures cinema/showtime activity; it does not estimate tickets sold and does not claim a rating ranking.",
+    source: "International Showtimes API"
   };
+
   await fs.writeFile(OUTPUT, JSON.stringify(payload, null, 2) + "\n", "utf8");
   console.log(`Wrote ${outputMovies.length} Cineinsta Hyderabad trend movies.`);
 }
 
-main().catch(async err => {
+main().catch(err => {
   console.error(err.message);
   process.exit(1);
 });
