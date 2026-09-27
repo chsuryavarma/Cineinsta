@@ -46,11 +46,11 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 .buzzMini img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}.buzzMini:hover img{transform:scale(1.04)}
 .buzzMini:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,10,.9),rgba(10,10,10,.04) 70%)}
 .buzzMiniContent{position:absolute;z-index:2;left:14px;right:14px;bottom:13px;color:#fff}.buzzMiniTitle{font-size:16px;line-height:1.12;font-weight:900;margin-bottom:5px}.buzzMiniMeta{font-size:9px;color:#ddd}
-.buzzSectionLabel{font-size:18px;font-weight:950;letter-spacing:-.3px;margin:30px 0 13px}
-.buzzSourceRow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 25px}
+.buzzSectionLabel{display:none}
+
 .buzzSourceCard{display:flex;align-items:center;gap:10px;padding:12px 13px;border:1px solid var(--line);border-radius:13px;background:rgba(255,253,249,.86);box-shadow:0 4px 13px rgba(20,18,17,.04);text-decoration:none}
 .buzzSourceIcon{width:34px;height:34px;border-radius:10px;background:#171717;color:#fff;display:grid;place-items:center;font-size:11px;font-weight:950;flex:0 0 auto}.buzzSourceCard strong{font-size:12px}.buzzSourceCard span{display:block;color:#888;font-size:9px;margin-top:2px}
-.buzzInsights{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:28px}
+
 .buzzInsight{padding:15px;border-radius:15px;background:#fff;border:1px solid var(--line);box-shadow:0 5px 18px rgba(30,25,20,.05)}
 .buzzInsightIcon{font-size:19px;margin-bottom:8px}.buzzInsightLabel{font-size:9px;color:var(--accent);font-weight:950;text-transform:uppercase;letter-spacing:.8px}.buzzInsightMovie{font-size:14px;font-weight:900;margin-top:4px;line-height:1.25}.buzzInsightText{font-size:9px;color:#888;margin-top:4px;line-height:1.4}
 .buzzFilters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 15px}.buzzFilter{border:1px solid #d7d0c6;background:#fff;border-radius:999px;padding:8px 12px;font-size:10px;font-weight:900;color:#555;cursor:pointer}.buzzFilter.active,.buzzFilter:hover{background:#171717;color:#fff;border-color:#171717}
@@ -59,13 +59,13 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 .ticketPoster{width:130px;height:184px;border-radius:11px;overflow:hidden;background:linear-gradient(145deg,#252525,#8f171b);position:relative}.ticketPoster img{width:100%;height:100%;object-fit:cover}.ticketPosterFallback{height:100%;display:flex;align-items:flex-end;padding:12px;color:#fff;font-weight:950;font-size:17px;line-height:1.02;background:linear-gradient(160deg,#171717,#c9282d)}
 .ticketPosterBadge{position:absolute;left:8px;top:8px;background:#fff;color:#171717;border-radius:999px;padding:5px 7px;font-size:8px;font-weight:950;text-transform:uppercase}
 .ticketCardInfo{min-width:0;padding:3px 2px 4px}.ticketCardTop{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px}.ticketMovie{font-size:18px;font-weight:950;line-height:1.1;color:#151515}.ticketLang{font-size:9px;color:#777;text-align:right;white-space:nowrap}
-.ticketStatus{font-size:9px;font-weight:900;color:#9a6c16;margin-bottom:9px;text-transform:uppercase;letter-spacing:.7px}.ticketSignals{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}.ticketSignal{display:inline-flex;align-items:center;padding:6px 8px;border-radius:999px;background:#f7f2ec;border:1px solid #eadfd3;color:#4c4037;font-size:9px;font-weight:800}.ticketLinks{display:flex;flex-wrap:wrap;gap:7px}.ticketLinks a{display:inline-flex;align-items:center;padding:7px 9px;border-radius:8px;background:#171717;color:#fff;text-decoration:none;font-size:9px;font-weight:850}.ticketLinks a:hover{opacity:.9}
+.ticketStatus{font-size:9px;font-weight:900;color:#9a6c16;margin-bottom:9px;text-transform:uppercase;letter-spacing:.7px}.ticketSignals{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}.ticketSignal{display:inline-flex;align-items:center;padding:6px 8px;border-radius:999px;background:#f7f2ec;border:1px solid #eadfd3;color:#4c4037;font-size:9px;font-weight:800}
 .ticketNote{margin-top:18px;padding:12px 14px;border-radius:10px;background:#f7f7f7;color:#666;font-size:10px;line-height:1.5;border:1px solid #e7e3dc}.ticketUpdated{display:flex;justify-content:space-between;gap:10px;margin:0 0 14px;color:#888;font-size:9px}.ticketUpdated strong{color:#555}
 .buzzEmpty{grid-column:1/-1}.ticketCard[data-hidden="true"]{display:none}
 
-@media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.buzzGrid{grid-template-columns:repeat(3,minmax(0,1fr))}.buzzHeroGrid{grid-template-columns:1fr}.buzzSourceRow{grid-template-columns:repeat(2,minmax(0,1fr))}.buzzInsights{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:650px){.ticketPlatforms{grid-template-columns:repeat(2,minmax(0,1fr))}.ticketCards{grid-template-columns:1fr 1fr}.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.trailerGrid,.buzzGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
-@media(max-width:420px){.ticketPlatforms,.ticketCards{grid-template-columns:1fr}.buzzSideGrid,.buzzSourceRow,.buzzInsights{grid-template-columns:1fr}.logo{width:140px;height:56px}.trailerGrid,.buzzGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}.ticketCard{grid-template-columns:100px 1fr}.ticketPoster{width:100px;height:142px}}
+@media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.buzzGrid{grid-template-columns:repeat(3,minmax(0,1fr))}.buzzHeroGrid{grid-template-columns:1fr}}
+@media(max-width:650px){.ticketCards{grid-template-columns:1fr 1fr}.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.trailerGrid,.buzzGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
+@media(max-width:420px){.ticketCards{grid-template-columns:1fr}.buzzSideGrid{grid-template-columns:1fr}.logo{width:140px;height:56px}.trailerGrid,.buzzGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}.ticketCard{grid-template-columns:100px 1fr}.ticketPoster{width:100px;height:142px}}
 </style>
 </head>
 <body>
@@ -113,25 +113,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </section>
 
 <section class="section buzzSectionWrap" id="buzzSection">
-<div class="buzzKicker">BUZZ</div>
-<div class="sectionHead"><h2 class="buzzMainTitle">Ticket Trends — Hyderabad</h2><span>Public signals</span></div>
-<p class="buzzSubline">See which movies have a verified current booking or advance-booking signal. Cineinsta does not invent ticket-sales numbers or call a movie “Trending” unless a current source explicitly supports that label.</p>
-
-<div class="buzzHeroGrid" id="buzzFeaturedGrid"><div class="empty">Loading verified ticket signals...</div></div>
-
-<div class="buzzSectionLabel">What's Buzzing</div>
-<div class="buzzInsights" id="buzzInsights"><div class="empty">Loading signals...</div></div>
-
-<div class="buzzSectionLabel">Ticketing Platforms</div>
-<div class="buzzSourceRow">
-<a class="buzzSourceCard" href="https://in.bookmyshow.com/explore/home/hyderabad" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">BMS</div><div><strong>BookMyShow</strong><span>Shows · Booking pages</span></div></a>
-<a class="buzzSourceCard" href="https://www.district.in/movies/hyderabad-movie-tickets" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">D</div><div><strong>District</strong><span>Showtimes · Movie pages</span></div></a>
-<a class="buzzSourceCard" href="https://www.pvrcinemas.com/" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">PVR</div><div><strong>PVR INOX</strong><span>Showtimes · Booking</span></div></a>
-<a class="buzzSourceCard" href="https://cinepolisindia.com/" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">C</div><div><strong>Cinépolis</strong><span>Now Showing · Booking</span></div></a>
-</div>
-
-<div class="buzzSectionLabel">Verified Movie Signals</div>
-<div class="buzzFilters" aria-label="Ticket trend filters">
+<div class="sectionHead"><h2 class="buzzMainTitle">What’s Buzzing</h2></div>
+<div class="buzzFilters" aria-label="Movie filters">
 <button class="buzzFilter active" type="button" data-filter="all">All</button>
 <button class="buzzFilter" type="button" data-filter="telugu">Telugu</button>
 <button class="buzzFilter" type="button" data-filter="tamil">Tamil</button>
@@ -139,9 +122,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <button class="buzzFilter" type="button" data-filter="english">English</button>
 <button class="buzzFilter" type="button" data-filter="showing">Now Showing</button>
 </div>
-<div class="ticketUpdated"><span>Verified public signals only</span><span><strong>Checked:</strong> 27 Sep 2026</span></div>
-<div class="ticketCards" id="ticketTrendGrid"><div class="empty">Loading ticket trends...</div></div>
-<div class="ticketNote">Cineinsta only presents signals that were verifiable from public pages at the time of checking. “Now Showing” means a current public Hyderabad booking/showtime listing was found. The Paradise includes a separately sourced India advance-booking snapshot. Exact tickets sold, private booking data and seat-level demand are not claimed. Automated ticket-trend ingestion is not yet connected.</div>
+<div class="ticketUpdated"><span>Public booking/showing signals</span><span><strong>Checked:</strong> 27 Sep 2026</span></div>
+<div class="ticketCards" id="ticketTrendGrid"><div class="empty">Loading movie signals...</div></div>
 </section>
 
 <section class="section" id="trailersSection">
@@ -327,18 +309,6 @@ if(!items.length){grid.innerHTML='<div class="empty">No featured ticket trends a
 grid.innerHTML=renderBuzzFeature(items[0],false)+`<div class="buzzSideGrid">${items.slice(1,5).map(item=>renderBuzzFeature(item,true)).join("")}</div>`;
 }
 
-function renderBuzzInsights(){
-const el=document.getElementById("buzzInsights");
-if(!el)return;
-const featured=ticketTrendData[0];
-const cards=[
-["📈","Strongest verified signal",featured.movie,"India advance-booking ranking #1 for Sep 28; Hyderabad snapshot shows 5,761 tickets across 52 shows and 12 venues"],
-["🎟","Hyderabad availability",ticketTrendData[1].movie,"Current Hyderabad BookMyShow listings are visible"],
-["🎟","New release activity",ticketTrendData[2].movie,"Released Sep 25 and current Hyderabad booking pages are visible"],
-["🎟","Other live listings",ticketTrendData[2].movie,"Current Hyderabad booking listings are visible"]
-];
-el.innerHTML=cards.map(c=>`<div class="buzzInsight"><div class="buzzInsightIcon">${c[0]}</div><div class="buzzInsightLabel">${c[1]}</div><div class="buzzInsightMovie">${escapeHTML(c[2])}</div><div class="buzzInsightText">${escapeHTML(c[3])}</div></div>`).join("");
-}
 function renderTicketTrends(filter){
 const grid=document.getElementById("ticketTrendGrid");
 if(!grid)return;
@@ -352,7 +322,7 @@ return true;
 if(!items.length){grid.innerHTML='<div class="empty buzzEmpty">No movies match this filter.</div>';return;}
 grid.innerHTML=items.map(function(item){
 const status=item.status&&item.status[0]==="showing"?"Now Showing":"Public signal";
-return `<article class="ticketCard"><div class="ticketPoster"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)"><span class="ticketPosterBadge">${status}</span></div><div class="ticketCardInfo"><div class="ticketCardTop"><div class="ticketMovie">${escapeHTML(item.movie)}</div><div class="ticketLang">${escapeHTML(item.lang)}</div></div><div class="ticketStatus">${signalIcon(item.signals[0])} ${escapeHTML(item.signals[0]||"Public signal")}</div><div class="ticketSignals">${item.signals.map(function(signal){return `<span class="ticketSignal">${signalIcon(signal)} ${escapeHTML(signal)}</span>`}).join("")}</div><div class="ticketLinks">${item.links.map(function(link,i){return `<a href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">${i===0?"Open platform →":"Also check →"}</a>`}).join("")}</div></div></article>`;
+return `<article class="ticketCard"><div class="ticketPoster"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)"><span class="ticketPosterBadge">${status}</span></div><div class="ticketCardInfo"><div class="ticketCardTop"><div class="ticketMovie">${escapeHTML(item.movie)}</div><div class="ticketLang">${escapeHTML(item.lang)}</div></div><div class="ticketStatus">${signalIcon(item.signals[0])} ${escapeHTML(item.signals[0]||"Public signal")}</div><div class="ticketSignals">${item.signals.map(function(signal){return `<span class="ticketSignal">${signalIcon(signal)} ${escapeHTML(signal)}</span>`}).join("")}</div></div></article>`;
 }).join("");
 }
 
@@ -578,8 +548,8 @@ renderHero(feed.news);
 newsExpanded=false;
 renderNews(feed.news,8);
 renderTicketTrends();
-buzzTitle.textContent="Ticket Trends — Hyderabad";
-buzzLabel.textContent="Hyderabad · Public signals";
+buzzTitle.textContent="What’s Buzzing";
+buzzLabel.textContent="";
 
 }
 
@@ -590,8 +560,8 @@ newsSection.style.display="none";
 trailersSection.style.display="none";
 reviewsSection.style.display="none";
 buzzSection.style.display="";
-buzzTitle.textContent="Ticket Trends — Hyderabad";
-buzzLabel.textContent="Hyderabad · Public signals";
+buzzTitle.textContent="What’s Buzzing";
+buzzLabel.textContent="";
 renderTicketTrends();
 window.scrollTo({top:0,behavior:"smooth"});
 return;
