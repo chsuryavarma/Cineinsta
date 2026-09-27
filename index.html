@@ -18,8 +18,22 @@ header{position:sticky;top:0;z-index:1000;background:rgba(255,253,249,.94);backd
 main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 24px}.intro h1{margin:0 0 8px;font-size:clamp(34px,5vw,54px);line-height:1;letter-spacing:-2px}.intro p{margin:0;color:var(--muted);font-size:14px}
 .hero{position:relative;min-height:430px;margin-bottom:44px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#2b2927;box-shadow:var(--shadow)}.heroImage{position:absolute;inset:0}.heroImage img{width:100%;height:100%;object-fit:cover}.heroOverlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,18,17,.9) 0%,rgba(20,18,17,.58) 48%,rgba(20,18,17,.08) 100%)}.heroContent{position:relative;z-index:2;min-height:430px;max-width:680px;padding:52px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.heroTag{display:inline-block;background:var(--accent);color:#fff;padding:6px 10px;border-radius:999px;font-size:9px;font-weight:900;letter-spacing:1px;text-transform:uppercase;margin-bottom:15px}.heroTitle{margin:0 0 12px;color:#fff;font-size:clamp(30px,4vw,50px);line-height:1.05;font-weight:900;letter-spacing:-1.7px}.heroSummary{margin:0 0 14px;color:#eee;font-size:14px;line-height:1.65}.heroMeta{color:#d3d0cb;font-size:10px;margin-bottom:18px}.heroButton{display:inline-block;background:#fff;color:#222;padding:12px 18px;border-radius:999px;font-size:10px;font-weight:900;text-transform:uppercase}
 .jumpNav{position:sticky;top:64px;z-index:20;display:flex;gap:8px;overflow-x:auto;padding:10px 0;margin:8px 0 2px;scrollbar-width:none;background:rgba(247,245,240,.94);backdrop-filter:blur(10px)}.jumpNav::-webkit-scrollbar{display:none}.jumpNav a{flex:0 0 auto;text-decoration:none;color:#333;background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 14px;font-size:11px;font-weight:850;box-shadow:0 3px 10px rgba(30,25,20,.04)}.jumpNav a:hover{border-color:var(--accent);color:var(--accent)}.section{margin-top:46px;scroll-margin-top:128px}.sectionHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:16px}.sectionHead h2{margin:0;font-size:24px;letter-spacing:-.5px}.sectionHead span{color:#8a857d;font-size:10px;text-transform:uppercase;letter-spacing:1.3px}
-.newsGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.newsCard,.trailerCard,.buzzCard{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.04);transition:transform .18s ease,box-shadow .18s ease}.newsCard:hover,.trailerCard:hover,.buzzCard:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
-.newsImage,.trailerThumb,.buzzThumb{width:100%;aspect-ratio:16/9;background:#e5e1da;overflow:hidden}.newsImage img,.trailerThumb img,.buzzThumb img{width:100%;height:100%;object-fit:cover}.newsBody{padding:15px 16px 17px}.newsSource,.buzzSource{color:var(--accent);font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}.newsTitle{margin:7px 0 8px;font-size:17px;line-height:1.25;font-weight:850}.newsSummary{margin:0;color:#777;font-size:11px;line-height:1.55}.newsMeta{display:flex;justify-content:space-between;margin-top:12px;color:#999;font-size:9px}
+.newsGrid{display:flex;flex-direction:column;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.04)}
+.newsCard{display:block;background:var(--surface);border:0;border-bottom:1px solid #ebe6de;border-radius:0;box-shadow:none;transition:background .18s ease}
+.newsCard:last-child{border-bottom:0}
+.newsCard:hover{transform:none;box-shadow:none;background:#fffaf5}
+.newsCard a{display:grid;grid-template-columns:170px minmax(0,1fr);gap:16px;padding:14px 15px;align-items:center}
+.newsImage{width:170px;height:108px;aspect-ratio:auto;background:#e5e1da;overflow:hidden;border-radius:9px}
+.newsImage img{width:100%;height:100%;object-fit:cover}
+.newsBody{padding:0;min-width:0}
+.newsSource{color:var(--accent);font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}
+.newsTitle{margin:5px 0 6px;font-size:17px;line-height:1.24;font-weight:850}
+.newsSummary{display:none}
+.newsMeta{display:flex;justify-content:flex-start;gap:9px;margin-top:0;color:#999;font-size:9px}
+.newsAdSlot{min-height:96px;margin:0;padding:14px 12px;border-bottom:1px solid #ebe6de;background:#faf8f4;display:flex;align-items:center;justify-content:center}
+.newsAdSlot:last-child{border-bottom:0}
+.newsAdLabel{color:#aaa;font-size:8px;letter-spacing:1.2px;text-transform:uppercase}
+.newsGroup{display:contents}
 .buzzOpen{display:block;width:100%;padding:0;border:0;background:transparent;text-align:left;color:inherit;font:inherit;cursor:pointer}.buzzOpen:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}.trailerGrid,.buzzGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.trailerThumb,.buzzThumb{position:relative}.trailerBody,.buzzBody{padding:13px 14px 15px}.trailerTitle,.buzzTitle{font-size:14px;font-weight:850;line-height:1.35;margin-bottom:7px}.trailerSource,.buzzMeta{color:#8b8882;font-size:9px}.play,.buzzPlay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--accent);display:grid;place-items:center;font-size:17px;box-shadow:0 4px 16px rgba(0,0,0,.22)}.buzzModal{position:fixed;inset:0;z-index:3000;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;padding:20px}.buzzModal.open{display:flex}.buzzModalBox{width:min(960px,100%);background:#111;border-radius:16px;overflow:hidden;box-shadow:0 20px 70px rgba(0,0,0,.45);position:relative}.buzzModalTop{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:12px 16px;background:#181818;color:#fff}.buzzModalTitle{font-size:14px;font-weight:800;line-height:1.35}.buzzModalClose{border:0;background:#fff;color:#222;width:34px;height:34px;border-radius:50%;font-size:20px;cursor:pointer}.buzzFrame{width:100%;aspect-ratio:16/9;border:0;display:block}.buzzModalNote{padding:9px 14px;background:#181818;color:#aaa;font-size:10px}.footerLinks{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:14px}.footerLinks a{color:#777;font-size:10px}.footerLinks a:hover{color:var(--accent)}
 .reviewList{display:grid;gap:14px}.reviewWide{display:grid;grid-template-columns:190px 1fr;gap:20px;padding:15px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 5px 18px rgba(30,25,20,.04)}.reviewThumb{aspect-ratio:16/10;background:#e5e1da;border-radius:9px;overflow:hidden}.reviewThumb img{width:100%;height:100%;object-fit:cover}.reviewTag{color:var(--accent);font-size:8px;font-weight:900;letter-spacing:.9px}.reviewTitle{margin:6px 0 4px;font-size:19px;font-weight:900}.releaseDate{color:#888;font-size:10px;margin-bottom:8px}.cineRating{color:var(--gold);font-size:16px;font-weight:900;margin-bottom:9px}.cineRating span{display:block;color:#999;font-size:8px;font-weight:normal;margin-top:2px;text-transform:uppercase}.reviewSources{border-top:1px solid var(--line)}.reviewSource{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #eee9e0;color:#777;font-size:10px}.reviewSource a{color:var(--accent);font-weight:900}.reviewSource strong{color:#aaa;font-weight:normal}
 .moreBtn{display:block;width:max-content;margin:20px auto 0;padding:10px 18px;border:1px solid #cfc8bd;border-radius:999px;color:#555;font-size:10px;font-weight:900;text-transform:uppercase;background:transparent}.moreBtn:hover{border-color:var(--accent);color:var(--accent)}.empty{padding:35px 15px;text-align:center;border:1px dashed #d5cfc5;border-radius:12px;color:#999;font-size:12px;background:rgba(255,253,249,.5)}
@@ -65,7 +79,7 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 .buzzEmpty{grid-column:1/-1}.ticketCard[data-hidden="true"]{display:none}
 
 @media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.buzzGrid{grid-template-columns:repeat(3,minmax(0,1fr))}.buzzHeroGrid{grid-template-columns:1fr}}
-@media(max-width:650px){.ticketCards{grid-template-columns:1fr 1fr}.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.trailerGrid,.buzzGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
+@media(max-width:650px){.ticketCards{grid-template-columns:1fr 1fr}.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.newsCard a{grid-template-columns:132px minmax(0,1fr);gap:12px;padding:12px}.newsImage{width:132px;height:88px}.newsTitle{font-size:15px;line-height:1.25}.newsSource{font-size:8px}.newsMeta{font-size:8px}.newsAdSlot{min-height:82px}.trailerGrid,.buzzGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
 @media(max-width:420px){.ticketCards{grid-template-columns:1fr}.buzzSideGrid{grid-template-columns:1fr}.logo{width:140px;height:56px}.trailerGrid,.buzzGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}.ticketCard{grid-template-columns:100px 1fr;min-height:154px}.ticketPoster{width:100px;height:142px}.ticketMovie{font-size:17px}.ticketCardTop{gap:6px}.ticketTrendMeta{margin-top:9px}.ticketRank{padding-top:10px}}
 
 .ticketTrendSub{margin:6px 0 18px;color:#6b5b5b;font-size:14px;font-weight:600}
@@ -100,7 +114,7 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </section>
 
 <section class="section" id="newsSection">
-<div class="sectionHead"><h2>Latest Film News</h2><span>Telugu</span></div>
+<div class="sectionHead"><h2>Latest Film News</h2><span>15 stories · updated feed</span></div>
 <div class="newsGrid" id="newsGrid"><div class="empty">Loading latest Telugu cinema news...</div></div>
 <button type="button" id="newsMoreBtn" class="moreBtn">Read More News</button>
 </section>
@@ -356,7 +370,7 @@ feed.trailers=Array.isArray(feed.trailers)?feed.trailers:[];
 feed.buzz=Array.isArray(feed.buzz)?feed.buzz:[];
 feed.reviews=Array.isArray(feed.reviews)?feed.reviews:[];
 renderHero(feed.news);
-renderNews(feed.news,8);
+renderNews(feed.news,15);
 renderTrailers(feed.trailers);
 renderTicketTrends();
 renderReviews(feed.reviews);
@@ -385,16 +399,37 @@ function renderNews(items,limit){
 const grid=document.getElementById("newsGrid");
 const button=document.getElementById("newsMoreBtn");
 const validNews=items.filter(function(item){return item&&typeof item.img==="string"&&item.img.trim()!==""&&item.url;});
-if(!validNews.length){grid.innerHTML='<div class="empty">No latest Telugu news with thumbnails available right now.</div>';if(button)button.style.display="none";return}
-const displayLimit=Number.isInteger(limit)?limit:8;
-grid.innerHTML=validNews.slice(0,displayLimit).map(function(item){return `
+if(!validNews.length){
+grid.innerHTML='<div class="empty">No latest Telugu news with thumbnails available right now.</div>';
+if(button)button.style.display="none";
+return;
+}
+const initialCount=15;
+const displayLimit=Number.isInteger(limit)?limit:initialCount;
+const visible=validNews.slice(0,displayLimit);
+const showAds=displayLimit>=initialCount;
+let html="";
+
+visible.forEach(function(item,index){
+if(showAds && index===5) html+='<div class="newsAdSlot" aria-label="Advertisement"><span class="newsAdLabel">Advertisement</span></div>';
+if(showAds && index===10) html+='<div class="newsAdSlot" aria-label="Advertisement"><span class="newsAdLabel">Advertisement</span></div>';
+
+html+=`
 <article class="newsCard"><a href="/news/${articleSlug(item)}">
 <div class="newsImage"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.title)}" loading="lazy"></div>
 <div class="newsBody"><div class="newsSource">${escapeHTML(item.source||"Telugu Cinema")}</div>
 <div class="newsTitle">${escapeHTML(item.title||"")}</div>
-<p class="newsSummary">${escapeHTML(cleanSummary(item.summary||""))}</p>
 <div class="newsMeta"><span>Telugu</span><span>${formatDate(item.publishedAt)}</span></div>
-</div></a></article>`}).join("");
+</div></a></article>`;
+});
+
+if(showAds && visible.length>=15) html+='<div class="newsAdSlot" aria-label="Advertisement"><span class="newsAdLabel">Advertisement</span></div>';
+
+grid.innerHTML=html;
+if(button){
+button.style.display=validNews.length>initialCount ? "block" : "none";
+button.textContent=displayLimit>initialCount ? "Show Less News" : "Read More News";
+}
 }
 
 function renderTrailers(items){
@@ -482,7 +517,7 @@ function toggleNews(){
 const button=document.getElementById("newsMoreBtn");
 if(!button)return;
 newsExpanded=!newsExpanded;
-renderNews(feed.news,newsExpanded?24:8);
+renderNews(feed.news,newsExpanded?24:15);
 button.textContent=newsExpanded?"Show Less News":"Read More News";
 if(newsExpanded){document.getElementById("newsSection").scrollIntoView({behavior:"smooth",block:"start"});}
 }
@@ -549,7 +584,7 @@ buzzSection.style.display="";
 reviewsSection.style.display="";
 renderHero(feed.news);
 newsExpanded=false;
-renderNews(feed.news,8);
+renderNews(feed.news,15);
 renderTicketTrends();
 buzzTitle.textContent="Ticket Trends — Hyderabad";
 buzzLabel.textContent="";
