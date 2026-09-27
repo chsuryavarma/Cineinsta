@@ -67,6 +67,9 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 @media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.buzzGrid{grid-template-columns:repeat(3,minmax(0,1fr))}.buzzHeroGrid{grid-template-columns:1fr}}
 @media(max-width:650px){.ticketCards{grid-template-columns:1fr 1fr}.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.trailerGrid,.buzzGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
 @media(max-width:420px){.ticketCards{grid-template-columns:1fr}.buzzSideGrid{grid-template-columns:1fr}.logo{width:140px;height:56px}.trailerGrid,.buzzGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}.ticketCard{grid-template-columns:100px 1fr}.ticketPoster{width:100px;height:142px}}
+
+.ticketTrendSub{margin:6px 0 18px;color:#6b5b5b;font-size:14px;font-weight:600}
+
 </style>
 </head>
 <body>
@@ -109,7 +112,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 
 <section class="section buzzSectionWrap" id="buzzSection">
 <div class="sectionHead" style="display:block">
-<h2 class="buzzMainTitle">Ticket Trends — Hyderabad</h2>
+<h2 class="buzzMainTitle">Ticket Trends — Hyderabad
+<p class="ticketTrendSub">Trending now — Cineinsta picks based on visible booking and showing activity in Hyderabad.</p></h2>
 <p class="buzzSubline">
 </p>
 </div>
@@ -124,7 +128,7 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </div>
 
 <div class="ticketUpdated">
-<span>Updated</span>
+<span>Updated today</span>
 <span class="ticketDate">—</span>
 </div>
 
@@ -558,7 +562,7 @@ renderHero(feed.news);
 newsExpanded=false;
 renderNews(feed.news,8);
 renderTicketTrends();
-buzzTitle.textContent="What’s Buzzing";
+buzzTitle.textContent="Ticket Trends — Hyderabad";
 buzzLabel.textContent="";
 
 }
