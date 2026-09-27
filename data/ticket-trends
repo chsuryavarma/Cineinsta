@@ -1,0 +1,61 @@
+{
+  "updatedAt": "2026-09-27T00:00:00.000Z",
+  "city": "Hyderabad",
+  "movies": [
+    {
+      "movie": "The Paradise",
+      "lang": "Telugu / multi-language",
+      "language": ["telugu"],
+      "status": ["showing"],
+      "trendScore": 10,
+      "trendRank": 1,
+      "img": "https://i.ytimg.com/vi/yX90gF4_EjI/hqdefault.jpg"
+    },
+    {
+      "movie": "Avengers Endgame: Encore",
+      "lang": "English / Hindi / Tamil",
+      "language": ["english", "hindi", "tamil"],
+      "status": ["showing"],
+      "trendScore": 9,
+      "trendRank": 2,
+      "img": "https://i.ytimg.com/vi/L2NAh3CIdig/hqdefault.jpg"
+    },
+    {
+      "movie": "The Vvaan - Force of the Forrest",
+      "lang": "Hindi",
+      "language": ["hindi"],
+      "status": ["showing"],
+      "trendScore": 9,
+      "trendRank": 3,
+      "img": "https://www.keralatv.in/media/2026/07/The-Vvan-Release-Date-941x941.jpg"
+    },
+    {
+      "movie": "Hanuman Ansh",
+      "lang": "Hindi",
+      "language": ["hindi"],
+      "status": ["showing"],
+      "trendScore": 8,
+      "trendRank": 4,
+      "img": "https://i.ytimg.com/vi/CdCfyjeR_5k/hqdefault.jpg"
+    },
+    {
+      "movie": "Heart of the Beast",
+      "lang": "English",
+      "language": ["english"],
+      "status": ["showing"],
+      "trendScore": 8,
+      "trendRank": 5,
+      "img": "https://www.cinemajestic.nl/uploads/Products/product_4165/HeartoftheBeast_134287900335438738_big.jpg"
+    },
+    {
+      "movie": "Resident Evil",
+      "lang": "English / Tamil / Telugu / Hindi / Malayalam",
+      "language": ["english", "tamil", "telugu", "hindi", "malayalam"],
+      "status": ["showing"],
+      "trendScore": 7,
+      "trendRank": 6,
+      "img": "https://d9s3e2ooa0od7.cloudfront.net/assets/resident-evil/4569e7e0-a5b5-4b5b-84fc-2c39ede8ac67/4569e7e0-a5b5-4b5b-84fc-2c39ede8ac67.jpg"
+    }
+  ],
+  "methodology": "Cineinsta trend ranking uses public Hyderabad booking/showing visibility and cinema coverage. It does not estimate tickets sold or claim a rating ranking."
+}
