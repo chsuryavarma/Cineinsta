@@ -70,6 +70,7 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 
 .ticketTrendSub{margin:6px 0 18px;color:#6b5b5b;font-size:14px;font-weight:600}
 
+.ticketTrendBadge{display:inline-flex;align-items:center;margin-top:10px;padding:7px 10px;border-radius:999px;background:#f9e9e7;border:1px solid #e8b8b3;color:#9b1c17;font-size:10px;font-weight:900;letter-spacing:.2px}
 </style>
 </head>
 <body>
@@ -113,7 +114,7 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <section class="section buzzSectionWrap" id="buzzSection">
 <div class="sectionHead" style="display:block">
 <h2 class="buzzMainTitle">Ticket Trends — Hyderabad</h2>
-<p class="ticketTrendSub">Trending now — Cineinsta picks based on visible booking and showing activity in Hyderabad.</p>
+<p class="ticketTrendSub">Trending now — Cineinsta highlights movies showing stronger public booking and showtime activity in Hyderabad.</p>
 <p class="buzzSubline">
 </p>
 </div>
@@ -281,10 +282,12 @@ updateSEO(entry);
 
 
 const ticketTrendFallback=[
-{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],signals:["Advance booking signal","Hyderabad: public show listings visible"],img:"https://i.ytimg.com/vi/yX90gF4_EjI/hqdefault.jpg"},
-{movie:"Avengers Endgame: Encore",lang:"English / Hindi / Tamil",language:["english","hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow listing visible"],img:"https://i.ytimg.com/vi/L2NAh3CIdig/hqdefault.jpg"},
-{movie:"Hanuman Ansh",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","Cinépolis listing visible"],img:"https://i.ytimg.com/vi/CdCfyjeR_5k/hqdefault.jpg"},
-{movie:"VIBE",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow listing visible"],img:"https://i.ytimg.com/vi/meknZizkusk/hqdefault.jpg"}
+{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],trendScore:10,img:"https://i.ytimg.com/vi/yX90gF4_EjI/hqdefault.jpg"},
+{movie:"Avengers Endgame: Encore",lang:"English / Hindi / Tamil",language:["english","hindi","tamil"],status:["showing"],trendScore:9,img:"https://i.ytimg.com/vi/L2NAh3CIdig/hqdefault.jpg"},
+{movie:"The Vvaan - Force of the Forrest",lang:"Hindi",language:["hindi"],status:["showing"],trendScore:9,img:""},
+{movie:"Hanuman Ansh",lang:"Hindi",language:["hindi"],status:["showing"],trendScore:8,img:"https://i.ytimg.com/vi/CdCfyjeR_5k/hqdefault.jpg"},
+{movie:"Heart of the Beast",lang:"English",language:["english"],status:["showing"],trendScore:8,img:""},
+{movie:"Resident Evil",lang:"English / Tamil / Telugu / Hindi / Malayalam",language:["english","tamil","telugu","hindi","malayalam"],status:["showing"],trendScore:7,img:""}
 ];
 
 let ticketTrendData=ticketTrendFallback.slice();
@@ -311,36 +314,22 @@ const box=img.parentElement;
 if(box){box.innerHTML='<div class="ticketPosterFallback">'+escapeHTML(movie.replace(/ poster \/ promotional image$/i,""))+'</div>';}
 }
 
-function signalIcon(signal){
-const s=signal.toLowerCase();
-if(s.includes("advance booking #1"))return "📈";
-if(s.includes("now showing"))return "🎟";
-if(s.includes("released"))return "🆕";
-if(s.includes("bookmyshow"))return "🎟";
-if(s.includes("cínépolis")||s.includes("cinepolis"))return "🎟";
-if(s.includes("district"))return "🎟";
-if(s.includes("tickets"))return "🎟";
-return "•";
-}
-
 function renderTicketTrends(filter){
 const grid=document.getElementById("ticketTrendGrid");
 if(!grid)return;
 const active=filter||"all";
 const items=ticketTrendData.filter(function(item){
 if(active==="all")return true;
-if(["telugu","tamil","hindi","english"].includes(active))return item.language.includes(active);
-if(active==="showing")return item.signals.some(s=>s.toLowerCase().includes("now showing"));
+if(["telugu","tamil","hindi","english"].includes(active))return Array.isArray(item.language)&&item.language.includes(active);
+if(active==="showing")return item.status&&item.status.includes("showing");
 return true;
 });
 if(!items.length){grid.innerHTML='<div class="empty buzzEmpty">No movies match this filter.</div>';return;}
 grid.innerHTML=items.map(function(item){
-const status=item.status&&item.status[0]==="showing"?"Now Showing":"Booking Signal";
-const signals=Array.isArray(item.signals)?item.signals:[];
-return `<article class="ticketCard"><div class="ticketPoster"><img src="${escapeHTML(item.img||"")}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)"><span class="ticketPosterBadge">${status}</span></div><div class="ticketCardInfo"><div class="ticketCardTop"><div class="ticketMovie">${escapeHTML(item.movie)}</div><div class="ticketLang">${escapeHTML(item.lang||"")}</div></div><div class="ticketSignals">${signals.length?signals.map(function(signal){return `<span class="ticketSignal">${signalIcon(signal)} ${escapeHTML(signal)}</span>`}).join(""):'<span class="ticketSignal">Booking/showing visible</span>'}</div></div></article>`;
+const status=item.status&&item.status.includes("showing")?"Now Showing":"Booking Open";
+return `<article class="ticketCard"><div class="ticketPoster"><img src="${escapeHTML(item.img||"")}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)"><span class="ticketPosterBadge">${status}</span></div><div class="ticketCardInfo"><div class="ticketCardTop"><div class="ticketMovie">${escapeHTML(item.movie)}</div><div class="ticketLang">${escapeHTML(item.lang||"")}</div></div><div class="ticketTrendBadge">🔥 Trending in Hyderabad</div></div></article>`;
 }).join("");
 }
-
 function setupBuzzFilters(){
 document.querySelectorAll(".buzzFilter").forEach(function(button){
 button.addEventListener("click",function(){
