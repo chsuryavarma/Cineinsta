@@ -1,0 +1,28 @@
+{
+  "city": "Hyderabad",
+  "active": [
+    {
+      "name": "BookMyShow public Hyderabad listings",
+      "status": "active",
+      "purpose": "Public movie/showing visibility and cinema coverage signals"
+    }
+  ],
+  "planned_authorized": [
+    {
+      "name": "District",
+      "status": "requires authorized access",
+      "purpose": "Additional public/partner booking signal when permitted"
+    },
+    {
+      "name": "PVR INOX",
+      "status": "requires authorized access",
+      "purpose": "Additional cinema/showtime signal when permitted"
+    },
+    {
+      "name": "Cin\u00e9polis",
+      "status": "requires authorized API/access",
+      "purpose": "Additional cinema/showtime signal when permitted"
+    }
+  ],
+  "note": "The site does not claim that a movie has the highest rating. Ticket Trends is a separate signal based on public booking/showing activity."
+}
