@@ -11,6 +11,7 @@ permissions:
 jobs:
   update-ticket-trends:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,6 +22,8 @@ jobs:
           node-version: 20
 
       - name: Update ticket trends
+        env:
+          SHOWTIMES_API_KEY: ${{ secrets.SHOWTIMES_API_KEY }}
         run: node scripts/update-ticket-trends.mjs
 
       - name: Commit changes
