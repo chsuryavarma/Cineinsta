@@ -48,6 +48,7 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 .buzzMiniContent{position:absolute;z-index:2;left:14px;right:14px;bottom:13px;color:#fff}.buzzMiniTitle{font-size:16px;line-height:1.12;font-weight:900;margin-bottom:5px}.buzzMiniMeta{font-size:9px;color:#ddd}
 .buzzSectionLabel{display:none}
 
+.buzzStageNote{display:flex;flex-direction:column;gap:4px;padding:14px 16px;margin:0 0 18px;border:1px solid rgba(201,40,45,.16);border-left:4px solid var(--accent);border-radius:12px;background:#fff;box-shadow:0 4px 14px rgba(30,25,20,.04)}.buzzStageNote strong{font-size:11px;letter-spacing:.6px;text-transform:uppercase}.buzzStageNote span{font-size:10px;line-height:1.5;color:#777}.buzzSourceWrap{margin-top:24px}.buzzSourceTitle{font-size:10px;font-weight:950;text-transform:uppercase;letter-spacing:1.2px;color:#777;margin-bottom:10px}.buzzSourceGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}@media(max-width:760px){.buzzHeroGrid{grid-template-columns:1fr}.buzzFeature{min-height:360px}.buzzSideGrid{gap:10px}.buzzMini{min-height:170px}.buzzSourceGrid{grid-template-columns:1fr 1fr}.buzzStageNote{padding:12px 13px}}@media(max-width:480px){.buzzSideGrid{grid-template-columns:1fr 1fr}.buzzMini{min-height:145px}.buzzSourceGrid{grid-template-columns:1fr}.buzzFeatureContent{left:18px;right:18px}.buzzFeatureTitle{font-size:28px}}
 .buzzSourceCard{display:flex;align-items:center;gap:10px;padding:12px 13px;border:1px solid var(--line);border-radius:13px;background:rgba(255,253,249,.86);box-shadow:0 4px 13px rgba(20,18,17,.04);text-decoration:none}
 .buzzSourceIcon{width:34px;height:34px;border-radius:10px;background:#171717;color:#fff;display:grid;place-items:center;font-size:11px;font-weight:950;flex:0 0 auto}.buzzSourceCard strong{font-size:12px}.buzzSourceCard span{display:block;color:#888;font-size:9px;margin-top:2px}
 
@@ -94,12 +95,6 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </div>
 </section>
 
-<nav class="jumpNav" aria-label="Quick navigation">
-<a href="#reviewsSection">Jump to Reviews</a>
-<a href="#buzzSection">Cineinsta Buzz</a>
-<a href="#trailersSection">Jump to Trailers</a>
-</nav>
-
 <section class="section" id="newsSection">
 <div class="sectionHead"><h2>Latest Film News</h2><span>Telugu</span></div>
 <div class="newsGrid" id="newsGrid"><div class="empty">Loading latest Telugu cinema news...</div></div>
@@ -113,7 +108,20 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </section>
 
 <section class="section buzzSectionWrap" id="buzzSection">
-<div class="sectionHead"><h2 class="buzzMainTitle">What’s Buzzing</h2></div>
+<div class="buzzKicker">Stage 1 · Public Signals</div>
+<div class="sectionHead" style="display:block">
+<h2 class="buzzMainTitle">Ticket Trends — Hyderabad</h2>
+<p class="buzzSubline">A Cineinsta snapshot of movies getting attention through publicly visible booking and showing signals. No estimated or invented ticket-sales numbers.</p>
+</div>
+
+<div class="buzzHeroGrid" id="buzzFeaturedGrid"></div>
+
+<div class="buzzStageNote">
+<strong>How Stage 1 works</strong>
+<span>We show public signals such as advance-booking rankings, current show listings and platform visibility. The signals are not presented as exact ticket sales unless a source explicitly reports them.</span>
+</div>
+
+<div class="buzzSectionLabel">What's Buzzing</div>
 <div class="buzzFilters" aria-label="Movie filters">
 <button class="buzzFilter active" type="button" data-filter="all">All</button>
 <button class="buzzFilter" type="button" data-filter="telugu">Telugu</button>
@@ -122,8 +130,31 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <button class="buzzFilter" type="button" data-filter="english">English</button>
 <button class="buzzFilter" type="button" data-filter="showing">Now Showing</button>
 </div>
-<div class="ticketUpdated"><span>Public booking/showing signals</span><span><strong>Checked:</strong> 27 Sep 2026</span></div>
+
+<div class="ticketUpdated">
+<span>Public booking/showing signals</span>
+<span><strong>Stage 1 snapshot:</strong> 27 Sep 2026</span>
+</div>
+
 <div class="ticketCards" id="ticketTrendGrid"><div class="empty">Loading movie signals...</div></div>
+
+<div class="buzzSourceWrap">
+<div class="buzzSourceTitle">Public platforms checked</div>
+<div class="buzzSourceGrid">
+<a class="buzzSourceCard" href="https://in.bookmyshow.com/explore/home/hyderabad" target="_blank" rel="noopener noreferrer">
+<div class="buzzSourceIcon">BMS</div><div><strong>BookMyShow</strong><span>Hyderabad public listings</span></div>
+</a>
+<a class="buzzSourceCard" href="https://www.district.in/movies" target="_blank" rel="noopener noreferrer">
+<div class="buzzSourceIcon">D</div><div><strong>District</strong><span>Public movie/show listings</span></div>
+</a>
+<a class="buzzSourceCard" href="https://www.pvrcinemas.com/" target="_blank" rel="noopener noreferrer">
+<div class="buzzSourceIcon">PVR</div><div><strong>PVR INOX</strong><span>Public cinema listings</span></div>
+</a>
+<a class="buzzSourceCard" href="https://cinepolisindia.com/" target="_blank" rel="noopener noreferrer">
+<div class="buzzSourceIcon">C</div><div><strong>Cinépolis</strong><span>Public movie/booking listings</span></div>
+</a>
+</div>
+</div>
 </section>
 
 <section class="section" id="trailersSection">
@@ -270,7 +301,7 @@ updateSEO(entry);
 }
 
 const ticketTrendData=[
-{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],signals:["Advance booking #1 (India)","Hyderabad: 5,761 tickets / 52 shows / 12 venues for Sep 28"],links:["https://www.bollywoodhungama.com/box-office/advance-booking/28-09-26/","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/yX90gF4_EjI/hqdefault.jpg",verified:"Bollywood Hungama live advance-booking snapshot + Hyderabad BookMyShow showtimes"},
+{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],signals:["Advance booking #1 (India)","Hyderabad: public show listings visible"],links:["https://www.bollywoodhungama.com/box-office/advance-booking/28-09-26/","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/yX90gF4_EjI/hqdefault.jpg",verified:"Bollywood Hungama advance-booking snapshot + Hyderabad BookMyShow listings"},
 {movie:"Avengers Endgame: Encore",lang:"English / Hindi / Tamil",language:["english","hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow shows available for Sep 27–Oct 1"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.marvel.com/movies/avengers-endgame"],img:"https://i.ytimg.com/vi/L2NAh3CIdig/hqdefault.jpg",verified:"Hyderabad BookMyShow cinema listings"},
 {movie:"Hanuman Ansh",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","Cinépolis release / booking listing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://cinepolisindia.com/movie-details/HANUMAN-ANSH-HO00002433?cid=9"],img:"https://i.ytimg.com/vi/CdCfyjeR_5k/hqdefault.jpg",verified:"Hyderabad BookMyShow listings + Cinépolis listing"},
 {movie:"VIBE",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow listings visible"],links:["https://in.bookmyshow.com/movies/smne%3Asangamner/vibe-smne%3Asangamner/buytickets/et00506465","https://www.bollywoodhungama.com/videos/movie-promos/vibe-official-trailer-kunal-kemmu-preity-g-zinta-sparsh-shrivastava/"],img:"https://i.ytimg.com/vi/meknZizkusk/hqdefault.jpg",verified:"BookMyShow Hyderabad listings"},
@@ -337,7 +368,6 @@ renderTicketTrends(button.getAttribute("data-filter"));
 }
 
 renderBuzzFeatured();
-renderBuzzInsights();
 renderTicketTrends();
 setupBuzzFilters();
 
