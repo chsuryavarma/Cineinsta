@@ -26,10 +26,46 @@ main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 
 .articlePage{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px 32px 38px;box-shadow:var(--shadow)}.articleBack{display:inline-block;margin-bottom:22px;color:#777;font-size:11px;font-weight:800}.articleSource{color:var(--accent);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.articleTitle{margin:0 0 14px;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-1.5px}.articleMeta{color:#888;font-size:11px;margin-bottom:22px}.articleImage{width:100%;max-height:520px;object-fit:cover;border-radius:12px;margin-bottom:25px}.articleVideo{position:relative;width:100%;aspect-ratio:16/9;margin:0 0 25px;border-radius:12px;overflow:hidden;background:#111}.articleVideo iframe{width:100%;height:100%;border:0}.articleSummary{color:#4f4f4f;font-size:16px;line-height:1.8;margin-bottom:25px}.articleSourceBox{border-top:1px solid var(--line);padding-top:18px;color:#777;font-size:11px}.articleSourceBox a{color:var(--accent);font-weight:900}.articleSourceBox .sourceNote{color:#999;font-size:10px}
 footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center;color:#999;font-size:10px}.mobileNav{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1000;height:62px;background:rgba(255,253,249,.97);border-top:1px solid var(--line);grid-template-columns:repeat(5,1fr)}.mobileNav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#777;font-size:11px;font-weight:850}.mobileNav a span{font-size:20px;line-height:20px;font-weight:900}.mobileNav a:hover{color:var(--accent)}
 
-.ticketIntro{margin:0 0 18px;color:#5f6368;font-size:14px;line-height:1.6;max-width:850px}.ticketPlatforms{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0 22px}.ticketPlatform{display:flex;flex-direction:column;gap:6px;padding:16px;border:1px solid #e5e0d8;border-radius:14px;background:#fff;text-decoration:none;box-shadow:0 3px 12px rgba(20,18,17,.06);transition:transform .15s ease,box-shadow .15s ease}.ticketPlatform:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(20,18,17,.1)}.ticketPlatform strong{font-size:15px;color:#171717}.ticketPlatform span{font-size:12px;color:#777;line-height:1.35}.ticketCards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.ticketCard{background:#fff;border:1px solid #e5e0d8;border-radius:16px;padding:18px;box-shadow:0 4px 16px rgba(20,18,17,.07)}.ticketCardTop{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:14px}.ticketMovie{font-size:20px;font-weight:800;line-height:1.2;color:#151515}.ticketLang{font-size:11px;color:#777;text-align:right;white-space:nowrap}.ticketSignals{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:15px}.ticketSignal{display:inline-flex;align-items:center;padding:7px 10px;border-radius:999px;background:#f7f2ec;border:1px solid #eadfd3;color:#4c4037;font-size:12px;font-weight:600}.ticketLinks{display:flex;flex-wrap:wrap;gap:8px}.ticketLinks a{display:inline-flex;align-items:center;padding:8px 11px;border-radius:9px;background:#171717;color:#fff;text-decoration:none;font-size:12px;font-weight:700}.ticketLinks a:hover{opacity:.9}.ticketNote{margin-top:18px;padding:12px 14px;border-radius:10px;background:#f7f7f7;color:#666;font-size:12px;line-height:1.5}.ticketPlatforms + .ticketCards{margin-top:2px}
-@media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.buzzGrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Enhanced Cineinsta BUZZ / Ticket Trends */
+.buzzSectionWrap{position:relative;overflow:hidden}
+.buzzSectionWrap:before{content:"";position:absolute;inset:0 auto auto 0;width:100%;height:240px;background:radial-gradient(circle at 10% 10%,rgba(201,40,45,.12),transparent 48%),radial-gradient(circle at 90% 0%,rgba(177,132,47,.12),transparent 42%);pointer-events:none}
+.buzzKicker{display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-size:11px;font-weight:950;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.buzzKicker:before{content:"";width:28px;height:3px;background:var(--accent);border-radius:99px}
+.buzzMainTitle{font-size:clamp(30px,5vw,48px)!important;letter-spacing:-1.8px!important;margin-bottom:5px!important}
+.buzzSubline{margin:0 0 18px;color:#666;font-size:13px;line-height:1.6;max-width:760px}
+.buzzHeroGrid{display:grid;grid-template-columns:1.35fr 1fr;gap:18px;margin:22px 0 26px}
+.buzzFeature{position:relative;min-height:420px;border-radius:20px;overflow:hidden;background:#151515;box-shadow:0 14px 36px rgba(20,18,17,.14);border:1px solid rgba(255,255,255,.08)}
+.buzzFeature img{width:100%;height:100%;object-fit:cover;transition:transform .45s ease}.buzzFeature:hover img{transform:scale(1.035)}
+.buzzFeatureOverlay{position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,10,.96) 0%,rgba(10,10,10,.64) 42%,rgba(10,10,10,.05) 100%)}
+.buzzFeatureContent{position:absolute;left:24px;right:24px;bottom:22px;color:#fff}
+.buzzFeatureTag{display:inline-flex;padding:6px 9px;border-radius:999px;background:var(--accent);font-size:9px;font-weight:900;letter-spacing:.8px;text-transform:uppercase;margin-bottom:10px}
+.buzzFeatureTitle{margin:0 0 7px;font-size:clamp(26px,4vw,42px);line-height:1.03;letter-spacing:-1px;font-weight:950}
+.buzzFeatureMeta{font-size:11px;color:#ddd;margin-bottom:11px}.buzzFeatureSignals{display:flex;flex-wrap:wrap;gap:6px}.buzzFeatureSignals span{padding:6px 8px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(255,255,255,.1);font-size:9px;color:#fff}
+.buzzSideGrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.buzzMini{position:relative;min-height:201px;border-radius:16px;overflow:hidden;background:#171717;border:1px solid rgba(255,255,255,.08);box-shadow:0 8px 22px rgba(20,18,17,.1)}
+.buzzMini img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}.buzzMini:hover img{transform:scale(1.04)}
+.buzzMini:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,10,.9),rgba(10,10,10,.04) 70%)}
+.buzzMiniContent{position:absolute;z-index:2;left:14px;right:14px;bottom:13px;color:#fff}.buzzMiniTitle{font-size:16px;line-height:1.12;font-weight:900;margin-bottom:5px}.buzzMiniMeta{font-size:9px;color:#ddd}
+.buzzSectionLabel{font-size:18px;font-weight:950;letter-spacing:-.3px;margin:30px 0 13px}
+.buzzSourceRow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0 0 25px}
+.buzzSourceCard{display:flex;align-items:center;gap:10px;padding:12px 13px;border:1px solid var(--line);border-radius:13px;background:rgba(255,253,249,.86);box-shadow:0 4px 13px rgba(20,18,17,.04);text-decoration:none}
+.buzzSourceIcon{width:34px;height:34px;border-radius:10px;background:#171717;color:#fff;display:grid;place-items:center;font-size:11px;font-weight:950;flex:0 0 auto}.buzzSourceCard strong{font-size:12px}.buzzSourceCard span{display:block;color:#888;font-size:9px;margin-top:2px}
+.buzzInsights{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:28px}
+.buzzInsight{padding:15px;border-radius:15px;background:#fff;border:1px solid var(--line);box-shadow:0 5px 18px rgba(30,25,20,.05)}
+.buzzInsightIcon{font-size:19px;margin-bottom:8px}.buzzInsightLabel{font-size:9px;color:var(--accent);font-weight:950;text-transform:uppercase;letter-spacing:.8px}.buzzInsightMovie{font-size:14px;font-weight:900;margin-top:4px;line-height:1.25}.buzzInsightText{font-size:9px;color:#888;margin-top:4px;line-height:1.4}
+.buzzFilters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 15px}.buzzFilter{border:1px solid #d7d0c6;background:#fff;border-radius:999px;padding:8px 12px;font-size:10px;font-weight:900;color:#555;cursor:pointer}.buzzFilter.active,.buzzFilter:hover{background:#171717;color:#fff;border-color:#171717}
+.ticketCards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.ticketCard{display:grid;grid-template-columns:130px 1fr;gap:15px;background:#fff;border:1px solid #e2dbd1;border-radius:17px;padding:12px;box-shadow:0 5px 18px rgba(20,18,17,.06);overflow:hidden;transition:transform .18s ease,box-shadow .18s ease}.ticketCard:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(20,18,17,.11)}
+.ticketPoster{width:130px;height:184px;border-radius:11px;overflow:hidden;background:linear-gradient(145deg,#252525,#8f171b);position:relative}.ticketPoster img{width:100%;height:100%;object-fit:cover}.ticketPosterFallback{height:100%;display:flex;align-items:flex-end;padding:12px;color:#fff;font-weight:950;font-size:17px;line-height:1.02;background:linear-gradient(160deg,#171717,#c9282d)}
+.ticketPosterBadge{position:absolute;left:8px;top:8px;background:#fff;color:#171717;border-radius:999px;padding:5px 7px;font-size:8px;font-weight:950;text-transform:uppercase}
+.ticketCardInfo{min-width:0;padding:3px 2px 4px}.ticketCardTop{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px}.ticketMovie{font-size:18px;font-weight:950;line-height:1.1;color:#151515}.ticketLang{font-size:9px;color:#777;text-align:right;white-space:nowrap}
+.ticketStatus{font-size:9px;font-weight:900;color:#9a6c16;margin-bottom:9px;text-transform:uppercase;letter-spacing:.7px}.ticketSignals{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}.ticketSignal{display:inline-flex;align-items:center;padding:6px 8px;border-radius:999px;background:#f7f2ec;border:1px solid #eadfd3;color:#4c4037;font-size:9px;font-weight:800}.ticketLinks{display:flex;flex-wrap:wrap;gap:7px}.ticketLinks a{display:inline-flex;align-items:center;padding:7px 9px;border-radius:8px;background:#171717;color:#fff;text-decoration:none;font-size:9px;font-weight:850}.ticketLinks a:hover{opacity:.9}
+.ticketNote{margin-top:18px;padding:12px 14px;border-radius:10px;background:#f7f7f7;color:#666;font-size:10px;line-height:1.5;border:1px solid #e7e3dc}.ticketUpdated{display:flex;justify-content:space-between;gap:10px;margin:0 0 14px;color:#888;font-size:9px}.ticketUpdated strong{color:#555}
+.buzzEmpty{grid-column:1/-1}.ticketCard[data-hidden="true"]{display:none}
+
+@media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerGrid,.buzzGrid{grid-template-columns:repeat(3,minmax(0,1fr))}.buzzHeroGrid{grid-template-columns:1fr}.buzzSourceRow{grid-template-columns:repeat(2,minmax(0,1fr))}.buzzInsights{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.ticketPlatforms{grid-template-columns:repeat(2,minmax(0,1fr))}.ticketCards{grid-template-columns:1fr 1fr}.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.trailerGrid,.buzzGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
-@media(max-width:420px){.ticketPlatforms,.ticketCards{grid-template-columns:1fr}.logo{width:140px;height:56px}.trailerGrid,.buzzGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}}
+@media(max-width:420px){.ticketPlatforms,.ticketCards{grid-template-columns:1fr}.buzzSideGrid,.buzzSourceRow,.buzzInsights{grid-template-columns:1fr}.logo{width:140px;height:56px}.trailerGrid,.buzzGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}.ticketCard{grid-template-columns:100px 1fr}.ticketPoster{width:100px;height:142px}}
 </style>
 </head>
 <body>
@@ -76,17 +112,37 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <a href="/reviews" class="moreBtn">View All Reviews</a>
 </section>
 
-<section class="section" id="buzzSection">
-<div class="sectionHead"><h2>Cineinsta Ticket Trends</h2><span>Hyderabad · Public signals</span></div>
-<p class="ticketIntro">A cross-platform snapshot of movie activity visible on public ticketing pages. Cineinsta does not estimate or claim private ticket-sales numbers.</p>
-<div class="ticketPlatforms">
-<a class="ticketPlatform" href="https://in.bookmyshow.com/explore/home/hyderabad" target="_blank" rel="noopener noreferrer"><strong>BookMyShow</strong><span>Recommended · Now Showing</span></a>
-<a class="ticketPlatform" href="https://www.district.in/movies/hyderabad-movie-tickets" target="_blank" rel="noopener noreferrer"><strong>District</strong><span>Trending · Showtimes</span></a>
-<a class="ticketPlatform" href="https://www.pvrcinemas.com/" target="_blank" rel="noopener noreferrer"><strong>PVR INOX</strong><span>Showtimes · Booking</span></a>
-<a class="ticketPlatform" href="https://cinepolisindia.com/" target="_blank" rel="noopener noreferrer"><strong>Cinépolis</strong><span>Now Showing · Booking</span></a>
+<section class="section buzzSectionWrap" id="buzzSection">
+<div class="buzzKicker">BUZZ</div>
+<div class="sectionHead"><h2 class="buzzMainTitle">Ticket Trends — Hyderabad</h2><span>Public signals</span></div>
+<p class="buzzSubline">See which movies are showing visible activity across public ticketing platforms — presented through movie posters, trend signals and booking links.</p>
+
+<div class="buzzHeroGrid" id="buzzFeaturedGrid"><div class="empty">Loading trending movies...</div></div>
+
+<div class="buzzSectionLabel">What's Buzzing</div>
+<div class="buzzInsights" id="buzzInsights"><div class="empty">Loading signals...</div></div>
+
+<div class="buzzSectionLabel">Ticketing Platforms</div>
+<div class="buzzSourceRow">
+<a class="buzzSourceCard" href="https://in.bookmyshow.com/explore/home/hyderabad" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">BMS</div><div><strong>BookMyShow</strong><span>Recommendations · Shows</span></div></a>
+<a class="buzzSourceCard" href="https://www.district.in/movies/hyderabad-movie-tickets" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">D</div><div><strong>District</strong><span>Trending · Showtimes</span></div></a>
+<a class="buzzSourceCard" href="https://www.pvrcinemas.com/" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">PVR</div><div><strong>PVR INOX</strong><span>Showtimes · Booking</span></div></a>
+<a class="buzzSourceCard" href="https://cinepolisindia.com/" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">C</div><div><strong>Cinépolis</strong><span>Now Showing · Booking</span></div></a>
 </div>
+
+<div class="buzzSectionLabel">All Movie Trends</div>
+<div class="buzzFilters" aria-label="Ticket trend filters">
+<button class="buzzFilter active" type="button" data-filter="all">All</button>
+<button class="buzzFilter" type="button" data-filter="telugu">Telugu</button>
+<button class="buzzFilter" type="button" data-filter="tamil">Tamil</button>
+<button class="buzzFilter" type="button" data-filter="hindi">Hindi</button>
+<button class="buzzFilter" type="button" data-filter="english">English</button>
+<button class="buzzFilter" type="button" data-filter="trending">Trending</button>
+<button class="buzzFilter" type="button" data-filter="showing">Now Showing</button>
+</div>
+<div class="ticketUpdated"><span>Public-page signals only</span><span><strong>Updated:</strong> 27 Sep 2026</span></div>
 <div class="ticketCards" id="ticketTrendGrid"><div class="empty">Loading ticket trends...</div></div>
-<div class="ticketNote">Signals shown here are limited to information intentionally displayed on public platform pages. Exact tickets sold, private booking data and seat-level demand are not claimed.</div>
+<div class="ticketNote">Cineinsta only presents information intentionally visible on public ticketing pages. Exact tickets sold, private booking data and seat-level demand are not claimed. Live automated ticket-trend ingestion will be connected separately.</div>
 </section>
 
 <section class="section" id="trailersSection">
@@ -233,20 +289,94 @@ updateSEO(entry);
 }
 
 const ticketTrendData=[
-{movie:"Spider-Man: Brand New Day",lang:"English / Hindi / regional",signals:["District: Trending","BookMyShow: Now Showing"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://in.bookmyshow.com/movies/hyderabad/spider-man-brand-new-day/ET00447840"]},
-{movie:"The Paradise",lang:"Telugu / multi-language",signals:["BookMyShow: Recommended","BookMyShow: Now Showing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.district.in/movies/hyderabad-movie-tickets"]},
-{movie:"Hanuman Ansh",lang:"Hindi",signals:["BookMyShow: Recommended","BookMyShow: Now Showing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.district.in/movies/hyderabad-movie-tickets"]},
-{movie:"VISHWANATH AND SONS",lang:"Telugu / regional",signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://in.bookmyshow.com/explore/home/hyderabad"]},
-{movie:"Hushar Pittalu",lang:"Telugu",signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets"]},
-{movie:"Awarapan 2",lang:"Hindi",signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets"]},
-{movie:"VIBE",lang:"Hindi",signals:["BookMyShow: Now Showing","BookMyShow: 7.9K+ votes"],links:["https://in.bookmyshow.com/movies/hyderabad/vibe/et00506465"]},
-{movie:"Mirzapur: The Movie",lang:"Hindi / Telugu",signals:["BookMyShow: 127K+ votes","BookMyShow: Now Showing"],links:["https://in.bookmyshow.com/movies/hyderabad/mirzapur-the-movie/ET00510304"]}
+{movie:"Spider-Man: Brand New Day",lang:"English / Hindi / regional",language:["english","hindi"],status:["showing"],signals:["District: Trending","BookMyShow: Now Showing"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/BwntXFBNfOA/hqdefault.jpg"},
+{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],signals:["BookMyShow: Recommended","BookMyShow: Now Showing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.district.in/movies/hyderabad-movie-tickets"],img:"https://i.ytimg.com/vi/Y3xewv1ZnHc/hqdefault.jpg"},
+{movie:"Hanuman Ansh",lang:"Hindi",language:["hindi"],status:["showing"],signals:["BookMyShow: Recommended","BookMyShow: Now Showing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://cinepolisindia.com/movie-details/HANUMAN-ANSH-HO00002433?cid=9"],img:"https://i.ytimg.com/vi/YZ2FbpJDVf0/hqdefault.jpg"},
+{movie:"Vishwanath & Sons",lang:"Telugu / Tamil",language:["telugu","tamil"],status:["showing"],signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/jZHoM2YhFCY/hqdefault.jpg"},
+{movie:"Hushar Pittalu",lang:"Telugu",language:["telugu"],status:["showing"],signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://cinepolisindia.com/movie-details/hushar-pittalu-HO00002521?cid=11"],img:"https://i.ytimg.com/vi/Lpzh4JPRD9Q/hqdefault.jpg"},
+{movie:"Awarapan 2",lang:"Hindi",language:["hindi"],status:["showing"],signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/1ya87ENCRj0/hqdefault.jpg"},
+{movie:"VIBE",lang:"Hindi",language:["hindi"],status:["showing"],signals:["BookMyShow: Now Showing","BookMyShow: Recommended"],links:["https://in.bookmyshow.com/movies/kunigal/vibe/ET00506465","https://www.district.in/movies/hyderabad-movie-tickets"],img:"https://i.ytimg.com/vi/meknZizkusk/hqdefault.jpg"},
+{movie:"Mirzapur: The Movie",lang:"Hindi / Telugu",language:["hindi","telugu"],status:["showing"],signals:["BookMyShow: Now Showing","District: Trending"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.district.in/movies/hyderabad-movie-tickets"],img:"https://i.ytimg.com/vi/1H7a4uJf2xk/hqdefault.jpg"}
 ];
-function renderTicketTrends(){
+
+function handlePosterError(img){
+const movie=img.getAttribute("alt")||"Movie poster";
+const box=img.parentElement;
+if(box){box.innerHTML='<div class="ticketPosterFallback">'+escapeHTML(movie.replace(/ poster \/ promotional image$/i,""))+'</div>';}
+}
+
+function signalIcon(signal){
+const s=signal.toLowerCase();
+if(s.includes("trending"))return "🔥";
+if(s.includes("recommended"))return "⭐";
+if(s.includes("showing"))return "🎟";
+if(s.includes("release"))return "🆕";
+return "•";
+}
+
+function renderBuzzFeature(item,mini){
+return `<a href="${escapeHTML(item.links[0]||"#")}" target="_blank" rel="noopener noreferrer" class="${mini?"buzzMini":"buzzFeature"}">
+<img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="this.style.display='none'">
+${mini?`<div class="buzzMiniContent"><div class="buzzMiniTitle">${escapeHTML(item.movie)}</div><div class="buzzMiniMeta">${escapeHTML(item.lang)} · ${escapeHTML(item.signals[0]||"Public signal")}</div></div>`:`<div class="buzzFeatureOverlay"></div><div class="buzzFeatureContent"><span class="buzzFeatureTag">${signalIcon(item.signals[0])} Featured signal</span><h3 class="buzzFeatureTitle">${escapeHTML(item.movie)}</h3><div class="buzzFeatureMeta">${escapeHTML(item.lang)}</div><div class="buzzFeatureSignals">${item.signals.map(s=>`<span>${signalIcon(s)} ${escapeHTML(s)}</span>`).join("")}</div></div>`}
+</a>`;
+}
+
+function renderBuzzFeatured(){
+const grid=document.getElementById("buzzFeaturedGrid");
+if(!grid)return;
+const items=ticketTrendData.slice(0,5);
+if(!items.length){grid.innerHTML='<div class="empty">No featured ticket trends available.</div>';return;}
+grid.innerHTML=renderBuzzFeature(items[0],false)+`<div class="buzzSideGrid">${items.slice(1,5).map(item=>renderBuzzFeature(item,true)).join("")}</div>`;
+}
+
+function renderBuzzInsights(){
+const el=document.getElementById("buzzInsights");
+if(!el)return;
+const trending=ticketTrendData.find(i=>i.signals.some(s=>s.toLowerCase().includes("trending")))||ticketTrendData[0];
+const showing=ticketTrendData.find(i=>i.signals.some(s=>s.toLowerCase().includes("now showing")))||ticketTrendData[0];
+const recommended=ticketTrendData.find(i=>i.signals.some(s=>s.toLowerCase().includes("recommended")))||ticketTrendData[1]||ticketTrendData[0];
+const release=ticketTrendData.find(i=>i.signals.some(s=>s.toLowerCase().includes("this week's releases")))||ticketTrendData[3]||ticketTrendData[0];
+const cards=[
+["🔥","Trending signal",trending.movie,"Visible on a public ticketing page"],
+["🎟","Now showing",showing.movie,"Booking/show presence is visible"],
+["⭐","Recommended",recommended.movie,"Recommendation signal is visible"],
+["🆕","This week's release",release.movie,"Release-list signal is visible"]
+];
+el.innerHTML=cards.map(c=>`<div class="buzzInsight"><div class="buzzInsightIcon">${c[0]}</div><div class="buzzInsightLabel">${c[1]}</div><div class="buzzInsightMovie">${escapeHTML(c[2])}</div><div class="buzzInsightText">${escapeHTML(c[3])}</div></div>`).join("");
+}
+
+function renderTicketTrends(filter){
 const grid=document.getElementById("ticketTrendGrid");
 if(!grid)return;
-grid.innerHTML=ticketTrendData.map(function(item){return `<article class="ticketCard"><div class="ticketCardTop"><div class="ticketMovie">${escapeHTML(item.movie)}</div><div class="ticketLang">${escapeHTML(item.lang)}</div></div><div class="ticketSignals">${item.signals.map(function(signal){return `<span class="ticketSignal">${escapeHTML(signal)}</span>`}).join("")}</div><div class="ticketLinks">${item.links.map(function(link,i){return `<a href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">${i===0?"Open platform →":"Also check →"}</a>`}).join("")}</div></article>`}).join("");
+const active=filter||"all";
+const items=ticketTrendData.filter(function(item){
+if(active==="all")return true;
+if(["telugu","tamil","hindi","english"].includes(active))return item.language.includes(active);
+if(active==="trending")return item.signals.some(s=>s.toLowerCase().includes("trending"));
+if(active==="showing")return item.signals.some(s=>s.toLowerCase().includes("now showing"));
+return true;
+});
+if(!items.length){grid.innerHTML='<div class="empty buzzEmpty">No movies match this filter.</div>';return;}
+grid.innerHTML=items.map(function(item){
+const status=item.status&&item.status[0]==="showing"?"Now Showing":"Public signal";
+return `<article class="ticketCard"><div class="ticketPoster"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)"><span class="ticketPosterBadge">${status}</span></div><div class="ticketCardInfo"><div class="ticketCardTop"><div class="ticketMovie">${escapeHTML(item.movie)}</div><div class="ticketLang">${escapeHTML(item.lang)}</div></div><div class="ticketStatus">${signalIcon(item.signals[0])} ${escapeHTML(item.signals[0]||"Public signal")}</div><div class="ticketSignals">${item.signals.map(function(signal){return `<span class="ticketSignal">${signalIcon(signal)} ${escapeHTML(signal)}</span>`}).join("")}</div><div class="ticketLinks">${item.links.map(function(link,i){return `<a href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">${i===0?"Open platform →":"Also check →"}</a>`}).join("")}</div></div></article>`;
+}).join("");
 }
+
+function setupBuzzFilters(){
+document.querySelectorAll(".buzzFilter").forEach(function(button){
+button.addEventListener("click",function(){
+document.querySelectorAll(".buzzFilter").forEach(b=>b.classList.remove("active"));
+button.classList.add("active");
+renderTicketTrends(button.getAttribute("data-filter"));
+});
+});
+}
+
+renderBuzzFeatured();
+renderBuzzInsights();
+renderTicketTrends();
+setupBuzzFilters();
 
 async function loadFeed(){
 try{
@@ -455,7 +585,7 @@ renderHero(feed.news);
 newsExpanded=false;
 renderNews(feed.news,8);
 renderTicketTrends();
-buzzTitle.textContent="Cineinsta Ticket Trends";
+buzzTitle.textContent="Ticket Trends — Hyderabad";
 buzzLabel.textContent="Hyderabad · Public signals";
 
 }
@@ -467,7 +597,7 @@ newsSection.style.display="none";
 trailersSection.style.display="none";
 reviewsSection.style.display="none";
 buzzSection.style.display="";
-buzzTitle.textContent="Cineinsta Ticket Trends";
+buzzTitle.textContent="Ticket Trends — Hyderabad";
 buzzLabel.textContent="Hyderabad · Public signals";
 renderTicketTrends();
 window.scrollTo({top:0,behavior:"smooth"});
