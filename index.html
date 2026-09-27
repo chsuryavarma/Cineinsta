@@ -115,34 +115,33 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <section class="section buzzSectionWrap" id="buzzSection">
 <div class="buzzKicker">BUZZ</div>
 <div class="sectionHead"><h2 class="buzzMainTitle">Ticket Trends — Hyderabad</h2><span>Public signals</span></div>
-<p class="buzzSubline">See which movies are showing visible activity across public ticketing platforms — presented through movie posters, trend signals and booking links.</p>
+<p class="buzzSubline">See which movies have a verified current booking or advance-booking signal. Cineinsta does not invent ticket-sales numbers or call a movie “Trending” unless a current source explicitly supports that label.</p>
 
-<div class="buzzHeroGrid" id="buzzFeaturedGrid"><div class="empty">Loading trending movies...</div></div>
+<div class="buzzHeroGrid" id="buzzFeaturedGrid"><div class="empty">Loading verified ticket signals...</div></div>
 
 <div class="buzzSectionLabel">What's Buzzing</div>
 <div class="buzzInsights" id="buzzInsights"><div class="empty">Loading signals...</div></div>
 
 <div class="buzzSectionLabel">Ticketing Platforms</div>
 <div class="buzzSourceRow">
-<a class="buzzSourceCard" href="https://in.bookmyshow.com/explore/home/hyderabad" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">BMS</div><div><strong>BookMyShow</strong><span>Recommendations · Shows</span></div></a>
-<a class="buzzSourceCard" href="https://www.district.in/movies/hyderabad-movie-tickets" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">D</div><div><strong>District</strong><span>Trending · Showtimes</span></div></a>
+<a class="buzzSourceCard" href="https://in.bookmyshow.com/explore/home/hyderabad" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">BMS</div><div><strong>BookMyShow</strong><span>Shows · Booking pages</span></div></a>
+<a class="buzzSourceCard" href="https://www.district.in/movies/hyderabad-movie-tickets" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">D</div><div><strong>District</strong><span>Showtimes · Movie pages</span></div></a>
 <a class="buzzSourceCard" href="https://www.pvrcinemas.com/" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">PVR</div><div><strong>PVR INOX</strong><span>Showtimes · Booking</span></div></a>
 <a class="buzzSourceCard" href="https://cinepolisindia.com/" target="_blank" rel="noopener noreferrer"><div class="buzzSourceIcon">C</div><div><strong>Cinépolis</strong><span>Now Showing · Booking</span></div></a>
 </div>
 
-<div class="buzzSectionLabel">All Movie Trends</div>
+<div class="buzzSectionLabel">Verified Movie Signals</div>
 <div class="buzzFilters" aria-label="Ticket trend filters">
 <button class="buzzFilter active" type="button" data-filter="all">All</button>
 <button class="buzzFilter" type="button" data-filter="telugu">Telugu</button>
 <button class="buzzFilter" type="button" data-filter="tamil">Tamil</button>
 <button class="buzzFilter" type="button" data-filter="hindi">Hindi</button>
 <button class="buzzFilter" type="button" data-filter="english">English</button>
-<button class="buzzFilter" type="button" data-filter="trending">Trending</button>
 <button class="buzzFilter" type="button" data-filter="showing">Now Showing</button>
 </div>
-<div class="ticketUpdated"><span>Public-page signals only</span><span><strong>Updated:</strong> 27 Sep 2026</span></div>
+<div class="ticketUpdated"><span>Verified public signals only</span><span><strong>Checked:</strong> 27 Sep 2026</span></div>
 <div class="ticketCards" id="ticketTrendGrid"><div class="empty">Loading ticket trends...</div></div>
-<div class="ticketNote">Cineinsta only presents information intentionally visible on public ticketing pages. Exact tickets sold, private booking data and seat-level demand are not claimed. Live automated ticket-trend ingestion will be connected separately.</div>
+<div class="ticketNote">Cineinsta only presents signals that were verifiable from public pages at the time of checking. “Now Showing” means a current public Hyderabad booking/showtime listing was found. The Paradise includes a separately sourced India advance-booking snapshot. Exact tickets sold, private booking data and seat-level demand are not claimed. Automated ticket-trend ingestion is not yet connected.</div>
 </section>
 
 <section class="section" id="trailersSection">
@@ -289,14 +288,10 @@ updateSEO(entry);
 }
 
 const ticketTrendData=[
-{movie:"Spider-Man: Brand New Day",lang:"English / Hindi / regional",language:["english","hindi"],status:["showing"],signals:["District: Trending","BookMyShow: Now Showing"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/BwntXFBNfOA/hqdefault.jpg"},
-{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],signals:["BookMyShow: Recommended","BookMyShow: Now Showing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.district.in/movies/hyderabad-movie-tickets"],img:"https://i.ytimg.com/vi/Y3xewv1ZnHc/hqdefault.jpg"},
-{movie:"Hanuman Ansh",lang:"Hindi",language:["hindi"],status:["showing"],signals:["BookMyShow: Recommended","BookMyShow: Now Showing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://cinepolisindia.com/movie-details/HANUMAN-ANSH-HO00002433?cid=9"],img:"https://i.ytimg.com/vi/YZ2FbpJDVf0/hqdefault.jpg"},
-{movie:"Vishwanath & Sons",lang:"Telugu / Tamil",language:["telugu","tamil"],status:["showing"],signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/jZHoM2YhFCY/hqdefault.jpg"},
-{movie:"Hushar Pittalu",lang:"Telugu",language:["telugu"],status:["showing"],signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://cinepolisindia.com/movie-details/hushar-pittalu-HO00002521?cid=11"],img:"https://i.ytimg.com/vi/Lpzh4JPRD9Q/hqdefault.jpg"},
-{movie:"Awarapan 2",lang:"Hindi",language:["hindi"],status:["showing"],signals:["District: Trending","District: This Week's Releases"],links:["https://www.district.in/movies/hyderabad-movie-tickets","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/1ya87ENCRj0/hqdefault.jpg"},
-{movie:"VIBE",lang:"Hindi",language:["hindi"],status:["showing"],signals:["BookMyShow: Now Showing","BookMyShow: Recommended"],links:["https://in.bookmyshow.com/movies/kunigal/vibe/ET00506465","https://www.district.in/movies/hyderabad-movie-tickets"],img:"https://i.ytimg.com/vi/meknZizkusk/hqdefault.jpg"},
-{movie:"Mirzapur: The Movie",lang:"Hindi / Telugu",language:["hindi","telugu"],status:["showing"],signals:["BookMyShow: Now Showing","District: Trending"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.district.in/movies/hyderabad-movie-tickets"],img:"https://i.ytimg.com/vi/1H7a4uJf2xk/hqdefault.jpg"}
+{movie:"The Paradise",lang:"Telugu / multi-language",language:["telugu"],status:["showing"],signals:["Advance booking #1 (India)","Hyderabad: 5,761 tickets / 52 shows / 12 venues for Sep 28"],links:["https://www.bollywoodhungama.com/box-office/advance-booking/28-09-26/","https://in.bookmyshow.com/explore/home/hyderabad"],img:"https://i.ytimg.com/vi/yX90gF4_EjI/hqdefault.jpg",verified:"Bollywood Hungama live advance-booking snapshot + Hyderabad BookMyShow showtimes"},
+{movie:"Avengers Endgame: Encore",lang:"English / Hindi / Tamil",language:["english","hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow shows available for Sep 27–Oct 1"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://www.marvel.com/movies/avengers-endgame"],img:"https://i.ytimg.com/vi/L2NAh3CIdig/hqdefault.jpg",verified:"Hyderabad BookMyShow cinema listings"},
+{movie:"Hanuman Ansh",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","Cinépolis release / booking listing"],links:["https://in.bookmyshow.com/explore/home/hyderabad","https://cinepolisindia.com/movie-details/HANUMAN-ANSH-HO00002433?cid=9"],img:"https://i.ytimg.com/vi/CdCfyjeR_5k/hqdefault.jpg",verified:"Hyderabad BookMyShow listings + Cinépolis listing"},
+{movie:"VIBE",lang:"Hindi",language:["hindi"],status:["showing"],signals:["Hyderabad: Now Showing","BookMyShow listings visible"],links:["https://in.bookmyshow.com/movies/smne%3Asangamner/vibe-smne%3Asangamner/buytickets/et00506465","https://www.bollywoodhungama.com/videos/movie-promos/vibe-official-trailer-kunal-kemmu-preity-g-zinta-sparsh-shrivastava/"],img:"https://i.ytimg.com/vi/meknZizkusk/hqdefault.jpg",verified:"BookMyShow Hyderabad listings"},
 ];
 
 function handlePosterError(img){
@@ -307,16 +302,19 @@ if(box){box.innerHTML='<div class="ticketPosterFallback">'+escapeHTML(movie.repl
 
 function signalIcon(signal){
 const s=signal.toLowerCase();
-if(s.includes("trending"))return "🔥";
-if(s.includes("recommended"))return "⭐";
-if(s.includes("showing"))return "🎟";
-if(s.includes("release"))return "🆕";
+if(s.includes("advance booking #1"))return "📈";
+if(s.includes("now showing"))return "🎟";
+if(s.includes("released"))return "🆕";
+if(s.includes("bookmyshow"))return "🎟";
+if(s.includes("cínépolis")||s.includes("cinepolis"))return "🎟";
+if(s.includes("district"))return "🎟";
+if(s.includes("tickets"))return "🎟";
 return "•";
 }
 
 function renderBuzzFeature(item,mini){
 return `<a href="${escapeHTML(item.links[0]||"#")}" target="_blank" rel="noopener noreferrer" class="${mini?"buzzMini":"buzzFeature"}">
-<img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="this.style.display='none'">
+<img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.movie)} poster / promotional image" loading="lazy" onerror="handlePosterError(this)">
 ${mini?`<div class="buzzMiniContent"><div class="buzzMiniTitle">${escapeHTML(item.movie)}</div><div class="buzzMiniMeta">${escapeHTML(item.lang)} · ${escapeHTML(item.signals[0]||"Public signal")}</div></div>`:`<div class="buzzFeatureOverlay"></div><div class="buzzFeatureContent"><span class="buzzFeatureTag">${signalIcon(item.signals[0])} Featured signal</span><h3 class="buzzFeatureTitle">${escapeHTML(item.movie)}</h3><div class="buzzFeatureMeta">${escapeHTML(item.lang)}</div><div class="buzzFeatureSignals">${item.signals.map(s=>`<span>${signalIcon(s)} ${escapeHTML(s)}</span>`).join("")}</div></div>`}
 </a>`;
 }
@@ -332,19 +330,15 @@ grid.innerHTML=renderBuzzFeature(items[0],false)+`<div class="buzzSideGrid">${it
 function renderBuzzInsights(){
 const el=document.getElementById("buzzInsights");
 if(!el)return;
-const trending=ticketTrendData.find(i=>i.signals.some(s=>s.toLowerCase().includes("trending")))||ticketTrendData[0];
-const showing=ticketTrendData.find(i=>i.signals.some(s=>s.toLowerCase().includes("now showing")))||ticketTrendData[0];
-const recommended=ticketTrendData.find(i=>i.signals.some(s=>s.toLowerCase().includes("recommended")))||ticketTrendData[1]||ticketTrendData[0];
-const release=ticketTrendData.find(i=>i.signals.some(s=>s.toLowerCase().includes("this week's releases")))||ticketTrendData[3]||ticketTrendData[0];
+const featured=ticketTrendData[0];
 const cards=[
-["🔥","Trending signal",trending.movie,"Visible on a public ticketing page"],
-["🎟","Now showing",showing.movie,"Booking/show presence is visible"],
-["⭐","Recommended",recommended.movie,"Recommendation signal is visible"],
-["🆕","This week's release",release.movie,"Release-list signal is visible"]
+["📈","Strongest verified signal",featured.movie,"India advance-booking ranking #1 for Sep 28; Hyderabad snapshot shows 5,761 tickets across 52 shows and 12 venues"],
+["🎟","Hyderabad availability",ticketTrendData[1].movie,"Current Hyderabad BookMyShow listings are visible"],
+["🎟","New release activity",ticketTrendData[2].movie,"Released Sep 25 and current Hyderabad booking pages are visible"],
+["🎟","Other live listings",ticketTrendData[2].movie,"Current Hyderabad booking listings are visible"]
 ];
 el.innerHTML=cards.map(c=>`<div class="buzzInsight"><div class="buzzInsightIcon">${c[0]}</div><div class="buzzInsightLabel">${c[1]}</div><div class="buzzInsightMovie">${escapeHTML(c[2])}</div><div class="buzzInsightText">${escapeHTML(c[3])}</div></div>`).join("");
 }
-
 function renderTicketTrends(filter){
 const grid=document.getElementById("ticketTrendGrid");
 if(!grid)return;
@@ -352,7 +346,6 @@ const active=filter||"all";
 const items=ticketTrendData.filter(function(item){
 if(active==="all")return true;
 if(["telugu","tamil","hindi","english"].includes(active))return item.language.includes(active);
-if(active==="trending")return item.signals.some(s=>s.toLowerCase().includes("trending"));
 if(active==="showing")return item.signals.some(s=>s.toLowerCase().includes("now showing"));
 return true;
 });
