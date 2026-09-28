@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy | Cineinsta</title>
+<meta name="description" content="Cineinsta privacy policy covering cookies, advertising, analytics, contact information and third-party services.">
+<link rel="canonical" href="https://www.cineinsta.com/privacy-policy.html">
+<style>
+:root{--bg:#0f0f10;--card:#18191b;--text:#f4f4f4;--muted:#a9a9ad;--accent:#e3262e;--line:#2a2b2f}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+body{min-height:100vh}
+a{color:var(--accent)}
+.siteHeader{padding:24px 18px 18px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(15,15,16,.96);backdrop-filter:blur(8px);z-index:10}
+.logo{font-size:26px;font-weight:900;letter-spacing:.5px;color:#fff;text-decoration:none}
+.logo span{color:var(--accent)}
+.nav{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px;font-size:13px}
+.nav a{color:#ddd;text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:34px 18px 70px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:20px}
+h1{font-size:34px;line-height:1.2;margin:0 0 8px}
+h2{font-size:20px;margin:28px 0 8px}
+h3{font-size:16px;margin:22px 0 6px}
+p,li{font-size:15px;color:#e5e5e7}
+.muted{color:var(--muted);font-size:13px}
+ul{padding-left:22px}
+.siteFooter{border-top:1px solid var(--line);padding:24px 18px 40px;text-align:center;color:var(--muted);font-size:12px}
+.footerLinks{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:10px}
+.footerLinks a{color:#bbb;text-decoration:none}
+.footerLinks a:hover{color:#fff}
+.notice{border-left:3px solid var(--accent);padding:10px 14px;background:#201416;border-radius:6px}
+@media(max-width:600px){h1{font-size:28px}.card{padding:18px}.nav{gap:12px}}
+</style>
+</head>
+<body>
+<header class="siteHeader">
+<a class="logo" href="/">CINE<span>INSTA</span></a>
+<nav class="nav" aria-label="Site navigation">
+<a href="/">Home</a>
+<a href="/about.html">About Us</a>
+<a href="/contact.html">Contact Us</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms.html">Terms</a>
+<a href="/disclaimer.html">Disclaimer</a>
+</nav>
+</header>
+<main class="wrap">
+
+<section class="card">
+<h1>Privacy Policy</h1>
+<p class="muted"><strong>Last updated:</strong> September 28, 2026</p>
+
+<p>This Privacy Policy explains how Cineinsta ("Cineinsta", "we", "us" or "our") may collect, use and protect information when you visit cineinsta.com.</p>
+
+<h2>Information we may collect</h2>
+<p>Depending on how you use the website, information may include information you voluntarily provide when contacting us, such as your name and email address, and technical information associated with normal website operation, security and performance, such as browser type, device information, approximate location derived from network information, pages visited and referring pages.</p>
+
+<h2>How we use information</h2>
+<ul>
+<li>To operate, maintain and improve Cineinsta.</li>
+<li>To respond to enquiries, correction requests and copyright concerns.</li>
+<li>To protect the website against abuse, fraud and security threats.</li>
+<li>To understand website performance and audience usage where analytics tools are enabled.</li>
+<li>To display and measure advertising where advertising services are enabled.</li>
+</ul>
+
+<h2>Cookies and advertising</h2>
+<p>Cineinsta may use cookies and similar technologies. Google and other third-party advertising providers may use cookies to serve or personalize advertising based on a user's prior visits to this website or other websites, subject to applicable settings and consent requirements.</p>
+<p>Google's advertising cookies can enable Google and its partners to serve ads based on visits to this and other sites. Users can manage personalized advertising through <a href="https://adssettings.google.com/" rel="noopener noreferrer">Google Ads Settings</a>.</p>
+<p>For more information about Google's handling of data, see <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">How Google uses information from sites or apps that use its services</a>.</p>
+
+<h2>Third-party services and links</h2>
+<p>Cineinsta may link to or embed services operated by third parties, including video, movie-data, ticketing, social-media and advertising services. Those services may have their own privacy policies and terms. Cineinsta is not responsible for the privacy practices of third-party websites.</p>
+
+<h2>Contact information</h2>
+<p>If you contact us, we use the information you provide to respond to your request and to keep appropriate records of editorial, correction or rights-related matters.</p>
+
+<h2>Data retention</h2>
+<p>We retain information only for as long as reasonably necessary for the purpose for which it was collected, to maintain records, resolve disputes, meet legal obligations or protect the website.</p>
+
+<h2>Children</h2>
+<p>Cineinsta is a general-audience entertainment website and is not directed specifically at children.</p>
+
+<h2>Changes to this policy</h2>
+<p>We may update this Privacy Policy when our website, services or legal requirements change. The updated version will be posted on this page with a revised date.</p>
+
+<h2>Contact</h2>
+<p>Privacy questions can be sent to <a href="mailto:chsuryaraju@gmail.com">chsuryaraju@gmail.com</a>.</p>
+
+<div class="notice"><strong>Important:</strong> This page is a website policy template prepared for Cineinsta and should be reviewed against the actual services, analytics tools, advertising settings and applicable laws before publication.</div>
+</section>
+
+</main>
+<footer class="siteFooter">
+<div>Cineinsta · Indian Cinema News, Reviews, Cineinsta Buzz &amp; Trailers</div>
+<div class="footerLinks" aria-label="Information and legal links">
+<a href="/about.html">About Us</a>
+<a href="/contact.html">Contact Us</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms.html">Terms</a>
+<a href="/disclaimer.html">Disclaimer</a>
+</div>
+</footer>
+</body>
+</html>
