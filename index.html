@@ -66,6 +66,27 @@ main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 
 .reviewList{display:grid;gap:14px}.reviewWide{display:grid;grid-template-columns:190px 1fr;gap:20px;padding:15px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 5px 18px rgba(30,25,20,.04)}.reviewThumb{aspect-ratio:16/10;background:#e5e1da;border-radius:9px;overflow:hidden}.reviewThumb img{width:100%;height:100%;object-fit:cover}.reviewTag{color:var(--accent);font-size:8px;font-weight:900;letter-spacing:.9px}.reviewTitle{margin:6px 0 4px;font-size:19px;font-weight:900}.releaseDate{color:#888;font-size:10px;margin-bottom:8px}.cineRating{color:var(--gold);font-size:16px;font-weight:900;margin-bottom:9px}.cineRating span{display:block;color:#999;font-size:8px;font-weight:normal;margin-top:2px;text-transform:uppercase}.reviewSources{border-top:1px solid var(--line)}.reviewSource{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #eee9e0;color:#777;font-size:10px}.reviewSource a{color:var(--accent);font-weight:900}.reviewSource strong{color:#aaa;font-weight:normal}
 .moreBtn{display:block;width:max-content;margin:20px auto 0;padding:10px 18px;border:1px solid #cfc8bd;border-radius:999px;color:#555;font-size:10px;font-weight:900;text-transform:uppercase;background:transparent}.moreBtn:hover{border-color:var(--accent);color:var(--accent)}.empty{padding:35px 15px;text-align:center;border:1px dashed #d5cfc5;border-radius:12px;color:#999;font-size:12px;background:rgba(255,253,249,.5)}
 .articlePage{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px 32px 38px;box-shadow:var(--shadow)}.articleBack{display:inline-block;margin-bottom:22px;color:#777;font-size:11px;font-weight:800}.articleSource{color:var(--accent);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.articleTitle{margin:0 0 14px;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-1.5px}.articleMeta{color:#888;font-size:11px;margin-bottom:22px}.articleImage{width:100%;max-height:520px;object-fit:cover;border-radius:12px;margin-bottom:25px}.articleVideo{position:relative;width:100%;aspect-ratio:16/9;margin:0 0 25px;border-radius:12px;overflow:hidden;background:#111}.articleVideo iframe{width:100%;height:100%;border:0}.articleSummary{color:#4f4f4f;font-size:16px;line-height:1.8;margin-bottom:25px}.articleSourceBox{border-top:1px solid var(--line);padding-top:18px;color:#777;font-size:11px}.articleSourceBox a{color:var(--accent);font-weight:900}.articleSourceBox .sourceNote{color:#999;font-size:10px}
+.relatedSection{margin-top:34px;padding-top:26px;border-top:1px solid var(--line)}
+.relatedHead{display:flex;justify-content:space-between;align-items:end;gap:14px;margin-bottom:14px}
+.relatedHead h2{margin:0;font-size:20px;letter-spacing:-.3px}
+.relatedHead span{color:#999;font-size:9px;text-transform:uppercase;letter-spacing:1.1px}
+.relatedGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.relatedCard{display:block;background:#fff;border:1px solid var(--line);border-radius:13px;overflow:hidden;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.relatedCard:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(30,25,20,.08);background:#fffaf5}
+.relatedThumb{width:100%;height:125px;background:#e5e1da;overflow:hidden}
+.relatedThumb img{width:100%;height:100%;object-fit:cover}
+.relatedBody{padding:10px 11px 12px}
+.relatedType{color:var(--accent);font-size:8px;font-weight:900;text-transform:uppercase;letter-spacing:.8px}
+.relatedTitle{margin-top:5px;font-size:13px;line-height:1.28;font-weight:850}
+.relatedMeta{margin-top:7px;color:#999;font-size:8px}
+.articleExplore{margin-top:20px;padding:15px;border:1px solid var(--line);border-radius:13px;background:#faf8f4}
+.articleExploreTitle{font-size:9px;color:#777;font-weight:950;text-transform:uppercase;letter-spacing:1px;margin-bottom:9px}
+.articleExploreLinks{display:flex;flex-wrap:wrap;gap:8px}
+.articleExploreLinks a{display:inline-flex;align-items:center;padding:8px 11px;border:1px solid #d8d1c7;border-radius:999px;background:#fff;color:#555;font-size:9px;font-weight:900}
+.articleExploreLinks a:hover{border-color:var(--accent);color:var(--accent)}
+@media(max-width:700px){.relatedGrid{grid-template-columns:1fr 1fr}.relatedThumb{height:105px}.relatedTitle{font-size:12px}.relatedHead{align-items:flex-start;flex-direction:column;gap:4px}}
+@media(max-width:430px){.relatedGrid{grid-template-columns:1fr}.relatedThumb{height:150px}.relatedTitle{font-size:14px}}
+
 footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center;color:#999;font-size:10px}.mobileNav{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1000;height:62px;background:rgba(255,253,249,.97);border-top:1px solid var(--line);grid-template-columns:repeat(5,1fr)}.mobileNav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#777;font-size:11px;font-weight:850}.mobileNav a span{font-size:20px;line-height:20px;font-weight:900}.mobileNav a:hover{color:var(--accent)}
 
 /* Enhanced Cineinsta BUZZ / Ticket Trends */
@@ -240,6 +261,105 @@ return [
 ];
 }
 
+function relatedArticleTypeLabel(type){
+if(type==="news")return "News";
+if(type==="reviews")return "Review";
+if(type==="trailers")return "Trailer";
+if(type==="buzz")return "Buzz";
+return "Cineinsta";
+}
+
+function relatedTitleTokens(title){
+return String(title||"").toLowerCase()
+.replace(/&amp;|&/g," ")
+.replace(/['’‘`]/g,"")
+.replace(/[^a-z0-9\s]/g," ")
+.split(/\s+/)
+.filter(function(word){
+return word.length>=4&&!/^(latest|breaking|exclusive|update|updates|news|report|reports|official|movie|film|cinema|review|reviews|trailer|trailers)$/.test(word);
+});
+}
+
+function getRelatedArticles(currentEntry){
+const all=getAllArticles();
+const currentSlug=articleSlug(currentEntry.item);
+const currentTokens=new Set(relatedTitleTokens(currentEntry.item.title||currentEntry.item.t||""));
+const currentSource=String(currentEntry.item.source||"").toLowerCase().trim();
+
+const scored=all.filter(function(entry){
+return !(entry.type===currentEntry.type&&articleSlug(entry.item)===currentSlug);
+}).map(function(entry,index){
+const tokens=relatedTitleTokens(entry.item.title||entry.item.t||"");
+let common=0;
+tokens.forEach(function(token){if(currentTokens.has(token))common++;});
+
+let score=0;
+if(entry.type===currentEntry.type)score+=3;
+if(common)score+=Math.min(common,4)*2;
+if(currentSource&&String(entry.item.source||"").toLowerCase().trim()===currentSource)score+=1;
+
+const time=Date.parse(entry.item.publishedAt||"");
+if(Number.isFinite(time))score+=Math.max(0,Math.min(1,(time-Date.now()+7*86400000)/(7*86400000)));
+
+return {entry:entry,score:score,time:Number.isFinite(time)?time:0,index:index};
+});
+
+scored.sort(function(a,b){
+if(b.score!==a.score)return b.score-a.score;
+if(b.time!==a.time)return b.time-a.time;
+return a.index-b.index;
+});
+
+const selected=[];
+const seen=new Set();
+
+scored.forEach(function(item){
+const key=item.entry.type+"|"+articleSlug(item.entry.item);
+if(!seen.has(key)&&selected.length<6){
+seen.add(key);
+selected.push(item.entry);
+}
+});
+
+return selected;
+}
+
+function renderRelatedArticles(currentEntry){
+const related=getRelatedArticles(currentEntry);
+const cards=related.map(function(entry){
+const item=entry.item;
+const title=item.title||item.t||"Cineinsta";
+const image=item.img||"";
+const date=formatDate(item.publishedAt);
+return `<a class="relatedCard" href="/${entry.type}/${articleSlug(item)}">
+${image?`<div class="relatedThumb"><img src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async"></div>`:""}
+<div class="relatedBody">
+<div class="relatedType">${relatedArticleTypeLabel(entry.type)}</div>
+<div class="relatedTitle">${escapeHTML(title)}</div>
+${date?`<div class="relatedMeta">${escapeHTML(date)}</div>`:""}
+</div>
+</a>`;
+}).join("");
+
+return `<section class="relatedSection" aria-label="Related Cineinsta articles">
+<div class="relatedHead">
+<h2>Related on Cineinsta</h2>
+<span>More stories you may like</span>
+</div>
+${cards?`<div class="relatedGrid">${cards}</div>`:`<div class="empty">More Cineinsta stories will appear here as the feed grows.</div>`}
+<div class="articleExplore">
+<div class="articleExploreTitle">Explore more on Cineinsta</div>
+<div class="articleExploreLinks">
+<a href="/news">Latest News</a>
+<a href="/reviews">Movie Reviews</a>
+<a href="/trailers">Trailers</a>
+<a href="/buzz">Buzz &amp; Ticket Trends</a>
+</div>
+</div>
+</section>`;
+}
+
+
 function findArticle(path){
 const match=path.match(/^\/(news|buzz|reviews|trailers)\/([^/]+)\/?$/);
 if(!match)return null;
@@ -378,6 +498,7 @@ Source: <strong>${escapeHTML(source)}</strong>
 <br><br>
 <a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Visit original source →</a>
 </div>
+${renderRelatedArticles(entry)}
 </div>`;
 
 updateSEO(entry);
