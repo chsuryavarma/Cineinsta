@@ -1,6 +1,10 @@
-https://www.cineinsta.com/
-https://www.cineinsta.com/about.html
-https://www.cineinsta.com/contact.html
-https://www.cineinsta.com/privacy-policy.html
-https://www.cineinsta.com/terms.html
-https://www.cineinsta.com/disclaimer.html
+Cineinsta/
+├── sitemap.xml       ← here
+├── robots.txt
+├── ads.txt
+├── index.html
+├── about.html
+├── contact.html
+├── privacy-policy.html
+├── terms.html
+└── disclaimer.html
