@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terms | Cineinsta</title>
+<meta name="description" content="Terms of use for the Cineinsta website.">
+<link rel="canonical" href="https://www.cineinsta.com/terms.html">
+<style>
+:root{--bg:#0f0f10;--card:#18191b;--text:#f4f4f4;--muted:#a9a9ad;--accent:#e3262e;--line:#2a2b2f}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+body{min-height:100vh}
+a{color:var(--accent)}
+.siteHeader{padding:24px 18px 18px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(15,15,16,.96);backdrop-filter:blur(8px);z-index:10}
+.logo{font-size:26px;font-weight:900;letter-spacing:.5px;color:#fff;text-decoration:none}
+.logo span{color:var(--accent)}
+.nav{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px;font-size:13px}
+.nav a{color:#ddd;text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:34px 18px 70px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:20px}
+h1{font-size:34px;line-height:1.2;margin:0 0 8px}
+h2{font-size:20px;margin:28px 0 8px}
+h3{font-size:16px;margin:22px 0 6px}
+p,li{font-size:15px;color:#e5e5e7}
+.muted{color:var(--muted);font-size:13px}
+ul{padding-left:22px}
+.siteFooter{border-top:1px solid var(--line);padding:24px 18px 40px;text-align:center;color:var(--muted);font-size:12px}
+.footerLinks{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:10px}
+.footerLinks a{color:#bbb;text-decoration:none}
+.footerLinks a:hover{color:#fff}
+.notice{border-left:3px solid var(--accent);padding:10px 14px;background:#201416;border-radius:6px}
+@media(max-width:600px){h1{font-size:28px}.card{padding:18px}.nav{gap:12px}}
+</style>
+</head>
+<body>
+<header class="siteHeader">
+<a class="logo" href="/">CINE<span>INSTA</span></a>
+<nav class="nav" aria-label="Site navigation">
+<a href="/">Home</a>
+<a href="/about.html">About Us</a>
+<a href="/contact.html">Contact Us</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms.html">Terms</a>
+<a href="/disclaimer.html">Disclaimer</a>
+</nav>
+</header>
+<main class="wrap">
+
+<section class="card">
+<h1>Terms of Use</h1>
+<p class="muted"><strong>Last updated:</strong> September 28, 2026</p>
+
+<h2>Using Cineinsta</h2>
+<p>By accessing Cineinsta, you agree to use the website lawfully and respectfully. Cineinsta provides entertainment information for general informational purposes.</p>
+
+<h2>Content</h2>
+<p>News summaries, articles, reviews, ratings, opinions, images, trailers and other material may come from Cineinsta, licensed or permitted sources, public information, or third-party platforms. Availability and accuracy can change without notice.</p>
+
+<h2>Editorial opinions</h2>
+<p>Where Cineinsta expresses a review, rating or editorial opinion, it represents the site's editorial view and should not be treated as a guarantee of a film's performance, commercial success or suitability for a particular viewer.</p>
+
+<h2>Third-party websites</h2>
+<p>Cineinsta may link to external websites and services. We do not control those websites and are not responsible for their content, availability, privacy practices or terms.</p>
+
+<h2>Intellectual property</h2>
+<p>Cineinsta respects the intellectual-property rights of creators, publishers, studios, platforms and other rights holders. If you believe material has been used improperly, please contact us so the matter can be reviewed.</p>
+
+<h2>Changes</h2>
+<p>We may change, suspend or discontinue parts of the website and may update these Terms from time to time. Continued use after an update constitutes use under the updated Terms.</p>
+
+<h2>Contact</h2>
+<p>Questions about these Terms can be sent to <a href="mailto:chsuryaraju@gmail.com">chsuryaraju@gmail.com</a>.</p>
+
+<div class="notice"><strong>Important:</strong> These Terms are general website terms and are not a substitute for legal advice.</div>
+</section>
+
+</main>
+<footer class="siteFooter">
+<div>Cineinsta · Indian Cinema News, Reviews, Cineinsta Buzz &amp; Trailers</div>
+<div class="footerLinks" aria-label="Information and legal links">
+<a href="/about.html">About Us</a>
+<a href="/contact.html">Contact Us</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms.html">Terms</a>
+<a href="/disclaimer.html">Disclaimer</a>
+</div>
+</footer>
+</body>
+</html>
