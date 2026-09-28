@@ -237,10 +237,10 @@ if(Number.isNaN(date.getTime()))return "";
 return date.toLocaleDateString("en-IN",{day:"numeric",month:"short"});
 }
 
-function cleanSummary(text){
+function cleanSummary(text,maxLength=220){
 text=String(text||"");
 text=text.replace(/Home\s+/gi,"").replace(/Movie News\s+/gi,"").replace(/Movie Reviews\s+/gi,"").replace(/Videos\s+/gi,"").replace(/Photos\s+/gi,"").replace(/Buzz\s+/gi,"").replace(/Gallery\s+/gi,"").replace(/Search for:\s*/gi,"").replace(/Skip to main content/gi,"").replace(/-->/g,"").replace(/--/g,"").trim();
-if(text.length>220)text=text.substring(0,220)+"...";
+if(text.length>maxLength)text=text.substring(0,maxLength)+"...";
 return text;
 }
 
@@ -477,7 +477,7 @@ function showArticlePage(entry){
 const articlePage=document.getElementById("articlePage");
 const item=entry.item;
 const title=item.title||item.t||"Cineinsta";
-const summary=cleanSummary(item.summary||item.d||"Latest Indian cinema update.");
+const summary=cleanSummary(item.summary||item.d||"Latest Indian cinema update.",650);
 const image=item.img||"";
 const source=item.source||"Cineinsta";
 const date=formatDate(item.publishedAt);
