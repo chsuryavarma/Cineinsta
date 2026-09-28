@@ -512,8 +512,12 @@ async function readNewsArticle(source, candidate) {
   if (!html) return null;
 
   const title = extractHeadline(html, candidate.text);
+  const image = extractImage(html);
 
   if (!title || isBadTitle(title)) return null;
+
+  // Cineinsta only publishes stories that have a usable lead image.
+  if (!image || !/^https?:\/\//i.test(image)) return null;
 
   return {
     id: candidate.url,
@@ -521,7 +525,7 @@ async function readNewsArticle(source, candidate) {
     summary: makeSummary(stripHTML(html), title),
     source: source.name,
     url: candidate.url,
-    img: extractImage(html),
+    img: image,
     publishedAt: extractDate(html),
     language: "Telugu",
     category: "Telugu Cinema"
@@ -531,19 +535,42 @@ async function readNewsArticle(source, candidate) {
 function normalizeTitle(title = "") {
   return title
     .toLowerCase()
+    .replace(/&amp;|&/g, " and ")
     .replace(/[^a-z0-9\u0C00-\u0C7F]+/g, " ")
+    .replace(/\b(latest|breaking|exclusive|update|updates|news|report|reports|official)\b/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
 
+function normalizeUrl(url = "") {
+  try {
+    const value = new URL(url);
+    value.search = "";
+    value.hash = "";
+    return value.href.replace(/\/$/, "").toLowerCase();
+  } catch {
+    return String(url).toLowerCase().split("?")[0].split("#")[0].replace(/\/$/, "");
+  }
+}
+
+function imageKey(url = "") {
+  try {
+    const value = new URL(url);
+    value.search = "";
+    value.hash = "";
+    return (value.hostname + value.pathname).toLowerCase();
+  } catch {
+    return String(url).toLowerCase().split("?")[0].split("#")[0];
+  }
+}
+
 function similarity(a, b) {
-  const aa = new Set(normalizeTitle(a).split(" ").filter(Boolean));
-  const bb = new Set(normalizeTitle(b).split(" ").filter(Boolean));
+  const aa = new Set(normalizeTitle(a).split(" ").filter(word => word.length > 2));
+  const bb = new Set(normalizeTitle(b).split(" ").filter(word => word.length > 2));
 
   if (!aa.size || !bb.size) return 0;
 
   let common = 0;
-
   for (const word of aa) {
     if (bb.has(word)) common++;
   }
@@ -553,14 +580,24 @@ function similarity(a, b) {
 
 function dedupeNews(items) {
   const output = [];
+  const seenUrls = new Set();
+  const seenImages = new Set();
 
   for (const item of items) {
-    const duplicate = output.some(existing => {
-      if (existing.url === item.url) return true;
-      return similarity(existing.title, item.title) >= 0.72;
-    });
+    if (!item || !item.url || !item.img) continue;
 
-    if (!duplicate) output.push(item);
+    const urlKey = normalizeUrl(item.url);
+    const imgKey = imageKey(item.img);
+
+    if (seenUrls.has(urlKey)) continue;
+    if (imgKey && seenImages.has(imgKey)) continue;
+
+    const duplicate = output.some(existing => similarity(existing.title, item.title) >= 0.68);
+    if (duplicate) continue;
+
+    output.push(item);
+    seenUrls.add(urlKey);
+    if (imgKey) seenImages.add(imgKey);
   }
 
   return output;
