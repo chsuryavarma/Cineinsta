@@ -253,7 +253,27 @@ function updateSEO(entry){
 const item=entry.item;
 const title=item.title||item.t||"Cineinsta";
 const summary=cleanSummary(item.summary||item.d||"Latest Indian cinema update.");
+const image=item.img||"";
+const articleUrl=window.location.origin+window.location.pathname;
+const publishedAt=item.publishedAt||"";
+
 document.title=title+" | Cineinsta";
+
+function setMeta(attribute,name,content){
+if(!content)return;
+let el=document.head.querySelector('meta['+attribute+'="'+name+'"]');
+if(!el){
+el=document.createElement("meta");
+el.setAttribute(attribute,name);
+document.head.appendChild(el);
+}
+el.setAttribute("content",content);
+}
+
+function removeMeta(attribute,name){
+const el=document.head.querySelector('meta['+attribute+'="'+name+'"]');
+if(el)el.remove();
+}
 
 let description=document.querySelector('meta[name="description"]');
 if(!description){
@@ -269,7 +289,37 @@ canonical=document.createElement("link");
 canonical.rel="canonical";
 document.head.appendChild(canonical);
 }
-canonical.href=window.location.origin+window.location.pathname;
+canonical.href=articleUrl;
+
+setMeta("property","og:type","article");
+setMeta("property","og:site_name","Cineinsta");
+setMeta("property","og:title",title);
+setMeta("property","og:description",summary);
+setMeta("property","og:url",articleUrl);
+
+if(image){
+setMeta("property","og:image",image);
+}else{
+removeMeta("property","og:image");
+}
+
+if(publishedAt){
+setMeta("property","article:published_time",publishedAt);
+setMeta("property","article:modified_time",publishedAt);
+}else{
+removeMeta("property","article:published_time");
+removeMeta("property","article:modified_time");
+}
+
+setMeta("name","twitter:card",image?"summary_large_image":"summary");
+setMeta("name","twitter:title",title);
+setMeta("name","twitter:description",summary);
+
+if(image){
+setMeta("name","twitter:image",image);
+}else{
+removeMeta("name","twitter:image");
+}
 
 const oldSchema=document.getElementById("cineinstaArticleSchema");
 if(oldSchema)oldSchema.remove();
@@ -282,12 +332,23 @@ schema.textContent=JSON.stringify({
 "@type":entry.type==="news"?"NewsArticle":"Article",
 headline:title,
 description:summary,
-image:item.img?[item.img]:[],
-datePublished:item.publishedAt||new Date().toISOString(),
-dateModified:item.publishedAt||new Date().toISOString(),
-author:{"@type":"Organization",name:"Cineinsta"},
-publisher:{"@type":"Organization",name:"Cineinsta"},
-mainEntityOfPage:{"@type":"WebPage","@id":window.location.href}
+image:image?[image]:[],
+datePublished:publishedAt||new Date().toISOString(),
+dateModified:publishedAt||new Date().toISOString(),
+author:{
+"@type":"Organization",
+"name":"Cineinsta",
+"url":"https://www.cineinsta.com/"
+},
+publisher:{
+"@type":"Organization",
+"name":"Cineinsta",
+"url":"https://www.cineinsta.com/"
+},
+mainEntityOfPage:{
+"@type":"WebPage",
+"@id":articleUrl
+}
 });
 document.head.appendChild(schema);
 }
