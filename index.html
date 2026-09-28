@@ -79,7 +79,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 .buzzEmpty{grid-column:1/-1}.ticketCard[data-hidden="true"]{display:none}
 
 @media(max-width:900px){.newsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.buzzGrid{grid-template-columns:repeat(3,minmax(0,1fr))}.buzzHeroGrid{grid-template-columns:1fr}}
-@media(max-width:650px){.ticketCards{grid-template-columns:1fr 1fr}.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.newsCard a{grid-template-columns:132px minmax(0,1fr);gap:12px;padding:12px}.newsImage{width:132px;height:88px}.newsTitle{font-size:15px;line-height:1.25}.newsSource{font-size:8px}.newsMeta{font-size:8px}.newsAdSlot{min-height:82px}.buzzGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerCard a{grid-template-columns:132px minmax(0,1fr);gap:12px;padding:12px}.trailerThumb{width:132px;height:88px}.trailerTitle{font-size:15px;line-height:1.25}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:70px}}
+@media(max-width:650px){.ticketCards{grid-template-columns:1fr}.headerInner{min-height:64px;padding:0 13px}.logo{width:150px;height:58px}.headerNav{display:none}main{padding:22px 13px 102px}.hero{min-height:430px}.heroContent{min-height:430px;padding:25px 22px;justify-content:flex-end}.heroOverlay{background:linear-gradient(0deg,rgba(20,18,17,.94) 0%,rgba(20,18,17,.52) 55%,rgba(20,18,17,.08) 100%)}.newsGrid{grid-template-columns:1fr}.newsCard a{grid-template-columns:132px minmax(0,1fr);gap:12px;padding:12px}.newsImage{width:132px;height:88px}.newsTitle{font-size:15px;line-height:1.25}.newsSource{font-size:8px}.newsMeta{font-size:8px}.newsAdSlot{min-height:82px}.buzzGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.trailerCard a{grid-template-columns:132px minmax(0,1fr);gap:12px;padding:12px}.trailerThumb{width:132px;height:88px}.trailerTitle{font-size:15px;line-height:1.25}.reviewWide{grid-template-columns:110px 1fr;gap:12px;padding:10px}.reviewTitle{font-size:15px}.articlePage{padding:22px 18px}.mobileNav{display:grid;height:74px}.mobileNav a{font-size:12.5px;gap:4px}.mobileNav a span{font-size:23px;line-height:23px}}
+.ticketCard{grid-template-columns:120px minmax(0,1fr);gap:13px}.ticketPoster{width:120px;height:170px}.ticketCardTop{flex-direction:column;gap:4px}.ticketLang{text-align:left}.ticketMovie{font-size:18px;overflow-wrap:anywhere}.ticketCardInfo{min-width:0}.ticketTrendMeta{margin-top:8px}
 @media(max-width:420px){.ticketCards{grid-template-columns:1fr}.buzzSideGrid{grid-template-columns:1fr}.logo{width:140px;height:56px}.buzzGrid{grid-template-columns:1fr}.reviewWide{grid-template-columns:1fr}.ticketCard{grid-template-columns:100px 1fr;min-height:154px}.ticketPoster{width:100px;height:142px}.ticketMovie{font-size:17px}.ticketCardTop{gap:6px}.ticketTrendMeta{margin-top:9px}.ticketRank{padding-top:10px}}
 
 .ticketTrendSub{margin:6px 0 18px;color:#6b5b5b;font-size:14px;font-weight:600}
@@ -370,7 +371,7 @@ feed.trailers=Array.isArray(feed.trailers)?feed.trailers:[];
 feed.buzz=Array.isArray(feed.buzz)?feed.buzz:[];
 feed.reviews=Array.isArray(feed.reviews)?feed.reviews:[];
 renderHero(feed.news);
-renderNews(feed.news,20);
+renderNews(feed.news,15);
 renderTrailers(feed.trailers);
 renderTicketTrends();
 renderReviews(feed.reviews);
@@ -480,16 +481,15 @@ grid.innerHTML='<div class="empty">No latest Telugu news with thumbnails availab
 if(button)button.style.display="none";
 return;
 }
-const initialCount=20;
+const initialCount=15;
 const displayLimit=Number.isInteger(limit)?limit:initialCount;
 const visible=validNews.slice(0,displayLimit);
 const showAds=displayLimit>=initialCount;
 let html="";
 
 visible.forEach(function(item,index){
-if(showAds && index===5) html+='<div class="newsAdSlot" aria-label="Advertisement"><span class="newsAdLabel">Advertisement</span></div>';
-if(showAds && index===10) html+='<div class="newsAdSlot" aria-label="Advertisement"><span class="newsAdLabel">Advertisement</span></div>';
-if(showAds && index===15) html+='<div class="newsAdSlot" aria-label="Advertisement"><span class="newsAdLabel">Advertisement</span></div>';
+if(showAds && index===5) html+='<div class="newsAdSlot" aria-label="Advertisement" data-ad-placement="news-1"></div>';
+if(showAds && index===10) html+='<div class="newsAdSlot" aria-label="Advertisement" data-ad-placement="news-2"></div>';
 
 html+=`
 <article class="newsCard"><a href="/news/${articleSlug(item)}">
@@ -592,7 +592,7 @@ function toggleNews(){
 const button=document.getElementById("newsMoreBtn");
 if(!button)return;
 newsExpanded=!newsExpanded;
-renderNews(feed.news,newsExpanded?40:20);
+renderNews(feed.news,newsExpanded?40:15);
 button.textContent=newsExpanded?"Show Less News":"Read More News";
 if(newsExpanded){document.getElementById("newsSection").scrollIntoView({behavior:"smooth",block:"start"});}
 }
@@ -659,7 +659,7 @@ buzzSection.style.display="";
 reviewsSection.style.display="";
 renderHero(feed.news);
 newsExpanded=false;
-renderNews(feed.news,20);
+renderNews(feed.news,15);
 renderTicketTrends();
 buzzTitle.textContent="Ticket Trends — Hyderabad";
 buzzLabel.textContent="";
