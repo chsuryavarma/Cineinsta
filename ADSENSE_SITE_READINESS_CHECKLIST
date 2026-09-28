@@ -1,0 +1,37 @@
+CINEINSTA — ADSENSE / SITE READINESS CHECKLIST
+Prepared: 28 September 2026
+
+FILES IN THIS PACKAGE
+- index.html — latest reviewed homepage with explicit footer labels
+- about.html
+- contact.html
+- privacy-policy.html
+- terms.html
+- disclaimer.html
+
+IMPORTANT BEFORE DEPLOYMENT
+1. Confirm contact@cineinsta.com is a real working mailbox/forwarder. Replace it in contact.html, privacy-policy.html, terms.html and disclaimer.html if a different address is used.
+2. Deploy all five new HTML pages alongside index.html. Do not deploy index.html alone.
+3. After deployment, open every footer link on desktop and mobile.
+4. Verify /about.html, /contact.html, /privacy-policy.html, /terms.html and /disclaimer.html return real pages (not 404s).
+5. Verify the homepage still loads the news feed, trailers, Buzz and reviews.
+6. Verify the existing AdSense code is unchanged.
+7. Check AdSense > Privacy & messaging and configure Google's consent message/CMP for EEA, UK and Switzerland traffic if required for the chosen ad setup.
+8. Keep the news workflow original and useful: deduplicate, rewrite in Cineinsta's own words, add context/value, attribute/link to sources, and avoid publishing copied articles.
+9. Keep navigation clear and working on mobile.
+10. Do a final live-site crawl after deployment: links, images, feeds, videos, canonical URLs, robots.txt and sitemap.xml.
+
+ADDITIONAL AD-SAFETY CHECKS
+- Ads must not look like navigation, download buttons, article cards or video controls.
+- Do not encourage users to click ads.
+- Do not use pop-ups/pop-unders that interfere with navigation.
+- Keep substantive editorial content ahead of/alongside ads; do not make pages primarily advertising.
+- Do not alter AdSense ad code after Google provides it.
+
+NOTE
+The legal pages are general website-policy drafts, not legal advice. Review them against the actual Cineinsta services, analytics, advertising configuration and applicable laws before publishing.
+
+11. Upload robots.txt and sitemap.xml to the site root and submit the sitemap in Google Search Console.
+12. Keep ads.txt at the site root after confirming the publisher ID is the correct Cineinsta AdSense account.
+13. In AdSense > Privacy & messaging, configure the required European regulations message/CMP if Cineinsta serves ads to users in the EEA, UK or Switzerland.
+14. Do not treat this package as a guarantee of AdSense approval. Google evaluates the live site and can change policy requirements.
