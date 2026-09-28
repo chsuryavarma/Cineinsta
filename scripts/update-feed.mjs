@@ -507,6 +507,47 @@ function makeSummary(text, title) {
   return summary;
 }
 
+const imageValidationCache = new Map();
+
+async function isUsableImage(url) {
+  if (!url || !/^https?:\/\//i.test(url)) return false;
+  if (imageValidationCache.has(url)) return imageValidationCache.get(url);
+
+  const promise = (async () => {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+
+    try {
+      const response = await fetch(url, {
+        method: "GET",
+        redirect: "follow",
+        headers: {
+          "User-Agent": USER_AGENT,
+          Accept: "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+          Range: "bytes=0-2047"
+        },
+        signal: controller.signal
+      });
+
+      const contentType = (response.headers.get("content-type") || "").toLowerCase();
+      const ok = response.ok && contentType.startsWith("image/");
+
+      if (response.body) {
+        try { await response.body.cancel(); } catch {}
+      }
+
+      return ok;
+    } catch {
+      return false;
+    } finally {
+      clearTimeout(timeout);
+    }
+  })();
+
+  imageValidationCache.set(url, promise);
+  return promise;
+}
+
 async function readNewsArticle(source, candidate) {
   const html = await fetchHTML(candidate.url);
   if (!html) return null;
@@ -517,7 +558,7 @@ async function readNewsArticle(source, candidate) {
   if (!title || isBadTitle(title)) return null;
 
   // Cineinsta only publishes stories that have a usable lead image.
-  if (!image || !/^https?:\/\//i.test(image)) return null;
+  if (!(await isUsableImage(image))) return null;
 
   return {
     id: candidate.url,
@@ -619,7 +660,7 @@ async function collectNews() {
 
     const candidates = extractLinks(html, source.url)
       .filter(link => isNewsLink(source, link))
-      .slice(0, 10);
+      .slice(0, 18);
 
     console.log(`${source.name}: ${candidates.length} candidates`);
 
@@ -645,7 +686,7 @@ async function collectNews() {
 
       return bd - ad;
     })
-    .slice(0, 30);
+    .slice(0, 40);
 }
 
 /* =========================================================
