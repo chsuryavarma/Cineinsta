@@ -532,7 +532,7 @@ async function main() {
     );
   }
 
-  // Keep enough clean stories for the homepage's 15-story initial view plus Read More.
+  // Keep enough clean stories for the homepage's 20-story initial view plus Read More.
   feed.news = dedupedOutput.slice(0, 30);
   feed.updatedAt = new Date().toISOString();
 
