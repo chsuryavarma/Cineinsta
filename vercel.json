@@ -5,10 +5,6 @@
       "destination": "/"
     },
     {
-      "source": "/interviews/:slug",
-      "destination": "/"
-    },
-    {
       "source": "/reviews/:slug",
       "destination": "/"
     },
@@ -21,14 +17,15 @@
       "destination": "/"
     },
     {
-      "source": "/interviews",
-      "destination": "/"
-    },
-    {
       "source": "/reviews",
       "destination": "/"
     },
     {
+      "source": "/trailers",
+      "destination": "/"
+    }
+  ]
+}
       "source": "/trailers",
       "destination": "/"
     }
