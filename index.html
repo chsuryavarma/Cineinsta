@@ -332,7 +332,7 @@ const title=item.title||item.t||"Cineinsta";
 const image=item.img||"";
 const date=formatDate(item.publishedAt);
 return `<a class="relatedCard" href="/${entry.type}/${articleSlug(item)}">
-${image?`<div class="relatedThumb"><img src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async"></div>`:""}
+${image?`<div class="relatedThumb"><img src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.relatedThumb').remove()"></div>`:""}
 <div class="relatedBody">
 <div class="relatedType">${relatedArticleTypeLabel(entry.type)}</div>
 <div class="relatedTitle">${escapeHTML(title)}</div>
