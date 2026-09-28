@@ -374,6 +374,74 @@ async function prepareStory(item, index) {
   };
 }
 
+function normalizeTitle(title = "") {
+  return String(title)
+    .toLowerCase()
+    .replace(/&amp;|&/g, " and ")
+    .replace(/[^a-z0-9\u0C00-\u0C7F]+/g, " ")
+    .replace(/\b(latest|breaking|exclusive|update|updates|news|report|reports|official)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function normalizeUrl(url = "") {
+  try {
+    const value = new URL(url);
+    value.search = "";
+    value.hash = "";
+    return value.href.replace(/\/$/, "").toLowerCase();
+  } catch {
+    return String(url).toLowerCase().split("?")[0].split("#")[0].replace(/\/$/, "");
+  }
+}
+
+function imageKey(url = "") {
+  try {
+    const value = new URL(url);
+    value.search = "";
+    value.hash = "";
+    return (value.hostname + value.pathname).toLowerCase();
+  } catch {
+    return String(url).toLowerCase().split("?")[0].split("#")[0];
+  }
+}
+
+function titleSimilarity(a, b) {
+  const aa = new Set(normalizeTitle(a).split(" ").filter(word => word.length > 2));
+  const bb = new Set(normalizeTitle(b).split(" ").filter(word => word.length > 2));
+  if (!aa.size || !bb.size) return 0;
+
+  let common = 0;
+  for (const word of aa) {
+    if (bb.has(word)) common++;
+  }
+  return common / Math.max(aa.size, bb.size);
+}
+
+function dedupeEditorialStories(items) {
+  const output = [];
+  const seenUrls = new Set();
+  const seenImages = new Set();
+
+  for (const item of items) {
+    if (!item || !item.url || !item.img) continue;
+
+    const urlKey = normalizeUrl(item.url);
+    const imgKey = imageKey(item.img);
+
+    if (seenUrls.has(urlKey)) continue;
+    if (imgKey && seenImages.has(imgKey)) continue;
+
+    if (output.some(existing => titleSimilarity(existing.title, item.title) >= 0.68)) continue;
+
+    output.push(item);
+    seenUrls.add(urlKey);
+    if (imgKey) seenImages.add(imgKey);
+  }
+
+  return output;
+}
+
 async function main() {
   if (!process.env.GEMINI_API_KEY) {
     throw new Error("GEMINI_API_KEY is missing. Feed publication is blocked.");
@@ -456,14 +524,16 @@ async function main() {
     }
   }
 
-  if (!output.length) {
+  const dedupedOutput = dedupeEditorialStories(output);
+
+  if (!dedupedOutput.length) {
     throw new Error(
       "No clean Cineinsta stories were produced. Existing feed was not replaced."
     );
   }
 
-  // Keep the homepage at the requested 24 news stories.
-  feed.news = output.slice(0, 24);
+  // Keep enough clean stories for the homepage's 15-story initial view plus Read More.
+  feed.news = dedupedOutput.slice(0, 30);
   feed.updatedAt = new Date().toISOString();
 
   await fs.writeFile(feedPath, JSON.stringify(feed, null, 2), "utf8");
@@ -472,7 +542,8 @@ async function main() {
   console.log("======================================");
   console.log("CINEINSTA EDITORIAL CHECK COMPLETE");
   console.log("======================================");
-  console.log(`Accepted: ${output.length}`);
+  console.log(`Accepted before final dedupe: ${output.length}`);
+  console.log(`Published after final dedupe: ${feed.news.length}`);
   console.log(`Rejected: ${rejected}`);
   console.log(`Published news: ${feed.news.length}`);
 }
