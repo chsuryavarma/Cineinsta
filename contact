@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact Us | Cineinsta</title>
+<meta name="description" content="Contact Cineinsta for editorial feedback, corrections, copyright concerns and partnerships.">
+<link rel="canonical" href="https://www.cineinsta.com/contact.html">
+<style>
+:root{--bg:#0f0f10;--card:#18191b;--text:#f4f4f4;--muted:#a9a9ad;--accent:#e3262e;--line:#2a2b2f}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+body{min-height:100vh}
+a{color:var(--accent)}
+.siteHeader{padding:24px 18px 18px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(15,15,16,.96);backdrop-filter:blur(8px);z-index:10}
+.logo{font-size:26px;font-weight:900;letter-spacing:.5px;color:#fff;text-decoration:none}
+.logo span{color:var(--accent)}
+.nav{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px;font-size:13px}
+.nav a{color:#ddd;text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:34px 18px 70px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:20px}
+h1{font-size:34px;line-height:1.2;margin:0 0 8px}
+h2{font-size:20px;margin:28px 0 8px}
+h3{font-size:16px;margin:22px 0 6px}
+p,li{font-size:15px;color:#e5e5e7}
+.muted{color:var(--muted);font-size:13px}
+ul{padding-left:22px}
+.siteFooter{border-top:1px solid var(--line);padding:24px 18px 40px;text-align:center;color:var(--muted);font-size:12px}
+.footerLinks{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:10px}
+.footerLinks a{color:#bbb;text-decoration:none}
+.footerLinks a:hover{color:#fff}
+.notice{border-left:3px solid var(--accent);padding:10px 14px;background:#201416;border-radius:6px}
+@media(max-width:600px){h1{font-size:28px}.card{padding:18px}.nav{gap:12px}}
+</style>
+</head>
+<body>
+<header class="siteHeader">
+<a class="logo" href="/">CINE<span>INSTA</span></a>
+<nav class="nav" aria-label="Site navigation">
+<a href="/">Home</a>
+<a href="/about.html">About Us</a>
+<a href="/contact.html">Contact Us</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms.html">Terms</a>
+<a href="/disclaimer.html">Disclaimer</a>
+</nav>
+</header>
+<main class="wrap">
+
+<section class="card">
+<h1>Contact Cineinsta</h1>
+<p class="muted">For editorial feedback, corrections, copyright concerns or business enquiries.</p>
+
+<h2>Editorial &amp; corrections</h2>
+<p>If you notice an incorrect fact, outdated information, broken source link or attribution issue, please contact Cineinsta with the page URL and the relevant details.</p>
+
+<h2>Copyright &amp; image concerns</h2>
+<p>If you believe material on Cineinsta infringes your rights, please provide the relevant URL, identify the material and explain your concern so it can be reviewed.</p>
+
+<h2>Contact email</h2>
+<p><a href="mailto:chsuryaraju@gmail.com">chsuryaraju@gmail.com</a></p>
+<div class="notice"><strong>Before publishing:</strong> make sure <strong>chsuryaraju@gmail.com</strong> is an active mailbox or forwarding address. If you use a different Cineinsta email, replace it on this page before deployment.</div>
+
+<h2>Response time</h2>
+<p>We aim to review genuine editorial, correction and rights-related requests as soon as reasonably possible. Sending repeated requests will not speed up a review.</p>
+</section>
+
+</main>
+<footer class="siteFooter">
+<div>Cineinsta · Indian Cinema News, Reviews, Cineinsta Buzz &amp; Trailers</div>
+<div class="footerLinks" aria-label="Information and legal links">
+<a href="/about.html">About Us</a>
+<a href="/contact.html">Contact Us</a>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms.html">Terms</a>
+<a href="/disclaimer.html">Disclaimer</a>
+</div>
+</footer>
+</body>
+</html>
