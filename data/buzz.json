@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T17:38:10.310Z",
+  "updatedAt": "2026-09-29T18:10:32.089Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -50,51 +50,9 @@
   ],
   "movies": [
     {
-      "id": "jr-ntr-and-trivikram-set-for-mythological-epic-in-2027",
-      "title": "Jr NTR and Trivikram Set for Mythological Epic in 2027",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/God-Of-War.webp",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "trivikram-confirms-script-lock-for-ntr-s-mythological-venture",
-      "title": "Trivikram Confirms Script Lock for NTR's Mythological Venture",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/trivikram.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "satyadev-s-ecological-action-thriller-samavarthi-teaser-crosses-milestone",
-      "title": "Satyadev's Ecological Action Thriller Samavarthi Teaser Crosses Milestone",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/one-crore-views-for-satyadev-samavarthi-teaser-1790680984989-1790680984667.jpg",
+      "id": "ntr-joins-rajamouli-s-family-at-pre-release-gathering",
+      "title": "NTR Joins Rajamouli's Family at Pre-Release Gathering",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Rajamoulis-Family-Emotional-Reunion-with-NTR.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -115,9 +73,9 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "strong-audience-response-elevates-hype-for-satyadev-s-samavarthi",
-      "title": "Strong Audience Response Elevates Hype for Satyadev's Samavarthi",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/samavarthi-teaser.jpg",
+      "id": "naga-chaitanya-locks-musical-romance-for-milestone-25th-film",
+      "title": "Naga Chaitanya Locks Musical Romance for Milestone 25th Film",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2025/12/naga-Chaitanya.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -127,6 +85,199 @@
         "shows": 0
       },
       "why": "1 recent Cineinsta news signal",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "trivikram-clarifies-title-status-for-upcoming-ntr-project",
+      "title": "Trivikram Clarifies Title Status for Upcoming NTR Project",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/ntr-trivikra-godofwar-sep2926.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "nani-and-srikanth-odela-address-the-paradise-dialogue-debate",
+      "title": "Nani and Srikanth Odela Address The Paradise Dialogue Debate",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/all-about-the-paradise-controversial-dialogue-1790691051393-1790691050476.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "trivikram-discusses-mythological-project-with-ntr",
+      "title": "Trivikram Discusses Mythological Project With NTR",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/mind-blowing-update-on-ntr-god-of-war-1790689908334-1790689907457.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "melodic-title-track-of-emo-emo-idi-unveiled",
+      "title": "Melodic Title Track of Emo Emo Idi Unveiled",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/emoemoidititlesong-sep2926.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [
+        "Aha"
+      ],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal · OTT mentioned: Aha",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "tollywood-faces-financial-pressure-amid-shifting-ott-strategies",
+      "title": "Tollywood Faces Financial Pressure Amid Shifting OTT Strategies",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/12/OTT-2.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "jr-ntr-and-trivikram-s-mythological-movie-script-is-locked",
+      "title": "Jr NTR and Trivikram's Mythological Movie Script is Locked",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/God-Of-War.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "trivikram-shares-major-update-on-upcoming-ntr-project",
+      "title": "Trivikram Shares Major Update on Upcoming NTR Project",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/trivikram.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "satyadev-s-ecological-action-thriller-samavarthi-teaser-crosses-one-crore-views",
+      "title": "Satyadev's Ecological Action Thriller Samavarthi Teaser Crosses One Crore Views",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/one-crore-views-for-satyadev-samavarthi-teaser-1790680984989-1790680984667.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "samavarthi-teaser-amplifies-hype-for-satyadev-s-new-forest-drama",
+      "title": "Samavarthi Teaser Amplifies Hype for Satyadev's New Forest Drama",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/samavarthi-teaser.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [
+        "Aha"
+      ],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal · OTT mentioned: Aha",
       "sourceSignals": {
         "news": 1,
         "reviews": 0,
@@ -157,8 +308,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "fresh-ott-streaming-lineup-offers-diverse-entertainment-choices",
-      "title": "Fresh OTT Streaming Lineup Offers Diverse Entertainment Choices",
+      "id": "diverse-lineup-of-telugu-ott-releases-scheduled-for-the-week",
+      "title": "Diverse Lineup of Telugu OTT Releases Scheduled for the Week",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/OTT-4.webp",
       "language": "Telugu",
       "buzzScore": 22,
@@ -178,29 +329,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "makers-of-thella-kaagitham-take-legal-action-following-online-leak",
-      "title": "Makers of Thella Kaagitham Take Legal Action Following Online Leak",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/thella-kaagitham-leaked-ahead-of-its-release-1790671907943-1790671908792.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "teja-sajja-set-to-host-the-telugu-adaptation-of-the-traitors",
-      "title": "Teja Sajja Set to Host the Telugu Adaptation of The Traitors",
+      "id": "teja-sajja-to-anchor-prime-video-s-upcoming-reality-series-the-traitors-telugu",
+      "title": "Teja Sajja to Anchor Prime Video's Upcoming Reality Series The Traitors Telugu",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/IMG-20260928-WA0147.jpg",
       "language": "Telugu",
       "buzzScore": 22,
@@ -222,54 +352,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "roshan-meka-and-preity-mukhundhan-s-romantic-track-out",
-      "title": "Roshan Meka and Preity Mukhundhan's Romantic Track Out",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/emo-emo-idi-love-anthem-released-1790665400590-1790665401740.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [
-        "Aha"
-      ],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal · OTT mentioned: Aha",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "breezy-vibe-of-emo-emo-idi-title-track-unveiled",
-      "title": "Breezy Vibe of Emo Emo Idi Title Track Unveiled",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/emo-emo-idi-1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [
-        "Aha"
-      ],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal · OTT mentioned: Aha",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "yogi-babu-and-satya-team-up-for-golden-bhagyam-glimpse",
-      "title": "Yogi Babu and Satya Team Up for Golden Bhagyam Glimpse",
+      "id": "comical-title-glimpse-unveiled-for-golden-bhagyam-starring-yogi-babu-and-satya",
+      "title": "Comical Title Glimpse Unveiled for Golden Bhagyam Starring Yogi Babu and Satya",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Golden-Bhagyam.jpg",
       "language": "Telugu",
       "buzzScore": 22,
@@ -289,8 +373,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "roshan-and-preity-mukhundan-s-romantic-comedy-kicks-off-music-promotions",
-      "title": "Roshan and Preity Mukhundan's romantic comedy kicks off music promotions",
+      "id": "roshan-meka-and-preity-mukhundan-romantic-track-out",
+      "title": "Roshan Meka and Preity Mukhundan Romantic Track Out",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Emo-Emo-Idi.webp",
       "language": "Telugu",
       "buzzScore": 22,
@@ -312,8 +396,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "actress-faria-abdullah-sets-her-sights-on-directing",
-      "title": "Actress Faria Abdullah sets her sights on directing",
+      "id": "faria-abdullah-has-ambitions-to-direct",
+      "title": "Faria Abdullah Has Ambitions to Direct",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/fariaabdullah-sep2626.jpg",
       "language": "Telugu",
       "buzzScore": 22,
@@ -333,8 +417,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "nagarjuna-moves-on-to-alternative-plans-as-multi-starrer-project-gets-dropped",
-      "title": "Nagarjuna moves on to alternative plans as multi-starrer project gets dropped",
+      "id": "inside-the-story-behind-nagarjuna-s-shelved-project",
+      "title": "Inside the Story Behind Nagarjuna's Shelved Project",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/07/Akkineni-nagarjuna-chaitanya-and-akhil.jpg",
       "language": "Telugu",
       "buzzScore": 22,
@@ -354,8 +438,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "mahesh-babu-evaluates-future-projects-as-his-shooting-schedule-concludes",
-      "title": "Mahesh Babu evaluates future projects as his shooting schedule concludes",
+      "id": "mahesh-babu-wraps-up-varanasi-filming-and-weighs-future-options",
+      "title": "Mahesh Babu Wraps Up Varanasi Filming and Weighs Future Options",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/mahesh-babu-in-varanasi-loo.jpg",
       "language": "Telugu",
       "buzzScore": 22,
@@ -375,29 +459,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "nani-starrer-the-paradise-crosses-rs-165-crore-globally-following-solid-monday-hold",
-      "title": "Nani Starrer The Paradise Crosses Rs 165 Crore Globally Following Solid Monday Hold",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/the-paradise-5.webp",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "prabhas-s-lineup-sparks-debate-over-whether-spirit-will-arrive-before-fauzi",
-      "title": "Prabhas's Lineup Sparks Debate Over Whether Spirit Will Arrive Before Fauzi",
+      "id": "prabhas-lineup-sparks-curiosity-over-fauzi-and-spirit-release-timelines",
+      "title": "Prabhas Lineup Sparks Curiosity Over Fauzi and Spirit Release Timelines",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/fauzi-vs-spirit-which-one-will-release-first-1790656151180-1790656152588.jpg",
       "language": "Telugu",
       "buzzScore": 22,
@@ -417,31 +480,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "sumanth-prabhas-romcom-romanchakam-gears-up-for-its-netflix-streaming-debut",
-      "title": "Sumanth Prabhas Romcom Romanchakam Gears Up For Its Netflix Streaming Debut",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/romanchakam-ott-release-on-netflix-1790654338053-1790654338554.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [
-        "Netflix"
-      ],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal · OTT mentioned: Netflix",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "strong-weekday-ticket-sales-propel-nani-s-action-drama-the-paradise",
-      "title": "Strong Weekday Ticket Sales Propel Nani's Action Drama The Paradise",
+      "id": "the-paradise-maintains-solid-momentum-into-the-weekdays",
+      "title": "The Paradise Maintains Solid Momentum Into the Weekdays",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/09/The-Paradise-6.jpg",
       "language": "Telugu",
       "buzzScore": 22,
@@ -461,8 +501,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "meenakshi-chaudhary-eyed-for-nani-s-upcoming-action-film-bloody-romeo",
-      "title": "Meenakshi Chaudhary Eyed for Nani's Upcoming Action Film Bloody Romeo",
+      "id": "casting-buzz-surrounds-nani-and-sujeeth-s-bloody-romeo",
+      "title": "Casting Buzz Surrounds Nani and Sujeeth's Bloody Romeo",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Nani-6.webp",
       "language": "Telugu",
       "buzzScore": 22,
@@ -482,8 +522,8 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "nag-ashwin-clarifies-casting-updates-ahead-of-kalki-2-production",
-      "title": "Nag Ashwin Clarifies Casting Updates Ahead of Kalki 2 Production",
+      "id": "nag-ashwin-s-kalki-2-sparks-speculation-over-dulquer-salmaan-s-return",
+      "title": "Nag Ashwin's Kalki 2 Sparks Speculation Over Dulquer Salmaan's Return",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-kalki-2-sparks-buzz-over-dulquer-salmaan-return-1790651720195-1790651720561.jpg",
       "language": "Telugu",
       "buzzScore": 22,
@@ -503,51 +543,9 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     },
     {
-      "id": "nani-to-sport-a-stylish-makeover-in-sujeeth-s-bloody-romeo",
-      "title": "Nani to Sport a Stylish Makeover in Sujeeth's Bloody Romeo",
-      "img": "https://www.telugu360.com/wp-content/uploads/2024/12/Meenakshi-Chaudhary.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "nani-s-the-paradise-experiences-weekday-slowdown-on-ticket-platforms",
-      "title": "Nani's The Paradise Experiences Weekday Slowdown on Ticket Platforms",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-the-vvan.webp",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "1 recent Cineinsta news signal",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "ram-charan-extends-deep-gratitude-to-coimbatore-medical-team-after-wrist-surgery",
-      "title": "Ram Charan Extends Deep Gratitude to Coimbatore Medical Team After Wrist Surgery",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ram-charan-appreciation-for-ganga-hosptal-and-it-s-doctors-1790647394118-1790647394671.jpg",
+      "id": "hyderabad-cinema-hall-fined-for-excessive-screening-of-advertisements",
+      "title": "Hyderabad Cinema Hall Fined for Excessive Screening of Advertisements",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/07/Theatre-market-boost-.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
