@@ -1,5 +1,3 @@
-REPLACE THE ENTIRE data/ticket-trend-sources.json FILE
-
 {
   "city": "Hyderabad",
   "active": [
