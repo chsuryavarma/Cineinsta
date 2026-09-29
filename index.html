@@ -71,7 +71,7 @@ main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 
 .articleRelatedHead{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:14px}.articleRelatedHead h2{margin:0;font-size:22px;letter-spacing:-.4px}.articleRelatedHead span{color:#888;font-size:10px;text-transform:uppercase;letter-spacing:1px}
 .articleRelatedGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.relatedCard{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:inherit;transition:transform .18s ease,box-shadow .18s ease}.relatedCard:hover{transform:translateY(-2px);box-shadow:0 9px 22px rgba(30,25,20,.08)}.relatedCardInner{display:grid;grid-template-columns:120px minmax(0,1fr);min-height:112px}.relatedImage{width:120px;height:112px;object-fit:cover;background:#eee}.relatedImageFallback{width:120px;height:112px;display:flex;align-items:center;justify-content:center;padding:10px;background:#f0ece6;color:#777;font-size:10px;font-weight:850;text-align:center}.relatedContent{padding:12px;display:flex;flex-direction:column;justify-content:center;min-width:0}.relatedSource{font-size:8px;font-weight:900;text-transform:uppercase;letter-spacing:.7px;color:var(--accent);margin-bottom:5px}.relatedTitle{font-size:13px;line-height:1.25;font-weight:900;color:#222}.relatedMeta{font-size:9px;color:#999;margin-top:7px}.articleJumpNav{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}.articleJumpNav a{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;color:#333;background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 14px;font-size:10px;font-weight:900;box-shadow:0 3px 10px rgba(30,25,20,.04)}.articleJumpNav a:hover{border-color:var(--accent);color:var(--accent)}
 
-.cineBuzzGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.cineBuzzCard{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.05);transition:transform .18s ease,box-shadow .18s ease}.cineBuzzCard:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(30,25,20,.1)}.cineBuzzImage{width:100%;height:210px;object-fit:cover;background:#eee}.cineBuzzFallback{height:210px;display:flex;align-items:flex-end;padding:16px;background:linear-gradient(145deg,#171717,#c9282d);color:#fff;font-size:20px;font-weight:950;line-height:1.05}.cineBuzzBody{padding:13px}.cineBuzzKicker{font-size:8px;color:var(--accent);font-weight:950;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}.cineBuzzTitle{font-size:15px;line-height:1.2;font-weight:900;margin-bottom:8px}.cineBuzzMeta{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#888;font-size:9px}.cineBuzzRating{font-weight:950;color:#222;font-size:12px}.cineBuzzEmpty{grid-column:1/-1}
+.cineBuzzGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.cineBuzzCard{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.05);transition:transform .18s ease,box-shadow .18s ease}.cineBuzzCard:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(30,25,20,.1)}.cineBuzzImage{width:100%;height:210px;object-fit:cover;background:#eee}.cineBuzzFallback{height:210px;display:flex;align-items:flex-end;padding:16px;background:linear-gradient(145deg,#171717,#c9282d);color:#fff;font-size:20px;font-weight:950;line-height:1.05}.cineBuzzBody{padding:13px}.cineBuzzKicker{font-size:8px;color:var(--accent);font-weight:950;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}.cineBuzzTitle{font-size:15px;line-height:1.2;font-weight:900;margin-bottom:8px}.cineBuzzReason{font-size:10px;line-height:1.35;color:#666;margin:-2px 0 9px}.cineBuzzMeta{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#888;font-size:9px}.cineBuzzRating{font-weight:950;color:#222;font-size:12px}.cineBuzzEmpty{grid-column:1/-1}
 footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center;color:#999;font-size:10px}.mobileNav{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1000;height:62px;background:rgba(255,253,249,.97);border-top:1px solid var(--line);grid-template-columns:repeat(5,1fr)}.mobileNav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#777;font-size:11px;font-weight:850}.mobileNav a span{font-size:20px;line-height:20px;font-weight:900}.mobileNav a:hover{color:var(--accent)}
 
 /* Enhanced Cineinsta BUZZ / Ticket Trends */
@@ -162,8 +162,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <section class="section buzzSectionWrap" id="buzzSection">
 <div class="sectionHead" style="display:block">
 <h2 class="buzzMainTitle">Cineinsta Buzz</h2>
-<p class="ticketTrendSub">Movies getting attention through Cineinsta's latest review signals.</p>
-<p class="buzzSubline">A quick snapshot of titles with notable review signals in the current Cineinsta feed.</p>
+<p class="ticketTrendSub">Movies getting attention right now.</p>
+<p class="buzzSubline">A quick snapshot of titles drawing attention through Cineinsta's latest review signals.</p>
 </div>
 <div class="cineBuzzGrid" id="cineBuzzGrid"><div class="empty">Loading Cineinsta Buzz...</div></div>
 </section>
@@ -402,7 +402,7 @@ title:title,
 image:image,
 source:item.source||"Buzz",
 rating:rating?String(rating)+"/5":"",
-label:"Cineinsta Buzz",
+label:"🔥 Getting attention",
 link:link
 };
 });
@@ -430,7 +430,7 @@ title:title,
 image:item.img||"",
 source:"Review signal",
 rating:rating?String(rating)+"/5":"",
-label:"Review highlight",
+label:"🔥 Getting attention",
 link:`/reviews/${articleSlug(item)}`
 };
 });
@@ -447,6 +447,7 @@ ${card.image?`<img class="cineBuzzImage" src="${escapeHTML(card.image)}" alt="${
 <div class="cineBuzzBody">
 <div class="cineBuzzKicker">${escapeHTML(card.label)}</div>
 <div class="cineBuzzTitle">${escapeHTML(card.title)}</div>
+<div class="cineBuzzReason">${card.rating?"Strong current review signal on Cineinsta":"Currently drawing attention on Cineinsta"}</div>
 <div class="cineBuzzMeta">
 <span>${escapeHTML(card.source)}</span>
 ${card.rating?`<strong class="cineBuzzRating">★ ${escapeHTML(card.rating)}</strong>`:""}
