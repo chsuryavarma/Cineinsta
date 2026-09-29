@@ -50,12 +50,12 @@ jobs:
           git config user.name "Cineinsta Feed Bot"
           git config user.email "cineinsta-bot@users.noreply.github.com"
 
-git add data/feed.json data/feed-candidates.json data/feed-source.json data/buzz.json
+          git add data/feed.json data/feed-candidates.json data/feed-source.json data/buzz.json
 
-if [ -f data/ticket-trends.json ]; then
-  git add data/ticket-trends.json
-fi
+          if [ -f data/ticket-trends.json ]; then
+            git add data/ticket-trends.json
+          fi
 
-git diff --cached --quiet || git commit -m "Auto-update Cineinsta feed and Buzz"
+          git diff --cached --quiet || git commit -m "Auto-update Cineinsta feed and Buzz"
 
-git push
+          git push
