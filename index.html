@@ -178,8 +178,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <section class="section buzzSectionWrap" id="buzzSection">
 <div class="sectionHead" style="display:block">
 <h2 class="buzzMainTitle">Cineinsta Buzz</h2>
-<p class="ticketTrendSub">Movies getting attention right now.</p>
-<p class="buzzSubline">A quick snapshot of titles drawing attention through Cineinsta's latest review signals.</p>
+<p class="ticketTrendSub">A Cineinsta snapshot of movies getting attention right now.</p>
+<p class="buzzSubline">A quick snapshot based on Cineinsta signals such as recent reviews, news activity and available theatre activity. It is a Cineinsta editorial signal, not an official OTT or ticket-sales ranking.</p>
 </div>
 <div class="cineBuzzGrid" id="cineBuzzGrid"><div class="empty">Loading Cineinsta Buzz...</div></div>
 </section>
@@ -406,8 +406,7 @@ const originalUrl=item.originalUrl||item.url||item.u||"#";
 const relatedHtml=entry.type==="news"?renderRelatedNews(item):"";
 const editorialHtml=entry.type==="news"?renderEditorialArticle(item):`<div class="articleSummary">${escapeHTML(cleanSummary(item.summary||item.d||"Latest Indian cinema update."))}</div>`;
 const sourceNames=item.source||"Cineinsta";
-const sourceExtra=Array.isArray(item.sources)&&item.sources.length?`<div class="articleSourceList"><strong>Information sources</strong><ul>${item.sources.map(function(s){return `<li>${escapeHTML(String(s))}</li>`}).join("")}</ul></div>`:"";
-articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="/#reviews">Jump to Reviews</a><a href="/#buzz">Cineinsta Buzz</a><a href="/#trailers">Jump to Trailers</a></nav></div>`;
+articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" onerror="this.remove()">`:"")}${editorialHtml}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="/#reviews">Jump to Reviews</a><a href="/#buzz">Cineinsta Buzz</a><a href="/#trailers">Jump to Trailers</a></nav></div>`;
 updateSEO(entry);
 }
 
@@ -432,7 +431,7 @@ title:title,
 image:image,
 source:item.source||"Buzz",
 rating:rating?String(rating)+"/5":"",
-label:"🔥 Getting attention",
+label:"Cineinsta Buzz",
 link:link
 };
 });
@@ -460,7 +459,7 @@ title:title,
 image:item.img||"",
 source:"Review signal",
 rating:rating?String(rating)+"/5":"",
-label:"🔥 Getting attention",
+label:"Cineinsta Buzz",
 link:`/reviews/${articleSlug(item)}`
 };
 });
@@ -477,7 +476,7 @@ ${card.image?`<img class="cineBuzzImage" src="${escapeHTML(card.image)}" alt="${
 <div class="cineBuzzBody">
 <div class="cineBuzzKicker">${escapeHTML(card.label)}</div>
 <div class="cineBuzzTitle">${escapeHTML(card.title)}</div>
-<div class="cineBuzzReason">${card.rating?"Strong current review signal on Cineinsta":"Currently drawing attention on Cineinsta"}</div>
+<div class="cineBuzzReason">${card.rating?"Strong current Cineinsta review signal":"Currently drawing attention through Cineinsta signals"}</div>
 <div class="cineBuzzMeta">
 <span>${escapeHTML(card.source)}</span>
 ${card.rating?`<strong class="cineBuzzRating">★ ${escapeHTML(card.rating)}</strong>`:""}
