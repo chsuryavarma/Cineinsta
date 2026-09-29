@@ -8,5 +8,3 @@
     {"source": "/trailers", "destination": "/"}
   ]
 }
-
-Do not leave any old lines after the final }.
