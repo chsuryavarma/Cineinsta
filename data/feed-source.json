@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-09-29T05:46:52.548Z",
+  "updatedAt": "2026-09-29T06:07:55.428Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.gulte.com/movienews/434185/fact-check-is-jackie-chan-really-dead",
+      "title": "Fact Check: Is Jackie Chan Really Dead?",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/434185/fact-check-is-jackie-chan-really-dead",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/Jackie-chan.jpg",
+      "publishedAt": "2026-09-29T06:01:02.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://telugucinema.com/news/faria-abdullah-reveals-her-next-ambitious-plan",
+      "title": "Popular actress Faria Abdullah reveals her next ambitious plan",
+      "summary": "--> --> Popular actress Faria Abdullah reveals her next ambitious plan - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News Movie...",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/faria-abdullah-reveals-her-next-ambitious-plan",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/fariaabdullah-sep2626.jpg",
+      "publishedAt": "2026-09-29T05:45:38.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.telugu360.com/akkineni-brothers-shelved-nags-film/",
       "title": "Akkineni Brothers shelved Nag's Film?",
@@ -388,17 +410,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.gulte.com/movienews/434064/chiranjeevi-to-host-celebrity-talk-show-on-global-stage",
-      "title": "Chiranjeevi To Host Celebrity Talk Show On Global Stage?",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/434064/chiranjeevi-to-host-celebrity-talk-show-on-global-stage",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/07/chiranjeevi-upcoming-movies.jpg",
-      "publishedAt": "2026-09-28T10:14:27.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.telugu360.com/income-tax-raids-on-rakul-preet-and-vashu-bhagnani/",
       "title": "Income Tax Raids on Rakul Preet and Vashu Bhagnani",
       "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Editor's...",
@@ -430,17 +441,6 @@
       "publishedAt": "2026-09-28T08:30:31.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/karthis-sardar-2-ott-release-date-revealed-hk.html",
-      "title": "Karthi's Sardar 2 OTT Release Date Revealed",
-      "summary": "Karthi’s Sardar 2 OTT Release Date Revealed Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/karthis-sardar-2-ott-release-date-revealed-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Sardar-2-Review-1.webp",
-      "publishedAt": "2026-09-28T08:07:05.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -470,10 +470,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=3JK6OLf1HkA",
+      "url": "https://www.youtube.com/watch?v=ZlsSWfF6kME",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/3JK6OLf1HkA/hqdefault.jpg",
-      "youtubeId": "3JK6OLf1HkA",
+      "img": "https://i.ytimg.com/vi/ZlsSWfF6kME/hqdefault.jpg",
+      "youtubeId": "ZlsSWfF6kME",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -481,10 +481,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=z6sWcoljyyw",
+      "url": "https://www.youtube.com/watch?v=i6_NVyIH7Qs",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/z6sWcoljyyw/hqdefault.jpg",
-      "youtubeId": "z6sWcoljyyw",
+      "img": "https://i.ytimg.com/vi/i6_NVyIH7Qs/hqdefault.jpg",
+      "youtubeId": "i6_NVyIH7Qs",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
       "title": "Baththa - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=cPeKoE8N5oU",
+      "url": "https://www.youtube.com/watch?v=HcXIrMZIr3A",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://i.ytimg.com/vi/cPeKoE8N5oU/hqdefault.jpg",
-      "youtubeId": "cPeKoE8N5oU",
+      "img": "https://i.ytimg.com/vi/HcXIrMZIr3A/hqdefault.jpg",
+      "youtubeId": "HcXIrMZIr3A",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -525,10 +525,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
       "title": "Nayyi Navelli - Official Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=bSjtaTvpLC4",
+      "url": "https://www.youtube.com/watch?v=ICuzU6j0MwM",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
-      "img": "https://i.ytimg.com/vi/bSjtaTvpLC4/hqdefault.jpg",
-      "youtubeId": "bSjtaTvpLC4",
+      "img": "https://i.ytimg.com/vi/ICuzU6j0MwM/hqdefault.jpg",
+      "youtubeId": "ICuzU6j0MwM",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "language": "Telugu"
     },
