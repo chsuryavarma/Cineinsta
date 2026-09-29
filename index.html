@@ -8,22 +8,17 @@
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4425907690117354"
   crossorigin="anonymous"></script>
 <title>Cineinsta — Telugu Cinema</title>
-<!-- CINEINSTA HOMEPAGE SEO / SOCIAL META
-Add this block inside <head>, immediately after the existing meta description.
-Do not remove or replace the existing Cineinsta meta description.
--->
-
 <link rel="canonical" href="https://www.cineinsta.com/">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Cineinsta">
 <meta property="og:title" content="Cineinsta — Telugu Cinema">
-<meta property="og:description" content="Latest Telugu cinema news, movie reviews, trailers, celebrity interviews and Cineinsta Buzz.">
+<meta property="og:description" content="Latest Telugu cinema news, movie reviews, trailers and Cineinsta Buzz.">
 <meta property="og:url" content="https://www.cineinsta.com/">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cineinsta — Telugu Cinema">
-<meta name="twitter:description" content="Latest Telugu cinema news, movie reviews, trailers, celebrity interviews and Cineinsta Buzz.">
+<meta name="twitter:description" content="Latest Telugu cinema news, movie reviews, trailers and Cineinsta Buzz.">
 
 <script type="application/ld+json">
 {
@@ -31,7 +26,7 @@ Do not remove or replace the existing Cineinsta meta description.
   "@type": "WebSite",
   "name": "Cineinsta",
   "url": "https://www.cineinsta.com/",
-  "description": "Latest Telugu cinema news, movie reviews, trailers, celebrity interviews and Cineinsta Buzz.",
+  "description": "Latest Telugu cinema news, movie reviews, trailers and Cineinsta Buzz.",
   "publisher": {
     "@type": "Organization",
     "name": "Cineinsta",
@@ -143,7 +138,7 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </section>
 
 <section class="section" id="newsSection">
-<div class="sectionHead"><h2>Latest Film News</h2><span>15 stories · updated feed</span></div>
+<div class="sectionHead"><h2>Latest Film News</h2><span>20 stories · updated feed</span></div>
 <div class="newsGrid" id="newsGrid"><div class="empty">Loading latest Telugu cinema news...</div></div>
 <button type="button" id="newsMoreBtn" class="moreBtn">Read More News</button>
 </section>
@@ -172,8 +167,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 </div>
 
 <div class="ticketUpdated">
-<span>Updated today</span>
-<span class="ticketDate">Today</span>
+<span>Updated</span>
+<span class="ticketDate">—</span>
 </div>
 
 <div class="ticketCards" id="ticketTrendGrid"><div class="empty">Loading Ticket Trends...</div></div>
@@ -454,7 +449,7 @@ const response=await fetch("/data/feed.json?v="+Date.now());
 if(!response.ok)throw new Error("Feed unavailable");
 feed=await response.json();
 renderTicketTrends();
-feed.buzz=Array.isArray(feed.buzz)?feed.buzz:(Array.isArray(feed.interviews)?feed.interviews:[]);
+feed.buzz=Array.isArray(feed.buzz)?feed.buzz:[];
 feed.news=Array.isArray(feed.news)?feed.news:[];
 feed.trailers=Array.isArray(feed.trailers)?feed.trailers:[];
 feed.buzz=Array.isArray(feed.buzz)?feed.buzz:[];
