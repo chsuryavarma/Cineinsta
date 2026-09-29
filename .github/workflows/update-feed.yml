@@ -24,30 +24,23 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: |
-          npm init -y
-          npm install rss-parser openai
-
-      - name: Update cinema feed
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Collect cinema feed
         run: |
           node scripts/update-feed.mjs
 
-      - name: Create Cineinsta editorial content
+      - name: Create Cineinsta editorial candidates
         env:
           GEMINI_API_KEY: ${{ secrets.CINEINSTA_GOOGLE }}
         run: |
           node scripts/editorial-rewrite.mjs
 
-      - name: Commit updated feed
+      - name: Commit candidate feed
         run: |
           git config user.name "Cineinsta Feed Bot"
           git config user.email "cineinsta-bot@users.noreply.github.com"
 
-          git add data/feed.json
+          git add data/feed-candidates.json
 
-          git diff --cached --quiet ||             git commit -m "Update Cineinsta cinema feed"
+          git diff --cached --quiet || git commit -m "Update Cineinsta editorial candidates"
 
           git push
