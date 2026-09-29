@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-09-29T04:50:48.810Z",
+  "updatedAt": "2026-09-29T05:25:20.708Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://telugucinema.com/news/as-varanasi-shoot-comes-to-an-end-whats-next-for-mahesh-babu",
+      "title": "As Varanasi shoot comes to an end, what’s next for Mahesh Babu?",
+      "summary": "--> --> As Varanasi shoot comes to an end, what’s next for Mahesh Babu?",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/as-varanasi-shoot-comes-to-an-end-whats-next-for-mahesh-babu",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/mahesh-babu-in-varanasi-loo.jpg",
+      "publishedAt": "2026-09-29T05:17:29.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/the-paradise-monday-box-office-nanis-film-adds-around-rs-10-crore-hk.html",
       "title": "The Paradise Monday Box Office: Nani’s Film Adds Around Rs. 10 Crore",
@@ -186,17 +197,6 @@
       "url": "https://www.123telugu.com/mnews/jailer-2-trailer-of-rajinikanths-sequel-to-be-out-on-this-date-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jailer-2-Postponed1.webp",
       "publishedAt": "2026-09-28T17:10:10.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/shiva-is-god-of-the-poor-ram-of-the-rich-revanths-controversial-swipe-at-bjp/",
-      "title": "‘Shiva Is God of the Poor, Ram of the Rich’: Revanth’s Controversial Swipe at BJP",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Politics...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/shiva-is-god-of-the-poor-ram-of-the-rich-revanths-controversial-swipe-at-bjp/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Revanth-Reddy.jpg",
-      "publishedAt": "2026-09-28T16:45:42.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -481,10 +481,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=i6_NVyIH7Qs",
+      "url": "https://www.youtube.com/watch?v=XS3a2ETpeaE",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/i6_NVyIH7Qs/hqdefault.jpg",
-      "youtubeId": "i6_NVyIH7Qs",
+      "img": "https://i.ytimg.com/vi/XS3a2ETpeaE/hqdefault.jpg",
+      "youtubeId": "XS3a2ETpeaE",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -525,10 +525,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
       "title": "Nayyi Navelli - Official Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=bSjtaTvpLC4",
+      "url": "https://www.youtube.com/watch?v=438AIogtj1E",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
-      "img": "https://i.ytimg.com/vi/bSjtaTvpLC4/hqdefault.jpg",
-      "youtubeId": "bSjtaTvpLC4",
+      "img": "https://i.ytimg.com/vi/438AIogtj1E/hqdefault.jpg",
+      "youtubeId": "438AIogtj1E",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "language": "Telugu"
     },
