@@ -24,19 +24,23 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate editorial candidates
+      - name: Generate and validate feed candidates
         env:
           GEMINI_API_KEY: ${{ secrets.CINEINSTA_GOOGLE }}
         run: |
           node scripts/generate-feed-candidates.mjs
 
-      - name: Commit candidate feed
+      - name: Publish automatically approved feed
+        run: |
+          node scripts/publish-feed.mjs
+
+      - name: Commit updated feed
         run: |
           git config user.name "Cineinsta Feed Bot"
           git config user.email "cineinsta-bot@users.noreply.github.com"
 
-          git add data/feed-candidates.json data/feed-source.json
+          git add data/feed.json data/feed-candidates.json data/feed-source.json
 
-          git diff --cached --quiet || git commit -m "Update Cineinsta editorial candidates"
+          git diff --cached --quiet || git commit -m "Auto-publish Cineinsta feed"
 
           git push
