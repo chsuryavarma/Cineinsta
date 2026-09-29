@@ -162,8 +162,8 @@ footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center
 <section class="section buzzSectionWrap" id="buzzSection">
 <div class="sectionHead" style="display:block">
 <h2 class="buzzMainTitle">Cineinsta Buzz</h2>
-<p class="ticketTrendSub">A quick look at movies getting attention through Cineinsta's current review signals.</p>
-<p class="buzzSubline">Review highlights are based on the review data currently available in the Cineinsta feed.</p>
+<p class="ticketTrendSub">Movies getting attention through Cineinsta's latest review signals.</p>
+<p class="buzzSubline">A quick snapshot of titles with notable review signals in the current Cineinsta feed.</p>
 </div>
 <div class="cineBuzzGrid" id="cineBuzzGrid"><div class="empty">Loading Cineinsta Buzz...</div></div>
 </section>
@@ -385,18 +385,75 @@ updateSEO(entry);
 function renderCineinstaBuzz(){
 const grid=document.getElementById("cineBuzzGrid");
 if(!grid)return;
+
 let items=Array.isArray(feed.buzz)?feed.buzz.filter(Boolean):[];
 let cards=[];
+
+/* Use dedicated Buzz items when the feed provides them. */
 if(items.length){
 items=items.filter(function(item){return item&&(item.title||item.t)&&item.img;}).slice(0,6);
-cards=items.map(function(item){const title=item.title||item.t||"Cineinsta Buzz";const image=item.img||"";const link=`/buzz/${articleSlug(item)}`;return {title:title,image:image,source:item.source||"Cineinsta Buzz",rating:item.rating||item.aggregator?.average||"",link:link};});
+cards=items.map(function(item){
+const title=item.title||item.t||"Cineinsta Buzz";
+const image=item.img||"";
+const link=`/buzz/${articleSlug(item)}`;
+const rating=item.rating||item.aggregator?.average||"";
+return {
+title:title,
+image:image,
+source:item.source||"Buzz",
+rating:rating?String(rating)+"/5":"",
+label:"Cineinsta Buzz",
+link:link
+};
+});
 }
+
+/* Until dedicated Buzz data is populated, use the strongest current
+   review signals as the transparent fallback. */
 if(!cards.length){
-const reviews=(Array.isArray(feed.reviews)?feed.reviews:[]).filter(function(item){return item&&(item.t||item.title)&&item.img;}).slice().sort(function(a,b){const ar=Number(a.aggregator&&a.aggregator.average)||parseFloat(a.rating)||0;const br=Number(b.aggregator&&b.aggregator.average)||parseFloat(b.rating)||0;if(br!==ar)return br-ar;return (Date.parse(b.releaseDate||b.publishedAt||"")||0)-(Date.parse(a.releaseDate||a.publishedAt||"")||0);}).slice(0,6);
-cards=reviews.map(function(item){const title=item.t||item.title||"Movie review";const rating=item.aggregator&&item.aggregator.average!=null?item.aggregator.average:item.rating||"";return {title:title,image:item.img||"",source:"Review signal",rating:rating?String(rating)+"/5":"",link:`/reviews/${articleSlug(item)}`};});
+const reviews=(Array.isArray(feed.reviews)?feed.reviews:[])
+.filter(function(item){return item&&(item.t||item.title)&&item.img;})
+.slice()
+.sort(function(a,b){
+const ar=Number(a.aggregator&&a.aggregator.average)||parseFloat(a.rating)||0;
+const br=Number(b.aggregator&&b.aggregator.average)||parseFloat(b.rating)||0;
+if(br!==ar)return br-ar;
+return (Date.parse(b.releaseDate||b.publishedAt||"")||0)-(Date.parse(a.releaseDate||a.publishedAt||"")||0);
+})
+.slice(0,6);
+
+cards=reviews.map(function(item){
+const title=item.t||item.title||"Movie review";
+const rating=item.aggregator&&item.aggregator.average!=null?item.aggregator.average:item.rating||"";
+return {
+title:title,
+image:item.img||"",
+source:"Review signal",
+rating:rating?String(rating)+"/5":"",
+label:"Review highlight",
+link:`/reviews/${articleSlug(item)}`
+};
+});
 }
-if(!cards.length){grid.innerHTML='<div class="empty cineBuzzEmpty">Cineinsta Buzz will appear as review data becomes available.</div>';return;}
-grid.innerHTML=cards.map(function(card){return `<a class="cineBuzzCard" href="${card.link}">${card.image?`<img class="cineBuzzImage" src="${escapeHTML(card.image)}" alt="${escapeHTML(card.title)}" loading="lazy">`:`<div class="cineBuzzFallback">${escapeHTML(card.title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${escapeHTML(card.source)}</div><div class="cineBuzzTitle">${escapeHTML(card.title)}</div><div class="cineBuzzMeta"><span>View details →</span>${card.rating?`<strong class="cineBuzzRating">★ ${escapeHTML(card.rating)}</strong>`:""}</div></div></a>`;}).join("");
+
+if(!cards.length){
+grid.innerHTML='<div class="empty cineBuzzEmpty">Cineinsta Buzz will appear as review data becomes available.</div>';
+return;
+}
+
+grid.innerHTML=cards.map(function(card){
+return `<a class="cineBuzzCard" href="${card.link}">
+${card.image?`<img class="cineBuzzImage" src="${escapeHTML(card.image)}" alt="${escapeHTML(card.title)}" loading="lazy">`:`<div class="cineBuzzFallback">${escapeHTML(card.title)}</div>`}
+<div class="cineBuzzBody">
+<div class="cineBuzzKicker">${escapeHTML(card.label)}</div>
+<div class="cineBuzzTitle">${escapeHTML(card.title)}</div>
+<div class="cineBuzzMeta">
+<span>${escapeHTML(card.source)}</span>
+${card.rating?`<strong class="cineBuzzRating">★ ${escapeHTML(card.rating)}</strong>`:""}
+</div>
+</div>
+</a>`;
+}).join("");
 }
 
 async function loadFeed(){
