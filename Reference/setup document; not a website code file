@@ -1,0 +1,96 @@
+CINEINSTA BUZZ — REVISED IMPLEMENTATION PLAN
+
+IMPORTANT:
+Do not add the earlier TMDB-based Buzz files.
+
+WHY:
+TMDB states that its API is free for non-commercial use with attribution, but commercial projects require a commercial license. Cineinsta is being developed with monetization/AdSense in mind, so TMDB should not be treated as a free production data source without confirming a commercial license.
+
+CURRENT SAFE V1
+
+A. THEATRES NOW
+Use the existing International Showtimes API pipeline:
+scripts/update-ticket-trends.mjs
+
+It already measures:
+- current Hyderabad cinema coverage
+- number of cinemas
+- number of public showtimes
+
+It does NOT claim:
+- tickets sold
+- official popularity
+- highest rating
+
+B. CINEINSTA BUZZ SCORE
+Calculate a Cineinsta-owned signal from:
+- recent Cineinsta news activity
+- Cineinsta review activity
+- current authorized theatre/showtime activity
+
+This produces:
+HIGH BUZZ
+RISING
+STEADY
+COOLING
+
+These are Cineinsta editorial labels, not official platform rankings.
+
+C. OTT TABS
+Keep the UI tabs ready for:
+Netflix
+Prime Video
+Aha
+JioHotstar
+ZEE5
+Sun NXT
+ETV Win
+SonyLIV
+
+But do not claim live availability until Cineinsta has an authorized commercial OTT data source.
+
+For now:
+- if a Cineinsta story explicitly mentions a platform, the title can appear under that platform's "OTT mention" signal
+- otherwise do not show it as available there
+
+D. WHAT WE SHOULD NOT DO
+Do not:
+- scrape Netflix
+- scrape Prime Video
+- scrape Aha
+- scrape ZEE5
+- scrape Sun NXT
+- scrape ETV Win
+- scrape SonyLIV
+- use TMDB watch-provider data without the appropriate license
+- use JustWatch consumer-site scraping
+- claim "most watched" or "#1" without a licensed/authorized source
+
+E. NEXT DATA SOURCE
+If we want true OTT availability, we should identify an authorized commercial provider that explicitly covers India and Telugu titles, then connect that provider behind a server-side GitHub Action.
+
+F. IMPORTANT IMAGE RULE
+Every Buzz record must have a validated image before it reaches production.
+No placeholder/random posters.
+No card with a broken image.
+If the image fails validation, drop the record.
+
+G. END-TO-END TEST BEFORE DEPLOYMENT
+Test:
+1. Feed generation
+2. Candidate validation
+3. Image validation
+4. Theatre trend update
+5. Buzz generation
+6. feed.json publication
+7. buzz.json publication
+8. Homepage Buzz rendering
+9. Theatres Now tab
+10. OTT empty-state behavior
+11. /buzz/:slug article route
+12. Related editorial cards
+13. Mobile layout
+14. No broken images
+15. No existing News/Reviews/Trailers functionality removed
+
+TMDB can be reconsidered later only after commercial licensing is clarified.
