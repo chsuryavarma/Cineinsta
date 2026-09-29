@@ -1,0 +1,41 @@
+name: Publish Approved Cineinsta Feed
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-approved-feed:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Cineinsta
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check approved stories
+        run: |
+          node -e "const fs=require('fs'); const f=JSON.parse(fs.readFileSync('data/feed-candidates.json','utf8')); const n=(f.news||[]).filter(x=>x.reviewStatus==='approved').length; console.log('Approved stories:',n); if(n<20) process.exit(1);"
+
+      - name: Publish approved feed
+        run: |
+          node scripts/publish-feed.mjs
+
+      - name: Commit live feed
+        run: |
+          git config user.name "Cineinsta Feed Bot"
+          git config user.email "cineinsta-bot@users.noreply.github.com"
+
+          git add data/feed.json
+
+          git diff --cached --quiet || git commit -m "Publish approved Cineinsta feed"
+
+          git push
