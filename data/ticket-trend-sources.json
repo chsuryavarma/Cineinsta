@@ -1,3 +1,5 @@
+REPLACE THE ENTIRE data/ticket-trend-sources.json FILE
+
 {
   "city": "Hyderabad",
   "active": [
@@ -24,3 +26,5 @@
       "purpose": "Additional cinema/showtime signal when permitted"
     }
   ],
+  "note": "Ticket Trends measures cinema/showtime activity. It does not estimate tickets sold and does not claim a movie has the highest rating."
+}
