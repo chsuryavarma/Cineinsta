@@ -1,353 +1,356 @@
 {
-  "updatedAt": "2026-09-29T00:09:13.928Z",
+  "updatedAt": "2026-09-29T04:51:19.491Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.123telugu.com/mnews/the-paradise-monday-box-office-nanis-film-adds-around-rs-10-crore-hk.html",
+      "title": "Nani's The Paradise Crosses Rs 165 Crore Globally After Resilient Monday",
+      "summary": "Nani starrer The Paradise has successfully crossed the Rs 155 crore mark worldwide following its opening weekend. Despite a mixed reception, the Srikanth Odela directorial added nearly Rs 10 crore on its first Monday to push global collections to approximately Rs 165 crore. The film now faces a critical weekday test to see how well its momentum holds over the coming days.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/the-paradise-monday-box-office-nanis-film-adds-around-rs-10-crore-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/the-paradise-5.webp",
+      "publishedAt": "2026-09-29T04:32:13.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/130264/fauzi-vs-spirit-which-one-will-release-first.html",
+      "title": "Prabhas Lineup Sparks Debate Over Fauzi and Spirit Release Order",
+      "summary": "Prabhas fans are actively discussing whether his upcoming film Spirit will hit screens ahead of Fauzi. While Fauzi was initially slated for a December 2026 release, makers stepped back from the date to focus thoroughly on post-production without compromising quality. Meanwhile, Sandeep Vanga's directorial Spirit remains on track for its scheduled March 2027 arrival.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/130264/fauzi-vs-spirit-which-one-will-release-first.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/fauzi-vs-spirit-which-one-will-release-first-1790656151180-1790656152588.jpg",
+      "publishedAt": "2026-09-29T04:29:16.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130263/romanchakam-ott-release-on-netflix.html",
+      "title": "Sumanth Prabhas Starrer Romanchakam Gears Up For Netflix Premiere",
+      "summary": "The youthful romantic comedy Romanchakam is heading to Netflix on October 1, 2026, following its theatrical release earlier in September. Starring Sumanth Prabhas and Ananthika Sanilkumar, the film will stream in multiple languages including Telugu, Tamil, Kannada, Malayalam, and Hindi. Backed by solid digital deals, the low-budget venture successfully yielded profits for its makers after completing its theatrical run.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130263/romanchakam-ott-release-on-netflix.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/romanchakam-ott-release-on-netflix-1790654338053-1790654338554.jpg",
+      "publishedAt": "2026-09-29T03:59:06.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/nanis-the-paradise-stays-strong-on-monday/",
+      "title": "The Paradise Maintains Solid Footfalls Across Regions On Working Day",
+      "summary": "Nani and Srikanth Odela's mass action entertainer continues to pull audiences to theaters well past its opening weekend. The film registered over 1.13 lakh ticket sales on BookMyShow and District for Monday, showing steady demand. Strong theatrical occupancies across Hyderabad, the Nizam region, and Andhra Pradesh highlighted the project's lasting pull on working days.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/nanis-the-paradise-stays-strong-on-monday/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/The-Paradise-6.jpg",
+      "publishedAt": "2026-09-29T03:37:05.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/meenakshi-chaudhary-in-bloody-romeo-nani-fans-have-other-thoughts-hk.html",
+      "title": "Meenakshi Chaudhary Eyed for Nani and Sujeeth's Bloody Romeo",
+      "summary": "Actor Nani is taking a brief break following his recent release before stepping onto the sets of his next venture, Bloody Romeo, directed by Sujeeth. Industry speculation indicates that Meenakshi Chaudhary is currently being considered for the female lead role in this action drama. While the makers have yet to officially confirm her casting, the project is backed by Niharika Entertainment with music composed by Pravin Lakkaraju.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/meenakshi-chaudhary-in-bloody-romeo-nani-fans-have-other-thoughts-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Nani-6.webp",
+      "publishedAt": "2026-09-29T03:30:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/130261/prabhas-kalki-2-sparks-buzz-over-dulquer-salmaan-return.html",
+      "title": "Nag Ashwin Prepares for Kalki 2 Production With Prabhas",
+      "summary": "The massive success of the sci-fi mythological epic Kalki 2898 AD has fueled immense anticipation for its upcoming sequel directed by Nag Ashwin. Amid ongoing speculation regarding Dulquer Salmaan potentially reprising his role as Captain in flashback sequences, the director has noted that no new cast additions are planned. Regular filming for the sequel is scheduled to commence in October, with lead stars Prabhas, Amitabh Bachchan, and Kamal Haasan returning.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/130261/prabhas-kalki-2-sparks-buzz-over-dulquer-salmaan-return.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-kalki-2-sparks-buzz-over-dulquer-salmaan-return-1790651720195-1790651720561.jpg",
+      "publishedAt": "2026-09-29T03:15:25.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/buzz-meenakshi-chaudhary-to-romance-nani/",
+      "title": "Meenakshi Chaudhary in Talks to Star Alongside Nani in Bloody Romeo",
+      "summary": "Natural Star Nani is gearing up for his upcoming stylish action entertainer titled Bloody Romeo, directed by Sujeeth. Meenakshi Chaudhary is reportedly in discussions to play the leading lady, with significant portions of the movie slated for filming in London. The high-budget project also features Malayalam actor Prithviraj Sukumaran in a crucial role and is being planned for a summer release.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/buzz-meenakshi-chaudhary-to-romance-nani/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2024/12/Meenakshi-Chaudhary.jpg",
+      "publishedAt": "2026-09-29T03:06:52.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/monday-surprise-tamannaahs-film-sells-more-tickets-than-nanis-the-paradise-hk.html",
+      "title": "Box Office Update: Nani's The Paradise Crosses Significant Milestone",
+      "summary": "Nani's high-grossing film The Paradise has successfully surpassed the Rs. 155 crore worldwide gross mark despite experiencing a natural weekday dip in ticket sales following a powerful opening weekend. The multilingual drama continues to draw audiences while completing its theatrical run alongside other concurrent box office releases. Fans and trade analysts are closely monitoring its extended box office performance across regions.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/monday-surprise-tamannaahs-film-sells-more-tickets-than-nanis-the-paradise-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-the-vvan.webp",
+      "publishedAt": "2026-09-29T02:30:47.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130260/ram-charan-appreciation-for-ganga-hosptal-and-it-s-doctors.html",
+      "title": "Ram Charan Extends Deep Appreciation to Ganga Hospital Medical Team After Wrist Surgery",
+      "summary": "Global Star Ram Charan has shared his heartfelt thanks with the doctors, nurses, and staff at Ganga Hospital following his successful wrist treatment and the removal of his cast. The actor underwent surgery after sustaining an injury while filming Peddi and is now gearing up for a rigorous phase of physiotherapy. During his visit, he also congratulated the medical institution for earning a prestigious international research award.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130260/ram-charan-appreciation-for-ganga-hosptal-and-it-s-doctors.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ram-charan-appreciation-for-ganga-hosptal-and-it-s-doctors-1790647394118-1790647394671.jpg",
+      "publishedAt": "2026-09-29T02:03:18.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
+      "title": "Rajinikanth's Highly Anticipated Action Sequel Jailer 2 Locks Trailer Release Date",
+      "summary": "Superstar Rajinikanth's upcoming action drama Jailer 2 is preparing for a grand promotional blitz ahead of its theatrical debut for the Dussehra festival. The makers have officially locked the theatrical trailer launch for October 5, with a musical album release planned prior. Directed by Nelson Dilipkumar, the star-studded sequel features an ensemble cast and high-profile cameos from across Indian cinema.",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
+      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/09/jailer-2-trailer-release.jpg",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "language": "Telugu",
+      "category": "Kollywood",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
       "id": "https://www.123telugu.com/mnews/how-sita-ramam-became-the-main-reason-for-rashmika-doing-mysaa-prp.html",
-      "title": "How Sita Ramam Inspired Rashmika's Casting in Mysaa",
-      "summary": "Director Rawindra Pulle revealed that his working relationship with Rashmika on the sets of Sita Ramam inspired him to cast her in the upcoming period action drama Mysaa. The actress reportedly underwent rigorous martial arts training in Italy and Thailand for intense action sequences in the film, which is scheduled for release on November 27, 2026.",
+      "title": "How Working on Sita Ramam Led Rashmika Mandanna to Star in Mysaa",
+      "summary": "Director Rawindra Pulle has revealed that Rashmika Mandanna's involvement in the upcoming period action drama Mysaa began during their time together on Sita Ramam. Impressed by an intense expression of anger in the actor's eyes while directing a sequence, the filmmaker knew he had found his lead protagonist. Rashmika later committed to the Gond tribe-based project, undergoing specialized physical training in Italy and Thailand for demanding action sequences.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/how-sita-ramam-became-the-main-reason-for-rashmika-doing-mysaa-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/04/Mysaa-1.webp",
       "publishedAt": "2026-09-28T20:30:31.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/whats-next-for-the-paradise-director-srikanth-odela-avd.html",
-      "title": "Uncertainty Surrounds Director Srikanth Odela's Next Project",
-      "summary": "Filmmaker Srikanth Odela faces an intriguing career juncture following mixed audience responses to The Paradise, with Nani confirming that a rumored collaboration with Chiranjeevi is not happening immediately. Industry watchers are closely monitoring which leading star will step up to back the director's distinct vision for his next cinematic venture.",
+      "title": "What Lies Ahead for Director Srikanth Odela?",
+      "summary": "Director Srikanth Odela faces an uncertain path following mixed audience reactions to The Paradise, with Nani clarifying that an anticipated collaboration with Chiranjeevi is not happening immediately. Observers are closely watching to see which star will next trust his vision and how he plans to bounce back. The upcoming phase leaves him weighing his writing options and deciding his next major cinematic step.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/whats-next-for-the-paradise-director-srikanth-odela-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Srikanth.webp",
       "publishedAt": "2026-09-28T17:58:59.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/jailer-2-trailer-of-rajinikanths-sequel-to-be-out-on-this-date-prp.html",
-      "title": "Rajinikanth's Jailer 2 Gears Up for a Major Trailer Launch",
-      "summary": "The makers of Rajinikanth's upcoming action sequel Jailer 2 have announced that the theatrical trailer will drop on October 5, ahead of the film's theatrical release on October 15. Directed by Nelson Dilipkumar, the high-profile project features an extensive ensemble cast alongside special cameo appearances and music by Anirudh.",
+      "title": "Jailer 2 Gears Up for October Release with Trailer on the Horizon",
+      "summary": "The Rajinikanth-starrer Jailer 2 is preparing to hit theaters on October 15 for the Dusshera season under Nelson Dilipkumar's direction. Makers have planned a series of promotional events, including the album launch and an official theatrical trailer release on October 5. The high-profile sequel features a massive ensemble cast alongside several notable guest cameos and music by Anirudh.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/jailer-2-trailer-of-rajinikanths-sequel-to-be-out-on-this-date-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jailer-2-Postponed1.webp",
       "publishedAt": "2026-09-28T17:10:10.000Z",
       "language": "Telugu",
       "category": "Kollywood",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/dorothy-appreciation-and-controversy-not-helping-at-the-box-office-prp.html",
-      "title": "Keerthy Suresh Starrer Dorothy Struggles at the Box Office Despite Buzz",
-      "summary": "Despite generating significant online attention, critical appreciation, and controversy following its festival run, Karthik Subbaraj's independent period drama Dorothy managed a modest opening weekend gross in Tamil Nadu. Trade analysts are now closely watching whether the upcoming Telugu version can help boost the film's commercial performance.",
+      "title": "Karthik Subbaraj's Dorothy Struggles at the Box Office Despite Buzz",
+      "summary": "Keerthy Suresh's period drama Dorothy, directed by Karthik Subbaraj, has drawn substantial attention from festival screenings and social media controversies alike. However, this online visibility has not converted into strong ticket sales, netting only Rs. 3.5 crores gross during its opening weekend in Tamil Nadu. The project now looks to see if its upcoming Telugu version can improve its commercial performance.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/dorothy-appreciation-and-controversy-not-helping-at-the-box-office-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
       "publishedAt": "2026-09-28T16:42:54.000Z",
       "language": "Telugu",
       "category": "Kollywood",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.cinejosh.com/news/1/130255/jitin-gulati-on-prabhas-akshaye-khanna.html",
-      "title": "Jitin Gulati Opens Up About Working with Prabhas and Akshaye Khanna",
-      "summary": "Actor Jitin Gulati, who stars in the upcoming projects Fauzi and Mahakali, shared his diverse experiences working alongside top stars. He praised Prabhas for his highly collaborative nature on set while detailing the intense preparation and patience required for his role alongside Akshaye Khanna.",
+      "title": "Jitin Gulati Opens Up on Working in Prabhas' Fauzi and Akshaye Khanna's Mahakali",
+      "summary": "Actor Jitin Gulati recently shared his filming experiences for upcoming high-profile projects, highlighting the extensive patience required for makeup prep on Mahakali. He praised Akshaye Khanna's incredible intensity and praised Hanu Raghavapudi's ability to maintain emotional depth amidst the massive scale of Prabhas' Fauzi. Furthermore, he described Prabhas as an ultimate collaborative team player who brings joy to the set.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130255/jitin-gulati-on-prabhas-akshaye-khanna.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/jitin-gulati-on-prabhas-akshaye-khanna-1790611457117-1790611456793.jpg",
       "publishedAt": "2026-09-28T16:04:26.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/rajamouli-entrusts-karthikeya-with-varanasis-massive-promotional-campaign-avd.html",
-      "title": "SS Karthikeya to Spearhead Global Promotional Campaign for Varanasi",
-      "summary": "Producer SS Karthikeya is gearing up to manage the massive promotional campaign for Varanasi, the highly awaited film starring Mahesh Babu and directed by SS Rajamouli. Following the release of his current project, he will shift his entire focus toward executing a worldwide marketing strategy on an unprecedented scale.",
+      "title": "SS Karthikeya Takes Charge of Global Promotional Campaign for SS Rajamouli and Mahesh Babu's Varanasi",
+      "summary": "Producer SS Karthikeya has revealed that he will shift his complete focus to the highly anticipated Mahesh Babu starrer Varanasi, directed by SS Rajamouli, following the release of Don't Trouble The Trouble. Karthikeya shared that extensive global marketing plans are already in place for an unprecedented promotional scale in Indian cinema, with several exciting ideas currently in development.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/rajamouli-entrusts-karthikeya-with-varanasis-massive-promotional-campaign-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/01/Varanasi-1.webp",
       "publishedAt": "2026-09-28T16:03:41.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.cinejosh.com/news/1/130254/thaman-and-ramajogayya-sastry-funny-exchange-in-ak47-song-launch.html",
-      "title": "Thaman and Ramajogayya Sastry Share Lighthearted Banter at Song Launch",
-      "summary": "Music director Thaman and lyricist Ramajogayya Sastry entertained audiences with a playful exchange during the song launch event for Aadarsha Kutumbam. Thaman jokingly questioned the lyricist's use of the formal honorific 'garu', highlighting their friendly camaraderie and long-standing working relationship.",
+      "title": "Thaman and Ramajogayya Sastry Share Lighthearted Banter at Aadarsha Kutumbam Song Launch",
+      "summary": "Music composer Thaman and lyricist Ramajogayya Sastry shared a humorous exchange during the launch of the song Narayanamma from the Venkatesh Daggubati starrer Aadarsha Kutumbam. Thaman playfully teased the lyricist over his use of the respectful honorific \"garu,\" generating laughter and highlighting their friendly working rapport.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130254/thaman-and-ramajogayya-sastry-funny-exchange-in-ak47-song-launch.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/thaman-and-ramajogayya-sastry-funny-exchange-in-ak47-song-launch-1790609798590-1790609798077.jpg",
       "publishedAt": "2026-09-28T15:36:42.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://telugucinema.com/news/raja-kumari-makes-music-director-debut-with-impure",
-      "title": "Raja Kumari Debuts as Music Director in the English-Language Film Impure",
-      "summary": "Renowned musician Raja Kumari is making her debut as a music director alongside Karan Pandav for the film Impure, which features an entirely desi cast and crew. She has also contributed vocals and rap to a special track for the movie, which is scheduled for a theatrical release on October 2.",
+      "title": "Raja Kumari Debuts as Music Director and Contributes Vocals for English-Language Film Impure",
+      "summary": "Renowned musician Raja Kumari is making her debut as a music director alongside Karan Pandav for the English-language film Impure, which features a desi cast and crew. She has also lent her vocals and rap to the Sangeet track OMG, with the film slated for a theatrical release on October 2.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/raja-kumari-makes-music-director-debut-with-impure",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/impure-sep2826.jpg",
       "publishedAt": "2026-09-28T14:04:08.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130249/ranabaali-documentary-explores-forgotten-history.html",
-      "title": "Ranabaali Unveils Historical Famine Documentary Ahead of Release",
-      "summary": "The makers of the upcoming period action drama Ranabaali have rolled out a four-part documentary series titled Ranabaali: Never Forget The Truth. The first instalment highlights the Great Madras Famine of 1876–78 to provide historical context for the Rayalaseema setting of the film. Directed by Rahul Sankrityan, the movie features Vijay Deverakonda and Rashmika Mandanna in the lead roles and is slated for a global theatrical release on October 16, 2026.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130249/ranabaali-documentary-explores-forgotten-history.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ranabaali-documentary-explores-forgotten-history-1790602218755-1790602217968.jpg",
-      "publishedAt": "2026-09-28T13:30:21.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.cinejosh.com/news/3/130247/chiranjeevi-to-host-a-show-on-ott.html",
-      "title": "Megastar Chiranjeevi to Make OTT Hosting Debut on Netflix",
-      "summary": "Tollywood megastar Chiranjeevi is reportedly in talks to host a celebrity talk show for the streaming platform Netflix. While discussions are currently underway, an official announcement regarding the project is expected soon. The actor is simultaneously busy with his upcoming theatrical ventures, including Kaaka directed by Bobby and the socio-fantasy film Vishwambhara.",
+      "title": "Megastar Chiranjeevi in Talks for an OTT Celebrity Talk Show",
+      "summary": "Iconic actor Chiranjeevi is reportedly in discussions to anchor a high-profile celebrity talk show for Netflix. While negotiations are progressing, an official announcement regarding the project is expected soon.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/3/130247/chiranjeevi-to-host-a-show-on-ott.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-to-host-a-show-on-ott-1790597395130-1790597393688.jpg",
       "publishedAt": "2026-09-28T12:09:57.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/ranabaali-director-explains-how-it-is-different-from-other-films-on-the-britishers-prp.html",
-      "title": "Director Rahul Sankrityan Reveals Historical Focus of Vijay and Rashmika's Ranabaali",
-      "summary": "The makers of the period action drama Ranabaali, starring Vijay Deverakonda and Rashmika Mandanna, have launched a promotional video series to clarify the film's premise. Director Rahul Sankrityan explained that the movie focuses on the Great Madras Famine of 1876-1878 rather than the standard freedom struggle narratives. Backed by Mythri Movie Makers, the project serves as a tribute to those who suffered during the historic tragedy.",
+      "title": "Director Rahul Sankrityan Details the Historical Focus of Ranabaali",
+      "summary": "Vijay Deverakonda and Rashmika Mandanna's period action drama Ranabaali centers on the devastating Great Madras Famine rather than a standard freedom struggle narrative. Director Rahul Sankrityan noted that the film honors the millions who suffered during the tragedy through extensive historical research.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ranabaali-director-explains-how-it-is-different-from-other-films-on-the-britishers-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/ranabaali-5.webp",
       "publishedAt": "2026-09-28T12:09:35.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/pic-talk-chota-jadal-akhira-nandan-poses-with-nani-hk.html",
-      "title": "Akhira Nandan Shares Photograph With Nani Following Box Office Success of The Paradise",
-      "summary": "Nani's recent release, The Paradise, has crossed the Rs. 155 crore mark in worldwide gross earnings during its opening weekend. Young actor Akhira Nandan, who portrayed the younger version of the character Jadal in the movie, commemorated the milestone by sharing a photo with the lead actor online. He expressed his gratitude to Nani for the opportunity to be part of the project.",
+      "title": "Akhira Nandan Shares a Memorable Moment with Nani Following The Paradise Success",
+      "summary": "As Nani's latest film The Paradise crosses the Rs. 155 crore mark globally in its opening weekend, young actor Akhira Nandan posted a photo with the lead star on social media. Akhira, who portrayed the younger version of Jadal in the movie, expressed gratitude for the opportunity to be part of the project.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/pic-talk-chota-jadal-akhira-nandan-poses-with-nani-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/nani-5.webp",
       "publishedAt": "2026-09-28T11:30:10.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.telugu360.com/dj-at-2-am-is-not-bhakti-allu-sirish-responds-after-temple-noise-complaint-draws-backlash/",
-      "title": "Actor Allu Sirish Clarifies Stance After Filing Police Complaint Over Late-Night Temple Volume",
-      "summary": "Actor Allu Sirish faced online backlash after complaining to the Hyderabad City Police about loud music playing at 2 AM from a local Hanuman temple near his residence. He clarified on social media that his objection was purely related to civic nuisance and late-height noise rather than religious devotion. The police have forwarded the matter to the local station house officer for appropriate action.",
+      "title": "Allu Sirish Clarifies Temple Noise Complaint After Online Backlash",
+      "summary": "Actor Allu Sirish faced criticism online after reporting late-night loudspeaker noise from a Hanuman temple near his Hyderabad residence. He later clarified that his grievance focused strictly on civic responsibility and untimely volume rather than religious devotion.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/dj-at-2-am-is-not-bhakti-allu-sirish-responds-after-temple-noise-complaint-draws-backlash/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Allu-Sirish.jpg",
       "publishedAt": "2026-09-28T10:54:22.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130244/kiran-abbavaram-directorial-ka13-in-final-stage.html",
-      "title": "Kiran Abbavaram Nears Completion of Shooting for His Directorial Venture KA13",
-      "summary": "Actor and filmmaker Kiran Abbavaram is wrapping up the final schedule for his upcoming directorial project, tentatively titled KA13. The film features Devika Bhat as the female lead alongside veteran actors Sarath Kumar and Sai Kumar. Produced by Sudhakar Chaganti under Joy Films, the team is preparing to announce the official title soon.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130244/kiran-abbavaram-directorial-ka13-in-final-stage.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/kiran-abbavaram-directorial-ka13-in-final-stage-1790588560959-1790588559807.jpg",
-      "publishedAt": "2026-09-28T09:42:43.000Z",
+      "id": "https://www.123telugu.com/mnews/the-paradise-hindi-box-office-nani-scores-a-career-best-in-north-india-hk.html",
+      "title": "Nani Starrer The Paradise Smashes Records With Massive Weekend Figures",
+      "summary": "Actor Nani's latest movie, The Paradise, registered a strong opening weekend by crossing Rs. 7.2 crore nett in the Hindi market and achieving a global gross of Rs. 155 crore. The Srikanth Odela directorial also set new benchmarks for the actor in Karnataka and through massive advance ticket bookings.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/the-paradise-hindi-box-office-nani-scores-a-career-best-in-north-india-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-1-2.webp",
+      "publishedAt": "2026-09-28T09:30:11.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.telugu360.com/income-tax-raids-on-rakul-preet-and-vashu-bhagnani/",
-      "title": "Income Tax Authorities Conduct Raids Involving Rakul Preet and Vashu Bhagnani",
-      "summary": "Income tax officials have carried out raids involving actor Rakul Preet and producer Vashu Bhagnani. The development emerged from industry reports detailing recent investigative actions.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/income-tax-raids-on-rakul-preet-and-vashu-bhagnani/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Income-Tax-Raids-on-Rakul-Preet-and-Vashu-Bhagnani.jpg",
-      "publishedAt": "2026-09-28T09:42:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/the-paradise-nani-hits-the-2-million-mark-again-in-north-america-hk.html",
-      "title": "The Paradise Crosses $2 Million Milestone in North America Box Office",
-      "summary": "Actor Nani has achieved another major overseas milestone as The Paradise surpassed $2 million in gross earnings across North America by its first weekend. Despite mixed word of mouth, the film continues steady ticket sales in international territories.",
+      "title": "The Paradise Crosses $2 Million Milestone in North America",
+      "summary": "Nani's action drama The Paradise has successfully surpassed the $2 million gross mark in North America during its opening weekend. Despite a mixed critical response, the film continues its strong international run alongside impressive worldwide ticket sales.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/the-paradise-nani-hits-the-2-million-mark-again-in-north-america-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-4.webp",
       "publishedAt": "2026-09-28T08:30:31.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/karthis-sardar-2-ott-release-date-revealed-hk.html",
-      "title": "Karthi Starrer Sardar 2 Locks Its Official OTT Streaming Date",
-      "summary": "Following its theatrical run starting September 10, 2026, Karthi's action film Sardar 2 is heading to digital platforms. Amazon Prime Video has scheduled the multilingual premiere for October 1, 2026.",
+      "title": "Karthi's Sardar 2 Locking Its Digital Premiere On Amazon Prime Video",
+      "summary": "Following its theatrical arrival on September 10, 2026, the Karthi-starrer Sardar 2 is heading to digital streaming on Amazon Prime Video starting October 1, 2026. The action flick features Malavika Mohanan alongside Ashika Ranganath, with SJ Suryah playing the villain and musical scoring by Sam CS.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/karthis-sardar-2-ott-release-date-revealed-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Sardar-2-Review-1.webp",
       "publishedAt": "2026-09-28T08:07:05.000Z",
       "language": "Telugu",
-      "category": "Kollywood",
-      "editorial": "Cineinsta"
+      "category": "Telugu Cinema",
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/chiranjeevi-to-join-netflix-for-a-crazy-show-deets-inside-avd.html",
-      "title": "Megastar Chiranjeevi to host an exclusive podcast on Netflix",
-      "summary": "Iconic star Chiranjeevi is reportedly collaborating with Netflix for a multi-episode podcast series instead of a standard documentary. The show will explore his decades-long cinematic journey, personal challenges, and industry experiences, with production handled by his daughter Sushmita Konidela.",
+      "title": "Megastar Chiranjeevi Reportedly In Talks With Netflix For A New Podcast Series",
+      "summary": "Iconic actor Chiranjeevi is rumored to collaborate with Netflix for an upcoming multi-episode podcast discussing his extensive cinematic journey and personal experiences. The project, reportedly backed by his daughter Sushmita Konidela, will give fans an intimate look into the veteran star's legendary career.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/chiranjeevi-to-join-netflix-for-a-crazy-show-deets-inside-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/chiru-1.webp",
       "publishedAt": "2026-09-28T07:30:12.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/the-paradise-first-weekend-collections-out-nanis-film-closes-with-rs-155-crore-gross-hk.html",
-      "title": "Nani's The Paradise concludes opening weekend with Rs. 155 crore worldwide gross",
-      "summary": "Srikanth Odela's directorial venture The Paradise, starring Nani, amassed a global gross of Rs. 155 crore over its first weekend despite receiving mixed word of mouth. The pan-Indian movie also surpassed the $2 million milestone in North America as it heads into its crucial weekday box-office run.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/the-paradise-first-weekend-collections-out-nanis-film-closes-with-rs-155-crore-gross-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/parad.jpg",
-      "publishedAt": "2026-09-28T07:08:20.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://telugucinema.com/news/janhvi-kapoor-takes-a-more-selective-approach-to-films",
-      "title": "Janhvi Kapoor adopts a selective approach toward upcoming film selections",
-      "summary": "Following her recent work in Peddi, actress Janhvi Kapoor is reportedly being more cautious about her career choices and aiming for performance-driven roles rather than standard glamorous parts. While she has been linked to Allu Arjun's Raaka, no official confirmation has been made regarding her casting.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/janhvi-kapoor-takes-a-more-selective-approach-to-films",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/06/janhvikapoor-june0526.jpg",
-      "publishedAt": "2026-09-28T06:14:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/peddi-hindi-tv-premiere-locked-heres-when-ram-charans-film-hits-tv-hk.html",
-      "title": "Ram Charan's Peddi locks its Hindi television premiere date",
-      "summary": "The Buchi Babu Sana directorial Peddi, starring Ram Charan and Janhvi Kapoor, is scheduled for its Hindi television debut on Sony MAX on October 25, 2026. Meanwhile, rumors indicate that a Telugu television telecast might take place on ZEE Telugu during the Dasara festival.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/peddi-hindi-tv-premiere-locked-heres-when-ram-charans-film-hits-tv-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/06/peddi-1-3.webp",
-      "publishedAt": "2026-09-28T05:30:29.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/slum-dog-33-temple-road-zarina-wahabs-emotional-glimpse-leaves-a-mark-hk.html",
-      "title": "Zarina Wahab Emotional Character Unveiled in Puri Jagannadh Slum Dog - 33 Temple Road",
-      "summary": "Veteran Bollywood actress Zarina Wahab plays a poignant role in Puri Jagannadh's upcoming pan-Indian film Slum Dog - 33 Temple Road. On the director's birthday, the makers released a promotional clip showcasing her character Zubeidaa and highlighting a painful life story. The project is backed by Puri Jagannadh, Charmme Kaur, and JB Narayan Rao Kondrolla, featuring an ensemble cast including Samyuktha and Tabu.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/slum-dog-33-temple-road-zarina-wahabs-emotional-glimpse-leaves-a-mark-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/slum.webp",
-      "publishedAt": "2026-09-28T05:20:52.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://telugucinema.com/box-office/anumana-pakshi-turns-into-a-major-washout-at-the-box-office",
-      "title": "Rag Mayur Starrer Anumana Pakshi Struggles Massively at the Box Office",
-      "summary": "The small-budget Telugu film Anumana Pakshi, starring Rag Mayur and marking Merin Philip's debut, failed to attract viewers upon its September 25 release. Facing negative reviews and poor writing criticisms, the Chilaka Productions venture recorded near-zero ticket sales and ended as a major washout.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/box-office/anumana-pakshi-turns-into-a-major-washout-at-the-box-office",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/09/anumanapakshi-sep2826.jpg",
-      "publishedAt": "2026-09-28T04:33:10.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/romanchakam-ott-release-sandeep-reddy-vanga-backed-film-gets-netflix-premiere-date-hk.html",
-      "title": "Sandeep Reddy Vanga Backed Romanchakam Locks Netflix Release Date",
-      "summary": "The youthful romantic comedy Romanchakam, directed by Venu Gopal Reddy and starring Sumanth Prabhas and Ananthika Sanilkumar, is heading to Netflix on October 1, 2026. Presented by Sandeep Reddy Vanga and produced by Pranay Reddy Vanga, the multilingual digital release aims to find a broader audience following its theatrical run.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/romanchakam-ott-release-sandeep-reddy-vanga-backed-film-gets-netflix-premiere-date-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/romachakam.webp",
-      "publishedAt": "2026-09-28T04:09:27.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/the-paradise-nizam-box-office-nanis-film-posts-around-rs-27-5-cr-share-in-first-weekend-hk.html",
-      "title": "Nani Starrer The Paradise Smashes Records With Massive Opening Weekend Box Office",
-      "summary": "Directed by Srikanth Odela, Nani's The Paradise pulled off an impressive Rs. 27.5 crore share in the Nizam region during its first extended weekend. Despite mixed public reception, the SLV Cinemas production crossed Rs. 136 crore in worldwide gross over three days, marking a career-best opening for the actor.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/the-paradise-nizam-box-office-nanis-film-posts-around-rs-27-5-cr-share-in-first-weekend-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-1.webp",
-      "publishedAt": "2026-09-28T03:30:53.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://telugucinema.com/box-office/the-paradise-biggest-weekend-collections-in-nanis-career",
-      "title": "Nani's The Paradise Cracks Massive Weekend Figures Despite Social Media Backlash",
-      "summary": "The Nani-starrer The Paradise has charged past a worldwide gross of Rs 138 crore in its first four days, overcoming early negative buzz online. Directed by Srikanth Odela and co-starring Kayadu Lohar, the film also smashed records by crossing $2 million in North America during its opening weekend. Despite mixed reviews and initial social media trolling, the feature has achieved the biggest opening period of Nani's career.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/box-office/the-paradise-biggest-weekend-collections-in-nanis-career",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/06/theparadise-date-june726.jpg",
-      "publishedAt": "2026-09-28T02:17:21.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://indiaglitz.com/ranabaali-documentary-reveals-forgotten-famine-that-inspired-vijay-deverakondas-epic",
-      "title": "Makers of Vijay Deverakonda's Ranabaali Launch Documentary Highlighting 1876-78 Famine",
-      "summary": "Director Rahul Sankrityan and the team behind the pan-India epic Ranabaali have released the first episode of a four-part documentary series titled Ranabaali: Never Forget The Truth. The project explores the devastating 1876-78 famine under British rule, a historical tragedy that inspired the film's premise. Starring Vijay Deverakonda and Rashmika Mandanna, the ambitious feature is slated for a worldwide theatrical release on October 16 for Vijayadashami.",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/ranabaali-documentary-reveals-forgotten-famine-that-inspired-vijay-deverakondas-epic",
-      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/09/ranabaali-the-famine-we-forgot-1.jpg",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     }
   ],
   "trailers": [
     {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=5UvfX83pcaQ",
-      "originalUrl": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://i.ytimg.com/vi/5UvfX83pcaQ/hqdefault.jpg",
-      "youtubeId": "5UvfX83pcaQ",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://indiaglitz.com/city-of-gold-vikram-prabhus-intense-first-look-and-glimpse-create-buzz",
-      "title": "City of Gold: Vikram Prabhu’s Intense First Look and Glimpse Create Buzz",
+      "id": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
+      "title": "Jailer 2 Trailer Release Date Locked: Rajinikanth’s Sequel Set for a Grand Reveal",
       "source": "IndiaGlitz Telugu",
-      "url": "https://www.youtube.com/watch?v=MWCPgf3V3xY",
-      "originalUrl": "https://indiaglitz.com/city-of-gold-vikram-prabhus-intense-first-look-and-glimpse-create-buzz",
-      "img": "https://i.ytimg.com/vi/MWCPgf3V3xY/hqdefault.jpg",
-      "youtubeId": "MWCPgf3V3xY",
-      "publishedAt": "2026-09-26T00:00:00.000Z",
+      "url": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
+      "originalUrl": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
+      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/09/jailer-2-trailer-release.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
       "language": "Telugu"
     },
     {
@@ -376,10 +379,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=z6sWcoljyyw",
+      "url": "https://www.youtube.com/watch?v=i6_NVyIH7Qs",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/z6sWcoljyyw/hqdefault.jpg",
-      "youtubeId": "z6sWcoljyyw",
+      "img": "https://i.ytimg.com/vi/i6_NVyIH7Qs/hqdefault.jpg",
+      "youtubeId": "i6_NVyIH7Qs",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -420,10 +423,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
       "title": "Nayyi Navelli - Official Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=NyzPzcjfzKc",
+      "url": "https://www.youtube.com/watch?v=bSjtaTvpLC4",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
-      "img": "https://i.ytimg.com/vi/NyzPzcjfzKc/hqdefault.jpg",
-      "youtubeId": "NyzPzcjfzKc",
+      "img": "https://i.ytimg.com/vi/bSjtaTvpLC4/hqdefault.jpg",
+      "youtubeId": "bSjtaTvpLC4",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -459,65 +462,20 @@
       "youtubeId": "",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/street-fighter-official-trailer/videoshow/133697481.cms",
+      "title": "Street Fighter - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/street-fighter-official-trailer/videoshow/133697481.cms",
+      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/english/street-fighter-official-trailer/videoshow/133697481.cms",
+      "img": "https://static.toiimg.com/thumb/msid-133697481,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "language": "Telugu"
     }
   ],
-  "interviews": [
-    {
-      "id": "rHhFcgrmN08",
-      "youtubeId": "rHhFcgrmN08",
-      "title": "#TheParadise - Natural Star Nani & Srikanth Odela Post Release Talks | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=rHhFcgrmN08",
-      "img": "https://i.ytimg.com/vi/rHhFcgrmN08/hqdefault.jpg",
-      "publishedAt": "2026-09-27T12:34:59.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "AALA2mgQ_90",
-      "youtubeId": "AALA2mgQ_90",
-      "title": "Artist Vishika | Face to Face Interview | Paradise | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=AALA2mgQ_90",
-      "img": "https://i.ytimg.com/vi/AALA2mgQ_90/hqdefault.jpg",
-      "publishedAt": "2026-09-26T16:45:31.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "zYxonnFRZNc",
-      "youtubeId": "zYxonnFRZNc",
-      "title": "Artist Sai Kiran | Face to Face Interview | Paradise | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=zYxonnFRZNc",
-      "img": "https://i.ytimg.com/vi/zYxonnFRZNc/hqdefault.jpg",
-      "publishedAt": "2026-09-26T16:32:35.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "mYkpRlV4ai0",
-      "youtubeId": "mYkpRlV4ai0",
-      "title": "Actress Lavanya | Face to Face Interview | Paradise | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=mYkpRlV4ai0",
-      "img": "https://i.ytimg.com/vi/mYkpRlV4ai0/hqdefault.jpg",
-      "publishedAt": "2026-09-26T16:01:27.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "e_6T8bq_Mp8",
-      "youtubeId": "e_6T8bq_Mp8",
-      "title": "Artist Kranthi Balivada | Face to Face Interview | Paradise | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=e_6T8bq_Mp8",
-      "img": "https://i.ytimg.com/vi/e_6T8bq_Mp8/hqdefault.jpg",
-      "publishedAt": "2026-09-26T15:46:58.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    }
-  ],
+  "interviews": [],
   "reviews": [
     {
       "t": "Anumana Pakshi",
@@ -1791,6 +1749,50 @@
             "rating": null,
             "ratingText": "Not available",
             "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "t": "సమీక్ష : సీక్రెట్ సోల్జర్ - రెగ్యులర్ ఎమోషనల్ క్రైమ్ డ్రామా !",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "2.5/5",
+      "img": "https://cdn.123telugu.com/telugu/wp-content/uploads/2026/09/screct.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html",
+      "aggregator": {
+        "average": 2.5,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html"
           }
         ]
       }

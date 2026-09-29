@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T04:35:37.549Z",
+  "updatedAt": "2026-09-29T04:50:48.810Z",
   "language": "Telugu",
   "news": [
     {
@@ -445,6 +445,17 @@
   ],
   "trailers": [
     {
+      "id": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
+      "title": "Jailer 2 Trailer Release Date Locked: Rajinikanth’s Sequel Set for a Grand Reveal",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
+      "originalUrl": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
+      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/09/jailer-2-trailer-release.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
       "title": "Clayface - Official Trailer",
       "source": "ETimes Telugu",
@@ -470,10 +481,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=PFWwt5asUe0",
+      "url": "https://www.youtube.com/watch?v=i6_NVyIH7Qs",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/PFWwt5asUe0/hqdefault.jpg",
-      "youtubeId": "PFWwt5asUe0",
+      "img": "https://i.ytimg.com/vi/i6_NVyIH7Qs/hqdefault.jpg",
+      "youtubeId": "i6_NVyIH7Qs",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +525,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
       "title": "Nayyi Navelli - Official Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=438AIogtj1E",
+      "url": "https://www.youtube.com/watch?v=bSjtaTvpLC4",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
-      "img": "https://i.ytimg.com/vi/438AIogtj1E/hqdefault.jpg",
-      "youtubeId": "438AIogtj1E",
+      "img": "https://i.ytimg.com/vi/bSjtaTvpLC4/hqdefault.jpg",
+      "youtubeId": "bSjtaTvpLC4",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -563,17 +574,6 @@
       "img": "https://static.toiimg.com/thumb/msid-133697481,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-02T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mahendragiri-varahi-official-hindi-trailer/videoshow/133641728.cms",
-      "title": "Mahendragiri Varahi - Official Hindi Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mahendragiri-varahi-official-hindi-trailer/videoshow/133641728.cms",
-      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mahendragiri-varahi-official-hindi-trailer/videoshow/133641728.cms",
-      "img": "https://static.toiimg.com/thumb/msid-133641728,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
