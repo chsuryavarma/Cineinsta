@@ -1,0 +1,53 @@
+{
+  "updatedAt": null,
+  "language": "Telugu",
+  "tabs": [
+    {
+      "id": "theatres",
+      "name": "Theatres Now",
+      "status": "active"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "status": "signal-only"
+    },
+    {
+      "id": "prime-video",
+      "name": "Prime Video",
+      "status": "signal-only"
+    },
+    {
+      "id": "aha",
+      "name": "Aha",
+      "status": "signal-only"
+    },
+    {
+      "id": "jiohotstar",
+      "name": "JioHotstar",
+      "status": "signal-only"
+    },
+    {
+      "id": "zee5",
+      "name": "ZEE5",
+      "status": "signal-only"
+    },
+    {
+      "id": "sun-nxt",
+      "name": "Sun NXT",
+      "status": "signal-only"
+    },
+    {
+      "id": "etv-win",
+      "name": "ETV Win",
+      "status": "signal-only"
+    },
+    {
+      "id": "sonyliv",
+      "name": "SonyLIV",
+      "status": "signal-only"
+    }
+  ],
+  "movies": [],
+  "methodology": "Cineinsta Buzz combines Cineinsta news/review activity with authorized theatre/showtime signals. OTT availability is not inferred or scraped. Platform labels appear only when an OTT service is explicitly mentioned in Cineinsta data until an authorized commercial OTT data source is connected."
+}
