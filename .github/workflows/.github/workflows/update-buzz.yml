@@ -1,0 +1,43 @@
+name: Update Cineinsta Buzz
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-buzz:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Cineinsta
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update theatre trend data
+        env:
+          SHOWTIMES_API_KEY: ${{ secrets.SHOWTIMES_API_KEY }}
+        run: |
+          node scripts/update-ticket-trends.mjs
+
+      - name: Generate Cineinsta Buzz
+        run: |
+          node scripts/update-buzz.mjs
+
+      - name: Commit Buzz data
+        run: |
+          git config user.name "Cineinsta Buzz Bot"
+          git config user.email "cineinsta-bot@users.noreply.github.com"
+
+          git add data/ticket-trends.json data/buzz.json
+
+          git diff --cached --quiet || git commit -m "Auto-update Cineinsta Buzz"
+
+          git push
