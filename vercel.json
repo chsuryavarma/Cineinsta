@@ -1,33 +1,12 @@
 {
   "rewrites": [
-    {
-      "source": "/news/:slug",
-      "destination": "/"
-    },
-    {
-      "source": "/reviews/:slug",
-      "destination": "/"
-    },
-    {
-      "source": "/trailers/:slug",
-      "destination": "/"
-    },
-    {
-      "source": "/news",
-      "destination": "/"
-    },
-    {
-      "source": "/reviews",
-      "destination": "/"
-    },
-    {
-      "source": "/trailers",
-      "destination": "/"
-    }
+    {"source": "/news/:slug", "destination": "/"},
+    {"source": "/reviews/:slug", "destination": "/"},
+    {"source": "/trailers/:slug", "destination": "/"},
+    {"source": "/news", "destination": "/"},
+    {"source": "/reviews", "destination": "/"},
+    {"source": "/trailers", "destination": "/"}
   ]
 }
-      "source": "/trailers",
-      "destination": "/"
-    }
-  ]
-}
+
+Do not leave any old lines after the final }.
