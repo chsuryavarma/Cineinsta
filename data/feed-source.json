@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-09-29T05:38:06.579Z",
+  "updatedAt": "2026-09-29T05:46:52.548Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.telugu360.com/akkineni-brothers-shelved-nags-film/",
+      "title": "Akkineni Brothers shelved Nag's Film?",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News Akkineni Brothers shelved Nag's...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/akkineni-brothers-shelved-nags-film/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/07/Akkineni-nagarjuna-chaitanya-and-akhil.jpg",
+      "publishedAt": "2026-09-29T05:36:36.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://telugucinema.com/news/as-varanasi-shoot-comes-to-an-end-whats-next-for-mahesh-babu",
       "title": "As Varanasi shoot comes to an end, what’s next for Mahesh Babu?",
@@ -430,17 +441,6 @@
       "publishedAt": "2026-09-28T08:07:05.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/chiranjeevi-to-join-netflix-for-a-crazy-show-deets-inside-avd.html",
-      "title": "Chiranjeevi to join Netflix for a crazy show, deets inside",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Chiranjeevi to join Netflix for a crazy...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/chiranjeevi-to-join-netflix-for-a-crazy-show-deets-inside-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/chiru-1.webp",
-      "publishedAt": "2026-09-28T07:30:12.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -470,10 +470,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=deKwt9SJ7TI",
+      "url": "https://www.youtube.com/watch?v=3JK6OLf1HkA",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/deKwt9SJ7TI/hqdefault.jpg",
-      "youtubeId": "deKwt9SJ7TI",
+      "img": "https://i.ytimg.com/vi/3JK6OLf1HkA/hqdefault.jpg",
+      "youtubeId": "3JK6OLf1HkA",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -481,10 +481,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=i6_NVyIH7Qs",
+      "url": "https://www.youtube.com/watch?v=z6sWcoljyyw",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/i6_NVyIH7Qs/hqdefault.jpg",
-      "youtubeId": "i6_NVyIH7Qs",
+      "img": "https://i.ytimg.com/vi/z6sWcoljyyw/hqdefault.jpg",
+      "youtubeId": "z6sWcoljyyw",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
       "title": "Baththa - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=WyVOAhKl_ak",
+      "url": "https://www.youtube.com/watch?v=cPeKoE8N5oU",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://i.ytimg.com/vi/WyVOAhKl_ak/hqdefault.jpg",
-      "youtubeId": "WyVOAhKl_ak",
+      "img": "https://i.ytimg.com/vi/cPeKoE8N5oU/hqdefault.jpg",
+      "youtubeId": "cPeKoE8N5oU",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -525,10 +525,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
       "title": "Nayyi Navelli - Official Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=438AIogtj1E",
+      "url": "https://www.youtube.com/watch?v=bSjtaTvpLC4",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-teaser/videoshow/134003172.cms",
-      "img": "https://i.ytimg.com/vi/438AIogtj1E/hqdefault.jpg",
-      "youtubeId": "438AIogtj1E",
+      "img": "https://i.ytimg.com/vi/bSjtaTvpLC4/hqdefault.jpg",
+      "youtubeId": "bSjtaTvpLC4",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "language": "Telugu"
     },
