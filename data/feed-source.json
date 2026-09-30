@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-09-30T11:18:28.914Z",
+  "updatedAt": "2026-09-30T11:36:19.688Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/karthis-rapid-ott-releases-is-the-2-to-3-week-streaming-window-hurting-theatres-ng.html",
+      "title": "Karthi's Rapid OTT Releases: Is the 2-to-3 Week Streaming Window Hurting Theatres?",
+      "summary": "Karthi’s Rapid OTT Releases: Is the 2-to-3 Week Streaming Window Hurting Theatres?",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/karthis-rapid-ott-releases-is-the-2-to-3-week-streaming-window-hurting-theatres-ng.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/karthi-2.webp",
+      "publishedAt": "2026-09-30T11:30:43.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.telugu360.com/talcum-powder-glimpse-promises-a-laughter-riot/",
       "title": "Talcum Powder Glimpse: Promises a laughter riot",
@@ -430,17 +441,6 @@
       "publishedAt": "2026-09-29T12:01:41.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/trivikrams-update-on-ntrs-god-of-war/",
-      "title": "Trivikram's Update on NTR's God of War",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/trivikrams-update-on-ntrs-god-of-war/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/trivikram.jpg",
-      "publishedAt": "2026-09-29T11:24:33.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -448,10 +448,10 @@
       "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/prahaar-trailer-launch-maharashtra-cm-fadnavis-says-film-carries-message-praises-rajkummar-rao-and-ujjwal-nikam/articleshow/134584612.cms",
       "title": "‘Prahaar’ trailer launch: Maharashtra CM Fadnavis says film carries MESSAGE, praises Rajkummar Rao and Ujjwal Nikam",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=CC0HmAbcaag",
+      "url": "https://www.youtube.com/watch?v=iNPBP56hI-s",
       "originalUrl": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/prahaar-trailer-launch-maharashtra-cm-fadnavis-says-film-carries-message-praises-rajkummar-rao-and-ujjwal-nikam/articleshow/134584612.cms",
-      "img": "https://i.ytimg.com/vi/CC0HmAbcaag/hqdefault.jpg",
-      "youtubeId": "CC0HmAbcaag",
+      "img": "https://i.ytimg.com/vi/iNPBP56hI-s/hqdefault.jpg",
+      "youtubeId": "iNPBP56hI-s",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=j_5auSjE2ig",
+      "url": "https://www.youtube.com/watch?v=XS3a2ETpeaE",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/j_5auSjE2ig/hqdefault.jpg",
-      "youtubeId": "j_5auSjE2ig",
+      "img": "https://i.ytimg.com/vi/XS3a2ETpeaE/hqdefault.jpg",
+      "youtubeId": "XS3a2ETpeaE",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -525,10 +525,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
       "title": "Baththa - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=HcXIrMZIr3A",
+      "url": "https://www.youtube.com/watch?v=IO4v4SW8kl8",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://i.ytimg.com/vi/HcXIrMZIr3A/hqdefault.jpg",
-      "youtubeId": "HcXIrMZIr3A",
+      "img": "https://i.ytimg.com/vi/IO4v4SW8kl8/hqdefault.jpg",
+      "youtubeId": "IO4v4SW8kl8",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
