@@ -1,7 +1,12 @@
 {
-  "updatedAt": "2026-09-30T05:43:03.520Z",
+  "updatedAt": "2026-09-30T05:57:35.142Z",
   "language": "Telugu",
   "tabs": [
+    {
+      "id": "buzz",
+      "name": "Buzz Now",
+      "status": "active"
+    },
     {
       "id": "theatres",
       "name": "Theatres Now",
@@ -10,42 +15,42 @@
     {
       "id": "netflix",
       "name": "Netflix",
-      "status": "cineinsta-signal"
+      "status": "ok"
     },
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "cineinsta-signal"
+      "status": "ok"
     },
     {
       "id": "aha",
       "name": "Aha",
-      "status": "cineinsta-signal"
+      "status": "ok"
     },
     {
       "id": "jiohotstar",
       "name": "JioHotstar",
-      "status": "cineinsta-signal"
+      "status": "no-telugu-matches"
     },
     {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "cineinsta-signal"
+      "status": "ok"
     },
     {
       "id": "sun-nxt",
       "name": "Sun NXT",
-      "status": "cineinsta-signal"
+      "status": "unavailable"
     },
     {
       "id": "etv-win",
       "name": "ETV Win",
-      "status": "cineinsta-signal"
+      "status": "no-telugu-matches"
     },
     {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "cineinsta-signal"
+      "status": "ok"
     }
   ],
   "movies": [
@@ -56,14 +61,10 @@
       "language": "Telugu",
       "buzzScore": 42,
       "status": "STEADY",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "2 recent Cineinsta news signals · Cineinsta review activity",
       "sourceSignals": {
         "news": 2,
         "reviews": 1,
@@ -71,33 +72,39 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "epic-first-semester",
       "title": "Epic First Semester",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
       "language": "Telugu",
-      "buzzScore": 32,
+      "buzzScore": 42,
       "status": "STEADY",
-      "platforms": [
-        "Aha"
-      ],
-      "platformIds": [
-        "aha"
-      ],
-      "ott": {
-        "aha": {
-          "name": "Aha",
-          "mentions": 1,
-          "label": "Mentioned in recent Cineinsta coverage"
-        }
-      },
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "1 recent Cineinsta news signal · Cineinsta review activity",
+      "sourceSignals": {
+        "news": 2,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+    },
+    {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
       "sourceSignals": {
         "news": 1,
         "reviews": 1,
@@ -105,7 +112,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "toxic",
@@ -114,24 +121,10 @@
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
-      "platforms": [
-        "ZEE5"
-      ],
-      "platformIds": [
-        "zee5"
-      ],
-      "ott": {
-        "zee5": {
-          "name": "ZEE5",
-          "mentions": 1,
-          "label": "Mentioned in recent Cineinsta coverage"
-        }
-      },
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "1 recent Cineinsta news signal · Cineinsta review activity",
       "sourceSignals": {
         "news": 1,
         "reviews": 1,
@@ -139,7 +132,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "irumudi",
@@ -148,24 +141,10 @@
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
-      "platforms": [
-        "Netflix"
-      ],
-      "platformIds": [
-        "netflix"
-      ],
-      "ott": {
-        "netflix": {
-          "name": "Netflix",
-          "mentions": 1,
-          "label": "Mentioned in recent Cineinsta coverage"
-        }
-      },
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "1 recent Cineinsta news signal · Cineinsta review activity",
       "sourceSignals": {
         "news": 1,
         "reviews": 1,
@@ -173,7 +152,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "anumana-pakshi",
@@ -182,14 +161,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -197,7 +172,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "the-vvaan",
@@ -206,14 +181,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -221,7 +192,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "immortal",
@@ -230,14 +201,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -245,7 +212,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "happy-journey",
@@ -254,14 +221,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -269,7 +232,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "lust-stories-3",
@@ -278,14 +241,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -293,7 +252,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "missing-meghana",
@@ -302,14 +261,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -317,7 +272,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "pitapuramlo-ala-modalaindi",
@@ -326,14 +281,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -341,7 +292,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "modha-rathri",
@@ -350,14 +301,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -365,7 +312,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "mahendragiri-varahi",
@@ -374,14 +321,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -389,7 +332,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "panchanama",
@@ -398,14 +341,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -413,31 +352,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "Cineinsta review activity",
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "maremma",
@@ -446,14 +361,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -461,7 +372,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "mandaadi",
@@ -470,14 +381,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -485,7 +392,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "ramba-oorvasi-menaka",
@@ -494,14 +401,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -509,7 +412,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "mirzapur-the-movie",
@@ -518,14 +421,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -533,7 +432,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "bethlehem-kudumba-unit",
@@ -542,14 +441,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -557,7 +452,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "romanchakam",
@@ -566,14 +461,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -581,7 +472,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "pallaburusu",
@@ -590,14 +481,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -605,7 +492,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "vishwanath-and-sons",
@@ -614,14 +501,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -629,7 +512,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
       "id": "agadha",
@@ -638,14 +521,10 @@
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
-      "why": "Cineinsta review activity",
       "sourceSignals": {
         "news": 0,
         "reviews": 1,
@@ -653,8 +532,215 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     }
   ],
-  "methodology": "Cineinsta Buzz is built around movie-level signals from Cineinsta reviews, news/trailer activity and authorized theatre/showtime data. OTT tabs group titles only when Cineinsta coverage explicitly mentions the named platform. They do not claim verified OTT availability until an authorized commercial OTT availability source is connected."
+  "ottTrending": {
+    "netflix": {
+      "id": "netflix",
+      "name": "Netflix",
+      "status": "ok",
+      "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+      "updatedAt": "2026-09-30T05:57:21.172Z",
+      "items": [
+        {
+          "rank": 1,
+          "title": "Irumudi",
+          "language": "Telugu",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/irumudi-1-4.webp",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "platformSignal": false
+        },
+        {
+          "rank": 2,
+          "title": "Modha Rathri",
+          "language": "Telugu",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Modha-Rathri.webp",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "platformSignal": false
+        },
+        {
+          "rank": 4,
+          "title": "Lust Stories 3",
+          "language": "Telugu",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Lust-Stories-3.webp",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "platformSignal": false
+        },
+        {
+          "rank": 10,
+          "title": "Korean Kanakaraju",
+          "language": "Telugu",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/koreankanagaraju1.jpg",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "platformSignal": false
+        }
+      ]
+    },
+    "prime-video": {
+      "id": "prime-video",
+      "name": "Prime Video",
+      "status": "ok",
+      "sourceUrl": "https://www.primevideo.com/browse",
+      "updatedAt": "2026-09-30T05:57:21.729Z",
+      "items": [
+        {
+          "rank": 5,
+          "title": "Khushboo sports a traditional look in Prashanth Varma's upcoming universe project",
+          "language": "Telugu",
+          "img": "https://www.cinejosh.com/newsimg/newsmainimg/mahakali-movie-kushboo-turns-homely-1790736366712-1790736366157.jpg",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "platformSignal": false
+        }
+      ]
+    },
+    "aha": {
+      "id": "aha",
+      "name": "Aha",
+      "status": "ok",
+      "sourceUrl": "https://www.aha.video/telugu/movies",
+      "updatedAt": "2026-09-30T05:57:26.868Z",
+      "items": [
+        {
+          "rank": 1,
+          "title": "Hotspot- 2",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 2,
+          "title": "Drive",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 3,
+          "title": "Aadi Shambhala",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 4,
+          "title": "K-Ramp",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 5,
+          "title": "Psych Siddhartha",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 6,
+          "title": "Bomb",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 7,
+          "title": "Phoenix Veezhan",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 8,
+          "title": "Mahasenha",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 9,
+          "title": "Premistunnaa",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        },
+        {
+          "rank": 10,
+          "title": "Ayalaan",
+          "language": "Telugu",
+          "img": "",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "platformSignal": true
+        }
+      ]
+    },
+    "jiohotstar": {
+      "id": "jiohotstar",
+      "name": "JioHotstar",
+      "status": "no-telugu-matches",
+      "sourceUrl": "https://www.hotstar.com/in/cinema",
+      "updatedAt": "2026-09-30T05:57:27.125Z",
+      "items": []
+    },
+    "zee5": {
+      "id": "zee5",
+      "name": "ZEE5",
+      "status": "ok",
+      "sourceUrl": "https://www.zee5.com/global/collections/trending-in-india/0-8-7582",
+      "updatedAt": "2026-09-30T05:57:32.614Z",
+      "items": [
+        {
+          "rank": 1,
+          "title": "Director and Lead Star Address Backlash Over Controversial Scene in The Paradise",
+          "language": "Telugu",
+          "img": "https://www.cinejosh.com/newsimg/newsmainimg/all-about-the-paradise-controversial-dialogue-1790691051393-1790691050476.jpg",
+          "sourceUrl": "https://www.zee5.com/global/collections/trending-in-india/0-8-7582",
+          "platformSignal": false
+        }
+      ]
+    },
+    "sun-nxt": {
+      "id": "sun-nxt",
+      "name": "Sun NXT",
+      "status": "unavailable",
+      "sourceUrl": "https://www.sunnxt.com/movie/inside/telugu-movies?actioURL=true&publishid=45&title=Telugu+Movies&type=movie",
+      "items": [],
+      "note": "Official public trending page could not be fetched: HTTP 403"
+    },
+    "etv-win": {
+      "id": "etv-win",
+      "name": "ETV Win",
+      "status": "no-telugu-matches",
+      "sourceUrl": "https://www.etvwin.com/",
+      "updatedAt": "2026-09-30T05:57:34.838Z",
+      "items": []
+    },
+    "sonyliv": {
+      "id": "sonyliv",
+      "name": "SonyLIV",
+      "status": "ok",
+      "sourceUrl": "https://www.sonyliv.com/?lang=en",
+      "updatedAt": "2026-09-30T05:57:35.089Z",
+      "items": [
+        {
+          "rank": 12,
+          "title": "Buzz Suggests Allu Arjun Might Play a Cop in Lokesh Kanagaraj Collaboration",
+          "language": "Telugu",
+          "img": "https://www.cinejosh.com/newsimg/newsmainimg/allu-arjun-to-do-cop-role-in-lokesh-kanagaraj-film-1790742813227-1790742813618.jpg",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "platformSignal": false
+        }
+      ]
+    }
+  },
+  "methodology": "Buzz Now is Cineinsta's editorial activity signal. OTT tabs show Telugu titles appearing in each platform's own public trending, popular or Top 10 surface when the title can be matched to Cineinsta's Telugu movie feed. No OTT availability is inferred."
 }
