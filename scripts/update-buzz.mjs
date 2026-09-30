@@ -46,7 +46,7 @@ function detectPlatforms(text) {
   const value = clean(text).toLowerCase();
   const aliases = {
     netflix: ["netflix"],
-    "prime-video": ["prime video", "amazon prime", "prime"],
+    "prime-video": ["prime video", "amazon prime"],
     aha: ["aha"],
     jiohotstar: ["jiohotstar", "hotstar", "disney+ hotstar"],
     zee5: ["zee5"],
@@ -55,6 +55,21 @@ function detectPlatforms(text) {
     sonyliv: ["sonyliv", "sony liv"]
   };
   return OTT_PLATFORMS.filter(p => aliases[p.id].some(a => value.includes(a))).map(p => p.name);
+}
+
+function detectPlatformSignals(movieTitle, items) {
+  const result = {};
+  for (const item of items) {
+    const text = [item?.title || "", item?.summary || "", item?.dek || "", item?.t || ""].join(" ");
+    if (!titleMatches(movieTitle, text)) continue;
+    for (const platform of detectPlatforms(text)) {
+      const p = OTT_PLATFORMS.find(x => x.name === platform);
+      if (!p) continue;
+      result[p.id] ||= { name: p.name, mentions: 0, label: "Mentioned in recent Cineinsta coverage" };
+      result[p.id].mentions += 1;
+    }
+  }
+  return result;
 }
 
 async function main() {
@@ -89,7 +104,6 @@ async function main() {
     candidates.set(id, current);
   }
 
-  // Buzz candidates are movies, not individual news headlines.
   for (const item of reviews) addMovie(item.t || item.title || item.movie, item.img, "review", item);
   for (const item of trailers) addMovie(item.title, item.img, "trailer", item);
   for (const item of trends.movies || []) addMovie(item.movie, item.img || feedImage(item.movie, feed), "theatre", {
@@ -99,7 +113,8 @@ async function main() {
   const buzz = [...candidates.values()]
     .filter(item => item.img)
     .map(item => {
-      const recentNews = signalCount(item.title, news, x => `${x?.title || ""} ${x?.summary || ""} ${x?.dek || ""}`);
+      const recentNews = signalCount(item.title, news, x => [x?.title || "", x?.summary || "", x?.dek || ""].join(" "));
+      const ott = detectPlatformSignals(item.title, news);
       const recentReviews = item.reviewSignals;
       const trailerSignals = item.trailerSignals;
       const newsScore = Math.min(recentNews * 10, 30);
@@ -120,11 +135,11 @@ async function main() {
       if (recentNews > 0) why.push(`${recentNews} recent Cineinsta news signal${recentNews === 1 ? "" : "s"}`);
       if (recentReviews > 0) why.push("Cineinsta review activity");
       if (trailerSignals > 0) why.push("Recent trailer activity");
-      if (item.platforms.length) why.push(`OTT mentioned: ${item.platforms.join(", ")}`);
+      if (Object.keys(ott).length) why.push(`OTT mentioned: ${Object.values(ott).map(x => x.name).join(", ")}`);
 
       return {
         id: slugify(item.title), title: item.title, img: item.img, language: "Telugu",
-        buzzScore, status, platforms: item.platforms,
+        buzzScore, status, platforms: item.platforms, ott,
         theatre: { cinemas: item.theatreSignals, shows: item.theatreShows },
         why: why.slice(0, 2).join(" · ") || "Recent Cineinsta movie activity",
         sourceSignals: { news: recentNews, reviews: recentReviews, trailers: trailerSignals, theatreLocations: item.theatreSignals, theatreShows: item.theatreShows },
@@ -136,9 +151,9 @@ async function main() {
 
   const payload = {
     updatedAt: new Date().toISOString(), language: "Telugu",
-    tabs: [{ id: "theatres", name: "Theatres Now", status: "active" }, ...OTT_PLATFORMS.map(p => ({ id: p.id, name: p.name, status: "signal-only" }))],
+    tabs: [{ id: "theatres", name: "Theatres Now", status: "active" }, ...OTT_PLATFORMS.map(p => ({ id: p.id, name: p.name, status: "cineinsta-signal" }))],
     movies: buzz,
-    methodology: "Cineinsta Buzz is built around movie-level signals from Cineinsta reviews, news/trailer activity and authorized theatre/showtime data. OTT availability is not inferred or scraped; a platform appears only when it is explicitly mentioned in Cineinsta data until an authorized commercial OTT data source is connected."
+    methodology: "Cineinsta Buzz is built around movie-level signals from Cineinsta reviews, news/trailer activity and authorized theatre/showtime data. OTT tabs group titles only when Cineinsta coverage explicitly mentions the named platform. They do not claim verified OTT availability until an authorized commercial OTT availability source is connected."
   };
   await fs.writeFile(OUTPUT, JSON.stringify(payload, null, 2) + "\n", "utf8");
   console.log(`Wrote ${buzz.length} Cineinsta Buzz movie records.`);
