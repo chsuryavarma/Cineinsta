@@ -447,6 +447,19 @@ return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImag
 }).join("");
 }
 
+// Cineinsta Buzz tab interaction
+// Use document-level delegation because the tab buttons are rebuilt every time the Buzz data renders.
+(function setupCineBuzzTabs(){
+document.addEventListener("click", function(event){
+const button=event.target.closest("[data-buzz-tab]");
+if(!button) return;
+event.preventDefault();
+const tab=button.getAttribute("data-buzz-tab") || "all";
+window.cineBuzzActiveTab=tab;
+renderCineinstaBuzz();
+});
+})();
+
 async function loadFeed(){
 try{
 const results=await Promise.allSettled([fetch("/data/feed.json?v="+Date.now()),fetch("/data/buzz.json?v="+Date.now())]);
