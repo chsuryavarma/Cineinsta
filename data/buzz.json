@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T06:20:21.178Z",
+  "updatedAt": "2026-09-30T06:50:14.375Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -541,7 +541,7 @@
       "name": "Netflix",
       "status": "ok",
       "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-      "updatedAt": "2026-09-30T06:20:12.513Z",
+      "updatedAt": "2026-09-30T06:50:02.021Z",
       "items": [
         {
           "rank": 1,
@@ -582,7 +582,7 @@
       "name": "Prime Video",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.primevideo.com/browse",
-      "updatedAt": "2026-09-30T06:20:13.080Z",
+      "updatedAt": "2026-09-30T06:50:02.617Z",
       "items": []
     },
     "aha": {
@@ -590,7 +590,7 @@
       "name": "Aha",
       "status": "ok",
       "sourceUrl": "https://www.aha.video/telugu/movies",
-      "updatedAt": "2026-09-30T06:20:13.755Z",
+      "updatedAt": "2026-09-30T06:50:06.404Z",
       "items": [
         {
           "rank": 1,
@@ -679,7 +679,7 @@
       "name": "JioHotstar",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.hotstar.com/in/cinema",
-      "updatedAt": "2026-09-30T06:20:13.897Z",
+      "updatedAt": "2026-09-30T06:50:06.548Z",
       "items": []
     },
     "zee5": {
@@ -687,7 +687,7 @@
       "name": "ZEE5",
       "status": "ok",
       "sourceUrl": "https://www.zee5.com/global/collections/trending-in-india/0-8-7582",
-      "updatedAt": "2026-09-30T06:20:18.150Z",
+      "updatedAt": "2026-09-30T06:50:12.100Z",
       "items": [
         {
           "rank": 1,
@@ -712,7 +712,7 @@
       "name": "ETV Win",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.etvwin.com/",
-      "updatedAt": "2026-09-30T06:20:20.045Z",
+      "updatedAt": "2026-09-30T06:50:13.917Z",
       "items": []
     },
     "sonyliv": {
@@ -720,7 +720,7 @@
       "name": "SonyLIV",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.sonyliv.com/?lang=en",
-      "updatedAt": "2026-09-30T06:20:21.139Z",
+      "updatedAt": "2026-09-30T06:50:14.336Z",
       "items": []
     }
   },
