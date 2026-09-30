@@ -412,16 +412,6 @@ updateSEO(entry);
 }
 
 
-function handleBuzzImageError(img){
-if(!img)return;
-const card=img.closest(".cineBuzzCard");
-if(!card)return;
-const fallback=document.createElement("div");
-fallback.className="cineBuzzFallback";
-fallback.textContent=img.alt||"Cineinsta Buzz";
-img.replaceWith(fallback);
-}
-
 function renderCineinstaBuzz(){
 const grid=document.getElementById("cineBuzzGrid"),tabs=document.getElementById("cineBuzzTabs");
 if(!grid||!tabs)return;
@@ -446,31 +436,9 @@ renderCineinstaBuzz();
 });
 });
 
-const digitImageFor=function(title){
-const wanted=String(title||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
-if(!wanted)return "";
-const allDigit=[];
-Object.keys(ottTrending).forEach(function(id){
-const data=ottTrending[id];
-if(data&&Array.isArray(data.items))allDigit.push.apply(allDigit,data.items);
-});
-const match=allDigit.find(function(x){
-const value=String(x.title||x.name||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
-return value===wanted&&/^https?:\/\//i.test(String(x.img||""));
-});
-return match?match.img:"";
-};
-
 let selected=[];
-if(active==="buzz")selected=all.map(function(x){
-const copy=Object.assign({},x);
-copy.img=digitImageFor(copy.title)||copy.img||"";
-return copy;
-});
-else if(active==="theatres"){
-const data=ottTrending.theatres;
-selected=data&&Array.isArray(data.items)?data.items.filter(function(x){return x&&(x.title||x.name)&&x.img;}):[];
-}
+if(active==="buzz")selected=all;
+else if(active==="theatres")selected=all.filter(function(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;});
 else {
 const data=ottTrending[active];
 selected=data&&Array.isArray(data.items)?data.items.filter(function(x){return x&&(x.title||x.name)&&x.img;}):[];
@@ -499,21 +467,22 @@ const rank=item.rank!=null?String(item.rank):String(index+1);
 const itemUrl=item.url&&item.url!=="#"?item.url:sourceUrl;
 const label=item.label||data.label||"Currently surfaced by the platform";
 const safeHref=itemUrl?escapeHTML(itemUrl):"#";
-return `<a class="cineBuzzCard" href="${safeHref}"${itemUrl?` target="_blank" rel="noopener noreferrer"`:""}>${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="handleBuzzImageError(this)">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${escapeHTML(platformName)} · ${escapeHTML(label)}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${rank?`#${escapeHTML(rank)} on the platform's public movie surface.`:"Currently featured on the platform."}</div><div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>Platform-published selection</span></div><div class="cineBuzzMeta"><span>Source: ${escapeHTML(platformName)}</span></div><div class="cineBuzzDetails">This is a movie surfaced by ${escapeHTML(platformName)}. Cineinsta does not assign a popularity score or ranking to this list.</div></div></a>`;
+return `<a class="cineBuzzCard" href="${safeHref}"${itemUrl?` target="_blank" rel="noopener noreferrer"`:""}>${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${escapeHTML(platformName)} · ${escapeHTML(label)}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${rank?`#${escapeHTML(rank)} on the platform's public movie surface.`:"Currently featured on the platform."}</div><div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>Platform-published selection</span></div><div class="cineBuzzMeta"><span>Source: ${escapeHTML(platformName)}</span></div><div class="cineBuzzDetails">This is a movie surfaced by ${escapeHTML(platformName)}. Cineinsta does not assign a popularity score or ranking to this list.</div></div></a>`;
 }).join("");
 grid.innerHTML=cards;
 return;
 }
 
-grid.innerHTML=selected.slice(0,6).map(function(item){
-const title=item.title||item.t||"Cineinsta Buzz",image=item.img||"",link=active==="theatres"&&item.url?item.url:`/buzz/${articleSlug(item)}`;
+grid.innerHTML=selected.slice(0,10).map(function(item){
+const title=item.title||item.t||"Cineinsta Buzz",image=item.img||"",link=`/buzz/${articleSlug(item)}`;
 const score=item.buzzScore!=null?String(item.buzzScore):"",status=item.status||"",why=item.why||"Recent Cineinsta activity";
+const ottPlatform=item.ottPlatform||"",ottDate=item.ottDate||"";
 const theatre=item.theatre||{};
 const signalBits=[];
 if(Number(theatre.cinemas)>0)signalBits.push(String(theatre.cinemas)+" cinemas");
 if(Number(theatre.shows)>0)signalBits.push(String(theatre.shows)+" shows");
 const kicker=active==="theatres"?"Theatres Now":"Cineinsta Buzz";
-return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="handleBuzzImageError(this)">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${kicker}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div><div class="cineBuzzMeta"><span>${escapeHTML(signalBits.join(" · ")||(active==="theatres"?"Current theatre signals":"Current Cineinsta activity"))}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and available theatre signals.":"Score reflects Cineinsta editorial activity, not an OTT ranking."}</div></div></a>`;
+return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)} exact movie or series artwork" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${ottPlatform?escapeHTML(ottPlatform):kicker}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div><div class="cineBuzzMeta"><span>${ottDate?escapeHTML(ottDate):escapeHTML(signalBits.join(" · ")||(active==="theatres"?"Current theatre signals":"Current Cineinsta activity"))}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${ottPlatform?"OTT release information curated for Cineinsta Buzz.":(active==="theatres"?"Score reflects recent Cineinsta activity and available theatre signals.":"Score reflects Cineinsta editorial activity, not an OTT ranking.")}</div></div></a>`;
 }).join("");
 }
 
@@ -527,7 +496,18 @@ if(!feed||typeof feed!=="object")throw new Error("Invalid feed data");
 feed.news=Array.isArray(feed.news)?feed.news:[];
 feed.trailers=Array.isArray(feed.trailers)?feed.trailers:[];
 feed.reviews=Array.isArray(feed.reviews)?feed.reviews:[];
-feed.buzz=[];
+feed.buzz=[
+{id:"lenin",title:"Lenin",img:"https://img.youtube.com/vi/9m0LD8sS6b4/maxresdefault.jpg",language:"Telugu",ottPlatform:"ZEE5",ottDate:"August 7, 2026",status:"NEW OTT",why:"Telugu rural action drama now streaming on ZEE5."},
+{id:"oh-sukumari",title:"Oh Sukumari",img:"https://img.youtube.com/vi/TL0-kMdqt_s/maxresdefault.jpg",language:"Telugu",ottPlatform:"Prime Video",ottDate:"August 7, 2026",status:"NEW OTT",why:"Telugu romantic comedy now streaming on Prime Video."},
+{id:"hrudhayam-murali",title:"Hrudhayam Murali",img:"https://img.youtube.com/vi/7RCeBn0n9IA/maxresdefault.jpg",language:"Telugu",ottPlatform:"Netflix",ottDate:"August 7, 2026",status:"NEW OTT",why:"Coming-of-age romantic drama now streaming on Netflix."},
+{id:"vanda-devullu",title:"Vanda Devullu",img:"https://img.youtube.com/vi/KL8GfzfiH2s/maxresdefault.jpg",language:"Telugu",ottPlatform:"ZEE5",ottDate:"August 7, 2026",status:"NEW OTT",why:"Family drama now available in Telugu on ZEE5."},
+{id:"uyir",title:"Uyir",img:"https://img.youtube.com/vi/ZzkeDd3eMts/maxresdefault.jpg",language:"Telugu",ottPlatform:"JioHotstar",ottDate:"August 4, 2026",status:"NEW OTT",why:"Investigative crime thriller now streaming on JioHotstar."},
+{id:"rao-bahadur",title:"Rao Bahadur",img:"https://img.youtube.com/vi/aevbXGQKlw8/maxresdefault.jpg",language:"Telugu",ottPlatform:"Netflix",ottDate:"July 31, 2026",status:"NEW OTT",why:"Psychological drama now streaming on Netflix."},
+{id:"deewana",title:"Deewana",img:"https://img.youtube.com/vi/f-ok5QZNGVc/maxresdefault.jpg",language:"Telugu",ottPlatform:"Aha",ottDate:"July 31, 2026",status:"NEW OTT",why:"Youthful romantic drama now available on Aha."},
+{id:"objection-my-lord",title:"Objection My Lord",img:"https://img.youtube.com/vi/Fhr9JdlLRwY/maxresdefault.jpg",language:"Telugu",ottPlatform:"ZEE5",ottDate:"July 31, 2026",status:"NEW OTT",why:"Courtroom mystery drama now streaming on ZEE5."},
+{id:"second-marriage",title:"Second Marriage",img:"https://img.youtube.com/vi/Y14QUj-Ex3c/maxresdefault.jpg",language:"Telugu",ottPlatform:"ETV Win",ottDate:"July 30, 2026",status:"NEW OTT",why:"Telugu relationship drama series now streaming on ETV Win."},
+{id:"azadi-501",title:"Azadi 501",img:"https://img.youtube.com/vi/pNEG8nCVEhE/maxresdefault.jpg",language:"Telugu",ottPlatform:"Aha",ottDate:"July 29, 2026",status:"NEW OTT",why:"Telugu thriller web series now available on Aha."}
+];
 const buzzResponse=results[1].status==="fulfilled"?results[1].value:null;
 if(buzzResponse&&buzzResponse.ok){try{const buzzData=await buzzResponse.json();feed.buzz=Array.isArray(buzzData.movies)?buzzData.movies:[];feed.buzzTabs=Array.isArray(buzzData.tabs)?buzzData.tabs:[];feed.ottTrending=buzzData.ottTrending&&typeof buzzData.ottTrending==="object"?buzzData.ottTrending:{};}catch(error){console.warn("Buzz data could not be parsed:",error);}}
 renderHero(feed.news);renderNews(feed.news,20);renderTrailers(feed.trailers);renderCineinstaBuzz();renderReviews(feed.reviews);
