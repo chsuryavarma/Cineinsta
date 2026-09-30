@@ -418,7 +418,7 @@ if(!grid||!tabs)return;
 const all=Array.isArray(feed.buzz)?feed.buzz.filter(function(item){return item&&(item.title||item.t)&&item.img;}):[];
 const ottTrending=feed.ottTrending&&typeof feed.ottTrending==="object"?feed.ottTrending:{};
 const platforms=Array.isArray(feed.buzzTabs)&&feed.buzzTabs.length?feed.buzzTabs:[{id:"buzz",name:"Buzz Now"},{id:"theatres",name:"Theatres Now"},{id:"netflix",name:"Netflix"},{id:"prime-video",name:"Prime Video"},{id:"aha",name:"Aha"},{id:"jiohotstar",name:"JioHotstar"},{id:"zee5",name:"ZEE5"},{id:"sun-nxt",name:"Sun NXT"},{id:"etv-win",name:"ETV Win"},{id:"sonyliv",name:"SonyLIV"}];
-let active=window.cineBuzzActiveTab||"theatres";
+let active=window.cineBuzzActiveTab||"buzz";
 if(!platforms.some(function(p){return p.id===active;}))active="theatres";
 window.cineBuzzActiveTab=active;
 const countFor=function(id){
@@ -428,6 +428,13 @@ const data=ottTrending[id];
 return data&&Array.isArray(data.items)?data.items.length:0;
 };
 tabs.innerHTML=platforms.map(function(p){const count=countFor(p.id);return `<button type="button" class="cineBuzzTab${p.id===active?" active":""}" data-buzz-tab="${escapeHTML(p.id)}" role="tab" aria-selected="${p.id===active?"true":"false"}">${escapeHTML(p.name)}<small>${count}</small></button>`;}).join("");
+
+tabs.querySelectorAll("[data-buzz-tab]").forEach(function(button){
+button.addEventListener("click",function(){
+window.cineBuzzActiveTab=button.getAttribute("data-buzz-tab")||"buzz";
+renderCineinstaBuzz();
+});
+});
 
 let selected=[];
 if(active==="buzz")selected=all;
