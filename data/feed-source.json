@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T07:22:48.564Z",
+  "updatedAt": "2026-09-30T07:36:23.802Z",
   "language": "Telugu",
   "news": [
     {
@@ -289,17 +289,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130279/all-about-the-paradise-controversial-dialogue.html",
-      "title": "All about The Paradise controversial dialogue",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Nani on The Paradise controversial dialogue All about The Paradise controversial dialogue By Rambabu Updated at: 2026-09-29...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130279/all-about-the-paradise-controversial-dialogue.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/all-about-the-paradise-controversial-dialogue-1790691051393-1790691050476.jpg",
-      "publishedAt": "2026-09-29T14:10:55.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://telugucinema.com/news/emo-emo-idi-title-song-roshan-and-preity-mukhundhans-breezy-romance",
       "title": "Emo Emo Idi title song: Roshan and Preity Mukhundhan’s breezy romance",
       "summary": "--> --> Emo Emo Idi title song: Roshan and Preity Mukhundhan’s breezy romance - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News...",
@@ -441,6 +430,17 @@
       "publishedAt": "2026-09-29T04:29:16.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/130261/prabhas-kalki-2-sparks-buzz-over-dulquer-salmaan-return.html",
+      "title": "Prabhas Kalki 2 Sparks Buzz Over Dulquer Salmaan Return",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Gossips &gt;&gt; Dulquer To Have Prominent Role In Kalki 2 Prabhas Kalki 2 Sparks Buzz Over Dulquer Salmaan Return By Rambabu Updated at: 2026-09-29...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/130261/prabhas-kalki-2-sparks-buzz-over-dulquer-salmaan-return.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-kalki-2-sparks-buzz-over-dulquer-salmaan-return-1790651720195-1790651720561.jpg",
+      "publishedAt": "2026-09-29T03:15:25.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -448,10 +448,10 @@
       "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/prahaar-trailer-launch-maharashtra-cm-fadnavis-says-film-carries-message-praises-rajkummar-rao-and-ujjwal-nikam/articleshow/134584612.cms",
       "title": "‘Prahaar’ trailer launch: Maharashtra CM Fadnavis says film carries MESSAGE, praises Rajkummar Rao and Ujjwal Nikam",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=iNPBP56hI-s",
+      "url": "https://www.youtube.com/watch?v=CC0HmAbcaag",
       "originalUrl": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/prahaar-trailer-launch-maharashtra-cm-fadnavis-says-film-carries-message-praises-rajkummar-rao-and-ujjwal-nikam/articleshow/134584612.cms",
-      "img": "https://i.ytimg.com/vi/iNPBP56hI-s/hqdefault.jpg",
-      "youtubeId": "iNPBP56hI-s",
+      "img": "https://i.ytimg.com/vi/CC0HmAbcaag/hqdefault.jpg",
+      "youtubeId": "CC0HmAbcaag",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -459,10 +459,10 @@
       "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/those-three-days-were-very-scary-rajkummar-rao-recalls-moving-to-mumbai-just-months-before-26/11-terror-attacks-praying-for-police-and-relief-after-ajmal-kasabs-capture-during-prahaar-trailer-launch/articleshow/134583075.cms",
       "title": "‘Those three days were very scary’: Rajkummar Rao recalls watching 26/11 terror attacks unfold, praying for police and relief after Ajmal Kasab’s capture during 'Prahaar' trailer launch",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=XvxkVyTy-bY",
+      "url": "https://www.youtube.com/watch?v=qGbvEhKhaWA",
       "originalUrl": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/those-three-days-were-very-scary-rajkummar-rao-recalls-moving-to-mumbai-just-months-before-26/11-terror-attacks-praying-for-police-and-relief-after-ajmal-kasabs-capture-during-prahaar-trailer-launch/articleshow/134583075.cms",
-      "img": "https://i.ytimg.com/vi/XvxkVyTy-bY/hqdefault.jpg",
-      "youtubeId": "XvxkVyTy-bY",
+      "img": "https://i.ytimg.com/vi/qGbvEhKhaWA/hqdefault.jpg",
+      "youtubeId": "qGbvEhKhaWA",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=4Jpoh8N0oxI",
+      "url": "https://www.youtube.com/watch?v=deKwt9SJ7TI",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/4Jpoh8N0oxI/hqdefault.jpg",
-      "youtubeId": "4Jpoh8N0oxI",
+      "img": "https://i.ytimg.com/vi/deKwt9SJ7TI/hqdefault.jpg",
+      "youtubeId": "deKwt9SJ7TI",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +514,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=i6_NVyIH7Qs",
+      "url": "https://www.youtube.com/watch?v=z6sWcoljyyw",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/i6_NVyIH7Qs/hqdefault.jpg",
-      "youtubeId": "i6_NVyIH7Qs",
+      "img": "https://i.ytimg.com/vi/z6sWcoljyyw/hqdefault.jpg",
+      "youtubeId": "z6sWcoljyyw",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },

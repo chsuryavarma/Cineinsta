@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T07:23:52.309Z",
+  "updatedAt": "2026-09-30T07:37:41.707Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "unavailable"
+      "status": "ok"
     },
     {
       "id": "aha",
@@ -30,7 +30,7 @@
     {
       "id": "jiohotstar",
       "name": "JioHotstar",
-      "status": "ok"
+      "status": "unavailable"
     },
     {
       "id": "zee5",
@@ -55,9 +55,9 @@
   ],
   "movies": [
     {
-      "id": "the-paradise",
-      "title": "The Paradise",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
+      "id": "epic-first-semester",
+      "title": "Epic First Semester",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
       "language": "Telugu",
       "buzzScore": 42,
       "status": "STEADY",
@@ -75,18 +75,18 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
-      "id": "epic-first-semester",
-      "title": "Epic First Semester",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
+      "id": "the-paradise",
+      "title": "The Paradise",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
       "language": "Telugu",
-      "buzzScore": 42,
+      "buzzScore": 32,
       "status": "STEADY",
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
       "sourceSignals": {
-        "news": 2,
+        "news": 1,
         "reviews": 1,
         "trailers": 0,
         "theatreLocations": 0,
@@ -541,13 +541,14 @@
       "name": "Netflix",
       "status": "ok",
       "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-      "updatedAt": "2026-09-30T07:23:44.034Z",
+      "updatedAt": "2026-09-30T07:37:11.158Z",
       "items": [
         {
           "rank": 1,
           "title": "Vishwanath & Sons",
           "language": "Telugu",
           "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABcRBlvOhmFSXlv0EUDgiPbZ-FEsh_mUvG5fiDp4SyiEeV7YtCwC3gEKvOqArm7wwPY9Wuu1A1OfIT1SbUkViqzV68ASz-0CYfjkp_J3Lq6A.png?r=22c",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
           "sourceLabel": "Netflix Top 10",
           "signalType": "Netflix Top 10"
@@ -557,6 +558,7 @@
           "title": "Irumudi",
           "language": "Telugu",
           "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABTRr-2lGyfeidREZ6VHeOv5KNigbvDfWfJkQQLLuCJnnSMMbHG1EUPB5p-C7iwwucKdwNycrKEADOZrIUPxrOMYtuzH5AQIEmRlhZ89m7Bo.png?r=e05",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
           "sourceLabel": "Netflix Top 10",
           "signalType": "Netflix Top 10"
@@ -566,6 +568,7 @@
           "title": "Modha Rathri",
           "language": "Telugu",
           "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABW_wFTfN40_G9BU-aQfgUtCpRuluTDg88fQRFQVUbiA63BftUiWt5YWn5JJsPpPwY919vmoHCLTVESgILQ1rs5QdE_fY4y4rWgk0i6O_PBE.png?r=e1d",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
           "sourceLabel": "Netflix Top 10",
           "signalType": "Netflix Top 10"
@@ -575,6 +578,7 @@
           "title": "Lust Stories 3",
           "language": "Telugu",
           "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABV2rCPWlr_fef42rOyRnICZ9O86sOmD3QnmKWPOlzntlajiIFGvRTADFXAk_eE5-J-YMF7QWetIMsOTWVWDYY5SHBDldbjnUmbw2lyiQnm8.png?r=1a2",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
           "sourceLabel": "Netflix Top 10",
           "signalType": "Netflix Top 10"
@@ -584,6 +588,7 @@
           "title": "GDN",
           "language": "Telugu",
           "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABfsNFqUGJcJr0BXGQ2eSGZC9re4omadoeKbq7JL4Rt_OAFzyB9hY7w9eEtdO6T1XjUpLMyf0Ch6mWH_k0VwigaXK4U-effH3f1LRWQfXF5s.png?r=314",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
           "sourceLabel": "Netflix Top 10",
           "signalType": "Netflix Top 10"
@@ -593,6 +598,7 @@
           "title": "Dhamaal 4",
           "language": "Telugu",
           "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABTqW_MNOB8l_lnFIycNi1LHkAz988Gl_coYvGRPMen5eZHMwMJcyewdZ2m4dmxh_yEgeN3iWIE3cU2TWn3bCAyX8PlY4yogQj2Mokn0yDVA.png?r=af7",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
           "sourceLabel": "Netflix Top 10",
           "signalType": "Netflix Top 10"
@@ -602,6 +608,7 @@
           "title": "Gandhari",
           "language": "Telugu",
           "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABWzG0dzTbdddA7vzFdOEAEo7koZJpPZnA9mjUvm22WP2F0ayi_LJQKJM1-eYt9zdlhDHNpK34toitunR2Qwe5PD0r8-Kk6kHeTVc1aQzXT4.png?r=a8c",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
           "sourceLabel": "Netflix Top 10",
           "signalType": "Netflix Top 10"
@@ -611,6 +618,27 @@
           "title": "Korean Kanakaraju",
           "language": "Telugu",
           "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABVSGLy7ZwPx45SLiMqYFsAN57OsR1pDO7qdRSGTtF4SwF-qAEIOhwjZvW8Hzq-J2I9lTtthOimlXy2dAXr0HwjKckwlEMkN_cYYej5J1RQ8.png?r=303",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
+        },
+        {
+          "rank": 9,
+          "title": "Baby Do Die Do",
+          "language": "Telugu",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABV_UXtVDC3C5euIL6waj20qhZQTokyfWdE7w-8azkXBmvSVGhRsrKCqA5HC2PoW-nLOfuKePDfq4qaI55z-LigJs9uTJh4hxxGQYJfJbCUw.png?r=8da",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
+        },
+        {
+          "rank": 10,
+          "title": "Best of the Best",
+          "language": "Telugu",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABcR2NA732Ku5wPcJO2HqdssFMAmwlHtLr8IHETswNaUuN2jHW_62NbG7J3P42rla9cD3p8ItJVzLuBO47eGEo-sE-45evvtDA862YFToasM.png?r=0d2",
+          "url": "https://www.netflix.com/tudum/top10/india/films",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
           "sourceLabel": "Netflix Top 10",
           "signalType": "Netflix Top 10"
@@ -621,69 +649,256 @@
     "prime-video": {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "unavailable",
+      "status": "ok",
       "sourceUrl": "https://www.primevideo.com/browse",
-      "updatedAt": "2026-09-30T07:23:44.222Z",
-      "items": [],
-      "note": "The Prime Video public Trending Movies surface could not be fetched: HTTP 503"
+      "updatedAt": "2026-09-30T07:37:11.768Z",
+      "items": [
+        {
+          "rank": 1,
+          "title": "TV shows",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/tv",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 2,
+          "title": "Sports",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/sports",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 3,
+          "title": "Live TV",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/livetv",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 4,
+          "title": "Channels Browse all Caret Right",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/addons",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 5,
+          "title": "Channels Subscriptions",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/addons",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 6,
+          "title": "Categories Remaster",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/categories",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 7,
+          "title": "Help",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/help?ref_=atv_nb_hp",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 8,
+          "title": "Watch Anywhere",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/splash/watchAnywhere?ref_=atv_nb_wa",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 9,
+          "title": "Join Prime",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/signup?ref_=atv_nb_join_prime",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 10,
+          "title": "Categories",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/categories",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 11,
+          "title": "Start your 30-day free trial",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/gp/video/signup/ref=dvm_MLP_CA_Join_1_ft",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 12,
+          "title": "Rent or buy movies",
+          "language": "Telugu",
+          "img": "https://www.primevideo.com/browse",
+          "url": "https://www.primevideo.com/region/na/storefront/?merchId=RentBuy",
+          "sourceUrl": "https://www.primevideo.com/browse",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        }
+      ],
+      "note": "Movies currently surfaced by Prime Video on its public Trending Movies surface."
     },
     "aha": {
       "id": "aha",
       "name": "Aha",
       "status": "ok",
       "sourceUrl": "https://www.aha.video/telugu/movies",
-      "updatedAt": "2026-09-30T07:23:44.852Z",
+      "updatedAt": "2026-09-30T07:37:16.385Z",
       "items": [
         {
           "rank": 1,
-          "title": "Instagram icon",
+          "title": "Hotspot- 2",
           "language": "Telugu",
-          "img": "https://www.aha.video/telugu/assets/images/social/instagram-footer.png",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/hotspot-2-telugu",
           "sourceUrl": "https://www.aha.video/telugu/movies",
           "sourceLabel": "Popular Movies",
           "signalType": "Popular Movies"
         },
         {
           "rank": 2,
-          "title": "Facebook icon",
+          "title": "Drive",
           "language": "Telugu",
-          "img": "https://www.aha.video/telugu/assets/images/social/facebook-footer.svg",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/drive",
           "sourceUrl": "https://www.aha.video/telugu/movies",
           "sourceLabel": "Popular Movies",
           "signalType": "Popular Movies"
         },
         {
           "rank": 3,
-          "title": "Twitter icon",
+          "title": "Aadi Shambhala",
           "language": "Telugu",
-          "img": "https://www.aha.video/telugu/assets/images/social/twitter-footer.svg",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/aadi-shambhala",
           "sourceUrl": "https://www.aha.video/telugu/movies",
           "sourceLabel": "Popular Movies",
           "signalType": "Popular Movies"
         },
         {
           "rank": 4,
-          "title": "Android icon",
+          "title": "K-Ramp",
           "language": "Telugu",
-          "img": "https://www.aha.video/telugu/assets/images/social/google_play_mobile.svg",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/k-ramp-db",
           "sourceUrl": "https://www.aha.video/telugu/movies",
           "sourceLabel": "Popular Movies",
           "signalType": "Popular Movies"
         },
         {
           "rank": 5,
-          "title": "IOS icon",
+          "title": "Psych Siddhartha",
           "language": "Telugu",
-          "img": "https://www.aha.video/telugu/assets/images/social/app_store_mobile.svg",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/psych-siddhartha",
           "sourceUrl": "https://www.aha.video/telugu/movies",
           "sourceLabel": "Popular Movies",
           "signalType": "Popular Movies"
         },
         {
           "rank": 6,
-          "title": "Firstlight icon",
+          "title": "Bomb",
           "language": "Telugu",
-          "img": "https://www.aha.video/assets/images/logo/quickplay-logo_scale_w_1400.png",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/bomb",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
+        },
+        {
+          "rank": 7,
+          "title": "Phoenix Veezhan",
+          "language": "Telugu",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/phoenix-veezhan",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
+        },
+        {
+          "rank": 8,
+          "title": "Mahasenha",
+          "language": "Telugu",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/mahasenha",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
+        },
+        {
+          "rank": 9,
+          "title": "Premistunnaa",
+          "language": "Telugu",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/premistunna",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
+        },
+        {
+          "rank": 10,
+          "title": "Ayalaan",
+          "language": "Telugu",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/ayalaan",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
+        },
+        {
+          "rank": 11,
+          "title": "Tantra",
+          "language": "Telugu",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/tantra",
+          "sourceUrl": "https://www.aha.video/telugu/movies",
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
+        },
+        {
+          "rank": 12,
+          "title": "Balu Gani Talkies",
+          "language": "Telugu",
+          "img": "https://www.aha.video/telugu/movies",
+          "url": "https://www.aha.video/movie/balu-gani-talkies",
           "sourceUrl": "https://www.aha.video/telugu/movies",
           "sourceLabel": "Popular Movies",
           "signalType": "Popular Movies"
@@ -694,133 +909,135 @@
     "jiohotstar": {
       "id": "jiohotstar",
       "name": "JioHotstar",
-      "status": "ok",
+      "status": "unavailable",
       "sourceUrl": "https://www.hotstar.com/in/cinema",
-      "updatedAt": "2026-09-30T07:23:44.984Z",
-      "items": [
-        {
-          "rank": 1,
-          "title": "waving-hand-icon",
-          "language": "Telugu",
-          "img": "https://secure-media.hotstar.com/static/sunset/us/assets/web/disney_bundle.png",
-          "sourceUrl": "https://www.hotstar.com/in/cinema",
-          "sourceLabel": "Featured Movies",
-          "signalType": "Featured Movies"
-        }
-      ],
-      "note": "Movies currently surfaced by JioHotstar on its public Featured Movies surface."
+      "updatedAt": "2026-09-30T07:37:16.648Z",
+      "items": [],
+      "note": "No current public movie list could be extracted reliably from the JioHotstar Featured Movies surface."
     },
     "zee5": {
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
       "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
-      "updatedAt": "2026-09-30T07:23:49.598Z",
+      "updatedAt": "2026-09-30T07:37:20.514Z",
       "items": [
         {
           "rank": 1,
-          "title": "Back",
+          "title": "Demonte Colony 2 Movie",
           "language": "Telugu",
-          "img": "https://www.zee5.com/webapp-assets/images/back_arrow_subs.svg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5625693/portrait/1920x7707ad8f0fcda1e4767b4dc4b4a9ec3b9470e4fbfeb1402458db7a241b5cd7bff2ac6d59249ee5347698d71b9310e21a67f.jpg",
+          "url": "https://www.zee5.com/movies/details/demonte-colony-2/0-0-1z5625693",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 2,
-          "title": "Aindham Vedham Web Series",
+          "title": "Nunakkuzhi Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-4z5632748/portrait/1920x770bc67e81f4dde4e258c5a9ee74abf2f4b5d08786dc5af438d80d72c9ca0240bee5e9819dbac7f43f0b2defd12db48a25c.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5619087/portrait/1920x77053166c91432049a6bb6c2ae62daa1d11e3e003d8f94a4b3995fadec9fc4f8dad.jpg",
+          "url": "https://www.zee5.com/movies/details/nunakkuzhi/0-0-1z5619087",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 3,
-          "title": "Demonte Colony 2 Movie",
+          "title": "Raghu Thatha Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5625693/portrait/1920x7707ad8f0fcda1e4767b4dc4b4a9ec3b9470e4fbfeb1402458db7a241b5cd7bff2ac6d59249ee5347698d71b9310e21a67f.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5619726/portrait/1920x770e6b7c2fd6254404791c90a1c797a2d6431cec6bbba204109aeb8e6ed35cf286c8143fc6f07f24e8c8748990d43dcc1de.jpg",
+          "url": "https://www.zee5.com/movies/details/raghu-thatha/0-0-1z5619726",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 4,
-          "title": "Nunakkuzhi Movie",
+          "title": "Hanu-Man",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5619087/portrait/1920x77053166c91432049a6bb6c2ae62daa1d11e3e003d8f94a4b3995fadec9fc4f8dad.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-101-10z5535296/portrait/1920x77031b146c2d68242d19214248dc59e05cc.jpg",
+          "url": "https://www.zee5.com/movies/details/hanu-man/0-0-1z5531939",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 5,
-          "title": "Raghu Thatha Movie",
+          "title": "Demonte Colony 2 (Telugu) Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5619726/portrait/1920x770e6b7c2fd6254404791c90a1c797a2d6431cec6bbba204109aeb8e6ed35cf286c8143fc6f07f24e8c8748990d43dcc1de.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5629027/portrait/1920x770017c64b6f2654060917c7c4eb5fa39bae712644d87c242769ab5c4d99685666a.jpg",
+          "url": "https://www.zee5.com/movies/details/demonte-colony-2-telugu/0-0-1z5629027",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 6,
-          "title": "Manorathangal Web Series",
+          "title": "Viduthalai Part 1 - Theatrical Cut Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-4z5594936/portrait/1920x770d533cec0328148b6930bab162e0a697644b87ab556e64ff8af479a18ecf6b9971132b5ef058545baaf26b8578e3e3144.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5351464/portrait/1920x7703af871ea3f2d4c328c5ac16f788dac3e.jpg",
+          "url": "https://www.zee5.com/movies/details/viduthalai-part-1-theatrical-cut/0-0-1z5351464",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 7,
-          "title": "Bahishkarana Web Series",
+          "title": "Love, Sitara Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-4z5588145/portrait/1920x770a59190dd2d3d49db9155a9a5b756b95dec441bccc7094f9b9276d3536efb9ec6.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5622464/portrait/1920x770841fb138987841bf85e4d42f59b3294bb693e3cfa9dc4751a909d09bd30c20a8362216daa5ad4be19ea586f818223826.jpg",
+          "url": "https://www.zee5.com/movies/details/love-sitara/0-0-1z5622464",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 8,
-          "title": "Hanu-Man",
+          "title": "Sam Bahadur Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-101-10z5535296/portrait/1920x77031b146c2d68242d19214248dc59e05cc.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5500337/portrait/1920x7706936d378c2fe44f08e2d9e730a917972a24a53f7c7d846a5ab8d2a6a8b49432c.jpg",
+          "url": "https://www.zee5.com/movies/details/sam-bahadur/0-0-1z5500337",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 9,
-          "title": "Gyaarah Gyaarah Web Series",
+          "title": "Bhaiyya Ji Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-4z5371966/portrait/1920x7700341a9b327f749a58985584d9bf3b7532a1bf0db08d045229666914da342e23fa2625eb18fbf485a8f3135d8271e21c2.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5595126/portrait/1920x77024d7f8b3857a4603bf203801c2a53f5c77ce0411d7bd4b18bd88365e2a287458.jpg",
+          "url": "https://www.zee5.com/movies/details/bhaiyya-ji/0-0-1z5595126",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 10,
-          "title": "Demonte Colony 2 (Telugu) Movie",
+          "title": "Kakuda Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5629027/portrait/1920x770017c64b6f2654060917c7c4eb5fa39bae712644d87c242769ab5c4d99685666a.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5581177/portrait/1920x7703664fec734154b6ebb081bcca3aced6abeb3de6378ac460899188dc810097252.jpg",
+          "url": "https://www.zee5.com/movies/details/kakuda/0-0-1z5581177",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 11,
-          "title": "Viduthalai Part 1 - Theatrical Cut Movie",
+          "title": "Berlin Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5351464/portrait/1920x7703af871ea3f2d4c328c5ac16f788dac3e.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5615527/portrait/1920x770c86bf9f3970241648a1a7c8243035e72.jpg",
+          "url": "https://www.zee5.com/movies/details/berlin/0-0-1z5615527",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
         },
         {
           "rank": 12,
-          "title": "Mission Over Mars Web Series",
+          "title": "Ghost Movie",
           "language": "Telugu",
-          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-2006/portrait/1920x770406b971eac1346d7ac5097cbdf13607d5fbb3b26c0074282b0e9476c88075d97.jpg",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5465536/portrait/1920x770b084f433306346e6a6325302f522d3d1.jpg",
+          "url": "https://www.zee5.com/movies/details/ghost/0-0-1z5465536",
           "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
           "sourceLabel": "Now Trending",
           "signalType": "Now Trending"
@@ -833,16 +1050,16 @@
       "name": "Sun NXT",
       "status": "unavailable",
       "sourceUrl": "https://www.sunnxt.com/movie/inside/telugu-movies?actioURL=true&publishid=45&title=Telugu+Movies&type=movie",
-      "updatedAt": "2026-09-30T07:23:50.735Z",
+      "updatedAt": "2026-09-30T07:37:39.605Z",
       "items": [],
-      "note": "The Sun NXT public Telugu Movies surface could not be fetched: HTTP 403"
+      "note": "The Sun NXT public Telugu Movies surface could not be fetched: HTTP 403; fallback HTTP 422"
     },
     "etv-win": {
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
       "sourceUrl": "https://www.etvwin.com/",
-      "updatedAt": "2026-09-30T07:23:51.479Z",
+      "updatedAt": "2026-09-30T07:37:40.325Z",
       "items": [],
       "note": "No current public movie list could be extracted reliably from the ETV Win Featured Movies surface."
     },
@@ -851,94 +1068,34 @@
       "name": "SonyLIV",
       "status": "ok",
       "sourceUrl": "https://www.sonyliv.com/?lang=en",
-      "updatedAt": "2026-09-30T07:23:52.268Z",
+      "updatedAt": "2026-09-30T07:37:41.641Z",
       "items": [
         {
           "rank": 1,
-          "title": "Family Full House With Rohit Sharma",
+          "title": "Habeebi",
           "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/blitz_assets/1790007851/mastheadLargeV3/1790514740543986_FFH_27sep_INT_masthead_large_v3.jpg?h=auto&w=1712&q=high",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000024646/1790244558255531_HABIBI_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
+          "url": "https://www.sonyliv.com/movies/habeebi-1590016594",
           "sourceUrl": "https://www.sonyliv.com/?lang=en",
           "sourceLabel": "Trending Movies",
           "signalType": "Trending Movies"
         },
         {
           "rank": 2,
-          "title": "India's Best Dancer",
+          "title": "Kattalan",
           "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000024812/1790352734237297_IBD_Grand_Finale_masthead_large_v3.jpg?h=auto&w=1712&q=high",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000023895/1789222200809478_KATTALAN_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
+          "url": "https://www.sonyliv.com/movies/kattalan-1590016537",
           "sourceUrl": "https://www.sonyliv.com/?lang=en",
           "sourceLabel": "Trending Movies",
           "signalType": "Trending Movies"
         },
         {
           "rank": 3,
-          "title": "Habeebi",
-          "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000024646/1790244558255531_HABIBI_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
-          "sourceUrl": "https://www.sonyliv.com/?lang=en",
-          "sourceLabel": "Trending Movies",
-          "signalType": "Trending Movies"
-        },
-        {
-          "rank": 4,
-          "title": "Kyunki \"Papa Kehte Hain\"",
-          "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000023839/1789128727693274_PaPa_kahte_Hain_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
-          "sourceUrl": "https://www.sonyliv.com/?lang=en",
-          "sourceLabel": "Trending Movies",
-          "signalType": "Trending Movies"
-        },
-        {
-          "rank": 5,
-          "title": "Real Kashmir Football Club",
-          "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000024586/1790192018367217_RKFC_masthead_large_v3.jpg?h=auto&w=1712&q=high",
-          "sourceUrl": "https://www.sonyliv.com/?lang=en",
-          "sourceLabel": "Trending Movies",
-          "signalType": "Trending Movies"
-        },
-        {
-          "rank": 6,
-          "title": "Kattalan",
-          "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000023895/1789222200809478_KATTALAN_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
-          "sourceUrl": "https://www.sonyliv.com/?lang=en",
-          "sourceLabel": "Trending Movies",
-          "signalType": "Trending Movies"
-        },
-        {
-          "rank": 7,
-          "title": "Kaun Banega Crorepati",
-          "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/blitz_assets/1700000195/mastheadLargeV3/1786383141659516_KBC25_26_3_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
-          "sourceUrl": "https://www.sonyliv.com/?lang=en",
-          "sourceLabel": "Trending Movies",
-          "signalType": "Trending Movies"
-        },
-        {
-          "rank": 8,
-          "title": "Indian Game Show",
-          "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000022527/1787119140000143_INDIAN_GAME_SHOW_2026_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
-          "sourceUrl": "https://www.sonyliv.com/?lang=en",
-          "sourceLabel": "Trending Movies",
-          "signalType": "Trending Movies"
-        },
-        {
-          "rank": 9,
-          "title": "Crime Patrol 2026",
-          "language": "Telugu",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000025187/1790601825578596_Crime_Patrol_ilu_2026_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
-          "sourceUrl": "https://www.sonyliv.com/?lang=en",
-          "sourceLabel": "Trending Movies",
-          "signalType": "Trending Movies"
-        },
-        {
-          "rank": 10,
           "title": "Unmadham",
           "language": "Telugu",
           "img": "https://images.slivcdn.com/videoasset_images/blitz_assets/1590016455/mastheadLargeV3/1788462858521_1788460564149554_Unmaadham_masthead_large_v3.jpg?h=auto&w=1712&q=high",
+          "url": "https://www.sonyliv.com/movies/unmadham-1590016455",
           "sourceUrl": "https://www.sonyliv.com/?lang=en",
           "sourceLabel": "Trending Movies",
           "signalType": "Trending Movies"
@@ -947,5 +1104,5 @@
       "note": "Movies currently surfaced by SonyLIV on its public Trending Movies surface."
     }
   },
-  "methodology": "Buzz Now is Cineinsta editorial activity. OTT tabs simply show movies currently surfaced by each platform’s own public Trending, Top 10, Popular or Featured movie surface. Cineinsta does not create OTT rankings or scores. Platform ordering is preserved where available."
+  "methodology": "Buzz Now is Cineinsta editorial activity. OTT tabs show movies currently surfaced by each platform’s own public Trending, Top 10, Popular or Featured movie surface. Cineinsta does not create OTT rankings or scores. Platform ordering is preserved where available."
 }
