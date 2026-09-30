@@ -6,7 +6,7 @@ const MIN_STORIES = 20;
 const MAX_STORIES = 30;
 const MIN_SUMMARY = 180;
 const MAX_SUMMARY = 650;
-const MIN_BODY_WORDS = 140;
+const MIN_BODY_WORDS = 100;
 const MAX_BODY_WORDS = 500;
 
 const USER_AGENT =
@@ -158,12 +158,6 @@ function validateArticle(article) {
   const body = Array.isArray(article.body)
     ? article.body.map(cleanText).filter(Boolean)
     : [];
-
-  const facts = Array.isArray(article.keyFacts)
-    ? article.keyFacts.map(cleanText).filter(Boolean)
-    : [];
-
-  const context = cleanText(article.cineinstaContext || "");
   const summary = normalizeSummary(article.summary, body);
 
   const words = body.join(" ").split(/\s+/).filter(Boolean).length;
@@ -192,8 +186,6 @@ function validateArticle(article) {
     title,
     summary,
     body,
-    keyFacts: facts.slice(0, 6),
-    cineinstaContext: context
   };
 }
 
@@ -224,9 +216,7 @@ IMPORTANT:
 For every kept story return:
 1. A fresh Cineinsta headline.
 2. A 2-3 sentence homepage summary, 180-650 characters.
-3. A complete original article of 3-7 concise paragraphs and 140-500 words. Aim for 4 or more paragraphs when the facts support it; do not pad or invent details.
-4. keyFacts: 3-6 short factual bullets when the source supports them. Do not invent facts.
-5. cineinstaContext: one short paragraph explaining useful context only when supported by the supplied facts. Otherwise return an empty string.
+3. A complete original article of 3-7 concise paragraphs and 100-500 words. Aim for 4 or more paragraphs when the facts support it; do not pad or invent details.
 
 The article should answer the basic reader questions: what happened, who is involved, what is confirmed, when relevant, and why the development matters in cinema terms. Keep the writing factual and readable.
 
@@ -398,8 +388,6 @@ async function main() {
         title: validation.title,
         summary: validation.summary,
         body: validation.body,
-        keyFacts: validation.keyFacts,
-        cineinstaContext: validation.cineinstaContext,
         editorial: "Cineinsta"
       });
 
@@ -439,10 +427,8 @@ async function main() {
   console.log("Every published story contains:");
   console.log("- rewritten headline");
   console.log("- 180-650 character summary");
-  console.log("- 4-7 paragraph original article");
-  console.log("- factual key points");
-  console.log("- optional Cineinsta context");
-}
+  console.log("- 3-7 paragraph original article");
+  }
 
 main().catch(error => {
   console.error("");
