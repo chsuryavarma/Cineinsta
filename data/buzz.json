@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T16:42:40.870Z",
+  "updatedAt": "2026-09-30T18:49:10.716Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -517,7 +517,7 @@
       "name": "Netflix",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.826Z",
+      "updatedAt": "2026-09-30T18:49:10.665Z",
       "items": [
         {
           "rank": 1,
@@ -549,7 +549,7 @@
       "name": "Prime Video",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.827Z",
+      "updatedAt": "2026-09-30T18:49:10.665Z",
       "items": [
         {
           "rank": 1,
@@ -570,7 +570,7 @@
       "name": "Aha",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.827Z",
+      "updatedAt": "2026-09-30T18:49:10.666Z",
       "items": [
         {
           "rank": 1,
@@ -591,7 +591,7 @@
       "name": "JioHotstar",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.827Z",
+      "updatedAt": "2026-09-30T18:49:10.666Z",
       "items": [
         {
           "rank": 1,
@@ -612,7 +612,7 @@
       "name": "ZEE5",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.827Z",
+      "updatedAt": "2026-09-30T18:49:10.666Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -621,7 +621,7 @@
       "name": "Sun NXT",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.827Z",
+      "updatedAt": "2026-09-30T18:49:10.666Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -630,7 +630,7 @@
       "name": "ETV Win",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.827Z",
+      "updatedAt": "2026-09-30T18:49:10.666Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -639,7 +639,7 @@
       "name": "SonyLIV",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.827Z",
+      "updatedAt": "2026-09-30T18:49:10.666Z",
       "items": [
         {
           "rank": 1,
@@ -660,7 +660,7 @@
       "name": "Theatres Now",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T16:42:40.828Z",
+      "updatedAt": "2026-09-30T18:49:10.667Z",
       "items": [
         {
           "rank": 1,
