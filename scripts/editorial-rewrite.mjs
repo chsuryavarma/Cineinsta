@@ -6,6 +6,8 @@ const MIN_STORIES = 20;
 const MAX_STORIES = 30;
 const MIN_SUMMARY = 180;
 const MAX_SUMMARY = 650;
+const MIN_BODY_WORDS = 140;
+const MAX_BODY_WORDS = 500;
 
 const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
@@ -170,11 +172,11 @@ function validateArticle(article) {
     return { ok: false, reason: "headline length invalid" };
   }
 
-  if (body.length < 4 || body.length > 7) {
+  if (body.length < 3 || body.length > 7) {
     return { ok: false, reason: `body has ${body.length} paragraphs` };
   }
 
-  if (words < 150 || words > 500) {
+  if (words < MIN_BODY_WORDS || words > MAX_BODY_WORDS) {
     return { ok: false, reason: `body has ${words} words` };
   }
 
@@ -222,7 +224,7 @@ IMPORTANT:
 For every kept story return:
 1. A fresh Cineinsta headline.
 2. A 2-3 sentence homepage summary, 180-650 characters.
-3. A complete original article of 4-7 concise paragraphs and 150-500 words.
+3. A complete original article of 3-7 concise paragraphs and 140-500 words. Aim for 4 or more paragraphs when the facts support it; do not pad or invent details.
 4. keyFacts: 3-6 short factual bullets when the source supports them. Do not invent facts.
 5. cineinstaContext: one short paragraph explaining useful context only when supported by the supplied facts. Otherwise return an empty string.
 
