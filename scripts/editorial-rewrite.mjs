@@ -3,7 +3,7 @@
     const MODEL = "gemini-3.5-flash-lite";
     const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
     const BATCH_SIZE = 4;
-6. The summary must be a separate homepage summary of 180-650 characters, written in 2-3 concise sentences. Include the most important facts, names, dates, numbers and developments from the article.
+
     function decode(text = "") {
       return String(text)
         .replace(/&nbsp;/gi, " ")
@@ -109,7 +109,7 @@
     3. Do not invent facts, quotes, numbers, dates, motives, opinions presented as facts, or details.
     4. Do not mention the source publisher, source website, source article, or tell readers to read the original.
     5. Each article must contain 4-7 concise readable paragraphs and approximately 150-500 words. Use the fewest words needed to cover the important facts, names, dates, numbers, developments and context supported by the source.
-    6. The summary must be a separate concise 2-3 sentence homepage summary.
+    6. The summary must be a separate homepage summary of 180-650 characters, written in 2-3 concise sentences. Include the most important facts, names, dates, numbers and developments from the article.
     7. Rewrite the headline in Cineinsta style.
     8. If the supplied facts are insufficient for a complete original article, set keep=false for that story rather than inventing material.
     9. Return JSON only.
