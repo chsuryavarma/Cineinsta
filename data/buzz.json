@@ -1,5 +1,5 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-09-30T04:59:13.199Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -48,6 +48,535 @@
       "status": "signal-only"
     }
   ],
-  "movies": [],
-  "methodology": "Cineinsta Buzz combines Cineinsta news/review activity with authorized theatre/showtime signals. OTT availability is not inferred or scraped. Platform labels appear only when an OTT service is explicitly mentioned in Cineinsta data until an authorized commercial OTT data source is connected."
+  "movies": [
+    {
+      "id": "the-paradise",
+      "title": "The Paradise",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
+      "language": "Telugu",
+      "buzzScore": 42,
+      "status": "STEADY",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "2 recent Cineinsta news signals · Cineinsta review activity",
+      "sourceSignals": {
+        "news": 2,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "epic-first-semester",
+      "title": "Epic First Semester",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal · Cineinsta review activity",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "romanchakam",
+      "title": "Romanchakam",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal · Cineinsta review activity",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "toxic",
+      "title": "Toxic",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "1 recent Cineinsta news signal · Cineinsta review activity",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "anumana-pakshi",
+      "title": "Anumana Pakshi",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/anumana-1.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "the-vvaan",
+      "title": "The Vvaan",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "immortal",
+      "title": "Immortal",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Immortal.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "happy-journey",
+      "title": "Happy Journey",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/happyjourney2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "lust-stories-3",
+      "title": "Lust Stories 3",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Lust-Stories-3.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "missing-meghana",
+      "title": "Missing Meghana",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Missing-Meghana.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "pitapuramlo-ala-modalaindi",
+      "title": "Pitapuramlo Ala Modalaindi",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Pitapuramlo-Ala-Modalaindi.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "modha-rathri",
+      "title": "Modha Rathri",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Modha-Rathri.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "mahendragiri-varahi",
+      "title": "Mahendragiri Varahi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "panchanama",
+      "title": "Panchanama",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Panchanama.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "maremma",
+      "title": "Maremma",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "mandaadi",
+      "title": "Mandaadi",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mandaadi-1.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "ramba-oorvasi-menaka",
+      "title": "Ramba Oorvasi Menaka",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/RambhaUrvashiMenaka2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "mirzapur-the-movie",
+      "title": "Mirzapur The Movie",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mirzapur-The-Movie.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "bethlehem-kudumba-unit",
+      "title": "Bethlehem Kudumba Unit",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "irumudi",
+      "title": "Irumudi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "pallaburusu",
+      "title": "Pallaburusu",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "vishwanath-and-sons",
+      "title": "Vishwanath and Sons",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "agadha",
+      "title": "Agadha",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/05/Agadha_Movie_31.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    }
+  ],
+  "methodology": "Cineinsta Buzz is built around movie-level signals from Cineinsta reviews, news/trailer activity and authorized theatre/showtime data. OTT availability is not inferred or scraped; a platform appears only when it is explicitly mentioned in Cineinsta data until an authorized commercial OTT data source is connected."
 }
