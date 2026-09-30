@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T05:36:24.695Z",
+  "updatedAt": "2026-09-30T05:43:03.520Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -78,7 +78,7 @@
       "title": "Epic First Semester",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
       "language": "Telugu",
-      "buzzScore": 42,
+      "buzzScore": 32,
       "status": "STEADY",
       "platforms": [
         "Aha"
@@ -93,30 +93,6 @@
           "label": "Mentioned in recent Cineinsta coverage"
         }
       },
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "why": "2 recent Cineinsta news signals · Cineinsta review activity",
-      "sourceSignals": {
-        "news": 2,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "platforms": [],
-      "platformIds": [],
-      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -419,6 +395,30 @@
       "id": "panchanama",
       "title": "Panchanama",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Panchanama.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "platformIds": [],
+      "ott": {},
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
