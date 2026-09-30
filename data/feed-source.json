@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T16:26:44.266Z",
+  "updatedAt": "2026-09-30T16:41:02.677Z",
   "language": "Telugu",
   "news": [
     {
@@ -448,10 +448,10 @@
       "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/yami-gautams-nayyi-navelli-trailer-out-mohinis-arrival-as-new-bahu-turns-the-awasthi-familys-world-upside-down/articleshow/134596200.cms",
       "title": "Yami Gautam's 'Nayyi Navelli' trailer out: Mohini's arrival as new bahu turns the Awasthi family's world upside down",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=bcelO69pMSc",
+      "url": "https://www.youtube.com/watch?v=6wFe5RVUYxc",
       "originalUrl": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/yami-gautams-nayyi-navelli-trailer-out-mohinis-arrival-as-new-bahu-turns-the-awasthi-familys-world-upside-down/articleshow/134596200.cms",
-      "img": "https://i.ytimg.com/vi/bcelO69pMSc/hqdefault.jpg",
-      "youtubeId": "bcelO69pMSc",
+      "img": "https://i.ytimg.com/vi/6wFe5RVUYxc/hqdefault.jpg",
+      "youtubeId": "6wFe5RVUYxc",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -470,10 +470,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=Qwdbr8O-QMY",
+      "url": "https://www.youtube.com/watch?v=k0gn-ODU_VE",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/Qwdbr8O-QMY/hqdefault.jpg",
-      "youtubeId": "Qwdbr8O-QMY",
+      "img": "https://i.ytimg.com/vi/k0gn-ODU_VE/hqdefault.jpg",
+      "youtubeId": "k0gn-ODU_VE",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +514,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=XS3a2ETpeaE",
+      "url": "https://www.youtube.com/watch?v=PFWwt5asUe0",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/XS3a2ETpeaE/hqdefault.jpg",
-      "youtubeId": "XS3a2ETpeaE",
+      "img": "https://i.ytimg.com/vi/PFWwt5asUe0/hqdefault.jpg",
+      "youtubeId": "PFWwt5asUe0",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -1973,6 +1973,50 @@
             "rating": null,
             "ratingText": "Not available",
             "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "t": "సమీక్ష : సీక్రెట్ సోల్జర్ - రెగ్యులర్ ఎమోషనల్ క్రైమ్ డ్రామా !",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "2.5/5",
+      "img": "https://cdn.123telugu.com/telugu/wp-content/uploads/2026/09/screct.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html",
+      "aggregator": {
+        "average": 2.5,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html"
           }
         ]
       }
