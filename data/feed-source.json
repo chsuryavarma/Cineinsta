@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-09-30T05:24:10.949Z",
+  "updatedAt": "2026-09-30T05:35:20.272Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/irumudi-roars-on-ott-ravi-tejas-blockbuster-storms-to-no-1-on-netflix-global-top-10-hk.html",
+      "title": "Irumudi Roars on OTT: Ravi Teja’s Blockbuster Storms to No. 1 on Netflix Global Top 10",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Irumudi Roars on OTT: Ravi Teja’s Blockbuster Storms to...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/irumudi-roars-on-ott-ravi-tejas-blockbuster-storms-to-no-1-on-netflix-global-top-10-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/irumudi-1-4.webp",
+      "publishedAt": "2026-09-30T05:31:40.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://telugucinema.com/news/sreeleela-begins-shooting-for-rajinikanths-dharman",
       "title": "Sreeleela begins shooting for Rajinikanth’s Dharman",
@@ -430,17 +441,6 @@
       "publishedAt": "2026-09-29T05:36:36.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/as-varanasi-shoot-comes-to-an-end-whats-next-for-mahesh-babu",
-      "title": "As Varanasi shoot comes to an end, what’s next for Mahesh Babu?",
-      "summary": "--> --> As Varanasi shoot comes to an end, what’s next for Mahesh Babu?",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/as-varanasi-shoot-comes-to-an-end-whats-next-for-mahesh-babu",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/09/mahesh-babu-in-varanasi-loo.jpg",
-      "publishedAt": "2026-09-29T05:17:29.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -448,22 +448,11 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
       "title": "Prahaar: The Untold Story of Ujjwal Nikam - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=C3k6y9hEGog",
+      "url": "https://www.youtube.com/watch?v=eZPYnt2DAKc",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
-      "img": "https://i.ytimg.com/vi/C3k6y9hEGog/hqdefault.jpg",
-      "youtubeId": "C3k6y9hEGog",
+      "img": "https://i.ytimg.com/vi/eZPYnt2DAKc/hqdefault.jpg",
+      "youtubeId": "eZPYnt2DAKc",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
-      "title": "Jailer 2 Trailer Release Date Locked: Rajinikanth’s Sequel Set for a Grand Reveal",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://www.youtube.com/watch?v=W1E88MJFlKQ",
-      "originalUrl": "https://indiaglitz.com/jailer-2-trailer-release-date-locked-rajinikanths-sequel-set-for-a-grand-reveal",
-      "img": "https://i.ytimg.com/vi/W1E88MJFlKQ/hqdefault.jpg",
-      "youtubeId": "W1E88MJFlKQ",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
       "language": "Telugu"
     },
     {
@@ -492,10 +481,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=ZwGlMoAmq5s",
+      "url": "https://www.youtube.com/watch?v=XS3a2ETpeaE",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/ZwGlMoAmq5s/hqdefault.jpg",
-      "youtubeId": "ZwGlMoAmq5s",
+      "img": "https://i.ytimg.com/vi/XS3a2ETpeaE/hqdefault.jpg",
+      "youtubeId": "XS3a2ETpeaE",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +492,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
       "title": "The Vvaan - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=2imX-KViK0s",
+      "url": "https://www.youtube.com/watch?v=TlMDBaTERtY",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
-      "img": "https://i.ytimg.com/vi/2imX-KViK0s/hqdefault.jpg",
-      "youtubeId": "2imX-KViK0s",
+      "img": "https://i.ytimg.com/vi/TlMDBaTERtY/hqdefault.jpg",
+      "youtubeId": "TlMDBaTERtY",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
       "title": "Baththa - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=IO4v4SW8kl8",
+      "url": "https://www.youtube.com/watch?v=QAMyuZSvqWI",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://i.ytimg.com/vi/IO4v4SW8kl8/hqdefault.jpg",
-      "youtubeId": "IO4v4SW8kl8",
+      "img": "https://i.ytimg.com/vi/QAMyuZSvqWI/hqdefault.jpg",
+      "youtubeId": "QAMyuZSvqWI",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -572,6 +561,17 @@
       "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
       "img": "https://static.toiimg.com/thumb/msid-133713137,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/street-fighter-official-trailer/videoshow/133697481.cms",
+      "title": "Street Fighter - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/street-fighter-official-trailer/videoshow/133697481.cms",
+      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/english/street-fighter-official-trailer/videoshow/133697481.cms",
+      "img": "https://static.toiimg.com/thumb/msid-133697481,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "language": "Telugu"
