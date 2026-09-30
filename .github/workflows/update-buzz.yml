@@ -31,12 +31,20 @@ jobs:
         run: |
           node scripts/update-buzz.mjs
 
+      - name: Validate Buzz image URLs
+        run: |
+          node scripts/validate-feed-images.mjs
+
       - name: Commit Buzz data
         run: |
           git config user.name "Cineinsta Buzz Bot"
           git config user.email "cineinsta-bot@users.noreply.github.com"
 
-          git add data/ticket-trends.json data/buzz.json
+          git add data/buzz.json
+
+          if [ -f data/ticket-trends.json ]; then
+            git add data/ticket-trends.json
+          fi
 
           git diff --cached --quiet || git commit -m "Auto-update Cineinsta Buzz"
 
