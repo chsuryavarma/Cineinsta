@@ -3,7 +3,7 @@
     const MODEL = "gemini-3.5-flash-lite";
     const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
     const BATCH_SIZE = 4;
-
+6. The summary must be a separate homepage summary of 180-650 characters, written in 2-3 concise sentences. Include the most important facts, names, dates, numbers and developments from the article.
     function decode(text = "") {
       return String(text)
         .replace(/&nbsp;/gi, " ")
