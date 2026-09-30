@@ -416,49 +416,67 @@ function renderCineinstaBuzz(){
 const grid=document.getElementById("cineBuzzGrid"),tabs=document.getElementById("cineBuzzTabs");
 if(!grid||!tabs)return;
 const all=Array.isArray(feed.buzz)?feed.buzz.filter(function(item){return item&&(item.title||item.t)&&item.img;}):[];
-const platforms=[{id:"all",name:"Buzz Now"},{id:"theatres",name:"Theatres Now"},{id:"netflix",name:"Netflix"},{id:"prime-video",name:"Prime Video"},{id:"aha",name:"Aha"},{id:"jiohotstar",name:"JioHotstar"},{id:"zee5",name:"ZEE5"},{id:"sun-nxt",name:"Sun NXT"},{id:"etv-win",name:"ETV Win"},{id:"sonyliv",name:"SonyLIV"}];
-let active=window.cineBuzzActiveTab||"all";
-if(!platforms.some(function(p){return p.id===active;}))active="all";
+const ottTrending=feed.ottTrending&&typeof feed.ottTrending==="object"?feed.ottTrending:{};
+const platforms=Array.isArray(feed.buzzTabs)&&feed.buzzTabs.length?feed.buzzTabs:[{id:"buzz",name:"Buzz Now"},{id:"theatres",name:"Theatres Now"},{id:"netflix",name:"Netflix"},{id:"prime-video",name:"Prime Video"},{id:"aha",name:"Aha"},{id:"jiohotstar",name:"JioHotstar"},{id:"zee5",name:"ZEE5"},{id:"sun-nxt",name:"Sun NXT"},{id:"etv-win",name:"ETV Win"},{id:"sonyliv",name:"SonyLIV"}];
+let active=window.cineBuzzActiveTab||"theatres";
+if(!platforms.some(function(p){return p.id===active;}))active="theatres";
 window.cineBuzzActiveTab=active;
-function hasTheatre(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;}
-function hasPlatform(x,id){return Array.isArray(x.platformIds)&&x.platformIds.includes(id)||(x.ott&&x.ott[id]);}
-tabs.innerHTML=platforms.map(function(p){
-const count=p.id==="all"?all.length:p.id==="theatres"?all.filter(hasTheatre).length:all.filter(function(x){return hasPlatform(x,p.id);}).length;
-return `<button type="button" class="cineBuzzTab${p.id===active?" active":""}" data-buzz-tab="${escapeHTML(p.id)}" role="tab" aria-selected="${p.id===active?"true":"false"}">${escapeHTML(p.name)}${count?`<small>${count}</small>`:""}</button>`;
-}).join("");
-let selected=active==="all"?all.slice():active==="theatres"?all.filter(hasTheatre):all.filter(function(x){return hasPlatform(x,active);});
+const countFor=function(id){
+if(id==="buzz")return all.length;
+if(id==="theatres")return all.filter(function(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;}).length;
+const data=ottTrending[id];
+return data&&Array.isArray(data.items)?data.items.length:0;
+};
+tabs.innerHTML=platforms.map(function(p){const count=countFor(p.id);return `<button type="button" class="cineBuzzTab${p.id===active?" active":""}" data-buzz-tab="${escapeHTML(p.id)}" role="tab" aria-selected="${p.id===active?"true":"false"}">${escapeHTML(p.name)}<small>${count}</small></button>`;}).join("");
+
+let selected=[];
+if(active==="buzz")selected=all;
+else if(active==="theatres")selected=all.filter(function(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;});
+else {
+const data=ottTrending[active];
+selected=data&&Array.isArray(data.items)?data.items.filter(function(x){return x&&(x.title||x.name)&&x.img;}):[];
+}
+
 if(!selected.length){
 const p=platforms.find(function(x){return x.id===active;});
-const msg=active==="theatres"?"No verified Hyderabad theatre/showtime data is available right now. Check Buzz Now for current Cineinsta activity.":`${p?p.name:"This platform"} has no explicit Cineinsta OTT signal right now. Check Buzz Now for current Cineinsta activity.`;
+let msg="No titles are available in this section yet.";
+if(active==="theatres")msg="Current theatre/showtime data is not available yet.";
+else if(active!=="buzz"){
+const data=ottTrending[active];
+msg=data&&data.note?data.note:`${p?p.name:"This platform"} has not exposed a reliable public movie list yet.`;
+}
 grid.innerHTML=`<div class="empty cineBuzzEmpty">${escapeHTML(msg)}</div>`;
 return;
 }
+
+if(active!=="buzz"&&active!=="theatres"){
+const data=ottTrending[active]||{};
+const platformName=(platforms.find(function(p){return p.id===active;})||{}).name||data.name||"OTT";
+const sourceUrl=data.sourceUrl||"";
+const cards=selected.slice(0,10).map(function(item,index){
+const title=item.title||item.name||"Cineinsta Buzz";
+const image=item.img||item.image||"";
+const rank=item.rank!=null?String(item.rank):String(index+1);
+const itemUrl=item.url&&item.url!=="#"?item.url:sourceUrl;
+const label=item.label||data.label||"Currently surfaced by the platform";
+const safeHref=itemUrl?escapeHTML(itemUrl):"#";
+return `<a class="cineBuzzCard" href="${safeHref}"${itemUrl?` target="_blank" rel="noopener noreferrer"`:""}>${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${escapeHTML(platformName)} · ${escapeHTML(label)}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${rank?`#${escapeHTML(rank)} on the platform's public movie surface.`:"Currently featured on the platform."}</div><div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>Platform-published selection</span></div><div class="cineBuzzMeta"><span>Source: ${escapeHTML(platformName)}</span></div><div class="cineBuzzDetails">This is a movie surfaced by ${escapeHTML(platformName)}. Cineinsta does not assign a popularity score or ranking to this list.</div></div></a>`;
+}).join("");
+grid.innerHTML=cards;
+return;
+}
+
 grid.innerHTML=selected.slice(0,6).map(function(item){
 const title=item.title||item.t||"Cineinsta Buzz",image=item.img||"",link=`/buzz/${articleSlug(item)}`;
 const score=item.buzzScore!=null?String(item.buzzScore):"",status=item.status||"",why=item.why||"Recent Cineinsta activity";
-const theatre=item.theatre||{},ott=item.ott&&item.ott[active]?item.ott[active]:null;
+const theatre=item.theatre||{};
 const signalBits=[];
 if(Number(theatre.cinemas)>0)signalBits.push(String(theatre.cinemas)+" cinemas");
 if(Number(theatre.shows)>0)signalBits.push(String(theatre.shows)+" shows");
-const platformName=(platforms.find(function(p){return p.id===active;})||{}).name||"OTT";
-const ottLabel=ott&&ott.label?ott.label:"Mentioned in recent Cineinsta coverage";
-const context=active==="all"?"Current Cineinsta activity":active==="theatres"?(signalBits.join(" · ")||"Verified theatre signals"):platformName+" · explicit Cineinsta signal";
-return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${active==="all"?"Cineinsta Buzz":active==="theatres"?"Theatres Now":"Cineinsta OTT Signal"}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div>${active!=="all"&&active!=="theatres"?`<div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>${escapeHTML(ottLabel)}</span></div>`:""}<div class="cineBuzzMeta"><span>${escapeHTML(context)}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and verified theatre signals.":active==="all"?"Score reflects recent Cineinsta news, review, trailer and available theatre activity.":"Platform tab shows an explicit Cineinsta OTT signal; it does not claim verified platform availability."}</div></div></a>`;
+const kicker=active==="theatres"?"Theatres Now":"Cineinsta Buzz";
+return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${kicker}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div><div class="cineBuzzMeta"><span>${escapeHTML(signalBits.join(" · ")||(active==="theatres"?"Current theatre signals":"Current Cineinsta activity"))}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and available theatre signals.":"Score reflects Cineinsta editorial activity, not an OTT ranking."}</div></div></a>`;
 }).join("");
 }
-
-// Cineinsta Buzz tab interaction
-// Use document-level delegation because the tab buttons are rebuilt every time the Buzz data renders.
-(function setupCineBuzzTabs(){
-document.addEventListener("click", function(event){
-const button=event.target.closest("[data-buzz-tab]");
-if(!button) return;
-event.preventDefault();
-const tab=button.getAttribute("data-buzz-tab") || "all";
-window.cineBuzzActiveTab=tab;
-renderCineinstaBuzz();
-});
-})();
 
 async function loadFeed(){
 try{
@@ -472,7 +490,7 @@ feed.trailers=Array.isArray(feed.trailers)?feed.trailers:[];
 feed.reviews=Array.isArray(feed.reviews)?feed.reviews:[];
 feed.buzz=[];
 const buzzResponse=results[1].status==="fulfilled"?results[1].value:null;
-if(buzzResponse&&buzzResponse.ok){try{const buzzData=await buzzResponse.json();feed.buzz=Array.isArray(buzzData.movies)?buzzData.movies:[];feed.buzzTabs=Array.isArray(buzzData.tabs)?buzzData.tabs:[];}catch(error){console.warn("Buzz data could not be parsed:",error);}}
+if(buzzResponse&&buzzResponse.ok){try{const buzzData=await buzzResponse.json();feed.buzz=Array.isArray(buzzData.movies)?buzzData.movies:[];feed.buzzTabs=Array.isArray(buzzData.tabs)?buzzData.tabs:[];feed.ottTrending=buzzData.ottTrending&&typeof buzzData.ottTrending==="object"?buzzData.ottTrending:{};}catch(error){console.warn("Buzz data could not be parsed:",error);}}
 renderHero(feed.news);renderNews(feed.news,20);renderTrailers(feed.trailers);renderCineinstaBuzz();renderReviews(feed.reviews);
 }catch(error){
 console.error(error);
