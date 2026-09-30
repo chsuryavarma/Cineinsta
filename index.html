@@ -412,6 +412,16 @@ updateSEO(entry);
 }
 
 
+function handleBuzzImageError(img){
+if(!img)return;
+const card=img.closest(".cineBuzzCard");
+if(!card)return;
+const fallback=document.createElement("div");
+fallback.className="cineBuzzFallback";
+fallback.textContent=img.alt||"Cineinsta Buzz";
+img.replaceWith(fallback);
+}
+
 function renderCineinstaBuzz(){
 const grid=document.getElementById("cineBuzzGrid"),tabs=document.getElementById("cineBuzzTabs");
 if(!grid||!tabs)return;
@@ -436,9 +446,31 @@ renderCineinstaBuzz();
 });
 });
 
+const digitImageFor=function(title){
+const wanted=String(title||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+if(!wanted)return "";
+const allDigit=[];
+Object.keys(ottTrending).forEach(function(id){
+const data=ottTrending[id];
+if(data&&Array.isArray(data.items))allDigit.push.apply(allDigit,data.items);
+});
+const match=allDigit.find(function(x){
+const value=String(x.title||x.name||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+return value===wanted&&/^https?:\/\//i.test(String(x.img||""));
+});
+return match?match.img:"";
+};
+
 let selected=[];
-if(active==="buzz")selected=all;
-else if(active==="theatres")selected=all.filter(function(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;});
+if(active==="buzz")selected=all.map(function(x){
+const copy=Object.assign({},x);
+copy.img=digitImageFor(copy.title)||copy.img||"";
+return copy;
+});
+else if(active==="theatres"){
+const data=ottTrending.theatres;
+selected=data&&Array.isArray(data.items)?data.items.filter(function(x){return x&&(x.title||x.name)&&x.img;}):[];
+}
 else {
 const data=ottTrending[active];
 selected=data&&Array.isArray(data.items)?data.items.filter(function(x){return x&&(x.title||x.name)&&x.img;}):[];
@@ -467,21 +499,21 @@ const rank=item.rank!=null?String(item.rank):String(index+1);
 const itemUrl=item.url&&item.url!=="#"?item.url:sourceUrl;
 const label=item.label||data.label||"Currently surfaced by the platform";
 const safeHref=itemUrl?escapeHTML(itemUrl):"#";
-return `<a class="cineBuzzCard" href="${safeHref}"${itemUrl?` target="_blank" rel="noopener noreferrer"`:""}>${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${escapeHTML(platformName)} · ${escapeHTML(label)}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${rank?`#${escapeHTML(rank)} on the platform's public movie surface.`:"Currently featured on the platform."}</div><div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>Platform-published selection</span></div><div class="cineBuzzMeta"><span>Source: ${escapeHTML(platformName)}</span></div><div class="cineBuzzDetails">This is a movie surfaced by ${escapeHTML(platformName)}. Cineinsta does not assign a popularity score or ranking to this list.</div></div></a>`;
+return `<a class="cineBuzzCard" href="${safeHref}"${itemUrl?` target="_blank" rel="noopener noreferrer"`:""}>${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="handleBuzzImageError(this)">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${escapeHTML(platformName)} · ${escapeHTML(label)}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${rank?`#${escapeHTML(rank)} on the platform's public movie surface.`:"Currently featured on the platform."}</div><div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>Platform-published selection</span></div><div class="cineBuzzMeta"><span>Source: ${escapeHTML(platformName)}</span></div><div class="cineBuzzDetails">This is a movie surfaced by ${escapeHTML(platformName)}. Cineinsta does not assign a popularity score or ranking to this list.</div></div></a>`;
 }).join("");
 grid.innerHTML=cards;
 return;
 }
 
 grid.innerHTML=selected.slice(0,6).map(function(item){
-const title=item.title||item.t||"Cineinsta Buzz",image=item.img||"",link=`/buzz/${articleSlug(item)}`;
+const title=item.title||item.t||"Cineinsta Buzz",image=item.img||"",link=active==="theatres"&&item.url?item.url:`/buzz/${articleSlug(item)}`;
 const score=item.buzzScore!=null?String(item.buzzScore):"",status=item.status||"",why=item.why||"Recent Cineinsta activity";
 const theatre=item.theatre||{};
 const signalBits=[];
 if(Number(theatre.cinemas)>0)signalBits.push(String(theatre.cinemas)+" cinemas");
 if(Number(theatre.shows)>0)signalBits.push(String(theatre.shows)+" shows");
 const kicker=active==="theatres"?"Theatres Now":"Cineinsta Buzz";
-return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${kicker}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div><div class="cineBuzzMeta"><span>${escapeHTML(signalBits.join(" · ")||(active==="theatres"?"Current theatre signals":"Current Cineinsta activity"))}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and available theatre signals.":"Score reflects Cineinsta editorial activity, not an OTT ranking."}</div></div></a>`;
+return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="handleBuzzImageError(this)">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${kicker}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div><div class="cineBuzzMeta"><span>${escapeHTML(signalBits.join(" · ")||(active==="theatres"?"Current theatre signals":"Current Cineinsta activity"))}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and available theatre signals.":"Score reflects Cineinsta editorial activity, not an OTT ranking."}</div></div></a>`;
 }).join("");
 }
 
