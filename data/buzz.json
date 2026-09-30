@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T06:50:14.375Z",
+  "updatedAt": "2026-09-30T06:58:05.448Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -35,7 +35,7 @@
     {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "ok"
+      "status": "no-telugu-matches"
     },
     {
       "id": "sun-nxt",
@@ -78,26 +78,6 @@
       "id": "epic-first-semester",
       "title": "Epic First Semester",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
-    },
-    {
-      "id": "toxic",
-      "title": "Toxic",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -475,6 +455,26 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
+      "id": "toxic",
+      "title": "Toxic",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+    },
+    {
       "id": "pallaburusu",
       "title": "Pallaburusu",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg",
@@ -541,7 +541,7 @@
       "name": "Netflix",
       "status": "ok",
       "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-      "updatedAt": "2026-09-30T06:50:02.021Z",
+      "updatedAt": "2026-09-30T06:57:57.266Z",
       "items": [
         {
           "rank": 1,
@@ -582,7 +582,7 @@
       "name": "Prime Video",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.primevideo.com/browse",
-      "updatedAt": "2026-09-30T06:50:02.617Z",
+      "updatedAt": "2026-09-30T06:57:57.877Z",
       "items": []
     },
     "aha": {
@@ -590,7 +590,7 @@
       "name": "Aha",
       "status": "ok",
       "sourceUrl": "https://www.aha.video/telugu/movies",
-      "updatedAt": "2026-09-30T06:50:06.404Z",
+      "updatedAt": "2026-09-30T06:57:58.387Z",
       "items": [
         {
           "rank": 1,
@@ -679,25 +679,16 @@
       "name": "JioHotstar",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.hotstar.com/in/cinema",
-      "updatedAt": "2026-09-30T06:50:06.548Z",
+      "updatedAt": "2026-09-30T06:57:58.690Z",
       "items": []
     },
     "zee5": {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "ok",
+      "status": "no-telugu-matches",
       "sourceUrl": "https://www.zee5.com/global/collections/trending-in-india/0-8-7582",
-      "updatedAt": "2026-09-30T06:50:12.100Z",
-      "items": [
-        {
-          "rank": 1,
-          "title": "Nani and Srikanth Odela Address Backlash Over The Paradise Dialogue",
-          "language": "Telugu",
-          "img": "https://www.cinejosh.com/newsimg/newsmainimg/all-about-the-paradise-controversial-dialogue-1790691051393-1790691050476.jpg",
-          "sourceUrl": "https://www.zee5.com/global/collections/trending-in-india/0-8-7582",
-          "platformSignal": false
-        }
-      ]
+      "updatedAt": "2026-09-30T06:58:02.977Z",
+      "items": []
     },
     "sun-nxt": {
       "id": "sun-nxt",
@@ -712,7 +703,7 @@
       "name": "ETV Win",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.etvwin.com/",
-      "updatedAt": "2026-09-30T06:50:13.917Z",
+      "updatedAt": "2026-09-30T06:58:04.962Z",
       "items": []
     },
     "sonyliv": {
@@ -720,7 +711,7 @@
       "name": "SonyLIV",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.sonyliv.com/?lang=en",
-      "updatedAt": "2026-09-30T06:50:14.336Z",
+      "updatedAt": "2026-09-30T06:58:05.417Z",
       "items": []
     }
   },
