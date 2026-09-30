@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T05:57:35.142Z",
+  "updatedAt": "2026-09-30T06:20:21.178Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "ok"
+      "status": "no-telugu-matches"
     },
     {
       "id": "aha",
@@ -50,7 +50,7 @@
     {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "ok"
+      "status": "no-telugu-matches"
     }
   ],
   "movies": [
@@ -78,26 +78,6 @@
       "id": "epic-first-semester",
       "title": "Epic First Semester",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
-      "language": "Telugu",
-      "buzzScore": 42,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 2,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
-    },
-    {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -355,6 +335,26 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
     },
     {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+    },
+    {
       "id": "maremma",
       "title": "Maremma",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
@@ -541,7 +541,7 @@
       "name": "Netflix",
       "status": "ok",
       "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-      "updatedAt": "2026-09-30T05:57:21.172Z",
+      "updatedAt": "2026-09-30T06:20:12.513Z",
       "items": [
         {
           "rank": 1,
@@ -580,26 +580,17 @@
     "prime-video": {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "ok",
+      "status": "no-telugu-matches",
       "sourceUrl": "https://www.primevideo.com/browse",
-      "updatedAt": "2026-09-30T05:57:21.729Z",
-      "items": [
-        {
-          "rank": 5,
-          "title": "Khushboo sports a traditional look in Prashanth Varma's upcoming universe project",
-          "language": "Telugu",
-          "img": "https://www.cinejosh.com/newsimg/newsmainimg/mahakali-movie-kushboo-turns-homely-1790736366712-1790736366157.jpg",
-          "sourceUrl": "https://www.primevideo.com/browse",
-          "platformSignal": false
-        }
-      ]
+      "updatedAt": "2026-09-30T06:20:13.080Z",
+      "items": []
     },
     "aha": {
       "id": "aha",
       "name": "Aha",
       "status": "ok",
       "sourceUrl": "https://www.aha.video/telugu/movies",
-      "updatedAt": "2026-09-30T05:57:26.868Z",
+      "updatedAt": "2026-09-30T06:20:13.755Z",
       "items": [
         {
           "rank": 1,
@@ -688,7 +679,7 @@
       "name": "JioHotstar",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.hotstar.com/in/cinema",
-      "updatedAt": "2026-09-30T05:57:27.125Z",
+      "updatedAt": "2026-09-30T06:20:13.897Z",
       "items": []
     },
     "zee5": {
@@ -696,11 +687,11 @@
       "name": "ZEE5",
       "status": "ok",
       "sourceUrl": "https://www.zee5.com/global/collections/trending-in-india/0-8-7582",
-      "updatedAt": "2026-09-30T05:57:32.614Z",
+      "updatedAt": "2026-09-30T06:20:18.150Z",
       "items": [
         {
           "rank": 1,
-          "title": "Director and Lead Star Address Backlash Over Controversial Scene in The Paradise",
+          "title": "Nani and Srikanth Odela Address Backlash Over The Paradise Dialogue",
           "language": "Telugu",
           "img": "https://www.cinejosh.com/newsimg/newsmainimg/all-about-the-paradise-controversial-dialogue-1790691051393-1790691050476.jpg",
           "sourceUrl": "https://www.zee5.com/global/collections/trending-in-india/0-8-7582",
@@ -721,25 +712,16 @@
       "name": "ETV Win",
       "status": "no-telugu-matches",
       "sourceUrl": "https://www.etvwin.com/",
-      "updatedAt": "2026-09-30T05:57:34.838Z",
+      "updatedAt": "2026-09-30T06:20:20.045Z",
       "items": []
     },
     "sonyliv": {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "ok",
+      "status": "no-telugu-matches",
       "sourceUrl": "https://www.sonyliv.com/?lang=en",
-      "updatedAt": "2026-09-30T05:57:35.089Z",
-      "items": [
-        {
-          "rank": 12,
-          "title": "Buzz Suggests Allu Arjun Might Play a Cop in Lokesh Kanagaraj Collaboration",
-          "language": "Telugu",
-          "img": "https://www.cinejosh.com/newsimg/newsmainimg/allu-arjun-to-do-cop-role-in-lokesh-kanagaraj-film-1790742813227-1790742813618.jpg",
-          "sourceUrl": "https://www.sonyliv.com/?lang=en",
-          "platformSignal": false
-        }
-      ]
+      "updatedAt": "2026-09-30T06:20:21.139Z",
+      "items": []
     }
   },
   "methodology": "Buzz Now is Cineinsta's editorial activity signal. OTT tabs show Telugu titles appearing in each platform's own public trending, popular or Top 10 surface when the title can be matched to Cineinsta's Telugu movie feed. No OTT availability is inferred."
