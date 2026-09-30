@@ -2,555 +2,449 @@ import fs from "node:fs/promises";
 
 const GEMINI_MODEL = "gemini-3.5-flash-lite";
 const BATCH_SIZE = 4;
+const MIN_STORIES = 20;
+const MAX_STORIES = 30;
+const MIN_SUMMARY = 180;
+const MAX_SUMMARY = 650;
 
 const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
 
-function decodeEntities(text = "") {
-  return String(text)
+function cleanText(value = "") {
+  return String(value)
+    .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;/gi, " ")
     .replace(/&amp;/gi, "&")
     .replace(/&quot;/gi, '"')
     .replace(/&#39;/gi, "'")
-    .replace(/&#x27;/gi, "'")
     .replace(/&#8217;/gi, "'")
-    .replace(/&#8216;/gi, "'")
-    .replace(/&#8220;/gi, '"')
-    .replace(/&#8221;/gi, '"')
     .replace(/&#8211;/gi, "-")
     .replace(/&#8212;/gi, "-")
     .replace(/&#8230;/gi, "...")
-    .replace(/&#(\d+);/g, (_, n) => {
-      const value = Number(n);
-      return Number.isFinite(value) ? String.fromCharCode(value) : "";
-    });
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function stripHtml(html = "") {
-  return decodeEntities(
+  return cleanText(
     String(html)
       .replace(/<script[\s\S]*?<\/script>/gi, " ")
       .replace(/<style[\s\S]*?<\/style>/gi, " ")
       .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
       .replace(/<svg[\s\S]*?<\/svg>/gi, " ")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim()
   );
 }
 
-function cleanText(value = "") {
-  return decodeEntities(String(value))
-    .replace(/https?:\/\/\S+/gi, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+function extractArticleText(html = "") {
+  const candidates = [];
+
+  for (const match of html.matchAll(
+    /<article\b[^>]*>([\s\S]*?)<\/article>/gi
+  )) {
+    candidates.push(stripHtml(match[1] || ""));
+  }
+
+  for (const match of html.matchAll(
+    /<main\b[^>]*>([\s\S]*?)<\/main>/gi
+  )) {
+    candidates.push(stripHtml(match[1] || ""));
+  }
+
+  const paragraphs = [...html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map(match => stripHtml(match[1] || ""))
+    .filter(
+      text =>
+        text.length >= 45 &&
+        !/^(advertisement|read more|subscribe|follow us|share|home|menu)$/i.test(
+          text
+        )
+    );
+
+  if (paragraphs.length) {
+    candidates.push(paragraphs.join(" "));
+  }
+
+  return candidates
+    .sort((a, b) => b.length - a.length)[0]
+    ?.slice(0, 10000) || "";
 }
 
-async function fetchPage(url) {
+async function fetchSource(url) {
   const response = await fetch(url, {
     headers: {
       "User-Agent": USER_AGENT,
-      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
     }
   });
 
   if (!response.ok) {
-    throw new Error(`Source page returned HTTP ${response.status}: ${url}`);
+    throw new Error(`Source returned HTTP ${response.status}`);
   }
 
   return response.text();
 }
 
-function extractMeta(html, property) {
-  const patterns = [
-    new RegExp(`<meta[^>]+property=["']${property}["'][^>]+content=["']([^"']+)["']`, "i"),
-    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${property}["']`, "i"),
-    new RegExp(`<meta[^>]+name=["']${property}["'][^>]+content=["']([^"']+)["']`, "i"),
-    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+name=["']${property}["']`, "i")
-  ];
-
-  for (const pattern of patterns) {
-    const match = html.match(pattern);
-    if (match?.[1]) return cleanText(match[1]);
-  }
-
-  return "";
-}
-
-function extractArticleTitle(html, fallback = "") {
-  const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  if (h1?.[1]) return cleanText(stripHtml(h1[1]));
-
-  return (
-    extractMeta(html, "og:title") ||
-    extractMeta(html, "twitter:title") ||
-    cleanText(stripHtml(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || "")) ||
-    cleanText(fallback)
-  );
-}
-
-function extractArticleBody(html = "") {
-  const candidates = [];
-
-  const containers = [
-    ...html.matchAll(/<article\b[^>]*>([\s\S]*?)<\/article>/gi),
-    ...html.matchAll(/<main\b[^>]*>([\s\S]*?)<\/main>/gi),
-    ...html.matchAll(/<(?:div|section)\b[^>]*(?:class|id)=["'][^"']*(?:article|story|content|post|entry|single)[^"']*["'][^>]*>([\s\S]*?)<\/(?:div|section)>/gi)
-  ];
-
-  for (const match of containers) {
-    const text = stripHtml(match[1] || "");
-    if (text.length >= 400) candidates.push(text);
-  }
-
-  const paragraphs = [...html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
-    .map(match => stripHtml(match[1] || ""))
-    .filter(text =>
-      text.length >= 45 &&
-      !/^(advertisement|read more|subscribe|follow us|share|home|menu)$/i.test(text)
-    );
-
-  if (paragraphs.length) candidates.push(paragraphs.join(" "));
-
-  const best = candidates.sort((a, b) => b.length - a.length)[0] || "";
-  return cleanText(best).slice(0, 9000);
-}
-
-function extractImage(html = "") {
-  return extractMeta(html, "og:image") || extractMeta(html, "twitter:image") || "";
-}
-
-function isIndianCinemaStory(title, body) {
-  const text = `${title} ${body}`.toLowerCase();
-
-  const blocked = [
-    "hollywood", "k-pop", "kpop", "football", "cricket",
-    "stock market", "politics", "election", "crime",
-    "weather", "technology", "gaming"
-  ];
-
-  if (blocked.some(term => text.includes(term))) return false;
-
-  const cinemaTerms = [
-    "telugu", "tollywood", "tamil", "kollywood", "malayalam",
-    "mollywood", "kannada", "sandalwood", "bollywood",
-    "indian cinema", "indian film", "indian movie",
-    "actor", "actress", "director", "filmmaker", "movie",
-    "film", "cinema", "trailer", "teaser", "ott", "box office",
-    "release", "first look", "poster", "song", "shooting"
-  ];
-
-  return cinemaTerms.some(term => text.includes(term));
-}
-
-function hasEditorialJunk(text = "") {
-  const value = text.toLowerCase();
-  const junk = [
-    "read more", "subscribe", "advertisement", "click here",
-    "follow us", "sign up", "login", "home menu",
-    "latest news", "related stories", "you may also like",
-    "share this", "privacy policy", "terms and conditions"
-  ];
-
-  return junk.filter(item => value.includes(item)).length >= 2;
-}
-
-function validateStory(story) {
-  if (!story || story.keep !== true) return false;
-
-  const title = cleanText(story.title);
-  const summary = cleanText(story.summary);
-
-  if (title.length < 30 || title.length > 140) return false;
-  if (summary.length < 180 || summary.length > 650) return false;
-  if (hasEditorialJunk(title) || hasEditorialJunk(summary)) return false;
-
-  const sentences = summary.split(/(?<=[.!?])\s+/).filter(Boolean);
-  if (sentences.length < 2 || sentences.length > 4) return false;
-
-  return true;
-}
-
-function extractJsonObject(text = "") {
-  const cleaned = String(text)
+function parseJson(text) {
+  const value = String(text || "")
     .replace(/^\s*```json\s*/i, "")
-    .replace(/^\s*```\s*/i, "")
     .replace(/\s*```\s*$/i, "")
     .trim();
 
   try {
-    return JSON.parse(cleaned);
+    return JSON.parse(value);
   } catch {}
 
-  const first = cleaned.indexOf("{");
-  const last = cleaned.lastIndexOf("}");
+  const first = value.indexOf("{");
+  const last = value.lastIndexOf("}");
 
   if (first >= 0 && last > first) {
     try {
-      return JSON.parse(cleaned.slice(first, last + 1));
+      return JSON.parse(value.slice(first, last + 1));
     } catch {}
   }
 
   return null;
 }
 
-async function callGemini(prompt) {
-  const apiKey = process.env.GEMINI_API_KEY;
+function normalizeSummary(summary, body) {
+  let value = cleanText(summary);
 
-  if (!apiKey) {
-    throw new Error("GEMINI_API_KEY is missing. Feed publication is blocked.");
+  if (value.length >= MIN_SUMMARY && value.length <= MAX_SUMMARY) {
+    return value;
   }
 
-  for (let attempt = 1; attempt <= 3; attempt++) {
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${encodeURIComponent(apiKey)}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          systemInstruction: {
-            parts: [
-              {
-                text: "You are a careful cinema editor. Return JSON only. Never use Markdown fences."
-              }
-            ]
-          },
-          contents: [
-            {
-              role: "user",
-              parts: [{ text: prompt }]
-            }
-          ],
-          generationConfig: {
-            temperature: 0.2,
-            responseMimeType: "application/json"
-          }
-        })
-      }
-    );
+  if (value.length < MIN_SUMMARY) {
+    const bodyText = Array.isArray(body)
+      ? body.map(cleanText).filter(Boolean).join(" ")
+      : "";
 
-    if (response.ok) {
-      const data = await response.json();
-      const text = (data?.candidates?.[0]?.content?.parts || [])
-        .map(part => part?.text || "")
-        .join("");
+    const sentences = bodyText.match(/[^.!?]+[.!?]+/g) || [];
+    let rebuilt = "";
 
-      if (!text) {
-        if (attempt < 3) {
-          await new Promise(resolve => setTimeout(resolve, attempt * 2000));
-          continue;
-        }
-        throw new Error("Gemini returned an empty response.");
-      }
+    for (const sentence of sentences) {
+      const next = rebuilt
+        ? `${rebuilt} ${sentence.trim()}`
+        : sentence.trim();
 
-      const parsed = extractJsonObject(text);
-      if (parsed) return parsed;
+      if (next.length > MAX_SUMMARY) break;
 
-      if (attempt < 3) {
-        console.log(`Gemini returned non-JSON output. Retrying (attempt ${attempt + 1}/3)...`);
-        await new Promise(resolve => setTimeout(resolve, attempt * 2000));
-        continue;
-      }
+      rebuilt = next;
 
-      throw new Error("Gemini returned invalid JSON after retries.");
+      if (rebuilt.length >= MIN_SUMMARY) break;
     }
 
-    const errorText = await response.text();
-
-    if (response.status === 429 && attempt < 3) {
-      console.log(`Gemini rate limit reached. Retrying in ${attempt * 5} seconds...`);
-      await new Promise(resolve => setTimeout(resolve, attempt * 5000));
-      continue;
+    if (rebuilt.length >= MIN_SUMMARY) {
+      value = rebuilt;
     }
-
-    throw new Error(`Gemini HTTP ${response.status}: ${errorText.slice(0, 800)}`);
   }
 
-  throw new Error("Gemini request failed after retries.");
+  if (value.length > MAX_SUMMARY) {
+    const cut = value.slice(0, MAX_SUMMARY);
+    const lastSpace = cut.lastIndexOf(" ");
+    value = (lastSpace > MIN_SUMMARY ? cut.slice(0, lastSpace) : cut).trim();
+  }
+
+  return value;
 }
 
-function buildBatchPrompt(batch) {
-  const stories = batch.map((story, index) => [
-    `STORY ${index + 1}`,
-    `Source publisher: ${story.item.source || "Unknown"}`,
-    `Source headline: ${story.sourceTitle}`,
-    "Article text:",
-    story.body
-  ].join("\n")).join("\n\n==============================\n\n");
-
-  return [
-    "You are the editorial writer for Cineinsta, an Indian cinema news website.",
-    "",
-    `Rewrite ALL ${batch.length} stories below in one response.`,
-    "",
-    "Rules:",
-    "1. Keep only Indian cinema stories. Telugu cinema is the priority.",
-    "2. Preserve facts, but rewrite all wording in fresh original language.",
-    "3. Do not copy the source headline or sentence structure.",
-    "4. Do not invent names, dates, quotes, ratings, box-office numbers, release plans or other facts.",
-    "5. Write one natural, engaging headline for each story.",
-    "6. Write a concise 2-3 sentence summary for each story.",
-    "7. Ignore menus, navigation, advertisements, related links, social prompts and publisher boilerplate.",
-    "8. If a story is not an Indian cinema story, return keep=false.",
-    "9. If there are not enough reliable facts, return keep=false.",
-    "10. Return JSON only. No Markdown.",
-    "11. Return exactly one result for every input story, in the same order.",
-    "12. Each result must contain keep, title, summary, category.",
-    "",
-    'Required JSON shape: {"stories":[{"keep":true,"title":"...","summary":"...","category":"Telugu Cinema"}]}',
-    "",
-    stories
-  ].join("\n");
-}
-
-async function rewriteBatch(batch) {
-  try {
-    const response = await callGemini(buildBatchPrompt(batch));
-
-    if (!response || !Array.isArray(response.stories)) {
-      throw new Error("Gemini returned an invalid batch response.");
-    }
-
-    if (response.stories.length !== batch.length) {
-      throw new Error(
-        `Gemini returned ${response.stories.length} stories for a batch of ${batch.length}.`
-      );
-    }
-
-    return response.stories;
-  } catch (error) {
-    if (batch.length === 1) throw error;
-
-    console.log(`Batch rewrite failed. Retrying ${batch.length} stories individually...`);
-
-    const individual = [];
-
-    for (const story of batch) {
-      try {
-        const single = await callGemini(buildBatchPrompt([story]));
-
-        if (
-          single &&
-          Array.isArray(single.stories) &&
-          single.stories.length === 1
-        ) {
-          individual.push(single.stories[0]);
-        } else {
-          individual.push({ keep: false });
-        }
-      } catch (singleError) {
-        console.log(`Individual rewrite failed: ${story.sourceTitle}`);
-        console.log(singleError.message);
-        individual.push({ keep: false });
-      }
-    }
-
-    return individual;
-  }
-}
-
-async function prepareStory(item, index) {
-  if (!item?.url) {
-    throw new Error(`News item ${index + 1} has no source URL.`);
+function validateArticle(article) {
+  if (!article || article.keep !== true) {
+    return { ok: false, reason: "Gemini marked story as not suitable" };
   }
 
-  const html = await fetchPage(item.url);
-  const sourceTitle = extractArticleTitle(html, item.title);
-  const body = extractArticleBody(html);
+  const title = cleanText(article.title);
+  const body = Array.isArray(article.body)
+    ? article.body.map(cleanText).filter(Boolean)
+    : [];
 
-  if (body.length < 250) {
-    throw new Error(`Insufficient article text for: ${sourceTitle}`);
+  const facts = Array.isArray(article.keyFacts)
+    ? article.keyFacts.map(cleanText).filter(Boolean)
+    : [];
+
+  const context = cleanText(article.cineinstaContext || "");
+  const summary = normalizeSummary(article.summary, body);
+
+  const words = body.join(" ").split(/\s+/).filter(Boolean).length;
+
+  if (title.length < 25 || title.length > 160) {
+    return { ok: false, reason: "headline length invalid" };
   }
 
-  if (!isIndianCinemaStory(sourceTitle, body)) {
-    return null;
+  if (body.length < 4 || body.length > 7) {
+    return { ok: false, reason: `body has ${body.length} paragraphs` };
+  }
+
+  if (words < 150 || words > 500) {
+    return { ok: false, reason: `body has ${words} words` };
+  }
+
+  if (summary.length < MIN_SUMMARY || summary.length > MAX_SUMMARY) {
+    return {
+      ok: false,
+      reason: `summary has ${summary.length} characters`
+    };
   }
 
   return {
-    item,
-    sourceTitle,
+    ok: true,
+    title,
+    summary,
     body,
-    image: item.img || extractImage(html)
+    keyFacts: facts.slice(0, 6),
+    cineinstaContext: context
   };
 }
 
-function normalizeTitle(title = "") {
-  return String(title)
-    .toLowerCase()
-    .replace(/&amp;|&/g, " and ")
-    .replace(/[^a-z0-9\u0C00-\u0C7F]+/g, " ")
-    .replace(/\b(latest|breaking|exclusive|update|updates|news|report|reports|official)\b/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function normalizeUrl(url = "") {
-  try {
-    const value = new URL(url);
-    value.search = "";
-    value.hash = "";
-    return value.href.replace(/\/$/, "").toLowerCase();
-  } catch {
-    return String(url).toLowerCase().split("?")[0].split("#")[0].replace(/\/$/, "");
-  }
-}
-
-function imageKey(url = "") {
-  try {
-    const value = new URL(url);
-    value.search = "";
-    value.hash = "";
-    return (value.hostname + value.pathname).toLowerCase();
-  } catch {
-    return String(url).toLowerCase().split("?")[0].split("#")[0];
-  }
-}
-
-function titleSimilarity(a, b) {
-  const aa = new Set(normalizeTitle(a).split(" ").filter(word => word.length > 2));
-  const bb = new Set(normalizeTitle(b).split(" ").filter(word => word.length > 2));
-  if (!aa.size || !bb.size) return 0;
-
-  let common = 0;
-  for (const word of aa) {
-    if (bb.has(word)) common++;
-  }
-  return common / Math.max(aa.size, bb.size);
-}
-
-function dedupeEditorialStories(items) {
-  const output = [];
-  const seenUrls = new Set();
-  const seenImages = new Set();
-
-  for (const item of items) {
-    if (!item || !item.url || !item.img) continue;
-
-    const urlKey = normalizeUrl(item.url);
-    const imgKey = imageKey(item.img);
-
-    if (seenUrls.has(urlKey)) continue;
-    if (imgKey && seenImages.has(imgKey)) continue;
-
-    if (output.some(existing => titleSimilarity(existing.title, item.title) >= 0.68)) continue;
-
-    output.push(item);
-    seenUrls.add(urlKey);
-    if (imgKey) seenImages.add(imgKey);
-  }
-
-  return output;
-}
-
-async function main() {
+async function rewriteBatch(batch) {
   if (!process.env.GEMINI_API_KEY) {
-    throw new Error("GEMINI_API_KEY is missing. Feed publication is blocked.");
+    throw new Error("GEMINI_API_KEY is missing");
   }
 
-  const feedPath = "data/feed.json";
-  const feed = JSON.parse(await fs.readFile(feedPath, "utf8"));
-  const input = Array.isArray(feed.news) ? feed.news : [];
+  const payload = batch.map((item, index) => ({
+    index,
+    headline: item.item.title || "",
+    existingSummary: item.item.summary || "",
+    sourceText: item.sourceText
+  }));
 
-  if (!input.length) {
-    throw new Error("No news items were found in data/feed.json.");
-  }
+  const prompt = `You are the senior editorial writer for Cineinsta, an Indian cinema news website.
 
-  console.log(`News stories received from collector: ${input.length}`);
+Create ORIGINAL Cineinsta editorial articles for ALL supplied stories.
 
-  const prepared = [];
+IMPORTANT:
+- Use the supplied source text only for facts.
+- Do not copy sentences, paragraph order, or distinctive wording.
+- Do not invent facts, quotes, dates, numbers, motives, ratings, box-office figures or release details.
+- Do not mention the source publisher or source website.
+- Do not tell readers to visit or read the original article.
+- If a story is not Indian cinema or does not contain enough reliable facts, set keep=false.
 
-  for (let i = 0; i < input.length; i++) {
-    try {
-      const story = await prepareStory(input[i], i);
+For every kept story return:
+1. A fresh Cineinsta headline.
+2. A 2-3 sentence homepage summary, 180-650 characters.
+3. A complete original article of 4-7 concise paragraphs and 150-500 words.
+4. keyFacts: 3-6 short factual bullets when the source supports them. Do not invent facts.
+5. cineinstaContext: one short paragraph explaining useful context only when supported by the supplied facts. Otherwise return an empty string.
 
-      if (!story) {
-        console.log(`PRE-FILTERED: ${input[i].title || input[i].url}`);
-        continue;
-      }
+The article should answer the basic reader questions: what happened, who is involved, what is confirmed, when relevant, and why the development matters in cinema terms. Keep the writing factual and readable.
 
-      prepared.push(story);
-  } catch (error) {
-      console.warn(`SKIPPED SOURCE: ${input[i].title || input[i].url}`);
-      console.warn(error.message);
-      continue;
+Return JSON only in this exact shape:
+{
+  "articles": [
+    {
+      "index": 0,
+      "keep": true,
+      "title": "...",
+      "summary": "...",
+      "body": ["paragraph 1", "paragraph 2", "paragraph 3", "paragraph 4"],
+      "keyFacts": ["fact 1", "fact 2", "fact 3"],
+      "cineinstaContext": "..."
     }
-  }
+  ]
+}
 
-  if (!prepared.length) {
-    throw new Error("No usable Indian cinema stories were prepared.");
-  }
+STORIES:
+${JSON.stringify(payload)}`;
 
-  console.log(`Stories ready for Gemini: ${prepared.length}`);
-  console.log(`Gemini batch size: ${BATCH_SIZE}`);
-  console.log(`Expected Gemini requests: ${Math.ceil(prepared.length / BATCH_SIZE)}`);
-
-  const output = [];
-  let rejected = 0;
-
-  for (let start = 0; start < prepared.length; start += BATCH_SIZE) {
-    const batch = prepared.slice(start, start + BATCH_SIZE);
-    const batchNumber = Math.floor(start / BATCH_SIZE) + 1;
-
-    console.log("");
-    console.log(`Processing Gemini batch ${batchNumber}: ${batch.length} stories`);
-
-    const results = await rewriteBatch(batch);
-
-    for (let i = 0; i < batch.length; i++) {
-      const source = batch[i];
-      const story = results[i];
-
-      if (!validateStory(story)) {
-        rejected++;
-        console.log(`REJECTED: ${source.sourceTitle}`);
-        continue;
-      }
-
-      const rewritten = {
-        ...source.item,
-        title: cleanText(story.title),
-        summary: cleanText(story.summary),
-        category: cleanText(
-          story.category || source.item.category || "Telugu Cinema"
-        ),
-        source: source.item.source || "Source",
-        url: source.item.url,
-        img: source.item.img || source.image,
-        editorial: "Cineinsta"
-      };
-
-      output.push(rewritten);
-      console.log(`ACCEPTED: ${rewritten.title}`);
+  const response = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${encodeURIComponent(
+      process.env.GEMINI_API_KEY
+    )}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        systemInstruction: {
+          parts: [
+            {
+              text:
+                "You are Cineinsta's original cinema editor. Return JSON only."
+            }
+          ]
+        },
+        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        generationConfig: {
+          temperature: 0.2,
+          responseMimeType: "application/json"
+        }
+      })
     }
-  }
+  );
 
-  const dedupedOutput = dedupeEditorialStories(output);
-
-  if (!dedupedOutput.length) {
+  if (!response.ok) {
+    const detail = await response.text();
     throw new Error(
-      "No clean Cineinsta stories were produced. Existing feed was not replaced."
+      `Gemini HTTP ${response.status}: ${detail.slice(0, 700)}`
     );
   }
 
-  // Keep enough clean stories for the homepage's 20-story initial view plus Read More.
-  feed.news = dedupedOutput.slice(0, 30);
+  const data = await response.json();
+  const text = (data?.candidates?.[0]?.content?.parts || [])
+    .map(part => part?.text || "")
+    .join("");
+
+  const parsed = parseJson(text);
+
+  if (!parsed || !Array.isArray(parsed.articles)) {
+    throw new Error("Gemini returned invalid batch JSON");
+  }
+
+  return parsed.articles;
+}
+
+async function main() {
+  const feedPath = "data/feed.json";
+  const feed = JSON.parse(await fs.readFile(feedPath, "utf8"));
+
+  if (!Array.isArray(feed.news) || !feed.news.length) {
+    throw new Error("data/feed.json has no news array");
+  }
+
+  const news = feed.news.slice(0, MAX_STORIES);
+  const approved = [];
+  let skipped = 0;
+  let batchNumber = 0;
+
+  console.log("======================================");
+  console.log("CINEINSTA RICH NEWS EDITORIAL");
+  console.log("======================================");
+  console.log(`Stories received: ${news.length}`);
+  console.log(`Batch size: ${BATCH_SIZE}`);
+  console.log(
+    `Maximum Gemini requests: ${Math.ceil(news.length / BATCH_SIZE)}`
+  );
+  console.log("No per-story retry loop is used.");
+
+  for (let start = 0; start < news.length; start += BATCH_SIZE) {
+    const sourceBatch = news.slice(start, start + BATCH_SIZE);
+    batchNumber += 1;
+    const prepared = [];
+
+    for (let local = 0; local < sourceBatch.length; local += 1) {
+      const item = sourceBatch[local];
+      const absoluteIndex = start + local;
+
+      if (!item?.url) {
+        console.log(`SKIP ${absoluteIndex + 1}: no source URL`);
+        skipped += 1;
+        continue;
+      }
+
+      try {
+        const html = await fetchSource(item.url);
+        const sourceText = extractArticleText(html);
+
+        if (sourceText.length < 250) {
+          console.log(
+            `SKIP ${absoluteIndex + 1}: insufficient source article text`
+          );
+          skipped += 1;
+          continue;
+        }
+
+        prepared.push({
+          absoluteIndex,
+          item,
+          sourceText
+        });
+      } catch (error) {
+        console.log(
+          `SKIP ${absoluteIndex + 1}: source fetch failed - ${error.message}`
+        );
+        skipped += 1;
+      }
+    }
+
+    if (!prepared.length) continue;
+
+    console.log(
+      `BATCH ${batchNumber}: ${prepared.length} stories -> 1 Gemini request`
+    );
+
+    let results;
+
+    try {
+      results = await rewriteBatch(prepared);
+    } catch (error) {
+      console.log(`BATCH ${batchNumber} FAILED: ${error.message}`);
+      console.log("Those stories are skipped safely.");
+      skipped += prepared.length;
+      continue;
+    }
+
+    const byIndex = new Map(
+      results
+        .filter(result => Number.isInteger(result?.index))
+        .map(result => [result.index, result])
+    );
+
+    for (let local = 0; local < prepared.length; local += 1) {
+      const preparedItem = prepared[local];
+      const result = byIndex.get(local);
+      const validation = validateArticle(result);
+
+      if (!validation.ok) {
+        console.log(
+          `SKIP ${preparedItem.absoluteIndex + 1}: ${validation.reason}`
+        );
+        skipped += 1;
+        continue;
+      }
+
+      approved.push({
+        ...preparedItem.item,
+        title: validation.title,
+        summary: validation.summary,
+        body: validation.body,
+        keyFacts: validation.keyFacts,
+        cineinstaContext: validation.cineinstaContext,
+        editorial: "Cineinsta"
+      });
+
+      const words = validation.body
+        .join(" ")
+        .split(/\s+/)
+        .filter(Boolean).length;
+
+      console.log(
+        `APPROVED ${preparedItem.absoluteIndex + 1}: ${validation.title} (${words} words)`
+      );
+    }
+  }
+
+  if (approved.length < MIN_STORIES) {
+    throw new Error(
+      `Only ${approved.length} complete editorial stories passed validation; at least ${MIN_STORIES} are required. Existing feed was not changed.`
+    );
+  }
+
+  feed.news = approved.slice(0, MAX_STORIES);
   feed.updatedAt = new Date().toISOString();
 
-  await fs.writeFile(feedPath, JSON.stringify(feed, null, 2), "utf8");
+  await fs.writeFile(
+    feedPath,
+    JSON.stringify(feed, null, 2) + "\n",
+    "utf8"
+  );
 
   console.log("");
   console.log("======================================");
-  console.log("CINEINSTA EDITORIAL CHECK COMPLETE");
+  console.log("CINEINSTA RICH NEWS EDITORIAL COMPLETE");
   console.log("======================================");
-  console.log(`Accepted before final dedupe: ${output.length}`);
-  console.log(`Published after final dedupe: ${feed.news.length}`);
-  console.log(`Rejected: ${rejected}`);
-  console.log(`Published news: ${feed.news.length}`);
+  console.log(`Published editorial stories: ${feed.news.length}`);
+  console.log(`Skipped: ${skipped}`);
+  console.log(`Gemini batch requests used: ${batchNumber}`);
+  console.log("Every published story contains:");
+  console.log("- rewritten headline");
+  console.log("- 180-650 character summary");
+  console.log("- 4-7 paragraph original article");
+  console.log("- factual key points");
+  console.log("- optional Cineinsta context");
 }
 
 main().catch(error => {
   console.error("");
-  console.error("Cineinsta editorial rewrite failed:");
+  console.error("Cineinsta rich editorial rewrite failed:");
   console.error(error);
   process.exit(1);
 });
