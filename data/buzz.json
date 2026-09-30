@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T04:59:13.199Z",
+  "updatedAt": "2026-09-30T05:24:59.563Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -10,42 +10,42 @@
     {
       "id": "netflix",
       "name": "Netflix",
-      "status": "signal-only"
+      "status": "cineinsta-signal"
     },
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "signal-only"
+      "status": "cineinsta-signal"
     },
     {
       "id": "aha",
       "name": "Aha",
-      "status": "signal-only"
+      "status": "cineinsta-signal"
     },
     {
       "id": "jiohotstar",
       "name": "JioHotstar",
-      "status": "signal-only"
+      "status": "cineinsta-signal"
     },
     {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "signal-only"
+      "status": "cineinsta-signal"
     },
     {
       "id": "sun-nxt",
       "name": "Sun NXT",
-      "status": "signal-only"
+      "status": "cineinsta-signal"
     },
     {
       "id": "etv-win",
       "name": "ETV Win",
-      "status": "signal-only"
+      "status": "cineinsta-signal"
     },
     {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "signal-only"
+      "status": "cineinsta-signal"
     }
   ],
   "movies": [
@@ -57,6 +57,7 @@
       "buzzScore": 42,
       "status": "STEADY",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -79,28 +80,13 @@
       "buzzScore": 32,
       "status": "STEADY",
       "platforms": [],
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
+      "ott": {
+        "aha": {
+          "name": "Aha",
+          "mentions": 1,
+          "label": "Mentioned in recent Cineinsta coverage"
+        }
       },
-      "why": "1 recent Cineinsta news signal · Cineinsta review activity",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
-    },
-    {
-      "id": "romanchakam",
-      "title": "Romanchakam",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "platforms": [],
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -123,6 +109,13 @@
       "buzzScore": 32,
       "status": "STEADY",
       "platforms": [],
+      "ott": {
+        "zee5": {
+          "name": "ZEE5",
+          "mentions": 1,
+          "label": "Mentioned in recent Cineinsta coverage"
+        }
+      },
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -145,6 +138,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -167,6 +161,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -189,6 +184,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -211,6 +207,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -233,6 +230,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -255,6 +253,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -277,6 +276,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -299,6 +299,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -321,6 +322,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -343,6 +345,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -365,6 +368,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -387,6 +391,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -409,6 +414,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -431,6 +437,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -453,6 +460,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -475,6 +483,30 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "why": "Cineinsta review activity",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
+    },
+    {
+      "id": "romanchakam",
+      "title": "Romanchakam",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -497,6 +529,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -519,6 +552,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -541,6 +575,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -563,6 +598,7 @@
       "buzzScore": 22,
       "status": "COOLING",
       "platforms": [],
+      "ott": {},
       "theatre": {
         "cinemas": 0,
         "shows": 0
@@ -578,5 +614,5 @@
       "disclaimer": "Cineinsta Buzz is an editorial signal based on available Cineinsta activity and authorized theatre/showtime data. It is not an official OTT popularity ranking."
     }
   ],
-  "methodology": "Cineinsta Buzz is built around movie-level signals from Cineinsta reviews, news/trailer activity and authorized theatre/showtime data. OTT availability is not inferred or scraped; a platform appears only when it is explicitly mentioned in Cineinsta data until an authorized commercial OTT data source is connected."
+  "methodology": "Cineinsta Buzz is built around movie-level signals from Cineinsta reviews, news/trailer activity and authorized theatre/showtime data. OTT tabs group titles only when Cineinsta coverage explicitly mentions the named platform. They do not claim verified OTT availability until an authorized commercial OTT availability source is connected."
 }
