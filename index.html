@@ -416,15 +416,20 @@ function renderCineinstaBuzz(){
 const grid=document.getElementById("cineBuzzGrid"),tabs=document.getElementById("cineBuzzTabs");
 if(!grid||!tabs)return;
 const all=Array.isArray(feed.buzz)?feed.buzz.filter(function(item){return item&&(item.title||item.t)&&item.img;}):[];
-const platforms=Array.isArray(feed.buzzTabs)&&feed.buzzTabs.length?feed.buzzTabs:[{id:"theatres",name:"Theatres Now"},{id:"netflix",name:"Netflix"},{id:"prime-video",name:"Prime Video"},{id:"aha",name:"Aha"},{id:"jiohotstar",name:"JioHotstar"},{id:"zee5",name:"ZEE5"},{id:"sun-nxt",name:"Sun NXT"},{id:"etv-win",name:"ETV Win"},{id:"sonyliv",name:"SonyLIV"}];
-let active=window.cineBuzzActiveTab||"theatres";
-if(!platforms.some(function(p){return p.id===active;}))active="theatres";
+const platforms=[{id:"all",name:"Buzz Now"},{id:"theatres",name:"Theatres Now"},{id:"netflix",name:"Netflix"},{id:"prime-video",name:"Prime Video"},{id:"aha",name:"Aha"},{id:"jiohotstar",name:"JioHotstar"},{id:"zee5",name:"ZEE5"},{id:"sun-nxt",name:"Sun NXT"},{id:"etv-win",name:"ETV Win"},{id:"sonyliv",name:"SonyLIV"}];
+let active=window.cineBuzzActiveTab||"all";
+if(!platforms.some(function(p){return p.id===active;}))active="all";
 window.cineBuzzActiveTab=active;
-tabs.innerHTML=platforms.map(function(p){const count=p.id==="theatres"?all.filter(function(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;}).length:all.filter(function(x){return Array.isArray(x.platformIds)&&x.platformIds.includes(p.id);}).length;return `<button type="button" class="cineBuzzTab${p.id===active?" active":""}" data-buzz-tab="${escapeHTML(p.id)}" role="tab" aria-selected="${p.id===active?"true":"false"}">${escapeHTML(p.name)}<small>${count}</small></button>`;}).join("");
-const selected=active==="theatres"?all.filter(function(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;}):all.filter(function(x){return Array.isArray(x.platformIds)&&x.platformIds.includes(active);});
+function hasTheatre(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;}
+function hasPlatform(x,id){return Array.isArray(x.platformIds)&&x.platformIds.includes(id)||(x.ott&&x.ott[id]);}
+tabs.innerHTML=platforms.map(function(p){
+const count=p.id==="all"?all.length:p.id==="theatres"?all.filter(hasTheatre).length:all.filter(function(x){return hasPlatform(x,p.id);}).length;
+return `<button type="button" class="cineBuzzTab${p.id===active?" active":""}" data-buzz-tab="${escapeHTML(p.id)}" role="tab" aria-selected="${p.id===active?"true":"false"}">${escapeHTML(p.name)}${count?`<small>${count}</small>`:""}</button>`;
+}).join("");
+let selected=active==="all"?all.slice():active==="theatres"?all.filter(hasTheatre):all.filter(function(x){return hasPlatform(x,active);});
 if(!selected.length){
 const p=platforms.find(function(x){return x.id===active;});
-const msg=active==="theatres"?"Current theatre/showtime data is not available yet.":`${p?p.name:"This platform"} titles are shown only when Cineinsta has an explicit OTT availability/announcement signal.`;
+const msg=active==="theatres"?"No verified Hyderabad theatre/showtime data is available right now. Check Buzz Now for current Cineinsta activity.":`${p?p.name:"This platform"} has no explicit Cineinsta OTT signal right now. Check Buzz Now for current Cineinsta activity.`;
 grid.innerHTML=`<div class="empty cineBuzzEmpty">${escapeHTML(msg)}</div>`;
 return;
 }
@@ -437,7 +442,8 @@ if(Number(theatre.cinemas)>0)signalBits.push(String(theatre.cinemas)+" cinemas")
 if(Number(theatre.shows)>0)signalBits.push(String(theatre.shows)+" shows");
 const platformName=(platforms.find(function(p){return p.id===active;})||{}).name||"OTT";
 const ottLabel=ott&&ott.label?ott.label:"Mentioned in recent Cineinsta coverage";
-return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${active==="theatres"?"Theatres Now":"Cineinsta OTT Signal"}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div>${active!=="theatres"?`<div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>${escapeHTML(ottLabel)}</span></div>`:""}<div class="cineBuzzMeta"><span>${escapeHTML(signalBits.join(" · ")||(active==="theatres"?"Current theatre signals":"Current OTT signal"))}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and available theatre signals.":"Platform tab shows an explicit Cineinsta OTT mention; it does not claim verified platform availability."}</div></div></a>`;
+const context=active==="all"?"Current Cineinsta activity":active==="theatres"?(signalBits.join(" · ")||"Verified theatre signals"):platformName+" · explicit Cineinsta signal";
+return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${active==="all"?"Cineinsta Buzz":active==="theatres"?"Theatres Now":"Cineinsta OTT Signal"}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div>${active!=="all"&&active!=="theatres"?`<div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>${escapeHTML(ottLabel)}</span></div>`:""}<div class="cineBuzzMeta"><span>${escapeHTML(context)}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and verified theatre signals.":active==="all"?"Score reflects recent Cineinsta news, review, trailer and available theatre activity.":"Platform tab shows an explicit Cineinsta OTT signal; it does not claim verified platform availability."}</div></div></a>`;
 }).join("");
 }
 
