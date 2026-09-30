@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T08:03:12.585Z",
+  "updatedAt": "2026-09-30T08:19:29.305Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,25 +55,6 @@
   ],
   "movies": [
     {
-      "id": "epic-first-semester",
-      "title": "Epic First Semester",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
-      "language": "Telugu",
-      "buzzScore": 42,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 2,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "the-paradise",
       "title": "The Paradise",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
@@ -93,9 +74,9 @@
       }
     },
     {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "id": "epic-first-semester",
+      "title": "Epic First Semester",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -340,6 +321,25 @@
       }
     },
     {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "maremma",
       "title": "Maremma",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
@@ -517,7 +517,7 @@
       "name": "Netflix",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.504Z",
+      "updatedAt": "2026-09-30T08:19:29.250Z",
       "items": [
         {
           "rank": 1,
@@ -549,7 +549,7 @@
       "name": "Prime Video",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.504Z",
+      "updatedAt": "2026-09-30T08:19:29.251Z",
       "items": [
         {
           "rank": 1,
@@ -570,7 +570,7 @@
       "name": "Aha",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.504Z",
+      "updatedAt": "2026-09-30T08:19:29.251Z",
       "items": [
         {
           "rank": 1,
@@ -591,7 +591,7 @@
       "name": "JioHotstar",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.504Z",
+      "updatedAt": "2026-09-30T08:19:29.251Z",
       "items": [
         {
           "rank": 1,
@@ -612,7 +612,7 @@
       "name": "ZEE5",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.504Z",
+      "updatedAt": "2026-09-30T08:19:29.251Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -621,7 +621,7 @@
       "name": "Sun NXT",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.504Z",
+      "updatedAt": "2026-09-30T08:19:29.251Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -630,7 +630,7 @@
       "name": "ETV Win",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.505Z",
+      "updatedAt": "2026-09-30T08:19:29.252Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -639,7 +639,7 @@
       "name": "SonyLIV",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.505Z",
+      "updatedAt": "2026-09-30T08:19:29.252Z",
       "items": [
         {
           "rank": 1,
@@ -660,7 +660,7 @@
       "name": "Theatres Now",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T08:03:12.505Z",
+      "updatedAt": "2026-09-30T08:19:29.252Z",
       "items": [
         {
           "rank": 1,
