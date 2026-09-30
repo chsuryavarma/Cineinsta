@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T06:58:05.448Z",
+  "updatedAt": "2026-09-30T07:23:52.309Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "no-telugu-matches"
+      "status": "unavailable"
     },
     {
       "id": "aha",
@@ -30,12 +30,12 @@
     {
       "id": "jiohotstar",
       "name": "JioHotstar",
-      "status": "no-telugu-matches"
+      "status": "ok"
     },
     {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "no-telugu-matches"
+      "status": "ok"
     },
     {
       "id": "sun-nxt",
@@ -45,12 +45,12 @@
     {
       "id": "etv-win",
       "name": "ETV Win",
-      "status": "no-telugu-matches"
+      "status": "unavailable"
     },
     {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "no-telugu-matches"
+      "status": "ok"
     }
   ],
   "movies": [
@@ -72,12 +72,32 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "epic-first-semester",
       "title": "Epic First Semester",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
+      "language": "Telugu",
+      "buzzScore": 42,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 2,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
+    },
+    {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -92,7 +112,27 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
+    },
+    {
+      "id": "toxic",
+      "title": "Toxic",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      },
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "irumudi",
@@ -112,7 +152,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "anumana-pakshi",
@@ -132,7 +172,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "the-vvaan",
@@ -152,7 +192,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "immortal",
@@ -172,7 +212,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "happy-journey",
@@ -192,7 +232,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "lust-stories-3",
@@ -212,7 +252,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "missing-meghana",
@@ -232,7 +272,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "pitapuramlo-ala-modalaindi",
@@ -252,7 +292,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "modha-rathri",
@@ -272,7 +312,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "mahendragiri-varahi",
@@ -292,7 +332,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "panchanama",
@@ -312,27 +352,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
-    },
-    {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "maremma",
@@ -352,7 +372,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "mandaadi",
@@ -372,7 +392,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "ramba-oorvasi-menaka",
@@ -392,7 +412,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "mirzapur-the-movie",
@@ -412,7 +432,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "bethlehem-kudumba-unit",
@@ -432,7 +452,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "romanchakam",
@@ -452,27 +472,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
-    },
-    {
-      "id": "toxic",
-      "title": "Toxic",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "pallaburusu",
@@ -492,7 +492,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "vishwanath-and-sons",
@@ -512,7 +512,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     },
     {
       "id": "agadha",
@@ -532,7 +532,7 @@
         "theatreLocations": 0,
         "theatreShows": 0
       },
-      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
+      "disclaimer": "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and do not add a Cineinsta OTT ranking."
     }
   ],
   "ottTrending": {
@@ -541,179 +541,411 @@
       "name": "Netflix",
       "status": "ok",
       "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-      "updatedAt": "2026-09-30T06:57:57.266Z",
+      "updatedAt": "2026-09-30T07:23:44.034Z",
       "items": [
         {
           "rank": 1,
-          "title": "Irumudi",
+          "title": "Vishwanath & Sons",
           "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/irumudi-1-4.webp",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABcRBlvOhmFSXlv0EUDgiPbZ-FEsh_mUvG5fiDp4SyiEeV7YtCwC3gEKvOqArm7wwPY9Wuu1A1OfIT1SbUkViqzV68ASz-0CYfjkp_J3Lq6A.png?r=22c",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-          "platformSignal": false
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
         },
         {
           "rank": 2,
+          "title": "Irumudi",
+          "language": "Telugu",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABTRr-2lGyfeidREZ6VHeOv5KNigbvDfWfJkQQLLuCJnnSMMbHG1EUPB5p-C7iwwucKdwNycrKEADOZrIUPxrOMYtuzH5AQIEmRlhZ89m7Bo.png?r=e05",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
+        },
+        {
+          "rank": 3,
           "title": "Modha Rathri",
           "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Modha-Rathri.webp",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABW_wFTfN40_G9BU-aQfgUtCpRuluTDg88fQRFQVUbiA63BftUiWt5YWn5JJsPpPwY919vmoHCLTVESgILQ1rs5QdE_fY4y4rWgk0i6O_PBE.png?r=e1d",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-          "platformSignal": false
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
         },
         {
           "rank": 4,
           "title": "Lust Stories 3",
           "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Lust-Stories-3.webp",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABV2rCPWlr_fef42rOyRnICZ9O86sOmD3QnmKWPOlzntlajiIFGvRTADFXAk_eE5-J-YMF7QWetIMsOTWVWDYY5SHBDldbjnUmbw2lyiQnm8.png?r=1a2",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-          "platformSignal": false
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
         },
         {
-          "rank": 10,
+          "rank": 5,
+          "title": "GDN",
+          "language": "Telugu",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABfsNFqUGJcJr0BXGQ2eSGZC9re4omadoeKbq7JL4Rt_OAFzyB9hY7w9eEtdO6T1XjUpLMyf0Ch6mWH_k0VwigaXK4U-effH3f1LRWQfXF5s.png?r=314",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
+        },
+        {
+          "rank": 6,
+          "title": "Dhamaal 4",
+          "language": "Telugu",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABTqW_MNOB8l_lnFIycNi1LHkAz988Gl_coYvGRPMen5eZHMwMJcyewdZ2m4dmxh_yEgeN3iWIE3cU2TWn3bCAyX8PlY4yogQj2Mokn0yDVA.png?r=af7",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
+        },
+        {
+          "rank": 7,
+          "title": "Gandhari",
+          "language": "Telugu",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABWzG0dzTbdddA7vzFdOEAEo7koZJpPZnA9mjUvm22WP2F0ayi_LJQKJM1-eYt9zdlhDHNpK34toitunR2Qwe5PD0r8-Kk6kHeTVc1aQzXT4.png?r=a8c",
+          "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
+        },
+        {
+          "rank": 8,
           "title": "Korean Kanakaraju",
           "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/koreankanagaraju1.jpg",
+          "img": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABVSGLy7ZwPx45SLiMqYFsAN57OsR1pDO7qdRSGTtF4SwF-qAEIOhwjZvW8Hzq-J2I9lTtthOimlXy2dAXr0HwjKckwlEMkN_cYYej5J1RQ8.png?r=303",
           "sourceUrl": "https://www.netflix.com/tudum/top10/india/films",
-          "platformSignal": false
+          "sourceLabel": "Netflix Top 10",
+          "signalType": "Netflix Top 10"
         }
-      ]
+      ],
+      "note": "Movies currently surfaced by Netflix on its public Netflix Top 10 surface."
     },
     "prime-video": {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "no-telugu-matches",
+      "status": "unavailable",
       "sourceUrl": "https://www.primevideo.com/browse",
-      "updatedAt": "2026-09-30T06:57:57.877Z",
-      "items": []
+      "updatedAt": "2026-09-30T07:23:44.222Z",
+      "items": [],
+      "note": "The Prime Video public Trending Movies surface could not be fetched: HTTP 503"
     },
     "aha": {
       "id": "aha",
       "name": "Aha",
       "status": "ok",
       "sourceUrl": "https://www.aha.video/telugu/movies",
-      "updatedAt": "2026-09-30T06:57:58.387Z",
+      "updatedAt": "2026-09-30T07:23:44.852Z",
       "items": [
         {
           "rank": 1,
-          "title": "Hotspot- 2",
+          "title": "Instagram icon",
           "language": "Telugu",
-          "img": "",
+          "img": "https://www.aha.video/telugu/assets/images/social/instagram-footer.png",
           "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
         },
         {
           "rank": 2,
-          "title": "Drive",
+          "title": "Facebook icon",
           "language": "Telugu",
-          "img": "",
+          "img": "https://www.aha.video/telugu/assets/images/social/facebook-footer.svg",
           "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
         },
         {
           "rank": 3,
-          "title": "Aadi Shambhala",
+          "title": "Twitter icon",
           "language": "Telugu",
-          "img": "",
+          "img": "https://www.aha.video/telugu/assets/images/social/twitter-footer.svg",
           "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
         },
         {
           "rank": 4,
-          "title": "K-Ramp",
+          "title": "Android icon",
           "language": "Telugu",
-          "img": "",
+          "img": "https://www.aha.video/telugu/assets/images/social/google_play_mobile.svg",
           "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
         },
         {
           "rank": 5,
-          "title": "Psych Siddhartha",
+          "title": "IOS icon",
           "language": "Telugu",
-          "img": "",
+          "img": "https://www.aha.video/telugu/assets/images/social/app_store_mobile.svg",
           "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
         },
         {
           "rank": 6,
-          "title": "Bomb",
+          "title": "Firstlight icon",
           "language": "Telugu",
-          "img": "",
+          "img": "https://www.aha.video/assets/images/logo/quickplay-logo_scale_w_1400.png",
           "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
-        },
-        {
-          "rank": 7,
-          "title": "Phoenix Veezhan",
-          "language": "Telugu",
-          "img": "",
-          "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
-        },
-        {
-          "rank": 8,
-          "title": "Mahasenha",
-          "language": "Telugu",
-          "img": "",
-          "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
-        },
-        {
-          "rank": 9,
-          "title": "Premistunnaa",
-          "language": "Telugu",
-          "img": "",
-          "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
-        },
-        {
-          "rank": 10,
-          "title": "Ayalaan",
-          "language": "Telugu",
-          "img": "",
-          "sourceUrl": "https://www.aha.video/telugu/movies",
-          "platformSignal": true
+          "sourceLabel": "Popular Movies",
+          "signalType": "Popular Movies"
         }
-      ]
+      ],
+      "note": "Movies currently surfaced by Aha on its public Popular Movies surface."
     },
     "jiohotstar": {
       "id": "jiohotstar",
       "name": "JioHotstar",
-      "status": "no-telugu-matches",
+      "status": "ok",
       "sourceUrl": "https://www.hotstar.com/in/cinema",
-      "updatedAt": "2026-09-30T06:57:58.690Z",
-      "items": []
+      "updatedAt": "2026-09-30T07:23:44.984Z",
+      "items": [
+        {
+          "rank": 1,
+          "title": "waving-hand-icon",
+          "language": "Telugu",
+          "img": "https://secure-media.hotstar.com/static/sunset/us/assets/web/disney_bundle.png",
+          "sourceUrl": "https://www.hotstar.com/in/cinema",
+          "sourceLabel": "Featured Movies",
+          "signalType": "Featured Movies"
+        }
+      ],
+      "note": "Movies currently surfaced by JioHotstar on its public Featured Movies surface."
     },
     "zee5": {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "no-telugu-matches",
-      "sourceUrl": "https://www.zee5.com/global/collections/trending-in-india/0-8-7582",
-      "updatedAt": "2026-09-30T06:58:02.977Z",
-      "items": []
+      "status": "ok",
+      "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+      "updatedAt": "2026-09-30T07:23:49.598Z",
+      "items": [
+        {
+          "rank": 1,
+          "title": "Back",
+          "language": "Telugu",
+          "img": "https://www.zee5.com/webapp-assets/images/back_arrow_subs.svg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 2,
+          "title": "Aindham Vedham Web Series",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-4z5632748/portrait/1920x770bc67e81f4dde4e258c5a9ee74abf2f4b5d08786dc5af438d80d72c9ca0240bee5e9819dbac7f43f0b2defd12db48a25c.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 3,
+          "title": "Demonte Colony 2 Movie",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5625693/portrait/1920x7707ad8f0fcda1e4767b4dc4b4a9ec3b9470e4fbfeb1402458db7a241b5cd7bff2ac6d59249ee5347698d71b9310e21a67f.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 4,
+          "title": "Nunakkuzhi Movie",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5619087/portrait/1920x77053166c91432049a6bb6c2ae62daa1d11e3e003d8f94a4b3995fadec9fc4f8dad.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 5,
+          "title": "Raghu Thatha Movie",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5619726/portrait/1920x770e6b7c2fd6254404791c90a1c797a2d6431cec6bbba204109aeb8e6ed35cf286c8143fc6f07f24e8c8748990d43dcc1de.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 6,
+          "title": "Manorathangal Web Series",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-4z5594936/portrait/1920x770d533cec0328148b6930bab162e0a697644b87ab556e64ff8af479a18ecf6b9971132b5ef058545baaf26b8578e3e3144.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 7,
+          "title": "Bahishkarana Web Series",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-4z5588145/portrait/1920x770a59190dd2d3d49db9155a9a5b756b95dec441bccc7094f9b9276d3536efb9ec6.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 8,
+          "title": "Hanu-Man",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-101-10z5535296/portrait/1920x77031b146c2d68242d19214248dc59e05cc.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 9,
+          "title": "Gyaarah Gyaarah Web Series",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-4z5371966/portrait/1920x7700341a9b327f749a58985584d9bf3b7532a1bf0db08d045229666914da342e23fa2625eb18fbf485a8f3135d8271e21c2.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 10,
+          "title": "Demonte Colony 2 (Telugu) Movie",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5629027/portrait/1920x770017c64b6f2654060917c7c4eb5fa39bae712644d87c242769ab5c4d99685666a.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 11,
+          "title": "Viduthalai Part 1 - Theatrical Cut Movie",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-0-1z5351464/portrait/1920x7703af871ea3f2d4c328c5ac16f788dac3e.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        },
+        {
+          "rank": 12,
+          "title": "Mission Over Mars Web Series",
+          "language": "Telugu",
+          "img": "https://akamaividz2.zee5.com/image/upload/w_756,h_1134,c_scale,f_webp,q_auto:eco/resources/0-6-2006/portrait/1920x770406b971eac1346d7ac5097cbdf13607d5fbb3b26c0074282b0e9476c88075d97.jpg",
+          "sourceUrl": "https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252",
+          "sourceLabel": "Now Trending",
+          "signalType": "Now Trending"
+        }
+      ],
+      "note": "Movies currently surfaced by ZEE5 on its public Now Trending surface."
     },
     "sun-nxt": {
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
       "sourceUrl": "https://www.sunnxt.com/movie/inside/telugu-movies?actioURL=true&publishid=45&title=Telugu+Movies&type=movie",
+      "updatedAt": "2026-09-30T07:23:50.735Z",
       "items": [],
-      "note": "Official public trending page could not be fetched: HTTP 403"
+      "note": "The Sun NXT public Telugu Movies surface could not be fetched: HTTP 403"
     },
     "etv-win": {
       "id": "etv-win",
       "name": "ETV Win",
-      "status": "no-telugu-matches",
+      "status": "unavailable",
       "sourceUrl": "https://www.etvwin.com/",
-      "updatedAt": "2026-09-30T06:58:04.962Z",
-      "items": []
+      "updatedAt": "2026-09-30T07:23:51.479Z",
+      "items": [],
+      "note": "No current public movie list could be extracted reliably from the ETV Win Featured Movies surface."
     },
     "sonyliv": {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "no-telugu-matches",
+      "status": "ok",
       "sourceUrl": "https://www.sonyliv.com/?lang=en",
-      "updatedAt": "2026-09-30T06:58:05.417Z",
-      "items": []
+      "updatedAt": "2026-09-30T07:23:52.268Z",
+      "items": [
+        {
+          "rank": 1,
+          "title": "Family Full House With Rohit Sharma",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/blitz_assets/1790007851/mastheadLargeV3/1790514740543986_FFH_27sep_INT_masthead_large_v3.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 2,
+          "title": "India's Best Dancer",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000024812/1790352734237297_IBD_Grand_Finale_masthead_large_v3.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 3,
+          "title": "Habeebi",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000024646/1790244558255531_HABIBI_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 4,
+          "title": "Kyunki \"Papa Kehte Hain\"",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000023839/1789128727693274_PaPa_kahte_Hain_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 5,
+          "title": "Real Kashmir Football Club",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000024586/1790192018367217_RKFC_masthead_large_v3.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 6,
+          "title": "Kattalan",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000023895/1789222200809478_KATTALAN_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 7,
+          "title": "Kaun Banega Crorepati",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/blitz_assets/1700000195/mastheadLargeV3/1786383141659516_KBC25_26_3_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 8,
+          "title": "Indian Game Show",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000022527/1787119140000143_INDIAN_GAME_SHOW_2026_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 9,
+          "title": "Crime Patrol 2026",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000025187/1790601825578596_Crime_Patrol_ilu_2026_masthead_large_v3_3200x1800.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        },
+        {
+          "rank": 10,
+          "title": "Unmadham",
+          "language": "Telugu",
+          "img": "https://images.slivcdn.com/videoasset_images/blitz_assets/1590016455/mastheadLargeV3/1788462858521_1788460564149554_Unmaadham_masthead_large_v3.jpg?h=auto&w=1712&q=high",
+          "sourceUrl": "https://www.sonyliv.com/?lang=en",
+          "sourceLabel": "Trending Movies",
+          "signalType": "Trending Movies"
+        }
+      ],
+      "note": "Movies currently surfaced by SonyLIV on its public Trending Movies surface."
     }
   },
-  "methodology": "Buzz Now is Cineinsta's editorial activity signal. OTT tabs show Telugu titles appearing in each platform's own public trending, popular or Top 10 surface when the title can be matched to Cineinsta's Telugu movie feed. No OTT availability is inferred."
+  "methodology": "Buzz Now is Cineinsta editorial activity. OTT tabs simply show movies currently surfaced by each platform’s own public Trending, Top 10, Popular or Featured movie surface. Cineinsta does not create OTT rankings or scores. Platform ordering is preserved where available."
 }
