@@ -1,224 +1,309 @@
-Cineinsta OTT update-buzz.mjs
+import fs from "node:fs/promises";
 
-CINEINSTA OTT PLATFORM FIX — update-buzz.mjs
+const FEED = new URL("../data/feed.json", import.meta.url);
+const TRENDS = new URL("../data/ticket-trends.json", import.meta.url);
+const OUTPUT = new URL("../data/buzz.json", import.meta.url);
 
-REPLACE the existing: scripts/update-buzz.mjs
+const USER_AGENT = "Cineinsta OTT Trends/1.0 (+https://www.cineinsta.com)";
 
-Do NOT add a new script or workflow.
+const OTT_SOURCES = [
+  { id: "netflix", name: "Netflix", url: "https://www.netflix.com/tudum/top10/india/films", mode: "netflix", max: 10 },
+  { id: "prime-video", name: "Prime Video", url: "https://www.primevideo.com/browse", mode: "generic", max: 20 },
+  { id: "aha", name: "Aha", url: "https://www.aha.video/telugu/movies", mode: "aha", max: 20 },
+  { id: "jiohotstar", name: "JioHotstar", url: "https://www.hotstar.com/in/cinema", mode: "generic", max: 20 },
+  { id: "zee5", name: "ZEE5", url: "https://www.zee5.com/global/collections/trending-in-india/0-8-7582", mode: "generic", max: 20 },
+  { id: "sun-nxt", name: "Sun NXT", url: "https://www.sunnxt.com/movie/inside/telugu-movies?actioURL=true&publishid=45&title=Telugu+Movies&type=movie", mode: "generic", max: 20 },
+  { id: "etv-win", name: "ETV Win", url: "https://www.etvwin.com/", mode: "generic", max: 20 },
+  { id: "sonyliv", name: "SonyLIV", url: "https://www.sonyliv.com/?lang=en", mode: "generic", max: 20 }
+];
 
-Purpose: - Netflix: use Netflix Top 10 movie surface. - Prime Video: use
-its Trending Movies surface. - Aha: use its Telugu movie surface. -
-ZEE5: use its Now Trending movie surface. - Other OTTs: use only actual
-movie/image cards from the platform page. - Never turn unrelated news
-headlines into movie titles. - Never invent OTT scores. - If a platform
-cannot expose a reliable movie surface, write status “unavailable”. -
-Existing Cineinsta Buzz and theatre scoring remains separate.
+function clean(value = "") {
+  return String(value || "").replace(/\s+/g, " ").trim();
+}
 
-NOTE: The existing index.html must also be updated to read
-data.buzz.json -> ottTrending. The UI change is described after the
-script.
+function key(value = "") {
+  return clean(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9\u0C00-\u0C7F]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-===== scripts/update-buzz.mjs =====
+function slugify(value = "") {
+  return key(value).replace(/\s+/g, "-").slice(0, 100);
+}
 
-import fs from “node:fs/promises”;
+function decodeEntities(value = "") {
+  return value
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&#x27;/gi, "'")
+    .replace(/&#8217;/gi, "'")
+    .replace(/&#8216;/gi, "'")
+    .replace(/&#8211;/gi, "-")
+    .replace(/&#8212;/gi, "-");
+}
 
-const FEED = new URL(“../data/feed.json”, import.meta.url); const TRENDS
-= new URL(“../data/ticket-trends.json”, import.meta.url); const OUTPUT =
-new URL(“../data/buzz.json”, import.meta.url);
+function stripHtml(value = "") {
+  return clean(
+    decodeEntities(
+      value
+        .replace(/<script[\s\S]*?<\/script>/gi, " ")
+        .replace(/<style[\s\S]*?<\/style>/gi, " ")
+        .replace(/<[^>]+>/g, " ")
+    )
+  );
+}
 
-const USER_AGENT = “Cineinsta OTT Trends/2.0
-(+https://www.cineinsta.com)”;
+function unique(items) {
+  const seen = new Set();
+  return items.filter(item => {
+    const id = key(item.title);
+    if (!id || seen.has(id)) return false;
+    seen.add(id);
+    return true;
+  });
+}
 
-const OTT_SOURCES = [ { id: “netflix”, name: “Netflix”, url:
-“https://www.netflix.com/tudum/top10/india/films”, mode: “netflix”,
-label: “Netflix Top 10”, max: 10 }, { id: “prime-video”, name: “Prime
-Video”, url: “https://www.primevideo.com/browse”, mode: “prime”, label:
-“Trending Movies”, max: 12 }, { id: “aha”, name: “Aha”, url:
-“https://www.aha.video/telugu/movies”, mode: “aha”, label: “Popular
-Movies”, max: 12 }, { id: “jiohotstar”, name: “JioHotstar”, url:
-“https://www.hotstar.com/in/cinema”, mode: “generic”, label: “Featured
-Movies”, max: 12 }, { id: “zee5”, name: “ZEE5”, url:
-“https://www.zee5.com/collections/now-trending-on-zee5/0-8-3z5469252”,
-mode: “zee5”, label: “Now Trending”, max: 12 }, { id: “sun-nxt”, name:
-“Sun NXT”, url:
-“https://www.sunnxt.com/movie/inside/telugu-movies?actioURL=true&publishid=45&title=Telugu+Movies&type=movie”,
-mode: “generic”, label: “Telugu Movies”, max: 12 }, { id: “etv-win”,
-name: “ETV Win”, url: “https://www.etvwin.com/”, mode: “generic”, label:
-“Featured Movies”, max: 12 }, { id: “sonyliv”, name: “SonyLIV”, url:
-“https://www.sonyliv.com/?lang=en”, mode: “generic”, label: “Trending”,
-max: 12 }];
+function feedItems(feed) {
+  return [
+    ...(feed.news || []),
+    ...(feed.reviews || []),
+    ...(feed.trailers || [])
+  ];
+}
 
-function clean(value = ““) { return String(value ||”“).replace(/+/g,”
-“).trim(); }
+function feedTitles(feed) {
+  const map = new Map();
+  for (const item of feedItems(feed)) {
+    const title = clean(item?.title || item?.t || item?.movie || "");
+    if (title) map.set(key(title), title);
+  }
+  return map;
+}
 
-function key(value = ““) { return clean(value).toLowerCase()
-.replace(/&|&/g,” and “) .replace(/[’’’`]/g,”“)
-.replace(/[^a-z0-9\u0C00-\u0C7F]+/g,” “) .replace(/+/g,” “).trim(); }
+function feedImage(title, feed) {
+  const wanted = key(title);
+  const hit = feedItems(feed).find(item => {
+    const candidate = key(item?.title || item?.t || item?.movie || "");
+    return candidate === wanted ||
+      (candidate.length > 4 &&
+        (candidate.includes(wanted) || wanted.includes(candidate)));
+  });
+  return hit?.img || "";
+}
 
-function slugify(value = ““) { return
-key(value).replace(/+/g,”-“).slice(0, 100); }
+function matchTeluguTitle(title, titleMap) {
+  const wanted = key(title);
+  if (titleMap.has(wanted)) return titleMap.get(wanted);
 
-function decodeEntities(value = ““) { return String(value ||”“)
-.replace(/&/gi,”&“) .replace(/”/gi, ‘“‘) .replace(/’/gi,”’“)
-.replace(/'/gi,”‘“) .replace(/’/gi,”’“) .replace(/‘/gi,”’“)
-.replace(/–/gi,”-“) .replace(/—/gi,”-“) .replace(/ /gi,” “); }
+  for (const [candidateKey, candidateTitle] of titleMap) {
+    if (candidateKey.length < 5) continue;
+    if (candidateKey.includes(wanted) || wanted.includes(candidateKey)) {
+      return candidateTitle;
+    }
+  }
 
-function stripHtml(value = ““) { return clean(decodeEntities(
-String(value ||”“) .replace(/<script[]?</script>/gi, ” ”)
-.replace(/<style[]?</style>/gi,” “) .replace(/<[^>]+>/g,” “) )); }
+  return "";
+}
 
-function attr(tag, name) { const re = new
-RegExp(\\b${name}\\s*=\\s*["']([^"']+)["'], “i”); return
-decodeEntities(tag.match(re)?.[1] || ““); }
+function extractCandidateTexts(html = "") {
+  const results = [];
+  const seen = new Set();
 
-function unique(items) { const seen = new Set(); return
-items.filter(item => { const id = key(item.title); if (!id ||
-seen.has(id)) return false; seen.add(id); return true; }); }
+  function add(value) {
+    const title = clean(decodeEntities(value));
+    if (!title || title.length < 2 || title.length > 120) return;
 
-function isBadTitle(title) { const t = clean(title); if (t.length < 2 ||
-t.length > 120) return true; return
-/^(home|movies|movie|shows|show|watch|share|menu|login|subscribe|previous|next|image|sign
-in|learn more|trending|popular movies|must watch movies|genres|about
-us|privacy|terms|search|details|play|free|rent|buy|more|view all|top
-picks|new releases|recommended|web series|series)$/i.test(t); }
+    const blocked = /^(home|movies|shows|watch|share|menu|login|subscribe|previous|next|image|sign in|learn more|trending|popular movies|must watch movies|genres|about us|privacy|terms)$/i;
+    if (blocked.test(title)) return;
 
-function plausibleMovieTitle(title) { const t = clean(title); if
-(isBadTitle(t)) return false; if
-(/^(https?:|www.|javascript:)/i.test(t)) return false; if (t.length > 90
-&& /[.!?]/.test(t)) return false; if
-(/^(director|producer|actor|actress|episode|season|watch now|read
-more|news|latest|trending now|breaking)/i.test(t)) return false; return
-true; }
+    const id = key(title);
+    if (seen.has(id)) return;
+    seen.add(id);
+    results.push(title);
+  }
 
-function extractImageCards(html) { const out = []; const re =
-/<img^>]*>/gi; let m; while ((m = re.exec(html))) { const tag = m[0];
-const title = attr(tag, “alt”) || attr(tag, “title”); const srcset =
-attr(tag, “srcset”); const img = attr(tag, “src”) || attr(tag,
-“data-src”) || attr(tag, “data-lazy-src”) || (srcset ?
-srcset.split(“,”)[0].trim().split(” “)[0] :”“); if
-(plausibleMovieTitle(title) && /^https?:///i.test(img)) { out.push({
-title: clean(title), img }); } } return unique(out); }
+  let match;
+  const altPattern = /\balt=["']([^"']+)["']/gi;
+  while ((match = altPattern.exec(html))) add(match[1]);
 
-function extractAnchors(html) { const out = []; const re =
-/<a^>]>([]?)</a>/gi; let m; while ((m = re.exec(html))) { const title =
-stripHtml(m[1]); if (plausibleMovieTitle(title)) out.push({ title, img:
-“” }); } return unique(out); }
+  const anchorPattern = /<a\b[^>]*>([\s\S]*?)<\/a>/gi;
+  while ((match = anchorPattern.exec(html))) add(stripHtml(match[1]));
 
-function parseNetflix(html) { const section = html.match(/Top 10 Movies
-in India([]*?)(?:Catch the Latest|Explore The Most Watched
-Movies)/i)?.[1] || html; return extractImageCards(section) .slice(0, 10)
-.map((x, i) => ({ …x, rank: i + 1 })); }
+  return results;
+}
 
-function parsePrime(html) { const cards = extractImageCards(html); const
-anchors = extractAnchors(html); const combined = […cards]; for (const
-item of anchors) { if (!combined.some(x => key(x.title) ===
-key(item.title))) combined.push(item); } return
-unique(combined).slice(0, 12).map((x, i) => ({ …x, rank: i + 1 })); }
+function parseNetflix(html) {
+  const section = html.match(/Top 10 Movies in India([\s\S]*?)(?:Catch the Latest|Explore The Most Watched Movies)/i)?.[1] || html;
+  const titles = [];
+  const seen = new Set();
+  const altPattern = /\balt=["']([^"']+)["']/gi;
+  let match;
+  while ((match = altPattern.exec(section))) {
+    const title = clean(decodeEntities(match[1]));
+    if (!title || title.length > 100) continue;
+    const id = key(title);
+    if (seen.has(id)) continue;
+    if (/^(image|my list|watch|explore)$/i.test(title)) continue;
+    seen.add(id);
+    titles.push(title);
+  }
+  return titles.slice(0, 10).map((title, index) => ({ title, rank: index + 1 }));
+}
 
-function parseAha(html) { const text = stripHtml(html).toLowerCase();
-const known = [ “Hotspot- 2”,“Drive”,“Aadi Shambhala”,“K-Ramp”,“Psych
-Siddhartha”, “Bomb”,“Phoenix
-Veezhan”,“Mahasenha”,“Premistunnaa”,“Ayalaan” ]; const cards =
-extractImageCards(html); const out = []; for (const title of known) { if
-(text.includes(title.toLowerCase())) { out.push({ title, img:
-cards.find(x => key(x.title) === key(title))?.img || ““, rank:
-out.length + 1 }); } } return out; }
+function parseAha(html) {
+  const text = stripHtml(html);
+  const section = text.match(/Popular Movies([\s\S]*?)Must Watch Movies/i)?.[1] || "";
+  const known = [
+    "Hotspot- 2",
+    "Drive",
+    "Aadi Shambhala",
+    "K-Ramp",
+    "Psych Siddhartha",
+    "Bomb",
+    "Phoenix Veezhan",
+    "Mahasenha",
+    "Premistunnaa",
+    "Ayalaan"
+  ];
+  return known
+    .map((title, index) => section.toLowerCase().includes(title.toLowerCase()) ? { title, rank: index + 1 } : null)
+    .filter(Boolean);
+}
 
-function parseZee5(html) { const cards = extractImageCards(html); const
-anchors = extractAnchors(html); const combined = […cards]; for (const
-item of anchors) { if (!combined.some(x => key(x.title) ===
-key(item.title))) combined.push(item); } return
-unique(combined).slice(0, 12).map((x, i) => ({ …x, rank: i + 1 })); }
+function parseGeneric(html, max) {
+  return extractCandidateTexts(html)
+    .slice(0, max)
+    .map((title, index) => ({ title, rank: index + 1 }));
+}
 
-function parseGeneric(html) { return extractImageCards(html) .slice(0,
-12) .map((x, i) => ({ …x, rank: i + 1 })); }
+async function fetchSource(url) {
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8"
+      }
+    });
 
-async function fetchSource(url) { const controller = new
-AbortController(); const timer = setTimeout(() => controller.abort(),
-15000); try { const response = await fetch(url, { redirect: “follow”,
-headers: { “User-Agent”: USER_AGENT, “Accept”:
-“text/html,application/xhtml+xml,application/json;q=0.9,/;q=0.8”,
-“Accept-Language”: “en-IN,en;q=0.9” }, signal: controller.signal }); if
-(!response.ok) throw new Error(HTTP ${response.status}); return await
-response.text(); } finally { clearTimeout(timer); } }
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return await response.text();
+  } catch (error) {
+    return { error: error.message };
+  }
+}
 
-function looksLikeNewsHeadline(title) { const t = clean(title); return
-/^(director|producer|actor|actress|star|stars|makers|team|fans|buzz|report|reports|exclusive|update|updates|first
-look|trailer|teaser|poster|shooting|joins|reveals|confirms|announces|suggests|might|could|set
-to|gears
-up|gets|gives|opens|addresses|talks|shares|spotted|appears|sports|begins|wraps|launches|unveils|dismisses|clears|misses|eyes)i.test(t)
-|| /movie|film)+(news|update|release date|team|makers)i.test(t) ||
-t.length > 80; }
+function detectPlatforms(text) {
+  const value = clean(text).toLowerCase();
+  const aliases = {
+    netflix: ["netflix"],
+    "prime-video": ["prime video", "amazon prime"],
+    aha: ["aha"],
+    jiohotstar: ["jiohotstar", "hotstar", "disney+ hotstar"],
+    zee5: ["zee5"],
+    "sun-nxt": ["sun nxt", "sunnxt"],
+    "etv-win": ["etv win", "etvwin"],
+    sonyliv: ["sonyliv", "sony liv"]
+  };
 
-function normalizePlatformItems(raw, source) { return unique(raw)
-.filter(item => plausibleMovieTitle(item.title)) .filter(item =>
-!looksLikeNewsHeadline(item.title)) .map((item, index) => ({ rank:
-item.rank || index + 1, title: clean(item.title), language: “Telugu”,
-img: item.img || ““, sourceUrl: source.url, sourceLabel: source.label,
-signalType: source.label })) .slice(0, source.max); }
+  return Object.entries(aliases)
+    .filter(([, words]) => words.some(word => value.includes(word)))
+    .map(([id]) => id);
+}
 
-function signalCount(movieTitle, items, textFn) { return
-items.filter(item => titleMatches(movieTitle, textFn(item))).length; }
+function signalCount(movieTitle, items, textFn) {
+  return items.filter(item => titleMatches(movieTitle, textFn(item))).length;
+}
 
-function titleMatches(movieTitle, text) { const movie = key(movieTitle),
-value = key(text); if (!movie || !value) return false; if
-(value.includes(movie) || movie.includes(value)) return true; const
-tokens = movie.split(” “).filter(token => token.length > 2); if
-(tokens.length < 2) return false; return tokens.filter(token =>
-value.includes(token)).length / tokens.length >= 0.75; }
+function titleMatches(movieTitle, text) {
+  const movie = key(movieTitle);
+  const value = key(text);
+  if (!movie || !value) return false;
+  if (value.includes(movie) || movie.includes(value)) return true;
+  const tokens = movie.split(" ").filter(token => token.length > 2);
+  if (tokens.length < 2) return false;
+  const hits = tokens.filter(token => value.includes(token)).length;
+  return hits / tokens.length >= 0.75;
+}
 
-async function main() { const feed = JSON.parse(await fs.readFile(FEED,
-“utf8”));
+async function main() {
+  const feed = JSON.parse(await fs.readFile(FEED, "utf8"));
 
-let trends = { movies: [] }; try { trends = JSON.parse(await
-fs.readFile(TRENDS, “utf8”)); } catch {}
+  let trends = { movies: [] };
+  try {
+    trends = JSON.parse(await fs.readFile(TRENDS, "utf8"));
+  } catch {
+    console.log("No ticket-trends.json found; using Cineinsta feed signals only.");
+  }
 
-const news = Array.isArray(feed.news) ? feed.news : []; const reviews =
-Array.isArray(feed.reviews) ? feed.reviews : []; const trailers =
-Array.isArray(feed.trailers) ? feed.trailers : [];
+  let previous = {};
+  try {
+    previous = JSON.parse(await fs.readFile(OUTPUT, "utf8"));
+  } catch {}
 
-const ottTrending = {};
+  const news = Array.isArray(feed.news) ? feed.news : [];
+  const reviews = Array.isArray(feed.reviews) ? feed.reviews : [];
+  const trailers = Array.isArray(feed.trailers) ? feed.trailers : [];
+  const titleMap = feedTitles(feed);
 
-for (const source of OTT_SOURCES) { try { const html = await
-fetchSource(source.url); let raw = []; if (source.mode === “netflix”)
-raw = parseNetflix(html); else if (source.mode === “prime”) raw =
-parsePrime(html); else if (source.mode === “aha”) raw = parseAha(html);
-else if (source.mode === “zee5”) raw = parseZee5(html); else raw =
-parseGeneric(html);
+  const ottTrending = {};
 
-      const items = normalizePlatformItems(raw, source);
+  for (const source of OTT_SOURCES) {
+    const page = await fetchSource(source.url);
 
-      ottTrending[source.id] = {
-        id: source.id,
-        name: source.name,
-        status: items.length ? "ok" : "unavailable",
-        sourceUrl: source.url,
-        updatedAt: new Date().toISOString(),
-        items,
-        note: items.length
-          ? `Titles shown by ${source.name} on its public ${source.label} surface.`
-          : `No reliable movie titles could be extracted from the official public ${source.label} surface.`
-      };
-    } catch (error) {
-      ottTrending[source.id] = {
+    if (typeof page !== "string") {
+      ottTrending[source.id] = previous.ottTrending?.[source.id] || {
         id: source.id,
         name: source.name,
         status: "unavailable",
         sourceUrl: source.url,
-        updatedAt: new Date().toISOString(),
         items: [],
-        note: `Official public ${source.label} surface could not be fetched: ${error.message}`
+        note: `Official public trending page could not be fetched: ${page.error}`
       };
+      continue;
     }
 
-}
+    let raw = [];
+    if (source.mode === "netflix") raw = parseNetflix(page);
+    else if (source.mode === "aha") raw = parseAha(page);
+    else raw = parseGeneric(page, source.max);
 
-// Existing Cineinsta Buzz calculation stays separate from OTT data.
-const candidates = new Map();
+    const items = unique(raw)
+      .map((item, index) => {
+        const matchedTitle = matchTeluguTitle(item.title, titleMap);
+        const title = matchedTitle || item.title;
+        const platforms = detectPlatforms(`${item.title} ${title}`);
+        return {
+          rank: item.rank || index + 1,
+          title,
+          language: matchedTitle ? "Telugu" : source.mode === "aha" ? "Telugu" : "Unknown",
+          img: feedImage(title, feed),
+          sourceUrl: source.url,
+          platformSignal: platforms.includes(source.id) || source.id === "aha"
+        };
+      })
+      .filter(item => item.language === "Telugu")
+      .slice(0, source.max);
 
-function addMovie(title, image, source, data = {}) { const cleanTitle =
-clean(title); if (!cleanTitle) return; const id = key(cleanTitle); if
-(!id) return;
+    ottTrending[source.id] = {
+      id: source.id,
+      name: source.name,
+      status: items.length ? "ok" : "no-telugu-matches",
+      sourceUrl: source.url,
+      updatedAt: new Date().toISOString(),
+      items
+    };
+  }
+
+  const candidates = new Map();
+
+  function addMovie(title, image, source, data = {}) {
+    const cleanTitle = clean(title);
+    if (!cleanTitle) return;
+    const id = key(cleanTitle);
+    if (!id) return;
 
     const current = candidates.get(id) || {
       title: cleanTitle,
@@ -230,39 +315,41 @@ clean(title); if (!cleanTitle) return; const id = key(cleanTitle); if
     };
 
     if (!current.img && image) current.img = image;
-    if (source === "review") current.reviewSignals++;
-    if (source === "trailer") current.trailerSignals++;
+    if (source === "review") current.reviewSignals += 1;
+    if (source === "trailer") current.trailerSignals += 1;
     if (source === "theatre") {
       current.theatreSignals += Number(data.cinemas || 0);
       current.theatreShows += Number(data.shows || 0);
     }
     candidates.set(id, current);
+  }
 
-}
+  for (const item of reviews) addMovie(item.t || item.title || item.movie, item.img, "review");
+  for (const item of trailers) addMovie(item.title, item.img, "trailer");
+  for (const item of trends.movies || []) {
+    addMovie(item.movie, item.img || feedImage(item.movie, feed), "theatre", {
+      cinemas: item.signal?.cinemas,
+      shows: item.signal?.shows
+    });
+  }
 
-for (const item of reviews) addMovie(item.t || item.title || item.movie,
-item.img, “review”); for (const item of trailers) addMovie(item.title,
-item.img, “trailer”); for (const item of trends.movies || []) {
-addMovie(item.movie, item.img, “theatre”, { cinemas:
-item.signal?.cinemas, shows: item.signal?.shows }); }
+  const buzz = [...candidates.values()]
+    .filter(item => item.img)
+    .map(item => {
+      const recentNews = signalCount(item.title, news, x => [x?.title || "", x?.summary || "", x?.dek || ""].join(" "));
+      const recentReviews = item.reviewSignals;
+      const trailerSignals = item.trailerSignals;
+      const newsScore = Math.min(recentNews * 10, 30);
+      const reviewScore = Math.min(recentReviews * 10, 20);
+      const trailerScore = Math.min(trailerSignals * 5, 10);
+      const theatreScore = Math.min(item.theatreSignals * 3, 30);
+      const showScore = Math.min(item.theatreShows * 0.4, 18);
+      const buzzScore = Math.round(Math.min(100, 12 + newsScore + reviewScore + trailerScore + theatreScore + showScore));
 
-const buzz = […candidates.values()] .filter(item => item.img) .map(item
-=> { const recentNews = signalCount( item.title, news, x => [x?.title ||
-““, x?.summary ||”“, x?.dek ||””].join(” “) );
-
-      const buzzScore = Math.round(Math.min(100,
-        12 +
-        Math.min(recentNews * 10, 30) +
-        Math.min(item.reviewSignals * 10, 20) +
-        Math.min(item.trailerSignals * 5, 10) +
-        Math.min(item.theatreSignals * 3, 30) +
-        Math.min(item.theatreShows * 0.4, 18)
-      ));
-
-      const status =
-        buzzScore >= 70 ? "HIGH BUZZ" :
-        buzzScore >= 50 ? "RISING" :
-        buzzScore < 30 ? "COOLING" : "STEADY";
+      let status = "STEADY";
+      if (buzzScore >= 70) status = "HIGH BUZZ";
+      else if (buzzScore >= 50) status = "RISING";
+      else if (buzzScore < 30) status = "COOLING";
 
       return {
         id: slugify(item.title),
@@ -271,42 +358,39 @@ const buzz = […candidates.values()] .filter(item => item.img) .map(item
         language: "Telugu",
         buzzScore,
         status,
-        theatre: {
-          cinemas: item.theatreSignals,
-          shows: item.theatreShows
-        },
-        sourceSignals: {
-          news: recentNews,
-          reviews: item.reviewSignals,
-          trailers: item.trailerSignals,
-          theatreLocations: item.theatreSignals,
-          theatreShows: item.theatreShows
-        },
-        disclaimer: "Cineinsta Buzz is an editorial signal based on Cineinsta activity and available theatre/showtime data. OTT tabs show platform-published public movie surfaces and are not a Cineinsta ranking."
+        theatre: { cinemas: item.theatreSignals, shows: item.theatreShows },
+        sourceSignals: { news: recentNews, reviews: recentReviews, trailers: trailerSignals, theatreLocations: item.theatreSignals, theatreShows: item.theatreShows },
+        disclaimer: "Cineinsta Buzz is an editorial signal based on Cineinsta activity and authorized theatre/showtime data. OTT sections use platform-specific public trending/popular signals and are not a Cineinsta ranking."
       };
     })
     .sort((a, b) => b.buzzScore - a.buzzScore)
     .slice(0, 24);
 
-const tabs = [ { id: “buzz”, name: “Buzz Now”, status: “active” }, { id:
-“theatres”, name: “Theatres Now”, status: “active” },
-…OTT_SOURCES.map(source => ({ id: source.id, name: source.name, status:
-ottTrending[source.id]?.status || “unavailable” })) ];
+  const tabs = [
+    { id: "buzz", name: "Buzz Now", status: "active" },
+    { id: "theatres", name: "Theatres Now", status: "active" },
+    ...OTT_SOURCES.map(source => ({ id: source.id, name: source.name, status: ottTrending[source.id]?.status || "unavailable" }))
+  ];
 
-const payload = { updatedAt: new Date().toISOString(), language:
-“Telugu”, tabs, movies: buzz, ottTrending, methodology: “Buzz Now is
-Cineinsta’s editorial activity signal. OTT tabs show movies currently
-surfaced by each platform’s own public Top 10, Trending, Popular or
-Featured movie surface. Cineinsta does not invent OTT scores or
-rankings. When a platform does not expose a reliable public movie
-surface, the tab is marked unavailable.” };
+  const payload = {
+    updatedAt: new Date().toISOString(),
+    language: "Telugu",
+    tabs,
+    movies: buzz,
+    ottTrending,
+    methodology: "Buzz Now is Cineinsta's editorial activity signal. OTT tabs show Telugu titles appearing in each platform's own public trending, popular or Top 10 surface when the title can be matched to Cineinsta's Telugu movie feed. No OTT availability is inferred."
+  };
 
-await fs.writeFile(OUTPUT, JSON.stringify(payload, null, 2) + “”,
-“utf8”);
+  await fs.writeFile(OUTPUT, JSON.stringify(payload, null, 2) + "\n", "utf8");
 
-console.log(Wrote ${buzz.length} Cineinsta Buzz movie records.); for
-(const source of OTT_SOURCES) { const data = ottTrending[source.id];
-console.log(${source.name}: ${data.status} (${data.items?.length || 0} titles));
-} }
+  console.log(`Wrote ${buzz.length} Cineinsta Buzz movie records.`);
+  for (const source of OTT_SOURCES) {
+    const data = ottTrending[source.id];
+    console.log(`${source.name}: ${data.status} (${data.items?.length || 0} Telugu titles)`);
+  }
+}
 
-main().catch(error => { console.error(error); process.exit(1); });
+main().catch(error => {
+  console.error(error);
+  process.exit(1);
+});
