@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T12:52:03.742Z",
+  "updatedAt": "2026-09-30T15:16:37.441Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -74,6 +74,25 @@
       }
     },
     {
+      "id": "irumudi",
+      "title": "Irumudi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
+      "language": "Telugu",
+      "buzzScore": 42,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 2,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "epic-first-semester",
       "title": "Epic First Semester",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
@@ -112,6 +131,63 @@
       }
     },
     {
+      "id": "maremma",
+      "title": "Maremma",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "bethlehem-kudumba-unit",
+      "title": "Bethlehem Kudumba Unit",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "romanchakam",
+      "title": "Romanchakam",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "toxic",
       "title": "Toxic",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
@@ -131,9 +207,9 @@
       }
     },
     {
-      "id": "irumudi",
-      "title": "Irumudi",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
+      "id": "vishwanath-and-sons",
+      "title": "Vishwanath and Sons",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -340,25 +416,6 @@
       }
     },
     {
-      "id": "maremma",
-      "title": "Maremma",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "mandaadi",
       "title": "Mandaadi",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mandaadi-1.webp",
@@ -416,66 +473,9 @@
       }
     },
     {
-      "id": "bethlehem-kudumba-unit",
-      "title": "Bethlehem Kudumba Unit",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "romanchakam",
-      "title": "Romanchakam",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "pallaburusu",
       "title": "Pallaburusu",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "vishwanath-and-sons",
-      "title": "Vishwanath and Sons",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -517,7 +517,7 @@
       "name": "Netflix",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.655Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [
         {
           "rank": 1,
@@ -549,7 +549,7 @@
       "name": "Prime Video",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.655Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [
         {
           "rank": 1,
@@ -570,7 +570,7 @@
       "name": "Aha",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.656Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [
         {
           "rank": 1,
@@ -591,7 +591,7 @@
       "name": "JioHotstar",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.656Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [
         {
           "rank": 1,
@@ -612,7 +612,7 @@
       "name": "ZEE5",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.656Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -621,7 +621,7 @@
       "name": "Sun NXT",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.656Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -630,7 +630,7 @@
       "name": "ETV Win",
       "status": "unavailable",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.656Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [],
       "note": "No matching latest Telugu movie records with usable images were found."
     },
@@ -639,7 +639,7 @@
       "name": "SonyLIV",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.656Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [
         {
           "rank": 1,
@@ -660,7 +660,7 @@
       "name": "Theatres Now",
       "status": "ok",
       "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-09-30T12:52:03.657Z",
+      "updatedAt": "2026-09-30T15:16:37.397Z",
       "items": [
         {
           "rank": 1,
