@@ -1,11 +1,83 @@
 {
-  "updatedAt": "2026-10-01T04:14:32.265Z",
+  "updatedAt": "2026-10-01T05:22:06.790Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.123telugu.com/mnews/kajals-the-india-story-finally-arrives-in-telugu-and-tamil-on-ott-hk.html",
+      "title": "Kajal Aggarwal's The India Story Lands on OTT in Telugu and Tamil",
+      "summary": "Kajal Aggarwal and Shreyas Talpade starrer The India Story has officially landed on JioHotstar in Telugu and Tamil. The multilingual film initially only received a Hindi theatrical release, skipping big screens in the south. The digital release gives regional audiences a fresh chance to watch the Chettan DK directorial.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/kajals-the-india-story-finally-arrives-in-telugu-and-tamil-on-ott-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/The-India-Story.webp",
+      "publishedAt": "2026-10-01T04:31:27.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Kajal Aggarwal-starrer The India Story has officially made its way to digital platforms in regional languages, releasing in Telugu and Tamil on JioHotstar. While the makers originally planned a broad multilingual theatrical rollout, only the Hindi version secured a cinema release. That theatrical run failed to make a major impact at the box office.",
+        "After the Hindi version previously debuted on JioHotstar, the streaming platform has now added the Telugu and Tamil iterations. This rollout offers the film a secondary window to connect with viewers in the south who missed out during its limited theatrical cycle. The initial focus centers on whether the project can secure a more favorable reception among digital consumers.",
+        "Directed by Chettan DK, the feature stars Kajal Aggarwal and Shreyas Talpade in the leading roles. The supporting cast features Manish Wadhwa, Murli Sharma, Atul Tiwari, and Kamlesh Sawant, among others. The production was handled by Sagar B Shinde, while Mangesh Dhakde composed the soundtrack for the film."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130321/geethanjali-4k-re-release-gets-date.html",
+      "title": "Nagarjuna and Girija Shettar's Geethanjali 4K Re-Release Locked for November",
+      "summary": "The 4K remastered version of Mani Ratnam's classic romantic drama Geethanjali is set to hit theatres on November 13, 2026. Starring Nagarjuna and Girija Shettar, the film was postponed from its initial August window to allow for extensive audio and visual restoration work. The 1989 film remains celebrated for its poetic narrative and Ilaiyaraaja's score.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130321/geethanjali-4k-re-release-gets-date.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/geethanjali-4k-re-release-gets-date-1790828752114-1790828752769.jpg",
+      "publishedAt": "2026-10-01T04:25:56.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The digitally enhanced 4K version of the classic film Geethanjali has secured a theatrical release date of November 13, 2026. The Mani Ratnam directorial was initially slated to arrive on August 28 to coincide with lead actor Nagarjuna's birthday, but the rollout was delayed to ensure thorough restoration work.",
+        "According to the team, the postponement allowed technicians to achieve the highest possible picture and sound quality using contemporary theatrical technology. Released originally in 1989, Geethanjali stands as Mani Ratnam's sole direct Telugu feature. The narrative follows two terminally ill individuals who find love and companionship despite their limited time.",
+        "The romantic drama continues to be remembered for PC Sreeram's cinematography of Ooty's landscapes and Ilaiyaraaja's musical score. With Nagarjuna and Girija Shettar's performances anchoring the emotional core, the upcoming 4K re-release intends to blend nostalgic appeal with upgraded big-screen presentation."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130320/ntr-reviews-dont-trouble-the-trouble.html",
+      "title": "Young Tiger NTR Praises Fahadh Faasil's Dont Trouble The Trouble",
+      "summary": "Jr NTR has shared high praise for the upcoming film Dont Trouble The Trouble, starring Fahadh Faasil and directed by debutant Shashank Yeleti. Lauding the emotional depth and child artist Sara's performance, NTR recommended the film as a complete family entertainer. The movie is scheduled to release on October 2, 2026.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130320/ntr-reviews-dont-trouble-the-trouble.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ntr-reviews-dont-trouble-the-trouble-1790828655702-1790828656287.jpg",
+      "publishedAt": "2026-10-01T04:24:26.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Ahead of its release, the Fahadh Faasil-starrer Dont Trouble The Trouble has earned appreciation from prominent industry figures, with Jr NTR being the latest to endorse the project. Directed by debutant Shashank Yeleti, the film hits screens on October 2, 2026, and has drawn positive remarks from stars like Mahesh Babu as well.",
+        "Sharing his thoughts on the project, NTR commended the debut filmmaker for handling complex emotions effectively. He specifically highlighted child artist Sara's performance and praised Kaala Bhairava's background score for elevating the overall cinematic experience. According to the actor, the movie serves as an emotional roller coaster suitable for family audiences from start to finish.",
+        "NTR also expressed pride in Karthikeya for backing the venture as producer. The strong endorsements from leading actors have generated substantial pre-release momentum for the project as it heads into theatres."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/434521/priyanka-saif-to-team-up-for-the-first-time",
+      "title": "Priyanka Chopra and Saif Ali Khan in Talks for Ritesh Batra's International Project",
+      "summary": "Bollywood stars Priyanka Chopra and Saif Ali Khan are reportedly set to share the screen for the first time in an international feature directed by Ritesh Batra. While both actors boast extensive filmographies, they have never worked together in lead roles before. Batra is recognized for critically acclaimed dramas like The Lunchbox.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/434521/priyanka-saif-to-team-up-for-the-first-time",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Priyanka-chopra-saif.jpg",
+      "publishedAt": "2026-10-01T04:11:48.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Bollywood fans may witness a brand-new on-screen pairing as Priyanka Chopra and Saif Ali Khan are reportedly aligned to star together in an upcoming international project. Media reports indicate that acclaimed filmmaker Ritesh Batra will direct the venture, marking the first time both established leads share screen space in their careers.",
+        "Ritesh Batra has earned international recognition through critically praised films such as The Lunchbox and Photograph, steering this new development as an overseas-focused venture. Both actors bring diverse experience to the table; Priyanka has built a significant global profile through projects like Citadel and Hollywood productions, while Saif continues to balance commercial and content-driven domestic cinema.",
+        "While Saif was recently seen in Priyadarshan's Haiwaan, Priyanka has been occupied with her comeback Indian film, Varanasi. The prospective collaboration has generated considerable curiosity among film enthusiasts as details regarding the plot are awaited."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
       "id": "https://www.123telugu.com/mnews/sandeep-reddy-backed-romanchakam-arrives-on-ott-hk.html",
-      "title": "Sandeep Reddy Vanga-Backed Romanchakam Lands on Netflix",
-      "summary": "Romanchakam, backed by filmmaker Sandeep Reddy Vanga and produced by Pranav Reddy Vanga under Bhadrakali Pictures, has officially premiered on Netflix in multiple languages. Following a theatrical run that missed expectations among younger moviegoers, the Sumanth Ashwin and Ananthika Sanilkumar starrer is looking to expand its viewership on the streaming platform.",
+      "title": "Sandeep Reddy Vanga-Backed Romanchakam Debuts on Netflix",
+      "summary": "Following its theatrical run, the film Romanchakam has officially arrived on Netflix in multiple languages. Backed by Sandeep Reddy Vanga and produced by Pranav Reddy Vanga under Bhadrakali Pictures, the project stars Sumanth Ashwin and Ananthika Sanilkumar.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/sandeep-reddy-backed-romanchakam-arrives-on-ott-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/romachakam.webp",
@@ -13,18 +85,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Romanchakam, a feature film supported heavily by prominent director Sandeep Reddy Vanga, has made its transition to digital streaming. The movie is now accessible to audiences on Netflix in several languages following its theatrical release.",
-        "The project features Sumanth Ashwin and Ananthika Sanilkumar in the primary lead roles, alongside a supporting cast that includes Narendra Ravi, Venkatesh Kakumanu, Mani Aegurla, Sai Sohan, and Upendra Limaye. It was produced by Pranav Reddy Vanga under the banner of Bhadrakali Pictures, with musical composition handled by Vasuki Vaibhav.",
-        "During its time in cinemas, the film failed to draw the anticipated youth turnout, leaving its box-office run below expectations. The makers are now banking on the Netflix release to grant the project a wider audience and a second chance at connecting with viewers.",
-        "The shift to digital platforms remains a crucial phase for mid-tier releases looking to recover ground lost during theatrical runs. Industry observers will be closely tracking how the title performs among digital subscribers."
+        "Romanchakam, a feature film backed by filmmaker Sandeep Reddy Vanga and produced by his father Pranav Reddy Vanga under the banner Bhadrakali Pictures, has officially transitioned to the digital space. The movie is now streaming on Netflix in multiple language options following its theatrical run.",
+        "The film features Sumanth Ashwin and Ananthika Sanilkumar in the lead roles. The supporting cast includes Narendra Ravi, Venkatesh Kakumanu, Mani Aegurla, Sai Sohan, and Upendra Limaye. The musical score for the project was composed by Vasuki Vaibhav.",
+        "While the feature was promoted extensively by Sandeep Reddy Vanga prior to its theatrical release, it did not manage to draw the expected response from younger demographics in cinema halls. Its arrival on Netflix now provides the production team a fresh avenue to connect with a wider viewership and test its appeal among digital audiences."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.cinejosh.com/news/1/130315/mayuri-film-distributors-makes-a-comeback.html",
-      "title": "Mayuri Film Distributors Announces Theatrical Comeback With Thella Kaagitham",
-      "summary": "Mayuri Film Distributors, a prominent banner associated with the Ramoji Group, is staging a major return to film distribution. The established company is bringing out the content-driven film Thella Kaagitham with a wide release across Krishna district and worldwide on October 2.",
+      "title": "Mayuri Film Distributors Announces Major Theatrical Comeback with Thella Kaagitham",
+      "summary": "Mayuri Film Distributors, part of the Ramoji Group, is staging a major return to theatrical distribution after a long hiatus. The banner has selected the content-driven film Thella Kaagitham for its comeback, planning a wide release across Krishna district alongside paid premieres.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130315/mayuri-film-distributors-makes-a-comeback.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/mayuri-film-distributors-makes-a-comeback-1790819364017-1790819364640.jpg",
@@ -32,18 +103,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Mayuri Film Distributors, historically recognized as a major corporate force in the regional distribution sector, is officially returning to the theatrical market after a long hiatus. The company has chosen to launch its comeback with Thella Kaagitham, prioritizing a content-driven narrative over conventional commercial star vehicles.",
-        "Historically, Mayuri earned a reputation for introducing systematic, data-backed distribution practices, studying regional viewing habits, and maintaining fair business operations. During the 1990s, the enterprise operated 19 offices across Andhra Pradesh and leased theaters in multiple cities, establishing itself as a dominant distribution network across all districts.",
-        "The upcoming release is slated for a worldwide premiere on October 2, backed by paid preview screenings and advance ticket bookings already underway in the Krishna district. Trade circles are closely monitoring the comeback of the legacy distribution house.",
-        "The entry of an organized player like Mayuri with a concept-oriented film signals a potential shift in regional distribution strategies, placing fresh emphasis on content execution and structured promotional campaigns."
+        "Mayuri Film Distributors, a well-known distribution entity operating under the Ramoji Group, is making its official return to the theatrical distribution sector following a prolonged break. The company has chosen to mark its comeback with a content-driven movie titled Thella Kaagitham, steering away from conventional star-led projects.",
+        "Historically recognized for establishing a corporate and systematic approach to distribution, Mayuri built its reputation during the 1990s through integrated operations, fair business practices, and extensive regional reach. At its peak, the network operated 19 distribution offices across Andhra Pradesh, leasing theaters across multiple cities and maintaining an active presence in every district.",
+        "The distribution house is preparing a wide release for Thella Kaagitham, scheduling the worldwide rollout alongside paid premieres. Advance bookings have already commenced in the Krishna district, drawing significant attention and curiosity from trade circles as the team kicks off its theatrical campaign."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/from-theatres-to-ott-in-3-weeks-karthis-sardar-2-now-streaming-on-amazon-prime-video-hk.html",
-      "title": "Karthi’s Spy Thriller Sardar 2 Makes Rapid OTT Debut on Amazon Prime Video",
-      "summary": "Karthi's spy action thriller Sardar 2 has arrived on Amazon Prime Video just three weeks after its theatrical release. The PS Mithran-directed Tamil film, which also features a star-studded supporting cast, aims to secure a stronger reception on streaming after an underwhelming box office run.",
+      "title": "Karthi’s Spy Action Thriller Sardar 2 Arrives on Amazon Prime Video",
+      "summary": "Just three weeks after its theatrical debut, Karthi's spy action thriller Sardar 2 has landed on Amazon Prime Video. Directed by PS Mithran, the film features the actor in dual roles alongside an ensemble cast including SJ Suryah and Malavika Mohanan.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/from-theatres-to-ott-in-3-weeks-karthis-sardar-2-now-streaming-on-amazon-prime-video-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Sardar-2-Review-1.webp",
@@ -51,18 +121,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Sardar 2, the high-profile Tamil spy action thriller starring Karthi, has made a quick transition to digital streaming just three weeks after its initial theatrical debut. The film is now available to watch on Amazon Prime Video in multiple languages, including Telugu.",
-        "Directed by PS Mithran, the project features Karthi playing dual roles. The ensemble cast also includes SJ Suryah, Malavika Mohanan, Ashika Ranganath, and Rajisha Vijayan. The film was financed by producers S Lakshman Kumar and Ishan Saksena under the banners of Prince Pictures and IVY Entertainment, with a musical score by Sam CS.",
-        "The swift OTT arrival comes after the movie fell short of commercial expectations during its theatrical run, failing to match the initial hype surrounding its release. Producers and streaming platforms are hoping the digital premiere offers the project a fresh lease on life.",
-        "Fast-tracked OTT windows have become increasingly common for theatrical underperformers, allowing studios to swiftly test alternative revenue streams and reach audiences who skipped theatrical viewings."
+        "Tamil spy action thriller Sardar 2 has made its swift transition to the digital space, arriving on Amazon Prime Video just three weeks after its theatrical release. The film had opened in cinema halls amid high expectations but ultimately concluded its theatrical run on a disappointing note after failing to sustain the initial hype.",
+        "Directed by PS Mithran, the project features lead actor Karthi playing dual roles. The ensemble cast also includes SJ Suryah, Malavika Mohanan, Ashika Ranganath, and Rajisha Vijayan. It was produced by S Lakshman Kumar and Ishan Saksena under the banners of Prince Pictures and IVY Entertainment, with music scored by Sam CS.",
+        "The rapid OTT rollout gives the action venture a secondary platform to connect with viewers in multiple languages, including Telugu. Industry observers will be watching to see if the streaming release helps the title secure a more favorable reception among digital audiences."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/434456/not-sampoo-but-these-two-actors-gets-fame-with-the-paradise",
-      "title": "Breakout Performances Overshadow Expected Standouts in The Paradise",
-      "summary": "While Sampoornesh Babu's role in The Paradise drew attention prior to release, actors Kranthi Balivada and Vishika have instead emerged as the film's standout performers, earning significant praise from audiences and critics alike.",
+      "title": "Supporting Cast Steals the Spotlight in The Paradise",
+      "summary": "While high-profile supporting roles in The Paradise faced mixed audience traction, actors Kranthi Balivada and Vishika have emerged with notable acclaim. Their respective performances and dubbing contributions have generated significant social media attention following the film's release.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434456/not-sampoo-but-these-two-actors-gets-fame-with-the-paradise",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/paradise-characters.jpg",
@@ -70,18 +139,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The recent release The Paradise has shifted the spotlight toward unexpected cast members, altering pre-release narratives regarding standout performances. Actor Sampoornesh Babu, who played a character named Biryani and had paused other commitments to focus on the project, saw his role receive routine traction rather than the expected career boost.",
-        "Instead, supporting actors Kranthi Balivada and Vishika have captured major attention post-release. Kranthi, who played Kayadu Lohar's mother and dubbed for actress Sonali Kulkarni in the film, gained widespread social media recognition for her dialogue delivery. Known also for her extensive background in dubbing for major projects like the KGF franchise, her work in this film has cemented her acting profile.",
-        "Meanwhile, young actor Vishika has garnered appreciation for her performance during the second half of the movie. Having previously appeared in notable regional titles, her work in this project has opened up possibilities for larger future roles.",
-        "Character-driven recognition in ensemble films often reshapes how casting directors view supporting talent, proving that screen impact frequently supersedes promotional pre-release billing."
+        "The recent release of The Paradise has shifted focus toward its supporting cast, bringing distinct attention to actors Kranthi Balivada and Vishika. Despite pre-release buzz surrounding other prominent casting choices, these two performers have captured the spotlight through critical appreciation and audience recognition post-release.",
+        "Kranthi Balivada, who portrayed Kayadu Lohar’s mother on screen, also gained traction for her extensive voice-over work. Having previously dubbed for major ventures including the KGF franchise, her voice was utilized in the film's teaser, and her performance as a dubbing artist for Sonali Kulkarni—who played Sammakka—has drawn widespread notice. Transitioning from a biochemistry lectureship to anchoring and dubbing, Kranthi's dual involvement has marked a major milestone in her career.",
+        "Meanwhile, young actor Vishika has drawn praise for her performance in the film's second half. Having previously appeared in projects such as Court, Korean Kanakaraju, Patang, and Committee Kurrollu, her recent work in The Paradise has opened doors for potential opportunities in larger mainstream productions."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/stree-3-big-update-about-shraddha-kapoors-threequel-revealed-prp.html",
-      "title": "Stree 3 Set to Roll Late Next Year with 2028 Release Planned",
-      "summary": "Producer Dinesh Vijan has shared fresh updates regarding the third instalment of the popular horror-comedy franchise, Stree. Director Amar Kaushik is slated to begin filming Stree 3 towards the end of next year, targeting a theatrical release in 2028.",
+      "title": "Stree 3 Officially Set for 2028 Release Following Mahavatar",
+      "summary": "Producer Dinesh Vijan has confirmed that Stree 3 will arrive in cinemas in late 2028. Director Amar Kaushik has completed writing the script, which promises a complete narrative turnaround.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/stree-3-big-update-about-shraddha-kapoors-threequel-revealed-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/09/Shraddha-Kapoor.webp",
@@ -89,18 +157,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Producer Dinesh Vijan recently offered fresh insights into the trajectory of the popular horror-comedy universe during a promotional event. Speaking alongside actor Rajkummar Rao, Vijan outlined the busy upcoming schedule for filmmaker Amar Kaushik, who remains a central figure across the franchise.",
-        "According to the producer, Kaushik is currently directing the ambitious feature Mahavatar, which depicts the story of Bhagwan Parshuram. That project is scheduled to wrap up its production phase around June. Following its completion, the creative team will immediately turn its focus to the third instalment of the hit series.",
-        "Production on Stree 3 is officially planned to commence towards the end of next year. Vijan confirmed that the feature is slated to arrive in cinemas in 2028, potentially eyeing an Independence Day or Christmas window. The script has already been completed, though the makers are keeping narrative specifics tightly under wraps.",
-        "The upcoming project promises to retain key elements valued by the audience while offering a completely fresh narrative trajectory from start to finish. Fans of the horror-comedy universe can anticipate another major theatrical event as the franchise builds toward its 2028 release."
+        "Producer Dinesh Vijan and actor Rajkummar Rao recently shared major updates regarding the popular horror-comedy franchise while appearing at FICCI Frames 2026. Vijan outlined the production timeline for the upcoming slate, confirming that director Amar Kaushik remains at the helm of the universe's upcoming projects.",
+        "Kaushik is currently scheduled to direct the ambitious mythological drama Mahavatar, centering on Bhagwan Parshuram's story, through January and June. Once that project wraps, the team will transition immediately to Stree 3, with principal photography slated to begin by the end of next year.",
+        "The threequel is officially planned for a theatrical release in 2028, with potential festive windows like Independence Day or Christmas being considered. Vijan noted that Kaushik has already finalized the script, promising an entirely unexpected trajectory for the franchise's narrative structure and character arcs."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/434497/will-ajay-devgn-succeed-where-mohanlal-faced-criticism",
-      "title": "Ajay Devgn's Drishyam 3 Faces Climax Challenge Following Malayalam Version's Mixed Reception",
-      "summary": "As Ajay Devgn gears up for the October 2, 2026 release of Drishyam 3 in Hindi, all eyes are on whether the film can deliver a more satisfying narrative conclusion than its Malayalam predecessor. The makers have confirmed that this Hindi instalment will serve as the final chapter of the franchise.",
+      "title": "Ajay Devgn Steps Up to Deliver Final Chapter of Drishyam 3",
+      "summary": "As Ajay Devgn's Drishyam 3 prepares for its theatrical release, all eyes are on the Hindi team to provide a satisfying conclusion to Georgekutty's saga following mixed reactions to the Malayalam version.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434497/will-ajay-devgn-succeed-where-mohanlal-faced-criticism",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/Drishyam-3-hindi.jpg",
@@ -108,18 +175,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The Drishyam franchise remains one of the most prominent thriller series in Indian cinema. While the Malayalam iteration led by Mohanlal pioneered the narrative journey, its recent third instalment encountered mixed reactions despite performing strongly at the box office in Kerala. A segment of viewers felt the film left the door open for further sequels rather than offering definitive closure.",
-        "This dynamic places heightened expectations on the Hindi adaptation starring Ajay Devgn, which arrives in theatres on October 2, 2026. Producers have officially confirmed that this upcoming Hindi release will mark the final chapter of the franchise, elevating audience curiosity regarding Georgekutty's ultimate fate.",
-        "The central challenge for the Hindi creative team lies in crafting an ending that feels emotionally rewarding and decisive. Having followed the characters over multiple years, audiences are looking for definitive answers rather than open-ended setups.",
-        "Strong advance bookings indicate encouraging commercial interest. If the creative team successfully provides a convincing and conclusive finale, the film could solidify its place as a fitting capstone to a beloved thriller franchise."
+        "The Drishyam franchise remains one of Indian cinema's most prominent thriller series. Following the release of the Malayalam iteration led by Mohanlal, which drew mixed reactions despite strong box-office numbers in Kerala, audiences have debated whether the narrative offered a true conclusion or left too many doors open.",
+        "Attention has now shifted to the Hindi adaptation headlined by Ajay Devgn, which arrives in theaters on October 2, 2026. Makers have officially stated that this upcoming installment will serve as the final chapter of the franchise in Hindi, heightening anticipation among fans seeking definitive answers for Georgekutty's ongoing battle.",
+        "Delivering a complete and emotionally rewarding resolution presents the primary hurdle for the Hindi creative team. Meeting audience expectations with a strong climax could cement the film as a definitive finale and secure a robust performance at the box office."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/434472/premiere-night-negativity-is-getting-out-of-control",
-      "title": "The Rising Wave of Premiere Night Negativity and Its Impact on Box Office Runs",
-      "summary": "The rapid acceleration of social media negativity and harsh YouTube reviews during premiere nights is creating unprecedented stress for film teams in Indian cinema. Industry trends indicate that elevated ticket pricing combined with intense digital scrutiny can severely magnify audience dissatisfaction.",
+      "title": "The Escalating Pressure of Premiere Night Negativity and Ticket Price Hikes",
+      "summary": "The rapid spread of harsh social media commentary and YouTube reviews during premiere nights has created a stressful environment for film teams, compounded by audience frustration over ticket price hikes.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434472/premiere-night-negativity-is-getting-out-of-control",
       "img": "https://cdn.gulte.com/wp-content/uploads/2025/05/theatre-ticket-rates.jpg",
@@ -127,18 +193,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The intense negative reactions witnessed during recent premiere shows have become a mounting concern for producers and actors alike. Recent releases have highlighted a shift in how early screenings are received, with immediate digital backlash capable of shocking even seasoned stars.",
-        "The digital ecosystem has fundamentally altered post-release discussions. In past decades, partisan fan rivalries existed, but general audiences typically maintained breathing space before forming opinions. Today, social media algorithms heavily reward critical content, encouraging accounts and digital creators to rapidly hunt for flaws to maximize online reach.",
-        "This trend has transformed the first weekend into an exceptionally stressful period for production teams. Even minor cinematic flaws are quickly amplified as negative posts cascade across platforms. Furthermore, the practice of conducting premieres alongside hiked ticket prices frequently creates an impatient mindset among viewers.",
-        "Audience members paying premium rates often enter theatres with heightened expectations and limited patience, ready to scrutinize every scene. While weak content will invariably face criticism and cannot be rescued by promotional strategies alone, the unprecedented speed of premiere-night negativity requires producers to carefully evaluate their release and pricing strategies."
+        "Recent high-profile film premieres have highlighted a growing trend of intense social media negativity immediately upon release. Actors like Nani have openly expressed shock at the rapid wave of criticism seen during premiere screenings, a phenomenon that has increasingly impacted major theatrical releases.",
+        "The digital landscape has evolved past traditional fan rivalries into a race for online reach, where critical tweets and dramatic YouTube reviews frequently gain rapid traction. This environment places immense pressure on production teams during the opening weekend, as minor flaws are quickly amplified across digital platforms before general audiences can form their own opinions.",
+        "Compounding this issue are the rising ticket prices implemented for major star vehicles. When viewers pay extra for premiere or opening-day tickets, they often enter the theater with heightened expectations and less patience, transforming minor narrative shortcomings into major talking points and magnifying negative word-of-mouth."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/434450/from-fafa-to-tom-cruise-stars-in-action-this-weekend",
-      "title": "Major Star-Studded Releases Gear Up for October 2nd National Holiday Box Office Clash",
-      "summary": "A diverse lineup of multi-language films featuring prominent stars like Fahadh Faasil, Ajay Devgn, and Vijay Sethupathi is set to hit theatres on October 2, 2026. Capitalizing on the mid-week national holiday, the upcoming weekend promises non-stop entertainment across various genres.",
+      "title": "Major Pan-India and International Releases Gear Up for National Holiday Weekend",
+      "summary": "Moviegoers face a packed box office across multiple languages as a diverse lineup of star-driven projects, including Fahadh Faasil's latest and Ajay Devgn's Drishyam 3, hits theaters for the October 2 national holiday.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434450/from-fafa-to-tom-cruise-stars-in-action-this-weekend",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/new-releases.jpg",
@@ -146,126 +211,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Movie enthusiasts are poised for a robust box-office weekend as October 2nd brings a wave of major multi-language releases. Coinciding with a national holiday, the slate offers a diverse mix of genres, ranging from intense crime dramas and action thrillers to regional comedies.",
-        "In Telugu cinema, Fahadh Faasil takes on a full-length lead role in the straight Telugu film Dont Trouble The Trouble, directed by debutant Sashank Yeleti. Concurrently, Sandeep Kishan stars in Sigma, a project marking the directorial debut of Jason Sanjay, which is scheduled for a broad release in both Telugu and Tamil Nadu.",
-        "Other notable South Indian releases include Nivin Pauly's Sanchari, directed by Ram, and Vijay Sethupathi's 1986 Madras gangster comedy-drama Baththa, written and directed by Balaji Tharaneetharan. Senior actor Shiv Raj Kumar also enters the fray with the action drama Bail, directed by Pavan Wadeyar and co-starring Deekshith Shetty.",
-        "Meanwhile, Hindi audiences will see Ajay Devgn headline the final franchise instalment Drishyam 3, alongside a Hindi remake of Premalu directed by Apoorv Singh Karki and starring Veer Pahariya and Aafiya Sayed. International titles like the dark comedy Digger and the thriller Verity round out a packed holiday theatrical window."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/434500/mahesh-already-watched-and-reviewed-yet-to-release-film",
-      "title": "Mahesh Babu Shares Early Praise for Fahadh Faasil Starrer 'Don’t Trouble the Trouble'",
-      "summary": "Superstar Mahesh Babu has shared an early review of the upcoming film Don’t Trouble the Trouble ahead of its theatrical release. He praised lead actor Fahadh Faasil, director Shashank Yeleti, and producer SS Karthikeya, describing the project as a deeply moving and entertaining experience.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/434500/mahesh-already-watched-and-reviewed-yet-to-release-film",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/mahesh-dttt.jpg",
-      "publishedAt": "2026-09-30T16:44:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Ahead of its scheduled theatrical release, the upcoming feature Don’t Trouble the Trouble has received an early endorsement from actor Mahesh Babu. Taking to social media following a private screening, the actor expressed strong admiration for the project, highlighting its unique blend of emotional depth and lighthearted entertainment.",
-        "Mahesh specifically commended Malayalam actor Fahadh Faasil, lauting his continuous experimentation and on-screen chemistry with child actor Ssara Palekar. He also extended praise to director Shashank Yeleti for building a distinct cinematic world, alongside producers SS Karthikeya and Shobu Yarlagadda for bringing the venture to fruition.",
-        "The film marks a notable debut for SS Karthikeya as a producer and is presented by SS Rajamouli. With advance praise adding momentum to its promotional campaign, Don’t Trouble the Trouble is slated to arrive in cinemas on October 2."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130311/talcum-powder-glimpse-released.html",
-      "title": "Hilarious Glimpse of Shiva Kandukuri’s 'Talcum Powder' Unveiled",
-      "summary": "The makers of Talcum Powder have released a quirky and humorous glimpse introducing its lead characters and premise. Directed by Sainath Ponna and presented by Raj Kandukuri, the film is scheduled for a theatrical release on November 13, 2026.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130311/talcum-powder-glimpse-released.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/talcum-powder-glimpse-released-1790784467525-1790784468157.jpg",
-      "publishedAt": "2026-09-30T16:07:51.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The promotional campaign for the upcoming Telugu film Talcum Powder officially kicked off with the release of its first official glimpse. Starring Shiva Kandukuri in the lead role alongside Drishika Chander, the project is directed by Sainath Ponna and presented by seasoned producer Raj Kandukuri.",
-        "The newly released promotional clip sets a humorous tone, focusing on a drug peddler named Bunty while hinting at a chaotic chase involving local law enforcement and a drug syndicate. Appearances by figures such as Venkatesh Maha and A. Jeevan Kumar add further intrigue to the project's ensemble presentation.",
-        "Backed by Osho V as the music director, alongside GV Ajay Kumar handling cinematography and Surya Ponnapalli on editing, the film is locked for a grand theatrical release on November 13, 2026."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/sanchari-telugu-release-of-nivin-pauly-and-sooris-film-postponed-prp.html",
-      "title": "Telugu Release of Nivin Pauly and Soori's Sanchari Postponed",
-      "summary": "The Telugu version of the upcoming film starring Nivin Pauly and Soori, titled Sanchari, has been postponed from its scheduled release date due to a title issue. Makers have announced that a fresh release date will be shared soon.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/sanchari-telugu-release-of-nivin-pauly-and-sooris-film-postponed-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/sanchari.webp",
-      "publishedAt": "2026-09-30T15:02:14.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The theatrical release of Sanchari, the Telugu dubbed version of the Tamil film 83 Yezhu Kadal Yezhu Malai, has been put on hold. Directed by Ram, the project features Nivin Pauly and Kollywood actor Soori in crucial roles.",
-        "The movie was originally planned to hit screens in a simultaneous release alongside its Tamil counterpart. However, a title issue has forced the makers to delay the Telugu rollout, with a new release schedule expected to be announced shortly.",
-        "The film also stars Anjali and is backed by producer Suresh Kamatchi under V House Productions, featuring musical scores composed by Yuvan Shankar Raja."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/434463/will-long-second-weekend-revive-the-paradise-at-bo",
-      "title": "Can a Long Second Weekend Rescue Nani's The Paradise at the Box Office?",
-      "summary": "Nani's starrer The Paradise has grossed over ₹150 crore worldwide in its first week. As collections slow down in Andhra Pradesh, the film looks to an upcoming long weekend advantage with Gandhi Jayanti to boost its theatrical run.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/434463/will-long-second-weekend-revive-the-paradise-at-bo",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/01/nani-paradise-villains.jpg",
-      "publishedAt": "2026-09-30T14:49:26.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Nani's latest cinematic outing, The Paradise, has completed its first week at the box office, crossing the ₹150 crore mark in global gross collections. While the film registered record opening numbers for the lead actor, ticket sales have tapered off across several regions following its opening weekend.",
-        "Nizam has emerged as the strongest territory for the film, successfully breaking even with GST. Conversely, multiple regions in Andhra Pradesh are facing challenges in achieving their break-even targets. To counter this slowdown, Nani has actively engaged in promotional tours across Andhra Pradesh to draw audiences back to theatres.",
-        "Makers are pinning their hopes on an extended second weekend. With Friday marking Gandhi Jayanti, the upcoming holiday provides an extra advantage despite fresh competition from new arrivals like Simga and Don't Trouble The Trouble, making the next few days crucial for the film's financial recovery."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/photos/434423/taapsee-pannu-rules-filmfare-cover-in-style",
-      "title": "Taapsee Pannu Makes a Striking Statement on Latest Filmfare Cover",
-      "summary": "Actress Taapsee Pannu has captivated fans with her latest high-fashion appearance on the cover of Filmfare. As she navigates a challenging box office year, the actress remains busy filming for her upcoming projects.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/photos/434423/taapsee-pannu-rules-filmfare-cover-in-style",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/Taapsee-5-2.webp",
-      "publishedAt": "2026-09-30T14:31:35.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Taapsee Pannu continues to make waves off-screen, stealing the spotlight on the latest cover of Filmfare magazine. Showcasing a range of distinct ensembles, including a sky-blue sequin mini dress and a shimmering gold gown, the actress delivered a memorable fashion spread.",
-        "The high-profile magazine feature arrives during a challenging theatrical year for the star. Her previous big-screen outings in 2026, Advocate Raavi and Gandhari, both underperformed at the box office.",
-        "Despite recent commercial setbacks, Pannu is keeping her focus firmly on her career. She is currently filming for Woh Ladki Hai Kahaan?, where she portrays ACP Komal Sharma, as fans anticipate a strong return to form."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/shocking-star-heros-latest-outing-ends-below-rs-10-crores-prp.html",
-      "title": "Akshay Kumar and Priyadarshan's Crime Thriller Haiwaan Falters at Box Office",
-      "summary": "Akshay Kumar's crime thriller Haiwaan, directed by Priyadarshan, has wrapped up its theatrical run below ₹10 crore nett. Adapted from a Malayalam film, the project faced weak word-of-mouth and public criticism.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/shocking-star-heros-latest-outing-ends-below-rs-10-crores-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Haiwaan-1.webp",
-      "publishedAt": "2026-09-30T14:24:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Priyadarshan's crime thriller Haiwaan, starring Akshay Kumar and Saif Ali Khan, has emerged as a major box office disappointment. After managing a modest ₹2.5 crore nett on its opening day and a ₹6.7 crore nett first weekend, the film experienced a severe drop in attendance.",
-        "The lifetime collections of the movie concluded at roughly ₹9 crore nett, representing exceptionally low numbers for a project headlined by top-tier stars. Pre-release apprehension had already surrounded the project due to its status as an official remake of the decade-old Malayalam film Oppam.",
-        "Combined with negative word-of-mouth from audiences, the film's failure has left a significant impact on the industry. Following the outcome, director Priyadarshan has reportedly decided to steer away from non-comedy collaborations with the lead actor in the future."
+        "An extensive lineup of multi-language releases is heading to theaters to capitalize on the October 2 national holiday falling on a Friday. The holiday weekend features a diverse mix of genres, headlined by prominent South Indian and Hindi stars testing their commercial appeal at the ticket windows.",
+        "Among the notable South releases, Fahadh Faasil takes on a full-length lead role in the Telugu-straight film Dont Trouble The Trouble, directed by Sashank Yeleti. Sandeep Kishan stars in Sigma, which also marks the directorial debut of Jason Sanjay, son of Tamil Nadu CM Vijay. Meanwhile, Nivin Pauly arrives with Sanchari, and Vijay Sethupathi stars in the Madras gangster comedy-drama Baththa, directed by Balaji Tharaneetharan.",
+        "Senior actor Shiv Raj Kumar is also entering the fray with the action drama Bail, directed by Pavan Wadeyar and featuring Deekshith Shetty. In the Hindi belt, Ajay Devgn leads the highly anticipated Drishyam 3 alongside Shriya Saran, Rajat Kapoor, Jaideep Ahlawat, and Prakash Raj, while Apoorv Singh Karki directs the Hindi remake of Premalu starring Veer Pahariya and Aafiya Sayed."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/434459/irumudis-massive-viewership-reaches-global-no-1",
-      "title": "Ravi Teja Starrer Irumudi Claims Global Top Spot on Netflix",
-      "summary": "Following a successful theatrical run, the Ravi Teja-led action drama Irumudi has claimed the number one position globally among non-English films on Netflix. Directed by Shiva Nirvana and backed by Mythri Movie Makers, the feature has accumulated over 6.8 million views on the platform.",
+      "title": "Ravi Teja's Irumudi Claims Global Top Spot on Netflix Following Theatrical Success",
+      "summary": "Following a successful theatrical run, Ravi Teja's film Irumudi has secured the number one position globally for non-English movies on Netflix. Directed by Shiva Nirvana and produced by Mythri Movie Makers, the feature has drawn over 6.8 million views on the streaming platform.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434459/irumudis-massive-viewership-reaches-global-no-1",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/IMG-20260930-WA0036.jpg",
@@ -273,17 +229,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The theatrical journey of Irumudi proved to be a major financial success, delivering substantial profitability for its producers, distributors, and exhibitors. Led by actor Ravi Teja alongside Priya Bhavani Shankar and Baby Nakshatra, the project established a strong connection with audiences during its time in cinemas under the direction of Shiva Nirvana.",
-        "Building on its cinematic success, the movie transitioned to digital streaming on Netflix on the 18th of this month. It quickly found a robust audience on the international stage, ascending to the top global position within the non-English film category.",
-        "Streaming metrics indicate that the venture has recorded over 6.8 million views so far. This milestone underscores a rare occurrence where a project achieves substantial box office numbers while securing a similarly powerful reception on an OTT platform."
+        "The action-drama Irumudi, starring Mass Maharaja Ravi Teja alongside Priya Bhavani Shankar and Baby Nakshatra, continues its strong run after transitioning from theaters to digital streaming. Directed by Shiva Nirvana and backed by producers Mythri Movie Makers, the project previously achieved robust box office collections during its theatrical release.",
+        "After dropping on Netflix on September 18, the feature quickly captured audience attention worldwide. It has officially climbed to the global number one spot among non-English films on the platform, amassing a massive viewership of over 6.8 million.",
+        "This rare dual success across both cinema halls and streaming highlights a strong connection with audiences. The project remains a significant milestone for its lead actor, director, and the entire collaborative team."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/talcum-powder-glimpse-shiva-kandukuri-leads-a-quirky-crime-dramedy-prp.html",
-      "title": "Shiva Kandukuri Headlines Crime Dramedy Talcum Powder",
-      "summary": "National Award-winning producer Raj Kandukuri is backing the upcoming crime dramedy Talcum Powder, starring Shiva Kandukuri and directed by Sainath Ponna. The project has kicked off its promotional campaign with an introductory glimpse titled The First Sprinkle, setting up a November 13 theatrical release.",
+      "title": "Shiva Kandukuri Leads Quirky Crime Dramedy 'Talcum Powder'",
+      "summary": "National Award-winning producer Raj Kandukuri is presenting the new crime dramedy Talcum Powder, starring Shiva Kandukuri and directed by Sainath Ponna. The project has launched its promotional campaign with a first glimpse titled The First Sprinkle, setting up a theatrical release for November 13.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/talcum-powder-glimpse-shiva-kandukuri-leads-a-quirky-crime-dramedy-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/KJQ.webp",
@@ -291,17 +247,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Dharmapatha Creations is gearing up for the release of its new film Talcum Powder, presented by National Award-winning producer Raj Kandukuri. The film features Shiva Kandukuri in the lead role alongside female lead Drishika Chander, with writing and direction handled by Sainath Ponna.",
-        "The project's promotional rollout officially began with the release of a first glimpse titled The First Sprinkle. The footage introduces Bunty, a drug peddler who finds himself hunted by both the police and a group of goons after unintentionally committing an error.",
-        "Alongside Shiva Kandukuri, the narrative features supporting performances by Venkatesh Maha, A Jeevan Kumar, and others. The technical crew comprises GV Ajay Kumar as cinematographer, Osho V as music composer, and Surya Ponnapalli as editor, ahead of the scheduled theatrical premiere on November 13."
+        "Dharmapatha Creations has unveiled the first promotional glimpse of its upcoming venture, Talcum Powder, titled The First Sprinkle. The film is presented by National Award-winning producer Raj Kandukuri, known for earlier acclaimed projects like Pellichoopulu and Mental Madhilo.",
+        "Directed by Sainath Ponna, the movie features Shiva Kandukuri in the lead role alongside female lead Drishika Chander. The narrative introduces Bunty, a drug peddler who encounters severe trouble after making an unintentional mistake, triggering a chain of events involving police and goons.",
+        "The quirky crime dramedy aims to deliver an unpredictable mix of humor, drama, and suspense. The supporting cast features performances by Venkatesh Maha and A Jeevan Kumar, with technical crew members including cinematographer GV Ajay Kumar, music composer Osho V, and editor Surya Ponnapalli. The film is scheduled to hit theaters on November 13."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/mahesh-babu-reviews-fahadh-faasils-dont-trouble-the-trouble-prp.html",
-      "title": "Superstar Mahesh Babu Appreciates Fahadh Faasil Starrer Don't Trouble The Trouble",
-      "summary": "Ahead of its theatrical release, Fahadh Faasil's debut Telugu film Don't Trouble The Trouble has drawn praise from actor Mahesh Babu following a special screening. Directed by Shashank Yeleti and presented by S.S. Rajamouli, the film arrives in cinemas on October 2.",
+      "title": "Mahesh Babu Praises Fahadh Faasil's 'Don't Trouble The Trouble' After Special Screening",
+      "summary": "Superstar Mahesh Babu has shared high praise for Fahadh Faasil's upcoming Telugu film Don't Trouble The Trouble following a special screening. Directed by Shashank Yeleti and presented by S.S. Rajamouli, the movie is scheduled to release on October 2.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/mahesh-babu-reviews-fahadh-faasils-dont-trouble-the-trouble-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mahesh-babu.webp",
@@ -309,17 +265,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Fahadh Faasil's straight Telugu feature Don't Trouble The Trouble is slated for release on October 2 under the direction of debutant Shashank Yeleti. The production is a collaborative effort between Shobu Yarlagadda, Prasad Devineni, and S.S. Karthikeya under Arka Media Works and Showing Business, with presentation by S.S. Rajamouli.",
-        "The project previously gained momentum following a pre-release event featuring actor NTR. Support for the film has now expanded with Superstar Mahesh Babu attending a special screening of the feature.",
-        "Taking to social media to share his impressions, Mahesh Babu described the project as a well-crafted, happy experience that balances entertainment with emotional depth. He specifically highlighted the chemistry between Fahadh Faasil and Ssara, while commending S.S. Karthikeya on his maiden production."
+        "Fahadh Faasil's straight Telugu film Don't Trouble The Trouble has received a major endorsement from Superstar Mahesh Babu ahead of its theatrical release. After attending a special screening, the actor took to social media to voice his appreciation for the project.",
+        "Describing the feature as a beautifully complete experience, Mahesh Babu highlighted its rare sense of warmth, calling it entertaining and moving in equal measure. He also lauded the onscreen chemistry between Fahadh Faasil and Ssara, while commending S.S. Kartikeya on his maiden production venture.",
+        "Directed by debutant Shashank Yeleti, the film is produced by Shobu Yarlagadda, Prasad Devineni, and S.S. Karthikeya under Arka Media Works and Showing Business, with S.S. Rajamouli presenting. The project previously received a promotional boost from actor NTR at its pre-release event ahead of its October 2 premiere."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.telugu360.com/chandoo-mondeti-clarifies-rana-akshay-film-bhansali-buzz/",
-      "title": "Chandoo Mondeti Details Upcoming Mythological Project With Rana Daggubati and Akshay Kumar",
-      "summary": "Filmmaker Chandoo Mondeti has addressed ongoing speculation regarding his next venture, confirming a Hindi-Telugu bilingual starring Rana Daggubati and Akshay Kumar. Tentatively titled Mahakaal, the director clarified that the mythological drama is currently in pre-production and has no connection to Sanjay Leela Bhansali.",
+      "title": "Chandoo Mondeti Confirms Bilingual Project with Rana Daggubati and Akshay Kumar",
+      "summary": "Filmmaker Chandoo Mondeti has verified that he is teaming up with Rana Daggubati and Akshay Kumar for a Hindi-Telugu bilingual tentatively titled Mahakaal. The director clarified that the mythological drama is still in early pre-production and has no connection to Sanjay Leela Bhansali.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/chandoo-mondeti-clarifies-rana-akshay-film-bhansali-buzz/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Chandoo-Mondeti-Clarifies-Rana-Akshay-Film.jpg",
@@ -327,18 +283,18 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Filmmaker Chandoo Mondeti has broken his silence on reports surrounding his next directorial venture, confirming that he is teaming up with Rana Daggubati and Bollywood star Akshay Kumar for a high-profile project. Tentatively titled Mahakaal, the venture is planned as a Hindi-Telugu bilingual film.",
-        "Addressing how the collaboration materialized, Mondeti shared that after discussing a few story pitches in Mumbai, he and Rana ultimately decided on a mythological concept set against the historical backdrop of Ujjain, the birthplace of Lord Shiva. The director emphasized that choosing a mythological subject was an organic creative choice inspired by his fascination with the region's history rather than a conscious replication of his previous work.",
-        "While confirming the casting and title, Mondeti noted that the project is still in its early stages as the team finalizes technicians and navigates pre-production. He also clarified that Karan Johar is slated to produce the Hindi version, while negotiations for a major production house to handle the Telugu version are ongoing.",
-        "Addressing rumors linking filmmaker Sanjay Leela Bhansali to the script, Mondeti firmly denied any involvement from Bhansali, stating that the story and direction are entirely his own. He added that while he is in talks with Bhansali regarding a completely separate story for the future, Mahakaal remains an independent endeavor currently undergoing foundational script discussions."
+        "Filmmaker Chandoo Mondeti has broken his silence regarding swirling speculation about his next directorial venture, confirming that he is indeed teaming up with Rana Daggubati and Bollywood star Akshay Kumar. Speaking about the project, the director revealed that the upcoming venture is planned as a Hindi-Telugu bilingual tentatively titled Mahakaal. While details are still emerging, it has been confirmed that Karan Johar is lined up to produce the Hindi version through Rana Daggubati, whereas conversations to lock a major banner for the Telugu version are actively underway.",
+        "Addressing the current status of the film, Mondeti emphasized that the venture remains in its preliminary stages. The core team is presently occupied with story discussions, finalizing key technicians, and laying the groundwork for pre-production. The director also debunked circulating rumors linking Bollywood filmmaker Sanjay Leela Bhansali to the script, clarifying that the narrative and direction are entirely his own creation, though he remains in talks with Bhansali for a separate future collaboration.",
+        "The collaboration materialed after Mondeti pitched multiple ideas to Rana Daggubati during meetings in Mumbai, ultimately zeroing in on a grand mythological subject. The director noted that choosing a mythological backdrop was an organic choice inspired by the rich history of Ujjain and the birthplace of Lord Shiva, steering away from any conscious attempt to replicate previous franchise patterns.",
+        "This high-profile bilingual brings together notable talents across industries, generating substantial anticipation among fans of pan-Indian cinema. As pre-production rolls forward, audiences await further official announcements regarding casting additions and definitive shooting timelines."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/ranabaali-truth-2-vijay-rashmika-reveal-another-exciting-highlight-prp.html",
-      "title": "Vijay Deverakonda and Rashmika Spotlight Historical British Railway Realities in Ranabaali Documentary",
-      "summary": "The promotional campaign for Rahul Sankrityan's upcoming directorial Ranabaali continues with a new documentary-style episode. Lead actors Vijay Deverakonda and Rashmika shed light on lesser-known historical realities regarding British infrastructure exploitation in colonial India ahead of the October 16 release.",
+      "title": "Vijay Deverakonda and Rashmika Spotlight Colonial Exploitation in Ranabaali Episode Two",
+      "summary": "Actors Vijay Deverakonda and Rashmika have shared fresh historical insights in the second episode of the promotional documentary series for Ranabaali. They highlighted how the British utilized the Indian railway network to rapidly drain local resources like grains, spices, and cotton to ports. Directed by Rahul Sankrityan, the film is slated for release on October 16.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ranabaali-truth-2-vijay-rashmika-reveal-another-exciting-highlight-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Ranabaali-7.webp",
@@ -346,18 +302,18 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The promotional strategy for the upcoming film Ranabaali has taken a documentary route, releasing a four-part series designed to contextualize the historical backdrop of the cinematic project. Directed by Rahul Sankrityan, the feature film is scheduled to hit theaters on October 16.",
-        "In the newly unveiled second episode of the promotional series, lead stars Vijay Deverakonda and Rashmika discussed hidden historical facets of the British colonial era in India. The actors highlighted how the railway system was initially established by the British primarily to expedite the transport of local grains, spices, cotton, and gold to ports rather than to develop domestic infrastructure.",
-        "Deverakonda noted that standard educational curriculums often omit these critical details because historical accounts were largely documented from a colonial perspective. Rashmika shared that uncovering these specific depth-level occurrences regarding the man-made resource extraction provided a profound perspective shift while preparing for the film.",
-        "The initial installment of the documentary series previously clarified that Ranabaali focuses on a man-made famine induced by grain requisitioning in the Madras Presidency rather than a conventional freedom struggle narrative. The unfolding promotional content aims to establish historical gravity for the upcoming theatrical release."
+        "The creative team behind the upcoming film Ranabaali has continued its unique promotional rollout, releasing the second installment of a four-part documentary series designed to contextualize the historical backdrop of the movie. Directed by Rahul Sankrityan, the feature stars Vijay Deverakonda and Rashmika, who appeared in the latest video segment to unpack lesser-known historical realities surrounding British colonial rule in India.",
+        "In the newly unveiled episode, the lead actors discussed how the British administration established the Indian railway system primarily to accelerate the transport of indigenous grains, spices, cotton, and gold directly to ports rather than to build domestic infrastructure. Vijay Deverakonda pointed out that because historical textbooks were historically penned by colonial authorities, crucial facts regarding systemic resource extraction were deliberately omitted from standard syllabi.",
+        "Echoing these sentiments, Rashmika expressed how delving deep into the actual historical events of the era deeply impacted her perspective. This educational documentary approach follows the first episode's clarification that Ranabaali focuses specifically on a man-made famine caused by grain appropriation in the Madras Presidency—which tragically claimed the lives of one crore Indians—rather than a traditional freedom struggle narrative.",
+        "With Ranabaali scheduled to hit the big screen on October 16, these informative documentary shorts are successfully building distinct thematic curiosity among moviegoers, shifting attention toward the grave historical events that shape the fictional drama."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/maremma-ott-release-date-locked-maadhavs-debut-film-to-stream-on-two-platforms-hk.html",
-      "title": "Maadhav's Debut Feature Maremma Locks Dual OTT Release Date",
-      "summary": "Maremma, the rural drama marking the acting debut of Maadhav Bhupathiraju, is transitioning to digital platforms. The film will premiere simultaneously on Aha and Amazon Prime Video following its theatrical run last month.",
+      "title": "Maadhav Bhupathiraju’s Debut Drama Maremma Locks OTT Streaming Date",
+      "summary": "Maremma, the rural drama marking the acting debut of Ravi Teja's nephew Maadhav Bhupathiraju, is heading to digital platforms. The film will premiere simultaneously on Aha and Amazon Prime Video on October 9, 2026, following its theatrical run in September.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/maremma-ott-release-date-locked-maadhavs-debut-film-to-stream-on-two-platforms-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Maremma-2.webp",
@@ -365,17 +321,18 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Maremma, the rural drama that marked the acting debut of Maadhav Bhupathiraju—nephew of Telugu star Ravi Teja—is officially making its way to digital streaming. Following its theatrical release on September 10, the film has secured simultaneous premieres across multiple platforms.",
-        "Streaming services Aha and Amazon Prime Video have acquired the digital rights for the feature. Both platforms are slated to launch the rural drama on October 9, with an official announcement anticipated shortly.",
-        "Directed by Manchala Nagaraj and produced by Mayur Reddy Bandaru, the film features an ensemble cast including Deepa Balu, Vikas Vasishta, Vinod Kumar, V.S. Rupa Lakshmi, and Dayanand Reddy. The project's musical score was composed by Prashanth R. Vihari and Bipradeep Dutta."
+        "The rural drama Maremma, which marked the acting debut of Maadhav Bhupathiraju—nephew of Tollywood star Ravi Teja—is officially making its transition to digital streaming. Following its theatrical debut on September 10, 2026, the film has locked its official OTT premiere date for early October.",
+        "According to reports, leading streaming services Aha and Amazon Prime Video have secured the digital distribution rights for the project. The movie is scheduled to drop across both platforms on October 9, 2026, with an official formal announcement anticipated shortly.",
+        "Directed by Manchala Nagaraj and produced by Mayur Reddy Bandaru, Maremma features an ensemble cast including Deepa Balu, Vikas Vasishta, Vinod Kumar, V.S. Rupa Lakshmi, and Dayanand Reddy in prominent roles. The musical score for the rural entertainer was composed by Prashanth R. Vihari and Bipradeep Dutta.",
+        "The simultaneous dual-platform release gives fans who missed the theatrical run an accessible opportunity to catch the newcomer's debut project from the comfort of their homes."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://telugucinema.com/news/fauji-makers-in-no-hurry-to-announce-new-release-date",
-      "title": "Makers of Prabhas Starrer Fauji Hold Off on New Release Date Amid Ongoing Shoots",
-      "summary": "The production team behind the Prabhas and Hanu Raghavapudi project Fauji is in no rush to confirm a fresh theatrical schedule. With substantial filming remaining and ongoing commitments to other ventures, a release timeline remains unfinalized.",
+      "title": "Makers of Prabhas’ Fauji in No Hurry to Finalize New Release Date",
+      "summary": "The Prabhas and Hanu Raghavapudi project Fauji has postponed its December 3 release date indefinitely as principal photography continues. Producers have chosen not to rush a new date announcement because significant shooting remains, with Prabhas committed to finishing upcoming work on Sandeep Reddy Vanga's Spirit first.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/fauji-makers-in-no-hurry-to-announce-new-release-date",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/prabhasimanvi-sep3036.jpg",
@@ -383,18 +340,18 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The historical action drama Fauji, starring Prabhas and directed by Hanu Raghavapudi, faces continued schedule adjustments after its anticipated December 3 release window was postponed indefinitely. Insiders indicate that the production team is prioritizing completion of the remaining portions before locking in another calendar date.",
-        "According to project sources, a substantial amount of principal photography remains unfinished. Prabhas is reportedly required to allocate over 60 working days to wrap up his pending sequences for the movie.",
-        "Due to parallel commitments on Sandeep Reddy Vanga’s upcoming venture Spirit, completing the required shooting schedule could extend over the next four months. Consequently, the production house lacks clarity regarding a final wrap date.",
-        "Industry sources suggest that while promotional material or a new poster may be released around Prabhas’ birthday on October 23, the makers intend to avoid committing to a definitive release date until principal photography nears its conclusion."
+        "The highly anticipated period action drama Fauji, starring Prabhas alongside debutante female lead Imanvi, has faced further scheduling shifts. Following multiple postponements, its planned December 3 release date has now been deferred indefinitely as the production team refuses to rush the completion timeline.",
+        "According to industry insiders, the producers have decided against announcing a fresh release date until principal photography is officially wrapped. A substantial portion of the film's shooting is still pending, with reports indicating that Prabhas requires upwards of 60 working days to complete his remaining portions.",
+        "Complicating the timeline further are the actor's concurrent commitments to director Sandeep Reddy Vanga’s upcoming film Spirit. Fulfilling these intersecting production schedules is expected to take roughly four months, leaving the core production house without definitive clarity on when Fauji will completely wrap filming.",
+        "While speculations pointed toward a potential release date update coinciding with Prabhas’ birthday on October 23, sources suggest the makers will likely bypass theatrical announcements on that day. Instead, fans can expect fresh promotional assets or a new poster to mark the occasion without committing to a concrete calendar slot."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/karthis-rapid-ott-releases-is-the-2-to-3-week-streaming-window-hurting-theatres-ng.html",
-      "title": "Shrinking OTT Windows for Karthi's Films Raise Trade Alarms",
-      "summary": "Actor Karthi is facing trade scrutiny as his recent films, including Sardar 2 and Vaa Vaathiyar, make rapid transitions to Amazon Prime Video within weeks of their theatrical releases. Following weak box-office performances, these compressed streaming windows are sparking concerns among exhibitors about long-term ticket sales.",
+      "title": "Karthi's Quick OTT Premieres Spark Concern Over Shrinking Theatrical Windows",
+      "summary": "Tamil star Karthi's recent films have moved to Amazon Prime Video within weeks of their theatrical releases following weak box-office runs. Trade analysts warn that these rapid digital debuts could negatively impact future audience turnout and cinema recovery times.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/karthis-rapid-ott-releases-is-the-2-to-3-week-streaming-window-hurting-theatres-ng.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/karthi-2.webp",
@@ -402,18 +359,18 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The theatrical run for Tamil star Karthi's films has shortened significantly, drawing worries from trade analysts. His spy thriller Sardar 2 is scheduled to premiere on Amazon Prime Video starting October 1, bringing its exclusive cinema window down to just 21 days following a sluggish box-office reception.",
-        "This follows a similar pattern seen earlier with his Pongal release, the comedy-action film Vaa Vaathiyar. Despite premiering during the lucrative Sankranti festive season, that project failed to attract crowds and was rushed to the same streaming platform in five languages just 14 days after its theatrical debut.",
-        "Typically, major cinematic releases feature a theatrical window of four to eight weeks to allow distributors and cinema owners to recoup financial investments. With multiple projects bypassing this norm, industry observers warn that audiences may increasingly choose to skip theatrical viewings, anticipating quick digital releases.",
-        "Exhibitors fear that shortened streaming windows could severely impact advance bookings and opening-weekend footfalls. As moviegoers realize underperforming titles will land online within two to three weeks, theatre owners face mounting difficulties in recovering operating costs."
+        "Tamil actor Karthi's recent cinematic outings have drawn attention from trade analysts due to remarkably brief theatrical windows. His spy sequel, Sardar 2, began streaming on Amazon Prime Video just 21 days after its theatrical debut, following a struggling box-office run. This follows a similar trajectory seen earlier with his Pongal comedy-action release, Vaa Vaathiyar.",
+        "Released during the competitive Sankranti festive season across five languages, Vaa Vaathiyar failed to capture substantial audiences in cinemas. Producers swiftly transitioned the film to the digital platform merely 14 days after its initial release. With Sardar 2 adopting a similarly expedited timeline, a pattern has emerged for the actor's projects this year.",
+        "Typically, prominent commercial features enjoy an exclusive cinema run ranging between four to eight weeks. This extended window allows distributors and theater operators sufficient opportunity to recoup investments through ticket sales. The recent trend of sub-month digital arrivals has therefore raised concerns among exhibitors.",
+        "Industry observers note that rapid streaming premieres risk altering consumer behavior. If audiences anticipate that underperforming titles will arrive on home screens within two to three weeks, advance bookings and opening-weekend footfalls could decrease, leaving exhibitors with limited time to sustain revenue."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.telugu360.com/talcum-powder-glimpse-promises-a-laughter-riot/",
-      "title": "Shiva Kandukuri's 'Talcum Powder' Glimpse Highlights Wholesome Comedy",
-      "summary": "The newly released glimpse for Talcum Powder introduces a unique comedic take on the drug underbelly, starring Shiva Kandukuri and Drishika Chander. Directed by Sainath Ponna and produced by National Award-winning producer Raj Kandukuri, the wholesome dramedy is slated for a theatrical release on November 13.",
+      "title": "Shiva Kandukuri's 'Talcum Powder' Glimpse Promises a Wholesome Comedy",
+      "summary": "The newly released glimpse of 'Talcum Powder' introduces a humorous take on a drug syndicate background. Directed by Sainath Ponna and produced by Raj Kandukuri, the film is scheduled to hit theaters on November 13.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/talcum-powder-glimpse-promises-a-laughter-riot/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Talcum-Powder-Glimpse.jpg",
@@ -421,83 +378,10 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The makers of Talcum Powder have unveiled a promotional glimpse for the upcoming film, showcasing a distinct tonal shift from conventional dark actioners. Directed by Sainath Ponna, the project blends humor with an unconventional setting involving a drug nexus and peddlers.",
-        "Shiva Kandukuri leads the cast as a young protagonist navigating encounters with various eccentric characters and drug dealers. Alongside Drishika Chander, the promotional material highlights strong comic timing and witty one-liners.",
-        "The film is backed by National Award-winning producer Raj Kandukuri, whose previous production credits include Pelli Choopulu, Mental Madhilo, and Choosi Choodangane. With its imaginative narrative and comedic approach, the project is scheduled to arrive in theatres on November 13."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/salman-khan-vamshi-paidipally-film-gets-a-massive-cast-avd.html",
-      "title": "Salman Khan and Vamshi Paidipally's Action Film Enlists Star-Studded Cast",
-      "summary": "Salman Khan and director Vamshi Paidipally's upcoming action film, reportedly titled Monster, has assembled a massive ensemble cast featuring Nayanthara as the female lead. Produced by Dil Raju under Sri Venkateswara Creations, the large-scale project is currently aiming for an Eid 2027 theatrical release.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/salman-khan-vamshi-paidipally-film-gets-a-massive-cast-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/01/Salman-Khans-film-with-Vam.webp",
-      "publishedAt": "2026-09-30T10:50:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The upcoming action project pairing Salman Khan with director Vamshi Paidipally is expanding its scale with a prominent ensemble cast. Reportedly titled Monster, the film features Nayanthara as the female lead, marking her first on-screen collaboration with Khan.",
-        "The extensive supporting lineup includes Arvind Swamy, Jackie Shroff, Anil Kapoor, Rajpal Yadav, Ronit Roy, and Seema Biswas in key roles. Reports from the production indicate that Salman Khan will essay the role of an eccentric police officer.",
-        "Backed by producer Dil Raju under Sri Venkateswara Creations, the movie incorporates multiple high-octane action sequences. Production is currently halfway complete, with the makers targeting a theatrical release during Eid 2027."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/nani-lands-in-andhra-to-boost-the-paradise-collections-avd.html",
-      "title": "Nani Embarks on Promotional Tour in Andhra to Boost 'The Paradise' Box Office",
-      "summary": "Actor Nani has traveled to Andhra Pradesh to spearhead promotional efforts for The Paradise amid a noticeable slowdown in occupancy rates. Visiting key regions like Vijayawada, Guntur, and Ongole, the team hopes to leverage the extended holiday period to drive fresh audience turnout.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/nani-lands-in-andhra-to-boost-the-paradise-collections-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/the-paradise-5.webp",
-      "publishedAt": "2026-09-30T09:58:31.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Following a strong theatrical opening, occupancy figures for The Paradise have begun to experience a downward trend in Andhra Pradesh. To counter this dip, lead actor Nani has stepped in to invigorate audience interest during the crucial extended holiday week.",
-        "Arriving in Gannavaram, Nani is scheduled to engage directly with fans and moviegoers through a series of promotional stops across Vijayawada, Guntur, and Ongole. The direct interactions are designed to re-engage crowds and revitalize box-office momentum.",
-        "The makers are relying on the extended holiday window to draw families and fans back into cinemas, utilizing the star's personal tour to generate fresh publicity and sustain the film's theatrical run."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/bail-can-shiva-rajkumars-film-give-kvn-productions-a-much-needed-hit-hk.html",
-      "title": "Shiva Rajkumar Starrer Bail Eyes October 2026 Release to Revive KVN Productions' Kannada Slate",
-      "summary": "KVN Productions is preparing for its fourth Kannada release of the year with the action crime drama Bail, starring Shiva Rajkumar as a police officer. Directed by Pavan Wadeyar, the movie aims to turn around recent box office setbacks for the banner when it arrives in cinemas on October 2, 2026.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/bail-can-shiva-rajkumars-film-give-kvn-productions-a-much-needed-hit-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Bail.webp",
-      "publishedAt": "2026-09-30T09:55:07.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "KVN Productions has slated its upcoming Kannada venture, Bail, for a theatrical release on October 2, 2026. The action crime drama features veteran star Shiva Rajkumar stepping into the role of a police officer under the direction of Pavan Wadeyar. As the banner's fourth Kannada offering of the year, the project carries considerable weight as the studio looks to strengthen its footing in the Sandalwood market.",
-        "The film arrives at a critical juncture for the production house, following a string of recent setbacks with prior releases. Industry observers note that Bail bears the responsibility of delivering a much-needed commercial breakthrough and bringing positive momentum back to the studio's Kannada lineup.",
-        "Alongside Shiva Rajkumar, the movie boasts a robust supporting ensemble featuring Sai Kumar, Jayaram, Dheekshith Shetty, Ramesh Indira, and Yogesh. Music composition for the feature is handled by Ajaneesh Loknath, setting the tone for the action-driven narrative.",
-        "Releasing exclusively in Kannada, the film has managed to generate notable early buzz ahead of its theatrical debut. Whether this initial attention converts into favorable word of mouth and box office success remains the pivotal question as the release date approaches."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/chandoo-mondetis-bollywood-debut-film-to-feature-sanjay-leela-bhansalis-story-prp.html",
-      "title": "Chandoo Mondeti's Bollywood Debut with Akshay Kumar and Rana Daggubati Linked to Sanjay Leela Bhansali",
-      "summary": "Tollywood filmmaker Chandoo Mondeti is set to direct his first Bollywood film, starring Akshay Kumar and Rana Daggubati. Recent developments indicate that Sanjay Leela Bhansali is stepping in to back the project under Bhansali Productions and has reportedly provided the story.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/chandoo-mondetis-bollywood-debut-film-to-feature-sanjay-leela-bhansalis-story-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Chandoo-Mondeti.webp",
-      "publishedAt": "2026-09-30T09:30:05.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Tollywood director Chandoo Mondeti is officially preparing for his entry into Hindi cinema with an upcoming bilingual-style casting coup. The project brings together Bollywood star Akshay Kumar and Tollywood actor Rana Daggubati in the headline roles, instantly sparking considerable social media attention when the collaboration was first announced.",
-        "While initial reports pointed toward Karan Johar taking on production duties, updated details suggest a major shift behind the scenes. Renowned filmmaker Sanjay Leela Bhansali is now reportedly attached to bankroll the untitled venture under the banner of Bhansali Productions.",
-        "Beyond his role as producer, Bhansali has also reportedly provided the core narrative and story for the film. This creative involvement adds significant weight to an already star-studded undertaking.",
-        "With a high-profile cast and a prominent production backing secured, the venture has steadily captured audience curiosity. The production is reportedly slated to commence filming and go on floors in the near future."
+        "The makers of the upcoming Telugu film Talcum Powder have released its first official glimpse, signaling a comedic take on unconventional subject matter. Headlined by Shiva Kandukuri and Drishika Chander, the project is directed by Sainath Ponna and backed by National Award-winning producer Raj Kandukuri.",
+        "Rather than adopting a gritty, dark tone typical of crime narratives, the newly unveiled footage situates its story against the backdrop of a drug network while maintaining a distinctly lighthearted atmosphere. The narrative follows a young protagonist, played by Shiva Kandukuri, navigating encounters with various peddlers and dealers.",
+        "The preview highlights the protagonist's comic timing alongside an array of quirky characters and situations. Buoyed by sharp one-liners and imaginative visual direction by Sainath Ponna, the glimpse aims to build audience anticipation ahead of the film's theatrical release.",
+        "Talcum Powder is officially slated to arrive in cinemas on November 13, bringing a fresh dramedy perspective to the big screen."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
@@ -508,19 +392,8 @@
       "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/yami-gautams-nayyi-navelli-trailer-out-mohinis-arrival-as-new-bahu-turns-the-awasthi-familys-world-upside-down/articleshow/134596200.cms",
       "title": "Yami Gautam's 'Nayyi Navelli' trailer out: Mohini's arrival as new bahu turns the Awasthi family's world upside down",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=OqZtDjJOMR8",
-      "originalUrl": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/yami-gautams-nayyi-navelli-trailer-out-mohinis-arrival-as-new-bahu-turns-the-awasthi-familys-world-upside-down/articleshow/134596200.cms",
-      "img": "https://i.ytimg.com/vi/OqZtDjJOMR8/hqdefault.jpg",
-      "youtubeId": "OqZtDjJOMR8",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "title": "Nayyi Navelli - Official Trailer",
-      "source": "ETimes Telugu",
       "url": "https://www.youtube.com/watch?v=CIZD3O4k0bs",
-      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
+      "originalUrl": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/yami-gautams-nayyi-navelli-trailer-out-mohinis-arrival-as-new-bahu-turns-the-awasthi-familys-world-upside-down/articleshow/134596200.cms",
       "img": "https://i.ytimg.com/vi/CIZD3O4k0bs/hqdefault.jpg",
       "youtubeId": "CIZD3O4k0bs",
       "publishedAt": "2026-09-30T00:00:00.000Z",
@@ -552,10 +425,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=4Jpoh8N0oxI",
+      "url": "https://www.youtube.com/watch?v=cOa2IzaEBbg",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/4Jpoh8N0oxI/hqdefault.jpg",
-      "youtubeId": "4Jpoh8N0oxI",
+      "img": "https://i.ytimg.com/vi/cOa2IzaEBbg/hqdefault.jpg",
+      "youtubeId": "cOa2IzaEBbg",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -563,10 +436,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=rXBgLXXP4k0",
+      "url": "https://www.youtube.com/watch?v=XS3a2ETpeaE",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/rXBgLXXP4k0/hqdefault.jpg",
-      "youtubeId": "rXBgLXXP4k0",
+      "img": "https://i.ytimg.com/vi/XS3a2ETpeaE/hqdefault.jpg",
+      "youtubeId": "XS3a2ETpeaE",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -634,6 +507,17 @@
       "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-09T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://www.youtube.com/watch?v=vfSo--62mDo",
+      "originalUrl": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://i.ytimg.com/vi/vfSo--62mDo/hqdefault.jpg",
+      "youtubeId": "vfSo--62mDo",
+      "publishedAt": null,
       "language": "Telugu"
     }
   ],
@@ -2048,6 +1932,6 @@
       }
     }
   ],
-  "generatedAt": "2026-10-01T04:14:32.273Z",
+  "generatedAt": "2026-10-01T05:22:06.799Z",
   "reviewStatus": "auto-approved"
 }
