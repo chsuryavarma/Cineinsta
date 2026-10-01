@@ -5,6 +5,7 @@
     {"source": "/trailers/:slug", "destination": "/"},
     {"source": "/news", "destination": "/"},
     {"source": "/reviews", "destination": "/"},
-    {"source": "/trailers", "destination": "/"}
+    {"source": "/trailers", "destination": "/"},
+    {"source": "/buzz", "destination": "/"}
   ]
 }
