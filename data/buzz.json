@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T13:53:19.042Z",
+  "updatedAt": "2026-10-01T15:36:28.928Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,9 +55,9 @@
   ],
   "movies": [
     {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "id": "the-paradise",
+      "title": "The Paradise",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
       "language": "Telugu",
       "buzzScore": 52,
       "status": "RISING",
@@ -66,7 +66,7 @@
         "shows": 0
       },
       "sourceSignals": {
-        "news": 3,
+        "news": 4,
         "reviews": 1,
         "trailers": 0,
         "theatreLocations": 0,
@@ -74,66 +74,9 @@
       }
     },
     {
-      "id": "the-paradise",
-      "title": "The Paradise",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
-      "language": "Telugu",
-      "buzzScore": 42,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 2,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "bethlehem-kudumba-unit",
-      "title": "Bethlehem Kudumba Unit",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
-      "language": "Telugu",
-      "buzzScore": 42,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 2,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "irumudi",
-      "title": "Irumudi",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
-      "language": "Telugu",
-      "buzzScore": 42,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 2,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "happy-journey",
-      "title": "Happy Journey",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/happyjourney2.jpg",
+      "id": "anumana-pakshi",
+      "title": "Anumana Pakshi",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/anumana-1.webp",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -150,18 +93,37 @@
       }
     },
     {
-      "id": "anumana-pakshi",
-      "title": "Anumana Pakshi",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/anumana-1.webp",
+      "id": "mahendragiri-varahi",
+      "title": "Mahendragiri Varahi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
       "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
+      "buzzScore": 32,
+      "status": "STEADY",
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
       "sourceSignals": {
-        "news": 0,
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "toxic",
+      "title": "Toxic",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
         "reviews": 1,
         "trailers": 0,
         "theatreLocations": 0,
@@ -191,6 +153,25 @@
       "id": "immortal",
       "title": "Immortal",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Immortal.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "happy-journey",
+      "title": "Happy Journey",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/happyjourney2.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -283,25 +264,6 @@
       }
     },
     {
-      "id": "mahendragiri-varahi",
-      "title": "Mahendragiri Varahi",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "epic-first-semester",
       "title": "Epic First Semester",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
@@ -324,6 +286,25 @@
       "id": "panchanama",
       "title": "Panchanama",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Panchanama.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -416,6 +397,25 @@
       }
     },
     {
+      "id": "bethlehem-kudumba-unit",
+      "title": "Bethlehem Kudumba Unit",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "romanchakam",
       "title": "Romanchakam",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
@@ -435,9 +435,9 @@
       }
     },
     {
-      "id": "toxic",
-      "title": "Toxic",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
+      "id": "irumudi",
+      "title": "Irumudi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:53:18.993Z",
+      "updatedAt": "2026-10-01T15:36:28.902Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:53:18.993Z",
+      "updatedAt": "2026-10-01T15:36:28.902Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:53:18.993Z",
+      "updatedAt": "2026-10-01T15:36:28.902Z",
       "items": [
         {
           "rank": 1,
@@ -661,15 +661,6 @@
           "platform": "Aha",
           "releaseDate": "July 31, 2026",
           "languages": "Telugu · Tamil"
-        },
-        {
-          "rank": 3,
-          "title": "Kahan Shuru Kahan Khatam OTT: When And Where To...",
-          "language": "Telugu",
-          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/kahan-shuru-kahan-khatam-ott-when-and-where-to-dhvani-bhanushalis-comedy-drama-online-20260930102736-444.jpg",
-          "platform": "Aha",
-          "releaseDate": "",
-          "languages": "Telugu"
         }
       ],
       "note": "Latest available Telugu-relevant titles on Aha."
@@ -678,7 +669,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:53:18.993Z",
+      "updatedAt": "2026-10-01T15:36:28.902Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +705,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:53:18.993Z",
+      "updatedAt": "2026-10-01T15:36:28.902Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +732,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T13:53:18.993Z",
+      "updatedAt": "2026-10-01T15:36:28.902Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +740,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T13:53:18.993Z",
+      "updatedAt": "2026-10-01T15:36:28.903Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +748,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:53:18.993Z",
+      "updatedAt": "2026-10-01T15:36:28.903Z",
       "items": [
         {
           "rank": 1,

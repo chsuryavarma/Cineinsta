@@ -1,648 +1,601 @@
 {
-  "updatedAt": "2026-10-01T13:53:18.631Z",
+  "updatedAt": "2026-10-01T15:36:28.515Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMm1hZXpjeHhvSXlmeGxtRnlndXlCRl8xUVRaazRKbXBlS0RmWXppOTBmS18yNFduZkJaMnNEQmpDYl9pOFRrcmQ2U0RIUEtMZ1gzUzhRN0Q0bnBPVzVSRjM4RVFGaXBNZHYyY1NBUFNyYlBXeFNEb3pFbGN2YXdTbWYtVF9XZkFrODRERWpHS3VJU0kzVl9PeW9iTGVCYlg1YVBYY05MYm5kRnFrSVM2ZUhFOE9ZNUJmNEF5X2J3LV9RUXAxczFVejBaRGZXTkkzN196ZWZHa1VsOThDVm96cVM4VDBBS3k2MEMwME1Mc1o5dWxWTXhXMnJnLTlOVjlFZnR6SEUzRTk4R1FaejBpN2R0TElyUmdkdWFvRmx1T2tIRFBxNXk5Sm9IcDFtWVXSAbQCQVVfeXFMTzQzYmlMSzU3NU1mYkhZdVNPQ2dJMnhscExDMUdQNEVUOFdxbF9Rcmx4YUZucmp0VDlJSmliMFVhUDlkbU9zX2pDZUFFMzhGYU5aX1Z5NkppNVowTjkybDJTODhWZTBzOHhPX09YejcyTXlXWVZZQkJ4S0hXUEQzeW9JclhxZC0yX1NSV3NpVUNteFV1cUVjemlVbk05V2NOeEhacjJWbmZDendNT0UtbGgzOVBkWTZyMTdkX1A1eHlJSVVQMmZ3aEJ3ZG1WYTR0eVJxTGt1UXBsMk54dGdibDk0NnIwRlBUQTlfSGRWTHB6OThSb3lTRW9udmpvNkV6UW4xNGhMenV0ZUpPVTBwcXRDd19YWTM3WGY3a25TOVRuMzFXcFRQU2lhRm5YRnQ0bkpyNXg?oc=5",
-      "title": "SS Rajamouli Reflects on Filming His Most Violent Scene With Jr NTR Outside Kerala Assembly",
-      "summary": "Filmmaker SS Rajamouli recently looked back at a remarkably intense action sequence featuring Jr NTR, noting it as the most violent piece of work in his career. He expressed doubt over whether shooting such a sequence outside the Kerala Assembly would even be possible under current circumstances.",
-      "source": "Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMm1hZXpjeHhvSXlmeGxtRnlndXlCRl8xUVRaazRKbXBlS0RmWXppOTBmS18yNFduZkJaMnNEQmpDYl9pOFRrcmQ2U0RIUEtMZ1gzUzhRN0Q0bnBPVzVSRjM4RVFGaXBNZHYyY1NBUFNyYlBXeFNEb3pFbGN2YXdTbWYtVF9XZkFrODRERWpHS3VJU0kzVl9PeW9iTGVCYlg1YVBYY05MYm5kRnFrSVM2ZUhFOE9ZNUJmNEF5X2J3LV9RUXAxczFVejBaRGZXTkkzN196ZWZHa1VsOThDVm96cVM4VDBBS3k2MEMwME1Mc1o5dWxWTXhXMnJnLTlOVjlFZnR6SEUzRTk4R1FaejBpN2R0TElyUmdkdWFvRmx1T2tIRFBxNXk5Sm9IcDFtWVXSAbQCQVVfeXFMTzQzYmlMSzU3NU1mYkhZdVNPQ2dJMnhscExDMUdQNEVUOFdxbF9Rcmx4YUZucmp0VDlJSmliMFVhUDlkbU9zX2pDZUFFMzhGYU5aX1Z5NkppNVowTjkybDJTODhWZTBzOHhPX09YejcyTXlXWVZZQkJ4S0hXUEQzeW9JclhxZC0yX1NSV3NpVUNteFV1cUVjemlVbk05V2NOeEhacjJWbmZDendNT0UtbGgzOVBkWTZyMTdkX1A1eHlJSVVQMmZ3aEJ3ZG1WYTR0eVJxTGt1UXBsMk54dGdibDk0NnIwRlBUQTlfSGRWTHB6OThSb3lTRW9udmpvNkV6UW4xNGhMenV0ZUpPVTBwcXRDd19YWTM3WGY3a25TOVRuMzFXcFRQU2lhRm5YRnQ0bkpyNXg?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T13:23:15.000Z",
+      "id": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM29hMk1DSFRVTlNTakxSdmdFWHhkSFJuOXh4TnFka2JWc3Y2ODNsWTF5UGhickRER3BPaHZCUmpMdW1mNy1nVnpNcmVRc0VXX0V4dzlMVG9YOEJvSUpZaGpYdmpvV2M1b0hYd0ZhRDhScnl2MEoyaElObkJ0TEVWOERNTy1iTWtHMzliUVZfUURBZmxHWTVJRzYzLWdtOWU5RzR0VVpQOTduMDVhblVWTVRB?oc=5",
+      "title": "New Title Under Consideration For Ravi Teja and Vivek Athreya Film",
+      "summary": "An intriguing title is reportedly being considered for the upcoming collaborative project between actor Ravi Teja and director Vivek Athreya. Film enthusiasts and fans are closely following updates as discussions regarding the project's official name progress.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM29hMk1DSFRVTlNTakxSdmdFWHhkSFJuOXh4TnFka2JWc3Y2ODNsWTF5UGhickRER3BPaHZCUmpMdW1mNy1nVnpNcmVRc0VXX0V4dzlMVG9YOEJvSUpZaGpYdmpvV2M1b0hYd0ZhRDhScnl2MEoyaElObkJ0TEVWOERNTy1iTWtHMzliUVZfUURBZmxHWTVJRzYzLWdtOWU5RzR0VVpQOTduMDVhblVWTVRB?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-10-01T09:30:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Renowned filmmaker SS Rajamouli has opened up about a particularly intense sequence from his directorial career. Looking back at his past projects, the director recalled shooting what he considers the most violent scene he has ever brought to the screen.",
-        "The sequence notably featured actor Jr NTR and was filmed outside the Kerala Assembly. Reflecting on the logistical and creative realities of that production, Rajamouli shared his doubts about executing such a sequence today, admitting he is uncertain if it would be possible now.",
-        "Such reflections offer a fascinating look into the evolving nature of film production and the changing permissions and environments surrounding major cinematic shoots in real-world public locations."
+        "A fresh and interesting title is reportedly under consideration for the upcoming cinematic venture pairing actor Ravi Teja with filmmaker Vivek Athreya. The collaboration has generated considerable curiosity among cinema fans looking forward to what this creative team will bring to the screen.",
+        "While official announcements regarding the final title are yet to be made, the discussion surrounding potential names highlights the ongoing developmental phase of the project. Both Ravi Teja and Vivek Athreya bring distinct styles to the table, making this partnership one of the most discussed topics in regional cinema circles.",
+        "As the project moves forward through its pre-production and planning stages, further details concerning the cast, crew, and official title confirmation are expected to emerge. Cineinsta will keep track of developments as this exciting film takes shape."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Filmmaker SS Rajamouli recently looked back at a remarkably intense action sequence featuring Jr NTR, noting it as the most violent piece of work in his career. He expressed doubt over whether shooting such a sequence outside the Kerala Assembly would even be possible under current circumstances.",
+      "dek": "An intriguing title is reportedly being considered for the upcoming collaborative project between actor Ravi Teja and director Vivek Athreya. Film enthusiasts and fans are closely following updates as discussions regarding the project's official name progress.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "Hindustan Times"
+        "123telugu.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMm1hZXpjeHhvSXlmeGxtRnlndXlCRl8xUVRaazRKbXBlS0RmWXppOTBmS18yNFduZkJaMnNEQmpDYl9pOFRrcmQ2U0RIUEtMZ1gzUzhRN0Q0bnBPVzVSRjM4RVFGaXBNZHYyY1NBUFNyYlBXeFNEb3pFbGN2YXdTbWYtVF9XZkFrODRERWpHS3VJU0kzVl9PeW9iTGVCYlg1YVBYY05MYm5kRnFrSVM2ZUhFOE9ZNUJmNEF5X2J3LV9RUXAxczFVejBaRGZXTkkzN196ZWZHa1VsOThDVm96cVM4VDBBS3k2MEMwME1Mc1o5dWxWTXhXMnJnLTlOVjlFZnR6SEUzRTk4R1FaejBpN2R0TElyUmdkdWFvRmx1T2tIRFBxNXk5Sm9IcDFtWVXSAbQCQVVfeXFMTzQzYmlMSzU3NU1mYkhZdVNPQ2dJMnhscExDMUdQNEVUOFdxbF9Rcmx4YUZucmp0VDlJSmliMFVhUDlkbU9zX2pDZUFFMzhGYU5aX1Z5NkppNVowTjkybDJTODhWZTBzOHhPX09YejcyTXlXWVZZQkJ4S0hXUEQzeW9JclhxZC0yX1NSV3NpVUNteFV1cUVjemlVbk05V2NOeEhacjJWbmZDendNT0UtbGgzOVBkWTZyMTdkX1A1eHlJSVVQMmZ3aEJ3ZG1WYTR0eVJxTGt1UXBsMk54dGdibDk0NnIwRlBUQTlfSGRWTHB6OThSb3lTRW9udmpvNkV6UW4xNGhMenV0ZUpPVTBwcXRDd19YWTM3WGY3a25TOVRuMzFXcFRQU2lhRm5YRnQ0bkpyNXg?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM29hMk1DSFRVTlNTakxSdmdFWHhkSFJuOXh4TnFka2JWc3Y2ODNsWTF5UGhickRER3BPaHZCUmpMdW1mNy1nVnpNcmVRc0VXX0V4dzlMVG9YOEJvSUpZaGpYdmpvV2M1b0hYd0ZhRDhScnl2MEoyaElObkJ0TEVWOERNTy1iTWtHMzliUVZfUURBZmxHWTVJRzYzLWdtOWU5RzR0VVpQOTduMDVhblVWTVRB?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVF9aaFBsdDNadjlmcElVOVJPVWhHRFZTZnRPc1lZSU1ZZERjVk1DZ2hTNDFvcEI5XzBNWUFFUnNJTDRnYzdUeTVWb2JHTnQwbV9mZGlpbGgxRmFXdzBRdjZjRHRKdDZBazJnRVJKQ3UtSFRGMHEwaXFIT0N1aXR6aGlwZHgwcW9fenRDcWpLZG9fcUNGSk83anE0dEZIVW9xLXJ4LU1yS3BGaFhfRWtJUXJKMEhDY0lmU3lPT3NCYTExc3FfZDFXWlZfWGJIU2dDMXIxa3M0TXYtRExtdlFvcjFnMDB5QnR4NTBwYlh1czQ0ZFZId192WEJZSdIBgAJBVV95cUxQVjkza3IzUG5SRHUtVDFFTzJ1Z1NYNl9Nc1dnMkN1WFVaSmF6RnZoRGREOGg3Tzd3OFNtV1NhT2NzVU83RnVxeHBYcko5enpFb1hVWmhCcmhDYVVldUlfZ29qRC02VUdYbnJOSWQyZVV0dEl3UW1CdGFpLXYweUo5cThJb2xSaHAyZ1UzWmZKVy1QbXIzMWRMZG1BYmIzMkI2WEZ0SmF2clFHcTZ1c2lyeHdVMTZBemJKc3NCS19oRWV4V2tfMDZMZ1lsS3NfZEtOaHBhaVRocjRfSEhYbF9BVGpua0piaG4yZndsaFJ0amwxVmkyVjl3NEJKYzlwdEJT?oc=5",
-      "title": "Allu Arjun Launches Brand New Office Named 'ICONZA' on Allu Ramalingaiah's Birth Anniversary",
-      "summary": "Telugu cinema star Allu Arjun marked a significant personal and professional milestone by inaugurating his brand new office space, named 'ICONZA'. The opening ceremony coincided with the birth anniversary of his legendary grandfather, Allu Ramalingaiah, adding immense sentimental value to the occasion.",
-      "source": "Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVF9aaFBsdDNadjlmcElVOVJPVWhHRFZTZnRPc1lZSU1ZZERjVk1DZ2hTNDFvcEI5XzBNWUFFUnNJTDRnYzdUeTVWb2JHTnQwbV9mZGlpbGgxRmFXdzBRdjZjRHRKdDZBazJnRVJKQ3UtSFRGMHEwaXFIT0N1aXR6aGlwZHgwcW9fenRDcWpLZG9fcUNGSk83anE0dEZIVW9xLXJ4LU1yS3BGaFhfRWtJUXJKMEhDY0lmU3lPT3NCYTExc3FfZDFXWlZfWGJIU2dDMXIxa3M0TXYtRExtdlFvcjFnMDB5QnR4NTBwYlh1czQ0ZFZId192WEJZSdIBgAJBVV95cUxQVjkza3IzUG5SRHUtVDFFTzJ1Z1NYNl9Nc1dnMkN1WFVaSmF6RnZoRGREOGg3Tzd3OFNtV1NhT2NzVU83RnVxeHBYcko5enpFb1hVWmhCcmhDYVVldUlfZ29qRC02VUdYbnJOSWQyZVV0dEl3UW1CdGFpLXYweUo5cThJb2xSaHAyZ1UzWmZKVy1QbXIzMWRMZG1BYmIzMkI2WEZ0SmF2clFHcTZ1c2lyeHdVMTZBemJKc3NCS19oRWV4V2tfMDZMZ1lsS3NfZEtOaHBhaVRocjRfSEhYbF9BVGpua0piaG4yZndsaFJ0amwxVmkyVjl3NEJKYzlwdEJT?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T12:39:14.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Popular actor Allu Arjun has expanded his professional footprint by officially inaugurating a brand new office space titled 'ICONZA'. The momentous launch event took place on a deeply meaningful date for the family.",
-        "By choosing to open the new office on the birth anniversary of his late grandfather and legendary actor Allu Ramalingaiah, Allu Arjun paid a heartfelt tribute to his family's enduring legacy in the film industry.",
-        "This new venture stands as a notable step for the actor as he continues to balance his thriving cinematic career with entrepreneurial milestones."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Telugu cinema star Allu Arjun marked a significant personal and professional milestone by inaugurating his brand new office space, named 'ICONZA'. The opening ceremony coincided with the birth anniversary of his legendary grandfather, Allu Ramalingaiah, adding immense sentimental value to the occasion.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Moneycontrol.com"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVF9aaFBsdDNadjlmcElVOVJPVWhHRFZTZnRPc1lZSU1ZZERjVk1DZ2hTNDFvcEI5XzBNWUFFUnNJTDRnYzdUeTVWb2JHTnQwbV9mZGlpbGgxRmFXdzBRdjZjRHRKdDZBazJnRVJKQ3UtSFRGMHEwaXFIT0N1aXR6aGlwZHgwcW9fenRDcWpLZG9fcUNGSk83anE0dEZIVW9xLXJ4LU1yS3BGaFhfRWtJUXJKMEhDY0lmU3lPT3NCYTExc3FfZDFXWlZfWGJIU2dDMXIxa3M0TXYtRExtdlFvcjFnMDB5QnR4NTBwYlh1czQ0ZFZId192WEJZSdIBgAJBVV95cUxQVjkza3IzUG5SRHUtVDFFTzJ1Z1NYNl9Nc1dnMkN1WFVaSmF6RnZoRGREOGg3Tzd3OFNtV1NhT2NzVU83RnVxeHBYcko5enpFb1hVWmhCcmhDYVVldUlfZ29qRC02VUdYbnJOSWQyZVV0dEl3UW1CdGFpLXYweUo5cThJb2xSaHAyZ1UzWmZKVy1QbXIzMWRMZG1BYmIzMkI2WEZ0SmF2clFHcTZ1c2lyeHdVMTZBemJKc3NCS19oRWV4V2tfMDZMZ1lsS3NfZEtOaHBhaVRocjRfSEhYbF9BVGpua0piaG4yZndsaFJ0amwxVmkyVjl3NEJKYzlwdEJT?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45blRodmU3UTlGMzZsRmY2RVRRckJKNks2a2VrdDdvS3piMFdNbDZobG14cDJUM050alczQllRcUZ6eVZjNnJsVm5zRVMxczNyWmxvSW5NRGk?oc=5",
-      "title": "Allu Arjun Unveils New Workspace 'ICONZA'",
-      "summary": "Actor Allu Arjun has officially opened his new office, 'ICONZA'. The launch event was scheduled to coincide with the birth anniversary of his grandfather, Allu Ramalingaiah.",
-      "source": "Telugu360",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45blRodmU3UTlGMzZsRmY2RVRRckJKNks2a2VrdDdvS3piMFdNbDZobG14cDJUM050alczQllRcUZ6eVZjNnJsVm5zRVMxczNyWmxvSW5NRGk?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T11:15:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Leading star Allu Arjun has marked a fresh professional development with the launch of his new office space, which has been named 'ICONZA'.",
-        "The inauguration event was specially timed to coincide with the birth anniversary of the late veteran actor and his grandfather, Allu Ramalingaiah, honoring his lasting impact.",
-        "The opening of 'ICONZA' has drawn attention from fans and industry observers alike as a notable update from the prominent actor."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Allu Arjun has officially opened his new office, 'ICONZA'. The launch event was scheduled to coincide with the birth anniversary of his grandfather, Allu Ramalingaiah.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45blRodmU3UTlGMzZsRmY2RVRRckJKNks2a2VrdDdvS3piMFdNbDZobG14cDJUM050alczQllRcUZ6eVZjNnJsVm5zRVMxczNyWmxvSW5NRGk?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aRnRXQk5pRWR0dlJlbm4ydVlaR3NYTUlpSDZXa3FOM0k0eWE4ZjVUS2JRVVI0TEtRdjhpdElJeE9FcVZ6aUJ5ZnBRU1J0d0VWMkkxNUZhanFMOXg2a2dLNGtuQVg5ak5wNHdIMklmOA?oc=5",
-      "title": "Bhagyashri Borse: Tracing the Rising Trajectory in Cinema",
-      "summary": "Actor Bhagyashri Borse continues to capture attention as her presence and career trajectory grow within the film industry. Industry discussions and updates highlight her ongoing rise and evolving journey in cinema.",
-      "source": "Telugu360",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aRnRXQk5pRWR0dlJlbm4ydVlaR3NYTUlpSDZXa3FOM0k0eWE4ZjVUS2JRVVI0TEtRdjhpdElJeE9FcVZ6aUJ5ZnBRU1J0d0VWMkkxNUZhanFMOXg2a2dLNGtuQVg5ak5wNHdIMklmOA?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T10:50:42.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The upward trajectory of actor Bhagyashri Borse continues to draw notice across the entertainment sector. Her ongoing career progression highlights her growing footprint in the industry.",
-        "As discussions surrounding her upcoming work and rising status persist, fans and industry trackers follow her journey closely.",
-        "Such career momentum marks an important phase for the actor as she establishes herself further in the cinematic landscape."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Bhagyashri Borse continues to capture attention as her presence and career trajectory grow within the film industry. Industry discussions and updates highlight her ongoing rise and evolving journey in cinema.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aRnRXQk5pRWR0dlJlbm4ydVlaR3NYTUlpSDZXa3FOM0k0eWE4ZjVUS2JRVVI0TEtRdjhpdElJeE9FcVZ6aUJ5ZnBRU1J0d0VWMkkxNUZhanFMOXg2a2dLNGtuQVg5ak5wNHdIMklmOA?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQZlRHUGFOZWUxWVlLMnVPYm5MVUpNdTdvNnNvQ00waTVDaE9udExJY0QxTk9WMm1JRFpYTmRyQXJYUzllTjNUaEVQdmkyc3ZKN3ROOXBocm5rd05OcGVyRnR5VHhzZ1pMb3FpVkhHVUNWRGVyREdITmc4c1FyYXpHellqdVBiOEx3NHlIQ0t0eXRqTXhkVDZTaGhkeUFyRGt3Nk1kSGQ5dTZtZVhlMmM0UXlZLXNRaEtaT0ZndjFHZlQyNmpIdEU4VG8tdFd0bHdFNm1XMUtwNVVmdnhlbE9VOFFJU2Y3WXliX1JKNkRnNWlZSjFQb3FwT3lpSW9icHlhUjI0aHJva1VjRUNHOUY4Y043MTE2bmYxLUlYNXIwU2xHVENBZU9DR2Z6NUdJbUZydHdHTW5ySWs5UlZCNWVJSzZiZ9IByAJBVV95cUxObTNqVlNaMzczSXZmT0dRU3RMYzNKRWVuSmsxb2luN3Nud292TGtLa2c1aDh1Z1E5TTQ1bnBPZlB1dENRSVdaTWdtNFVOczViZ2g5R3dvZjJua1Fod09ucERoU1VSMDliR2tQVXRIS2J6Q1BMRGowRllSSlNvUWZON0wyLWt5TThfY2JxQkpTRWxBYUFXT2k5QnZxdDN0NXJtTmlROUFNRFUwMWhIa2JXVVBVOGF2NDdOdUc5TFJJRHgta3Q5cTI3amZqUEthc0JkWE9hR20tRnZTTEdjUnYzU2l5cU5hSERWQVpQVXVDTUVqZ1dLbGxWUGtnMnB5VUctel9FQ293c0ZCcThENWtZUTg1TjhkSWc3M1lOaWlUS2hCbm1sY05pYW5YQWdhSXotZjVsdVNsUjhhTGJ4cWFtdE5qcHdsOE9t?oc=5",
-      "title": "Venkatesh Starrer 'Aadarsha Kutumbam House No: 47' Locks October 9 Release Date",
-      "summary": "The theatrical release date for Venkatesh's upcoming film 'Aadarsha Kutumbam House No: 47' has been officially locked. Producer Naga Vamsi made the announcement, setting the arrival for October 9.",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQZlRHUGFOZWUxWVlLMnVPYm5MVUpNdTdvNnNvQ00waTVDaE9udExJY0QxTk9WMm1JRFpYTmRyQXJYUzllTjNUaEVQdmkyc3ZKN3ROOXBocm5rd05OcGVyRnR5VHhzZ1pMb3FpVkhHVUNWRGVyREdITmc4c1FyYXpHellqdVBiOEx3NHlIQ0t0eXRqTXhkVDZTaGhkeUFyRGt3Nk1kSGQ5dTZtZVhlMmM0UXlZLXNRaEtaT0ZndjFHZlQyNmpIdEU4VG8tdFd0bHdFNm1XMUtwNVVmdnhlbE9VOFFJU2Y3WXliX1JKNkRnNWlZSjFQb3FwT3lpSW9icHlhUjI0aHJva1VjRUNHOUY4Y043MTE2bmYxLUlYNXIwU2xHVENBZU9DR2Z6NUdJbUZydHdHTW5ySWs5UlZCNWVJSzZiZ9IByAJBVV95cUxObTNqVlNaMzczSXZmT0dRU3RMYzNKRWVuSmsxb2luN3Nud292TGtLa2c1aDh1Z1E5TTQ1bnBPZlB1dENRSVdaTWdtNFVOczViZ2g5R3dvZjJua1Fod09ucERoU1VSMDliR2tQVXRIS2J6Q1BMRGowRllSSlNvUWZON0wyLWt5TThfY2JxQkpTRWxBYUFXT2k5QnZxdDN0NXJtTmlROUFNRFUwMWhIa2JXVVBVOGF2NDdOdUc5TFJJRHgta3Q5cTI3amZqUEthc0JkWE9hR20tRnZTTEdjUnYzU2l5cU5hSERWQVpQVXVDTUVqZ1dLbGxWUGtnMnB5VUctel9FQ293c0ZCcThENWtZUTg1TjhkSWc3M1lOaWlUS2hCbm1sY05pYW5YQWdhSXotZjVsdVNsUjhhTGJ4cWFtdE5qcHdsOE9t?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T10:34:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The official release schedule for the upcoming film 'Aadarsha Kutumbam House No: 47', starring actor Venkatesh, has been made public. The cinematic update was shared by producer Naga Vamsi, bringing clarity to the film's theatrical debut timeline for eager fans.",
-        "According to the official announcement, 'Aadarsha Kutumbam House No: 47' is officially slated to release on October 9. With the date now confirmed by the production team, the project moves forward into its final phases ahead of its scheduled arrival on the big screen."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The theatrical release date for Venkatesh's upcoming film 'Aadarsha Kutumbam House No: 47' has been officially locked. Producer Naga Vamsi made the announcement, setting the arrival for October 9.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "The Times of India"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQZlRHUGFOZWUxWVlLMnVPYm5MVUpNdTdvNnNvQ00waTVDaE9udExJY0QxTk9WMm1JRFpYTmRyQXJYUzllTjNUaEVQdmkyc3ZKN3ROOXBocm5rd05OcGVyRnR5VHhzZ1pMb3FpVkhHVUNWRGVyREdITmc4c1FyYXpHellqdVBiOEx3NHlIQ0t0eXRqTXhkVDZTaGhkeUFyRGt3Nk1kSGQ5dTZtZVhlMmM0UXlZLXNRaEtaT0ZndjFHZlQyNmpIdEU4VG8tdFd0bHdFNm1XMUtwNVVmdnhlbE9VOFFJU2Y3WXliX1JKNkRnNWlZSjFQb3FwT3lpSW9icHlhUjI0aHJva1VjRUNHOUY4Y043MTE2bmYxLUlYNXIwU2xHVENBZU9DR2Z6NUdJbUZydHdHTW5ySWs5UlZCNWVJSzZiZ9IByAJBVV95cUxObTNqVlNaMzczSXZmT0dRU3RMYzNKRWVuSmsxb2luN3Nud292TGtLa2c1aDh1Z1E5TTQ1bnBPZlB1dENRSVdaTWdtNFVOczViZ2g5R3dvZjJua1Fod09ucERoU1VSMDliR2tQVXRIS2J6Q1BMRGowRllSSlNvUWZON0wyLWt5TThfY2JxQkpTRWxBYUFXT2k5QnZxdDN0NXJtTmlROUFNRFUwMWhIa2JXVVBVOGF2NDdOdUc5TFJJRHgta3Q5cTI3amZqUEthc0JkWE9hR20tRnZTTEdjUnYzU2l5cU5hSERWQVpQVXVDTUVqZ1dLbGxWUGtnMnB5VUctel9FQ293c0ZCcThENWtZUTg1TjhkSWc3M1lOaWlUS2hCbm1sY05pYW5YQWdhSXotZjVsdVNsUjhhTGJ4cWFtdE5qcHdsOE9t?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVENZa3o1UmZSTXVFcHVoWW00di1qTjlGLS0tcDYxMXlwV3lpX1JPSldsM3dXbXNtdGJKdWdvWDRLLXVhVWZ2aTdueEstM0thTnh3UXlMUTl4OGVTMUhGNWFFUDVlVEQwTURYY2ZqdGV4SENLVzk1MVJGRG11SjNrZEVSblJSY2pkV2tVbk9fTjlzS1Jld25LemxGekhpTzBtS0lrYTRPSl9VWFdiZURfRmdKQ0RrY0NHSlh5ME9oNkJaUWVrbFBLNmIycnJOOGlzOVF6VEtpdFAxUVHSAeABQVVfeXFMTi12R0pUeHZXSlA4UTgtZGJFTll0R1RvQ0gzR3BVNzJGMEZ5WEhFbmpPY3diTDBoc2lWbkNPbjVYNWFNcXhvZGR1SE1DQzNvZC00eWFoOUdVWXVFemM2ZmwwejE2RkFkRzZqU1hnU3IzNUpmRHRPZ05sWWF4NnlfbGZiZF9peVZRc05IZlJ4WjE2ZDloVlhPT1JlZnhrdXdiRDFXRDNXUUNUZkx4VThkTklVWUlyZGxiY3JTdHkyaHNhdVNCeDdmX2hjUDRNZnVkU3RFQTk2R2lNVUhITlFGZFc?oc=5",
-      "title": "Rajinikanth Concludes Shooting Schedule for New Project in Mysuru",
-      "summary": "Superstar Rajinikanth has successfully completed the Mysuru schedule for his upcoming movie. The production milestone marks another step forward in the film's ongoing shooting timeline.",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVENZa3o1UmZSTXVFcHVoWW00di1qTjlGLS0tcDYxMXlwV3lpX1JPSldsM3dXbXNtdGJKdWdvWDRLLXVhVWZ2aTdueEstM0thTnh3UXlMUTl4OGVTMUhGNWFFUDVlVEQwTURYY2ZqdGV4SENLVzk1MVJGRG11SjNrZEVSblJSY2pkV2tVbk9fTjlzS1Jld25LemxGekhpTzBtS0lrYTRPSl9VWFdiZURfRmdKQ0RrY0NHSlh5ME9oNkJaUWVrbFBLNmIycnJOOGlzOVF6VEtpdFAxUVHSAeABQVVfeXFMTi12R0pUeHZXSlA4UTgtZGJFTll0R1RvQ0gzR3BVNzJGMEZ5WEhFbmpPY3diTDBoc2lWbkNPbjVYNWFNcXhvZGR1SE1DQzNvZC00eWFoOUdVWXVFemM2ZmwwejE2RkFkRzZqU1hnU3IzNUpmRHRPZ05sWWF4NnlfbGZiZF9peVZRc05IZlJ4WjE2ZDloVlhPT1JlZnhrdXdiRDFXRDNXUUNUZkx4VThkTklVWUlyZGxiY3JTdHkyaHNhdVNCeDdmX2hjUDRNZnVkU3RFQTk2R2lNVUhITlFGZFc?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T09:53:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Production on Rajinikanth's upcoming film has reached a notable milestone with the completion of its scheduled portion in Mysuru. The primary phase of filming in the region has been officially wrapped up by the team.",
-        "As the production moves past this schedule, work continues on the remaining portions of the project. Further details regarding subsequent schedules and overall project progress are expected to be shared in due course."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Superstar Rajinikanth has successfully completed the Mysuru schedule for his upcoming movie. The production milestone marks another step forward in the film's ongoing shooting timeline.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "The Times of India"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVENZa3o1UmZSTXVFcHVoWW00di1qTjlGLS0tcDYxMXlwV3lpX1JPSldsM3dXbXNtdGJKdWdvWDRLLXVhVWZ2aTdueEstM0thTnh3UXlMUTl4OGVTMUhGNWFFUDVlVEQwTURYY2ZqdGV4SENLVzk1MVJGRG11SjNrZEVSblJSY2pkV2tVbk9fTjlzS1Jld25LemxGekhpTzBtS0lrYTRPSl9VWFdiZURfRmdKQ0RrY0NHSlh5ME9oNkJaUWVrbFBLNmIycnJOOGlzOVF6VEtpdFAxUVHSAeABQVVfeXFMTi12R0pUeHZXSlA4UTgtZGJFTll0R1RvQ0gzR3BVNzJGMEZ5WEhFbmpPY3diTDBoc2lWbkNPbjVYNWFNcXhvZGR1SE1DQzNvZC00eWFoOUdVWXVFemM2ZmwwejE2RkFkRzZqU1hnU3IzNUpmRHRPZ05sWWF4NnlfbGZiZF9peVZRc05IZlJ4WjE2ZDloVlhPT1JlZnhrdXdiRDFXRDNXUUNUZkx4VThkTklVWUlyZGxiY3JTdHkyaHNhdVNCeDdmX2hjUDRNZnVkU3RFQTk2R2lNVUhITlFGZFc?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRk14TlNYdWZXTFkyWS0wendKYTRDcjFEbHpJS2dxM2RrdEZYNFc1RkQ5UU56QUVJRWs3am5sZG9xejZMa2pVMlJnOUVOVXV1aGE5aHhORHFrMUoxaGh6bG1WREhKY1I1Uy1veVFIUlNVbDhMTnI3a1V6YUtIY2kyM1gxeFdjSjdWUmZoOXcyT3k0SDdxYnFnZlRZWUlaRkRGXzlRYy1qclNRelpFM3FQVExiVTZ5VXdWemtJWGpGMlZFd2paWFk1STdhekp6LWVVckpaUEtsSGxTd1BvdlJveVZKSFrSAeoBQVVfeXFMUFZSendBclBjWXl5ZmtEMHpSNlRTQnZFUmFlVE1saGE1d0FPY3c4UnhBVV9TNmY0TlBkSTIxUzh4aGNxY2diMnViLXB3ZFNiYkF5dUcwS0hJUWRaWmFxWVN3NldFQ3ZjUkk0UTFERG1MV2FUVVp1WHl1bTBVQ0VzelM1OWpUTDFROW5Nam9LNE5VRHhzbjN0eEV4SFNyb2VGQUZGZEoyOTVkaGRqdTJLajdMRDUzbWRUVWQ1bDYtVUJwemFlMHQwTkk0ejZmc1JPODBoQ3RSQ3gyQ3NaQng1aUE2ZHRHNWh1SkdB?oc=5",
-      "title": "Akhil Raj Uddemari Reflects on the Impact of a Single Friday in an Actor's Career",
-      "summary": "Actor Akhil Raj Uddemari has shared thoughts on how transformative a single Friday can be for performers in the film industry. The perspective highlights the high stakes of theatrical release days.",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRk14TlNYdWZXTFkyWS0wendKYTRDcjFEbHpJS2dxM2RrdEZYNFc1RkQ5UU56QUVJRWs3am5sZG9xejZMa2pVMlJnOUVOVXV1aGE5aHhORHFrMUoxaGh6bG1WREhKY1I1Uy1veVFIUlNVbDhMTnI3a1V6YUtIY2kyM1gxeFdjSjdWUmZoOXcyT3k0SDdxYnFnZlRZWUlaRkRGXzlRYy1qclNRelpFM3FQVExiVTZ5VXdWemtJWGpGMlZFd2paWFk1STdhekp6LWVVckpaUEtsSGxTd1BvdlJveVZKSFrSAeoBQVVfeXFMUFZSendBclBjWXl5ZmtEMHpSNlRTQnZFUmFlVE1saGE1d0FPY3c4UnhBVV9TNmY0TlBkSTIxUzh4aGNxY2diMnViLXB3ZFNiYkF5dUcwS0hJUWRaWmFxWVN3NldFQ3ZjUkk0UTFERG1MV2FUVVp1WHl1bTBVQ0VzelM1OWpUTDFROW5Nam9LNE5VRHhzbjN0eEV4SFNyb2VGQUZGZEoyOTVkaGRqdTJLajdMRDUzbWRUVWQ1bDYtVUJwemFlMHQwTkk0ejZmc1JPODBoQ3RSQ3gyQ3NaQng1aUE2ZHRHNWh1SkdB?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T09:44:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Reflecting on the unpredictable nature of the entertainment industry, actor Akhil Raj Uddemari recently highlighted the profound impact that a single Friday can have on an artist's career trajectory.",
-        "The observation underscores the vital importance of release days in cinema, where public reception can immediately alter professional journeys and open new doors for talent within the industry."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Akhil Raj Uddemari has shared thoughts on how transformative a single Friday can be for performers in the film industry. The perspective highlights the high stakes of theatrical release days.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "The Times of India"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRk14TlNYdWZXTFkyWS0wendKYTRDcjFEbHpJS2dxM2RrdEZYNFc1RkQ5UU56QUVJRWs3am5sZG9xejZMa2pVMlJnOUVOVXV1aGE5aHhORHFrMUoxaGh6bG1WREhKY1I1Uy1veVFIUlNVbDhMTnI3a1V6YUtIY2kyM1gxeFdjSjdWUmZoOXcyT3k0SDdxYnFnZlRZWUlaRkRGXzlRYy1qclNRelpFM3FQVExiVTZ5VXdWemtJWGpGMlZFd2paWFk1STdhekp6LWVVckpaUEtsSGxTd1BvdlJveVZKSFrSAeoBQVVfeXFMUFZSendBclBjWXl5ZmtEMHpSNlRTQnZFUmFlVE1saGE1d0FPY3c4UnhBVV9TNmY0TlBkSTIxUzh4aGNxY2diMnViLXB3ZFNiYkF5dUcwS0hJUWRaWmFxWVN3NldFQ3ZjUkk0UTFERG1MV2FUVVp1WHl1bTBVQ0VzelM1OWpUTDFROW5Nam9LNE5VRHhzbjN0eEV4SFNyb2VGQUZGZEoyOTVkaGRqdTJLajdMRDUzbWRUVWQ1bDYtVUJwemFlMHQwTkk0ejZmc1JPODBoQ3RSQ3gyQ3NaQng1aUE2ZHRHNWh1SkdB?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZUV2UmZLWFJwTG5mVVdBUHVvdTFRYjRDZkVNUVRaZzB4QS1QQmZ3RExwV0JkQnpTN2RWaW1oUUdSSWI2V2RsVXJ3Yl83dzlrQkZ6SFB6UjRPeFdsTUV0c2JTTWtHLXM2QzkyMXZUY1BORXNBUjRKZFJRRlNpSHRfaUtWUVNXSDdwaFRUMnpOSW5FY1E?oc=5",
-      "title": "Celebrating Chivalrous Characters in Telugu Cinema That Fans Admire",
-      "summary": "A look at the memorable, chivalrous characters featured in Telugu cinema that resonate strongly with audiences. These iconic figures continue to leave a lasting impression beyond the screen.",
-      "source": "Yo Vizag",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZUV2UmZLWFJwTG5mVVdBUHVvdTFRYjRDZkVNUVRaZzB4QS1QQmZ3RExwV0JkQnpTN2RWaW1oUUdSSWI2V2RsVXJ3Yl83dzlrQkZ6SFB6UjRPeFdsTUV0c2JTTWtHLXM2QzkyMXZUY1BORXNBUjRKZFJRRlNpSHRfaUtWUVNXSDdwaFRUMnpOSW5FY1E?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T08:44:48.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Telugu cinema has long celebrated characters known for their chivalry, nobility, and strong moral compass. These cinematic figures have captured the imagination of viewers, prompting discussions on how their idealized traits mirror qualities people wish existed in daily life.",
-        "From classic portrayals to contemporary favorites, the legacy of these chivalrous roles remains a testament to impactful character writing in regional storytelling, continuing to resonate deeply with moviegoers."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "A look at the memorable, chivalrous characters featured in Telugu cinema that resonate strongly with audiences. These iconic figures continue to leave a lasting impression beyond the screen.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Yo Vizag"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZUV2UmZLWFJwTG5mVVdBUHVvdTFRYjRDZkVNUVRaZzB4QS1QQmZ3RExwV0JkQnpTN2RWaW1oUUdSSWI2V2RsVXJ3Yl83dzlrQkZ6SFB6UjRPeFdsTUV0c2JTTWtHLXM2QzkyMXZUY1BORXNBUjRKZFJRRlNpSHRfaUtWUVNXSDdwaFRUMnpOSW5FY1E?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPMVhXbnlncmZtenhmZUs0U3I0YWpPZW5MX2J0TVN5elVTd0wxWlYzZGYyLUxWSk9HbTNjNkVRcGljdVRSNEF0cjhWRWdDSTVISGFuZEVMUGs3eTQ2SXo4SnFCeTFRQWZaMmRRMHhPZjd1YndUU3p3N1lqSXB2cTNhbmo5TFJlM3l6Ync1bXA4OVFLU1F4OWRQNDhSLVUzWDFLZGFPY0hjeHZuRmhkZGRlNEZnaFVEU2NWZHRsSE9mTGtQTG5CU1JrNEhlOHJic1dzZnktMl9TRnVPdzVXYVI2RDlWcm1nRl9KVHU5eHBpMW9reGYzMjk5WGI2MnN4ZnJFR2JSUTFsdnY3b3Njd2xpVm9MUUZkbkNVa1BfMTE0amhLRGVMd0I4endRa2JOS0lfSVhGMDRXeEFGeWdtbG13MDlQQmI2YTRKT09sQmxNZ9IB1AJBVV95cUxOSHl5cEdoN0xBZk1TYmRjd09xOWNRRHA4ZlYwTFUtbmhfOXpJLV8wYk9lT1ZJd09NNk9ET3JCMkk1clh5cC1lbXBCV2lPS2pGR0ljYk1aTExwNzdhQWRXOWZmRmttRmVVQW5VYnBhQ2EtQmwtc1RqWkNKeDA5bV8yQ0VlUnhNaEZBM2ZPQkNwYkhyZzZXekxoNmRvdlQxNVJHSVlhLVZIdGt6LU1GdWp0dEFmbXFNOFdrWE5IU2dVT3VPekgwN1M5dUdLMDlsS29HZjcwRldCRTdVLWM4Nkhpemp5bk9pSW9ZN3B2VkZqOWh0cXRSd0NNdmNtQ21lQVRWWXBCY280SWcwcERfSUFOMVd6bFVzekNIWGZTTG5GaDU0NFRQUTV6eE5fR3RiUjdDbjIybnBEa3hCWHNkUWJVR1QtZ0tlR1NjTTJ1MEozNXRuVGRX?oc=5",
-      "title": "Mahesh Babu Shares High Praise For Fahadh Faasil And 'Don't Trouble The Trouble'",
-      "summary": "Telugu star Mahesh Babu has shared his review of 'Don't Trouble The Trouble', singling out co-star Fahadh Faasil for special praise. Mahesh Babu called Fahadh a stupendous actor following his experience with the project.",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPMVhXbnlncmZtenhmZUs0U3I0YWpPZW5MX2J0TVN5elVTd0wxWlYzZGYyLUxWSk9HbTNjNkVRcGljdVRSNEF0cjhWRWdDSTVISGFuZEVMUGs3eTQ2SXo4SnFCeTFRQWZaMmRRMHhPZjd1YndUU3p3N1lqSXB2cTNhbmo5TFJlM3l6Ync1bXA4OVFLU1F4OWRQNDhSLVUzWDFLZGFPY0hjeHZuRmhkZGRlNEZnaFVEU2NWZHRsSE9mTGtQTG5CU1JrNEhlOHJic1dzZnktMl9TRnVPdzVXYVI2RDlWcm1nRl9KVHU5eHBpMW9reGYzMjk5WGI2MnN4ZnJFR2JSUTFsdnY3b3Njd2xpVm9MUUZkbkNVa1BfMTE0amhLRGVMd0I4endRa2JOS0lfSVhGMDRXeEFGeWdtbG13MDlQQmI2YTRKT09sQmxNZ9IB1AJBVV95cUxOSHl5cEdoN0xBZk1TYmRjd09xOWNRRHA4ZlYwTFUtbmhfOXpJLV8wYk9lT1ZJd09NNk9ET3JCMkk1clh5cC1lbXBCV2lPS2pGR0ljYk1aTExwNzdhQWRXOWZmRmttRmVVQW5VYnBhQ2EtQmwtc1RqWkNKeDA5bV8yQ0VlUnhNaEZBM2ZPQkNwYkhyZzZXekxoNmRvdlQxNVJHSVlhLVZIdGt6LU1GdWp0dEFmbXFNOFdrWE5IU2dVT3VPekgwN1M5dUdLMDlsS29HZjcwRldCRTdVLWM4Nkhpemp5bk9pSW9ZN3B2VkZqOWh0cXRSd0NNdmNtQ21lQVRWWXBCY280SWcwcERfSUFOMVd6bFVzekNIWGZTTG5GaDU0NFRQUTV6eE5fR3RiUjdDbjIybnBEa3hCWHNkUWJVR1QtZ0tlR1NjTTJ1MEozNXRuVGRX?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T04:47:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Telugu cinema star Mahesh Babu has shared his thoughts on 'Don't Trouble The Trouble', offering public appreciation for the project and its lead talent. His review highlights the strong performances within the film, bringing positive attention to its theatrical run.",
-        "In his remarks, Mahesh Babu specifically lauded Fahadh Faasil, describing him as a stupendous actor. The commendation underscores the cross-industry appreciation among prominent contemporary Indian film stars.",
-        "Such endorsements from leading industry figures often help build momentum and audience interest. The high praise for Fahadh Faasil's capabilities further cements his reputation as a powerhouse performer across different cinematic landscapes."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Telugu star Mahesh Babu has shared his review of 'Don't Trouble The Trouble', singling out co-star Fahadh Faasil for special praise. Mahesh Babu called Fahadh a stupendous actor following his experience with the project.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "The Times of India"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPMVhXbnlncmZtenhmZUs0U3I0YWpPZW5MX2J0TVN5elVTd0wxWlYzZGYyLUxWSk9HbTNjNkVRcGljdVRSNEF0cjhWRWdDSTVISGFuZEVMUGs3eTQ2SXo4SnFCeTFRQWZaMmRRMHhPZjd1YndUU3p3N1lqSXB2cTNhbmo5TFJlM3l6Ync1bXA4OVFLU1F4OWRQNDhSLVUzWDFLZGFPY0hjeHZuRmhkZGRlNEZnaFVEU2NWZHRsSE9mTGtQTG5CU1JrNEhlOHJic1dzZnktMl9TRnVPdzVXYVI2RDlWcm1nRl9KVHU5eHBpMW9reGYzMjk5WGI2MnN4ZnJFR2JSUTFsdnY3b3Njd2xpVm9MUUZkbkNVa1BfMTE0amhLRGVMd0I4endRa2JOS0lfSVhGMDRXeEFGeWdtbG13MDlQQmI2YTRKT09sQmxNZ9IB1AJBVV95cUxOSHl5cEdoN0xBZk1TYmRjd09xOWNRRHA4ZlYwTFUtbmhfOXpJLV8wYk9lT1ZJd09NNk9ET3JCMkk1clh5cC1lbXBCV2lPS2pGR0ljYk1aTExwNzdhQWRXOWZmRmttRmVVQW5VYnBhQ2EtQmwtc1RqWkNKeDA5bV8yQ0VlUnhNaEZBM2ZPQkNwYkhyZzZXekxoNmRvdlQxNVJHSVlhLVZIdGt6LU1GdWp0dEFmbXFNOFdrWE5IU2dVT3VPekgwN1M5dUdLMDlsS29HZjcwRldCRTdVLWM4Nkhpemp5bk9pSW9ZN3B2VkZqOWh0cXRSd0NNdmNtQ21lQVRWWXBCY280SWcwcERfSUFOMVd6bFVzekNIWGZTTG5GaDU0NFRQUTV6eE5fR3RiUjdDbjIybnBEa3hCWHNkUWJVR1QtZ0tlR1NjTTJ1MEozNXRuVGRX?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdFN0THppUVBtc2dFanYxZEluSUM3dkNhcEJYeUZFS0JGLVl1dWFWQlhqblhSMjFOSU9kekt6bUlUM3hWaHlZVEtMVGx4bTJWRUtLcHNadUNBeXF4WmJFTTh2VEU1SFp1R1RNclFTcWJSbVZiZjN4MU1B?oc=5",
-      "title": "September Box Office Report Highlights A Dull And Disappointing Period",
-      "summary": "The September box-office performance has been characterized as dull and disappointing. Industry trackers noted a slow period for theatrical releases during the month.",
-      "source": "Telugu360",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdFN0THppUVBtc2dFanYxZEluSUM3dkNhcEJYeUZFS0JGLVl1dWFWQlhqblhSMjFOSU9kekt6bUlUM3hWaHlZVEtMVGx4bTJWRUtLcHNadUNBeXF4WmJFTTh2VEU1SFp1R1RNclFTcWJSbVZiZjN4MU1B?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T03:31:11.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The theatrical box office experienced a sluggish phase during September, leaving industry trackers to describe the period as dull and disappointing. Ticket sales and overall theatrical revenues failed to generate significant momentum during this timeframe.",
-        "Such lean phases at the box office prompt discussions among trade analysts regarding audience turnout and the performance of recent releases. While fluctuations in box-office collections are a regular part of the cinematic calendar, September's numbers fell short of high expectations.",
-        "Industry observers continue to monitor upcoming releases to see if theatrical traction will pick up in the subsequent months following this subdued period."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The September box-office performance has been characterized as dull and disappointing. Industry trackers noted a slow period for theatrical releases during the month.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdFN0THppUVBtc2dFanYxZEluSUM3dkNhcEJYeUZFS0JGLVl1dWFWQlhqblhSMjFOSU9kekt6bUlUM3hWaHlZVEtMVGx4bTJWRUtLcHNadUNBeXF4WmJFTTh2VEU1SFp1R1RNclFTcWJSbVZiZjN4MU1B?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMingJBVV95cUxOYXB3OXJnMEhNQmt6a29XX1RSLUJpaXRfdEpoNzZfaVhtaVBBcXRaWUNDcDJlaWM4Vmw3OXk5d0V1c3plSV9YNXJFZDZ1bVIxLXUxZUY2QXdtb1pLNFhBVDhwZEdySUJEWW5maHZRdGR6cU1FNUNKTm1QaFZPWnFTQzZoRk1MOHBCTlRPMTJGNzktWlNLUjV5UERvVGlUcENjRl9sY3ctRlNkSFFqdUhXLU5uYTBval8zZkpSdW1ESjhnQmpjVERLamFSOEE2T24wbkhnYnZzVlJQNnhMUXJMZ25RYVdPZHNvel9hdlFLZ1ZYTFA3dFplSXRGSTNPMzRoMlc4eEFsbFVsdXk3LVd4dlNIV0RPZWRQQS00RWlB0gGjAkFVX3lxTE9fSmNNRG1IcVJ0Z2xiV3p5dFdiUXJ1NzAyR3IybjBFSTM1dE1udFl3Y1R5Y0U5Qm9qZ3A1TGFlR0tlUm94clA0Y1ZqSG0zcFREQlRQYnJWQ2ZXLTBua0RQTW5OZlBRWHg3RFZ5dlh5eGtMTVRsV0ZfYS0zNWZQUWpsMFNDaWhBaXFjTHk4QWpsS0tSYWthSGVESnVvMVhiQUEtM1owcE5HTHcxeGtmdkVWTm9DckRfM0lEV2lQY0NpMHJMTDdUdVp2WFloQ01zdERhY2lpZGF1T244M0FUaXdjR1dWTWdfYUNKVFl3cTdoOE9Ic1d6b1F2d0E3QTV0QllkcnpmTkZTOEp6czY1bElLRW4tM1hwZmQzMEIzS19pSW9sVQ?oc=5",
-      "title": "Fahadh Faasil Starrer 'Don't Trouble The Trouble' Crosses Rs 2 Crore In Advance Bookings",
-      "summary": "The Fahadh Faasil-starrer 'Don't Trouble The Trouble' has crossed the Rs 2 crore mark in advance bookings. Meanwhile, advance collection figures for Day 2 stand at Rs 49.46 lakh.",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOYXB3OXJnMEhNQmt6a29XX1RSLUJpaXRfdEpoNzZfaVhtaVBBcXRaWUNDcDJlaWM4Vmw3OXk5d0V1c3plSV9YNXJFZDZ1bVIxLXUxZUY2QXdtb1pLNFhBVDhwZEdySUJEWW5maHZRdGR6cU1FNUNKTm1QaFZPWnFTQzZoRk1MOHBCTlRPMTJGNzktWlNLUjV5UERvVGlUcENjRl9sY3ctRlNkSFFqdUhXLU5uYTBval8zZkpSdW1ESjhnQmpjVERLamFSOEE2T24wbkhnYnZzVlJQNnhMUXJMZ25RYVdPZHNvel9hdlFLZ1ZYTFA3dFplSXRGSTNPMzRoMlc4eEFsbFVsdXk3LVd4dlNIV0RPZWRQQS00RWlB0gGjAkFVX3lxTE9fSmNNRG1IcVJ0Z2xiV3p5dFdiUXJ1NzAyR3IybjBFSTM1dE1udFl3Y1R5Y0U5Qm9qZ3A1TGFlR0tlUm94clA0Y1ZqSG0zcFREQlRQYnJWQ2ZXLTBua0RQTW5OZlBRWHg3RFZ5dlh5eGtMTVRsV0ZfYS0zNWZQUWpsMFNDaWhBaXFjTHk4QWpsS0tSYWthSGVESnVvMVhiQUEtM1owcE5HTHcxeGtmdkVWTm9DckRfM0lEV2lQY0NpMHJMTDdUdVp2WFloQ01zdERhY2lpZGF1T244M0FUaXdjR1dWTWdfYUNKVFl3cTdoOE9Ic1d6b1F2d0E3QTV0QllkcnpmTkZTOEp6czY1bElLRW4tM1hwZmQzMEIzS19pSW9sVQ?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-10-01T02:08:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The advance booking collections for 'Don't Trouble The Trouble', starring Fahadh Faasil, have crossed a notable milestone by surpassing Rs 2 crore. This strong early response indicates healthy initial viewer interest ahead of the film's theatrical screenings.",
-        "In addition to the opening figures, advance booking numbers for Day 2 have been recorded at Rs 49.46 lakh. These figures provide an early look at how ticket sales are shaping up following the initial opening phase.",
-        "Advance booking milestones are closely watched indicators of commercial momentum in the film industry, helping gauge audience anticipation for star-led projects."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The Fahadh Faasil-starrer 'Don't Trouble The Trouble' has crossed the Rs 2 crore mark in advance bookings. Meanwhile, advance collection figures for Day 2 stand at Rs 49.46 lakh.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "The Times of India"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxOYXB3OXJnMEhNQmt6a29XX1RSLUJpaXRfdEpoNzZfaVhtaVBBcXRaWUNDcDJlaWM4Vmw3OXk5d0V1c3plSV9YNXJFZDZ1bVIxLXUxZUY2QXdtb1pLNFhBVDhwZEdySUJEWW5maHZRdGR6cU1FNUNKTm1QaFZPWnFTQzZoRk1MOHBCTlRPMTJGNzktWlNLUjV5UERvVGlUcENjRl9sY3ctRlNkSFFqdUhXLU5uYTBval8zZkpSdW1ESjhnQmpjVERLamFSOEE2T24wbkhnYnZzVlJQNnhMUXJMZ25RYVdPZHNvel9hdlFLZ1ZYTFA3dFplSXRGSTNPMzRoMlc4eEFsbFVsdXk3LVd4dlNIV0RPZWRQQS00RWlB0gGjAkFVX3lxTE9fSmNNRG1IcVJ0Z2xiV3p5dFdiUXJ1NzAyR3IybjBFSTM1dE1udFl3Y1R5Y0U5Qm9qZ3A1TGFlR0tlUm94clA0Y1ZqSG0zcFREQlRQYnJWQ2ZXLTBua0RQTW5OZlBRWHg3RFZ5dlh5eGtMTVRsV0ZfYS0zNWZQUWpsMFNDaWhBaXFjTHk4QWpsS0tSYWthSGVESnVvMVhiQUEtM1owcE5HTHcxeGtmdkVWTm9DckRfM0lEV2lQY0NpMHJMTDdUdVp2WFloQ01zdERhY2lpZGF1T244M0FUaXdjR1dWTWdfYUNKVFl3cTdoOE9Ic1d6b1F2d0E3QTV0QllkcnpmTkZTOEp6czY1bElLRW4tM1hwZmQzMEIzS19pSW9sVQ?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQzZtRGVablJZZ0F5dFBUeWFxWGQtSXhsNERVU29oRTN0OUtNam1rMklTNjZ2MGNkVm9xRXJwWnVCTzNLX3JNMmtfV2tweDljTHNUc2NXX2xoZFYtbkVyUlE4RFRvZ1A0M0Q1UWlEMFc2R3hIN1RaRnI5MzkwcVNURHR2bnNrQkp5NF9zck1fcVRsN01RSkHSAZsBQVVfeXFMT0VjbXdlRUdDVnk4VXNYMnA1b2lzSEdqbXFoU2dCNDk0SUhqTVhvTXBVYmpSN0pwXzJQWVhaRjg0T0JDWjZlTUsyNXVZMVdqd1JkcGRMeUxCLXIya0o4RGh3YzR5U3NldmUza0tlczNVc2pOYTRNODNoWndMd0Z4TjF6czkyY3IzbGlXeTNUc2ZfU3V6VW1tQmpBaUk?oc=5",
-      "title": "Nora Fatehi Set To Feature In 'Jailer 2' With Item Number 'Bindaas'",
-      "summary": "Nora Fatehi is bringing a template item number titled 'Bindaas' to the upcoming film 'Jailer 2'. The track adds a familiar commercial element to the high-profile sequel.",
+      "id": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPam9nNlV2blN0TXRYU0FmWHpKWGFPTHAydDhIc0Y5b3NDb19NSmFBUWtyQUFadmJ0V2FtTnhGeDdvVkd2Q2kxU0FBV0t6TUpjc05KbVpSdFgxVzRuS2g2ZEFPQ0dOcFpkYUphTy1iMVdzZ0lXUmlEUDQtQ254MWlkWklHUE1rT2pKYVZWT0FQU2hXdlRq0gGaAUFVX3lxTFBpVTlfV1IzX1pOT1R4SXljWFZPVXNaOVFHVGtQeDhsakZfYkliTVZjMUp1NnkwUlRubktPc2xoQXA0NFRFakhwejNsLUswTTczYXJkQUZuQ2Z3OE5rS2dvUzZaVmN2Tll5aWJnLUc2WkgtX3JaVmZUQkEzSWQ1SVZfSHQ1bVlkLXFrMHZKT09FOGV2VGxyX0ZvcEE?oc=5",
+      "title": "Keerthy Suresh Prepares For A Busy Schedule With Multiple Releases",
+      "summary": "Popular actress Keerthy Suresh has a packed schedule featuring back-to-back film releases. Her upcoming projects are generating immense anticipation among moviegoers and fans eagerly waiting to watch her on the big screen.",
       "source": "telugucinema.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQzZtRGVablJZZ0F5dFBUeWFxWGQtSXhsNERVU29oRTN0OUtNam1rMklTNjZ2MGNkVm9xRXJwWnVCTzNLX3JNMmtfV2tweDljTHNUc2NXX2xoZFYtbkVyUlE4RFRvZ1A0M0Q1UWlEMFc2R3hIN1RaRnI5MzkwcVNURHR2bnNrQkp5NF9zck1fcVRsN01RSkHSAZsBQVVfeXFMT0VjbXdlRUdDVnk4VXNYMnA1b2lzSEdqbXFoU2dCNDk0SUhqTVhvTXBVYmpSN0pwXzJQWVhaRjg0T0JDWjZlTUsyNXVZMVdqd1JkcGRMeUxCLXIya0o4RGh3YzR5U3NldmUza0tlczNVc2pOYTRNODNoWndMd0Z4TjF6czkyY3IzbGlXeTNUc2ZfU3V6VW1tQmpBaUk?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-30T14:44:11.000Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPam9nNlV2blN0TXRYU0FmWHpKWGFPTHAydDhIc0Y5b3NDb19NSmFBUWtyQUFadmJ0V2FtTnhGeDdvVkd2Q2kxU0FBV0t6TUpjc05KbVpSdFgxVzRuS2g2ZEFPQ0dOcFpkYUphTy1iMVdzZ0lXUmlEUDQtQ254MWlkWklHUE1rT2pKYVZWT0FQU2hXdlRq0gGaAUFVX3lxTFBpVTlfV1IzX1pOT1R4SXljWFZPVXNaOVFHVGtQeDhsakZfYkliTVZjMUp1NnkwUlRubktPc2xoQXA0NFRFakhwejNsLUswTTczYXJkQUZuQ2Z3OE5rS2dvUzZaVmN2Tll5aWJnLUc2WkgtX3JaVmZUQkEzSWQ1SVZfSHQ1bVlkLXFrMHZKT09FOGV2VGxyX0ZvcEE?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-10-01T08:50:29.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Dancer and actor Nora Fatehi is set to be part of 'Jailer 2' with a specialized track titled 'Bindaas'. The addition brings a high-energy performance segment to the upcoming sequel.",
-        "Described as a template item number, the song follows a popular commercial format often utilized in mainstream Indian cinema to add musical highlights and dynamic choreography to feature films.",
-        "The inclusion of Nora Fatehi in 'Jailer 2' adds to the pre-release buzz surrounding the project's music and overall entertainment value."
+        "Acclaimed actress Keerthy Suresh is currently gearing up for a very busy phase in her career, with multiple film projects lined up for back-to-back releases. Her active involvement in diverse ventures underscores her prominent standing in the film industry.",
+        "The lineup of upcoming releases has heightened expectations among audiences who are accustomed to seeing the talented performer take on varied and engaging roles. This continuous slate of projects demonstrates her strong demand and commitment to delivering fresh cinematic content.",
+        "As these back-to-back titles approach their respective release schedules, fans can anticipate seeing Keerthy Suresh in multiple new avatars on the silver screen. Cineinsta will continue to provide updates on her upcoming film slate."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Nora Fatehi is bringing a template item number titled 'Bindaas' to the upcoming film 'Jailer 2'. The track adds a familiar commercial element to the high-profile sequel.",
+      "dek": "Popular actress Keerthy Suresh has a packed schedule featuring back-to-back film releases. Her upcoming projects are generating immense anticipation among moviegoers and fans eagerly waiting to watch her on the big screen.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQzZtRGVablJZZ0F5dFBUeWFxWGQtSXhsNERVU29oRTN0OUtNam1rMklTNjZ2MGNkVm9xRXJwWnVCTzNLX3JNMmtfV2tweDljTHNUc2NXX2xoZFYtbkVyUlE4RFRvZ1A0M0Q1UWlEMFc2R3hIN1RaRnI5MzkwcVNURHR2bnNrQkp5NF9zck1fcVRsN01RSkHSAZsBQVVfeXFMT0VjbXdlRUdDVnk4VXNYMnA1b2lzSEdqbXFoU2dCNDk0SUhqTVhvTXBVYmpSN0pwXzJQWVhaRjg0T0JDWjZlTUsyNXVZMVdqd1JkcGRMeUxCLXIya0o4RGh3YzR5U3NldmUza0tlczNVc2pOYTRNODNoWndMd0Z4TjF6czkyY3IzbGlXeTNUc2ZfU3V6VW1tQmpBaUk?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPam9nNlV2blN0TXRYU0FmWHpKWGFPTHAydDhIc0Y5b3NDb19NSmFBUWtyQUFadmJ0V2FtTnhGeDdvVkd2Q2kxU0FBV0t6TUpjc05KbVpSdFgxVzRuS2g2ZEFPQ0dOcFpkYUphTy1iMVdzZ0lXUmlEUDQtQ254MWlkWklHUE1rT2pKYVZWT0FQU2hXdlRq0gGaAUFVX3lxTFBpVTlfV1IzX1pOT1R4SXljWFZPVXNaOVFHVGtQeDhsakZfYkliTVZjMUp1NnkwUlRubktPc2xoQXA0NFRFakhwejNsLUswTTczYXJkQUZuQ2Z3OE5rS2dvUzZaVmN2Tll5aWJnLUc2WkgtX3JaVmZUQkEzSWQ1SVZfSHQ1bVlkLXFrMHZKT09FOGV2VGxyX0ZvcEE?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0NuTnRmLXZzTkk3SXZrSXNDaXpVRVFQVE1MdEZvck1fSnZmUHc1VTgwTEFOMnVUbHFGTGtXSGlTcFo4cGFOajhsdVYxazh5R0FFLUl4aWNpWUVkR1JJc2VxVTNqNXFRRmttODlmWUxINGFPWEtlVVlna2k1UzR5MjV2REE1MFBGNEpZVm9uSS11NlRhZEHSAZsBQVVfeXFMTVNRQmRMYWxiT2ZoMXlReXhyRXpiU1VienY3M0JzblhWVmtBd2wzY2NyQkhtUF8xUUFvaDhUQUQyTWRLSEFMSWR5T20wTTJoeE9ndDJQbzhvVHJJUnUzOFVfT3lYYVJKS19FRXVXdV9JZktzY1hDd0hqZHZRV3pxZVQzNXVSS2lMQXNaRU9kdEN0MGpXVEdmeUR0NUU?oc=5",
-      "title": "Amala Paul Reflects on Her Past Bold Acting Choices",
-      "summary": "Actor Amala Paul has opened up about her career trajectory and bold casting choices. In a recent reflection, she noted that she might approach certain decisions differently if faced with them today.",
-      "source": "telugucinema.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0NuTnRmLXZzTkk3SXZrSXNDaXpVRVFQVE1MdEZvck1fSnZmUHc1VTgwTEFOMnVUbHFGTGtXSGlTcFo4cGFOajhsdVYxazh5R0FFLUl4aWNpWUVkR1JJc2VxVTNqNXFRRmttODlmWUxINGFPWEtlVVlna2k1UzR5MjV2REE1MFBGNEpZVm9uSS11NlRhZEHSAZsBQVVfeXFMTVNRQmRMYWxiT2ZoMXlReXhyRXpiU1VienY3M0JzblhWVmtBd2wzY2NyQkhtUF8xUUFvaDhUQUQyTWRLSEFMSWR5T20wTTJoeE9ndDJQbzhvVHJJUnUzOFVfT3lYYVJKS19FRXVXdV9JZktzY1hDd0hqZHZRV3pxZVQzNXVSS2lMQXNaRU9kdEN0MGpXVEdmeUR0NUU?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-30T11:53:12.000Z",
+      "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzlLY2tkeUFRaENranZaVnA4eEZMU0hGNEpKYzhPdWJScnBXU2VKVmFOMnN2eTJja1hmQk5uU1FSU1ZSOGNUQ3FybUt2V1RiMnBwcG41eW5UVGZZYzkzZXQ4QWdxczh0NmtxOHlCTXBrdGcxa0pkRUxsZlQ0Z2UwTmlCVjUxS2xpMHR0cEl1bVNUQVluemZOQzNGaUNja3V0YjVkRGZ6Z2lWdDdQTWFJVTdNWnVaZw?oc=5",
+      "title": "Mahendragiri Varahi Finalizes Its Digital Streaming Premiere Date",
+      "summary": "The digital streaming details and official OTT release date for Mahendragiri Varahi have been officially locked. Fans and digital audiences can soon catch the movie from the comfort of their homes on the designated streaming platform.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzlLY2tkeUFRaENranZaVnA4eEZMU0hGNEpKYzhPdWJScnBXU2VKVmFOMnN2eTJja1hmQk5uU1FSU1ZSOGNUQ3FybUt2V1RiMnBwcG41eW5UVGZZYzkzZXQ4QWdxczh0NmtxOHlCTXBrdGcxa0pkRUxsZlQ0Z2UwTmlCVjUxS2xpMHR0cEl1bVNUQVluemZOQzNGaUNja3V0YjVkRGZ6Z2lWdDdQTWFJVTdNWnVaZw?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-10-01T08:30:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Amala Paul has shared fresh thoughts regarding her previous career choices, specifically addressing the bold roles she took on in the past. In a candid reflection, the actor admitted that she might make different decisions if presented with the same opportunities today.",
-        "The discussion surrounding her filmography highlights how actors continually evolve in their perspectives as their careers progress in the entertainment industry. Such retrospective thoughts offer insight into the personal and professional growth experienced by performers over time.",
-        "As an established name in regional cinema, Amala Paul's commentary sheds light on the changing nature of artistic choices and how personal maturity shapes an actor's outlook on their past work."
+        "The makers of Mahendragiri Varahi have officially locked its OTT release date, giving digital audiences a clear timeframe of when and where to stream the film. This announcement comes as welcome news for fans who prefer catching the latest releases on digital platforms.",
+        "With the streaming premiere details now confirmed, viewers can prepare to watch the movie online upon its arrival on the designated platform. Such digital release announcements ensure that films reach a wider audience beyond theatrical runs.",
+        "Further details regarding the exact timing and platform availability have been set, marking the next phase in the film's distribution journey. Cineinsta brings you timely updates on all major OTT premiere announcements."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Amala Paul has opened up about her career trajectory and bold casting choices. In a recent reflection, she noted that she might approach certain decisions differently if faced with them today.",
+      "dek": "The digital streaming details and official OTT release date for Mahendragiri Varahi have been officially locked. Fans and digital audiences can soon catch the movie from the comfort of their homes on the designated streaming platform.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzlLY2tkeUFRaENranZaVnA4eEZMU0hGNEpKYzhPdWJScnBXU2VKVmFOMnN2eTJja1hmQk5uU1FSU1ZSOGNUQ3FybUt2V1RiMnBwcG41eW5UVGZZYzkzZXQ4QWdxczh0NmtxOHlCTXBrdGcxa0pkRUxsZlQ0Z2UwTmlCVjUxS2xpMHR0cEl1bVNUQVluemZOQzNGaUNja3V0YjVkRGZ6Z2lWdDdQTWFJVTdNWnVaZw?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWtseFA4cW5tMlJxQUpfT2dzYjFqRnhoQWl2bmY1SE1rNXVrOUVXU3RPVTc5LTZDX1NibEhLWF9HRkNuVFhYRGZrRjljYU1OSUNydTdXUkpLakhsQi11c093TlRDQUtadE9ySWxBc0lEWm9Td0d4d3hmNm0wQTZhamlPX3pPZS1lSG5ZQmhLRXMxaWx6MnlOQ0sxWnhpZThqMURLSXlwRDJJZ3lsWEJHQnNJYw?oc=5",
+      "title": "Naga Vamsi Announces Two Key Updates for Aadarsha Kutumbam",
+      "summary": "Ahead of the release of Aadarsha Kutumbam, producer Naga Vamsi has shared two significant updates concerning the film, generating fresh anticipation among moviegoers.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWtseFA4cW5tMlJxQUpfT2dzYjFqRnhoQWl2bmY1SE1rNXVrOUVXU3RPVTc5LTZDX1NibEhLWF9HRkNuVFhYRGZrRjljYU1OSUNydTdXUkpLakhsQi11c093TlRDQUtadE9ySWxBc0lEWm9Td0d4d3hmNm0wQTZhamlPX3pPZS1lSG5ZQmhLRXMxaWx6MnlOQ0sxWnhpZThqMURLSXlwRDJJZ3lsWEJHQnNJYw?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-10-01T07:00:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "As the release date for Aadarsha Kutumbam approaches, producer Naga Vamsi has come forward to share two crucial updates regarding the project. The announcements have drawn attention from film enthusiasts eagerly waiting for the movie's arrival.",
+        "Naga Vamsi's latest disclosures aim to keep audiences informed about the production as it prepares to head to the big screen. These updates highlight the ongoing preparations and promotional strides being taken ahead of the premiere.",
+        "Such announcements play a vital role in building momentum within the regional cinema circuit. Fans and followers will be keeping a close eye out for further developments as the release window draws nearer."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Ahead of the release of Aadarsha Kutumbam, producer Naga Vamsi has shared two significant updates concerning the film, generating fresh anticipation among moviegoers.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWtseFA4cW5tMlJxQUpfT2dzYjFqRnhoQWl2bmY1SE1rNXVrOUVXU3RPVTc5LTZDX1NibEhLWF9HRkNuVFhYRGZrRjljYU1OSUNydTdXUkpLakhsQi11c093TlRDQUtadE9ySWxBc0lEWm9Td0d4d3hmNm0wQTZhamlPX3pPZS1lSG5ZQmhLRXMxaWx6MnlOQ0sxWnhpZThqMURLSXlwRDJJZ3lsWEJHQnNJYw?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaktpU3pFSFRzdUNwcWFzZGNJT00xaWZjaW1NMFlKZFdXakJ4ckVzUWFJaTBIOXozcUV4bl9vNC1iMDNSQnRBR203NUs1Znk2cDNUb0J4RUNWRjNqV0VWS3N4TmUtODNHWVBkQXNxd2xyMmVFOENfb1ZRczJPNzJjRHdRb1pmU2NDSnl3bERremdZWUFRX3paVUQ5XzZ3Q0xM?oc=5",
+      "title": "New Re-Release Date Confirmed for Nagarjuna's 37-Year-Old Classic",
+      "summary": "A classic film starring Nagarjuna that is 37 years old has officially secured a fresh re-release date, giving fans another chance to experience the vintage hit on the big screen.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaktpU3pFSFRzdUNwcWFzZGNJT00xaWZjaW1NMFlKZFdXakJ4ckVzUWFJaTBIOXozcUV4bl9vNC1iMDNSQnRBR203NUs1Znk2cDNUb0J4RUNWRjNqV0VWS3N4TmUtODNHWVBkQXNxd2xyMmVFOENfb1ZRczJPNzJjRHdRb1pmU2NDSnl3bERremdZWUFRX3paVUQ5XzZ3Q0xM?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-10-01T06:30:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Classic cinema re-releases continue to be a notable trend, and a 37-year-old classic starring prominent actor Nagarjuna has now received a brand new theatrical re-release date. This update offers nostalgic filmgoers a renewed opportunity to witness the timeless project back in theaters.",
+        "Revisiting older milestones on the big screen has become increasingly popular in the industry, allowing modern audiences to appreciate historical works while giving long-time fans a wave of nostalgia. The scheduled re-release highlights the enduring legacy of the star's earlier cinematic contributions.",
+        "Further details regarding the exact date and theater arrangements will likely follow as the re-release schedule approaches. This theatrical return adds to the growing list of classic revivals making waves across cinema halls."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "A classic film starring Nagarjuna that is 37 years old has officially secured a fresh re-release date, giving fans another chance to experience the vintage hit on the big screen.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaktpU3pFSFRzdUNwcWFzZGNJT00xaWZjaW1NMFlKZFdXakJ4ckVzUWFJaTBIOXozcUV4bl9vNC1iMDNSQnRBR203NUs1Znk2cDNUb0J4RUNWRjNqV0VWS3N4TmUtODNHWVBkQXNxd2xyMmVFOENfb1ZRczJPNzJjRHdRb1pmU2NDSnl3bERremdZWUFRX3paVUQ5XzZ3Q0xM?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ3RhZEs4cnBCalk2aURwcS1Xc2JOWlV3NWdad28wVndTQjZYakx3Y3B6VkdjR1dRYnpfX3U4aUs4SFhod0pQY19xbWZJcVpDNU1Hak1ON19xODZVWm8ta2F0WFlxajVGSHVKOF93UTBVWGR0aWJ4N2pEX1Z2TDdSUGNZT2VTTWNBVDQ1UnJTaF9ZdTBFa3ZQMVZNX3YzeWJDdEVONllOUlo?oc=5",
+      "title": "Telugu Version of Nivin Pauly and Soori’s Sanchari Postponed",
+      "summary": "The Telugu theatrical release of Sanchari, featuring Nivin Pauly and Soori, has been officially delayed, pushing back its scheduled arrival for regional audiences.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ3RhZEs4cnBCalk2aURwcS1Xc2JOWlV3NWdad28wVndTQjZYakx3Y3B6VkdjR1dRYnpfX3U4aUs4SFhod0pQY19xbWZJcVpDNU1Hak1ON19xODZVWm8ta2F0WFlxajVGSHVKOF93UTBVWGR0aWJ4N2pEX1Z2TDdSUGNZT2VTTWNBVDQ1UnJTaF9ZdTBFa3ZQMVZNX3YzeWJDdEVONllOUlo?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-30T15:02:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The much-anticipated Telugu version of the film Sanchari, which stars Nivin Pauly and Soori, has encountered a delay. It has been officially confirmed that the regional release of the movie has been postponed.",
+        "The postponement alters the planned theatrical timeline for viewers waiting to watch the collaborative project in Telugu. Such schedule adjustments are occasionally necessary during multi-language release planning.",
+        "Fans of Nivin Pauly and Soori will now have to wait for a revised arrival date to be announced. The production team is expected to share further scheduling details in due course."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The Telugu theatrical release of Sanchari, featuring Nivin Pauly and Soori, has been officially delayed, pushing back its scheduled arrival for regional audiences.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ3RhZEs4cnBCalk2aURwcS1Xc2JOWlV3NWdad28wVndTQjZYakx3Y3B6VkdjR1dRYnpfX3U4aUs4SFhod0pQY19xbWZJcVpDNU1Hak1ON19xODZVWm8ta2F0WFlxajVGSHVKOF93UTBVWGR0aWJ4N2pEX1Z2TDdSUGNZT2VTTWNBVDQ1UnJTaF9ZdTBFa3ZQMVZNX3YzeWJDdEVONllOUlo?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOG5USlJpUzhRRDFRXzRFQkt6bGRZRTk1NXFLV3BKRFNBcWRuRV9TOXFNUUdhNGwwYW5CYmFQR1g0YW94bUVxU0JCSG5YSlh5c1cwN0hueTROZTdWQzRrWE1IMWFvTWdUNkJFRXFSOVVKMl9yTlZtMWstWFJlbURQTW96NjgyRVJKS1FIYmZEUmUxdTc4YnlF0gGcAUFVX3lxTE85TjVQQklEUENCQVdsX2U3WGF2X1MyRlZQZWl5WkFUNTRiUm9qdnIyQWhQdGFqcGZBV2dXTUZCMnNqbGVLMzI2bHFlQXZHS1dwOGFobkZOMTFXTnJFVTc4U2NIZTVfYkkwdlpOeUlsV1V2Z2ptM2lFOENPUWxpUFRyemQtTHNJR0V6UVJtb3k2NUFaTG40WHk0d2hlRw?oc=5",
+      "title": "Mahesh Babu Extends Praise to Fahadh Faasil and Don’t Trouble The Trouble",
+      "summary": "Tollywood star Mahesh Babu has publicly expressed appreciation for Fahadh Faasil and the project Don’t Trouble The Trouble, garnering positive attention across the industry.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOG5USlJpUzhRRDFRXzRFQkt6bGRZRTk1NXFLV3BKRFNBcWRuRV9TOXFNUUdhNGwwYW5CYmFQR1g0YW94bUVxU0JCSG5YSlh5c1cwN0hueTROZTdWQzRrWE1IMWFvTWdUNkJFRXFSOVVKMl9yTlZtMWstWFJlbURQTW96NjgyRVJKS1FIYmZEUmUxdTc4YnlF0gGcAUFVX3lxTE85TjVQQklEUENCQVdsX2U3WGF2X1MyRlZQZWl5WkFUNTRiUm9qdnIyQWhQdGFqcGZBV2dXTUZCMnNqbGVLMzI2bHFlQXZHS1dwOGFobkZOMTFXTnJFVTc4U2NIZTVfYkkwdlpOeUlsV1V2Z2ptM2lFOENPUWxpUFRyemQtTHNJR0V6UVJtb3k2NUFaTG40WHk0d2hlRw?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-30T14:29:15.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a notable moment of cross-appreciation within the film fraternity, star actor Mahesh Babu has shared words of praise for Fahadh Faasil and the project Don’t Trouble The Trouble. Such public acknowledgments from prominent industry figures often highlight notable talent and creative work.",
+        "Mahesh Babu's endorsement brings extra spotlight to Fahadh Faasil and the associated cinematic venture. This kind of camaraderie among prominent actors helps amplify appreciation for notable performances and storytelling within the cinematic landscape.",
+        "Followers and industry observers have welcomed the positive gesture. It underscores the mutual respect shared among leading actors across different corners of the industry."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Tollywood star Mahesh Babu has publicly expressed appreciation for Fahadh Faasil and the project Don’t Trouble The Trouble, garnering positive attention across the industry.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0NuTnRmLXZzTkk3SXZrSXNDaXpVRVFQVE1MdEZvck1fSnZmUHc1VTgwTEFOMnVUbHFGTGtXSGlTcFo4cGFOajhsdVYxazh5R0FFLUl4aWNpWUVkR1JJc2VxVTNqNXFRRmttODlmWUxINGFPWEtlVVlna2k1UzR5MjV2REE1MFBGNEpZVm9uSS11NlRhZEHSAZsBQVVfeXFMTVNRQmRMYWxiT2ZoMXlReXhyRXpiU1VienY3M0JzblhWVmtBd2wzY2NyQkhtUF8xUUFvaDhUQUQyTWRLSEFMSWR5T20wTTJoeE9ndDJQbzhvVHJJUnUzOFVfT3lYYVJKS19FRXVXdV9JZktzY1hDd0hqZHZRV3pxZVQzNXVSS2lMQXNaRU9kdEN0MGpXVEdmeUR0NUU?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOG5USlJpUzhRRDFRXzRFQkt6bGRZRTk1NXFLV3BKRFNBcWRuRV9TOXFNUUdhNGwwYW5CYmFQR1g0YW94bUVxU0JCSG5YSlh5c1cwN0hueTROZTdWQzRrWE1IMWFvTWdUNkJFRXFSOVVKMl9yTlZtMWstWFJlbURQTW96NjgyRVJKS1FIYmZEUmUxdTc4YnlF0gGcAUFVX3lxTE85TjVQQklEUENCQVdsX2U3WGF2X1MyRlZQZWl5WkFUNTRiUm9qdnIyQWhQdGFqcGZBV2dXTUZCMnNqbGVLMzI2bHFlQXZHS1dwOGFobkZOMTFXTnJFVTc4U2NIZTVfYkkwdlpOeUlsV1V2Z2ptM2lFOENPUWxpUFRyemQtTHNJR0V6UVJtb3k2NUFaTG40WHk0d2hlRw?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVlJYQjJ3a1pDUzlhWjN2TzFMa3FyMFh2WVJJd3FvOHdELXBIQ2JDTFdOY2hHcVlLX0NqdGZPZUtIT2VuWDM4MVVDb3N3VHlDS29NaXhTaUdjekpORWozWlJIaVFjSjVGcWxCRl9pdXUyRUZ1UDRfbGx0TFRIaWdNdFlhcXFJY1NOUVVj0gGQAUFVX3lxTFBlUXRJbWNFN3V1MzZMbVhSUWYtSG1PNFhnaEc0Z2RPUG45S3locm9pV1U4Nm9UdkpFcXRxdkRfMkwyeDRVY0ZPNW81UHJRaFVHNjJscGh6S050SE1UdEZDbVVmVXByY3hVUEJQQ05XS0RObk9mYlVkcE1YZVptb0l5d2tIUG5IMnNsd2l0RGpnNg?oc=5",
-      "title": "Makers of Fauji Take Their Time With New Release Date",
-      "summary": "The production team behind the upcoming film Fauji is currently in no rush to lock in a new release schedule. Fans and industry observers will have to wait longer as the makers deliberate on the ideal launch timing.",
-      "source": "telugucinema.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVlJYQjJ3a1pDUzlhWjN2TzFMa3FyMFh2WVJJd3FvOHdELXBIQ2JDTFdOY2hHcVlLX0NqdGZPZUtIT2VuWDM4MVVDb3N3VHlDS29NaXhTaUdjekpORWozWlJIaVFjSjVGcWxCRl9pdXUyRUZ1UDRfbGx0TFRIaWdNdFlhcXFJY1NOUVVj0gGQAUFVX3lxTFBlUXRJbWNFN3V1MzZMbVhSUWYtSG1PNFhnaEc0Z2RPUG45S3locm9pV1U4Nm9UdkpFcXRxdkRfMkwyeDRVY0ZPNW81UHJRaFVHNjJscGh6S050SE1UdEZDbVVmVXByY3hVUEJQQ05XS0RObk9mYlVkcE1YZVptb0l5d2tIUG5IMnNsd2l0RGpnNg?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-30T11:44:16.000Z",
+      "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXVxYi1mTzFNMkhDSHQ3UjZUdjY5bENFdnZzM0xSMmVWQ1YyNFJidXp0TGtYVnRWb1cwRjhteWo0UkhjQUJ5eFQ0bHVuZnhSejFPdXJFaU9Wb2VUNjhPSXRTOGRjdlVtN3l3dDNHNmtDcE8wRElnWVhLb3IxWUQxcUdEVS1hVVFnenA4WlBrT3RyNDVRZU5pRVJOS1FTcl8tbzVsaTJ1TDNKNlM2b0hSVHh4NDNkUGFfeThJ?oc=5",
+      "title": "Examining Karthi's Fast-Paced OTT Premieres and Their Impact on Theatres",
+      "summary": "Actor Karthi's films are sparking discussions across the industry regarding rapid digital streaming windows of two to three weeks. Industry observers and fans are evaluating whether such quick arrivals on digital platforms affect box office momentum in theatres.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXVxYi1mTzFNMkhDSHQ3UjZUdjY5bENFdnZzM0xSMmVWQ1YyNFJidXp0TGtYVnRWb1cwRjhteWo0UkhjQUJ5eFQ0bHVuZnhSejFPdXJFaU9Wb2VUNjhPSXRTOGRjdlVtN3l3dDNHNmtDcE8wRElnWVhLb3IxWUQxcUdEVS1hVVFnenA4WlBrT3RyNDVRZU5pRVJOS1FTcl8tbzVsaTJ1TDNKNlM2b0hSVHh4NDNkUGFfeThJ?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-30T11:30:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The creative team behind the upcoming Telugu project Fauji is taking a measured approach regarding its theatrical rollout. According to recent updates, the makers are in no hurry to finalize and announce a new release date for the movie.",
-        "This deliberate strategy suggests that the production house is focused on ensuring everything is fully prepared before committing to an official calendar slot. Delays in locking release schedules are common in the industry as producers weigh various factors to maximize audience reach.",
-        "Further announcements regarding the official release schedule for Fauji will be shared by the makers when the timing is deemed appropriate."
+        "Recent discussions in the film community center around actor Karthi and the scheduling of his digital streaming releases. Specifically, questions have been raised regarding a compressed theatrical window that brings his movies to streaming platforms just two to three weeks after their theatrical debut.",
+        "This rapid transition from cinema halls to home screens has triggered conversations about theatrical business models. Observers are questioning whether short windows influence audience turnout at ticket counters and alter traditional viewing habits for major star vehicles.",
+        "As the entertainment landscape continues to evolve, the balance between theatrical exhibition and rapid OTT availability remains a key topic of interest for stakeholders, creators, and cinema enthusiasts alike."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The production team behind the upcoming film Fauji is currently in no rush to lock in a new release schedule. Fans and industry observers will have to wait longer as the makers deliberate on the ideal launch timing.",
+      "dek": "Actor Karthi's films are sparking discussions across the industry regarding rapid digital streaming windows of two to three weeks. Industry observers and fans are evaluating whether such quick arrivals on digital platforms affect box office momentum in theatres.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXVxYi1mTzFNMkhDSHQ3UjZUdjY5bENFdnZzM0xSMmVWQ1YyNFJidXp0TGtYVnRWb1cwRjhteWo0UkhjQUJ5eFQ0bHVuZnhSejFPdXJFaU9Wb2VUNjhPSXRTOGRjdlVtN3l3dDNHNmtDcE8wRElnWVhLb3IxWUQxcUdEVS1hVVFnenA4WlBrT3RyNDVRZU5pRVJOS1FTcl8tbzVsaTJ1TDNKNlM2b0hSVHh4NDNkUGFfeThJ?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSklkb0R1Qk1sTjhhNU9VTkVMY2NvUDk2YTNSa2pIUUwzd3dHNkxsNFpVV0hGSDlpdkc5ME9TZkJfdnN3MVN1X0d0eFhyZkVGbFNPVDBCdTV1MmpCLVhBSnY3TklUQ2VST2NVTWtIX3NiMDEyak5xZ3ptLUtlWUV2YWRTZVNtLUhrUTVpajFTUdIBlAFBVV95cUxNVmpHQ3pZRUNtVmMwaVRfZmp6M2RwalJGeVJxblI0TEVhTnBhUXB5YnNjZG9QWjZzNTFNZXBaR2VBVkdhVmRRTC14bHI5d21Qa3UzWHYwLVQyR0FCMWdFNWZTNUxsTzFMU0d4WXlZTEVDVWxBSFFOTWt5LXBFTHRjTWxEOWdhcmozT2MwZFFYMW1mLXVq?oc=5",
+      "title": "Actor NTR Confirms Full Recovery from Shoulder Surgery",
+      "summary": "Popular Telugu cinema star NTR has officially announced that he has completely recovered from his previous shoulder surgery. The confirmation brings great reassurance to his fans who have been following his health updates.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSklkb0R1Qk1sTjhhNU9VTkVMY2NvUDk2YTNSa2pIUUwzd3dHNkxsNFpVV0hGSDlpdkc5ME9TZkJfdnN3MVN1X0d0eFhyZkVGbFNPVDBCdTV1MmpCLVhBSnY3TklUQ2VST2NVTWtIX3NiMDEyak5xZ3ptLUtlWUV2YWRTZVNtLUhrUTVpajFTUdIBlAFBVV95cUxNVmpHQ3pZRUNtVmMwaVRfZmp6M2RwalJGeVJxblI0TEVhTnBhUXB5YnNjZG9QWjZzNTFNZXBaR2VBVkdhVmRRTC14bHI5d21Qa3UzWHYwLVQyR0FCMWdFNWZTNUxsTzFMU0d4WXlZTEVDVWxBSFFOTWt5LXBFTHRjTWxEOWdhcmozT2MwZFFYMW1mLXVq?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-30T07:17:13.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Tollywood actor NTR has shared a major personal and professional update with his followers, confirming that he has made a full recovery from his shoulder surgery. The news offers significant relief to admirers and industry watchers who had been tracking his medical status.",
+        "With his health restored, the actor puts to rest concerns regarding his physical well-being. This recovery marks an important milestone as followers look forward to his upcoming professional commitments and future screen appearances.",
+        "The confirmation of his recovery is expected to clear the path for normal operational updates regarding his upcoming projects within the Telugu film industry."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Popular Telugu cinema star NTR has officially announced that he has completely recovered from his previous shoulder surgery. The confirmation brings great reassurance to his fans who have been following his health updates.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVlJYQjJ3a1pDUzlhWjN2TzFMa3FyMFh2WVJJd3FvOHdELXBIQ2JDTFdOY2hHcVlLX0NqdGZPZUtIT2VuWDM4MVVDb3N3VHlDS29NaXhTaUdjekpORWozWlJIaVFjSjVGcWxCRl9pdXUyRUZ1UDRfbGx0TFRIaWdNdFlhcXFJY1NOUVVj0gGQAUFVX3lxTFBlUXRJbWNFN3V1MzZMbVhSUWYtSG1PNFhnaEc0Z2RPUG45S3locm9pV1U4Nm9UdkpFcXRxdkRfMkwyeDRVY0ZPNW81UHJRaFVHNjJscGh6S050SE1UdEZDbVVmVXByY3hVUEJQQ05XS0RObk9mYlVkcE1YZVptb0l5d2tIUG5IMnNsd2l0RGpnNg?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSklkb0R1Qk1sTjhhNU9VTkVMY2NvUDk2YTNSa2pIUUwzd3dHNkxsNFpVV0hGSDlpdkc5ME9TZkJfdnN3MVN1X0d0eFhyZkVGbFNPVDBCdTV1MmpCLVhBSnY3TklUQ2VST2NVTWtIX3NiMDEyak5xZ3ptLUtlWUV2YWRTZVNtLUhrUTVpajFTUdIBlAFBVV95cUxNVmpHQ3pZRUNtVmMwaVRfZmp6M2RwalJGeVJxblI0TEVhTnBhUXB5YnNjZG9QWjZzNTFNZXBaR2VBVkdhVmRRTC14bHI5d21Qa3UzWHYwLVQyR0FCMWdFNWZTNUxsTzFMU0d4WXlZTEVDVWxBSFFOTWt5LXBFTHRjTWxEOWdhcmozT2MwZFFYMW1mLXVq?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uRnpDbElFSHVLZmc1MVV3NU9qV1RyRnJDVFVVR2UxVU5qZUxGdWhOeldwbmNaeThHRklCdk80dFlzRVBnZlhoWmJIOTRxMWFBY1hrWVU1Qk1sc3VFb0JFVDVn?oc=5",
-      "title": "Nani's The Paradise Crosses 100 Crore Milestone by Day 6",
-      "summary": "Actor Nani has achieved a major career milestone as The Paradise crosses the 100 crore mark by its sixth day at the box office. This accomplishment marks Nani's first career entry into the 100-crore club and stands as the fifth such Telugu film in 2026.",
-      "source": "IMDb",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uRnpDbElFSHVLZmc1MVV3NU9qV1RyRnJDVFVVR2UxVU5qZUxGdWhOeldwbmNaeThHRklCdk80dFlzRVBnZlhoWmJIOTRxMWFBY1hrWVU1Qk1sc3VFb0JFVDVn?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-30T10:51:17.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Nani has reached a significant box office milestone with his latest film, The Paradise. By its sixth day in theaters, the movie officially crossed the 100 crore mark, marking a major commercial success for the project.",
-        "This achievement is a notable career high, representing the very first time Nani has delivered a film reaching the 100-crore threshold. Furthermore, it marks the fifth time a Telugu cinema release has attained this specific box office milestone in the year 2026.",
-        "The strong commercial performance highlights the drawing power of the lead actor and reflects the robust theatrical business trend within Telugu cinema for 2026."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Nani has achieved a major career milestone as The Paradise crosses the 100 crore mark by its sixth day at the box office. This accomplishment marks Nani's first career entry into the 100-crore club and stands as the fifth such Telugu film in 2026.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "IMDb"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uRnpDbElFSHVLZmc1MVV3NU9qV1RyRnJDVFVVR2UxVU5qZUxGdWhOeldwbmNaeThHRklCdk80dFlzRVBnZlhoWmJIOTRxMWFBY1hrWVU1Qk1sc3VFb0JFVDVn?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTlpJemU4RHk4cHBQMFdxWDF5SGp0LVRVQndWZGt3cy0tUWVqM1VoVWFJZ0JEVWJ3NkstZ0p4WmxXd3JWemIzOW5hOUFFVmpmTjRZZkp0U2Nqck5pU0JmMng5TGF2dTdXYUJsS0lXdkJJTVdHR2VyM182ZFg1TElHUUI2WWtsbDlMOHNCSmVKNDFOUU1lM1habWpzUTRPMktaeGxkWHNiUTlLN1luMmpRWHlmVTV6Rnh5bjhwWDRDQzNzS08ybU5MN3NfVElGOURCNlBsTmtPemVpbXBuVHfSAeMBQVVfeXFMUFZoUjdSZ1ZGa1NQSUJMRlBLbzJxTEhrSjBpMXFneXczRDQ1UzRzZG0zWjM0ZDV3SndtMXhla05BdnpNeVJKWHRfNW4xZTcwaW1tblgzS0dRd21SOXc3S2MyWnQyT2wxZE9BWFFLcm1qNmlfLUJjWXpMbXAxMy1zazlfdW1kcnFCcTRfZU4weEpYeTRVUERPaFB1VEQ0Mk9aVlJDY1A1T2NkTEtIa2R5bWJiaFBwaVpwUHBrdGJDWnpCS1RqcVh5RnhDWjRiU3lBQndzWWtBb1djbWxoTEtqNlA4SW8?oc=5",
-      "title": "Seven Tamil and Telugu OTT Releases Head to Screens This Week",
-      "summary": "Audiences have a variety of streaming options this week with seven Tamil and Telugu titles arriving on digital platforms. Notable highlights among the lineup include the Karthi starrer Sardar 2 and Jailer 2.",
-      "source": "Pinkvilla",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTlpJemU4RHk4cHBQMFdxWDF5SGp0LVRVQndWZGt3cy0tUWVqM1VoVWFJZ0JEVWJ3NkstZ0p4WmxXd3JWemIzOW5hOUFFVmpmTjRZZkp0U2Nqck5pU0JmMng5TGF2dTdXYUJsS0lXdkJJTVdHR2VyM182ZFg1TElHUUI2WWtsbDlMOHNCSmVKNDFOUU1lM1habWpzUTRPMktaeGxkWHNiUTlLN1luMmpRWHlmVTV6Rnh5bjhwWDRDQzNzS08ybU5MN3NfVElGOURCNlBsTmtPemVpbXBuVHfSAeMBQVVfeXFMUFZoUjdSZ1ZGa1NQSUJMRlBLbzJxTEhrSjBpMXFneXczRDQ1UzRzZG0zWjM0ZDV3SndtMXhla05BdnpNeVJKWHRfNW4xZTcwaW1tblgzS0dRd21SOXc3S2MyWnQyT2wxZE9BWFFLcm1qNmlfLUJjWXpMbXAxMy1zazlfdW1kcnFCcTRfZU4weEpYeTRVUERPaFB1VEQ0Mk9aVlJDY1A1T2NkTEtIa2R5bWJiaFBwaVpwUHBrdGJDWnpCS1RqcVh5RnhDWjRiU3lBQndzWWtBb1djbWxoTEtqNlA4SW8?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-30T09:57:09.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Digital streaming platforms are expanding their libraries this week with a fresh slate of regional content. Viewers can look forward to a lineup consisting of seven prominent Tamil and Telugu OTT releases.",
-        "Among the prominent titles capturing audience attention in this week's digital premiere list are the Karthi-starrer Sardar 2 alongside Jailer 2. These additions provide plenty of entertainment choices for fans of South Indian cinema looking to stream new content.",
-        "The diverse selection underlines the ongoing demand for regional language digital premieres, offering audiences convenient home-viewing options for major action and drama titles."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Audiences have a variety of streaming options this week with seven Tamil and Telugu titles arriving on digital platforms. Notable highlights among the lineup include the Karthi starrer Sardar 2 and Jailer 2.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Pinkvilla"
-      ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTlpJemU4RHk4cHBQMFdxWDF5SGp0LVRVQndWZGt3cy0tUWVqM1VoVWFJZ0JEVWJ3NkstZ0p4WmxXd3JWemIzOW5hOUFFVmpmTjRZZkp0U2Nqck5pU0JmMng5TGF2dTdXYUJsS0lXdkJJTVdHR2VyM182ZFg1TElHUUI2WWtsbDlMOHNCSmVKNDFOUU1lM1habWpzUTRPMktaeGxkWHNiUTlLN1luMmpRWHlmVTV6Rnh5bjhwWDRDQzNzS08ybU5MN3NfVElGOURCNlBsTmtPemVpbXBuVHfSAeMBQVVfeXFMUFZoUjdSZ1ZGa1NQSUJMRlBLbzJxTEhrSjBpMXFneXczRDQ1UzRzZG0zWjM0ZDV3SndtMXhla05BdnpNeVJKWHRfNW4xZTcwaW1tblgzS0dRd21SOXc3S2MyWnQyT2wxZE9BWFFLcm1qNmlfLUJjWXpMbXAxMy1zazlfdW1kcnFCcTRfZU4weEpYeTRVUERPaFB1VEQ0Mk9aVlJDY1A1T2NkTEtIa2R5bWJiaFBwaVpwUHBrdGJDWnpCS1RqcVh5RnhDWjRiU3lBQndzWWtBb1djbWxoTEtqNlA4SW8?oc=5"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTkxbEcxMEMxN0lBZ0x6YkZ3aUE3R0JPakw2T1pZOVpJU2Y1bkgydUpWQ0VYbUc5cWZoNVYyZTJUTmZWNUdkWFdmcEd4QTNOWnJwQm5PS1Azam40eVVFV1BRSEozWndhMU9VVnc4VGJPUnlkZVJ1aTVxM1BvMjViMDlCTUV2cTQ4VnVhWVpDT2NvTTFYV3lrVnB6TWRXYjlzUnhBMXJXdkU3Z9IBrwFBVV95cUxPM3R3MDg3MmZzNFpmWXJmeWRIWndKLWNOMjFnNWREYlNVR1E1aXJWSVFnTkprUm9aUVBIUGdZUGJJZzVVTURPdFo5MmV1ci1DRlNZME1yeEtTcXB4YkVVTHE3b1FVUUpGeTRpWl9taU8tQmlxblZ3SW5ZYU5wcVhMS0VnNGRNU3gxQmJ2Tm9MSWpmRlV3c2N4d1EyTXN6WVNxOGxIQ3pDd0ltYnR2bXVn?oc=5",
-      "title": "The Paradise Leads Box Office During Quiet September 2026 Period",
-      "summary": "The box office period for September 2026 proved to be relatively lacklustre, with The Paradise emerging as the leading title. Industry trackers noted the month's overall sluggish performance across Telugu cinema.",
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNQ2J5OU9vX2JRU1VqVHVvbEMxeU5GcVMzZHhFUk1hb1R4MWNyVl9GdkdPN1ZCbnprZDcwZ2RFN3NYUjNRU3p6OThQY0Q4dzBCZ1FfSlAtc0czSWVSblVTakY2NVp4aUwzQmtrQVVMbHB6WlF0d20wYU1JdzdKVXfSAYQBQVVfeXFMTjdBSl83V0ZKMXpHQ05xb0RpSGFUVnM2R3dQOHJPYk0ydlJ6OGhKU05GQU81S3lSTjhQbzRKZWhWQVYzU1BQdjZIb3NkdnFmSE9GYU41TEtjQ3IxMjZOcUtSM1ZmeXRmbE9SbGVoN25Fd3RTSVY0eWlTb2tpOERqb1JjY1NF?oc=5",
+      "title": "Naga Chaitanya Gears Up for Milestone 25th Film Launch",
+      "summary": "Actor Naga Chaitanya is preparing for a major career milestone as his 25th film is officially set to be launched. Anticipation is building among fans and industry circles for this upcoming cinematic venture.",
       "source": "telugucinema.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTkxbEcxMEMxN0lBZ0x6YkZ3aUE3R0JPakw2T1pZOVpJU2Y1bkgydUpWQ0VYbUc5cWZoNVYyZTJUTmZWNUdkWFdmcEd4QTNOWnJwQm5PS1Azam40eVVFV1BRSEozWndhMU9VVnc4VGJPUnlkZVJ1aTVxM1BvMjViMDlCTUV2cTQ4VnVhWVpDT2NvTTFYV3lrVnB6TWRXYjlzUnhBMXJXdkU3Z9IBrwFBVV95cUxPM3R3MDg3MmZzNFpmWXJmeWRIWndKLWNOMjFnNWREYlNVR1E1aXJWSVFnTkprUm9aUVBIUGdZUGJJZzVVTURPdFo5MmV1ci1DRlNZME1yeEtTcXB4YkVVTHE3b1FVUUpGeTRpWl9taU8tQmlxblZ3SW5ZYU5wcVhMS0VnNGRNU3gxQmJ2Tm9MSWpmRlV3c2N4d1EyTXN6WVNxOGxIQ3pDd0ltYnR2bXVn?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-30T04:27:47.000Z",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNQ2J5OU9vX2JRU1VqVHVvbEMxeU5GcVMzZHhFUk1hb1R4MWNyVl9GdkdPN1ZCbnprZDcwZ2RFN3NYUjNRU3p6OThQY0Q4dzBCZ1FfSlAtc0czSWVSblVTakY2NVp4aUwzQmtrQVVMbHB6WlF0d20wYU1JdzdKVXfSAYQBQVVfeXFMTjdBSl83V0ZKMXpHQ05xb0RpSGFUVnM2R3dQOHJPYk0ydlJ6OGhKU05GQU81S3lSTjhQbzRKZWhWQVYzU1BQdjZIb3NkdnFmSE9GYU41TEtjQ3IxMjZOcUtSM1ZmeXRmbE9SbGVoN25Fd3RTSVY0eWlTb2tpOERqb1JjY1NF?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-30T05:08:26.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The theatrical circuit experienced a subdued phase during September 2026, characterized by a lacklustre overall performance at the box office. Amidst the slow period, the film titled The Paradise managed to lead the month's cinematic offerings.",
-        "While box office numbers generally saw slower momentum throughout the month, The Paradise stood out as the primary title drawing attention. Telugu cinema enthusiasts observed how this release navigated a quieter theatrical landscape compared to busier seasonal frames."
+        "Actor Naga Chaitanya is officially reaching a significant milestone in his career, with plans underway for the launch of his 25th film. This upcoming project marks an important chapter in the actor's filmography.",
+        "While specific details regarding the cast, crew, and plot remain under wraps, the official launch announcement has already generated considerable excitement among his supporters and followers of Telugu cinema.",
+        "As preparations for the film's launch move forward, further announcements are anticipated to provide more insight into this landmark project for the actor."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The box office period for September 2026 proved to be relatively lacklustre, with The Paradise emerging as the leading title. Industry trackers noted the month's overall sluggish performance across Telugu cinema.",
+      "dek": "Actor Naga Chaitanya is preparing for a major career milestone as his 25th film is officially set to be launched. Anticipation is building among fans and industry circles for this upcoming cinematic venture.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTkxbEcxMEMxN0lBZ0x6YkZ3aUE3R0JPakw2T1pZOVpJU2Y1bkgydUpWQ0VYbUc5cWZoNVYyZTJUTmZWNUdkWFdmcEd4QTNOWnJwQm5PS1Azam40eVVFV1BRSEozWndhMU9VVnc4VGJPUnlkZVJ1aTVxM1BvMjViMDlCTUV2cTQ4VnVhWVpDT2NvTTFYV3lrVnB6TWRXYjlzUnhBMXJXdkU3Z9IBrwFBVV95cUxPM3R3MDg3MmZzNFpmWXJmeWRIWndKLWNOMjFnNWREYlNVR1E1aXJWSVFnTkprUm9aUVBIUGdZUGJJZzVVTURPdFo5MmV1ci1DRlNZME1yeEtTcXB4YkVVTHE3b1FVUUpGeTRpWl9taU8tQmlxblZ3SW5ZYU5wcVhMS0VnNGRNU3gxQmJ2Tm9MSWpmRlV3c2N4d1EyTXN6WVNxOGxIQ3pDd0ltYnR2bXVn?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNQ2J5OU9vX2JRU1VqVHVvbEMxeU5GcVMzZHhFUk1hb1R4MWNyVl9GdkdPN1ZCbnprZDcwZ2RFN3NYUjNRU3p6OThQY0Q4dzBCZ1FfSlAtc0czSWVSblVTakY2NVp4aUwzQmtrQVVMbHB6WlF0d20wYU1JdzdKVXfSAYQBQVVfeXFMTjdBSl83V0ZKMXpHQ05xb0RpSGFUVnM2R3dQOHJPYk0ydlJ6OGhKU05GQU81S3lSTjhQbzRKZWhWQVYzU1BQdjZIb3NkdnFmSE9GYU41TEtjQ3IxMjZOcUtSM1ZmeXRmbE9SbGVoN25Fd3RTSVY0eWlTb2tpOERqb1JjY1NF?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNWGFScFZhU1AxdEt3LUdlVlRCbGZrSEN1bkRmXzd2a3BOSzJyZDFrQUNNOWYxclFTbU85TUlUWXNQaTdsN2FMODNPUGVsakV2VW1VVHJ1T0FBQlgwdGtKNXFnR2VzcDY2VDBuZjkzRnRXelBxalVaX3VqV29laTlCekZlVEVzU25TRk9PMkl1Mk4zSGdkZWFHRzAwTWdJZ1RJanBzbm5Ta1cySmxCZlJCbjVvSWJDdUNZeER4OEUwc2JXckIwYzVMMjU4THAyRjRud2h5Qmh2aXBsYmpHUEhwLXVGZngtemZtbkNCU0Z5NXR2SnR2bnNpOWxGTFpOR3hXVkM0MVpIX294aXlMaFNKTkc3Wnc0OGIwUk9XQ2JyUjU2eWFXM1FsWHBrMlYwTEVVNnFqOEtkalBmdER40gHCAkFVX3lxTE9kOXJGa2pqcVRCQzM2QUZSaWhlbkFockFyYTVfVFl4a1JXUkNLMktwbk96SkU0emM0M2VYQldFd083QUhrRE1KeVpSSnFEU1hBNGtYcDdNN3BCTnc5QWZOOHM0eTY2V0ppUHVRUnZSNEFPeXRmTHlYaVY4czA3QnktQXd5bWdDZHNKU0ZqNGwwcGhjSXdnMkxiY1hSRzdkOEh5V1lNX3VOblpWcEJWY1EzWEx4alpVUU53bHBtN3FSS2FabXYwNTdubHlZVWxnSUtjVEVrbTdlbTI4UExETUZrU0NzR1Q4cEJGejdTX3lzZFI1c1JfaUhTaEh5V1NwNWlEQmFwRk96N2FYZmsxc0Fha3lpT3l3MHFwbERpd1VTeXFFSTVIUGY3WmtXU1lRNnVMZEU3RklwZER4U3ZERGRzdnc?oc=5",
-      "title": "Latest South Indian OTT Releases Feature Sardar 2 and Bethlehem Kudumba Unit",
-      "summary": "Audiences looking for regional streaming options can explore a fresh lineup of Tamil, Malayalam, Telugu, and Kannada OTT releases. Notable titles making their way to digital platforms include Sardar 2 and Bethlehem Kudumba Unit.",
-      "source": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNWGFScFZhU1AxdEt3LUdlVlRCbGZrSEN1bkRmXzd2a3BOSzJyZDFrQUNNOWYxclFTbU85TUlUWXNQaTdsN2FMODNPUGVsakV2VW1VVHJ1T0FBQlgwdGtKNXFnR2VzcDY2VDBuZjkzRnRXelBxalVaX3VqV29laTlCekZlVEVzU25TRk9PMkl1Mk4zSGdkZWFHRzAwTWdJZ1RJanBzbm5Ta1cySmxCZlJCbjVvSWJDdUNZeER4OEUwc2JXckIwYzVMMjU4THAyRjRud2h5Qmh2aXBsYmpHUEhwLXVGZngtemZtbkNCU0Z5NXR2SnR2bnNpOWxGTFpOR3hXVkM0MVpIX294aXlMaFNKTkc3Wnc0OGIwUk9XQ2JyUjU2eWFXM1FsWHBrMlYwTEVVNnFqOEtkalBmdER40gHCAkFVX3lxTE9kOXJGa2pqcVRCQzM2QUZSaWhlbkFockFyYTVfVFl4a1JXUkNLMktwbk96SkU0emM0M2VYQldFd083QUhrRE1KeVpSSnFEU1hBNGtYcDdNN3BCTnc5QWZOOHM0eTY2V0ppUHVRUnZSNEFPeXRmTHlYaVY4czA3QnktQXd5bWdDZHNKU0ZqNGwwcGhjSXdnMkxiY1hSRzdkOEh5V1lNX3VOblpWcEJWY1EzWEx4alpVUU53bHBtN3FSS2FabXYwNTdubHlZVWxnSUtjVEVrbTdlbTI4UExETUZrU0NzR1Q4cEJGejdTX3lzZFI1c1JfaUhTaEh5V1NwNWlEQmFwRk96N2FYZmsxc0Fha3lpT3l3MHFwbERpd1VTeXFFSTVIUGY3WmtXU1lRNnVMZEU3RklwZER4U3ZERGRzdnc?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-30T01:17:06.000Z",
+      "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNnp4akJQcFQwTDhIT2dpeldYNUFHRzhtV2xKbWNTNDdVak1jd2sxTzVrZF8tdFEzQW9GOV9xdVc4NVUyUkFUQTZqaDFnUUN6d2NLX2ZLUm13NVkxSmtCdFE0aHU1RGhXWkp4TVZVNHE3YVlhdlZhUmY0SVZTa3VLZ0hvNnduNVlfcnNUQnlwR1FVNXQ0MkhVclh3Q21LTXdHbURfaFVCRkxfUWIyRE5V?oc=5",
+      "title": "Anand Deverakonda’s Recent Project Nears Digital Premiere",
+      "summary": "Anand Deverakonda's film is reportedly drawing closer to its digital streaming debut, generating curiosity among fans. Details regarding the exact streaming arrival date are being anticipated by audiences waiting to watch the movie online.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNnp4akJQcFQwTDhIT2dpeldYNUFHRzhtV2xKbWNTNDdVak1jd2sxTzVrZF8tdFEzQW9GOV9xdVc4NVUyUkFUQTZqaDFnUUN6d2NLX2ZLUm13NVkxSmtCdFE0aHU1RGhXWkp4TVZVNHE3YVlhdlZhUmY0SVZTa3VLZ0hvNnduNVlfcnNUQnlwR1FVNXQ0MkhVclh3Q21LTXdHbURfaFVCRkxfUWIyRE5V?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-30T04:31:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The digital streaming landscape brings a fresh wave of South Indian content for home audiences, featuring a diverse selection across multiple languages. Viewers seeking new releases can now access titles spanning Tamil, Malayalam, Telugu, and Kannada industries.",
-        "Among the prominent titles available in this digital lineup are Sardar 2 and Bethlehem Kudumba Unit. These streaming additions offer regional cinema fans plenty of choices to watch across various platforms this week."
+        "Actor Anand Deverakonda is making headlines as his recent cinematic project prepares for its anticipated over-the-top (OTT) release. Fans and digital streaming audiences have been waiting for confirmation on when the title will become available online.",
+        "While specific dates are subject to formal announcements, the impending digital premiere is expected to expand the film's reach to a broader audience at home. Such releases allow viewers who missed the theatrical run to catch the feature on streaming services.",
+        "Further updates concerning the exact streaming launch date are anticipated soon, providing clarity for fans eager to stream the film."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Audiences looking for regional streaming options can explore a fresh lineup of Tamil, Malayalam, Telugu, and Kannada OTT releases. Notable titles making their way to digital platforms include Sardar 2 and Bethlehem Kudumba Unit.",
+      "dek": "Anand Deverakonda's film is reportedly drawing closer to its digital streaming debut, generating curiosity among fans. Details regarding the exact streaming arrival date are being anticipated by audiences waiting to watch the movie online.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "The Economic Times"
+        "123telugu.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNWGFScFZhU1AxdEt3LUdlVlRCbGZrSEN1bkRmXzd2a3BOSzJyZDFrQUNNOWYxclFTbU85TUlUWXNQaTdsN2FMODNPUGVsakV2VW1VVHJ1T0FBQlgwdGtKNXFnR2VzcDY2VDBuZjkzRnRXelBxalVaX3VqV29laTlCekZlVEVzU25TRk9PMkl1Mk4zSGdkZWFHRzAwTWdJZ1RJanBzbm5Ta1cySmxCZlJCbjVvSWJDdUNZeER4OEUwc2JXckIwYzVMMjU4THAyRjRud2h5Qmh2aXBsYmpHUEhwLXVGZngtemZtbkNCU0Z5NXR2SnR2bnNpOWxGTFpOR3hXVkM0MVpIX294aXlMaFNKTkc3Wnc0OGIwUk9XQ2JyUjU2eWFXM1FsWHBrMlYwTEVVNnFqOEtkalBmdER40gHCAkFVX3lxTE9kOXJGa2pqcVRCQzM2QUZSaWhlbkFockFyYTVfVFl4a1JXUkNLMktwbk96SkU0emM0M2VYQldFd083QUhrRE1KeVpSSnFEU1hBNGtYcDdNN3BCTnc5QWZOOHM0eTY2V0ppUHVRUnZSNEFPeXRmTHlYaVY4czA3QnktQXd5bWdDZHNKU0ZqNGwwcGhjSXdnMkxiY1hSRzdkOEh5V1lNX3VOblpWcEJWY1EzWEx4alpVUU53bHBtN3FSS2FabXYwNTdubHlZVWxnSUtjVEVrbTdlbTI4UExETUZrU0NzR1Q4cEJGejdTX3lzZFI1c1JfaUhTaEh5V1NwNWlEQmFwRk96N2FYZmsxc0Fha3lpT3l3MHFwbERpd1VTeXFFSTVIUGY3WmtXU1lRNnVMZEU3RklwZER4U3ZERGRzdnc?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNnp4akJQcFQwTDhIT2dpeldYNUFHRzhtV2xKbWNTNDdVak1jd2sxTzVrZF8tdFEzQW9GOV9xdVc4NVUyUkFUQTZqaDFnUUN6d2NLX2ZLUm13NVkxSmtCdFE0aHU1RGhXWkp4TVZVNHE3YVlhdlZhUmY0SVZTa3VLZ0hvNnduNVlfcnNUQnlwR1FVNXQ0MkhVclh3Q21LTXdHbURfaFVCRkxfUWIyRE5V?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRjNJdEREa2lIeUlmU3lHYktFMVdMNXdPMnU0S3NuU0JVWkxzRlFPZUw1WUozcTYwTm43RzRHQzB3cTJMaXM1N2VodVJSQkgzZTJndmtTSFNiNWtrRmh2YmM4S05GaFl0c2tHRjJwLUVtSHhPbEpJdy1RelpmbHpTWlNZYjczNjNRTzdSSTZCaTUzX1VkQ2xaYl9QNUVxRzBLUkhseGNGREdXVHdZdExsaENUQ0xudUg5LUx5S0E3T2p2NU41YllUV21xUHlwMm5iU2E1QW1Bd2ttZmwt0gHkAUFVX3lxTFA1QVRlNlNwMkFxRnZCRkFvQ0VRcm9zYXBFc1B1N1doOVR3NXNyNzRKV0JSVzZrdnBDbkF3SFZHUm05dXBoaTN6NTYtaHhtcEthLUNtTWtZX1BGRWxPZVNSQUFuaUs4YVYzQjVVRkIxWDJ4azlwNjg2WHZXN2g2QU12U2VvWE5VU0xrOEJIdGw2amVuVDk5ODg0ZmdvdW40dFVxSlY5TlR3LWJKODVqZ1U2NzZUcXpKaU0tWkprVmlUYzhXa2ZIbmFza3pqSU9RV1hicDNTbkxoQVRJREZPTnJmbEFHMw?oc=5",
-      "title": "Weekend OTT Lineup Features Sardar 2, #Love, and Bethlehem Kudumba Unit",
-      "summary": "A fresh slate of Tamil, Telugu, and Malayalam titles arrives on digital streaming platforms for the weekend. Viewers can check out new releases including Sardar 2, #Love, and Bethlehem Kudumba Unit.",
-      "source": "ndtvprofit.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRjNJdEREa2lIeUlmU3lHYktFMVdMNXdPMnU0S3NuU0JVWkxzRlFPZUw1WUozcTYwTm43RzRHQzB3cTJMaXM1N2VodVJSQkgzZTJndmtTSFNiNWtrRmh2YmM4S05GaFl0c2tHRjJwLUVtSHhPbEpJdy1RelpmbHpTWlNZYjczNjNRTzdSSTZCaTUzX1VkQ2xaYl9QNUVxRzBLUkhseGNGREdXVHdZdExsaENUQ0xudUg5LUx5S0E3T2p2NU41YllUV21xUHlwMm5iU2E1QW1Bd2ttZmwt0gHkAUFVX3lxTFA1QVRlNlNwMkFxRnZCRkFvQ0VRcm9zYXBFc1B1N1doOVR3NXNyNzRKV0JSVzZrdnBDbkF3SFZHUm05dXBoaTN6NTYtaHhtcEthLUNtTWtZX1BGRWxPZVNSQUFuaUs4YVYzQjVVRkIxWDJ4azlwNjg2WHZXN2g2QU12U2VvWE5VU0xrOEJIdGw2amVuVDk5ODg0ZmdvdW40dFVxSlY5TlR3LWJKODVqZ1U2NzZUcXpKaU0tWkprVmlUYzhXa2ZIbmFza3pqSU9RV1hicDNTbkxoQVRJREZPTnJmbEFHMw?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-28T10:23:16.000Z",
+      "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVmRPaWR4U2kzYzRTaGVJU2t4RXV4RkI1SkxBVTdtX3hCb2NHUUlVMjgwc3d0MkpDUXEyWi1uZ0RkOE95TTRjV2U5UHZaOWhGVFpiZ29od04wZkNGREplajBUUVNXOXI5elRTVi13bU9BNnV1a3dpT0w3MG1CcnE5Ylc0bjRYaVdlYzQ4N3FDdmI?oc=5",
+      "title": "Yash Fans Face Extended Wait for Toxic OTT Premiere",
+      "summary": "Supporters of actor Yash face a continued wait as the digital release details for Toxic remain under wraps, leaving audiences eager for updates on its streaming premiere timeline.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVmRPaWR4U2kzYzRTaGVJU2t4RXV4RkI1SkxBVTdtX3hCb2NHUUlVMjgwc3d0MkpDUXEyWi1uZ0RkOE95TTRjV2U5UHZaOWhGVFpiZ29od04wZkNGREplajBUUVNXOXI5elRTVi13bU9BNnV1a3dpT0w3MG1CcnE5Ylc0bjRYaVdlYzQ4N3FDdmI?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-30T01:30:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The weekend digital viewing options have expanded with a new set of South Indian OTT releases spanning Tamil, Telugu, and Malayalam languages. Fans of regional cinema have multiple digital platforms to explore for their weekend entertainment.",
-        "Highlighted among the current weekend streaming options are titles such as Sardar 2, #Love, and Bethlehem Kudumba Unit. These releases offer diverse viewing choices for audiences tuning into digital premieres."
+        "Followers of star actor Yash are being tested on their patience as the wait for the digital streaming premiere of Toxic continues. Audiences looking forward to experiencing the film on their home screens must endure a longer wait than anticipated.",
+        "The ongoing delay has sparked discussions among fans who are eager to know when the movie will finally land on an OTT platform. As of now, updates regarding the specific streaming release schedule have not been finalized or announced.",
+        "For enthusiasts tracking the film's post-theatrical journey, the extended wait highlights the shifting timelines typical of major cinematic releases. Cineinsta will continue to monitor updates regarding when Toxic will officially make its way to digital platforms."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "A fresh slate of Tamil, Telugu, and Malayalam titles arrives on digital streaming platforms for the weekend. Viewers can check out new releases including Sardar 2, #Love, and Bethlehem Kudumba Unit.",
+      "dek": "Supporters of actor Yash face a continued wait as the digital release details for Toxic remain under wraps, leaving audiences eager for updates on its streaming premiere timeline.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "ndtvprofit.com"
+        "123telugu.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRjNJdEREa2lIeUlmU3lHYktFMVdMNXdPMnU0S3NuU0JVWkxzRlFPZUw1WUozcTYwTm43RzRHQzB3cTJMaXM1N2VodVJSQkgzZTJndmtTSFNiNWtrRmh2YmM4S05GaFl0c2tHRjJwLUVtSHhPbEpJdy1RelpmbHpTWlNZYjczNjNRTzdSSTZCaTUzX1VkQ2xaYl9QNUVxRzBLUkhseGNGREdXVHdZdExsaENUQ0xudUg5LUx5S0E3T2p2NU41YllUV21xUHlwMm5iU2E1QW1Bd2ttZmwt0gHkAUFVX3lxTFA1QVRlNlNwMkFxRnZCRkFvQ0VRcm9zYXBFc1B1N1doOVR3NXNyNzRKV0JSVzZrdnBDbkF3SFZHUm05dXBoaTN6NTYtaHhtcEthLUNtTWtZX1BGRWxPZVNSQUFuaUs4YVYzQjVVRkIxWDJ4azlwNjg2WHZXN2g2QU12U2VvWE5VU0xrOEJIdGw2amVuVDk5ODg0ZmdvdW40dFVxSlY5TlR3LWJKODVqZ1U2NzZUcXpKaU0tWkprVmlUYzhXa2ZIbmFza3pqSU9RV1hicDNTbkxoQVRJREZPTnJmbEFHMw?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVmRPaWR4U2kzYzRTaGVJU2t4RXV4RkI1SkxBVTdtX3hCb2NHUUlVMjgwc3d0MkpDUXEyWi1uZ0RkOE95TTRjV2U5UHZaOWhGVFpiZ29od04wZkNGREplajBUUVNXOXI5elRTVi13bU9BNnV1a3dpT0w3MG1CcnE5Ylc0bjRYaVdlYzQ4N3FDdmI?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNlV3V19ud3Znb1dhUGtkRVJYMGxaQ0dnT3ZyeTVIYkpSYzVHcnJ0bkhYVnZOLTM3eEFjaDh4d01ST1V6MlE4cFJaNG9XbHloZFNXYlFuRklQR2FWWTV6ZEhsbmJpM085ZmJqTHhyY3V5bTJEaFJiMmhCckprblFDV01hRVBheF95RnJLaGNvMzdkdWx3QmRFWHlORVE5eDU1X2luazhnMlhna1pHMldzVlU5dDdmWGxLd0dHbGJOZ0d1UFZwRjNlVmtybldYS3lMRjFyRndPczViVGt4amfSAeQBQVVfeXFMT1ExTWN4SkctQl9wS3FnNmlDVUZfY1FHX3NiTVNIYmdrMi1DSFFqdzc3c2dpTG92Yl9HcUxhcFlUZHpBWlVqeEFaY0JKalU2QWVOVHZZb3ZBbl9MaGZuemxKNFhNd19IeWxzS190X0M2TlJRSnBCOHdpU1NlQzNfVmM5RG9HT2VRNENObXNLazdZb1lqT2VnaGRSVkc2S1JLN2lmb2FWd29FeUdOdEJMUUlPUXdHdHlnVkl4dFg3WFFIampRa0xFbTRTcXZlSmJ5aHlEcTJmTzB6Rzgya0JHVXVQMWJu?oc=5",
-      "title": "Happy Journey Review: An All-Women Holiday Film Described as Well-Intentioned Yet Clumsy",
-      "summary": "The movie Happy Journey has received critical attention as an all-women holiday film. Reviews characterize the feature as a well-intentioned project that ultimately comes across as clumsy in its execution.",
-      "source": "The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNlV3V19ud3Znb1dhUGtkRVJYMGxaQ0dnT3ZyeTVIYkpSYzVHcnJ0bkhYVnZOLTM3eEFjaDh4d01ST1V6MlE4cFJaNG9XbHloZFNXYlFuRklQR2FWWTV6ZEhsbmJpM085ZmJqTHhyY3V5bTJEaFJiMmhCckprblFDV01hRVBheF95RnJLaGNvMzdkdWx3QmRFWHlORVE5eDU1X2luazhnMlhna1pHMldzVlU5dDdmWGxLd0dHbGJOZ0d1UFZwRjNlVmtybldYS3lMRjFyRndPczViVGt4amfSAeQBQVVfeXFMT1ExTWN4SkctQl9wS3FnNmlDVUZfY1FHX3NiTVNIYmdrMi1DSFFqdzc3c2dpTG92Yl9HcUxhcFlUZHpBWlVqeEFaY0JKalU2QWVOVHZZb3ZBbl9MaGZuemxKNFhNd19IeWxzS190X0M2TlJRSnBCOHdpU1NlQzNfVmM5RG9HT2VRNENObXNLazdZb1lqT2VnaGRSVkc2S1JLN2lmb2FWd29FeUdOdEJMUUlPUXdHdHlnVkl4dFg3WFFIampRa0xFbTRTcXZlSmJ5aHlEcTJmTzB6Rzgya0JHVXVQMWJu?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-18T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeHNvMTF5cmZRdnFkTnJwaFg3NWRwelFzT2FWS3R0OXlmNjlieUQ0dUEycGROYjFkS1lOQUNrX0tsUHlkZXYyTHF4LXlvaVJnWl9yUEZKWFpQRTctYUlHREZ3OG0tVmNKZmVRazJBdFBxMjVwem1iT3VsS2YtdUhsbm5QT3Y1WmZ4U3dVWnBMNGVQS2g2WHdmWHQtenhHUndRc0U5U0pKRHpVSDl0azBsdTI3MXNjYUNXUUFneTBtR29CTWxr?oc=5",
+      "title": "Weekend OTT Lineup: Comprehensive Guide to Releases from September 28 to October 4",
+      "summary": "Discover the latest movies and shows making their digital debut this week. Check out our curated weekend guide covering streaming titles available from September 28 through October 4.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeHNvMTF5cmZRdnFkTnJwaFg3NWRwelFzT2FWS3R0OXlmNjlieUQ0dUEycGROYjFkS1lOQUNrX0tsUHlkZXYyTHF4LXlvaVJnWl9yUEZKWFpQRTctYUlHREZ3OG0tVmNKZmVRazJBdFBxMjVwem1iT3VsS2YtdUhsbm5QT3Y1WmZ4U3dVWnBMNGVQS2g2WHdmWHQtenhHUndRc0U5U0pKRHpVSDl0azBsdTI3MXNjYUNXUUFneTBtR29CTWxr?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-29T09:33:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The film Happy Journey has drawn critical response for its unique premise as an all-women holiday movie. The project brings together a narrative focused on a group setting during a holiday period.",
-        "According to critical assessment, the feature is recognized for holding good intentions in its storytelling approach. However, reviewers also pointed out that the execution feels clumsy, balancing its earnest goals with narrative shortcomings."
+        "The digital streaming calendar brings a fresh wave of entertainment options for audiences looking to catch up on new movies and shows. Spanning from September 28 to October 4, this week's lineup offers plenty of choices for weekend viewing.",
+        "Viewers seeking fresh content can explore a variety of titles hitting various streaming platforms during this designated timeframe. Whether you prefer full-length feature films or episodic television shows, the roster provides options for diverse viewing preferences.",
+        "As digital platforms continue to expand their weekly offerings, keeping track of premiere dates helps audiences plan their weekend entertainment. This guide highlights the notable additions arriving across streaming services during the specified dates."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The movie Happy Journey has received critical attention as an all-women holiday film. Reviews characterize the feature as a well-intentioned project that ultimately comes across as clumsy in its execution.",
+      "dek": "Discover the latest movies and shows making their digital debut this week. Check out our curated weekend guide covering streaming titles available from September 28 through October 4.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "The Hindu"
+        "123telugu.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNlV3V19ud3Znb1dhUGtkRVJYMGxaQ0dnT3ZyeTVIYkpSYzVHcnJ0bkhYVnZOLTM3eEFjaDh4d01ST1V6MlE4cFJaNG9XbHloZFNXYlFuRklQR2FWWTV6ZEhsbmJpM085ZmJqTHhyY3V5bTJEaFJiMmhCckprblFDV01hRVBheF95RnJLaGNvMzdkdWx3QmRFWHlORVE5eDU1X2luazhnMlhna1pHMldzVlU5dDdmWGxLd0dHbGJOZ0d1UFZwRjNlVmtybldYS3lMRjFyRndPczViVGt4amfSAeQBQVVfeXFMT1ExTWN4SkctQl9wS3FnNmlDVUZfY1FHX3NiTVNIYmdrMi1DSFFqdzc3c2dpTG92Yl9HcUxhcFlUZHpBWlVqeEFaY0JKalU2QWVOVHZZb3ZBbl9MaGZuemxKNFhNd19IeWxzS190X0M2TlJRSnBCOHdpU1NlQzNfVmM5RG9HT2VRNENObXNLazdZb1lqT2VnaGRSVkc2S1JLN2lmb2FWd29FeUdOdEJMUUlPUXdHdHlnVkl4dFg3WFFIampRa0xFbTRTcXZlSmJ5aHlEcTJmTzB6Rzgya0JHVXVQMWJu?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeHNvMTF5cmZRdnFkTnJwaFg3NWRwelFzT2FWS3R0OXlmNjlieUQ0dUEycGROYjFkS1lOQUNrX0tsUHlkZXYyTHF4LXlvaVJnWl9yUEZKWFpQRTctYUlHREZ3OG0tVmNKZmVRazJBdFBxMjVwem1iT3VsS2YtdUhsbm5QT3Y1WmZ4U3dVWnBMNGVQS2g2WHdmWHQtenhHUndRc0U5U0pKRHpVSDl0azBsdTI3MXNjYUNXUUFneTBtR29CTWxr?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOZmlTUTFzamxkVC1VamRod3kxb2t6M25tenFaSnk5S1lVbXpGdFFmbjFtWGJyYjFBZG42S0pDTmladkQ3WUYwR1Y2VlU0bm1wN2hrQzdKRFNhSWtqUzk4R253TUh5c3MtQUY0S05DWGN4YlZkSURyRUNINzVKM2poV3RnVjJQNEFVOTVUbGtFbktsQ3RKWFUweWlic002c05XRXB1UFZfWWZtWXBlcnptQ1V0QzlKZTBzSzhkc01LY1d5SEVrMENRMmRLTVlGaWRELUxKaVg3NnhwOHkxUGJiVlpfNEJfVERIeTV6VXhxcS1aaThYYm1RS2ZDUW96RXJDbzc3LUJ3TGlDcEltZ0htekRucTRoNWw3NjdUT1N3dmFuTVZ2anplY1F6eFRvR3F3NzZrNVQ4c1hrOWd0SXA5SmIzOVMwLWVmcTlCZlBKdHpNR2dzZl9tSC1ROWxIME0zaE90NjNZMNIB7AJBVV95cUxQSmVUYktGSXFreVFwX2FMRVpJLTc3TkRNaHNMMkNmRHlFSmFJOGdGNTYtdFdXeUlzcnQ3ajFIVVYxSmwtZW9PWTBVM1ladk40WlJXdG10anNKMlI5OGFaN01XN0NkZWpLZDZEMUE1WHFqVzU0UV90VXJkbzcxUG91Ujk0T2hZZ0RSTVZIeENfSzlBeTF6V2Nva1FOREU4ZHBDNUx4a3VsU2pIRTl1LW1YdzczcFVxSF83UWNYcmRvU2RWdDV4TE1lOW5scE1SSFdKZ3k0bkFZLUhNXzMwbE5jdTJqUmhyd2g0blFLYm8tdzRpTzFPaE5PcFFfczZ5Xy1wa0lUSUxqZm1Qb1M5eGREdFhIMnJXcHZrZmhPVU1LWFNaQVpWYWU3NFA0dEswRmNGMndTRFJTYkdRSzFvbEdkMURxWlhIZUJsUFZFaUtiVk13UXljS1M0dDlnbkxMQUJSQXJFOWFjbWNhcHFK?oc=5",
-      "title": "Ravi Teja Starrer Emotional Family Drama 'Irumudi' Heads Toward OTT Premiere",
-      "summary": "The Ravi Teja starrer emotional father and daughter drama titled 'Irumudi' is gearing up for its digital streaming release. Movie enthusiasts are tracking when and where the family drama will officially premiere online.",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOZmlTUTFzamxkVC1VamRod3kxb2t6M25tenFaSnk5S1lVbXpGdFFmbjFtWGJyYjFBZG42S0pDTmladkQ3WUYwR1Y2VlU0bm1wN2hrQzdKRFNhSWtqUzk4R253TUh5c3MtQUY0S05DWGN4YlZkSURyRUNINzVKM2poV3RnVjJQNEFVOTVUbGtFbktsQ3RKWFUweWlic002c05XRXB1UFZfWWZtWXBlcnptQ1V0QzlKZTBzSzhkc01LY1d5SEVrMENRMmRLTVlGaWRELUxKaVg3NnhwOHkxUGJiVlpfNEJfVERIeTV6VXhxcS1aaThYYm1RS2ZDUW96RXJDbzc3LUJ3TGlDcEltZ0htekRucTRoNWw3NjdUT1N3dmFuTVZ2anplY1F6eFRvR3F3NzZrNVQ4c1hrOWd0SXA5SmIzOVMwLWVmcTlCZlBKdHpNR2dzZl9tSC1ROWxIME0zaE90NjNZMNIB7AJBVV95cUxQSmVUYktGSXFreVFwX2FMRVpJLTc3TkRNaHNMMkNmRHlFSmFJOGdGNTYtdFdXeUlzcnQ3ajFIVVYxSmwtZW9PWTBVM1ladk40WlJXdG10anNKMlI5OGFaN01XN0NkZWpLZDZEMUE1WHFqVzU0UV90VXJkbzcxUG91Ujk0T2hZZ0RSTVZIeENfSzlBeTF6V2Nva1FOREU4ZHBDNUx4a3VsU2pIRTl1LW1YdzczcFVxSF83UWNYcmRvU2RWdDV4TE1lOW5scE1SSFdKZ3k0bkFZLUhNXzMwbE5jdTJqUmhyd2g0blFLYm8tdzRpTzFPaE5PcFFfczZ5Xy1wa0lUSUxqZm1Qb1M5eGREdFhIMnJXcHZrZmhPVU1LWFNaQVpWYWU3NFA0dEswRmNGMndTRFJTYkdRSzFvbEdkMURxWlhIZUJsUFZFaUtiVk13UXljS1M0dDlnbkxMQUJSQXJFOWFjbWNhcHFK?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-14T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3lZZDlpNTBvMnl2R3cyQXR0dkJvZHhrMTBGcXFlLXlFdlBXY2Jwa25jbktEMDFnTnNuWEJkS04zMFhRb0p3Uk9URlJQc2xkclU2Nk1KWTlnRmVhdkMtUDFEcGlzOV9EcUNZWVg5alM0T1pKX0hSZWdsc011dXh0VkpXQUNGbU95aWloUXRKQ3NJbVJNc1F4amJvdmlYejVyNFVyNHQxUHd2eGxfY1NsZVNOaDBCZFRYVzNWTkxwNWRueUwzWmZ0NXBhVjdYbVA0?oc=5",
+      "title": "Tollywood Box Office Tests Audience Strength with Nine Releases Over Extended Weekend",
+      "summary": "Tollywood faces a major test as nine movies hit theaters during an extended weekend. Industry observers are watching to see if the box office can sustain crowds without heavy pre-release hype.",
+      "source": "123telugu.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3lZZDlpNTBvMnl2R3cyQXR0dkJvZHhrMTBGcXFlLXlFdlBXY2Jwa25jbktEMDFnTnNuWEJkS04zMFhRb0p3Uk9URlJQc2xkclU2Nk1KWTlnRmVhdkMtUDFEcGlzOV9EcUNZWVg5alM0T1pKX0hSZWdsc011dXh0VkpXQUNGbU95aWloUXRKQ3NJbVJNc1F4amJvdmlYejVyNFVyNHQxUHd2eGxfY1NsZVNOaDBCZFRYVzNWTkxwNWRueUwzWmZ0NXBhVjdYbVA0?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-29T08:39:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The upcoming digital release of the emotional family drama 'Irumudi', featuring star Ravi Teja, has generated significant curiosity among cinema fans. The project centers around a poignant father and daughter relationship, marking another notable outing for the leading actor in a drama-focused narrative.",
-        "As audiences increasingly look toward digital platforms for their entertainment, details regarding the precise streaming timeline and platform availability for 'Irumudi' are being closely followed. The film's transition to the digital space offers fans a chance to experience the emotional narrative from home.",
-        "Further updates on the exact premiere schedule and streaming partner for the Ravi Teja starrer are expected to provide clarity for viewers eager to watch the emotional family drama online."
+        "The Tollywood box office is experiencing a massive test of endurance as a total of nine movies arrive in theaters for a single extended weekend. This crowded festive or holiday window presents a unique scenario for exhibitors and filmmakers alike.",
+        "A key talking point surrounding this multi-film arrival is whether ticket counters can successfully draw crowds in the absence of massive pre-release hype. While major blockbusters often rely on heavy promotional buzz, this lineup forces the audience to judge the titles purely on their theatrical arrival.",
+        "Such heavy weekend clashes highlight the competitive nature of regional cinema schedules, where multiple films vie for screen space and viewer attention. Industry trackers and moviegoers will be closely watching how these nine releases perform collectively at the box office."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The Ravi Teja starrer emotional father and daughter drama titled 'Irumudi' is gearing up for its digital streaming release. Movie enthusiasts are tracking when and where the family drama will officially premiere online.",
+      "dek": "Tollywood faces a major test as nine movies hit theaters during an extended weekend. Industry observers are watching to see if the box office can sustain crowds without heavy pre-release hype.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "The Times of India"
+        "123telugu.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOZmlTUTFzamxkVC1VamRod3kxb2t6M25tenFaSnk5S1lVbXpGdFFmbjFtWGJyYjFBZG42S0pDTmladkQ3WUYwR1Y2VlU0bm1wN2hrQzdKRFNhSWtqUzk4R253TUh5c3MtQUY0S05DWGN4YlZkSURyRUNINzVKM2poV3RnVjJQNEFVOTVUbGtFbktsQ3RKWFUweWlic002c05XRXB1UFZfWWZtWXBlcnptQ1V0QzlKZTBzSzhkc01LY1d5SEVrMENRMmRLTVlGaWRELUxKaVg3NnhwOHkxUGJiVlpfNEJfVERIeTV6VXhxcS1aaThYYm1RS2ZDUW96RXJDbzc3LUJ3TGlDcEltZ0htekRucTRoNWw3NjdUT1N3dmFuTVZ2anplY1F6eFRvR3F3NzZrNVQ4c1hrOWd0SXA5SmIzOVMwLWVmcTlCZlBKdHpNR2dzZl9tSC1ROWxIME0zaE90NjNZMNIB7AJBVV95cUxQSmVUYktGSXFreVFwX2FMRVpJLTc3TkRNaHNMMkNmRHlFSmFJOGdGNTYtdFdXeUlzcnQ3ajFIVVYxSmwtZW9PWTBVM1ladk40WlJXdG10anNKMlI5OGFaN01XN0NkZWpLZDZEMUE1WHFqVzU0UV90VXJkbzcxUG91Ujk0T2hZZ0RSTVZIeENfSzlBeTF6V2Nva1FOREU4ZHBDNUx4a3VsU2pIRTl1LW1YdzczcFVxSF83UWNYcmRvU2RWdDV4TE1lOW5scE1SSFdKZ3k0bkFZLUhNXzMwbE5jdTJqUmhyd2g0blFLYm8tdzRpTzFPaE5PcFFfczZ5Xy1wa0lUSUxqZm1Qb1M5eGREdFhIMnJXcHZrZmhPVU1LWFNaQVpWYWU3NFA0dEswRmNGMndTRFJTYkdRSzFvbEdkMURxWlhIZUJsUFZFaUtiVk13UXljS1M0dDlnbkxMQUJSQXJFOWFjbWNhcHFK?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3lZZDlpNTBvMnl2R3cyQXR0dkJvZHhrMTBGcXFlLXlFdlBXY2Jwa25jbktEMDFnTnNuWEJkS04zMFhRb0p3Uk9URlJQc2xkclU2Nk1KWTlnRmVhdkMtUDFEcGlzOV9EcUNZWVg5alM0T1pKX0hSZWdsc011dXh0VkpXQUNGbU95aWloUXRKQ3NJbVJNc1F4amJvdmlYejVyNFVyNHQxUHd2eGxfY1NsZVNOaDBCZFRYVzNWTkxwNWRueUwzWmZ0NXBhVjdYbVA0?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMingJBVV95cUxQNzVsVl85SkRmX2xjRDU3SFhfZ2JBX0Znb2hoZUc5VVZoVnUzTVJ0UFhON05Sa0M3MlZKMldQWlBuODREblIxbmxDZ2tZZE1XSmZmT09oNmhSN3lFSFdPRGsxeF9Ua0tBVzVQWlZzNW83Zk5FUmQ5VHlJUU5URXYxMkhZQkZSM2dZMXBHVm81ZXVnbmU2dk1GcnVxYm50a3RIWTNFMlJsNWhmVjZBMGFlOGhzQzR6bHRfQTJ5ODF3eTFhV18wUERRamlRU0ZKcnR1RkUwcDlWVTdOZTZzaUZGRFNCeEhILTVnd3lHRlRoYmdMenh4U3BTbFNrZGtQOUFCMXdsN2ZnWU9aamlWZzQwMUxjMFlHYlROdDBwSVhR0gGjAkFVX3lxTE5sWXVOMV9pUjFUSkg1UG92dExyelNuZjNwcGJFblczWUpuZ3lpa2VqQnlGcXVuM29NNEZ4ZkNhbFUwd1JUb196M1BhdTBRdTlDVFJfSVlmc0Q5d1plREJ1SUxGM3JrVUFlYTFuVnkyZmNuMDFjMnJySDZZMWVTRDd6X2ltSFBEbF95OWxId0Uyb3NaOWEwbmt4eXN0bExpXzFKSW1HdFltekxHZ3A5TXI1OGJ6TTRjSG16RTZLSUxkTEdqRk5ieEVqZW9FdnNheGVwc3I5NUwtamJYUHFXYXBjb2xRQlNXLWc3d1V1LXh6WTlnQS1MdUNmWHI3dmJnMGFRc1N6a0NoY0pwbi1QMnk3bHUzSkJzcFRiTE5rUVlGaXBxYw?oc=5",
-      "title": "Anticipation Builds Around Digital Streaming Details for Ravi Teja's 'Irumudi'",
-      "summary": "Fans of actor Ravi Teja are actively searching for information regarding the expected digital streaming schedule and platform for his family drama 'Irumudi'. The upcoming OTT release promises to bring the emotional narrative directly to home screens.",
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQNzVsVl85SkRmX2xjRDU3SFhfZ2JBX0Znb2hoZUc5VVZoVnUzTVJ0UFhON05Sa0M3MlZKMldQWlBuODREblIxbmxDZ2tZZE1XSmZmT09oNmhSN3lFSFdPRGsxeF9Ua0tBVzVQWlZzNW83Zk5FUmQ5VHlJUU5URXYxMkhZQkZSM2dZMXBHVm81ZXVnbmU2dk1GcnVxYm50a3RIWTNFMlJsNWhmVjZBMGFlOGhzQzR6bHRfQTJ5ODF3eTFhV18wUERRamlRU0ZKcnR1RkUwcDlWVTdOZTZzaUZGRFNCeEhILTVnd3lHRlRoYmdMenh4U3BTbFNrZGtQOUFCMXdsN2ZnWU9aamlWZzQwMUxjMFlHYlROdDBwSVhR0gGjAkFVX3lxTE5sWXVOMV9pUjFUSkg1UG92dExyelNuZjNwcGJFblczWUpuZ3lpa2VqQnlGcXVuM29NNEZ4ZkNhbFUwd1JUb196M1BhdTBRdTlDVFJfSVlmc0Q5d1plREJ1SUxGM3JrVUFlYTFuVnkyZmNuMDFjMnJySDZZMWVTRDd6X2ltSFBEbF95OWxId0Uyb3NaOWEwbmt4eXN0bExpXzFKSW1HdFltekxHZ3A5TXI1OGJ6TTRjSG16RTZLSUxkTEdqRk5ieEVqZW9FdnNheGVwc3I5NUwtamJYUHFXYXBjb2xRQlNXLWc3d1V1LXh6WTlnQS1MdUNmWHI3dmJnMGFRc1N6a0NoY0pwbi1QMnk3bHUzSkJzcFRiTE5rUVlGaXBxYw?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-09-11T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZFhPdWkzUEdibk1NTGNfOGQ1ZXhVOUtxVGRJeDQzaVRRZEVrenNTVDVFWEM4Mks3OW9rWXhNdUJlZkoyc1MtQTNBMVFzNHlLOVRSdzdwT2RhdVRuUno2OXREY3VfYnM5THV0M1h3bDUxaTVuNGdMRmlRXzJqM1FVQzZR0gGHAUFVX3lxTE5sSU9NTXdkRUx3cTdLSVNqQkFHcWZhaWY1RVk1M1dVS0hkVktOd3QzZ0RGMzk0elBDV21pNjIzM09Uekw3Wkc5OXhZbUthQ2YtMERGMXdmZ2UtMmRSd1YzTjhjWXgzd3c0eFVib2RRV2ttZUp3Q2hGR2Vud0w0eTRGNmM5Z2YzZw?oc=5",
+      "title": "Faria Abdullah Outlines Her Next Ambitious Cinematic Move",
+      "summary": "Popular actress Faria Abdullah has officially revealed her upcoming plans in the Telugu film industry, sharing details about her next ambitious project with fans and followers.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZFhPdWkzUEdibk1NTGNfOGQ1ZXhVOUtxVGRJeDQzaVRRZEVrenNTVDVFWEM4Mks3OW9rWXhNdUJlZkoyc1MtQTNBMVFzNHlLOVRSdzdwT2RhdVRuUno2OXREY3VfYnM5THV0M1h3bDUxaTVuNGdMRmlRXzJqM1FVQzZR0gGHAUFVX3lxTE5sSU9NTXdkRUx3cTdLSVNqQkFHcWZhaWY1RVk1M1dVS0hkVktOd3QzZ0RGMzk0elBDV21pNjIzM09Uekw3Wkc5OXhZbUthQ2YtMERGMXdmZ2UtMmRSd1YzTjhjWXgzd3c0eFVib2RRV2ttZUp3Q2hGR2Vud0w0eTRGNmM5Z2YzZw?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-29T05:45:38.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The digital streaming journey of the Ravi Teja starrer 'Irumudi' has become a major talking point for fans of the actor and lovers of family dramas alike. Centered around an emotional narrative, the film stands out as a noteworthy addition to the star's filmography.",
-        "Interest remains high regarding when and where the feature will officially begin its digital run. As viewers await formal announcements, expectations continue to mount for the family-centric drama's arrival on a major streaming service.",
-        "The digital premiere will allow a broader audience to engage with the emotional themes and dynamic performances central to the Ravi Teja vehicle."
+        "Popular actress Faria Abdullah has captured attention in the Telugu cinema sphere by revealing details regarding her upcoming plans. Known for her prominent screen presence, the performer has outlined her next ambitious undertaking in the industry.",
+        "While specific narrative details remain under wraps, the announcement signals an important step forward in her acting career. Fans of the star eagerly await further official updates regarding the casting, crew, and production timeline for this newly revealed venture."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Fans of actor Ravi Teja are actively searching for information regarding the expected digital streaming schedule and platform for his family drama 'Irumudi'. The upcoming OTT release promises to bring the emotional narrative directly to home screens.",
+      "dek": "Popular actress Faria Abdullah has officially revealed her upcoming plans in the Telugu film industry, sharing details about her next ambitious project with fans and followers.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "The Times of India"
+        "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMingJBVV95cUxQNzVsVl85SkRmX2xjRDU3SFhfZ2JBX0Znb2hoZUc5VVZoVnUzTVJ0UFhON05Sa0M3MlZKMldQWlBuODREblIxbmxDZ2tZZE1XSmZmT09oNmhSN3lFSFdPRGsxeF9Ua0tBVzVQWlZzNW83Zk5FUmQ5VHlJUU5URXYxMkhZQkZSM2dZMXBHVm81ZXVnbmU2dk1GcnVxYm50a3RIWTNFMlJsNWhmVjZBMGFlOGhzQzR6bHRfQTJ5ODF3eTFhV18wUERRamlRU0ZKcnR1RkUwcDlWVTdOZTZzaUZGRFNCeEhILTVnd3lHRlRoYmdMenh4U3BTbFNrZGtQOUFCMXdsN2ZnWU9aamlWZzQwMUxjMFlHYlROdDBwSVhR0gGjAkFVX3lxTE5sWXVOMV9pUjFUSkg1UG92dExyelNuZjNwcGJFblczWUpuZ3lpa2VqQnlGcXVuM29NNEZ4ZkNhbFUwd1JUb196M1BhdTBRdTlDVFJfSVlmc0Q5d1plREJ1SUxGM3JrVUFlYTFuVnkyZmNuMDFjMnJySDZZMWVTRDd6X2ltSFBEbF95OWxId0Uyb3NaOWEwbmt4eXN0bExpXzFKSW1HdFltekxHZ3A5TXI1OGJ6TTRjSG16RTZLSUxkTEdqRk5ieEVqZW9FdnNheGVwc3I5NUwtamJYUHFXYXBjb2xRQlNXLWc3d1V1LXh6WTlnQS1MdUNmWHI3dmJnMGFRc1N6a0NoY0pwbi1QMnk3bHUzSkJzcFRiTE5rUVlGaXBxYw?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZFhPdWkzUEdibk1NTGNfOGQ1ZXhVOUtxVGRJeDQzaVRRZEVrenNTVDVFWEM4Mks3OW9rWXhNdUJlZkoyc1MtQTNBMVFzNHlLOVRSdzdwT2RhdVRuUno2OXREY3VfYnM5THV0M1h3bDUxaTVuNGdMRmlRXzJqM1FVQzZR0gGHAUFVX3lxTE5sSU9NTXdkRUx3cTdLSVNqQkFHcWZhaWY1RVk1M1dVS0hkVktOd3QzZ0RGMzk0elBDV21pNjIzM09Uekw3Wkc5OXhZbUthQ2YtMERGMXdmZ2UtMmRSd1YzTjhjWXgzd3c0eFVib2RRV2ttZUp3Q2hGR2Vud0w0eTRGNmM5Z2YzZw?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTmw1TUdGOXM0bDlnaXlIR25paE9Scm9pM3pyS3NOTzRoMWVJc2Rlbk9JNVM4alZzX0hOWFB2WDNfVVhlbU1UOGNMQUUtYVJSUGxMb2toS0RIWk10Y3A5YTVnTWVGa1BOM2t1dzByNVQzS0hfV04xeDlFS0E3cWp6US1kVWRVYUpaamNkTFJDcHFmRnNHZ0E?oc=5",
-      "title": "Discussion Arises as Several Tollywood Figures Relinquish Voting Rights in Hyderabad",
-      "summary": "A number of Tollywood celebrities have reportedly given up their voting rights in Hyderabad, drawing public attention. The development highlights a notable civic shift among prominent names associated with the Telugu film industry.",
-      "source": "Telangana Today",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTmw1TUdGOXM0bDlnaXlIR25paE9Scm9pM3pyS3NOTzRoMWVJc2Rlbk9JNVM4alZzX0hOWFB2WDNfVVhlbU1UOGNMQUUtYVJSUGxMb2toS0RIWk10Y3A5YTVnTWVGa1BOM2t1dzByNVQzS0hfV04xeDlFS0E3cWp6US1kVWRVYUpaamNkTFJDcHFmRnNHZ0E?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-08-18T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUEs5S1dob003LXRyLUFJemFkS0pNQmpES3RnUFZKSXd3ZlpaNnBvU3BRWmFUV19OZzE1RUl2X2dUMWF6YXF4bjhRb2VfdGtvZ0JPaGdROXFiOUZqQ2RDTmYxODUtam80Vk9GZnpNTlc5emVjNndYRng4b1RUM3RpcjZKVEZpLUdOck1aeWRKREN2UGlJQlBxZ1ZXdVAyU3VzSWZ4LTVYRENMaHRVWmfSAbMBQVVfeXFMTnFtQk43SUJMYVVmNUdXLTJtUWhwN1p0RlFOOHY5SWpWZnN3ajZVdC1qM1ZMSzF0dmd5TkNXalBFUDhVQnh3b0lIbXBlUUR6a1MzVVpfU3ZHYnVRdUE3TzBIVlk2TkRxdGlISHF6UU03R0NhUmtrVnZaaWt5R01VRk43d2xSNHdpT1BNMHp3aEM5NGlkekZnU2FDLUF0bkV0Wnl1VGJ3S1ZiRmx3OWFZTjJBT0k?oc=5",
+      "title": "Nani Starrer The Paradise Nears 150 Crore Milestone After First Monday Box Office Drop",
+      "summary": "Actor Nani's film The Paradise experienced a natural box office dip on its first Monday, yet it continues a strong run toward the significant 150 crore milestone in Telugu cinema.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUEs5S1dob003LXRyLUFJemFkS0pNQmpES3RnUFZKSXd3ZlpaNnBvU3BRWmFUV19OZzE1RUl2X2dUMWF6YXF4bjhRb2VfdGtvZ0JPaGdROXFiOUZqQ2RDTmYxODUtam80Vk9GZnpNTlc5emVjNndYRng4b1RUM3RpcjZKVEZpLUdOck1aeWRKREN2UGlJQlBxZ1ZXdVAyU3VzSWZ4LTVYRENMaHRVWmfSAbMBQVVfeXFMTnFtQk43SUJMYVVmNUdXLTJtUWhwN1p0RlFOOHY5SWpWZnN3ajZVdC1qM1ZMSzF0dmd5TkNXalBFUDhVQnh3b0lIbXBlUUR6a1MzVVpfU3ZHYnVRdUE3TzBIVlk2TkRxdGlISHF6UU03R0NhUmtrVnZaaWt5R01VRk43d2xSNHdpT1BNMHp3aEM5NGlkekZnU2FDLUF0bkV0Wnl1VGJ3S1ZiRmx3OWFZTjJBT0k?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-29T05:36:41.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent reports indicate that several notable personalities from the Tollywood film fraternity have relinquished their voting rights in Hyderabad. This occurrence has sparked discussions regarding civic participation among high-profile figures based in the region.",
-        "While specific reasons or individual names involved in the civic update continue to draw local interest, the situation brings attention to the administrative status of film personalities residing and working within the vibrant Telugu cinema hub.",
-        "The development serves as a talking point regarding the connection between prominent cinema figures and their formal electoral ties to the city of Hyderabad."
+        "The theatrical run of Nani's notable film The Paradise has reached an important juncture, experiencing a standard box office drop on its first Monday. Despite the anticipated weekday deceleration, the movie's overall performance remains robust.",
+        "Moving closer to the impressive 150 crore mark, the project continues to draw audience attention across screening centers. This box office progress highlights the strong commercial standing of the feature within the current Telugu film landscape."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "A number of Tollywood celebrities have reportedly given up their voting rights in Hyderabad, drawing public attention. The development highlights a notable civic shift among prominent names associated with the Telugu film industry.",
+      "dek": "Actor Nani's film The Paradise experienced a natural box office dip on its first Monday, yet it continues a strong run toward the significant 150 crore milestone in Telugu cinema.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "Telangana Today"
+        "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTmw1TUdGOXM0bDlnaXlIR25paE9Scm9pM3pyS3NOTzRoMWVJc2Rlbk9JNVM4alZzX0hOWFB2WDNfVVhlbU1UOGNMQUUtYVJSUGxMb2toS0RIWk10Y3A5YTVnTWVGa1BOM2t1dzByNVQzS0hfV04xeDlFS0E3cWp6US1kVWRVYUpaamNkTFJDcHFmRnNHZ0E?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUEs5S1dob003LXRyLUFJemFkS0pNQmpES3RnUFZKSXd3ZlpaNnBvU3BRWmFUV19OZzE1RUl2X2dUMWF6YXF4bjhRb2VfdGtvZ0JPaGdROXFiOUZqQ2RDTmYxODUtam80Vk9GZnpNTlc5emVjNndYRng4b1RUM3RpcjZKVEZpLUdOck1aeWRKREN2UGlJQlBxZ1ZXdVAyU3VzSWZ4LTVYRENMaHRVWmfSAbMBQVVfeXFMTnFtQk43SUJMYVVmNUdXLTJtUWhwN1p0RlFOOHY5SWpWZnN3ajZVdC1qM1ZMSzF0dmd5TkNXalBFUDhVQnh3b0lIbXBlUUR6a1MzVVpfU3ZHYnVRdUE3TzBIVlk2TkRxdGlISHF6UU03R0NhUmtrVnZaaWt5R01VRk43d2xSNHdpT1BNMHp3aEM5NGlkekZnU2FDLUF0bkV0Wnl1VGJ3S1ZiRmx3OWFZTjJBT0k?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRTU3S090Mm1hYXZxNzB6OTRaYzFHQVNBM1lHd3lGUnNmZ0hWcTFwaXo1SHZad0gtUzBVZmF4SjVhSVJYaDYydnVocGozRnpOZkZXd2ppc21qZENoY2IwWEQyajAzMjMwYVhMXzdDV2ZjeF9RMUJkemJ5VzIxTWVOWElVcjd4UkE3dmFsRtIBkgFBVV95cUxPQWVhRU5ZY1BQS1hDcTVSWV80UjllMEFLOGlfNnd1OU5wSzlFZHlyempfSHI5TDUwX3F5THRFREFnM0VmcFFJelR4TXBnei15QTJoT3lzdHdrWHV4TTUwNTZvNVNmUHNNY2V1TEVKR0Y1V2JmYUlULUFocEFTZFZvdGRTRENjdHFJdW1TWTB1TklIQQ?oc=5",
-      "title": "Weekly OTT Lineup: Movies and Web Series Releasing Between August 10th and 16th",
-      "summary": "A fresh slate of movies and web series has lined up for digital streaming release during the week of August 10th to 16th. Audiences looking for home entertainment options have a variety of new content to explore across platforms.",
-      "source": "Gulte",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRTU3S090Mm1hYXZxNzB6OTRaYzFHQVNBM1lHd3lGUnNmZ0hWcTFwaXo1SHZad0gtUzBVZmF4SjVhSVJYaDYydnVocGozRnpOZkZXd2ppc21qZENoY2IwWEQyajAzMjMwYVhMXzdDV2ZjeF9RMUJkemJ5VzIxTWVOWElVcjd4UkE3dmFsRtIBkgFBVV95cUxPQWVhRU5ZY1BQS1hDcTVSWV80UjllMEFLOGlfNnd1OU5wSzlFZHlyempfSHI5TDUwX3F5THRFREFnM0VmcFFJelR4TXBnei15QTJoT3lzdHdrWHV4TTUwNTZvNVNmUHNNY2V1TEVKR0Y1V2JmYUlULUFocEFTZFZvdGRTRENjdHFJdW1TWTB1TklIQQ?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-08-15T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaHBkNlRkVmd0WnJQcnp3LUhQMHJVVnFLOXEweUVqYVR4bHRWZFRGcHoyUmVQS1NCTzA3ZUJRdWk3QTYzR0dWbnRYUmJwNGFmWWFiNGN0ZVVOYklRR1VhZDZUU2NGYmRreVFubDA3WUVXRkpYeGxzOGdHakppVTdKSUdTMUlVeTVfME4wYlpsRUjSAZYBQVVfeXFMTWdZUzBmaHR4Y01FV3o0RWR5RnV2bmxLcEtVOFhQM0toTHJXb3hTaGFNQkJIVkw2UFBxU2kxRURrd21MZXFKenJDRkNBanVZY19BcVBKdVI2aFZhSjVIN0stbjd1eGVwTkh4aFY3N0tXWWVOX3dTRmNWT1ZJNEJLTTh5eFY0alhoZVdySjNuaC1ZZjhaeHpn?oc=5",
+      "title": "Director Vassisht Begins Scriptwork for Nandamuri Mokshagna’s Debut Film",
+      "summary": "Director Vassisht has officially commenced work on the script for Nandamuri Mokshagna's highly anticipated debut film in the Telugu film industry.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaHBkNlRkVmd0WnJQcnp3LUhQMHJVVnFLOXEweUVqYVR4bHRWZFRGcHoyUmVQS1NCTzA3ZUJRdWk3QTYzR0dWbnRYUmJwNGFmWWFiNGN0ZVVOYklRR1VhZDZUU2NGYmRreVFubDA3WUVXRkpYeGxzOGdHakppVTdKSUdTMUlVeTVfME4wYlpsRUjSAZYBQVVfeXFMTWdZUzBmaHR4Y01FV3o0RWR5RnV2bmxLcEtVOFhQM0toTHJXb3hTaGFNQkJIVkw2UFBxU2kxRURrd21MZXFKenJDRkNBanVZY19BcVBKdVI2aFZhSjVIN0stbjd1eGVwTkh4aFY3N0tXWWVOX3dTRmNWT1ZJNEJLTTh5eFY0alhoZVdySjNuaC1ZZjhaeHpn?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-28T15:30:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The second week of August brings a fresh wave of digital entertainment options for home viewers, with multiple movies and web series scheduled to premiere between August 10th and 16th. This weekly lineup provides plenty of choices for subscribers navigating various streaming services.",
-        "As digital platforms continue to serve as a primary destination for fresh cinematic content, weekly schedules help audiences keep track of the latest feature films and episodic series making their debut.",
-        "The diverse offerings rolling out during this period ensure that fans of different genres have immediate access to new entertainment right from their devices."
+        "Excitement is building around the Telugu film industry as preparations begin for Nandamuri Mokshagna’s official acting debut. Director Vassisht has taken the first major step by commencing work on the script for the project.",
+        "With the writing process officially underway, industry observers and fans are closely following updates regarding this high-profile launch. Further announcements concerning the remaining cast members and production schedule are expected in due course."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "A fresh slate of movies and web series has lined up for digital streaming release during the week of August 10th to 16th. Audiences looking for home entertainment options have a variety of new content to explore across platforms.",
+      "dek": "Director Vassisht has officially commenced work on the script for Nandamuri Mokshagna's highly anticipated debut film in the Telugu film industry.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "Gulte"
+        "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRTU3S090Mm1hYXZxNzB6OTRaYzFHQVNBM1lHd3lGUnNmZ0hWcTFwaXo1SHZad0gtUzBVZmF4SjVhSVJYaDYydnVocGozRnpOZkZXd2ppc21qZENoY2IwWEQyajAzMjMwYVhMXzdDV2ZjeF9RMUJkemJ5VzIxTWVOWElVcjd4UkE3dmFsRtIBkgFBVV95cUxPQWVhRU5ZY1BQS1hDcTVSWV80UjllMEFLOGlfNnd1OU5wSzlFZHlyempfSHI5TDUwX3F5THRFREFnM0VmcFFJelR4TXBnei15QTJoT3lzdHdrWHV4TTUwNTZvNVNmUHNNY2V1TEVKR0Y1V2JmYUlULUFocEFTZFZvdGRTRENjdHFJdW1TWTB1TklIQQ?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaHBkNlRkVmd0WnJQcnp3LUhQMHJVVnFLOXEweUVqYVR4bHRWZFRGcHoyUmVQS1NCTzA3ZUJRdWk3QTYzR0dWbnRYUmJwNGFmWWFiNGN0ZVVOYklRR1VhZDZUU2NGYmRreVFubDA3WUVXRkpYeGxzOGdHakppVTdKSUdTMUlVeTVfME4wYlpsRUjSAZYBQVVfeXFMTWdZUzBmaHR4Y01FV3o0RWR5RnV2bmxLcEtVOFhQM0toTHJXb3hTaGFNQkJIVkw2UFBxU2kxRURrd21MZXFKenJDRkNBanVZY19BcVBKdVI2aFZhSjVIN0stbjd1eGVwTkh4aFY3N0tXWWVOX3dTRmNWT1ZJNEJLTTh5eFY0alhoZVdySjNuaC1ZZjhaeHpn?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPODgtT1lZTzdhVi1fU2hYam5yRkl1eTNJS1I0Mk5vX2NEenU0SmxUM2wwWUloSkNqMlo0R3ltcHNYVHBMMm55RENsNlJseGFwc0dUZF9XOXVmWWlxS0JxVkQ5akNRdUs3RWZkWUNlZnlDQmlFc0Y4RmF0VzVrUzF5VTVzMVZ3QW1EcFQtNS01bjltNkUtRFowS3FqdllzcTlfTlZyRlpzakRUYVZiQm91TjZfdUdGck9ZRmZLcno3aldFUV9BTzh3Unh5Nkp1UXpLVXlEWF9Kb3FKbTZRNTVJeHBwYUtVc0hGTkxLN2M1VTdsU3lDWXBsamhYUXlCcXZpdWk5UNIBigJBVV95cUxPSWVGMkRuaEFmRXFYYTZfczBudjg2b2lUZGpzV0QxamJpOGNzU0lLdmNCbkdNc096b3NXVXRENU9GVTBXLV9uejMweWQ2RTZrM21FUmxnVzVSYTVZMnItcUdjcTduV3Z4TzhldGVjUzlDMFpuVE9YN1VwWDlRV0dKRXVaZnVZYUdLTHZMeE1GRU1YS2xDVFhvc0tPWkVvNUEwXzFGNF9lZlRKZXROVWJxX0JzNzFydHJxWEpFMHNvY1pRandfSElfdG9hUndqQW5GN2ZIc0puaVRQaklZOVpOYXJ6UC1vc0FIcVdFZEt0dXlrN1hhalZtaFJxNS10eFlvZGcyLVUyVzlEQQ?oc=5",
-      "title": "Tollywood Industry Experiences Surge in Physical Injuries Among Leading Stars",
-      "summary": "The Telugu film industry has noted a concerning wave of health setbacks and physical injuries among prominent actors. Jr NTR has recently become the sixth Telugu star to undergo surgeries or face injuries during this recent period.",
-      "source": "Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPODgtT1lZTzdhVi1fU2hYam5yRkl1eTNJS1I0Mk5vX2NEenU0SmxUM2wwWUloSkNqMlo0R3ltcHNYVHBMMm55RENsNlJseGFwc0dUZF9XOXVmWWlxS0JxVkQ5akNRdUs3RWZkWUNlZnlDQmlFc0Y4RmF0VzVrUzF5VTVzMVZ3QW1EcFQtNS01bjltNkUtRFowS3FqdllzcTlfTlZyRlpzakRUYVZiQm91TjZfdUdGck9ZRmZLcno3aldFUV9BTzh3Unh5Nkp1UXpLVXlEWF9Kb3FKbTZRNTVJeHBwYUtVc0hGTkxLN2M1VTdsU3lDWXBsamhYUXlCcXZpdWk5UNIBigJBVV95cUxPSWVGMkRuaEFmRXFYYTZfczBudjg2b2lUZGpzV0QxamJpOGNzU0lLdmNCbkdNc096b3NXVXRENU9GVTBXLV9uejMweWQ2RTZrM21FUmxnVzVSYTVZMnItcUdjcTduV3Z4TzhldGVjUzlDMFpuVE9YN1VwWDlRV0dKRXVaZnVZYUdLTHZMeE1GRU1YS2xDVFhvc0tPWkVvNUEwXzFGNF9lZlRKZXROVWJxX0JzNzFydHJxWEpFMHNvY1pRandfSElfdG9hUndqQW5GN2ZIc0puaVRQaklZOVpOYXJ6UC1vc0FIcVdFZEt0dXlrN1hhalZtaFJxNS10eFlvZGcyLVUyVzlEQQ?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-07-28T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMm11YUNWWHg1cWtQeGVNMkdQbFIwdGo1Y0pJRThUSzdLR1B3UWlpUlp3SXZSUVdmajRkMlUwdlQyYVZJR3llRkl1ZVpiRVZUQ3hQUGVkX19qUFlja2VHUEJua21DM3pRX2lQbmNMRllCclU1QWJUd3hab0xkMllKR3pfWUVVSktCcmJXb9IBkgFBVV95cUxPeUxrWkRXbVJyZ0l5a2RGYmlaY1RXRG1DZ0JZaVgyVFFDUjdWdy10TWlHc2tvc1FXTWJ0cGZWV0trdXFjWDVVbF9adHVYVEVOeDVINTBBWjBNY01lRW9ueVo0TFN5NERhUEc2ZkFubWp6RzBWWUJhTlY0bWVWUGNJdFJtSW9PcHR3ZTduOVRyOWtrdw?oc=5",
+      "title": "Janhvi Kapoor Adopts a More Selective Approach to Choosing Film Projects",
+      "summary": "Prominent actress Janhvi Kapoor is shifting her career strategy by being more selective with her upcoming film choices in the industry.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMm11YUNWWHg1cWtQeGVNMkdQbFIwdGo1Y0pJRThUSzdLR1B3UWlpUlp3SXZSUVdmajRkMlUwdlQyYVZJR3llRkl1ZVpiRVZUQ3hQUGVkX19qUFlja2VHUEJua21DM3pRX2lQbmNMRllCclU1QWJUd3hab0xkMllKR3pfWUVVSktCcmJXb9IBkgFBVV95cUxPeUxrWkRXbVJyZ0l5a2RGYmlaY1RXRG1DZ0JZaVgyVFFDUjdWdy10TWlHc2tvc1FXTWJ0cGZWV0trdXFjWDVVbF9adHVYVEVOeDVINTBBWjBNY01lRW9ueVo0TFN5NERhUEc2ZkFubWp6RzBWWUJhTlY0bWVWUGNJdFJtSW9PcHR3ZTduOVRyOWtrdw?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-28T06:14:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The Telugu film industry, commonly known as Tollywood, is witnessing a noticeable rise in physical injuries and subsequent medical surgeries among its leading actors. Demanding action sequences and rigorous production schedules often take a physical toll on performers in the regional cinema space.",
-        "In the latest development, popular star Jr NTR has faced a health setback, marking him as the sixth Telugu cinema star to encounter such an issue recently. This string of injuries highlights the physical vulnerabilities and high-risk environments that prominent actors frequently navigate during the course of their film commitments.",
-        "As multiple major stars encounter health and physical hurdles, the broader Tollywood community continues to monitor these developments closely. The frequency of these recent surgical interventions and injury reports underscores the intense physical demands placed on performers in contemporary Telugu cinema."
+        "Actress Janhvi Kapoor is adjusting her professional trajectory by taking a more discerning approach to her cinematic engagements. By becoming more selective with her script choices, the performer aims to carefully curate her upcoming roles.",
+        "This deliberate strategy reflects a focused effort on quality project selection. Cinephiles and industry trackers will be watching closely to see which ventures secure her signature as she moves forward with this refined career path."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The Telugu film industry has noted a concerning wave of health setbacks and physical injuries among prominent actors. Jr NTR has recently become the sixth Telugu star to undergo surgeries or face injuries during this recent period.",
+      "dek": "Prominent actress Janhvi Kapoor is shifting her career strategy by being more selective with her upcoming film choices in the industry.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "Hindustan Times"
+        "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPODgtT1lZTzdhVi1fU2hYam5yRkl1eTNJS1I0Mk5vX2NEenU0SmxUM2wwWUloSkNqMlo0R3ltcHNYVHBMMm55RENsNlJseGFwc0dUZF9XOXVmWWlxS0JxVkQ5akNRdUs3RWZkWUNlZnlDQmlFc0Y4RmF0VzVrUzF5VTVzMVZ3QW1EcFQtNS01bjltNkUtRFowS3FqdllzcTlfTlZyRlpzakRUYVZiQm91TjZfdUdGck9ZRmZLcno3aldFUV9BTzh3Unh5Nkp1UXpLVXlEWF9Kb3FKbTZRNTVJeHBwYUtVc0hGTkxLN2M1VTdsU3lDWXBsamhYUXlCcXZpdWk5UNIBigJBVV95cUxPSWVGMkRuaEFmRXFYYTZfczBudjg2b2lUZGpzV0QxamJpOGNzU0lLdmNCbkdNc096b3NXVXRENU9GVTBXLV9uejMweWQ2RTZrM21FUmxnVzVSYTVZMnItcUdjcTduV3Z4TzhldGVjUzlDMFpuVE9YN1VwWDlRV0dKRXVaZnVZYUdLTHZMeE1GRU1YS2xDVFhvc0tPWkVvNUEwXzFGNF9lZlRKZXROVWJxX0JzNzFydHJxWEpFMHNvY1pRandfSElfdG9hUndqQW5GN2ZIc0puaVRQaklZOVpOYXJ6UC1vc0FIcVdFZEt0dXlrN1hhalZtaFJxNS10eFlvZGcyLVUyVzlEQQ?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMm11YUNWWHg1cWtQeGVNMkdQbFIwdGo1Y0pJRThUSzdLR1B3UWlpUlp3SXZSUVdmajRkMlUwdlQyYVZJR3llRkl1ZVpiRVZUQ3hQUGVkX19qUFlja2VHUEJua21DM3pRX2lQbmNMRllCclU1QWJUd3hab0xkMllKR3pfWUVVSktCcmJXb9IBkgFBVV95cUxPeUxrWkRXbVJyZ0l5a2RGYmlaY1RXRG1DZ0JZaVgyVFFDUjdWdy10TWlHc2tvc1FXTWJ0cGZWV0trdXFjWDVVbF9adHVYVEVOeDVINTBBWjBNY01lRW9ueVo0TFN5NERhUEc2ZkFubWp6RzBWWUJhTlY0bWVWUGNJdFJtSW9PcHR3ZTduOVRyOWtrdw?oc=5"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPMWtaVXZ6WEdndUM4cV9La2hWVlFZdm5Bb2dDWG45R1hlc3lFQmc5Q3FfSUxIbjdFY25DQ181YXhTLWhGbFNKQ01taWRGMEZwMjF3MTZtRVVxN1ExSWJZZ3JUUWpYRGV5cVlRVUFxUEVBdjdiZjdjZUo3blRNR0FKdi1nV3luNVhEWnFDV3ZOcWNEV3FQeXdBdm0tWmQ3cWZaRWxxb3dHSVRHcExqXzREU1M5SC1GbnA3ZzhPQnYtQUtPU0d4LUdzQ0Nzd3cxTVZPazV6NWIzSUlLd3N2clF6YnE5ZkFfbjA2dUQxQzJoUlVEbXNhSG1RMzBNNHVaZnQtUTBXU25QMEliMlVPS1JXbEFFdlN6VUNyNTRBZmczZGdfb2dTWlR0WVVnMjB4Q0HSAbQCQVVfeXFMTXF6ZmNBZG1EdkRHTllZYnJ6MGxRbkRKMGlUWUhrVEJVQ3R5cGlhV051eVpfanJ4aUN1MTFNRmdwRTY1X1hSZ0hrT2pINXI5M2hheXU4TDRuWVRuOW96bllQNW5CVU9GdXJYQU1RSmplQkx6SUVJTTJMdDRMYllfaEdXRU1EWlpNWE94MG5xN3FCY09LbFU5U1RNY2NUZFIwZmRwT182R3FqR3N2d2lXUEUxbnREXzQtVkd3VUtBVEhoXzdsS0NCUHNwcm95TlJ1UlhjODQxN2Z0TXpSQkU3aWVhaG5oMFhaXzl1dVQ0bGFWd2RCd3IxNkdfN2xCWFJEYVdIemVmSTlveFMxODlIZ1k4bExVQWQtMHBRUXpFTUNLRFFHWkg3RGRWREQyOHVodGpqVTY?oc=5",
-      "title": "Fresh Malayalam, Tamil, Telugu, and Kannada OTT Releases Hit Digital Platforms",
-      "summary": "A fresh lineup of South Indian regional movies and shows has officially arrived on various OTT platforms. Audiences can now stream a diverse selection of titles spanning Malayalam, Tamil, Telugu, and Kannada cinema, ranging from Pallichattambi to Con City.",
-      "source": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPMWtaVXZ6WEdndUM4cV9La2hWVlFZdm5Bb2dDWG45R1hlc3lFQmc5Q3FfSUxIbjdFY25DQ181YXhTLWhGbFNKQ01taWRGMEZwMjF3MTZtRVVxN1ExSWJZZ3JUUWpYRGV5cVlRVUFxUEVBdjdiZjdjZUo3blRNR0FKdi1nV3luNVhEWnFDV3ZOcWNEV3FQeXdBdm0tWmQ3cWZaRWxxb3dHSVRHcExqXzREU1M5SC1GbnA3ZzhPQnYtQUtPU0d4LUdzQ0Nzd3cxTVZPazV6NWIzSUlLd3N2clF6YnE5ZkFfbjA2dUQxQzJoUlVEbXNhSG1RMzBNNHVaZnQtUTBXU25QMEliMlVPS1JXbEFFdlN6VUNyNTRBZmczZGdfb2dTWlR0WVVnMjB4Q0HSAbQCQVVfeXFMTXF6ZmNBZG1EdkRHTllZYnJ6MGxRbkRKMGlUWUhrVEJVQ3R5cGlhV051eVpfanJ4aUN1MTFNRmdwRTY1X1hSZ0hrT2pINXI5M2hheXU4TDRuWVRuOW96bllQNW5CVU9GdXJYQU1RSmplQkx6SUVJTTJMdDRMYllfaEdXRU1EWlpNWE94MG5xN3FCY09LbFU5U1RNY2NUZFIwZmRwT182R3FqR3N2d2lXUEUxbnREXzQtVkd3VUtBVEhoXzdsS0NCUHNwcm95TlJ1UlhjODQxN2Z0TXpSQkU3aWVhaG5oMFhaXzl1dVQ0bGFWd2RCd3IxNkdfN2xCWFJEYVdIemVmSTlveFMxODlIZ1k4bExVQWQtMHBRUXpFTUNLRFFHWkg3RGRWREQyOHVodGpqVTY?oc=5",
-      "img": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
-      "publishedAt": "2026-07-24T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOXAwUzVXSHdJeUdlMGhCRFV1Y0o4RHFzWjRKMGNscVBnUVdmVlBBdkJLeDZjSXdqOWdsT29YdmtBZkZnUkJKTm9KRzEyV0JEM2hkLXlpMHA3NXZXRThoamFvSS1NOWJMdlFhYWFTTTl3aTg1WVFRc08zOHRIVkdraXljN29Ma3A4djJLM29ScFVBdHJSdXZj0gGcAUFVX3lxTE5lMk1SZDZ5SFVwdjBsOEs4NE5hZXI2THZxNnpHTW1JTWtlbHNHY3F0N1ZJcjczNHl3QmZncmtIZ2lpS2xYT2twa21KbUpMdE5EdEVNM1N1RW1WbDdHWG1ZVWJpZ1owZVd4cUJnN09SZXlDcUpQYVFocHdHbDJZYnp5b3Q5azhZcV9fUjBSRXY4a1NKS3FqTThaTkpwYw?oc=5",
+      "title": "Nani's The Paradise Achieves Highest Weekend Collections of His Career",
+      "summary": "Actor Nani has achieved a major career milestone with his latest project, The Paradise, recording the biggest weekend collections ever for his films.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOXAwUzVXSHdJeUdlMGhCRFV1Y0o4RHFzWjRKMGNscVBnUVdmVlBBdkJLeDZjSXdqOWdsT29YdmtBZkZnUkJKTm9KRzEyV0JEM2hkLXlpMHA3NXZXRThoamFvSS1NOWJMdlFhYWFTTTl3aTg1WVFRc08zOHRIVkdraXljN29Ma3A4djJLM29ScFVBdHJSdXZj0gGcAUFVX3lxTE5lMk1SZDZ5SFVwdjBsOEs4NE5hZXI2THZxNnpHTW1JTWtlbHNHY3F0N1ZJcjczNHl3QmZncmtIZ2lpS2xYT2twa21KbUpMdE5EdEVNM1N1RW1WbDdHWG1ZVWJpZ1owZVd4cUJnN09SZXlDcUpQYVFocHdHbDJZYnp5b3Q5azhZcV9fUjBSRXY4a1NKS3FqTThaTkpwYw?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-28T02:17:21.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Digital streaming platforms are expanding their libraries with a fresh wave of South Indian regional content. Film enthusiasts can explore new movies and shows across multiple languages, including Malayalam, Tamil, Telugu, and Kannada.",
-        "The latest slate of digital premieres features a diverse mix of titles available for home viewing. Among the highlighted additions making their way to audiences are productions such as Pallichattambi and Con City.",
-        "This continuous influx of regional titles on OTT platforms provides viewers with greater access to diverse storytelling from various South Indian film industries. Fans of regional cinema can readily stream these newly added movies and shows directly from home."
+        "Telugu cinema star Nani has set a new benchmark for his film career with his latest release, The Paradise. The feature has successfully driven massive audiences to theaters, resulting in the highest weekend collections ever recorded for a movie starring the actor.",
+        "The strong commercial performance underscores Nani's growing box-office pull and the high level of anticipation surrounding the project. Industry trackers and fans have closely followed the film's theatrical run as it surpassed previous milestones in the actor's filmography.",
+        "As the weekend numbers cement a strong start for The Paradise, the achievement marks a significant high point in Nani's ongoing journey in Telugu cinema."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "A fresh lineup of South Indian regional movies and shows has officially arrived on various OTT platforms. Audiences can now stream a diverse selection of titles spanning Malayalam, Tamil, Telugu, and Kannada cinema, ranging from Pallichattambi to Con City.",
+      "dek": "Actor Nani has achieved a major career milestone with his latest project, The Paradise, recording the biggest weekend collections ever for his films.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "The Economic Times"
+        "telugucinema.com"
       ],
-      "originalUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPMWtaVXZ6WEdndUM4cV9La2hWVlFZdm5Bb2dDWG45R1hlc3lFQmc5Q3FfSUxIbjdFY25DQ181YXhTLWhGbFNKQ01taWRGMEZwMjF3MTZtRVVxN1ExSWJZZ3JUUWpYRGV5cVlRVUFxUEVBdjdiZjdjZUo3blRNR0FKdi1nV3luNVhEWnFDV3ZOcWNEV3FQeXdBdm0tWmQ3cWZaRWxxb3dHSVRHcExqXzREU1M5SC1GbnA3ZzhPQnYtQUtPU0d4LUdzQ0Nzd3cxTVZPazV6NWIzSUlLd3N2clF6YnE5ZkFfbjA2dUQxQzJoUlVEbXNhSG1RMzBNNHVaZnQtUTBXU25QMEliMlVPS1JXbEFFdlN6VUNyNTRBZmczZGdfb2dTWlR0WVVnMjB4Q0HSAbQCQVVfeXFMTXF6ZmNBZG1EdkRHTllZYnJ6MGxRbkRKMGlUWUhrVEJVQ3R5cGlhV051eVpfanJ4aUN1MTFNRmdwRTY1X1hSZ0hrT2pINXI5M2hheXU4TDRuWVRuOW96bllQNW5CVU9GdXJYQU1RSmplQkx6SUVJTTJMdDRMYllfaEdXRU1EWlpNWE94MG5xN3FCY09LbFU5U1RNY2NUZFIwZmRwT182R3FqR3N2d2lXUEUxbnREXzQtVkd3VUtBVEhoXzdsS0NCUHNwcm95TlJ1UlhjODQxN2Z0TXpSQkU3aWVhaG5oMFhaXzl1dVQ0bGFWd2RCd3IxNkdfN2xCWFJEYVdIemVmSTlveFMxODlIZ1k4bExVQWQtMHBRUXpFTUNLRFFHWkg3RGRWREQyOHVodGpqVTY?oc=5"
+      "originalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOXAwUzVXSHdJeUdlMGhCRFV1Y0o4RHFzWjRKMGNscVBnUVdmVlBBdkJLeDZjSXdqOWdsT29YdmtBZkZnUkJKTm9KRzEyV0JEM2hkLXlpMHA3NXZXRThoamFvSS1NOWJMdlFhYWFTTTl3aTg1WVFRc08zOHRIVkdraXljN29Ma3A4djJLM29ScFVBdHJSdXZj0gGcAUFVX3lxTE5lMk1SZDZ5SFVwdjBsOEs4NE5hZXI2THZxNnpHTW1JTWtlbHNHY3F0N1ZJcjczNHl3QmZncmtIZ2lpS2xYT2twa21KbUpMdE5EdEVNM1N1RW1WbDdHWG1ZVWJpZ1owZVd4cUJnN09SZXlDcUpQYVFocHdHbDJZYnp5b3Q5azhZcV9fUjBSRXY4a1NKS3FqTThaTkpwYw?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOXU2S0o5R3N4eGgzWXpJNDVxLVUyR0hEU09YVWtUelVkOWdBUnhvMEJwcXdRNEl5N29ueVNDcl9DM2o2M3FCUkI4VlBqdFJIQ2FJYVQ0Z21BU1Y3QlNDV292Q2d0N0YzTm5icW9BTWlPaENtNG9memVLc1FUQnI4TXRQeWdMd1hLeWhVcGF3S3FEdlo3SUc5Mkd2ME1RZ0RlUWNR0gGoAUFVX3lxTFBfMVNwTG82SXRCR0NzejNRckl5N1JadFhTYnF3Z1NGLU1PejRWU3VKb3FqdzgwdF9ZYzlKR0pqSllpeTlMNThxb1B3eFIzOVhoRnlHRW13b2xJZF9UUjhRSDBUX01SYmE5ZDhsRHd6eWFleTV5aFhsdGFyZF83dW1iRlVobXVRQWFBSVdVWkR4S3NTaEtXNE92RTVRWlkxSUNMd1UxSEZHSA?oc=5",
+      "title": "Actor Nani Reflects on The Paradise Feedback, Acknowledges Critics' Flaws",
+      "summary": "Following the release of The Paradise, actor Nani has opened up about the film's reception, stating that he has learned from the flaws pointed out by critics.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOXU2S0o5R3N4eGgzWXpJNDVxLVUyR0hEU09YVWtUelVkOWdBUnhvMEJwcXdRNEl5N29ueVNDcl9DM2o2M3FCUkI4VlBqdFJIQ2FJYVQ0Z21BU1Y3QlNDV292Q2d0N0YzTm5icW9BTWlPaENtNG9memVLc1FUQnI4TXRQeWdMd1hLeWhVcGF3S3FEdlo3SUc5Mkd2ME1RZ0RlUWNR0gGoAUFVX3lxTFBfMVNwTG82SXRCR0NzejNRckl5N1JadFhTYnF3Z1NGLU1PejRWU3VKb3FqdzgwdF9ZYzlKR0pqSllpeTlMNThxb1B3eFIzOVhoRnlHRW13b2xJZF9UUjhRSDBUX01SYmE5ZDhsRHd6eWFleTV5aFhsdGFyZF83dW1iRlVobXVRQWFBSVdVWkR4S3NTaEtXNE92RTVRWlkxSUNMd1UxSEZHSA?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-25T09:19:21.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In the wake of his film's release, Telugu cinema actor Nani has shared his thoughts regarding the critical response received by The Paradise. Addressing the reviews, the actor acknowledged that he has taken note of the feedback provided.",
+        "Nani specifically mentioned that he has learned from the flaws and shortcomings pointed out by critics. Such reflections from leading actors offer a transparent look at how creative teams process external evaluations during a film's theatrical run.",
+        "The actor's comments add a constructive perspective to the ongoing public discussion surrounding The Paradise and its reception among reviewers and audiences alike."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Following the release of The Paradise, actor Nani has opened up about the film's reception, stating that he has learned from the flaws pointed out by critics.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "telugucinema.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOXU2S0o5R3N4eGgzWXpJNDVxLVUyR0hEU09YVWtUelVkOWdBUnhvMEJwcXdRNEl5N29ueVNDcl9DM2o2M3FCUkI4VlBqdFJIQ2FJYVQ0Z21BU1Y3QlNDV292Q2d0N0YzTm5icW9BTWlPaENtNG9memVLc1FUQnI4TXRQeWdMd1hLeWhVcGF3S3FEdlo3SUc5Mkd2ME1RZ0RlUWNR0gGoAUFVX3lxTFBfMVNwTG82SXRCR0NzejNRckl5N1JadFhTYnF3Z1NGLU1PejRWU3VKb3FqdzgwdF9ZYzlKR0pqSllpeTlMNThxb1B3eFIzOVhoRnlHRW13b2xJZF9UUjhRSDBUX01SYmE5ZDhsRHd6eWFleTV5aFhsdGFyZF83dW1iRlVobXVRQWFBSVdVWkR4S3NTaEtXNE92RTVRWlkxSUNMd1UxSEZHSA?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUkZLSEhOdEh4WDhEbWJCeENCZW9BQXhPV2FHUTltM0tmbnV5aVItVWlyU19RTFNSLTlaU2c4YkxVZm9meERBa3dmeGE5em1ZdWoyNU4ybENiMWo0dHp1a202QXdLVUdXN0gxT1NRdmJyeHk3N0xXRDV1SDF4Y21oMEc2V0Q2Ny1rbVhPStIBkgFBVV95cUxPVVlMRjVqbEQ1VEVCRmViSmd0QzBWQkYtRzlXLXlHN2hvUDFUbHdOTkhwNE4tMU9UN3FBb0xuMy1kX2hEd1Brc0JoLXU0NTM0SnFoNzlVMUtwU05WcUxHbkJCMUdxZXpaaHgtRURNUHVjV1FCdjdfZ0VhTFljQUZkVEpneC1ZQ3ZBRjBPRXAzREdrZw?oc=5",
+      "title": "The Paradise Registers Massive Rs 76 Crore Opening on Day One",
+      "summary": "Telugu film The Paradise has taken the box office by storm, pulling off a massive opening day collection of Rs 76 crore.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUkZLSEhOdEh4WDhEbWJCeENCZW9BQXhPV2FHUTltM0tmbnV5aVItVWlyU19RTFNSLTlaU2c4YkxVZm9meERBa3dmeGE5em1ZdWoyNU4ybENiMWo0dHp1a202QXdLVUdXN0gxT1NRdmJyeHk3N0xXRDV1SDF4Y21oMEc2V0Q2Ny1rbVhPStIBkgFBVV95cUxPVVlMRjVqbEQ1VEVCRmViSmd0QzBWQkYtRzlXLXlHN2hvUDFUbHdOTkhwNE4tMU9UN3FBb0xuMy1kX2hEd1Brc0JoLXU0NTM0SnFoNzlVMUtwU05WcUxHbkJCMUdxZXpaaHgtRURNUHVjV1FCdjdfZ0VhTFljQUZkVEpneC1ZQ3ZBRjBPRXAzREdrZw?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-25T08:23:56.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The box office numbers for Nani's starrer The Paradise are out, and the film has opened to a humongous response. The Telugu cinema release raked in an impressive Rs 76 crore on its very first day at the box office.",
+        "This extraordinary opening figure highlights the immense hype and viewer turnout that accompanied the movie's premiere. Such a robust start places the feature among the notable box-office openers within the industry.",
+        "With a massive Rs 76 crore recorded on Day 1, all eyes are on how the film will sustain its momentum through the remainder of its theatrical run."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Telugu film The Paradise has taken the box office by storm, pulling off a massive opening day collection of Rs 76 crore.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "telugucinema.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUkZLSEhOdEh4WDhEbWJCeENCZW9BQXhPV2FHUTltM0tmbnV5aVItVWlyU19RTFNSLTlaU2c4YkxVZm9meERBa3dmeGE5em1ZdWoyNU4ybENiMWo0dHp1a202QXdLVUdXN0gxT1NRdmJyeHk3N0xXRDV1SDF4Y21oMEc2V0Q2Ny1rbVhPStIBkgFBVV95cUxPVVlMRjVqbEQ1VEVCRmViSmd0QzBWQkYtRzlXLXlHN2hvUDFUbHdOTkhwNE4tMU9UN3FBb0xuMy1kX2hEd1Brc0JoLXU0NTM0SnFoNzlVMUtwU05WcUxHbkJCMUdxZXpaaHgtRURNUHVjV1FCdjdfZ0VhTFljQUZkVEpneC1ZQ3ZBRjBPRXAzREdrZw?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY1lTNDlJaEo0UzY1MmhqZGI3RlB5ZF9mWG1rZE5TNVRFdkszVjU4UHpZbWlYSHdTNHlDTF9IWm1NLS1KUTBYU3ljOE56RXhmOWFnOEJ4ak8wN2N1ajdteUYzVWo4Q3JjMjNaTUd4SzFlNkRXeU9BaTZyLUhwV1B1cnItVTVQRjM0cWZDQjg5MNIBlAFBVV95cUxPY2U0OUF5YzdlUWZTR25ZYU5qbHpxM0FLSENvQXdCMVd6N0NHQnNjTmVXREkwUmQxaWUySUs2a3pPTGplWkp5ekxhLWo5QlJDVXlicTA3N0xJZFVqRzYyVklYaUFaX3VhWVVTTmE5cWtJRFVobDliajlMLXM3MnRqNy1PMkZsUXBYZHp6VjhzTkVNNDNK?oc=5",
+      "title": "Anumana Pakshi Review: A Cringe, Silly, and Utterly Boring Outing",
+      "summary": "The Telugu film Anumana Pakshi has received a scathing review, with critics dismissing the feature as cringe-worthy, silly, and utterly boring.",
+      "source": "telugucinema.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY1lTNDlJaEo0UzY1MmhqZGI3RlB5ZF9mWG1rZE5TNVRFdkszVjU4UHpZbWlYSHdTNHlDTF9IWm1NLS1KUTBYU3ljOE56RXhmOWFnOEJ4ak8wN2N1ajdteUYzVWo4Q3JjMjNaTUd4SzFlNkRXeU9BaTZyLUhwV1B1cnItVTVQRjM0cWZDQjg5MNIBlAFBVV95cUxPY2U0OUF5YzdlUWZTR25ZYU5qbHpxM0FLSENvQXdCMVd6N0NHQnNjTmVXREkwUmQxaWUySUs2a3pPTGplWkp5ekxhLWo5QlJDVXlicTA3N0xJZFVqRzYyVklYaUFaX3VhWVVTTmE5cWtJRFVobDliajlMLXM3MnRqNy1PMkZsUXBYZHp6VjhzTkVNNDNK?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2026-09-25T07:31:50.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The newly released Telugu film Anumana Pakshi has faced a harsh critical reception upon its arrival. Reviewers have lambasted the feature, describing the overall cinematic experience as cringe, silly, and utterly boring.",
+        "Such negative assessments highlight the creative missteps encountered by the project, failing to resonate positively with those analyzing its narrative and execution. The widespread unfavorable remarks signal a tough road ahead for the film in terms of audience word-of-mouth.",
+        "As reviews continue to circulate, Anumana Pakshi stands as an example of a release that missed the mark with critics."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The Telugu film Anumana Pakshi has received a scathing review, with critics dismissing the feature as cringe-worthy, silly, and utterly boring.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "telugucinema.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY1lTNDlJaEo0UzY1MmhqZGI3RlB5ZF9mWG1rZE5TNVRFdkszVjU4UHpZbWlYSHdTNHlDTF9IWm1NLS1KUTBYU3ljOE56RXhmOWFnOEJ4ak8wN2N1ajdteUYzVWo4Q3JjMjNaTUd4SzFlNkRXeU9BaTZyLUhwV1B1cnItVTVQRjM0cWZDQjg5MNIBlAFBVV95cUxPY2U0OUF5YzdlUWZTR25ZYU5qbHpxM0FLSENvQXdCMVd6N0NHQnNjTmVXREkwUmQxaWUySUs2a3pPTGplWkp5ekxhLWo5QlJDVXlicTA3N0xJZFVqRzYyVklYaUFaX3VhWVVTTmE5cWtJRFVobDliajlMLXM3MnRqNy1PMkZsUXBYZHp6VjhzTkVNNDNK?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQN08wcGMwd01qUDdwcnhJaDFmRkxRbWZaU0RkTGNXdG9Ob1VWc185eEFBUDhaT2ZOMlVCNzVmbXhLM2lEMEdpX1Y5NElLSV8xZW5NY19oRVlPa3UyU0tKRkNB?oc=5",
+      "title": "Cineinsta Review: Vaishali Starring Aadhi and Sindhu Menon",
+      "summary": "Explore our detailed editorial review of the Telugu film Vaishali, featuring lead performances by Aadhi and Sindhu Menon. Discover the cinematic elements and performances discussed in this classic Tollywood release review.",
+      "source": "Idlebrain.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQN08wcGMwd01qUDdwcnhJaDFmRkxRbWZaU0RkTGNXdG9Ob1VWc185eEFBUDhaT2ZOMlVCNzVmbXhLM2lEMEdpX1Y5NElLSV8xZW5NY19oRVlPa3UyU0tKRkNB?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2011-05-27T07:00:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Telugu film industry release Vaishali has drawn attention for its cinematic presentation, featuring performances by lead actors Aadhi and Sindhu Menon. Film critics and audiences alike have evaluated the project within the broader landscape of Tollywood cinema.",
+        "Aadhi and Sindhu Menon take on the primary roles in the feature, anchoring the narrative through their performances. The film contributes to the ongoing catalog of Telugu language cinema reviewed across various platforms.",
+        "Examinations of releases like Vaishali offer insight into the creative direction and acting efforts prevalent in the industry. Such reviews remain a staple for moviegoers tracking Telugu cinema developments."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Explore our detailed editorial review of the Telugu film Vaishali, featuring lead performances by Aadhi and Sindhu Menon. Discover the cinematic elements and performances discussed in this classic Tollywood release review.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Idlebrain.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQN08wcGMwd01qUDdwcnhJaDFmRkxRbWZaU0RkTGNXdG9Ob1VWc185eEFBUDhaT2ZOMlVCNzVmbXhLM2lEMEdpX1Y5NElLSV8xZW5NY19oRVlPa3UyU0tKRkNB?oc=5"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ra0pHR3BkTmpFNDZqMGRqM0U5bWtYSkZQS0c1V1pDc3Qzc3Y1cU5yMC1XTkktMEFmZ3NrQ0NoVF9hNl9RVnN5N0tZNHJsWGlqbHBpTGRndm12eVdWQVhmVlB5WTBORElsVHQ0?oc=5",
+      "title": "Cineinsta Reports: Evaluating the INOX Vijayawada Cinema Experience",
+      "summary": "An analytical look at INOX Vijayawada as covered in Telugu cinema updates. This report reviews the exhibition space and its relevance to regional moviegoers and the local film-viewing ecosystem.",
+      "source": "Idlebrain.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ra0pHR3BkTmpFNDZqMGRqM0U5bWtYSkZQS0c1V1pDc3Qzc3Y1cU5yMC1XTkktMEFmZ3NrQ0NoVF9hNl9RVnN5N0tZNHJsWGlqbHBpTGRndm12eVdWQVhmVlB5WTBORElsVHQ0?oc=5",
+      "img": "/assets/cineinsta-news-fallback.svg",
+      "publishedAt": "2008-08-12T07:00:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Developments surrounding exhibition spaces remain vital to the film viewing experience in the region. Recent industry reports have focused on INOX Vijayawada, highlighting its role within the local Telugu cinema circuit.",
+        "As a prominent venue for screening films, the location serves audiences seeking mainstream theatrical releases. Evaluations of such cinema halls offer perspective on the infrastructure supporting the regional entertainment industry."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "An analytical look at INOX Vijayawada as covered in Telugu cinema updates. This report reviews the exhibition space and its relevance to regional moviegoers and the local film-viewing ecosystem.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Idlebrain.com"
+      ],
+      "originalUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ra0pHR3BkTmpFNDZqMGRqM0U5bWtYSkZQS0c1V1pDc3Qzc3Y1cU5yMC1XTkktMEFmZ3NrQ0NoVF9hNl9RVnN5N0tZNHJsWGlqbHBpTGRndm12eVdWQVhmVlB5WTBORElsVHQ0?oc=5"
     }
   ],
   "trailers": [
