@@ -527,9 +527,8 @@ if(!item)return;
 const titleKey=newsTitleKey(item.title||item.t||"");
 const imageKey=newsImageKey(item);
 
-/* If two feed items use the same thumbnail, they are usually the same
-   syndicated story. Keep only the first version. */
-if(imageKey && /^https?:\/\//i.test(imageKey) && imageKeys.has(imageKey))return;
+/* Do not treat a shared thumbnail as a duplicate news story.
+   Different stories may legitimately use the same fallback/source image. */
 
 if(!titleKey){
 if(imageKey && /^https?:\/\//i.test(imageKey))imageKeys.add(imageKey);
