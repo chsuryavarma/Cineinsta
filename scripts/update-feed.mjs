@@ -16,18 +16,12 @@ const NEWS_QUERIES = [
 ];
 
 const ALLOWED_HOSTS = new Set([
-  "123telugu.com",
-  "www.123telugu.com",
-  "gulte.com",
-  "www.gulte.com",
-  "greatandhra.com",
-  "www.greatandhra.com",
-  "telugu360.com",
-  "www.telugu360.com",
-  "telugucinema.com",
-  "www.telugucinema.com",
-  "idlebrain.com",
-  "www.idlebrain.com"
+  "123telugu.com", "www.123telugu.com",
+  "gulte.com", "www.gulte.com",
+  "greatandhra.com", "www.greatandhra.com",
+  "telugu360.com", "www.telugu360.com",
+  "telugucinema.com", "www.telugucinema.com",
+  "idlebrain.com", "www.idlebrain.com"
 ]);
 
 const BLOCKED_TERMS = [
@@ -48,8 +42,14 @@ const TELUGU_TERMS = [
   "ss rajamouli", "sukumar", "koratala", "sekhar kammula"
 ];
 
+const CINEMA_TERMS = [
+  "movie", "film", "cinema", "actor", "actress", "director",
+  "trailer", "teaser", "ott", "release", "shoot", "shooting",
+  "tollywood", "telugu", "star", "producer", "hero", "heroine"
+];
+
 function decodeEntities(value = "") {
-  return value
+  return String(value)
     .replace(/<!\[CDATA\[/gi, "")
     .replace(/\]\]>/gi, "")
     .replace(/&amp;/gi, "&")
@@ -65,14 +65,12 @@ function decodeEntities(value = "") {
 }
 
 function stripHtml(value = "") {
-  return decodeEntities(
-    value
-      .replace(/<script[\s\S]*?<\/script>/gi, " ")
-      .replace(/<style[\s\S]*?<\/style>/gi, " ")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-  );
+  return decodeEntities(value)
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function xmlTag(xml, tag) {
@@ -81,18 +79,6 @@ function xmlTag(xml, tag) {
     new RegExp(`<${escaped}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${escaped}>`, "i")
   );
   return match ? decodeEntities(stripHtml(match[1])) : "";
-}
-
-function xmlAttr(xml, tag, attr) {
-  const escapedTag = tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const escapedAttr = attr.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const match = xml.match(
-    new RegExp(
-      `<${escapedTag}\\b[^>]*\\b${escapedAttr}=["']([^"']+)["']`,
-      "i"
-    )
-  );
-  return match?.[1] ? decodeEntities(match[1]) : "";
 }
 
 function extractItems(xml) {
@@ -111,7 +97,9 @@ function cleanSummary(value = "", title = "") {
   if (title && text.toLowerCase().startsWith(title.toLowerCase())) {
     text = text.slice(title.length).trim();
   }
-  if (text.length > 240) text = `${text.slice(0, 237).replace(/\s+\S*$/, "")}...`;
+  if (text.length > 240) {
+    text = `${text.slice(0, 237).replace(/\s+\S*$/, "")}...`;
+  }
   return text || `Latest Telugu cinema update: ${title}.`;
 }
 
@@ -136,33 +124,30 @@ function similarity(a, b) {
   return common / Math.max(aa.size, bb.size);
 }
 
-function imageFromDescription(description = "") {
-  const patterns = [
-    /<img[^>]+src=["']([^"']+)["']/i,
-    /<media:content[^>]+url=["']([^"']+)["']/i,
-    /<media:thumbnail[^>]+url=["']([^"']+)["']/i
-  ];
-  for (const pattern of patterns) {
-    const match = description.match(pattern);
-    if (match?.[1]) return decodeEntities(match[1]);
+function resolveImageUrl(rawUrl = "", baseUrl = "") {
+  const value = decodeEntities(String(rawUrl || "").trim());
+  if (!value) return "";
+  try {
+    return new URL(value, baseUrl || undefined).href;
+  } catch {
+    return "";
   }
-  return "";
 }
 
 function isPlaceholderImage(url = "") {
   const value = String(url).toLowerCase();
-  if (!/^https?:\/\//i.test(value)) return false;
   return (
     value.includes("googleusercontent.com") ||
     value.includes("gstatic.com") ||
-    value.includes("google.com") ||
     value.includes("news.google.com") ||
-    value.includes("logo") ||
+    value.includes("google.com") ||
     value.includes("placeholder") ||
     value.includes("default-image") ||
     value.includes("default_image") ||
     value.includes("no-image") ||
-    value.includes("no_image")
+    value.includes("no_image") ||
+    value.includes("spacer.gif") ||
+    value.includes("1x1.gif")
   );
 }
 
@@ -170,17 +155,146 @@ function usableImage(url = "") {
   return /^https?:\/\//i.test(String(url).trim()) && !isPlaceholderImage(url);
 }
 
+/* Google News RSS sometimes exposes the publisher image directly in
+   media/enclosure/img elements. The old code searched a description
+   after stripping HTML, so it could never see those image tags. */
+function imageFromItemXml(itemXml = "") {
+  const patterns = [
+    /<media:content[^>]+url=["']([^"']+)["']/i,
+    /<media:thumbnail[^>]+url=["']([^"']+)["']/i,
+    /<enclosure[^>]+url=["']([^"']+)["']/i,
+    /<img[^>]+src=["']([^"']+)["']/i,
+    /<img[^>]+data-src=["']([^"']+)["']/i,
+    /<img[^>]+data-lazy-src=["']([^"']+)["']/i
+  ];
+
+  for (const pattern of patterns) {
+    const match = itemXml.match(pattern);
+    if (match?.[1]) return decodeEntities(match[1]);
+  }
+  return "";
+}
+
+function extractMetaImages(html = "", baseUrl = "") {
+  const candidates = [];
+  const metaTags = html.match(/<meta\b[^>]*>/gi) || [];
+
+  for (const tag of metaTags) {
+    const property =
+      tag.match(/(?:property|name)=["']([^"']+)["']/i)?.[1]?.toLowerCase();
+    const content = tag.match(/content=["']([^"']+)["']/i)?.[1];
+
+    if (
+      content &&
+      ["og:image", "og:image:url", "og:image:secure_url",
+       "twitter:image", "twitter:image:src"].includes(property)
+    ) {
+      candidates.push(content);
+    }
+  }
+
+  return candidates
+    .map(value => resolveImageUrl(value, baseUrl))
+    .filter(usableImage);
+}
+
+function extractJsonLdImages(html = "", baseUrl = "") {
+  const blocks =
+    html.match(
+      /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi
+    ) || [];
+
+  const results = [];
+
+  function walk(value) {
+    if (!value) return;
+
+    if (typeof value === "string") {
+      const candidate = resolveImageUrl(value, baseUrl);
+      if (usableImage(candidate)) results.push(candidate);
+      return;
+    }
+
+    if (Array.isArray(value)) {
+      for (const item of value) walk(item);
+      return;
+    }
+
+    if (typeof value === "object") {
+      for (const key of [
+        "image", "thumbnailUrl", "contentUrl", "url"
+      ]) {
+        if (value[key]) walk(value[key]);
+      }
+    }
+  }
+
+  for (const block of blocks) {
+    const raw = block
+      .replace(/^<script\b[^>]*>/i, "")
+      .replace(/<\/script>$/i, "")
+      .trim();
+
+    try {
+      walk(JSON.parse(raw));
+    } catch {}
+  }
+
+  return results;
+}
+
+function extractHtmlImageTags(html = "", baseUrl = "") {
+  const results = [];
+  const imgTags = html.match(/<img\b[^>]*>/gi) || [];
+
+  for (const tag of imgTags) {
+    for (const attr of [
+      "src", "data-src", "data-lazy-src", "data-original",
+      "data-lazy", "data-image"
+    ]) {
+      const raw = tag.match(
+        new RegExp(`${attr}=["']([^"']+)["']`, "i")
+      )?.[1];
+
+      const candidate = resolveImageUrl(raw, baseUrl);
+      if (usableImage(candidate)) {
+        results.push(candidate);
+        break;
+      }
+    }
+  }
+
+  return results;
+}
+
+function findPublisherImage(html = "", finalUrl = "") {
+  for (const image of extractMetaImages(html, finalUrl)) return image;
+  for (const image of extractJsonLdImages(html, finalUrl)) return image;
+  for (const image of extractHtmlImageTags(html, finalUrl)) return image;
+  return "";
+}
+
 async function fetchPage(url) {
   try {
     const response = await fetch(url, {
       headers: {
         "User-Agent": USER_AGENT,
-        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        Accept:
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-IN,en;q=0.9"
       },
       redirect: "follow"
     });
-    if (!response.ok) return { text: "", finalUrl: url };
-    return { text: await response.text(), finalUrl: response.url || url };
+
+    if (!response.ok) {
+      console.log(`PAGE ${response.status}: ${url}`);
+      return { text: "", finalUrl: url };
+    }
+
+    return {
+      text: await response.text(),
+      finalUrl: response.url || url
+    };
   } catch (error) {
     console.log(`FAILED ${url}: ${error.message}`);
     return { text: "", finalUrl: url };
@@ -190,27 +304,6 @@ async function fetchPage(url) {
 async function fetchText(url) {
   const page = await fetchPage(url);
   return page.text;
-}
-
-function ogImageFromHtml(html = "") {
-  const patterns = [
-    /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
-    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
-    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i
-  ];
-  for (const pattern of patterns) {
-    const match = html.match(pattern);
-    if (match?.[1] && usableImage(match[1])) return match[1];
-  }
-  return "";
-}
-
-async function resolveArticle(url) {
-  const page = await fetchPage(url);
-  return {
-    html: page.text,
-    finalUrl: page.finalUrl || url
-  };
 }
 
 function hostOf(url = "") {
@@ -224,21 +317,21 @@ function hostOf(url = "") {
 function isAllowedPublisher(url, source) {
   const host = hostOf(url);
   if (ALLOWED_HOSTS.has(host)) return true;
+
   const sourceText = String(source || "").toLowerCase();
-  return [...ALLOWED_HOSTS].some(hostName => sourceText.includes(hostName.replace(/^www\./, "")));
+  return [...ALLOWED_HOSTS].some(hostName =>
+    sourceText.includes(hostName.replace(/^www\./, ""))
+  );
 }
 
 function isTeluguCinema(title, description, source, finalUrl) {
-  const value = `${title} ${description} ${source} ${finalUrl}`.toLowerCase();
+  const value =
+    `${title} ${description} ${source} ${finalUrl}`.toLowerCase();
 
   if (BLOCKED_TERMS.some(term => value.includes(term))) return false;
 
   const hasTeluguSignal = TELUGU_TERMS.some(term => value.includes(term));
-  const cinemaSignal = [
-    "movie", "film", "cinema", "actor", "actress", "director",
-    "trailer", "teaser", "ott", "release", "shoot", "shooting",
-    "tollywood", "telugu"
-  ].some(term => value.includes(term));
+  const cinemaSignal = CINEMA_TERMS.some(term => value.includes(term));
 
   return hasTeluguSignal && cinemaSignal;
 }
@@ -250,7 +343,9 @@ async function collectNews() {
     console.log(`Loading Google News RSS: ${query}`);
 
     const rss = await fetchText(
-      `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-IN&gl=IN&ceid=IN:en`
+      `https://news.google.com/rss/search?q=${encodeURIComponent(
+        query
+      )}&hl=en-IN&gl=IN&ceid=IN:en`
     );
 
     if (!rss) continue;
@@ -258,26 +353,33 @@ async function collectNews() {
     for (const itemXml of extractItems(rss).slice(0, 15)) {
       const title = cleanTitle(xmlTag(itemXml, "title"));
       const url = xmlTag(itemXml, "link");
-      const descriptionRaw = xmlTag(itemXml, "description");
-      const description = stripHtml(descriptionRaw);
+      const description = stripHtml(xmlTag(itemXml, "description"));
       const source = xmlTag(itemXml, "source") || "Cineinsta";
       const publishedAt = xmlTag(itemXml, "pubDate");
 
       if (!title || !url) continue;
 
-      const rssImage = imageFromDescription(descriptionRaw);
-      const resolved = await resolveArticle(url);
+      const resolved = await fetchPage(url);
       const finalUrl = resolved.finalUrl || url;
       const finalHost = hostOf(finalUrl);
 
       if (!isAllowedPublisher(finalUrl, source)) continue;
       if (!isTeluguCinema(title, description, source, finalUrl)) continue;
 
-      let img = usableImage(rssImage) ? rssImage : "";
-      if (!img) img = ogImageFromHtml(resolved.html);
-      if (!img && resolved.html) {
-        img = ogImageFromHtml(resolved.html);
+      let img = "";
+
+      // 1. Direct RSS image, if Google supplied one.
+      const rssImage = imageFromItemXml(itemXml);
+      if (usableImage(resolveImageUrl(rssImage, finalUrl))) {
+        img = resolveImageUrl(rssImage, finalUrl);
       }
+
+      // 2. Publisher's actual social/OG image.
+      if (!img) {
+        img = findPublisherImage(resolved.text, finalUrl);
+      }
+
+      // 3. Only now use Cineinsta's own fallback.
       if (!img) img = FALLBACK_IMAGE;
 
       all.push({
@@ -295,7 +397,11 @@ async function collectNews() {
         category: "Telugu Cinema"
       });
 
-      console.log(`ACCEPTED: ${title} [${finalHost}]${img === FALLBACK_IMAGE ? " [fallback image]" : ""}`);
+      console.log(
+        `ACCEPTED: ${title} [${finalHost}]${
+          img === FALLBACK_IMAGE ? " [fallback image]" : " [publisher image]"
+        }`
+      );
     }
   }
 
@@ -303,12 +409,22 @@ async function collectNews() {
   const seenUrls = new Set();
 
   for (const item of all.sort(
-    (a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0)
+    (a, b) =>
+      new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0)
   )) {
-    const urlKey = item.url.split("?")[0].replace(/\/$/, "").toLowerCase();
+    const urlKey = item.url
+      .split("?")[0]
+      .replace(/\/$/, "")
+      .toLowerCase();
 
     if (seenUrls.has(urlKey)) continue;
-    if (output.some(existing => similarity(existing.title, item.title) >= 0.68)) continue;
+    if (
+      output.some(
+        existing => similarity(existing.title, item.title) >= 0.68
+      )
+    ) {
+      continue;
+    }
 
     seenUrls.add(urlKey);
     output.push(item);
@@ -344,9 +460,15 @@ async function main() {
         ? existing.news
         : news;
 
-  const trailers = Array.isArray(existing.trailers) ? existing.trailers : [];
-  const interviews = Array.isArray(existing.interviews) ? existing.interviews : [];
-  const reviews = Array.isArray(existing.reviews) ? existing.reviews : [];
+  const trailers = Array.isArray(existing.trailers)
+    ? existing.trailers
+    : [];
+  const interviews = Array.isArray(existing.interviews)
+    ? existing.interviews
+    : [];
+  const reviews = Array.isArray(existing.reviews)
+    ? existing.reviews
+    : [];
 
   const feed = {
     updatedAt: new Date().toISOString(),
@@ -358,7 +480,11 @@ async function main() {
   };
 
   await fs.mkdir("data", { recursive: true });
-  await fs.writeFile(DATA_FILE, JSON.stringify(feed, null, 2), "utf8");
+  await fs.writeFile(
+    DATA_FILE,
+    JSON.stringify(feed, null, 2),
+    "utf8"
+  );
 
   console.log(`News collected: ${news.length}`);
   console.log(`News published: ${finalNews.length}`);
