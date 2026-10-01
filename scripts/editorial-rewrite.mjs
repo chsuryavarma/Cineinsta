@@ -38,13 +38,6 @@ function stripHtml(html = "") {
 }
 
 function extractArticleText(html = "") {
-  const raw = String(html || "").trim();
-
-  // Jina Reader returns clean text instead of HTML. Keep that text directly.
-  if (raw && !/<[a-z][\s\S]*>/i.test(raw)) {
-    return cleanText(raw).slice(0, 10000);
-  }
-
   const candidates = [];
 
   for (const match of html.matchAll(
@@ -79,47 +72,18 @@ function extractArticleText(html = "") {
 }
 
 async function fetchSource(url) {
-  const headers = {
-    "User-Agent": USER_AGENT,
-    Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-  };
-
-  // Try the publisher first. Some publishers allow GitHub Actions to fetch
-  // the page directly, while others return a shell page or block the runner.
-  try {
-    const response = await fetch(url, { headers });
-    if (response.ok) {
-      const html = await response.text();
-      if (extractArticleText(html).length >= 250) {
-        return html;
-      }
-    }
-  } catch (error) {
-    console.log(`Direct source fetch failed: ${error.message}`);
-  }
-
-  // Fallback: Jina Reader converts public article pages into clean readable
-  // text and avoids the JavaScript/anti-bot shell returned by some sites.
-  const jinaUrl = `https://r.jina.ai/${url}`;
-  const jinaResponse = await fetch(jinaUrl, {
+  const response = await fetch(url, {
     headers: {
       "User-Agent": USER_AGENT,
-      Accept: "text/plain,text/markdown,*/*;q=0.8"
+      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
     }
   });
 
-  if (!jinaResponse.ok) {
-    throw new Error(
-      `Source unavailable directly and Jina returned HTTP ${jinaResponse.status}`
-    );
+  if (!response.ok) {
+    throw new Error(`Source returned HTTP ${response.status}`);
   }
 
-  const text = await jinaResponse.text();
-  if (extractArticleText(text).length < 250) {
-    throw new Error("insufficient source article text after direct and Jina fetch");
-  }
-
-  return text;
+  return response.text();
 }
 
 function parseJson(text) {
@@ -242,12 +206,15 @@ async function rewriteBatch(batch) {
 Create ORIGINAL Cineinsta editorial articles for ALL supplied stories.
 
 IMPORTANT:
-- Use the supplied source text only for facts.
+- Use ONLY the supplied headline and summary/feed information for factual claims.
+- Do not fetch or rely on the publisher page.
 - Do not copy sentences, paragraph order, or distinctive wording.
 - Do not invent facts, quotes, dates, numbers, motives, ratings, box-office figures or release details.
-- Do not mention the source publisher or source website.
+- Do not add names, events or claims that are not supported by the supplied information.
+- Do not mention the source publisher or source website in the article.
 - Do not tell readers to visit or read the original article.
-- If a story is not Indian cinema or does not contain enough reliable facts, set keep=false.
+- If the supplied information is clearly unrelated to Indian cinema, set keep=false.
+- If the supplied information is brief, expand the same confirmed facts into clear original prose; repetition is preferable to inventing new facts.
 
 For every kept story return:
 1. A fresh Cineinsta headline.
@@ -341,7 +308,7 @@ async function main() {
   console.log(
     `Maximum Gemini requests: ${Math.ceil(news.length / BATCH_SIZE)}`
   );
-  console.log("No per-story retry loop is used.");
+  console.log("Publisher pages are NOT re-fetched; rewrite uses feed metadata only.");
 
   for (let start = 0; start < news.length; start += BATCH_SIZE) {
     const sourceBatch = news.slice(start, start + BATCH_SIZE);
@@ -358,29 +325,29 @@ async function main() {
         continue;
       }
 
-      try {
-        const html = await fetchSource(item.url);
-        const sourceText = extractArticleText(html);
+      // Do not re-fetch publisher pages here.
+      // update-feed.mjs already collected the Google News RSS title,
+      // summary, source and article URL. Many publishers block GitHub
+      // Actions with HTTP 403, which previously caused every story to fail.
+      const sourceText = [
+        `Headline: ${item.title || ""}`,
+        `Summary: ${item.summary || ""}`,
+        `Publisher: ${item.source || ""}`
+      ].join("\n");
 
-        if (sourceText.length < 250) {
-          console.log(
-            `SKIP ${absoluteIndex + 1}: insufficient source article text`
-          );
-          skipped += 1;
-          continue;
-        }
-
-        prepared.push({
-          absoluteIndex,
-          item,
-          sourceText
-        });
-      } catch (error) {
+      if (cleanText(sourceText).length < 80) {
         console.log(
-          `SKIP ${absoluteIndex + 1}: source fetch failed - ${error.message}`
+          `SKIP ${absoluteIndex + 1}: insufficient feed information`
         );
         skipped += 1;
+        continue;
       }
+
+      prepared.push({
+        absoluteIndex,
+        item,
+        sourceText
+      });
     }
 
     if (!prepared.length) continue;
