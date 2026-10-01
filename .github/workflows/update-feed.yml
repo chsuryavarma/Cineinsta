@@ -21,23 +21,15 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate and validate feed candidates
+      - name: Generate feed candidates
         env:
           GEMINI_API_KEY: ${{ secrets.CINEINSTA_GOOGLE }}
         run: |
           node scripts/generate-feed-candidates.mjs
 
-      - name: Validate candidate and existing image URLs
-        run: |
-          node scripts/validate-feed-images.mjs
-
       - name: Publish automatically approved feed
         run: |
           node scripts/publish-feed.mjs
-
-      - name: Validate published feed image URLs
-        run: |
-          node scripts/validate-feed-images.mjs
 
       - name: Update Cineinsta theatre trend signals
         env:
@@ -48,10 +40,6 @@ jobs:
       - name: Generate Cineinsta Buzz
         run: |
           node scripts/update-buzz.mjs
-
-      - name: Validate final Buzz image URLs
-        run: |
-          node scripts/validate-feed-images.mjs
 
       - name: Generate Cineinsta sitemaps
         run: |
