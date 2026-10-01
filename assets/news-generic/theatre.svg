@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#1e293b"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<rect x="350" y="100" width="500" height="230" rx="16" fill="#080d18" stroke="#64748b" stroke-width="8"/>
+<polygon points="600,135 790,295 410,295" fill="#2563eb" opacity=".75"/>
+<g fill="#0f172a" stroke="#475569" stroke-width="5">
+<circle cx="240" cy="455" r="45"/><rect x="200" y="500" width="80" height="75" rx="25"/>
+<circle cx="360" cy="455" r="45"/><rect x="320" y="500" width="80" height="75" rx="25"/>
+<circle cx="480" cy="455" r="45"/><rect x="440" y="500" width="80" height="75" rx="25"/>
+<circle cx="600" cy="455" r="45"/><rect x="560" y="500" width="80" height="75" rx="25"/>
+<circle cx="720" cy="455" r="45"/><rect x="680" y="500" width="80" height="75" rx="25"/>
+<circle cx="840" cy="455" r="45"/><rect x="800" y="500" width="80" height="75" rx="25"/>
+<circle cx="960" cy="455" r="45"/><rect x="920" y="500" width="80" height="75" rx="25"/>
+</g>
+<text x="600" y="635" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#f8fafc">CINEINSTA • CINEMA AUDIENCE</text>
+</svg>

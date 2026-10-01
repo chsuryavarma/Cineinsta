@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#3f1d56"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<rect x="210" y="125" width="780" height="400" rx="30" fill="#080d18" stroke="#64748b" stroke-width="8"/>
+<rect x="275" y="185" width="650" height="270" rx="18" fill="#1e293b"/>
+<polygon points="565,245 565,395 715,320" fill="#e31b23"/>
+<rect x="360" y="490" width="480" height="18" rx="9" fill="#64748b"/>
+<text x="600" y="635" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#f8fafc">CINEINSTA • STREAMING &amp; OTT</text>
+</svg>

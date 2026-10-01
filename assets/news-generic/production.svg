@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<circle cx="600" cy="300" r="150" fill="#080d18" stroke="#64748b" stroke-width="10"/>
+<circle cx="600" cy="300" r="60" fill="#e31b23"/>
+<path d="M475 175L725 425M725 175L475 425" stroke="#f8fafc" stroke-width="28" opacity=".9"/>
+<rect x="405" y="485" width="390" height="35" rx="18" fill="#334155"/>
+<text x="600" y="635" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#f8fafc">CINEINSTA • FILM PRODUCTION</text>
+</svg>

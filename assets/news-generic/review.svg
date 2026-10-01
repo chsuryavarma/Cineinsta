@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#172554"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g)"/>
+<rect x="280" y="125" width="640" height="360" rx="25" fill="#080d18" stroke="#64748b" stroke-width="8"/>
+<polygon points="550,210 550,400 755,305" fill="#e31b23"/>
+<circle cx="405" cy="305" r="18" fill="#f8fafc"/>
+<circle cx="795" cy="305" r="18" fill="#f8fafc"/>
+<path d="M385 540h430" stroke="#64748b" stroke-width="18" stroke-linecap="round"/>
+<text x="600" y="635" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#f8fafc">CINEINSTA • FILM REVIEW</text>
+</svg>
