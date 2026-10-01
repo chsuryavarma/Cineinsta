@@ -6,7 +6,7 @@ const MIN_STORIES = 20;
 const MAX_STORIES = 30;
 const MIN_SUMMARY = 120;
 const MAX_SUMMARY = 650;
-const MIN_BODY_WORDS = 70;
+const MIN_BODY_WORDS = 50;
 const MAX_BODY_WORDS = 500;
 
 const USER_AGENT =
