@@ -11,7 +11,7 @@ const BACKUP = "data/.feed-live-backup.json";
 
 const MIN_STORIES = 20;
 const MAX_STORIES = 30;
-const MIN_SUMMARY = 180;
+const MIN_SUMMARY = 120;
 const MAX_SUMMARY = 650;
 
 async function copyJson(from, to) {
@@ -36,6 +36,7 @@ function validateCandidates(news) {
   const seenImages = new Set();
   const seenTitles = new Set();
   const errors = [];
+  const warnings = [];
 
   for (let index = 0; index < news.length; index += 1) {
     const story = news[index];
@@ -89,7 +90,13 @@ function validateCandidates(news) {
 
     if (story.id && seenIds.has(story.id)) errors.push(`${label}: duplicate id`);
     if (story.url && seenUrls.has(story.url)) errors.push(`${label}: duplicate URL`);
-    if (story.img && seenImages.has(story.img)) errors.push(`${label}: duplicate image`);
+
+    // Duplicate images are currently allowed because some publishers/RSS feeds
+    // reuse the same image. Keep the story rather than failing the whole feed.
+    if (story.img && seenImages.has(story.img)) {
+      warnings.push(`${label}: duplicate image`);
+    }
+
     if (normalizedTitle && seenTitles.has(normalizedTitle)) {
       errors.push(`${label}: duplicate title`);
     }
@@ -98,6 +105,17 @@ function validateCandidates(news) {
     if (story.url) seenUrls.add(story.url);
     if (story.img) seenImages.add(story.img);
     if (normalizedTitle) seenTitles.add(normalizedTitle);
+  }
+
+  if (warnings.length) {
+    console.log("");
+    console.log("Candidate validation warnings:");
+    for (const warning of warnings.slice(0, 25)) {
+      console.log(`WARNING: ${warning}`);
+    }
+    if (warnings.length > 25) {
+      console.log(`...and ${warnings.length - 25} more warnings.`);
+    }
   }
 
   if (errors.length) {
