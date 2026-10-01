@@ -527,8 +527,8 @@ if(!item)return;
 const titleKey=newsTitleKey(item.title||item.t||"");
 const imageKey=newsImageKey(item);
 
-/* Do not treat a shared thumbnail as a duplicate news story.
-   Different stories may legitimately use the same fallback/source image. */
+/* Shared thumbnails are allowed.
+   Only the story title determines whether two news items are duplicates. */
 
 if(!titleKey){
 if(imageKey && /^https?:\/\//i.test(imageKey))imageKeys.add(imageKey);
