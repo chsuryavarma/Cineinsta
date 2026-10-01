@@ -4,9 +4,9 @@ const GEMINI_MODEL = "gemini-3.5-flash-lite";
 const BATCH_SIZE = 4;
 const MIN_STORIES = 20;
 const MAX_STORIES = 30;
-const MIN_SUMMARY = 180;
+const MIN_SUMMARY = 120;
 const MAX_SUMMARY = 650;
-const MIN_BODY_WORDS = 100;
+const MIN_BODY_WORDS = 70;
 const MAX_BODY_WORDS = 500;
 
 const USER_AGENT =
@@ -166,7 +166,7 @@ function validateArticle(article) {
     return { ok: false, reason: "headline length invalid" };
   }
 
-  if (body.length < 3 || body.length > 7) {
+  if (body.length < 2 || body.length > 7) {
     return { ok: false, reason: `body has ${body.length} paragraphs` };
   }
 
@@ -218,8 +218,8 @@ IMPORTANT:
 
 For every kept story return:
 1. A fresh Cineinsta headline.
-2. A 2-3 sentence homepage summary, 180-650 characters.
-3. A complete original article of 3-7 concise paragraphs and 100-500 words. Aim for 4 or more paragraphs when the facts support it; do not pad or invent details.
+2. A 2-3 sentence homepage summary, 120-650 characters.
+3. A complete original article of 2-7 concise paragraphs and 70-500 words. Aim for 3 or more paragraphs when the facts support it; do not pad or invent details.
 
 The article should answer the basic reader questions: what happened, who is involved, what is confirmed, when relevant, and why the development matters in cinema terms. Keep the writing factual and readable.
 
