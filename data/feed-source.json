@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-01T05:21:13.478Z",
+  "updatedAt": "2026-10-01T05:36:47.856Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/latest-buzz-on-aadarsha-kutumbam-trailer-hk.html",
+      "title": "Latest Buzz on Aadarsha Kutumbam Trailer",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Latest Buzz on Aadarsha Kutumbam Trailer...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/latest-buzz-on-aadarsha-kutumbam-trailer-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Aadarsha-Kutumbam-1-2.webp",
+      "publishedAt": "2026-10-01T05:30:13.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/kajals-the-india-story-finally-arrives-in-telugu-and-tamil-on-ott-hk.html",
       "title": "Kajal’s The India Story Finally Arrives in Telugu and Tamil on OTT",
@@ -430,17 +441,6 @@
       "publishedAt": "2026-09-30T07:17:13.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/jr-ntrs-presence-gives-dont-trouble-the-trouble-a-solid-push-avd.html",
-      "title": "Jr NTR's presence gives Don't Trouble The Trouble a solid push",
-      "summary": "Jr NTR’s presence gives Don’t Trouble The Trouble a solid push Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/jr-ntrs-presence-gives-dont-trouble-the-trouble-a-solid-push-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jr-NTR.webp",
-      "publishedAt": "2026-09-30T06:30:57.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -448,10 +448,10 @@
       "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/yami-gautams-nayyi-navelli-trailer-out-mohinis-arrival-as-new-bahu-turns-the-awasthi-familys-world-upside-down/articleshow/134596200.cms",
       "title": "Yami Gautam's 'Nayyi Navelli' trailer out: Mohini's arrival as new bahu turns the Awasthi family's world upside down",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=CIZD3O4k0bs",
+      "url": "https://www.youtube.com/watch?v=OqZtDjJOMR8",
       "originalUrl": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/yami-gautams-nayyi-navelli-trailer-out-mohinis-arrival-as-new-bahu-turns-the-awasthi-familys-world-upside-down/articleshow/134596200.cms",
-      "img": "https://i.ytimg.com/vi/CIZD3O4k0bs/hqdefault.jpg",
-      "youtubeId": "CIZD3O4k0bs",
+      "img": "https://i.ytimg.com/vi/OqZtDjJOMR8/hqdefault.jpg",
+      "youtubeId": "OqZtDjJOMR8",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -481,10 +481,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=cOa2IzaEBbg",
+      "url": "https://www.youtube.com/watch?v=4Jpoh8N0oxI",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/cOa2IzaEBbg/hqdefault.jpg",
-      "youtubeId": "cOa2IzaEBbg",
+      "img": "https://i.ytimg.com/vi/4Jpoh8N0oxI/hqdefault.jpg",
+      "youtubeId": "4Jpoh8N0oxI",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
