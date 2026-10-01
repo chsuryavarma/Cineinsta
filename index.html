@@ -13,6 +13,8 @@ Add this block inside <head>, immediately after the existing meta description.
 Do not remove or replace the existing Cineinsta meta description.
 -->
 
+<link rel="canonical" href="https://www.cineinsta.com/">
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Cineinsta">
 <meta property="og:title" content="Cineinsta — Telugu Cinema">
@@ -23,7 +25,20 @@ Do not remove or replace the existing Cineinsta meta description.
 <meta name="twitter:title" content="Cineinsta — Telugu Cinema">
 <meta name="twitter:description" content="Latest Telugu cinema news, movie reviews, trailers, celebrity interviews and Cineinsta Buzz.">
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Cineinsta",
+  "url": "https://www.cineinsta.com/",
+  "description": "Latest Telugu cinema news, movie reviews, trailers, celebrity interviews and Cineinsta Buzz.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cineinsta",
+    "url": "https://www.cineinsta.com/"
+  }
+}
+</script>
 
 <style>
 :root{--bg:#f4f1eb;--surface:#fffdf9;--surface2:#eeeae2;--line:#ded8ce;--text:#202124;--muted:#707070;--accent:#c9282d;--accent2:#8f171b;--gold:#b1842f;--shadow:0 10px 30px rgba(30,25,20,.08)}
@@ -48,10 +63,10 @@ main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 
 .newsSummary{display:none}
 .newsMeta{display:flex;justify-content:flex-start;gap:9px;margin-top:0;color:#999;font-size:9px}
 .newsGroup{display:contents}
-.trailerGrid{display:grid;gap:0}.trailerCard{border-bottom:1px solid var(--line);background:var(--surface)}.trailerCard:last-child{border-bottom:0}.trailerCard a{display:grid;grid-template-columns:170px minmax(0,1fr);gap:16px;padding:14px 15px;align-items:center}.trailerThumb{position:relative;width:170px;height:108px;aspect-ratio:auto;background:#e5e1da;overflow:hidden;border-radius:9px}.trailerThumb img{width:100%;height:100%;object-fit:cover}.trailerBody{padding:0;min-width:0}.trailerTitle{font-size:17px;font-weight:850;line-height:1.24;margin:5px 0 6px}.trailerSource{color:#8b8882;font-size:9px}.play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--accent);display:grid;place-items:center;font-size:14px;box-shadow:0 4px 16px rgba(0,0,0,.22)}.buzzGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.buzzThumb{position:relative}.buzzBody{padding:13px 14px 15px}.buzzTitle{font-size:14px;font-weight:850;line-height:1.35;margin-bottom:7px}.buzzMeta{color:#8b8882;font-size:9px}.buzzPlay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--accent);display:grid;place-items:center;font-size:17px;box-shadow:0 4px 16px rgba(0,0,0,.22)}.buzzModal{position:fixed;inset:0;z-index:3000;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;padding:20px}.buzzModal.open{display:flex}.buzzModalBox{width:min(960px,100%);background:#111;border-radius:16px;overflow:hidden;box-shadow:0 20px 70px rgba(0,0,0,.45);position:relative}.buzzModalTop{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:12px 16px;background:#181818;color:#fff}.buzzModalTitle{font-size:14px;font-weight:800;line-height:1.35}.buzzModalClose{border:0;background:#fff;color:#222;width:34px;height:34px;border-radius:50%;font-size:20px;cursor:pointer}.buzzFrame{width:100%;aspect-ratio:16/9;border:0;display:block}.buzzModalNote{padding:9px 14px;background:#181818;color:#aaa;font-size:10px}.footerLinks{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:14px}.footerLinks a{color:#777;font-size:10px}.footerLinks a:hover{color:var(--accent)}
+.buzzOpen{display:block;width:100%;padding:0;border:0;background:transparent;text-align:left;color:inherit;font:inherit;cursor:pointer}.buzzOpen:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}.trailerGrid{display:grid;gap:0}.trailerCard{border-bottom:1px solid var(--line);background:var(--surface)}.trailerCard:last-child{border-bottom:0}.trailerCard a{display:grid;grid-template-columns:170px minmax(0,1fr);gap:16px;padding:14px 15px;align-items:center}.trailerThumb{position:relative;width:170px;height:108px;aspect-ratio:auto;background:#e5e1da;overflow:hidden;border-radius:9px}.trailerThumb img{width:100%;height:100%;object-fit:cover}.trailerBody{padding:0;min-width:0}.trailerTitle{font-size:17px;font-weight:850;line-height:1.24;margin:5px 0 6px}.trailerSource{color:#8b8882;font-size:9px}.play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--accent);display:grid;place-items:center;font-size:14px;box-shadow:0 4px 16px rgba(0,0,0,.22)}.buzzGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.buzzThumb{position:relative}.buzzBody{padding:13px 14px 15px}.buzzTitle{font-size:14px;font-weight:850;line-height:1.35;margin-bottom:7px}.buzzMeta{color:#8b8882;font-size:9px}.buzzPlay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--accent);display:grid;place-items:center;font-size:17px;box-shadow:0 4px 16px rgba(0,0,0,.22)}.buzzModal{position:fixed;inset:0;z-index:3000;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;padding:20px}.buzzModal.open{display:flex}.buzzModalBox{width:min(960px,100%);background:#111;border-radius:16px;overflow:hidden;box-shadow:0 20px 70px rgba(0,0,0,.45);position:relative}.buzzModalTop{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:12px 16px;background:#181818;color:#fff}.buzzModalTitle{font-size:14px;font-weight:800;line-height:1.35}.buzzModalClose{border:0;background:#fff;color:#222;width:34px;height:34px;border-radius:50%;font-size:20px;cursor:pointer}.buzzFrame{width:100%;aspect-ratio:16/9;border:0;display:block}.buzzModalNote{padding:9px 14px;background:#181818;color:#aaa;font-size:10px}.footerLinks{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:14px}.footerLinks a{color:#777;font-size:10px}.footerLinks a:hover{color:var(--accent)}
 .reviewList{display:grid;gap:14px}.reviewWide{display:grid;grid-template-columns:190px 1fr;gap:20px;padding:15px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 5px 18px rgba(30,25,20,.04)}.reviewThumb{aspect-ratio:16/10;background:#e5e1da;border-radius:9px;overflow:hidden}.reviewThumb img{width:100%;height:100%;object-fit:cover}.reviewTag{color:var(--accent);font-size:8px;font-weight:900;letter-spacing:.9px}.reviewTitle{margin:6px 0 4px;font-size:19px;font-weight:900}.releaseDate{color:#888;font-size:10px;margin-bottom:8px}.cineRating{color:var(--gold);font-size:16px;font-weight:900;margin-bottom:9px}.cineRating span{display:block;color:#999;font-size:8px;font-weight:normal;margin-top:2px;text-transform:uppercase}.reviewSources{border-top:1px solid var(--line)}.reviewSource{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #eee9e0;color:#777;font-size:10px}.reviewSource a{color:var(--accent);font-weight:900}.reviewSource strong{color:#aaa;font-weight:normal}
 .moreBtn{display:block;width:max-content;margin:20px auto 0;padding:10px 18px;border:1px solid #cfc8bd;border-radius:999px;color:#555;font-size:10px;font-weight:900;text-transform:uppercase;background:transparent}.moreBtn:hover{border-color:var(--accent);color:var(--accent)}.empty{padding:35px 15px;text-align:center;border:1px dashed #d5cfc5;border-radius:12px;color:#999;font-size:12px;background:rgba(255,253,249,.5)}
-.articlePage{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px 32px 38px;box-shadow:var(--shadow)}.articleBack{display:inline-block;margin-bottom:22px;color:#777;font-size:11px;font-weight:800}.articleSource{color:var(--accent);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.articleTitle{margin:0 0 14px;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-1.5px}.articleMeta{color:#888;font-size:11px;margin-bottom:22px}.articleImage{width:100%;max-height:520px;object-fit:cover;object-position:center top;border-radius:12px;margin-bottom:25px}.articleVideo{position:relative;width:100%;aspect-ratio:16/9;margin:0 0 25px;border-radius:12px;overflow:hidden;background:#111}.articleVideo iframe{width:100%;height:100%;border:0}.articleSummary{color:#4f4f4f;font-size:16px;line-height:1.8;margin-bottom:25px}.articleSourceBox{border-top:1px solid var(--line);padding-top:18px;color:#777;font-size:11px}.articleSourceBox a{color:var(--accent);font-weight:900}.articleSourceBox .sourceNote{color:#999;font-size:10px}
+.articlePage{max-width:900px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px 32px 38px;box-shadow:var(--shadow)}.articleBack{display:inline-block;margin-bottom:22px;color:#777;font-size:11px;font-weight:800}.articleSource{color:var(--accent);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.articleTitle{margin:0 0 14px;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-1.5px}.articleMeta{color:#888;font-size:11px;margin-bottom:22px}.articleImage{width:100%;max-height:520px;object-fit:cover;border-radius:12px;margin-bottom:25px}.articleVideo{position:relative;width:100%;aspect-ratio:16/9;margin:0 0 25px;border-radius:12px;overflow:hidden;background:#111}.articleVideo iframe{width:100%;height:100%;border:0}.articleSummary{color:#4f4f4f;font-size:16px;line-height:1.8;margin-bottom:25px}.articleSourceBox{border-top:1px solid var(--line);padding-top:18px;color:#777;font-size:11px}.articleSourceBox a{color:var(--accent);font-weight:900}.articleSourceBox .sourceNote{color:#999;font-size:10px}
 .articleEditorial{max-width:760px;margin:0 auto}
 .articleEditorial .articleSummary{font-size:18px;line-height:1.65;font-weight:700;color:#262626;margin:0 0 22px}
 .articleBody{font-size:16px;line-height:1.75;color:#333}
@@ -72,7 +87,7 @@ main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 
 .articleRelatedHead{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:14px}.articleRelatedHead h2{margin:0;font-size:22px;letter-spacing:-.4px}.articleRelatedHead span{color:#888;font-size:10px;text-transform:uppercase;letter-spacing:1px}
 .articleRelatedGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.relatedCard{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:inherit;transition:transform .18s ease,box-shadow .18s ease}.relatedCard:hover{transform:translateY(-2px);box-shadow:0 9px 22px rgba(30,25,20,.08)}.relatedCardInner{display:grid;grid-template-columns:120px minmax(0,1fr);min-height:112px}.relatedImage{width:120px;height:112px;object-fit:cover;background:#eee}.relatedImageFallback{width:120px;height:112px;display:flex;align-items:center;justify-content:center;padding:10px;background:#f0ece6;color:#777;font-size:10px;font-weight:850;text-align:center}.relatedContent{padding:12px;display:flex;flex-direction:column;justify-content:center;min-width:0}.relatedSource{font-size:8px;font-weight:900;text-transform:uppercase;letter-spacing:.7px;color:var(--accent);margin-bottom:5px}.relatedTitle{font-size:13px;line-height:1.25;font-weight:900;color:#222}.relatedMeta{font-size:9px;color:#999;margin-top:7px}.articleJumpNav{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}.articleJumpNav a{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;color:#333;background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 14px;font-size:10px;font-weight:900;box-shadow:0 3px 10px rgba(30,25,20,.04)}.articleJumpNav a:hover{border-color:var(--accent);color:var(--accent)}
 
-.cineBuzzGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.cineBuzzCard{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.05);transition:transform .18s ease,box-shadow .18s ease}.cineBuzzCard:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(30,25,20,.1)}.cineBuzzImage{width:100%;height:210px;object-fit:cover;background:#eee}.cineBuzzFallback{height:210px;display:flex;align-items:flex-end;padding:16px;background:linear-gradient(145deg,#171717,#c9282d);color:#fff;font-size:20px;font-weight:950;line-height:1.05}.cineBuzzBody{padding:13px}.cineBuzzKicker{font-size:8px;color:var(--accent);font-weight:950;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}.cineBuzzTitle{font-size:15px;line-height:1.2;font-weight:900;margin-bottom:8px}.cineBuzzReason{font-size:10px;line-height:1.35;color:#666;margin:-2px 0 9px}.cineBuzzMeta{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#888;font-size:9px}.cineBuzzRating{font-weight:950;color:#222;font-size:12px}.cineBuzzEmpty{grid-column:1/-1}.cineBuzzTabs{display:flex;gap:7px;overflow-x:auto;padding:2px 0 12px;margin-bottom:2px;scrollbar-width:none}.cineBuzzTabs::-webkit-scrollbar{display:none}.cineBuzzTab{flex:0 0 auto;border:1px solid #d7d0c6;background:#fff;border-radius:999px;padding:8px 11px;font-size:9px;font-weight:900;color:#555;cursor:pointer}.cineBuzzTab.active{background:#171717;color:#fff;border-color:#171717}.cineBuzzTab small{font-size:8px;opacity:.65;margin-left:3px}.cineBuzzScore{font-weight:950;color:#222;font-size:11px}.cineBuzzScore span{color:#777;font-weight:700}.cineBuzzOtt{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:7px 0 8px;padding:7px 8px;border-radius:9px;background:#f7f5f1;font-size:9px;color:#555}.cineBuzzOtt strong{color:#222;font-size:9px}.cineBuzzDetails{font-size:9px;color:#777;line-height:1.35;margin-top:7px}
+.cineBuzzGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.cineBuzzCard{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 5px 18px rgba(30,25,20,.05);transition:transform .18s ease,box-shadow .18s ease}.cineBuzzCard:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(30,25,20,.1)}.cineBuzzImage{width:100%;height:210px;object-fit:cover;background:#eee}.cineBuzzFallback{height:210px;display:flex;align-items:flex-end;padding:16px;background:linear-gradient(145deg,#171717,#c9282d);color:#fff;font-size:20px;font-weight:950;line-height:1.05}.cineBuzzBody{padding:13px}.cineBuzzKicker{font-size:8px;color:var(--accent);font-weight:950;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}.cineBuzzTitle{font-size:15px;line-height:1.2;font-weight:900;margin-bottom:8px}.cineBuzzReason{font-size:10px;line-height:1.35;color:#666;margin:-2px 0 9px}.cineBuzzMeta{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#888;font-size:9px}.cineBuzzRating{font-weight:950;color:#222;font-size:12px}.cineBuzzEmpty{grid-column:1/-1}.cineBuzzTabs{position:relative;z-index:50;display:flex;gap:7px;overflow-x:auto;padding:2px 0 12px;margin-bottom:2px;scrollbar-width:none}.cineBuzzTabs::-webkit-scrollbar{display:none}.cineBuzzTab{position:relative;z-index:51;pointer-events:auto;touch-action:manipulation;flex:0 0 auto;border:1px solid #d7d0c6;background:#fff;border-radius:999px;padding:8px 11px;font-size:9px;font-weight:900;color:#555;cursor:pointer}.cineBuzzTab.active{background:#171717;color:#fff;border-color:#171717}.cineBuzzTab small{font-size:8px;opacity:.65;margin-left:3px}.cineBuzzScore{font-weight:950;color:#222;font-size:11px}.cineBuzzScore span{color:#777;font-weight:700}.cineBuzzOtt{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:7px 0 8px;padding:7px 8px;border-radius:9px;background:#f7f5f1;font-size:9px;color:#555}.cineBuzzOtt strong{color:#222;font-size:9px}.cineBuzzDetails{font-size:9px;color:#777;line-height:1.35;margin-top:7px}
 footer{border-top:1px solid var(--line);padding:25px 20px 40px;text-align:center;color:#999;font-size:10px}.mobileNav{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1000;height:62px;background:rgba(255,253,249,.97);border-top:1px solid var(--line);grid-template-columns:repeat(5,1fr)}.mobileNav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#777;font-size:11px;font-weight:850}.mobileNav a span{font-size:20px;line-height:20px;font-weight:900}.mobileNav a:hover{color:var(--accent)}
 
 /* Enhanced Cineinsta BUZZ / Ticket Trends */
@@ -365,7 +380,7 @@ return selected.slice(0,4);
 function renderRelatedNews(currentItem){
 const items=relatedNewsItems(currentItem);
 if(!items.length)return "";
-return `<section class="articleRelated" aria-labelledby="relatedNewsTitle"><div class="articleRelatedHead"><h2 id="relatedNewsTitle">Related News</h2><span>More from Cineinsta</span></div><div class="articleRelatedGrid">${items.map(function(item){const title=item.title||item.t||"Cinema news";const source=item.source||"Cineinsta";const image=item.img||"";return `<a class="relatedCard" href="/news/${articleSlug(item)}"><div class="relatedCardInner">${image?`<img class="relatedImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy">`:`<div class="relatedImageFallback">${escapeHTML(title)}</div>`}<div class="relatedContent"><div class="relatedTitle">${escapeHTML(title)}</div><div class="relatedMeta">${escapeHTML(formatDate(item.publishedAt)||"Latest")} · Read on Cineinsta →</div></div></div></a>`;}).join("")}</div></section>`;
+return `<section class="articleRelated" aria-labelledby="relatedNewsTitle"><div class="articleRelatedHead"><h2 id="relatedNewsTitle">Related News</h2><span>More from Cineinsta</span></div><div class="articleRelatedGrid">${items.map(function(item){const title=item.title||item.t||"Cinema news";const source=item.source||"Cineinsta";const image=item.img||"";return `<a class="relatedCard" href="/news/${articleSlug(item)}"><div class="relatedCardInner">${image?`<img class="relatedImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy">`:`<div class="relatedImageFallback">${escapeHTML(title)}</div>`}<div class="relatedContent"><div class="relatedSource">${escapeHTML(source)}</div><div class="relatedTitle">${escapeHTML(title)}</div><div class="relatedMeta">${escapeHTML(formatDate(item.publishedAt)||"Latest")} · Read on Cineinsta →</div></div></div></a>`;}).join("")}</div></section>`;
 }
 
 function renderEditorialArticle(item){
@@ -385,10 +400,14 @@ const articlePage=document.getElementById("articlePage");
 const item=entry.item;
 const title=item.title||item.t||"Cineinsta";
 const image=item.img||"";
+const source=item.source||"Cineinsta";
 const date=formatDate(item.publishedAt);
+const originalUrl=item.originalUrl||item.url||item.u||"#";
 const relatedHtml=entry.type==="news"?renderRelatedNews(item):"";
 const editorialHtml=entry.type==="news"?renderEditorialArticle(item):`<div class="articleSummary">${escapeHTML(cleanSummary(item.summary||item.d||"Latest Indian cinema update."))}</div>`;
-articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#trailersSection" data-section="trailersSection">Jump to Trailers</a></nav></div>`;
+const sourceNames=item.source||"Cineinsta";
+const sourceExtra=Array.isArray(item.sources)&&item.sources.length?`<div class="articleSourceList"><strong>Information sources</strong><ul>${item.sources.map(function(s){return `<li>${escapeHTML(String(s))}</li>`}).join("")}</ul></div>`:"";
+articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#trailersSection" data-section="trailersSection">Jump to Trailers</a></nav></div>`;
 updateSEO(entry);
 }
 
@@ -397,72 +416,45 @@ function renderCineinstaBuzz(){
 const grid=document.getElementById("cineBuzzGrid"),tabs=document.getElementById("cineBuzzTabs");
 if(!grid||!tabs)return;
 const all=Array.isArray(feed.buzz)?feed.buzz.filter(function(item){return item&&(item.title||item.t)&&item.img;}):[];
-const ottTrending=feed.ottTrending&&typeof feed.ottTrending==="object"?feed.ottTrending:{};
-const platforms=Array.isArray(feed.buzzTabs)&&feed.buzzTabs.length?feed.buzzTabs:[{id:"buzz",name:"Buzz Now"},{id:"theatres",name:"Theatres Now"},{id:"netflix",name:"Netflix"},{id:"prime-video",name:"Prime Video"},{id:"aha",name:"Aha"},{id:"jiohotstar",name:"JioHotstar"},{id:"zee5",name:"ZEE5"},{id:"sun-nxt",name:"Sun NXT"},{id:"etv-win",name:"ETV Win"},{id:"sonyliv",name:"SonyLIV"}];
-let active=window.cineBuzzActiveTab||"buzz";
-if(!platforms.some(function(p){return p.id===active;}))active="theatres";
+const platforms=[{id:"all",name:"Buzz Now"},{id:"netflix",name:"Netflix"},{id:"prime-video",name:"Prime Video"},{id:"aha",name:"Aha"},{id:"jiohotstar",name:"JioHotstar"},{id:"zee5",name:"ZEE5"},{id:"sun-nxt",name:"Sun NXT"},{id:"etv-win",name:"ETV Win"},{id:"sonyliv",name:"SonyLIV"}];
+let active=window.cineBuzzActiveTab||"all";
+if(!platforms.some(function(p){return p.id===active;}))active="all";
 window.cineBuzzActiveTab=active;
-const countFor=function(id){
-if(id==="buzz")return all.length;
-if(id==="theatres")return all.filter(function(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;}).length;
-const data=ottTrending[id];
-return data&&Array.isArray(data.items)?data.items.length:0;
-};
-tabs.innerHTML=platforms.map(function(p){const count=countFor(p.id);return `<button type="button" class="cineBuzzTab${p.id===active?" active":""}" data-buzz-tab="${escapeHTML(p.id)}" role="tab" aria-selected="${p.id===active?"true":"false"}">${escapeHTML(p.name)}<small>${count}</small></button>`;}).join("");
+function hasTheatre(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;}
+function hasPlatform(x,id){return Array.isArray(x.platformIds)&&x.platformIds.includes(id)||(x.ott&&x.ott[id]);}
+tabs.innerHTML=platforms.map(function(p){
+const count=p.id==="all"?all.length:p.id==="theatres"?all.filter(hasTheatre).length:all.filter(function(x){return hasPlatform(x,p.id);}).length;
+return `<button type="button" class="cineBuzzTab${p.id===active?" active":""}" data-buzz-tab="${escapeHTML(p.id)}" role="tab" aria-selected="${p.id===active?"true":"false"}">${escapeHTML(p.name)}${count?`<small>${count}</small>`:""}</button>`;
+}).join("");
 
+// Bind directly after rebuilding the buttons. This avoids relying on a document-level
+// click handler and keeps the tabs reliable after every Buzz render.
 tabs.querySelectorAll("[data-buzz-tab]").forEach(function(button){
-button.addEventListener("click",function(){
-window.cineBuzzActiveTab=button.getAttribute("data-buzz-tab")||"buzz";
+button.addEventListener("click",function(event){
+event.preventDefault();
+event.stopPropagation();
+window.cineBuzzActiveTab=button.getAttribute("data-buzz-tab") || "all";
 renderCineinstaBuzz();
 });
 });
-
-let selected=[];
-if(active==="buzz")selected=all;
-else if(active==="theatres")selected=all.filter(function(x){return Number(x.theatre&&x.theatre.cinemas)>0||Number(x.theatre&&x.theatre.shows)>0;});
-else {
-const data=ottTrending[active];
-selected=data&&Array.isArray(data.items)?data.items.filter(function(x){return x&&(x.title||x.name)&&x.img;}):[];
-}
-
+let selected=active==="all"?all.slice():all.filter(function(x){return hasPlatform(x,active);});
 if(!selected.length){
 const p=platforms.find(function(x){return x.id===active;});
-let msg="No titles are available in this section yet.";
-if(active==="theatres")msg="Current theatre/showtime data is not available yet.";
-else if(active!=="buzz"){
-const data=ottTrending[active];
-msg=data&&data.note?data.note:`${p?p.name:"This platform"} has not exposed a reliable public movie list yet.`;
-}
+const msg=`${p?p.name:"This platform"} has no explicit Cineinsta OTT signal right now. Check Buzz Now for current Cineinsta activity.`;
 grid.innerHTML=`<div class="empty cineBuzzEmpty">${escapeHTML(msg)}</div>`;
 return;
 }
-
-if(active!=="buzz"&&active!=="theatres"){
-const data=ottTrending[active]||{};
-const platformName=(platforms.find(function(p){return p.id===active;})||{}).name||data.name||"OTT";
-const sourceUrl=data.sourceUrl||"";
-const cards=selected.slice(0,10).map(function(item,index){
-const title=item.title||item.name||"Cineinsta Buzz";
-const image=item.img||item.image||"";
-const rank=item.rank!=null?String(item.rank):String(index+1);
-const itemUrl=item.url&&item.url!=="#"?item.url:sourceUrl;
-const label=item.label||data.label||"Currently surfaced by the platform";
-const safeHref=itemUrl?escapeHTML(itemUrl):"#";
-return `<a class="cineBuzzCard" href="${safeHref}"${itemUrl?` target="_blank" rel="noopener noreferrer"`:""}>${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${escapeHTML(platformName)} · ${escapeHTML(label)}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${rank?`#${escapeHTML(rank)} on the platform's public movie surface.`:"Currently featured on the platform."}</div><div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>Platform-published selection</span></div><div class="cineBuzzMeta"><span>Source: ${escapeHTML(platformName)}</span></div><div class="cineBuzzDetails">This is a movie surfaced by ${escapeHTML(platformName)}. Cineinsta does not assign a popularity score or ranking to this list.</div></div></a>`;
-}).join("");
-grid.innerHTML=cards;
-return;
-}
-
 grid.innerHTML=selected.slice(0,6).map(function(item){
 const title=item.title||item.t||"Cineinsta Buzz",image=item.img||"",link=`/buzz/${articleSlug(item)}`;
 const score=item.buzzScore!=null?String(item.buzzScore):"",status=item.status||"",why=item.why||"Recent Cineinsta activity";
-const theatre=item.theatre||{};
+const theatre=item.theatre||{},ott=item.ott&&item.ott[active]?item.ott[active]:null;
 const signalBits=[];
 if(Number(theatre.cinemas)>0)signalBits.push(String(theatre.cinemas)+" cinemas");
 if(Number(theatre.shows)>0)signalBits.push(String(theatre.shows)+" shows");
-const kicker=active==="theatres"?"Theatres Now":"Cineinsta Buzz";
-return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${kicker}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div><div class="cineBuzzMeta"><span>${escapeHTML(signalBits.join(" · ")||(active==="theatres"?"Current theatre signals":"Current Cineinsta activity"))}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and available theatre signals.":"Score reflects Cineinsta editorial activity, not an OTT ranking."}</div></div></a>`;
+const platformName=(platforms.find(function(p){return p.id===active;})||{}).name||"OTT";
+const ottLabel=ott&&ott.label?ott.label:"Mentioned in recent Cineinsta coverage";
+const context=active==="all"?"Current Cineinsta activity":platformName+" · explicit Cineinsta signal";
+return `<a class="cineBuzzCard" href="${link}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.closest('.cineBuzzCard')?.remove()">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">${active==="all"?"Cineinsta Buzz":active==="theatres"?"Theatres Now":"Cineinsta OTT Signal"}${status?" · "+escapeHTML(status):""}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzReason">${escapeHTML(why)}</div>${active!=="all"&&active!=="theatres"?`<div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>${escapeHTML(ottLabel)}</span></div>`:""}<div class="cineBuzzMeta"><span>${escapeHTML(context)}</span>${score?`<strong class="cineBuzzScore">Cineinsta Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">${active==="theatres"?"Score reflects recent Cineinsta activity and verified theatre signals.":active==="all"?"Score reflects recent Cineinsta news, review, trailer and available theatre activity.":"Platform tab shows an explicit Cineinsta OTT signal; it does not claim verified platform availability."}</div></div></a>`;
 }).join("");
 }
 
@@ -478,7 +470,7 @@ feed.trailers=Array.isArray(feed.trailers)?feed.trailers:[];
 feed.reviews=Array.isArray(feed.reviews)?feed.reviews:[];
 feed.buzz=[];
 const buzzResponse=results[1].status==="fulfilled"?results[1].value:null;
-if(buzzResponse&&buzzResponse.ok){try{const buzzData=await buzzResponse.json();feed.buzz=Array.isArray(buzzData.movies)?buzzData.movies:[];feed.buzzTabs=Array.isArray(buzzData.tabs)?buzzData.tabs:[];feed.ottTrending=buzzData.ottTrending&&typeof buzzData.ottTrending==="object"?buzzData.ottTrending:{};}catch(error){console.warn("Buzz data could not be parsed:",error);}}
+if(buzzResponse&&buzzResponse.ok){try{const buzzData=await buzzResponse.json();feed.buzz=Array.isArray(buzzData.movies)?buzzData.movies:[];feed.buzzTabs=Array.isArray(buzzData.tabs)?buzzData.tabs:[];}catch(error){console.warn("Buzz data could not be parsed:",error);}}
 renderHero(feed.news);renderNews(feed.news,20);renderTrailers(feed.trailers);renderCineinstaBuzz();renderReviews(feed.reviews);
 }catch(error){
 console.error(error);
@@ -498,7 +490,7 @@ hero.style.display="block";
 document.getElementById("heroImage").innerHTML='<img src="'+escapeHTML(item.img)+'" alt="'+escapeHTML(item.title)+'">';
 document.getElementById("heroTitle").textContent=item.title||"";
 document.getElementById("heroSummary").textContent=cleanSummary(item.summary||"");
-document.getElementById("heroMeta").textContent=formatDate(item.publishedAt)||"";
+document.getElementById("heroMeta").textContent=(item.source||"Telugu Cinema")+(formatDate(item.publishedAt)?" · "+formatDate(item.publishedAt):"");
 document.getElementById("heroLink").href="/news/"+articleSlug(item);
 }
 
@@ -603,7 +595,8 @@ visible.forEach(function(item){
 html+=`
 <article class="newsCard"><a href="/news/${articleSlug(item)}">
 <div class="newsImage"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.title)}" loading="lazy" decoding="async" onerror="handleNewsImageError(this)"></div>
-<div class="newsBody"><div class="newsTitle">${escapeHTML(item.title||"")}</div>
+<div class="newsBody"><div class="newsSource">${escapeHTML(item.source||"Telugu Cinema")}</div>
+<div class="newsTitle">${escapeHTML(item.title||"")}</div>
 <div class="newsMeta"><span>Telugu</span><span>${formatDate(item.publishedAt)}</span></div>
 </div></a></article>`;
 });
@@ -634,9 +627,19 @@ grid.innerHTML=items.slice(0,Number.isInteger(limit)?limit:12).map(function(item
 const image=item.img||(item.youtubeId?"https://i.ytimg.com/vi/"+item.youtubeId+"/hqdefault.jpg":"");
 return `
 <article class="buzzCard">
-<div class="buzzThumb">${image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(item.title||"Celebrity buzz")}" loading="lazy">`:""}<div class="buzzPlay" aria-hidden="true">▶</div></div>
-<div class="buzzBody"><div class="buzzTitle">${escapeHTML(item.title||"")}</div><div class="buzzMeta">${formatDate(item.publishedAt)}</div></div>
+<button class="buzzOpen" type="button" data-buzz-index="${index}" aria-label="Play Cineinsta Buzz: ${escapeHTML(item.title||"Celebrity buzz")}">
+<div class="buzzThumb">${image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(item.title||"Celebrity buzz")}" loading="lazy">`:""}<div class="buzzPlay">▶</div></div>
+<div class="buzzBody"><div class="buzzTitle">${escapeHTML(item.title||"")}</div><div class="buzzSource">${escapeHTML(item.source||"YouTube")}</div><div class="buzzMeta">${formatDate(item.publishedAt)}</div></div>
+</button>
 </article>`}).join("");
+
+grid.querySelectorAll(".buzzOpen").forEach(function(button){
+button.addEventListener("click",function(){
+const index=Number(button.getAttribute("data-buzz-index"));
+const item=items[index];
+if(item) openBuzzPlayer(item);
+});
+});
 }
 
 function openBuzzPlayer(item){
@@ -717,16 +720,9 @@ articlePage.innerHTML="";
 }
 }
 
-function updateHomeSEO(){
-const canonical=document.querySelector('link[rel="canonical"]')||document.head.appendChild(Object.assign(document.createElement("link"),{rel:"canonical"}));
-canonical.href=window.location.origin+"/";
-document.title="Cineinsta — Telugu Cinema";
-const description=document.querySelector('meta[name="description"]');
-if(description)description.content="Cineinsta brings Telugu cinema news, movie reviews, trailers, OTT updates and Cineinsta Buzz in one place.";
-}
 function showHomeLayout(){
 const intro=document.querySelector(".intro"),hero=document.getElementById("homeHero"),newsSection=document.getElementById("newsSection"),trailersSection=document.getElementById("trailersSection"),buzzSection=document.getElementById("buzzSection"),reviewsSection=document.getElementById("reviewsSection"),globalJumpNav=document.querySelector(".jumpNav"),buzzTitle=buzzSection.querySelector(".sectionHead h2"),buzzLabel=buzzSection.querySelector(".sectionHead span");
-intro.style.display="";hero.style.display="";newsSection.style.display="";trailersSection.style.display="";buzzSection.style.display="";reviewsSection.style.display="";if(globalJumpNav)globalJumpNav.style.display="";updateHomeSEO();
+intro.style.display="";hero.style.display="";newsSection.style.display="";trailersSection.style.display="";buzzSection.style.display="";reviewsSection.style.display="";if(globalJumpNav)globalJumpNav.style.display="";
 renderHero(feed.news);newsExpanded=false;renderNews(feed.news,20);renderTrailers(feed.trailers);renderCineinstaBuzz();renderReviews(feed.reviews);buzzTitle.textContent="Cineinsta Buzz";if(buzzLabel)buzzLabel.textContent="";
 }
 function hideArticlePage(){const articlePage=document.getElementById("articlePage");if(articlePage){articlePage.style.display="none";articlePage.innerHTML="";}}
