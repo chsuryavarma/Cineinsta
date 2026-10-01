@@ -45,17 +45,17 @@ jobs:
         run: |
           node scripts/generate-sitemap.mjs
 
-      - name: Commit updated feed, Buzz and sitemaps
+      - name: Commit updated feed, generic news images, Buzz and sitemaps
         run: |
           git config user.name "Cineinsta Feed Bot"
           git config user.email "cineinsta-bot@users.noreply.github.com"
 
-          git add data/feed.json data/feed-candidates.json data/feed-source.json data/buzz.json sitemap.xml sitemap-pages.xml sitemap-news.xml
+          git add data/feed.json data/feed-candidates.json data/feed-source.json data/buzz.json sitemap.xml sitemap-pages.xml sitemap-news.xml assets/news-generic
 
           if [ -f data/ticket-trends.json ]; then
             git add data/ticket-trends.json
           fi
 
-          git diff --cached --quiet || git commit -m "Auto-update Cineinsta feed, Buzz and sitemaps"
+          git diff --cached --quiet || git commit -m "Use original generic images for Cineinsta news"
 
           git push
