@@ -527,12 +527,11 @@ if(!item)return;
 const titleKey=newsTitleKey(item.title||item.t||"");
 const imageKey=newsImageKey(item);
 
-/* If two feed items use the same thumbnail, they are usually the same
-   syndicated story. Keep only the first version. */
-if(imageKey && imageKeys.has(imageKey))return;
+/* Do not treat a shared thumbnail as a duplicate news story.
+   Different stories may legitimately use the same fallback/source image. */
 
 if(!titleKey){
-if(imageKey)imageKeys.add(imageKey);
+if(imageKey && /^https?:\/\//i.test(imageKey))imageKeys.add(imageKey);
 result.push(item);
 return;
 }
@@ -571,16 +570,13 @@ return result;
 }
 
 function handleNewsImageError(img){
-const card=img&&img.closest?img.closest(".newsCard"):null;
-if(card)card.remove();
-const grid=document.getElementById("newsGrid");
-if(grid&&!grid.querySelector(".newsCard"))grid.innerHTML='<div class="empty">No latest Telugu news with working thumbnails available right now.</div>';
+if(img)img.style.display="none";
 }
 
 function renderNews(items,limit){
 const grid=document.getElementById("newsGrid");
 const button=document.getElementById("newsMoreBtn");
-const validNews=dedupeNews(items.filter(function(item){return item&&typeof item.img==="string"&&/^https?:\/\//i.test(item.img.trim())&&item.url;}));
+const validNews=dedupeNews(items.filter(function(item){return item&&typeof item.img==="string"&&/^(https?:\/\/|\/|\.\/)/i.test(item.img.trim())&&item.url;}));
 if(!validNews.length){
 grid.innerHTML='<div class="empty">No latest Telugu news with thumbnails available right now.</div>';
 if(button)button.style.display="none";
@@ -594,7 +590,7 @@ let html="";
 visible.forEach(function(item){
 html+=`
 <article class="newsCard"><a href="/news/${articleSlug(item)}">
-<div class="newsImage"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.title)}" loading="lazy" decoding="async" onerror="handleNewsImageError(this)"></div>
+<div class="newsImage"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.title)}" loading="lazy" decoding="async" onerror="this.style.display='none'"></div>
 <div class="newsBody"><div class="newsSource">${escapeHTML(item.source||"Telugu Cinema")}</div>
 <div class="newsTitle">${escapeHTML(item.title||"")}</div>
 <div class="newsMeta"><span>Telugu</span><span>${formatDate(item.publishedAt)}</span></div>
