@@ -59,8 +59,16 @@ function abs(v, base) {
   try { return new URL(v, base).href; } catch { return ''; }
 }
 
+/*
+  Only accept real editorial images.
+
+  Filmibeat pages contain many unrelated images inside the same page:
+  YouTube thumbnails, promotional banners, logos, social images, ads, etc.
+  Those images must never be paired with a movie title.
+*/
 function imageFromBlock(block) {
   const tags = block.match(/<img\b[^>]*>/gi) || [];
+
   for (const tag of tags) {
     const srcset = attr(tag, 'srcset');
     const raw =
@@ -71,21 +79,45 @@ function imageFromBlock(block) {
       (srcset ? srcset.split(',').pop().trim().split(/\s+/)[0] : '');
 
     const url = abs(raw, FILMIBEAT_TELUGU);
+    if (!/^https?:\/\//i.test(url)) continue;
+
+    /*
+      Reject known non-editorial/thumbnail/promo image hosts and paths.
+      In particular, YouTube thumbnails were causing the title/image mismatch.
+    */
     if (
-      /^https?:\/\//i.test(url) &&
-      !/(logo|icon|sprite|placeholder|avatar|facebook|instagram|twitter|app_store|google_play)/i.test(url)
-    ) return url;
+      /(youtube\.com|youtu\.be|ytimg\.com|googleusercontent\.com|goodreturns\.in|gstatic\.com)/i.test(url)
+    ) continue;
+
+    if (
+      /(logo|icon|sprite|placeholder|avatar|facebook|instagram|twitter|app_store|google_play|promo|banner|advert|ads?[-_])/i.test(url)
+    ) continue;
+
+    /*
+      Prefer reasonably image-like editorial assets.
+      Do not reject a valid image merely because the extension is absent.
+    */
+    return url;
   }
+
   return '';
 }
 
 function normalizeTitle(title) {
-  return clean(title)
-    .replace(/^\d+[\).\s-]+/, '')
+  const value = clean(title)
+    .replace(/^\\d+[\\).\\s-]+/, '')
     .replace(/\s*\|\s*20\d{2}.*$/i, '')
     .replace(/\s*-\s*20\d{2}.*$/i, '')
     .replace(/\s+(Netflix|Amazon Prime Video|Prime Video|Aha Video|Aha|ZEE5|JioHotstar|Hotstar|SonyLIV|Sun NXT|ETV Win)\s*$/i, '')
     .trim();
+
+  if (!value) return '';
+  if (/\$\{[^}]+\}/.test(value)) return '';
+  if (/^(top listing|latest movies?|latest ott releases?|new ott releases?|ott releases?|this week|read more|advertisement)$/i.test(value)) return '';
+  if (/^(release date|watch now|click here)$/i.test(value)) return '';
+  if (/\b(top listing|latest movies?|ott releases?|this week|read more|advertisement|watch now|click here)\b/i.test(value)) return '';
+
+  return value;
 }
 
 function key(v = '') {
@@ -113,7 +145,7 @@ function releaseDate(text) {
 
 function languages(text) {
   const m = clean(text).match(
-    /(?:Languages?(?: Available)?|Available in(?: the)? languages?)\s*:?\s*([^.\n]+)/i
+    /(?:Languages?(?: Available)?|Available in(?: the)? languages?)\s*:?\s*([^\.\n]+)/i
   );
   return m ? clean(m[1]).slice(0, 180) : 'Telugu';
 }
@@ -151,9 +183,9 @@ async function fetchText(url) {
 /*
   Filmibeat changes markup periodically. We therefore use two parsers:
   1) section parser: finds h2/h3 article blocks and their OTT release text;
-  2) link/card parser: finds linked movie cards and associates nearby text.
-  The second parser is deliberately permissive so a markup change cannot
-  wipe all OTT tabs.
+  2) fallback link/card parser: only accepts title + image from the same
+     linked card. It deliberately does NOT borrow images from a large
+     surrounding page chunk.
 */
 function parseFilmibeat(html) {
   const output = [];
@@ -171,6 +203,8 @@ function parseFilmibeat(html) {
     if (!platform) continue;
 
     const img = imageFromBlock(block);
+    if (!img) continue;
+
     const date = releaseDate(text);
     const langs = languages(text);
 
@@ -184,8 +218,13 @@ function parseFilmibeat(html) {
     });
   }
 
-  // Fallback: inspect all article-like links and their containing chunks.
+  /*
+    Fallback: only accept an image that belongs to the same linked card.
+    Never search a large surrounding chunk, because that caused a movie
+    title to inherit another movie's image or a promotional thumbnail.
+  */
   const linkRe = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+
   while ((m = linkRe.exec(html))) {
     const href = abs(m[1], FILMIBEAT_TELUGU);
     if (!/filmibeat\.com/i.test(href)) continue;
@@ -194,22 +233,12 @@ function parseFilmibeat(html) {
     const title = normalizeTitle(strip(body));
     if (!title || title.length < 2 || title.length > 120) continue;
 
-    // Only accept an image from the same card/link or a tightly bounded
-    // parent card. Never borrow an image from an unrelated nearby article.
-    const parentStart = Math.max(0, m.index - 1200);
-    const parentEnd = Math.min(html.length, m.index + m[0].length + 1200);
-    const parentChunk = html.slice(parentStart, parentEnd);
+    const localImg = imageFromBlock(body);
+    if (!localImg) continue;
 
-    const text = strip(parentChunk);
+    const text = strip(body);
     const platform = platformFromText(text);
     if (!platform) continue;
-
-    const localImg = imageFromBlock(body) || imageFromBlock(
-      parentChunk.match(/<(article|li|div)\b[^>]*>[\s\S]{0,3500}?<\/\1>/i)?.[0] || ''
-    );
-
-    // A card without its own usable image is not eligible.
-    if (!localImg) continue;
 
     output.push({
       title,
