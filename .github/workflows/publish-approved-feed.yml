@@ -29,13 +29,17 @@ jobs:
         run: |
           node scripts/publish-feed.mjs
 
-      - name: Commit live feed
+      - name: Generate Cineinsta sitemaps
+        run: |
+          node scripts/generate-sitemap.mjs
+
+      - name: Commit live feed and sitemaps
         run: |
           git config user.name "Cineinsta Feed Bot"
           git config user.email "cineinsta-bot@users.noreply.github.com"
 
-          git add data/feed.json
+          git add data/feed.json sitemap.xml sitemap-pages.xml sitemap-news.xml
 
-          git diff --cached --quiet || git commit -m "Publish approved Cineinsta feed"
+          git diff --cached --quiet || git commit -m "Publish approved Cineinsta feed and sitemaps"
 
           git push
