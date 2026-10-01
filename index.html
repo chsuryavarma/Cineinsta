@@ -365,7 +365,7 @@ return selected.slice(0,4);
 function renderRelatedNews(currentItem){
 const items=relatedNewsItems(currentItem);
 if(!items.length)return "";
-return `<section class="articleRelated" aria-labelledby="relatedNewsTitle"><div class="articleRelatedHead"><h2 id="relatedNewsTitle">Related News</h2><span>More from Cineinsta</span></div><div class="articleRelatedGrid">${items.map(function(item){const title=item.title||item.t||"Cinema news";const source=item.source||"Cineinsta";const image=item.img||"";return `<a class="relatedCard" href="/news/${articleSlug(item)}"><div class="relatedCardInner">${image?`<img class="relatedImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy">`:`<div class="relatedImageFallback">${escapeHTML(title)}</div>`}<div class="relatedContent"><div class="relatedSource">${escapeHTML(source)}</div><div class="relatedTitle">${escapeHTML(title)}</div><div class="relatedMeta">${escapeHTML(formatDate(item.publishedAt)||"Latest")} · Read on Cineinsta →</div></div></div></a>`;}).join("")}</div></section>`;
+return `<section class="articleRelated" aria-labelledby="relatedNewsTitle"><div class="articleRelatedHead"><h2 id="relatedNewsTitle">Related News</h2><span>More from Cineinsta</span></div><div class="articleRelatedGrid">${items.map(function(item){const title=item.title||item.t||"Cinema news";const source=item.source||"Cineinsta";const image=item.img||"";return `<a class="relatedCard" href="/news/${articleSlug(item)}"><div class="relatedCardInner">${image?`<img class="relatedImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy">`:`<div class="relatedImageFallback">${escapeHTML(title)}</div>`}<div class="relatedContent"><div class="relatedTitle">${escapeHTML(title)}</div><div class="relatedMeta">${escapeHTML(formatDate(item.publishedAt)||"Latest")} · Read on Cineinsta →</div></div></div></a>`;}).join("")}</div></section>`;
 }
 
 function renderEditorialArticle(item){
@@ -385,14 +385,10 @@ const articlePage=document.getElementById("articlePage");
 const item=entry.item;
 const title=item.title||item.t||"Cineinsta";
 const image=item.img||"";
-const source=item.source||"Cineinsta";
 const date=formatDate(item.publishedAt);
-const originalUrl=item.originalUrl||item.url||item.u||"#";
 const relatedHtml=entry.type==="news"?renderRelatedNews(item):"";
 const editorialHtml=entry.type==="news"?renderEditorialArticle(item):`<div class="articleSummary">${escapeHTML(cleanSummary(item.summary||item.d||"Latest Indian cinema update."))}</div>`;
-const sourceNames=item.source||"Cineinsta";
-const sourceExtra=Array.isArray(item.sources)&&item.sources.length?`<div class="articleSourceList"><strong>Information sources</strong><ul>${item.sources.map(function(s){return `<li>${escapeHTML(String(s))}</li>`}).join("")}</ul></div>`:"";
-articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#trailersSection" data-section="trailersSection">Jump to Trailers</a></nav></div>`;
+articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#trailersSection" data-section="trailersSection">Jump to Trailers</a></nav></div>`;
 updateSEO(entry);
 }
 
@@ -607,8 +603,7 @@ visible.forEach(function(item){
 html+=`
 <article class="newsCard"><a href="/news/${articleSlug(item)}">
 <div class="newsImage"><img src="${escapeHTML(item.img)}" alt="${escapeHTML(item.title)}" loading="lazy" decoding="async" onerror="handleNewsImageError(this)"></div>
-<div class="newsBody"><div class="newsSource">${escapeHTML(item.source||"Telugu Cinema")}</div>
-<div class="newsTitle">${escapeHTML(item.title||"")}</div>
+<div class="newsBody"><div class="newsTitle">${escapeHTML(item.title||"")}</div>
 <div class="newsMeta"><span>Telugu</span><span>${formatDate(item.publishedAt)}</span></div>
 </div></a></article>`;
 });
