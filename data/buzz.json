@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T13:38:34.434Z",
+  "updatedAt": "2026-10-01T13:41:06.429Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:38:34.404Z",
+      "updatedAt": "2026-10-01T13:41:06.405Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:38:34.404Z",
+      "updatedAt": "2026-10-01T13:41:06.405Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:38:34.404Z",
+      "updatedAt": "2026-10-01T13:41:06.405Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:38:34.404Z",
+      "updatedAt": "2026-10-01T13:41:06.405Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:38:34.404Z",
+      "updatedAt": "2026-10-01T13:41:06.405Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T13:38:34.404Z",
+      "updatedAt": "2026-10-01T13:41:06.405Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T13:38:34.404Z",
+      "updatedAt": "2026-10-01T13:41:06.405Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:38:34.404Z",
+      "updatedAt": "2026-10-01T13:41:06.406Z",
       "items": [
         {
           "rank": 1,
