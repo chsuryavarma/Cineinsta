@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T00:51:42.585Z",
+  "updatedAt": "2026-10-01T01:08:41.135Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -35,7 +35,7 @@
     {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "unavailable"
+      "status": "ok"
     },
     {
       "id": "sun-nxt",
@@ -74,25 +74,6 @@
       }
     },
     {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
-      "language": "Telugu",
-      "buzzScore": 42,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 2,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "irumudi",
       "title": "Irumudi",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
@@ -112,47 +93,28 @@
       }
     },
     {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "maremma",
       "title": "Maremma",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "bethlehem-kudumba-unit",
-      "title": "Bethlehem Kudumba Unit",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "romanchakam",
-      "title": "Romanchakam",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -454,6 +416,44 @@
       }
     },
     {
+      "id": "bethlehem-kudumba-unit",
+      "title": "Bethlehem Kudumba Unit",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "romanchakam",
+      "title": "Romanchakam",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "toxic",
       "title": "Toxic",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
@@ -516,210 +516,315 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.548Z",
+      "updatedAt": "2026-10-01T01:08:41.110Z",
       "items": [
         {
           "rank": 1,
-          "title": "Irumudi",
+          "title": "Bethlehem Kudumba Unit",
           "language": "Telugu",
-          "img": "https://static.digit.in/product/tr:n-ott_home_crousel/irumudu-7552656195.jpeg",
-          "url": "https://www.digit.in/digit-binge/movies/irumudi-904049.html",
+          "img": "https://img.youtube.com/vi/NmsT-kzKWhU/maxresdefault.jpg",
           "platform": "Netflix",
-          "genre": "Action",
-          "year": 2026,
-          "rating": 7.6
+          "releaseDate": "October 2, 2026",
+          "languages": "Telugu"
         },
         {
           "rank": 2,
-          "title": "Korean Kanakaraju",
+          "title": "#Love",
           "language": "Telugu",
-          "img": "https://static.digit.in/product/tr:n-ott_home_crousel/korean-kanakraju-64351f580b.jpeg",
-          "url": "https://www.digit.in/digit-binge/movies/korean-kanakaraju-905202.html",
+          "img": "https://img.youtube.com/vi/xp3mBhXY8Y8/maxresdefault.jpg",
           "platform": "Netflix",
-          "genre": "Comedy",
-          "year": 2026,
-          "rating": null
+          "releaseDate": "October 2, 2026",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 3,
+          "title": "Romanchakam",
+          "language": "Telugu",
+          "img": "https://img.youtube.com/vi/oxvsaLPuQFc/maxresdefault.jpg",
+          "platform": "Netflix",
+          "releaseDate": "October 1, 2026",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 4,
+          "title": "Sardar 2",
+          "language": "Telugu",
+          "img": "https://img.youtube.com/vi/bnJG5OxkB34/maxresdefault.jpg",
+          "platform": "Netflix",
+          "releaseDate": "October 1, 2026",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 5,
+          "title": "Least Eligible Bachelor",
+          "language": "Telugu",
+          "img": "https://img.youtube.com/vi/lnLsKCQzf3Q/maxresdefault.jpg",
+          "platform": "Netflix",
+          "releaseDate": "September 30, 2026",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 6,
+          "title": "${heading}",
+          "language": "Telugu",
+          "img": "https://images.goodreturns.in/images/gr-promo-banner-lightbg-1781778921580.png",
+          "platform": "Netflix",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 7,
+          "title": "Ramba Oorvasi Menaka",
+          "language": "Telugu",
+          "img": "https://img.youtube.com/vi/LHxKhCcMFl8/maxresdefault.jpg",
+          "platform": "Netflix",
+          "releaseDate": "",
+          "languages": "socio-fantasy comedy now streaming on Amazon Prime Video in Telugu, with subtitles for broader reach"
+        },
+        {
+          "rank": 8,
+          "title": "Agadha",
+          "language": "Telugu",
+          "img": "https://img.youtube.com/vi/CSXhb2zhfLc/maxresdefault.jpg",
+          "platform": "Netflix",
+          "releaseDate": "",
+          "languages": "mystical thriller now streaming on ZEE5 in Telugu, with subtitle options for wider viewership"
+        },
+        {
+          "rank": 9,
+          "title": "Irumudi",
+          "language": "Telugu",
+          "img": "https://img.youtube.com/vi/Lpzh4JPRD9Q/maxresdefault.jpg",
+          "platform": "Netflix",
+          "releaseDate": "",
+          "languages": "Telugu, Tamil, Kannada, Malayalam, and Hindi Verdict : An emotionally driven family drama that relies on Ravi Teja’s performance and its father-daughter relationship for impact"
+        },
+        {
+          "rank": 10,
+          "title": "Hushar Pittalu",
+          "language": "Telugu",
+          "img": "https://img.youtube.com/vi/cfEKCH5MuWc/maxresdefault.jpg",
+          "platform": "Netflix",
+          "releaseDate": "",
+          "languages": "Telugu"
         }
       ],
-      "note": "Latest Telugu movies currently listed with Netflix availability."
+      "note": "Latest available Telugu-relevant titles on Netflix."
     },
     "prime-video": {
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.549Z",
+      "updatedAt": "2026-10-01T01:08:41.111Z",
       "items": [
         {
           "rank": 1,
-          "title": "Toxic: A Fairy Tale for Grown-Ups",
+          "title": "Sardar 2",
           "language": "Telugu",
-          "img": "https://static.digit.in/OTT/v2/images/toxic-1495499.jpg",
-          "url": "https://www.digit.in/digit-binge/movies/toxic-859897.html",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
           "platform": "Prime Video",
-          "genre": "Action",
-          "year": 2026,
-          "rating": 4.3
+          "releaseDate": "October 1, 2026",
+          "languages": "Tamil · Telugu · Kannada · Malayalam · Hindi"
+        },
+        {
+          "rank": 2,
+          "title": "Ramba Oorvasi Menaka",
+          "language": "Telugu",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/RambhaUrvashiMenaka2.jpg",
+          "platform": "Prime Video",
+          "releaseDate": "September 25, 2026",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 3,
+          "title": "Hushar Pittalu",
+          "language": "Telugu",
+          "img": "https://img2.freejobalert.com/freejobalert/2026/02/husharu-pittalu-release-date-cast-story-hints-teaser-launch-latest-updates-2026-telu-698d788b55f8996913058-1200.webp",
+          "platform": "Prime Video",
+          "releaseDate": "September 15, 2026",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 4,
+          "title": "Jagamae Sangeetham",
+          "language": "Telugu",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jagamae-Sangeetham.webp",
+          "platform": "Prime Video",
+          "releaseDate": "September 4, 2026",
+          "languages": "Telugu · Tamil"
+        },
+        {
+          "rank": 5,
+          "title": "Pallaburusu",
+          "language": "Telugu",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg",
+          "platform": "Prime Video",
+          "releaseDate": "September 2, 2026",
+          "languages": "Telugu · Tamil · Kannada · Malayalam"
         }
       ],
-      "note": "Latest Telugu movies currently listed with Prime Video availability."
+      "note": "Latest available Telugu-relevant titles on Prime Video."
     },
     "aha": {
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.549Z",
+      "updatedAt": "2026-10-01T01:08:41.111Z",
       "items": [
         {
           "rank": 1,
           "title": "Mister Middle Class",
           "language": "Telugu",
           "img": "https://static.digit.in/product/tr:n-ott_home_crousel/mr-middle-class-aaf0eb84d7.jpeg",
-          "url": "https://www.digit.in/digit-binge/movies/mr-middle-class-906249.html",
           "platform": "Aha",
-          "genre": "Comedy",
-          "year": 2026,
-          "rating": 9.1
+          "releaseDate": "September 2026",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 2,
+          "title": "Deewana",
+          "language": "Telugu",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Deewana.webp",
+          "platform": "Aha",
+          "releaseDate": "July 31, 2026",
+          "languages": "Telugu · Tamil"
+        },
+        {
+          "rank": 3,
+          "title": "Top Listing",
+          "language": "Telugu",
+          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/drishyam-2-on-ott-where-to-watch-ajay-devgns-thriller-before-drishyam-the-conclusion-20260930210736-1432.jpg",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 4,
+          "title": "Khatron Ke Khiladi 15 Grand Finale: Release...",
+          "language": "Telugu",
+          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/khatron-ke-khiladi-15-grand-finale-release-date-promo-top-6-finalists-winner-and-everything-you-need-to-know-20260928124415-8181.jpg",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 5,
+          "title": "Kahan Shuru Kahan Khatam OTT: When And Where To...",
+          "language": "Telugu",
+          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/kahan-shuru-kahan-khatam-ott-when-and-where-to-dhvani-bhanushalis-comedy-drama-online-20260930102736-444.jpg",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 6,
+          "title": "View All Listing",
+          "language": "Telugu",
+          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/kahan-shuru-kahan-khatam-ott-when-and-where-to-dhvani-bhanushalis-comedy-drama-online-20260930102736-444.jpg",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
         }
       ],
-      "note": "Latest Telugu movies currently listed with Aha availability."
+      "note": "Latest available Telugu-relevant titles on Aha."
     },
     "jiohotstar": {
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.549Z",
+      "updatedAt": "2026-10-01T01:08:41.111Z",
       "items": [
         {
           "rank": 1,
-          "title": "I, Nobody",
+          "title": "Bethlehem Kudumba Unit",
           "language": "Telugu",
-          "img": "https://static.digit.in/product/tr:n-ott_home_crousel/i-nobody-8836c52bd4.jpeg",
-          "url": "https://www.digit.in/digit-binge/movies/i-nobody-902218.html",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
           "platform": "JioHotstar",
-          "genre": "Crime",
-          "year": 2026,
-          "rating": null
+          "releaseDate": "October 2, 2026",
+          "languages": "Malayalam · Tamil · Telugu · Kannada · Hindi"
+        },
+        {
+          "rank": 2,
+          "title": "Thudakkam",
+          "language": "Telugu",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Thudakkam.webp",
+          "platform": "JioHotstar",
+          "releaseDate": "September 18, 2026",
+          "languages": "Malayalam · Telugu · Tamil · Kannada · Hindi"
+        },
+        {
+          "rank": 3,
+          "title": "Raja The Raja",
+          "language": "Telugu",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Raja-The-Raja.webp",
+          "platform": "JioHotstar",
+          "releaseDate": "September 2026",
+          "languages": "Telugu"
         }
       ],
-      "note": "Latest Telugu movies currently listed with JioHotstar availability."
+      "note": "Latest available Telugu-relevant titles on JioHotstar."
     },
     "zee5": {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "unavailable",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.549Z",
-      "items": [],
-      "note": "No matching latest Telugu movie records with usable images were found."
+      "status": "ok",
+      "updatedAt": "2026-10-01T01:08:41.111Z",
+      "items": [
+        {
+          "rank": 1,
+          "title": "Agadha",
+          "language": "Telugu",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/05/Agadha_Movie_31.jpg",
+          "platform": "ZEE5",
+          "releaseDate": "September 25, 2026",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 2,
+          "title": "Panchanama",
+          "language": "Telugu",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Panchanama.webp",
+          "platform": "ZEE5",
+          "releaseDate": "September 2026",
+          "languages": "Telugu"
+        }
+      ],
+      "note": "Latest available Telugu-relevant titles on ZEE5."
     },
     "sun-nxt": {
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.549Z",
+      "updatedAt": "2026-10-01T01:08:41.111Z",
       "items": [],
-      "note": "No matching latest Telugu movie records with usable images were found."
+      "note": "No usable titles currently available."
     },
     "etv-win": {
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.549Z",
+      "updatedAt": "2026-10-01T01:08:41.111Z",
       "items": [],
-      "note": "No matching latest Telugu movie records with usable images were found."
+      "note": "No usable titles currently available."
     },
     "sonyliv": {
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.549Z",
+      "updatedAt": "2026-10-01T01:08:41.111Z",
       "items": [
         {
           "rank": 1,
           "title": "Chennai Love Story",
           "language": "Telugu",
-          "img": "https://static.digit.in/product/tr:n-ott_home_crousel/chennai-love-story-poster-e14db2c56a.jpeg",
-          "url": "https://www.digit.in/digit-binge/movies/chennai-love-story-906248.html",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Chennai-Love-Story.webp",
           "platform": "SonyLIV",
-          "genre": "Romance",
-          "year": 2026,
-          "rating": 7.6
+          "releaseDate": "September 2026",
+          "languages": "Telugu"
         }
       ],
-      "note": "Latest Telugu movies currently listed with SonyLIV availability."
-    },
-    "theatres": {
-      "id": "theatres",
-      "name": "Theatres Now",
-      "status": "ok",
-      "sourceUrl": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-      "updatedAt": "2026-10-01T00:51:42.550Z",
-      "items": [
-        {
-          "rank": 1,
-          "title": "The Paradise",
-          "language": "Telugu",
-          "img": "https://static.digit.in/product/tr:n-ott_home_crousel/the-paradise-1f3d311635.jpeg",
-          "url": "https://www.digit.in/digit-binge/movies/the-paradise-883753.html",
-          "platform": "Theatrical",
-          "genre": "Action",
-          "year": 2026,
-          "rating": null
-        },
-        {
-          "rank": 2,
-          "title": "Mahendragiri Varahi",
-          "language": "Telugu",
-          "img": "https://static.digit.in/product/tr:n-ott_home_crousel/mahendragiri-varahi-c56824d1ef.jpeg",
-          "url": "https://www.digit.in/digit-binge/movies/mahendragiri-varahi-905868.html",
-          "platform": "Theatrical",
-          "genre": "Mystery",
-          "year": 2026,
-          "rating": null
-        },
-        {
-          "rank": 3,
-          "title": "KJQ",
-          "language": "Telugu",
-          "img": "https://static.digit.in/product/tr:n-ott_home_crousel/kjq-defba3d10e.jpeg",
-          "url": "https://www.digit.in/digit-binge/movies/kjq-905579.html",
-          "platform": "Theatrical",
-          "genre": "Action",
-          "year": 2026,
-          "rating": null
-        },
-        {
-          "rank": 4,
-          "title": "Lenin",
-          "language": "Telugu",
-          "img": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-          "url": "https://www.digit.in/digit-binge/movies/lenin-896399.html",
-          "platform": "Theatrical",
-          "genre": "",
-          "year": null,
-          "rating": null
-        },
-        {
-          "rank": 5,
-          "title": "Oh Sukumari",
-          "language": "Telugu",
-          "img": "https://www.digit.in/digit-binge/movies/telugu/latest/",
-          "url": "https://www.digit.in/digit-binge/movies/oh-sukumari-906212.html",
-          "platform": "Theatrical",
-          "genre": "",
-          "year": null,
-          "rating": null
-        }
-      ],
-      "note": "Latest Telugu movies currently listed as theatrical."
+      "note": "Latest available Telugu-relevant titles on SonyLIV."
     }
   },
-  "methodology": "OTT and theatre tabs use the latest Telugu movie availability data and filter it by the listed streaming or theatrical field. Cineinsta does not create OTT rankings or scores."
+  "methodology": "OTT tabs show up to 10 latest available Telugu-relevant movies or shows per platform. Filmibeat is used as a research input; Cineinsta does not expose source URLs to viewers or create OTT rankings."
 }
