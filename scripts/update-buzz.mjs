@@ -121,8 +121,8 @@ function languages(text) {
 function unique(items) {
   const seen = new Set();
   return items.filter(item => {
-    const k = key(item.title);
-    if (!k || seen.has(k)) return false;
+    const k = `${key(item.title)}|${key(item.platform)}`;
+    if (!key(item.title) || seen.has(k)) return false;
     seen.add(k);
     return true;
   });
@@ -194,16 +194,26 @@ function parseFilmibeat(html) {
     const title = normalizeTitle(strip(body));
     if (!title || title.length < 2 || title.length > 120) continue;
 
-    const start = Math.max(0, m.index - 2500);
-    const end = Math.min(html.length, m.index + m[0].length + 2500);
-    const chunk = html.slice(start, end);
-    const text = strip(chunk);
+    // Only accept an image from the same card/link or a tightly bounded
+    // parent card. Never borrow an image from an unrelated nearby article.
+    const parentStart = Math.max(0, m.index - 1200);
+    const parentEnd = Math.min(html.length, m.index + m[0].length + 1200);
+    const parentChunk = html.slice(parentStart, parentEnd);
+
+    const text = strip(parentChunk);
     const platform = platformFromText(text);
     if (!platform) continue;
 
+    const localImg = imageFromBlock(body) || imageFromBlock(
+      parentChunk.match(/<(article|li|div)\b[^>]*>[\s\S]{0,3500}?<\/\1>/i)?.[0] || ''
+    );
+
+    // A card without its own usable image is not eligible.
+    if (!localImg) continue;
+
     output.push({
       title,
-      img: imageFromBlock(chunk),
+      img: localImg,
       platform: platform.name,
       releaseDate: releaseDate(text),
       languages: languages(text),
