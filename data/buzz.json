@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T13:09:45.769Z",
+  "updatedAt": "2026-10-01T13:16:32.715Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,9 +55,9 @@
   ],
   "movies": [
     {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "id": "the-paradise",
+      "title": "The Paradise",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
       "language": "Telugu",
       "buzzScore": 52,
       "status": "RISING",
@@ -74,18 +74,18 @@
       }
     },
     {
-      "id": "the-paradise",
-      "title": "The Paradise",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
       "language": "Telugu",
-      "buzzScore": 42,
-      "status": "STEADY",
+      "buzzScore": 52,
+      "status": "RISING",
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
       "sourceSignals": {
-        "news": 2,
+        "news": 3,
         "reviews": 1,
         "trailers": 0,
         "theatreLocations": 0,
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:09:45.743Z",
+      "updatedAt": "2026-10-01T13:16:32.682Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:09:45.743Z",
+      "updatedAt": "2026-10-01T13:16:32.682Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:09:45.743Z",
+      "updatedAt": "2026-10-01T13:16:32.682Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:09:45.743Z",
+      "updatedAt": "2026-10-01T13:16:32.682Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:09:45.743Z",
+      "updatedAt": "2026-10-01T13:16:32.682Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T13:09:45.743Z",
+      "updatedAt": "2026-10-01T13:16:32.682Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T13:09:45.743Z",
+      "updatedAt": "2026-10-01T13:16:32.682Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T13:09:45.743Z",
+      "updatedAt": "2026-10-01T13:16:32.682Z",
       "items": [
         {
           "rank": 1,
