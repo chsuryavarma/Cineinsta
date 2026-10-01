@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T06:03:53.264Z",
+  "updatedAt": "2026-10-01T06:19:10.660Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -78,14 +78,14 @@
       "title": "Sardar 2",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
       "language": "Telugu",
-      "buzzScore": 32,
+      "buzzScore": 42,
       "status": "STEADY",
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
       "sourceSignals": {
-        "news": 1,
+        "news": 2,
         "reviews": 1,
         "trailers": 0,
         "theatreLocations": 0,
@@ -126,63 +126,6 @@
         "news": 1,
         "reviews": 1,
         "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "irumudi",
-      "title": "Irumudi",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "haiwaan",
-      "title": "Haiwaan",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Haiwaan-1.webp",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "drishyam-the-conclusion-official-trailer",
-      "title": "Drishyam: The Conclusion - Official Trailer",
-      "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 1,
         "theatreLocations": 0,
         "theatreShows": 0
       }
@@ -492,9 +435,66 @@
       }
     },
     {
+      "id": "irumudi",
+      "title": "Irumudi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "pallaburusu",
       "title": "Pallaburusu",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "vishwanath-and-sons",
+      "title": "Vishwanath and Sons",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "agadha",
+      "title": "Agadha",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/05/Agadha_Movie_31.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:03:53.236Z",
+      "updatedAt": "2026-10-01T06:19:10.625Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:03:53.237Z",
+      "updatedAt": "2026-10-01T06:19:10.625Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:03:53.237Z",
+      "updatedAt": "2026-10-01T06:19:10.625Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:03:53.237Z",
+      "updatedAt": "2026-10-01T06:19:10.625Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:03:53.237Z",
+      "updatedAt": "2026-10-01T06:19:10.625Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T06:03:53.237Z",
+      "updatedAt": "2026-10-01T06:19:10.625Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T06:03:53.237Z",
+      "updatedAt": "2026-10-01T06:19:10.625Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:03:53.237Z",
+      "updatedAt": "2026-10-01T06:19:10.625Z",
       "items": [
         {
           "rank": 1,
