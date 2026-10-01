@@ -4,19 +4,49 @@ const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36";
 
 const DATA_FILE = "data/feed.json";
+const FALLBACK_IMAGE = "/assets/cineinsta-news-fallback.svg";
 
 const NEWS_QUERIES = [
-  "Telugu cinema news",
-  "Telugu movie news",
-  "Tollywood latest news",
-  "Telugu actors actresses movie update",
-  "Telugu OTT movie news"
+  "site:123telugu.com Telugu movie news",
+  "site:gulte.com Telugu cinema news",
+  "site:greatandhra.com Telugu cinema news",
+  "site:telugu360.com Telugu cinema news",
+  "site:telugucinema.com Telugu cinema news",
+  "site:idlebrain.com Telugu cinema news"
 ];
 
-const RSS_URL = query =>
-  `https://news.google.com/rss/search?q=${encodeURIComponent(
-    query
-  )}&hl=en-IN&gl=IN&ceid=IN:en`;
+const ALLOWED_HOSTS = new Set([
+  "123telugu.com",
+  "www.123telugu.com",
+  "gulte.com",
+  "www.gulte.com",
+  "greatandhra.com",
+  "www.greatandhra.com",
+  "telugu360.com",
+  "www.telugu360.com",
+  "telugucinema.com",
+  "www.telugucinema.com",
+  "idlebrain.com",
+  "www.idlebrain.com"
+]);
+
+const BLOCKED_TERMS = [
+  "tamil cinema", "malayalam cinema", "kannada cinema", "hindi cinema",
+  "bollywood", "kollywood", "mollywood", "sandalwood",
+  "rajini", "rajinikanth", "vijay thalapathy", "ajith", "mammootty",
+  "mohanlal", "dhanush", "suriya", "thalapathy", "tamil", "malayalam"
+];
+
+const TELUGU_TERMS = [
+  "telugu", "tollywood", "hyderabad", "andhra", "telangana",
+  "allu arjun", "mahesh babu", "prabhas", "ntr", "jr ntr",
+  "ram charan", "chiranjeevi", "pawan kalyan", "nani", "vijay deverakonda",
+  "rashmika", "samantha", "venkatesh", "balakrishna", "nbk",
+  "naga chaitanya", "akhil akkineni", "varun tej", "sai dharam tej",
+  "nithiin", "sharwanand", "adivi sesh", "teja sajja", "anushka shetty",
+  "sreeleela", "pooja hegde", "keerthy suresh", "trivikram",
+  "ss rajamouli", "sukumar", "koratala", "sekhar kammula"
+];
 
 function decodeEntities(value = "") {
   return value
@@ -114,46 +144,55 @@ function imageFromDescription(description = "") {
   ];
   for (const pattern of patterns) {
     const match = description.match(pattern);
-    if (match?.[1]) return match[1];
+    if (match?.[1]) return decodeEntities(match[1]);
   }
   return "";
 }
 
-async function fetchText(url) {
+function isPlaceholderImage(url = "") {
+  const value = String(url).toLowerCase();
+  if (!/^https?:\/\//i.test(value)) return false;
+  return (
+    value.includes("googleusercontent.com") ||
+    value.includes("gstatic.com") ||
+    value.includes("google.com") ||
+    value.includes("news.google.com") ||
+    value.includes("logo") ||
+    value.includes("placeholder") ||
+    value.includes("default-image") ||
+    value.includes("default_image") ||
+    value.includes("no-image") ||
+    value.includes("no_image")
+  );
+}
+
+function usableImage(url = "") {
+  return /^https?:\/\//i.test(String(url).trim()) && !isPlaceholderImage(url);
+}
+
+async function fetchPage(url) {
   try {
     const response = await fetch(url, {
       headers: {
         "User-Agent": USER_AGENT,
-        Accept: "application/rss+xml, application/xml, text/xml, text/html;q=0.9,*/*;q=0.8"
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
       },
       redirect: "follow"
     });
-    if (!response.ok) {
-      console.log(`FAILED ${response.status}: ${url}`);
-      return "";
-    }
-    return await response.text();
+    if (!response.ok) return { text: "", finalUrl: url };
+    return { text: await response.text(), finalUrl: response.url || url };
   } catch (error) {
     console.log(`FAILED ${url}: ${error.message}`);
-    return "";
+    return { text: "", finalUrl: url };
   }
 }
 
-function isLikelyCinema(title, description) {
-  const value = `${title} ${description}`.toLowerCase();
-  const terms = [
-    "movie", "film", "cinema", "tollywood", "telugu", "actor", "actress",
-    "director", "trailer", "teaser", "ott", "release", "nani", "prabhas",
-    "allu", "mahesh", "ntr", "ram charan", "vijay", "rashmika", "samantha",
-    "chiranjeevi", "pawan kalyan", "deverakonda"
-  ];
-  return terms.some(term => value.includes(term));
+async function fetchText(url) {
+  const page = await fetchPage(url);
+  return page.text;
 }
 
-async function getOgImage(url) {
-  if (!url) return "";
-  const html = await fetchText(url);
-  if (!html) return "";
+function ogImageFromHtml(html = "") {
   const patterns = [
     /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
     /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
@@ -161,9 +200,47 @@ async function getOgImage(url) {
   ];
   for (const pattern of patterns) {
     const match = html.match(pattern);
-    if (match?.[1] && /^https?:\/\//i.test(match[1])) return match[1];
+    if (match?.[1] && usableImage(match[1])) return match[1];
   }
   return "";
+}
+
+async function resolveArticle(url) {
+  const page = await fetchPage(url);
+  return {
+    html: page.text,
+    finalUrl: page.finalUrl || url
+  };
+}
+
+function hostOf(url = "") {
+  try {
+    return new URL(url).hostname.toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+function isAllowedPublisher(url, source) {
+  const host = hostOf(url);
+  if (ALLOWED_HOSTS.has(host)) return true;
+  const sourceText = String(source || "").toLowerCase();
+  return [...ALLOWED_HOSTS].some(hostName => sourceText.includes(hostName.replace(/^www\./, "")));
+}
+
+function isTeluguCinema(title, description, source, finalUrl) {
+  const value = `${title} ${description} ${source} ${finalUrl}`.toLowerCase();
+
+  if (BLOCKED_TERMS.some(term => value.includes(term))) return false;
+
+  const hasTeluguSignal = TELUGU_TERMS.some(term => value.includes(term));
+  const cinemaSignal = [
+    "movie", "film", "cinema", "actor", "actress", "director",
+    "trailer", "teaser", "ott", "release", "shoot", "shooting",
+    "tollywood", "telugu"
+  ].some(term => value.includes(term));
+
+  return hasTeluguSignal && cinemaSignal;
 }
 
 async function collectNews() {
@@ -171,22 +248,37 @@ async function collectNews() {
 
   for (const query of NEWS_QUERIES) {
     console.log(`Loading Google News RSS: ${query}`);
-    const xml = await fetchText(RSS_URL(query));
-    if (!xml) continue;
 
-    for (const itemXml of extractItems(xml).slice(0, 12)) {
+    const rss = await fetchText(
+      `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-IN&gl=IN&ceid=IN:en`
+    );
+
+    if (!rss) continue;
+
+    for (const itemXml of extractItems(rss).slice(0, 15)) {
       const title = cleanTitle(xmlTag(itemXml, "title"));
       const url = xmlTag(itemXml, "link");
       const descriptionRaw = xmlTag(itemXml, "description");
       const description = stripHtml(descriptionRaw);
-      const source = xmlTag(itemXml, "source") || "Google News";
+      const source = xmlTag(itemXml, "source") || "Cineinsta";
       const publishedAt = xmlTag(itemXml, "pubDate");
-      let img = imageFromDescription(descriptionRaw);
 
-      if (!title || !url || !isLikelyCinema(title, description)) continue;
+      if (!title || !url) continue;
 
-      if (!img) img = await getOgImage(url);
-      if (!img) continue;
+      const rssImage = imageFromDescription(descriptionRaw);
+      const resolved = await resolveArticle(url);
+      const finalUrl = resolved.finalUrl || url;
+      const finalHost = hostOf(finalUrl);
+
+      if (!isAllowedPublisher(finalUrl, source)) continue;
+      if (!isTeluguCinema(title, description, source, finalUrl)) continue;
+
+      let img = usableImage(rssImage) ? rssImage : "";
+      if (!img) img = ogImageFromHtml(resolved.html);
+      if (!img && resolved.html) {
+        img = ogImageFromHtml(resolved.html);
+      }
+      if (!img) img = FALLBACK_IMAGE;
 
       all.push({
         id: url,
@@ -202,6 +294,8 @@ async function collectNews() {
         language: "Telugu",
         category: "Telugu Cinema"
       });
+
+      console.log(`ACCEPTED: ${title} [${finalHost}]${img === FALLBACK_IMAGE ? " [fallback image]" : ""}`);
     }
   }
 
@@ -212,10 +306,13 @@ async function collectNews() {
     (a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0)
   )) {
     const urlKey = item.url.split("?")[0].replace(/\/$/, "").toLowerCase();
+
     if (seenUrls.has(urlKey)) continue;
     if (output.some(existing => similarity(existing.title, item.title) >= 0.68)) continue;
+
     seenUrls.add(urlKey);
     output.push(item);
+
     if (output.length >= 40) break;
   }
 
@@ -234,13 +331,19 @@ async function loadExisting() {
 
 async function main() {
   console.log("======================================");
-  console.log("CINEINSTA FEED UPDATE");
+  console.log("CINEINSTA TELUGU FEED UPDATE");
   console.log("======================================");
 
   const existing = await loadExisting();
   const news = await collectNews();
 
-  const finalNews = news.length ? news : Array.isArray(existing.news) ? existing.news : [];
+  const finalNews =
+    news.length >= 20
+      ? news
+      : Array.isArray(existing.news) && existing.news.length >= 20
+        ? existing.news
+        : news;
+
   const trailers = Array.isArray(existing.trailers) ? existing.trailers : [];
   const interviews = Array.isArray(existing.interviews) ? existing.interviews : [];
   const reviews = Array.isArray(existing.reviews) ? existing.reviews : [];
@@ -257,7 +360,8 @@ async function main() {
   await fs.mkdir("data", { recursive: true });
   await fs.writeFile(DATA_FILE, JSON.stringify(feed, null, 2), "utf8");
 
-  console.log(`News: ${finalNews.length}`);
+  console.log(`News collected: ${news.length}`);
+  console.log(`News published: ${finalNews.length}`);
   console.log(`Trailers preserved: ${trailers.length}`);
   console.log(`Interviews preserved: ${interviews.length}`);
   console.log(`Reviews preserved: ${reviews.length}`);
@@ -265,7 +369,7 @@ async function main() {
 }
 
 main().catch(error => {
-  console.error("Cineinsta feed updater failed:");
+  console.error("Cineinsta Telugu feed updater failed:");
   console.error(error);
   process.exit(1);
 });
