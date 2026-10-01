@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T05:48:52.896Z",
+  "updatedAt": "2026-10-01T06:03:53.264Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -115,25 +115,6 @@
       "id": "romanchakam",
       "title": "Romanchakam",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "toxic",
-      "title": "Toxic",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -492,6 +473,25 @@
       }
     },
     {
+      "id": "toxic",
+      "title": "Toxic",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "pallaburusu",
       "title": "Pallaburusu",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:48:52.855Z",
+      "updatedAt": "2026-10-01T06:03:53.236Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:48:52.855Z",
+      "updatedAt": "2026-10-01T06:03:53.237Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:48:52.855Z",
+      "updatedAt": "2026-10-01T06:03:53.237Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:48:52.856Z",
+      "updatedAt": "2026-10-01T06:03:53.237Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:48:52.856Z",
+      "updatedAt": "2026-10-01T06:03:53.237Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T05:48:52.856Z",
+      "updatedAt": "2026-10-01T06:03:53.237Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T05:48:52.856Z",
+      "updatedAt": "2026-10-01T06:03:53.237Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:48:52.856Z",
+      "updatedAt": "2026-10-01T06:03:53.237Z",
       "items": [
         {
           "rank": 1,
