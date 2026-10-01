@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T06:19:10.660Z",
+  "updatedAt": "2026-10-01T06:51:01.676Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:19:10.625Z",
+      "updatedAt": "2026-10-01T06:51:01.637Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:19:10.625Z",
+      "updatedAt": "2026-10-01T06:51:01.637Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:19:10.625Z",
+      "updatedAt": "2026-10-01T06:51:01.637Z",
       "items": [
         {
           "rank": 1,
@@ -661,15 +661,6 @@
           "platform": "Aha",
           "releaseDate": "July 31, 2026",
           "languages": "Telugu · Tamil"
-        },
-        {
-          "rank": 3,
-          "title": "Kahan Shuru Kahan Khatam OTT: When And Where To...",
-          "language": "Telugu",
-          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/kahan-shuru-kahan-khatam-ott-when-and-where-to-dhvani-bhanushalis-comedy-drama-online-20260930102736-444.jpg",
-          "platform": "Aha",
-          "releaseDate": "",
-          "languages": "Telugu"
         }
       ],
       "note": "Latest available Telugu-relevant titles on Aha."
@@ -678,7 +669,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:19:10.625Z",
+      "updatedAt": "2026-10-01T06:51:01.637Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +705,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:19:10.625Z",
+      "updatedAt": "2026-10-01T06:51:01.637Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +732,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T06:19:10.625Z",
+      "updatedAt": "2026-10-01T06:51:01.637Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +740,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T06:19:10.625Z",
+      "updatedAt": "2026-10-01T06:51:01.637Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +748,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T06:19:10.625Z",
+      "updatedAt": "2026-10-01T06:51:01.637Z",
       "items": [
         {
           "rank": 1,
