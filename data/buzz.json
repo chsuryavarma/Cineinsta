@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T05:37:50.127Z",
+  "updatedAt": "2026-10-01T05:48:52.896Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -188,9 +188,9 @@
       }
     },
     {
-      "id": "the-vvaan-official-trailer",
-      "title": "The Vvaan - Official Trailer",
-      "img": "https://i.ytimg.com/vi/2imX-KViK0s/hqdefault.jpg",
+      "id": "drishyam-the-conclusion-official-trailer",
+      "title": "Drishyam: The Conclusion - Official Trailer",
+      "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:37:50.096Z",
+      "updatedAt": "2026-10-01T05:48:52.855Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:37:50.096Z",
+      "updatedAt": "2026-10-01T05:48:52.855Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:37:50.097Z",
+      "updatedAt": "2026-10-01T05:48:52.855Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:37:50.097Z",
+      "updatedAt": "2026-10-01T05:48:52.856Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:37:50.097Z",
+      "updatedAt": "2026-10-01T05:48:52.856Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T05:37:50.097Z",
+      "updatedAt": "2026-10-01T05:48:52.856Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T05:37:50.097Z",
+      "updatedAt": "2026-10-01T05:48:52.856Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T05:37:50.097Z",
+      "updatedAt": "2026-10-01T05:48:52.856Z",
       "items": [
         {
           "rank": 1,
