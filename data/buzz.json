@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T15:57:41.783Z",
+  "updatedAt": "2026-10-01T16:26:33.322Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,44 +55,6 @@
   ],
   "movies": [
     {
-      "id": "the-paradise",
-      "title": "The Paradise",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
-      "language": "Telugu",
-      "buzzScore": 52,
-      "status": "RISING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 4,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "anumana-pakshi",
-      "title": "Anumana Pakshi",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/anumana-1.webp",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "mahendragiri-varahi",
       "title": "Mahendragiri Varahi",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
@@ -112,37 +74,37 @@
       }
     },
     {
-      "id": "maremma",
-      "title": "Maremma",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
+      "id": "the-vvaan-official-trailer",
+      "title": "The Vvaan - Official Trailer",
+      "img": "https://i.ytimg.com/vi/2imX-KViK0s/hqdefault.jpg",
       "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
+      "buzzScore": 27,
+      "status": "COOLING",
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
       "sourceSignals": {
         "news": 1,
-        "reviews": 1,
-        "trailers": 0,
+        "reviews": 0,
+        "trailers": 1,
         "theatreLocations": 0,
         "theatreShows": 0
       }
     },
     {
-      "id": "toxic",
-      "title": "Toxic",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
+      "id": "anumana-pakshi",
+      "title": "Anumana Pakshi",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/anumana-1.webp",
       "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
+      "buzzScore": 22,
+      "status": "COOLING",
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
       "sourceSignals": {
-        "news": 1,
+        "news": 0,
         "reviews": 1,
         "trailers": 0,
         "theatreLocations": 0,
@@ -153,6 +115,25 @@
       "id": "the-vvaan",
       "title": "The Vvaan",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "the-paradise",
+      "title": "The Paradise",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -340,6 +321,25 @@
       }
     },
     {
+      "id": "maremma",
+      "title": "Maremma",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "mandaadi",
       "title": "Mandaadi",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mandaadi-1.webp",
@@ -435,6 +435,25 @@
       }
     },
     {
+      "id": "toxic",
+      "title": "Toxic",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "irumudi",
       "title": "Irumudi",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
@@ -490,25 +509,6 @@
         "theatreLocations": 0,
         "theatreShows": 0
       }
-    },
-    {
-      "id": "agadha",
-      "title": "Agadha",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/05/Agadha_Movie_31.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
     }
   ],
   "ottTrending": {
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T15:57:41.753Z",
+      "updatedAt": "2026-10-01T16:26:33.296Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T15:57:41.753Z",
+      "updatedAt": "2026-10-01T16:26:33.296Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T15:57:41.753Z",
+      "updatedAt": "2026-10-01T16:26:33.296Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T15:57:41.753Z",
+      "updatedAt": "2026-10-01T16:26:33.296Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T15:57:41.753Z",
+      "updatedAt": "2026-10-01T16:26:33.296Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T15:57:41.753Z",
+      "updatedAt": "2026-10-01T16:26:33.296Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T15:57:41.753Z",
+      "updatedAt": "2026-10-01T16:26:33.296Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T15:57:41.753Z",
+      "updatedAt": "2026-10-01T16:26:33.296Z",
       "items": [
         {
           "rank": 1,
