@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T01:05:06.741Z",
+  "updatedAt": "2026-10-01T01:23:32.576Z",
   "language": "Telugu",
   "news": [
     {
@@ -470,10 +470,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=9VNK0UtfgXo",
+      "url": "https://www.youtube.com/watch?v=65aPMOuYea4",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/9VNK0UtfgXo/hqdefault.jpg",
-      "youtubeId": "9VNK0UtfgXo",
+      "img": "https://i.ytimg.com/vi/65aPMOuYea4/hqdefault.jpg",
+      "youtubeId": "65aPMOuYea4",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +514,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=AHqrDflEVJs",
+      "url": "https://www.youtube.com/watch?v=j_5auSjE2ig",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/AHqrDflEVJs/hqdefault.jpg",
-      "youtubeId": "AHqrDflEVJs",
+      "img": "https://i.ytimg.com/vi/j_5auSjE2ig/hqdefault.jpg",
+      "youtubeId": "j_5auSjE2ig",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -525,10 +525,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
       "title": "The Vvaan - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=TlMDBaTERtY",
+      "url": "https://www.youtube.com/watch?v=2imX-KViK0s",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
-      "img": "https://i.ytimg.com/vi/TlMDBaTERtY/hqdefault.jpg",
-      "youtubeId": "TlMDBaTERtY",
+      "img": "https://i.ytimg.com/vi/2imX-KViK0s/hqdefault.jpg",
+      "youtubeId": "2imX-KViK0s",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -577,129 +577,7 @@
       "language": "Telugu"
     }
   ],
-  "interviews": [
-    {
-      "id": "noVXFWgoRdQ",
-      "youtubeId": "noVXFWgoRdQ",
-      "title": "LIVE : ANAKAPALLI Team Q&A Press Meet | Vikram Sahidev | Sandhya Vasishta | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=noVXFWgoRdQ",
-      "img": "https://i.ytimg.com/vi/noVXFWgoRdQ/hqdefault.jpg",
-      "publishedAt": "2026-09-30T21:50:05.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "lEtdFC2G2_U",
-      "youtubeId": "lEtdFC2G2_U",
-      "title": "Q&A With Media at Dorothy Telugu Trailer Launch Event | Keerthy Suresh | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=lEtdFC2G2_U",
-      "img": "https://i.ytimg.com/vi/lEtdFC2G2_U/hqdefault.jpg",
-      "publishedAt": "2026-09-30T14:27:19.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "Kff8NJ-e91c",
-      "youtubeId": "Kff8NJ-e91c",
-      "title": "Actor Rana Daggubati Speech at Dorothy (Telugu) - Trailer Launch Event | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=Kff8NJ-e91c",
-      "img": "https://i.ytimg.com/vi/Kff8NJ-e91c/hqdefault.jpg",
-      "publishedAt": "2026-09-30T13:56:30.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "1XzHibkMG7w",
-      "youtubeId": "1XzHibkMG7w",
-      "title": "Thella Kaagitham Team Exclusive Interview | Harsh Roshan | Nakshatra | Telugu FilmNagar",
-      "source": "Telugu Filmnagar",
-      "url": "https://www.youtube.com/watch?v=1XzHibkMG7w",
-      "img": "https://i.ytimg.com/vi/1XzHibkMG7w/hqdefault.jpg",
-      "publishedAt": "2026-09-30T12:07:51.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "mOETm7XL--8",
-      "youtubeId": "mOETm7XL--8",
-      "title": "Q&A With Media at ANAKAPALLI Team Press Meet | Vikram Sahidev | Sandhya Vasishta | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=mOETm7XL--8",
-      "img": "https://i.ytimg.com/vi/mOETm7XL--8/hqdefault.jpg",
-      "publishedAt": "2026-09-30T09:25:38.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "-DondQP1E1s",
-      "youtubeId": "-DondQP1E1s",
-      "title": "Live : Dont Trouble The Trouble Telugu Pre- Release event | Fahadh Fassil, Ssara | SS Rajamouli",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=-DondQP1E1s",
-      "img": "https://i.ytimg.com/vi/-DondQP1E1s/hqdefault.jpg",
-      "publishedAt": "2026-09-30T04:48:10.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "6XRxCBokCS8",
-      "youtubeId": "6XRxCBokCS8",
-      "title": "Man of Masses NTR Powerful Speech at Don’t Trouble the Trouble Telugu Pre-Release Event | Fahadh Faa",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=6XRxCBokCS8",
-      "img": "https://i.ytimg.com/vi/6XRxCBokCS8/hqdefault.jpg",
-      "publishedAt": "2026-09-29T16:27:13.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "wZQOA0jTU7I",
-      "youtubeId": "wZQOA0jTU7I",
-      "title": "Actor Fahadh Faasil Dont Trouble The Trouble Telugu Pre- Release Event | greatandhra",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=wZQOA0jTU7I",
-      "img": "https://i.ytimg.com/vi/wZQOA0jTU7I/hqdefault.jpg",
-      "publishedAt": "2026-09-29T16:13:22.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "yNSEExbw-uo",
-      "youtubeId": "yNSEExbw-uo",
-      "title": "Director SS Rajamouli Speech at Don’t Trouble the Trouble Telugu Pre-Release Event",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=yNSEExbw-uo",
-      "img": "https://i.ytimg.com/vi/yNSEExbw-uo/hqdefault.jpg",
-      "publishedAt": "2026-09-29T15:50:51.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "EkzafT1U36s",
-      "youtubeId": "EkzafT1U36s",
-      "title": "Producer S. S. Karthikeya Speech at Dont Trouble The Trouble Telugu Pre- Release event | greatandhra",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=EkzafT1U36s",
-      "img": "https://i.ytimg.com/vi/EkzafT1U36s/hqdefault.jpg",
-      "publishedAt": "2026-09-29T15:40:55.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "hQhrolPZCG4",
-      "youtubeId": "hQhrolPZCG4",
-      "title": "Producer Ravi Shankar Speech at Don’t Trouble the Trouble Pre-Release Event | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=hQhrolPZCG4",
-      "img": "https://i.ytimg.com/vi/hQhrolPZCG4/hqdefault.jpg",
-      "publishedAt": "2026-09-29T15:24:23.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    }
-  ],
+  "interviews": [],
   "reviews": [
     {
       "t": "Anumana Pakshi",
@@ -1973,50 +1851,6 @@
             "rating": null,
             "ratingText": "Not available",
             "url": ""
-          }
-        ]
-      }
-    },
-    {
-      "t": "సమీక్ష : సీక్రెట్ సోల్జర్ - రెగ్యులర్ ఎమోషనల్ క్రైమ్ డ్రామా !",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "2.5/5",
-      "img": "https://cdn.123telugu.com/telugu/wp-content/uploads/2026/09/screct.webp",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html",
-      "aggregator": {
-        "average": 2.5,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html"
           }
         ]
       }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T01:08:41.135Z",
+  "updatedAt": "2026-10-01T01:24:53.274Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -59,6 +59,25 @@
       "title": "The Paradise",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
       "language": "Telugu",
+      "buzzScore": 52,
+      "status": "RISING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 3,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "sardar-2",
+      "title": "Sardar 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "language": "Telugu",
       "buzzScore": 42,
       "status": "STEADY",
       "theatre": {
@@ -93,9 +112,9 @@
       }
     },
     {
-      "id": "sardar-2",
-      "title": "Sardar 2",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+      "id": "maremma",
+      "title": "Maremma",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -112,9 +131,28 @@
       }
     },
     {
-      "id": "maremma",
-      "title": "Maremma",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
+      "id": "bethlehem-kudumba-unit",
+      "title": "Bethlehem Kudumba Unit",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "romanchakam",
+      "title": "Romanchakam",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -416,44 +454,6 @@
       }
     },
     {
-      "id": "bethlehem-kudumba-unit",
-      "title": "Bethlehem Kudumba Unit",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "romanchakam",
-      "title": "Romanchakam",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "toxic",
       "title": "Toxic",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
@@ -516,97 +516,70 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-01T01:08:41.110Z",
+      "updatedAt": "2026-10-01T01:24:53.217Z",
       "items": [
         {
           "rank": 1,
-          "title": "Bethlehem Kudumba Unit",
+          "title": "#Love",
           "language": "Telugu",
-          "img": "https://img.youtube.com/vi/NmsT-kzKWhU/maxresdefault.jpg",
+          "img": "https://www.whats-on-netflix.com/wp-content/uploads/2025/10/Love-Key-Art.jpg",
           "platform": "Netflix",
           "releaseDate": "October 2, 2026",
-          "languages": "Telugu"
+          "languages": "Tamil · Telugu · Kannada · Malayalam · Hindi"
         },
         {
           "rank": 2,
-          "title": "#Love",
+          "title": "Romanchakam",
           "language": "Telugu",
-          "img": "https://img.youtube.com/vi/xp3mBhXY8Y8/maxresdefault.jpg",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
           "platform": "Netflix",
-          "releaseDate": "October 2, 2026",
-          "languages": "Telugu"
+          "releaseDate": "October 1, 2026",
+          "languages": "Telugu · Tamil · Kannada · Malayalam · Hindi"
         },
         {
           "rank": 3,
-          "title": "Romanchakam",
+          "title": "Least Eligible Bachelor",
           "language": "Telugu",
-          "img": "https://img.youtube.com/vi/oxvsaLPuQFc/maxresdefault.jpg",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Least-Eligible-Bachelor.webp",
           "platform": "Netflix",
-          "releaseDate": "October 1, 2026",
+          "releaseDate": "October 2026",
           "languages": "Telugu"
         },
         {
           "rank": 4,
-          "title": "Sardar 2",
+          "title": "Irumudi",
           "language": "Telugu",
-          "img": "https://img.youtube.com/vi/bnJG5OxkB34/maxresdefault.jpg",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
           "platform": "Netflix",
-          "releaseDate": "October 1, 2026",
-          "languages": "Telugu"
+          "releaseDate": "September 18, 2026",
+          "languages": "Telugu · Tamil · Kannada · Malayalam · Hindi"
         },
         {
           "rank": 5,
-          "title": "Least Eligible Bachelor",
+          "title": "Modha Rathri",
           "language": "Telugu",
-          "img": "https://img.youtube.com/vi/lnLsKCQzf3Q/maxresdefault.jpg",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Modha-Rathri.webp",
           "platform": "Netflix",
-          "releaseDate": "September 30, 2026",
-          "languages": "Telugu"
+          "releaseDate": "September 18, 2026",
+          "languages": "Tamil · Telugu · Kannada · Malayalam · Hindi"
         },
         {
           "rank": 6,
-          "title": "${heading}",
+          "title": "Vishwanath and Sons",
           "language": "Telugu",
-          "img": "https://images.goodreturns.in/images/gr-promo-banner-lightbg-1781778921580.png",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg",
           "platform": "Netflix",
-          "releaseDate": "",
-          "languages": "Telugu"
+          "releaseDate": "September 11, 2026",
+          "languages": "Tamil · Telugu · Kannada · Malayalam · Hindi"
         },
         {
           "rank": 7,
-          "title": "Ramba Oorvasi Menaka",
+          "title": "Korean Kanakaraju",
           "language": "Telugu",
-          "img": "https://img.youtube.com/vi/LHxKhCcMFl8/maxresdefault.jpg",
+          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Korean-Kanakaraju.webp",
           "platform": "Netflix",
-          "releaseDate": "",
-          "languages": "socio-fantasy comedy now streaming on Amazon Prime Video in Telugu, with subtitles for broader reach"
-        },
-        {
-          "rank": 8,
-          "title": "Agadha",
-          "language": "Telugu",
-          "img": "https://img.youtube.com/vi/CSXhb2zhfLc/maxresdefault.jpg",
-          "platform": "Netflix",
-          "releaseDate": "",
-          "languages": "mystical thriller now streaming on ZEE5 in Telugu, with subtitle options for wider viewership"
-        },
-        {
-          "rank": 9,
-          "title": "Irumudi",
-          "language": "Telugu",
-          "img": "https://img.youtube.com/vi/Lpzh4JPRD9Q/maxresdefault.jpg",
-          "platform": "Netflix",
-          "releaseDate": "",
-          "languages": "Telugu, Tamil, Kannada, Malayalam, and Hindi Verdict : An emotionally driven family drama that relies on Ravi Teja’s performance and its father-daughter relationship for impact"
-        },
-        {
-          "rank": 10,
-          "title": "Hushar Pittalu",
-          "language": "Telugu",
-          "img": "https://img.youtube.com/vi/cfEKCH5MuWc/maxresdefault.jpg",
-          "platform": "Netflix",
-          "releaseDate": "",
-          "languages": "Telugu"
+          "releaseDate": "September 4, 2026",
+          "languages": "Telugu · Hindi · Tamil · Kannada · Malayalam"
         }
       ],
       "note": "Latest available Telugu-relevant titles on Netflix."
@@ -615,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-01T01:08:41.111Z",
+      "updatedAt": "2026-10-01T01:24:53.217Z",
       "items": [
         {
           "rank": 1,
@@ -669,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-01T01:08:41.111Z",
+      "updatedAt": "2026-10-01T01:24:53.217Z",
       "items": [
         {
           "rank": 1,
@@ -691,34 +664,7 @@
         },
         {
           "rank": 3,
-          "title": "Top Listing",
-          "language": "Telugu",
-          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/drishyam-2-on-ott-where-to-watch-ajay-devgns-thriller-before-drishyam-the-conclusion-20260930210736-1432.jpg",
-          "platform": "Aha",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 4,
-          "title": "Khatron Ke Khiladi 15 Grand Finale: Release...",
-          "language": "Telugu",
-          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/khatron-ke-khiladi-15-grand-finale-release-date-promo-top-6-finalists-winner-and-everything-you-need-to-know-20260928124415-8181.jpg",
-          "platform": "Aha",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 5,
           "title": "Kahan Shuru Kahan Khatam OTT: When And Where To...",
-          "language": "Telugu",
-          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/kahan-shuru-kahan-khatam-ott-when-and-where-to-dhvani-bhanushalis-comedy-drama-online-20260930102736-444.jpg",
-          "platform": "Aha",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 6,
-          "title": "View All Listing",
           "language": "Telugu",
           "img": "https://images.filmibeat.com/img/popcorn/movie_lists/kahan-shuru-kahan-khatam-ott-when-and-where-to-dhvani-bhanushalis-comedy-drama-online-20260930102736-444.jpg",
           "platform": "Aha",
@@ -732,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-01T01:08:41.111Z",
+      "updatedAt": "2026-10-01T01:24:53.217Z",
       "items": [
         {
           "rank": 1,
@@ -768,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-01T01:08:41.111Z",
+      "updatedAt": "2026-10-01T01:24:53.217Z",
       "items": [
         {
           "rank": 1,
@@ -795,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T01:08:41.111Z",
+      "updatedAt": "2026-10-01T01:24:53.217Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -803,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-01T01:08:41.111Z",
+      "updatedAt": "2026-10-01T01:24:53.217Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -811,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-01T01:08:41.111Z",
+      "updatedAt": "2026-10-01T01:24:53.217Z",
       "items": [
         {
           "rank": 1,
