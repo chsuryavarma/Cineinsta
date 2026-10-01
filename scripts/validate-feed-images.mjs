@@ -1,10 +1,15 @@
 import fs from "node:fs/promises";
 
-const FILES = [
+const ALL_FILES = [
   "data/feed.json",
   "data/feed-candidates.json",
   "data/buzz.json",
   "data/ticket-trends.json"
+];
+
+const FEED_FILES = [
+  "data/feed.json",
+  "data/feed-candidates.json"
 ];
 
 const USER_AGENT =
@@ -22,8 +27,6 @@ function isCineinstaSvg(url) {
 async function imageIsValid(url) {
   if (!url || typeof url !== "string") return false;
 
-  // Cineinsta-generated news visuals are local/original SVG data images.
-  // They do not require an external HTTP image request or licence check.
   if (isCineinstaSvg(url)) return true;
 
   if (!/^https?:\/\//i.test(url)) return false;
@@ -64,30 +67,17 @@ async function imageIsValid(url) {
 function imageFields(item) {
   if (!item || typeof item !== "object") return [];
 
-  const fields = [];
-
-  // Cineinsta's feed schema primarily uses "img".
-  // Keep "image" and "thumbnail" support for Buzz/legacy data.
-  for (const key of ["img", "image", "thumbnail"]) {
-    if (typeof item[key] === "string" && item[key].trim()) {
-      fields.push({ key, url: item[key].trim() });
-    }
-  }
-
-  return fields;
+  return ["img", "image", "thumbnail"]
+    .filter(key => typeof item[key] === "string" && item[key].trim())
+    .map(key => ({ key, url: item[key].trim() }));
 }
 
 async function validateArrayImages(label, items, errors) {
   if (!Array.isArray(items)) return;
 
   for (let index = 0; index < items.length; index += 1) {
-    const item = items[index];
-    const fields = imageFields(item);
-
-    for (const field of fields) {
-      const valid = await imageIsValid(field.url);
-
-      if (!valid) {
+    for (const field of imageFields(items[index])) {
+      if (!(await imageIsValid(field.url))) {
         errors.push(
           `${label}[${index + 1}].${field.key}: image is not reachable/usable`
         );
@@ -111,13 +101,10 @@ async function validateFile(file, errors) {
     return;
   }
 
-  // Feed JSON.
   await validateArrayImages(`${file}:news`, data.news, errors);
   await validateArrayImages(`${file}:trailers`, data.trailers, errors);
   await validateArrayImages(`${file}:interviews`, data.interviews, errors);
   await validateArrayImages(`${file}:reviews`, data.reviews, errors);
-
-  // Buzz JSON.
   await validateArrayImages(`${file}:movies`, data.movies, errors);
 
   if (data.ottTrending && typeof data.ottTrending === "object") {
@@ -129,25 +116,20 @@ async function validateFile(file, errors) {
       );
     }
   }
-
-  // Ticket-trends JSON.
-  await validateArrayImages(`${file}:ticket-trends.movies`, data.movies, errors);
 }
 
 async function main() {
+  const mode = process.argv.includes("--all") ? "all" : "feed";
+  const files = mode === "all" ? ALL_FILES : FEED_FILES;
   const errors = [];
 
-  for (const file of FILES) {
-    try {
-      await validateFile(file, errors);
-    } catch (error) {
-      errors.push(`${file}: validator error (${error.message})`);
-    }
+  for (const file of files) {
+    await validateFile(file, errors);
   }
 
   if (errors.length) {
     console.error("");
-    console.error("Cineinsta image validation failed.");
+    console.error(`Cineinsta ${mode} image validation failed.`);
     console.error("");
 
     for (const error of errors.slice(0, 50)) {
@@ -161,7 +143,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log("Cineinsta image validation completed successfully.");
+  console.log(`Cineinsta ${mode} image validation completed successfully.`);
   console.log(
     "Accepted image types: HTTPS image URLs and Cineinsta-generated SVG data images."
   );
