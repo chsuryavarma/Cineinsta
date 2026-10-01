@@ -38,6 +38,13 @@ function stripHtml(html = "") {
 }
 
 function extractArticleText(html = "") {
+  const raw = String(html || "").trim();
+
+  // Jina Reader returns clean text instead of HTML. Keep that text directly.
+  if (raw && !/<[a-z][\s\S]*>/i.test(raw)) {
+    return cleanText(raw).slice(0, 10000);
+  }
+
   const candidates = [];
 
   for (const match of html.matchAll(
@@ -72,18 +79,47 @@ function extractArticleText(html = "") {
 }
 
 async function fetchSource(url) {
-  const response = await fetch(url, {
+  const headers = {
+    "User-Agent": USER_AGENT,
+    Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+  };
+
+  // Try the publisher first. Some publishers allow GitHub Actions to fetch
+  // the page directly, while others return a shell page or block the runner.
+  try {
+    const response = await fetch(url, { headers });
+    if (response.ok) {
+      const html = await response.text();
+      if (extractArticleText(html).length >= 250) {
+        return html;
+      }
+    }
+  } catch (error) {
+    console.log(`Direct source fetch failed: ${error.message}`);
+  }
+
+  // Fallback: Jina Reader converts public article pages into clean readable
+  // text and avoids the JavaScript/anti-bot shell returned by some sites.
+  const jinaUrl = `https://r.jina.ai/${url}`;
+  const jinaResponse = await fetch(jinaUrl, {
     headers: {
       "User-Agent": USER_AGENT,
-      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      Accept: "text/plain,text/markdown,*/*;q=0.8"
     }
   });
 
-  if (!response.ok) {
-    throw new Error(`Source returned HTTP ${response.status}`);
+  if (!jinaResponse.ok) {
+    throw new Error(
+      `Source unavailable directly and Jina returned HTTP ${jinaResponse.status}`
+    );
   }
 
-  return response.text();
+  const text = await jinaResponse.text();
+  if (extractArticleText(text).length < 250) {
+    throw new Error("insufficient source article text after direct and Jina fetch");
+  }
+
+  return text;
 }
 
 function parseJson(text) {
