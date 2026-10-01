@@ -498,7 +498,7 @@ hero.style.display="block";
 document.getElementById("heroImage").innerHTML='<img src="'+escapeHTML(item.img)+'" alt="'+escapeHTML(item.title)+'">';
 document.getElementById("heroTitle").textContent=item.title||"";
 document.getElementById("heroSummary").textContent=cleanSummary(item.summary||"");
-document.getElementById("heroMeta").textContent=(item.source||"Telugu Cinema")+(formatDate(item.publishedAt)?" · "+formatDate(item.publishedAt):"");
+document.getElementById("heroMeta").textContent=formatDate(item.publishedAt)||"";
 document.getElementById("heroLink").href="/news/"+articleSlug(item);
 }
 
