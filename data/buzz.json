@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T11:03:10.201Z",
+  "updatedAt": "2026-10-02T11:07:54.053Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -226,25 +226,6 @@
       }
     },
     {
-      "id": "the-vvaan",
-      "title": "The Vvaan",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 1,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "thellakaagitham",
       "title": "Thellakaagitham",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Thella-Kaagitham.webp",
@@ -267,6 +248,25 @@
       "id": "anumana-pakshi",
       "title": "Anumana Pakshi",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/anumanapakshi2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "the-vvaan",
+      "title": "The Vvaan",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-02T11:03:08.687Z",
+      "updatedAt": "2026-10-02T11:07:53.244Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-02T11:03:08.687Z",
+      "updatedAt": "2026-10-02T11:07:53.245Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-02T11:03:08.687Z",
+      "updatedAt": "2026-10-02T11:07:53.245Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-02T11:03:08.687Z",
+      "updatedAt": "2026-10-02T11:07:53.245Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-02T11:03:08.687Z",
+      "updatedAt": "2026-10-02T11:07:53.245Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T11:03:08.687Z",
+      "updatedAt": "2026-10-02T11:07:53.245Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T11:03:08.687Z",
+      "updatedAt": "2026-10-02T11:07:53.245Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-02T11:03:08.687Z",
+      "updatedAt": "2026-10-02T11:07:53.245Z",
       "items": [
         {
           "rank": 1,
