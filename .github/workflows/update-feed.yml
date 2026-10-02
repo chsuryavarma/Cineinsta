@@ -22,12 +22,27 @@ jobs:
           node-version: 20
 
       - name: Generate feed candidates
+        id: editorial
         env:
           GEMINI_API_KEY: ${{ secrets.CINEINSTA_GOOGLE }}
         run: |
+          set +e
           node scripts/generate-feed-candidates.mjs
+          STATUS=$?
+
+          if [ "$STATUS" -ne 0 ]; then
+            echo "EDITORIAL_FAILED=true" >> "$GITHUB_OUTPUT"
+            echo "Editorial generation did not produce a publishable batch."
+            echo "The existing published feed will be preserved."
+            echo "The workflow will continue so Buzz, theatre signals and sitemaps can still update."
+          else
+            echo "EDITORIAL_FAILED=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          exit 0
 
       - name: Publish automatically approved feed
+        if: steps.editorial.outputs.EDITORIAL_FAILED != 'true'
         run: |
           node scripts/publish-feed.mjs
 
@@ -56,6 +71,6 @@ jobs:
             git add data/ticket-trends.json
           fi
 
-          git diff --cached --quiet || git commit -m "Use original generic images for Cineinsta news"
+          git diff --cached --quiet || git commit -m "Update Cineinsta feed, Buzz and sitemaps"
 
           git push
