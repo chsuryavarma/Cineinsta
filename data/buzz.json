@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T05:31:29.402Z",
+  "updatedAt": "2026-10-02T05:42:22.793Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -133,7 +133,7 @@
     {
       "id": "baththa",
       "title": "Baththa - Official Trailer",
-      "img": "https://static.toiimg.com/thumb/msid-134285020,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "img": "https://i.ytimg.com/vi/0CmJToOXecY/hqdefault.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:31:29.376Z",
+      "updatedAt": "2026-10-02T05:42:18.498Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:31:29.377Z",
+      "updatedAt": "2026-10-02T05:42:18.499Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:31:29.377Z",
+      "updatedAt": "2026-10-02T05:42:18.499Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:31:29.377Z",
+      "updatedAt": "2026-10-02T05:42:18.499Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:31:29.377Z",
+      "updatedAt": "2026-10-02T05:42:18.499Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T05:31:29.377Z",
+      "updatedAt": "2026-10-02T05:42:18.499Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T05:31:29.377Z",
+      "updatedAt": "2026-10-02T05:42:18.499Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:31:29.377Z",
+      "updatedAt": "2026-10-02T05:42:18.499Z",
       "items": [
         {
           "rank": 1,
@@ -772,5 +772,5 @@
       "note": "Latest available Telugu-relevant titles on SonyLIV."
     }
   },
-  "methodology": "OTT tabs show up to 10 latest available Telugu-relevant movies or shows per platform. Filmibeat is used as a research input; Cineinsta does not expose source URLs to viewers or create OTT rankings."
+  "methodology": "OTT tabs show up to 10 latest available Telugu-relevant movies or shows per platform. Image URLs are validated before publishing and matching Cineinsta News, Reviews, Trailers and YouTube thumbnails are used as fallbacks when necessary."
 }
