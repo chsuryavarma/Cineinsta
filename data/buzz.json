@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T06:51:07.746Z",
+  "updatedAt": "2026-10-02T09:54:56.281Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,9 +55,66 @@
   ],
   "movies": [
     {
-      "id": "dont-trouble-the-trouble",
-      "title": "Don’t Trouble The Trouble",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/donttroublethetrouble.jpg",
+      "id": "sigma",
+      "title": "SIGMA",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sigma-movie-review.jpg",
+      "language": "Telugu",
+      "buzzScore": 52,
+      "status": "RISING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 3,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "mahendragiri-varahi",
+      "title": "Mahendragiri Varahi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
+      "language": "Telugu",
+      "buzzScore": 42,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 2,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "drishyam-the-conclusion",
+      "title": "Drishyam The Conclusion",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Drishyam.jpg",
+      "language": "Telugu",
+      "buzzScore": 37,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 1,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "dorothy",
+      "title": "Dorothy",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -74,9 +131,47 @@
       }
     },
     {
-      "id": "mahendragiri-varahi",
-      "title": "Mahendragiri Varahi",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
+      "id": "dont-trouble-the-trouble",
+      "title": "Don't Trouble The Trouble",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "thella-kaagitham",
+      "title": "Thella Kaagitham",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/Thella_Kaagitham_Movie_11.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "maremma",
+      "title": "Maremma",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -96,6 +191,44 @@
       "id": "bethlehem-kudumba-unit",
       "title": "Bethlehem Kudumba Unit",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "romanchakam",
+      "title": "Romanchakam",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "thella-kaagitam",
+      "title": "Thella Kaagitam",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thella-Kagitham-movie-review.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -133,7 +266,7 @@
     {
       "id": "baththa",
       "title": "Baththa - Official Trailer",
-      "img": "https://i.ytimg.com/vi/asrF4DinJAc/hqdefault.jpg",
+      "img": "https://i.ytimg.com/vi/HcXIrMZIr3A/hqdefault.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -150,9 +283,9 @@
       }
     },
     {
-      "id": "thella-kaagitham",
-      "title": "Thella Kaagitham",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Thella-Kaagitham-Review.jpg",
+      "id": "thellakaagitham",
+      "title": "Thellakaagitham",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Thella-Kaagitham.webp",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -376,139 +509,6 @@
         "theatreLocations": 0,
         "theatreShows": 0
       }
-    },
-    {
-      "id": "maremma",
-      "title": "Maremma",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/maremma2.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "mandaadi",
-      "title": "Mandaadi",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mandaadi-1.webp",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "ramba-oorvasi-menaka",
-      "title": "Ramba Oorvasi Menaka",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/RambhaUrvashiMenaka2.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "mirzapur-the",
-      "title": "Mirzapur The Movie",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mirzapur-The-Movie.webp",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "romanchakam",
-      "title": "Romanchakam",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "toxic",
-      "title": "Toxic",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "irumudi",
-      "title": "Irumudi",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
     }
   ],
   "ottTrending": {
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-02T06:51:03.521Z",
+      "updatedAt": "2026-10-02T09:54:53.956Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-02T06:51:03.522Z",
+      "updatedAt": "2026-10-02T09:54:53.956Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-02T06:51:03.522Z",
+      "updatedAt": "2026-10-02T09:54:53.956Z",
       "items": [
         {
           "rank": 1,
@@ -669,7 +669,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-02T06:51:03.522Z",
+      "updatedAt": "2026-10-02T09:54:53.956Z",
       "items": [
         {
           "rank": 1,
@@ -705,7 +705,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-02T06:51:03.522Z",
+      "updatedAt": "2026-10-02T09:54:53.956Z",
       "items": [
         {
           "rank": 1,
@@ -732,7 +732,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T06:51:03.522Z",
+      "updatedAt": "2026-10-02T09:54:53.956Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -740,7 +740,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T06:51:03.522Z",
+      "updatedAt": "2026-10-02T09:54:53.956Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -748,7 +748,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-02T06:51:03.522Z",
+      "updatedAt": "2026-10-02T09:54:53.956Z",
       "items": [
         {
           "rank": 1,
