@@ -1491,6 +1491,80 @@ async function readReview(source, candidate) {
   };
 }
 
+async function collectReviewCandidatesFromNews(news) {
+  const discovered = [];
+
+  const sourceByDomain = new Map(
+    REVIEW_SOURCES.map(source => [source.domain, source])
+  );
+
+  for (const item of Array.isArray(news) ? news : []) {
+    const url = typeof item?.url === "string" ? item.url : "";
+    if (!url) continue;
+
+    let source = null;
+
+    for (const [domain, configuredSource] of sourceByDomain) {
+      if (url.includes(domain)) {
+        source = configuredSource;
+        break;
+      }
+    }
+
+    if (!source) continue;
+
+    const lowerUrl = url.toLowerCase();
+
+    const looksLikeReview =
+      lowerUrl.includes("-movie-review") ||
+      lowerUrl.includes("-review/") ||
+      lowerUrl.includes("/movie-review/") ||
+      lowerUrl.includes("/reviews/") ||
+      lowerUrl.includes("/moviereviews/");
+
+    if (!looksLikeReview) continue;
+
+    discovered.push({
+      url,
+      text:
+        typeof item.title === "string"
+          ? item.title
+          : ""
+    });
+  }
+
+  return uniqueLinks(discovered);
+}
+
+async function collectReviewsFromNews(news) {
+  const discovered =
+    await collectReviewCandidatesFromNews(news);
+
+  const reviews = [];
+
+  for (const candidate of discovered) {
+    const source = REVIEW_SOURCES.find(
+      configuredSource =>
+        candidate.url.includes(
+          configuredSource.domain
+        )
+    );
+
+    if (!source) continue;
+
+    const review = await readReview(
+      source,
+      candidate
+    );
+
+    if (!review) continue;
+
+    reviews.push(review);
+  }
+
+  return reviews;
+}
+
 function titleTokens(title) {
   return new Set(
     cleanTitle(title)
@@ -1702,6 +1776,26 @@ async function main() {
   );
 
   const allReviews = [];
+
+  console.log("");
+  console.log("======================================");
+  console.log("REVIEWS DISCOVERED THROUGH NEWS FEED");
+  console.log("======================================");
+
+  const discoveredNewsReviews =
+    await collectReviewsFromNews(news);
+
+  for (const review of discoveredNewsReviews) {
+    console.log(
+      `NEWS DISCOVERY | ${review.source} | ${review.movie} | ${review.releaseDate || "No release date"} | ${review.ratingText}`
+    );
+
+    allReviews.push(review);
+  }
+
+  console.log(
+    `Review URLs discovered from news feed: ${discoveredNewsReviews.length}`
+  );
 
   console.log("");
   console.log("======================================");
