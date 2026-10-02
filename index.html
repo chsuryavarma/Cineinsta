@@ -76,6 +76,7 @@ main{max-width:1180px;margin:auto;padding:32px 20px 100px}.intro{padding:14px 0 
 .articleFacts ul{margin:0;padding-left:20px}
 .articleFacts li{margin:8px 0;line-height:1.55}
 .articleContext p{margin:0;line-height:1.65;color:#444}
+.articleHighlights{max-width:760px;margin:28px auto 0;padding:20px 22px;background:#faf9f7;border:1px solid var(--line);border-radius:14px}.articleHighlights h2{margin:0 0 12px;font-size:16px;letter-spacing:-.2px}.articleHighlights ul{margin:0;padding-left:19px;color:#555;font-size:13px;line-height:1.65}.articleHighlights li{margin:6px 0}
 .articleSourceList{max-width:760px;margin:24px auto 0;padding:16px 18px;border-top:1px solid var(--line);font-size:11px;color:#666}
 .articleSourceList ul{margin:8px 0 0;padding-left:18px}
 .articleSourceList li{margin:5px 0}
@@ -395,6 +396,18 @@ const contextHtml=context?`<section class="articleContext"><h2>Cineinsta context
 return `<div class="articleEditorial"><div class="articleSummary">${escapeHTML(summary)}</div>${bodyHtml?`<div class="articleBody">${bodyHtml}</div>`:""}${factsHtml}${contextHtml}</div>`;
 }
 
+function renderWhatToLookFor(item){
+const candidates=Array.isArray(item.whatToLookFor)?item.whatToLookFor.filter(Boolean):[];
+const facts=Array.isArray(item.keyFacts)?item.keyFacts.filter(Boolean):[];
+const body=Array.isArray(item.body)?item.body.filter(Boolean):[];
+const context=cleanSummary(item.cineinstaContext||"");
+let points=candidates.length?candidates:facts;
+if(!points.length && context)points=[context];
+if(!points.length && body.length)points=body.slice(0,3);
+if(!points.length)return "";
+return `<section class="articleHighlights" aria-labelledby="whatToLookForTitle"><h2 id="whatToLookForTitle">What to Look for</h2><ul>${points.slice(0,4).map(function(p){return `<li>${escapeHTML(String(p))}</li>`}).join("")}</ul></section>`;
+}
+
 function showArticlePage(entry){
 const articlePage=document.getElementById("articlePage");
 const item=entry.item;
@@ -405,9 +418,10 @@ const date=formatDate(item.publishedAt);
 const originalUrl=item.originalUrl||item.url||item.u||"#";
 const relatedHtml=entry.type==="news"?renderRelatedNews(item):"";
 const editorialHtml=entry.type==="news"?renderEditorialArticle(item):`<div class="articleSummary">${escapeHTML(cleanSummary(item.summary||item.d||"Latest Indian cinema update."))}</div>`;
+const highlightsHtml=entry.type==="news"?renderWhatToLookFor(item):"";
 const sourceNames=item.source||"Cineinsta";
 const sourceExtra=Array.isArray(item.sources)&&item.sources.length?`<div class="articleSourceList"><strong>Information sources</strong><ul>${item.sources.map(function(s){return `<li>${escapeHTML(String(s))}</li>`}).join("")}</ul></div>`:"";
-articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#trailersSection" data-section="trailersSection">Jump to Trailers</a></nav></div>`;
+articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${highlightsHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#trailersSection" data-section="trailersSection">Jump to Trailers</a></nav></div>`;
 updateSEO(entry);
 }
 
