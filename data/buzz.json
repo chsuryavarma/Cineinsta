@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T00:49:44.224Z",
+  "updatedAt": "2026-10-02T05:19:17.483Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -93,9 +93,28 @@
       }
     },
     {
-      "id": "the-vvaan-official-trailer",
-      "title": "The Vvaan - Official Trailer",
-      "img": "https://i.ytimg.com/vi/SV4eucSnKF4/hqdefault.jpg",
+      "id": "the-vvaan",
+      "title": "The Vvaan",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 1,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "baththa",
+      "title": "Baththa - Official Trailer",
+      "img": "https://i.ytimg.com/vi/asrF4DinJAc/hqdefault.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -115,25 +134,6 @@
       "id": "anumana-pakshi",
       "title": "Anumana Pakshi",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/anumanapakshi2.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "the-vvaan",
-      "title": "The Vvaan",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -397,7 +397,7 @@
       }
     },
     {
-      "id": "mirzapur-the-movie",
+      "id": "mirzapur-the",
       "title": "Mirzapur The Movie",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mirzapur-The-Movie.webp",
       "language": "Telugu",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-02T00:49:44.184Z",
+      "updatedAt": "2026-10-02T05:19:17.454Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-02T00:49:44.184Z",
+      "updatedAt": "2026-10-02T05:19:17.454Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-02T00:49:44.184Z",
+      "updatedAt": "2026-10-02T05:19:17.455Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-02T00:49:44.184Z",
+      "updatedAt": "2026-10-02T05:19:17.455Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-02T00:49:44.184Z",
+      "updatedAt": "2026-10-02T05:19:17.455Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T00:49:44.184Z",
+      "updatedAt": "2026-10-02T05:19:17.455Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T00:49:44.184Z",
+      "updatedAt": "2026-10-02T05:19:17.455Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-02T00:49:44.184Z",
+      "updatedAt": "2026-10-02T05:19:17.455Z",
       "items": [
         {
           "rank": 1,
