@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T10:51:40.822Z",
+  "updatedAt": "2026-10-02T11:03:10.201Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-02T10:51:38.920Z",
+      "updatedAt": "2026-10-02T11:03:08.687Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-02T10:51:38.920Z",
+      "updatedAt": "2026-10-02T11:03:08.687Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-02T10:51:38.920Z",
+      "updatedAt": "2026-10-02T11:03:08.687Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-02T10:51:38.920Z",
+      "updatedAt": "2026-10-02T11:03:08.687Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-02T10:51:38.920Z",
+      "updatedAt": "2026-10-02T11:03:08.687Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T10:51:38.920Z",
+      "updatedAt": "2026-10-02T11:03:08.687Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T10:51:38.921Z",
+      "updatedAt": "2026-10-02T11:03:08.687Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-02T10:51:38.921Z",
+      "updatedAt": "2026-10-02T11:03:08.687Z",
       "items": [
         {
           "rank": 1,
