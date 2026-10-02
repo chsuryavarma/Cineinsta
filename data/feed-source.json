@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-02T10:05:21.389Z",
+  "updatedAt": "2026-10-02T10:51:03.147Z",
   "language": "Telugu",
   "news": [
     {
       "id": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
-      "title": "Review: Sundeep Kishan’s Sigma - A below-par heist drama",
+      "title": "Review: Sundeep Kishan’s Sigma - A Below-Par Heist Drama",
       "summary": "Sundeep Kishan's Sigma Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
@@ -26,7 +26,7 @@
     },
     {
       "id": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html",
-      "title": "Review: Keerthy Suresh’s Dorothy - Strictly for niche drama lovers",
+      "title": "Review: Keerthy Suresh’s Dorothy - Strictly For Niche Drama Lovers",
       "summary": "Dorothy Movie Review and Rating | Keerthy Suresh Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html",
@@ -81,7 +81,7 @@
     },
     {
       "id": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html",
-      "title": "Review: Don’t Trouble the Trouble - Works in bits and pieces",
+      "title": "Review: Don’t Trouble the Trouble - Works In Bits And Pieces",
       "summary": "Fahadh Faasil's Don't Trouble The Trouble Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home...",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html",
@@ -157,11 +157,11 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.telugu360.com/thella-kaagitam-movie-review/",
-      "title": "Thella Kaagitam Review : A Sweet Love Story Stretched Too Far",
+      "id": "https://www.telugu360.com/thella-kaagitham-movie-review/",
+      "title": "Thella Kaagitham Review : A Sweet Love Story Stretched Too Far",
       "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie...",
       "source": "Telugu360",
-      "url": "https://www.telugu360.com/thella-kaagitam-movie-review/",
+      "url": "https://www.telugu360.com/thella-kaagitham-movie-review/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thella-Kagitham-movie-review.jpg",
       "publishedAt": "2026-10-02T04:40:41.000Z",
       "language": "Telugu",
@@ -445,13 +445,24 @@
   ],
   "trailers": [
     {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
+      "title": "Ebenezer - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://www.youtube.com/watch?v=5t33R_JmZhk",
+      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
+      "img": "https://i.ytimg.com/vi/5t33R_JmZhk/hqdefault.jpg",
+      "youtubeId": "5t33R_JmZhk",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=CIZD3O4k0bs",
+      "url": "https://www.youtube.com/watch?v=N7GKjMwQbvk",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/CIZD3O4k0bs/hqdefault.jpg",
-      "youtubeId": "CIZD3O4k0bs",
+      "img": "https://i.ytimg.com/vi/N7GKjMwQbvk/hqdefault.jpg",
+      "youtubeId": "N7GKjMwQbvk",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -459,10 +470,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
       "title": "Prahaar: The Untold Story of Ujjwal Nikam - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=JPsMGxeov8k",
+      "url": "https://www.youtube.com/watch?v=6cn88OnZF1Q",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
-      "img": "https://i.ytimg.com/vi/JPsMGxeov8k/hqdefault.jpg",
-      "youtubeId": "JPsMGxeov8k",
+      "img": "https://i.ytimg.com/vi/6cn88OnZF1Q/hqdefault.jpg",
+      "youtubeId": "6cn88OnZF1Q",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -481,10 +492,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=n67-f7Ttxy4",
+      "url": "https://www.youtube.com/watch?v=4Jpoh8N0oxI",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/n67-f7Ttxy4/hqdefault.jpg",
-      "youtubeId": "n67-f7Ttxy4",
+      "img": "https://i.ytimg.com/vi/4Jpoh8N0oxI/hqdefault.jpg",
+      "youtubeId": "4Jpoh8N0oxI",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -492,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=PFWwt5asUe0",
+      "url": "https://www.youtube.com/watch?v=i6_NVyIH7Qs",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/PFWwt5asUe0/hqdefault.jpg",
-      "youtubeId": "PFWwt5asUe0",
+      "img": "https://i.ytimg.com/vi/i6_NVyIH7Qs/hqdefault.jpg",
+      "youtubeId": "i6_NVyIH7Qs",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +525,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
       "title": "Baththa - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=HcXIrMZIr3A",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://i.ytimg.com/vi/HcXIrMZIr3A/hqdefault.jpg",
-      "youtubeId": "HcXIrMZIr3A",
+      "img": "https://static.toiimg.com/thumb/msid-134285020,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -563,17 +574,6 @@
       "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-09T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
-      "title": "Vibe - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
-      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
-      "img": "https://static.toiimg.com/thumb/msid-133713137,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-02T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
@@ -656,17 +656,6 @@
       "category": "Movie Interviews"
     },
     {
-      "id": "V5TgC2peP2E",
-      "youtubeId": "V5TgC2peP2E",
-      "title": "Jadal With Shikanja Maalik | The Paradise Interview | Nani | Mohan Babu | Srikanth Odela | TFN",
-      "source": "Telugu Filmnagar",
-      "url": "https://www.youtube.com/watch?v=V5TgC2peP2E",
-      "img": "https://i.ytimg.com/vi/V5TgC2peP2E/hqdefault.jpg",
-      "publishedAt": "2026-10-01T08:13:03.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
       "id": "noVXFWgoRdQ",
       "youtubeId": "noVXFWgoRdQ",
       "title": "LIVE : ANAKAPALLI Team Q&A Press Meet | Vikram Sahidev | Sandhya Vasishta | greatandhra.com",
@@ -674,17 +663,6 @@
       "url": "https://www.youtube.com/watch?v=noVXFWgoRdQ",
       "img": "https://i.ytimg.com/vi/noVXFWgoRdQ/hqdefault.jpg",
       "publishedAt": "2026-09-30T21:50:05.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "lEtdFC2G2_U",
-      "youtubeId": "lEtdFC2G2_U",
-      "title": "Q&A With Media at Dorothy Telugu Trailer Launch Event | Keerthy Suresh | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=lEtdFC2G2_U",
-      "img": "https://i.ytimg.com/vi/lEtdFC2G2_U/hqdefault.jpg",
-      "publishedAt": "2026-09-30T14:27:19.000Z",
       "language": "Telugu",
       "category": "Movie Interviews"
     }
@@ -870,12 +848,12 @@
       "t": "Thella Kaagitham",
       "l": "Telugu",
       "releaseDate": "2026-10-02",
-      "rating": "2/5",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/Thella_Kaagitham_Movie_11.jpg",
+      "rating": "2.08/5",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thella-Kagitham-movie-review.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.greatandhra.com/movies/reviews/thella-kaagitham-review-message-good-narration-weak/",
+      "u": "https://www.telugu360.com/thella-kaagitham-movie-review/",
       "aggregator": {
-        "average": 2,
+        "average": 2.08,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -897,9 +875,9 @@
           },
           {
             "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.telugu360.com/thella-kaagitham-movie-review/"
           },
           {
             "source": "123telugu",
@@ -1962,50 +1940,6 @@
             "rating": 3.5,
             "ratingText": "3.5/5",
             "url": "https://www.123telugu.com/reviews/ajay-devgn-drishyam-the-conclusion-hindi-movie-review-and-rating.html"
-          }
-        ]
-      }
-    },
-    {
-      "t": "Thella Kaagitam",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "2.25/5",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thella-Kagitham-movie-review.jpg",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.telugu360.com/thella-kaagitam-movie-review/",
-      "aggregator": {
-        "average": 2.25,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": 2.25,
-            "ratingText": "2.25/5",
-            "url": "https://www.telugu360.com/thella-kaagitam-movie-review/"
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
           }
         ]
       }
