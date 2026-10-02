@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cineinsta.com/</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/news</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/buzz</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/about.html</loc>
@@ -34,6 +34,10 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/disclaimer.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/don-t-trouble-the-trouble</loc>
+    <lastmod>2026-10-02T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/anumana-pakshi</loc>
@@ -144,24 +148,24 @@
     <lastmod>2026-08-07T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/reviews/srinivasa-mangapuram</loc>
-    <lastmod>2026-07-30T00:00:00.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.cineinsta.com/reviews/i-m-game</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/daayra</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/haiwaan</loc>
-    <lastmod>2026-10-01T18:12:15.077Z</lastmod>
+    <lastmod>2026-10-02T00:10:32.543Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/latest-trailers-entertainment-videos-times-of-india</loc>
+    <lastmod>2026-10-02T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/nayyi-navelli-official-trailer</loc>
@@ -206,9 +210,5 @@
   <url>
     <loc>https://www.cineinsta.com/trailers/drishyam-the-conclusion-official-trailer</loc>
     <lastmod>2026-09-09T00:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/vibe-official-trailer</loc>
-    <lastmod>2026-09-02T00:00:00.000Z</lastmod>
   </url>
 </urlset>
