@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-02T09:54:08.148Z",
+  "updatedAt": "2026-10-02T10:05:21.389Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
+      "title": "Review: Sundeep Kishan’s Sigma - A below-par heist drama",
+      "summary": "Sundeep Kishan's Sigma Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
+      "publishedAt": "2026-10-02T09:55:44.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://telugucinema.com/news/romanchakam-sumanth-prabhas-starrer-streaming-on-netflix-in-five-languages",
       "title": "Romanchakam: Sumanth Prabhas starrer streaming on Netflix in five languages",
@@ -430,17 +441,6 @@
       "publishedAt": "2026-10-01T06:30:49.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/latest-buzz-on-aadarsha-kutumbam-trailer-hk.html",
-      "title": "Latest Buzz on Aadarsha Kutumbam Trailer",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Latest Buzz on Aadarsha Kutumbam Trailer...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/latest-buzz-on-aadarsha-kutumbam-trailer-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Aadarsha-Kutumbam-1-2.webp",
-      "publishedAt": "2026-10-01T05:30:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -448,10 +448,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=N7GKjMwQbvk",
+      "url": "https://www.youtube.com/watch?v=CIZD3O4k0bs",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/N7GKjMwQbvk/hqdefault.jpg",
-      "youtubeId": "N7GKjMwQbvk",
+      "img": "https://i.ytimg.com/vi/CIZD3O4k0bs/hqdefault.jpg",
+      "youtubeId": "CIZD3O4k0bs",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -459,10 +459,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
       "title": "Prahaar: The Untold Story of Ujjwal Nikam - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=6cn88OnZF1Q",
+      "url": "https://www.youtube.com/watch?v=JPsMGxeov8k",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
-      "img": "https://i.ytimg.com/vi/6cn88OnZF1Q/hqdefault.jpg",
-      "youtubeId": "6cn88OnZF1Q",
+      "img": "https://i.ytimg.com/vi/JPsMGxeov8k/hqdefault.jpg",
+      "youtubeId": "JPsMGxeov8k",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -481,10 +481,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=deKwt9SJ7TI",
+      "url": "https://www.youtube.com/watch?v=n67-f7Ttxy4",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/deKwt9SJ7TI/hqdefault.jpg",
-      "youtubeId": "deKwt9SJ7TI",
+      "img": "https://i.ytimg.com/vi/n67-f7Ttxy4/hqdefault.jpg",
+      "youtubeId": "n67-f7Ttxy4",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -492,10 +492,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=XS3a2ETpeaE",
+      "url": "https://www.youtube.com/watch?v=PFWwt5asUe0",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/XS3a2ETpeaE/hqdefault.jpg",
-      "youtubeId": "XS3a2ETpeaE",
+      "img": "https://i.ytimg.com/vi/PFWwt5asUe0/hqdefault.jpg",
+      "youtubeId": "PFWwt5asUe0",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -691,6 +691,50 @@
   ],
   "reviews": [
     {
+      "t": "Sigma",
+      "l": "Telugu",
+      "releaseDate": "2026-10-02",
+      "rating": "1.92/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 1.92,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": 1.5,
+            "ratingText": "1.5/5",
+            "url": "https://www.greatandhra.com/movies/reviews/#site-content-contain"
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": 2,
+            "ratingText": "2/5",
+            "url": "https://www.telugu360.com/sigma-movie-review/"
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
       "t": "Dorothy",
       "l": "Telugu",
       "releaseDate": "2026-10-02",
@@ -818,50 +862,6 @@
             "rating": 2.75,
             "ratingText": "2.75/5",
             "url": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html"
-          }
-        ]
-      }
-    },
-    {
-      "t": "SIGMA",
-      "l": "Telugu",
-      "releaseDate": "2026-10-02",
-      "rating": "1.75/5",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sigma-movie-review.jpg",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.telugu360.com/sigma-movie-review/",
-      "aggregator": {
-        "average": 1.75,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": 1.5,
-            "ratingText": "1.5/5",
-            "url": "https://www.greatandhra.com/movies/reviews/#site-content-contain"
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": 2,
-            "ratingText": "2/5",
-            "url": "https://www.telugu360.com/sigma-movie-review/"
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
           }
         ]
       }
@@ -1442,12 +1442,12 @@
       "t": "Sardar 2",
       "l": "Telugu",
       "releaseDate": "2026-09-10",
-      "rating": "1.67/5",
+      "rating": "1.25/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/sardar-2-movie-review-boring-spy-thriller/",
       "aggregator": {
-        "average": 1.67,
+        "average": 1.25,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1475,9 +1475,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.123telugu.com/reviews/karthis-sardar-2-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }

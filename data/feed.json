@@ -1,11 +1,36 @@
 {
-  "updatedAt": "2026-10-02T09:54:52.678Z",
+  "updatedAt": "2026-10-02T10:05:50.398Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
+      "title": "Cineinsta Review: Sundeep Kishan Steps Into Sigma With Mixed Results",
+      "summary": "Sundeep Kishan's latest cinematic outing, Sigma, has arrived in theatres with a critical assessment labeling it as a below-par heist drama.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
+      "publishedAt": "2026-10-02T09:55:44.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Sundeep Kishan returns to the silver screen in the newly released feature titled Sigma. Centered around the thriller and heist genre, the project has drawn early critical attention from reviewers following its theatrical premiere.",
+        "According to initial critical consensus, the feature has been classified as a below-par heist drama. Despite featuring Sundeep Kishan in a leading role, the narrative execution appears to have left critics wanting more in terms of overall engagement and dramatic impact.",
+        "As the film makes its way to audiences, fans of the actor will have the opportunity to experience the heist story firsthand in theaters. The project adds another distinct title to Kishan's ongoing filmography within the industry."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Sundeep Kishan's latest cinematic outing, Sigma, has arrived in theatres with a critical assessment labeling it as a below-par heist drama.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html"
+    },
+    {
       "id": "https://telugucinema.com/news/romanchakam-sumanth-prabhas-starrer-streaming-on-netflix-in-five-languages",
       "title": "Sumanth Prabhas Starrer Romanchakam Arrives on Netflix in Multiple Languages",
-      "summary": "Romanchakam, featuring Sumanth Prabhas in the lead role, has officially made its way to the digital streaming platform Netflix. The film is available for audiences to watch across five different languages.",
+      "summary": "Sumanth Prabhas's film Romanchakam has officially expanded its reach to digital audiences by landing on the streaming platform Netflix across five distinct languages.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/romanchakam-sumanth-prabhas-starrer-streaming-on-netflix-in-five-languages",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/romanchakam-review.jpg",
@@ -13,12 +38,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The entertainment landscape expands further as the Sumanth Prabhas starrer Romanchakam lands on Netflix. Viewers can now stream the movie across five distinct languages, widening its reach to a diverse cross-section of film enthusiasts.",
-        "Digital platform releases like this continue to shape how regional Indian cinema reaches wider audiences. With its multilingual rollout on Netflix, the project positions itself for broader viewership beyond its initial theatrical framework."
+        "The cinematic project Romanchakam, featuring Sumanth Prabhas in a starring role, has made its transition to the digital space. Viewers can now stream the movie globally through the major over-the-top platform Netflix.",
+        "Expanding its accessibility for a wider linguistic audience, the film is currently available to watch in a total of five different languages on the streaming service. This multi-language release allows fans across various regions to enjoy the title from home.",
+        "The digital premiere on Netflix marks a significant development for the film's post-theatrical reach, bringing Sumanth Prabhas's work to a broader subscriber base."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Romanchakam, featuring Sumanth Prabhas in the lead role, has officially made its way to the digital streaming platform Netflix. The film is available for audiences to watch across five different languages.",
+      "dek": "Sumanth Prabhas's film Romanchakam has officially expanded its reach to digital audiences by landing on the streaming platform Netflix across five distinct languages.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -28,8 +54,8 @@
     },
     {
       "id": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html",
-      "title": "Keerthy Suresh Starrer Dorothy Positioned as a Niche Drama",
-      "summary": "Keerthy Suresh headlines the film Dorothy, which recent reviews describe as an experience tailored strictly for fans of niche dramatic storytelling. The project highlights Suresh in a central role.",
+      "title": "Cineinsta Review: Keerthy Suresh Leads Dorothy, Tailored for Niche Audiences",
+      "summary": "Keerthy Suresh's latest film Dorothy has hit the screens, with early reviews positioning the cinematic drama as a watch suited strictly for niche drama lovers.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
@@ -37,12 +63,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Keerthy Suresh takes center stage in the film Dorothy, which has drawn attention for its specific stylistic approach. Early critical evaluations point out that the narrative is designed primarily for followers of niche dramatic features.",
-        "The project adds to the diverse filmography of Keerthy Suresh, giving admirers of character-driven cinema a distinct dramatic option to explore."
+        "Keerthy Suresh takes center stage in the new cinematic release titled Dorothy. The project has garnered early critical reviews following its arrival, giving audiences an idea of what to expect from the narrative tone.",
+        "Based on initial critical evaluations, the movie has been described as strictly for niche drama lovers. Rather than appealing to a broad commercial demographic, the story appears to target viewers who specifically appreciate specialized dramatic storytelling.",
+        "With Keerthy Suresh heading the cast, Dorothy carves out a specific space for itself among contemporary dramatic releases, catering directly to fans of character-driven, niche cinema."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Keerthy Suresh headlines the film Dorothy, which recent reviews describe as an experience tailored strictly for fans of niche dramatic storytelling. The project highlights Suresh in a central role.",
+      "dek": "Keerthy Suresh's latest film Dorothy has hit the screens, with early reviews positioning the cinematic drama as a watch suited strictly for niche drama lovers.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -51,9 +78,34 @@
       "originalUrl": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html"
     },
     {
+      "id": "https://www.gulte.com/movienews/434697/watch-tamil-director-roots-for-ante-sundaraniki",
+      "title": "Tamil Filmmaker Publicly Voices Support for Ante Sundaraniki",
+      "summary": "A Tamil director has caught industry attention by publicly voicing appreciation and support for the Telugu feature film Ante Sundaraniki.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/434697/watch-tamil-director-roots-for-ante-sundaraniki",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/modha-ratri-director.jpg",
+      "publishedAt": "2026-10-02T08:55:13.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a notable cross-industry nod of appreciation, a Tamil director has stepped forward to express strong support for the film Ante Sundaraniki. Such public endorsements highlight the growing appreciation of cinematic works across different language industries.",
+        "Ante Sundaraniki, which previously generated considerable discussion among movie buffs upon its release, continues to find vocal admirers within the creative community. The Tamil filmmaker's public backing underscores the enduring appeal of the movie's content.",
+        "Moments like these emphasize the collaborative and interconnected nature of Indian cinema, where creators across regional boundaries frequently champion notable storytelling."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "A Tamil director has caught industry attention by publicly voicing appreciation and support for the Telugu feature film Ante Sundaraniki.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/434697/watch-tamil-director-roots-for-ante-sundaraniki"
+    },
+    {
       "id": "https://www.cinejosh.com/news/1/130343/baa-baa-black-sheep-trailer-review.html",
-      "title": "Baa Baa Black Sheep Trailer Generates Discussion",
-      "summary": "The official trailer for Baa Baa Black Sheep has drawn initial commentary and review analysis following its release. Cinephiles and reviewers have shared their perspectives on the promotional preview.",
+      "title": "Cineinsta's Take: Baa Baa Black Sheep Trailer Review",
+      "summary": "We take a closer look at the promotional trailer for Baa Baa Black Sheep. Check out our thoughts on what the new preview reveals about the project.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130343/baa-baa-black-sheep-trailer-review.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/baa-baa-black-sheep-trailer-review-1790930893639-1790930894776.jpg",
@@ -61,12 +113,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Anticipation for upcoming releases often hinges on promotional cuts, and the trailer for Baa Baa Black Sheep has recently entered the discussion. Reviewers have evaluated the footage, giving audiences a glimpse into what the project entails.",
-        "Trailer evaluations provide early insights into the tone and pacing of the feature, helping viewers gauge expectations ahead of the film's broader rollout."
+        "The official trailer for Baa Baa Black Sheep has generated discussion among movie enthusiasts following its release. Audiences looking forward to the project have been closely analyzing the footage to gauge the tone and style of the upcoming release.",
+        "As trailers serve as a crucial window into a film's premise, this initial preview offers viewers a glimpse of the narrative direction and character setups. Film fans continue to share their perspectives on the promotional cut as anticipation builds for more updates."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The official trailer for Baa Baa Black Sheep has drawn initial commentary and review analysis following its release. Cinephiles and reviewers have shared their perspectives on the promotional preview.",
+      "dek": "We take a closer look at the promotional trailer for Baa Baa Black Sheep. Check out our thoughts on what the new preview reveals about the project.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -76,8 +128,8 @@
     },
     {
       "id": "https://www.123telugu.com/reviews/ajay-devgn-drishyam-the-conclusion-hindi-movie-review-and-rating.html",
-      "title": "Ajay Devgn Starrer Drishyam The Conclusion Receives Positive Critical Reception",
-      "summary": "Ajay Devgn's Drishyam: The Conclusion has successfully hit the bull's eye with critics. The Hindi feature film review highlights strong positive reactions for the thrilling continuation.",
+      "title": "Ajay Devgn Starrer Drishyam The Conclusion Reviewed",
+      "summary": "Ajay Devgn's Drishyam The Conclusion has been evaluated in a recent Hindi movie review, drawing attention for hitting the bull's eye with its engaging presentation.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/ajay-devgn-drishyam-the-conclusion-hindi-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Drishyam.jpg",
@@ -85,13 +137,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Ajay Devgn returns to the screen in Drishyam: The Conclusion, a Hindi feature film that has recently drawn critical attention. The project continues the gripping narrative style that fans anticipated from the franchise.",
-        "Early reviews indicate that the film hits the bull's eye in terms of audience engagement and cinematic execution. The production maintains the suspenseful atmosphere central to the storyline.",
-        "As a notable entry in Hindi cinema, the release continues to generate interest across movie platforms and review spaces."
+        "The Hindi movie Drishyam The Conclusion, starring Ajay Devgn, has been a major talking point following its evaluation by critics. Known for gripping dramatic narratives, the project has drawn positive notices for its overall impact.",
+        "Reviews indicate that the feature successfully resonates with audiences who enjoy suspenseful storytelling. The performance of Ajay Devgn and the film's execution remain focal points for viewers tracking the project's reception."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Ajay Devgn's Drishyam: The Conclusion has successfully hit the bull's eye with critics. The Hindi feature film review highlights strong positive reactions for the thrilling continuation.",
+      "dek": "Ajay Devgn's Drishyam The Conclusion has been evaluated in a recent Hindi movie review, drawing attention for hitting the bull's eye with its engaging presentation.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -101,8 +152,8 @@
     },
     {
       "id": "https://www.123telugu.com/reviews/thella-kaagitham-movie-review-and-rating.html",
-      "title": "Thella Kaagitham Film Review: A Mix of Notable Moments",
-      "summary": "Thella Kaagitham has drawn a mixed-to-positive critical response with its recent review. The film has its moments, offering viewers specific highlights throughout the narrative.",
+      "title": "Evaluating Thella Kaagitham: A Closer Look at the Movie Review",
+      "summary": "Thella Kaagitham has been assessed in a recent movie review, pointing out that the feature has its notable moments throughout its runtime.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/thella-kaagitham-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Thella-Kaagitham.webp",
@@ -110,13 +161,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The film Thella Kaagitham has been evaluated in a new review detailing its cinematic qualities. Observers note that the production manages to capture attention during select portions of the story.",
-        "While it may not excel in every single aspect, the project successfully delivers moments that resonate with viewers. These highlights contribute to the overall evaluation of the movie.",
-        "The review positions the title as a watchable release that offers periodic engagement for cinema enthusiasts."
+        "The feature film Thella Kaagitham has received critical attention with the release of its official review and rating. Observers have shared their thoughts on how the project unfolds for moviegoers.",
+        "According to the assessment, the film manages to deliver specific sequences that stand out during the viewing experience. These individual moments contribute to the overall reception of the project among cinema fans."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Thella Kaagitham has drawn a mixed-to-positive critical response with its recent review. The film has its moments, offering viewers specific highlights throughout the narrative.",
+      "dek": "Thella Kaagitham has been assessed in a recent movie review, pointing out that the feature has its notable moments throughout its runtime.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -126,8 +176,8 @@
     },
     {
       "id": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html",
-      "title": "Fahadh Faasil's Don’t Trouble the Trouble Reviewed: Works in Bits and Pieces",
-      "summary": "Fahadh Faasil's Don't Trouble The Trouble has received a critical review assessing its narrative execution. The assessment indicates that the film works in bits and pieces.",
+      "title": "Fahadh Faasil's Don’t Trouble the Trouble Reviewed",
+      "summary": "Fahadh Faasil stars in Don't Trouble The Trouble, which has received a critical review indicating that the feature works in bits and pieces.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
@@ -135,13 +185,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The Fahadh Faasil starrer Don’t Trouble The Trouble has recently been under the critical lens. According to the review evaluation, the feature works effectively only in bits and pieces rather than as a uniform whole.",
-        "Despite uneven execution across the runtime, the presence of the lead actor brings specific focal points to the project. The film's elements provide isolated instances of strong entertainment.",
-        "Such reviews offer viewers a balanced understanding of what to expect from the cinematic release."
+        "The cinematic release Don't Trouble The Trouble, featuring Fahadh Faasil, has been evaluated in a recent review detailing its performance on screen. The film's reception points to a mixed experience for viewers.",
+        "Critics and audiences analyzing the project note that while certain portions connect well, the overall execution functions primarily in bits and pieces. Fahadh Faasil's involvement continues to draw interest from fans of dynamic performances."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Fahadh Faasil's Don't Trouble The Trouble has received a critical review assessing its narrative execution. The assessment indicates that the film works in bits and pieces.",
+      "dek": "Fahadh Faasil stars in Don't Trouble The Trouble, which has received a critical review indicating that the feature works in bits and pieces.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -151,8 +200,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/hanuman-ansh-after-rs-400-crore-box-office-haul-telugu-release-finally-gets-a-date-hk.html",
-      "title": "Hanuman Ansh Secures Telugu Release Date Following Major Box Office Success",
-      "summary": "Following a massive Rs. 400 crore box office haul, Hanuman Ansh has finally locked in its Telugu release date. The development brings the successful venture to a wider audience.",
+      "title": "Telugu Version of Hanuman Ansh Sets Release Date Following Massive Box Office Success",
+      "summary": "Following a massive box office haul of Rs. 400 crore, the upcoming release Hanuman Ansh has officially locked in its Telugu version release date.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/hanuman-ansh-after-rs-400-crore-box-office-haul-telugu-release-finally-gets-a-date-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/hanua.jpg",
@@ -160,13 +209,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Hanuman Ansh has achieved a monumental financial milestone with a Rs. 400 crore box office haul. Following this impressive commercial run, the production has officially secured a release date for its Telugu version.",
-        "The upcoming Telugu release allows a broader segment of moviegoers to experience the feature on the big screen. This move capitalizes on the strong momentum established by its initial box office performance.",
-        "The confirmation of the release date marks an important next step for the film's theatrical journey."
+        "The makers of Hanuman Ansh have officially announced the release date for its much-awaited Telugu version. This development comes in the wake of the film's phenomenal box office run, which amassed a staggering Rs. 400 crore haul.",
+        "With the Telugu release date now finalized, fans and audiences in the region can anticipate experiencing the film in their native language soon. The massive financial success already recorded by the project sets high expectations for its upcoming regional rollout."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Following a massive Rs. 400 crore box office haul, Hanuman Ansh has finally locked in its Telugu release date. The development brings the successful venture to a wider audience.",
+      "dek": "Following a massive box office haul of Rs. 400 crore, the upcoming release Hanuman Ansh has officially locked in its Telugu version release date.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -176,8 +224,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/434687/trivikrams-ak-47-vs-hanuman-ansh-now",
-      "title": "Trivikram Steps Aside as Hanuman Ansh Takes Charge of Project",
-      "summary": "A notable change in the film industry has emerged as Trivikram steps back from his project. In his place, Hanuman Ansh has taken over to move the film forward.",
+      "title": "Trivikram Steps Aside as Hanuman Ansh Directs Focus Toward His Project",
+      "summary": "In a notable industry shift, Trivikram has backed out of a project, leaving Hanuman Ansh to take on his film in the current competitive landscape.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434687/trivikrams-ak-47-vs-hanuman-ansh-now",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/ak-47-hanuman-ansh.jpg",
@@ -185,13 +233,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Major developments are underway in the Telugu film industry following a notable shift in creative leadership. Filmmaker Trivikram has officially backed out of his ongoing project, leaving a significant vacancy in the production.",
-        "Stepping into the role to take charge of the film is Hanuman Ansh. With this transition, the production is set to move forward under new direction, drawing considerable attention from industry observers and fans alike.",
-        "As the transition takes place, further updates regarding the film's schedule and creative execution are anticipated. The involvement of Hanuman Ansh marks a fresh chapter for this much-discussed venture."
+        "Recent developments in the film industry indicate a significant change in scheduling as filmmaker Trivikram has backed out of his upcoming project. With this exit, Hanuman Ansh is now positioned to take on his film directly.",
+        "Such shifts in release alignments and creative commitments frequently alter box office equations and strategic planning within the industry. Observers are closely monitoring how this scheduling adjustment will unfold for both titles."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "A notable change in the film industry has emerged as Trivikram steps back from his project. In his place, Hanuman Ansh has taken over to move the film forward.",
+      "dek": "In a notable industry shift, Trivikram has backed out of a project, leaving Hanuman Ansh to take on his film in the current competitive landscape.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -201,8 +248,8 @@
     },
     {
       "id": "https://www.telugu360.com/mad-rush-for-nbks-dada-release/",
-      "title": "High Demand Surrounds Release of NBK's Dada",
-      "summary": "Excitement and heavy demand surround the upcoming release of NBK's Dada. Fans and exhibitors are showing intense enthusiasm as the premiere approaches.",
+      "title": "High Demand Surrounds the Upcoming Release of NBK's Dada",
+      "summary": "There is a mad rush building up around the release of NBK's Dada, indicating strong anticipation from fans and distributors alike.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/mad-rush-for-nbks-dada-release/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Dada.jpg",
@@ -210,13 +257,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Anticipation is reaching a fever pitch across the entertainment sector as a massive rush unfolds for the release of NBK's Dada. Fans and film enthusiasts are displaying extraordinary enthusiasm as the premiere draws near.",
-        "The surging demand highlights the star power and strong market pull associated with the project. Exhibitors and distributors are bracing for massive turnouts as excitement continues to build rapidly.",
-        "As the release date approaches, this intense momentum underscores the high expectations resting on the film. The widespread eagerness points to a major theatrical reception."
+        "Anticipation is reaching a fever pitch as a mad rush emerges for the release of NBK's Dada. Excitement surrounding the project has led to intense activity among trade circles and ardent followers alike.",
+        "The heavy demand underscores the strong market pull associated with the leading star. Further updates on the rollout are expected to draw continuous attention from cinegoers."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Excitement and heavy demand surround the upcoming release of NBK's Dada. Fans and exhibitors are showing intense enthusiasm as the premiere approaches.",
+      "dek": "There is a mad rush building up around the release of NBK's Dada, indicating strong anticipation from fans and distributors alike.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -226,8 +272,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130339/vijay-deverakonda-skincare-brand-unhype-records-strong-launch.html",
-      "title": "Vijay Deverakonda's Skincare Line UNHYPE Achieves Strong Market Debut",
-      "summary": "Actor Vijay Deverakonda has marked a successful entry into the wellness and beauty sector with the strong launch of his skincare brand, UNHYPE. The brand has recorded significant initial attention following its introduction.",
+      "title": "Vijay Deverakonda's Skincare Venture UNHYPE Off to a Strong Start",
+      "summary": "Actor Vijay Deverakonda's newly launched skincare brand, UNHYPE, has recorded a strong market launch and impressive early reception.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130339/vijay-deverakonda-skincare-brand-unhype-records-strong-launch.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-skincare-brand-unhype-records-strong-launch-1790921791676-1790921791928.jpg",
@@ -235,13 +281,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular actor Vijay Deverakonda has expanded his commercial footprint with the successful market introduction of his new skincare brand, UNHYPE. The venture has quickly captured consumer interest, marking a strong opening in the wellness sector.",
-        "The brand's robust debut reflects the actor's strong personal brand and commercial reach beyond the silver screen. Fans and consumers have responded enthusiastically to the new product line.",
-        "This successful launch highlights the growing trend of film personalities branching out into lifestyle and consumer business sectors. Further growth and market expansion are expected as the brand establishes its presence."
+        "Popular actor Vijay Deverakonda has expanded his entrepreneurial footprint with the successful market launch of his skincare brand, UNHYPE. Early reports indicate that the venture has registered strong initial numbers and a solid market entry.",
+        "Celebrity-backed business ventures frequently leverage star appeal to capture consumer interest quickly. The robust debut of UNHYPE highlights the actor's strong commercial viability beyond the silver screen."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda has marked a successful entry into the wellness and beauty sector with the strong launch of his skincare brand, UNHYPE. The brand has recorded significant initial attention following its introduction.",
+      "dek": "Actor Vijay Deverakonda's newly launched skincare brand, UNHYPE, has recorded a strong market launch and impressive early reception.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -251,8 +296,8 @@
     },
     {
       "id": "https://www.telugu360.com/sigma-movie-review/",
-      "title": "SIGMA Delivers Template Action With Minimal Cinematic Impact",
-      "summary": "Recent reviews for the action film SIGMA describe it as a conventional template feature that struggles to leave a lasting impression. The movie relies on standard genre tropes with limited effect on audiences.",
+      "title": "SIGMA Review: A Template Action Film With Little Impact",
+      "summary": "Recent reviews for the film SIGMA describe it as a standard template action movie that ultimately fails to leave a lasting impression on viewers.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/sigma-movie-review/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sigma-movie-review.jpg",
@@ -260,13 +305,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The newly released action movie SIGMA has received a lukewarm critical reception, being characterized as a standard template film. According to initial evaluations, the movie offers little in terms of fresh impact or memorable storytelling.",
-        "Relying heavily on predictable genre formulas, the feature struggles to stand out in a crowded marketplace. Viewers looking for innovative action narratives may find the execution standard-issue.",
-        "Despite its high-octane aspirations, the lack of engaging narrative depth limits its overall resonance. The project serves as an example of how conventional templates can sometimes fail to captivate modern audiences."
+        "The newly evaluated action movie SIGMA has arrived, bringing with it a traditional cinematic structure that familiar audiences will easily recognize. According to the critique, the project relies heavily on familiar genre tropes and formulas common to modern commercial cinema.",
+        "Despite utilizing these standard action elements, the execution leaves much to be desired. Reviewers note that the feature struggles to generate genuine excitement, resulting in an overall cinematic experience that makes little impact on the audience."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Recent reviews for the action film SIGMA describe it as a conventional template feature that struggles to leave a lasting impression. The movie relies on standard genre tropes with limited effect on audiences.",
+      "dek": "Recent reviews for the film SIGMA describe it as a standard template action movie that ultimately fails to leave a lasting impression on viewers.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -276,8 +320,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130337/maremma-to-stream-on-two-ott-platforms-from-this-date.html",
-      "title": "Maremma Heads to Dual Digital Platforms for OTT Release",
-      "summary": "The movie Maremma is officially gearing up for its digital premiere across two separate OTT platforms. Cinephiles can catch the film online following its upcoming streaming debut date.",
+      "title": "Maremma Heads to Digital Streaming Across Multiple Platforms",
+      "summary": "Maremma is officially heading to digital platforms, with upcoming streaming availability confirmed across two different OTT services.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130337/maremma-to-stream-on-two-ott-platforms-from-this-date.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/maremma-to-stream-on-two-ott-platforms-from-this-date-1790916163078-1790916163784.jpg",
@@ -285,13 +329,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The cinematic project Maremma has confirmed its upcoming digital release strategy, with plans to stream across two distinct OTT platforms. This dual-platform availability will allow a wider audience to experience the title from the comfort of their homes.",
-        "As anticipation builds for the streaming debut, viewers are looking forward to the official arrival date. Dual OTT releases have become an increasingly popular route for expanding digital reach and catering to varied viewer preferences.",
-        "Further details regarding the exact streaming platform names and the confirmed premiere date will provide fans with the necessary information to plan their viewing schedules accordingly."
+        "Audiences waiting to watch Maremma from home will soon have digital access options available to them. The feature is scheduled to begin streaming across two distinct OTT platforms.",
+        "This dual-platform release strategy allows a broader digital audience to access the title conveniently following its theatrical run or initial rollout phase."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The movie Maremma is officially gearing up for its digital premiere across two separate OTT platforms. Cinephiles can catch the film online following its upcoming streaming debut date.",
+      "dek": "Maremma is officially heading to digital platforms, with upcoming streaming availability confirmed across two different OTT services.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -301,8 +344,8 @@
     },
     {
       "id": "https://www.telugu360.com/thella-kaagitam-movie-review/",
-      "title": "Thella Kaagitam Review: A Sweet Narrative That Tests Audience Patience",
-      "summary": "The Telugu film Thella Kaagitam has received its critical review, being described as a sweet love story that ultimately stretches its narrative too far. The cinematic project brings a romantic premise to the screen, though pacing has emerged as a central discussion point.",
+      "title": "Thella Kaagitam Review: A Sweet Love Story Stretched Too Far",
+      "summary": "The romantic feature Thella Kaagitam has been reviewed as a sweet romance whose narrative ultimately gets stretched out longer than necessary.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/thella-kaagitam-movie-review/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thella-Kagitham-movie-review.jpg",
@@ -310,13 +353,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The newly reviewed film Thella Kaagitam presents itself as a sweet love story for cinema enthusiasts. However, critical reception indicates that the narrative's execution feels prolonged, stretching the core romance further than necessary.",
-        "Romantic dramas often rely on pacing to maintain engagement throughout the storytelling arc. In the case of Thella Kaagitam, the emotional premise resonates as sweet, yet the extended runtime creates a challenging viewing experience for some audience members.",
-        "Reviews of this nature offer valuable insights for moviegoers deciding whether to catch the title in theatres or on digital formats. The balance between a charming premise and a stretched narrative remains a key takeaway for the film."
+        "The romantic cinema landscape welcomes Thella Kaagitam, a project built around a fundamentally sweet romantic premise. Critical reception points out that the core romance has charming elements that appeal to genre fans.",
+        "However, the overall viewing experience is affected by pacing issues. Reviewers observe that the sweet romance narrative is stretched too far, impacting the tightness and momentum of the storytelling."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The Telugu film Thella Kaagitam has received its critical review, being described as a sweet love story that ultimately stretches its narrative too far. The cinematic project brings a romantic premise to the screen, though pacing has emerged as a central discussion point.",
+      "dek": "The romantic feature Thella Kaagitam has been reviewed as a sweet romance whose narrative ultimately gets stretched out longer than necessary.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -326,8 +368,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/sumanths-mahendragiri-varahi-arrives-on-ott-just-3-weeks-after-theatrical-release-hk.html",
-      "title": "Sumanth Starrer Mahendragiri Varahi Makes Swift OTT Debut",
-      "summary": "Actor Sumanth's film Mahendragiri Varahi has officially made its way to the digital space. The movie arrived on an OTT platform just three weeks after completing its theatrical run.",
+      "title": "Sumanth’s Mahendragiri Varahi Makes Swift OTT Debut",
+      "summary": "Sumanth starrer Mahendragiri Varahi has made its digital streaming debut just three weeks after completing its theatrical run.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/sumanths-mahendragiri-varahi-arrives-on-ott-just-3-weeks-after-theatrical-release-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mahendragiri-Varahi-3.webp",
@@ -335,13 +377,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Sumanth's recent theatrical release, Mahendragiri Varahi, has made a quick transition to the digital space. The film officially arrived on OTT just three weeks after its initial release in theatres.",
-        "This rapid turnaround reflects the ongoing trend of swift digital premieres following a theatrical window. For fans who missed the movie during its big-screen run, the early OTT arrival provides a convenient alternative to catch the action.",
-        "Mahendragiri Varahi's availability on streaming platforms allows a fresh segment of digital subscribers to explore Sumanth's latest project from home."
+        "Actor Sumanth's recent cinematic outing, Mahendragiri Varahi, has officially transitioned to the digital space. The movie has arrived on an OTT platform merely three weeks after its initial release in theaters.",
+        "This rapid turnaround highlights the accelerating trend of swift digital releases for regional films, allowing fans who missed the theatrical run to catch the project at home shortly after its premiere."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Sumanth's film Mahendragiri Varahi has officially made its way to the digital space. The movie arrived on an OTT platform just three weeks after completing its theatrical run.",
+      "dek": "Sumanth starrer Mahendragiri Varahi has made its digital streaming debut just three weeks after completing its theatrical run.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -351,8 +392,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/ott-alert-mamitha-baijus-industry-hit-bethlehem-kudumba-unit-now-streaming-on-jiohotstar-hk.html",
-      "title": "Mamitha Baiju Starrer Bethlehem Kudumba Unit Premieres on JioHotstar",
-      "summary": "The industry hit film Bethlehem Kudumba Unit, featuring Mamitha Baiju in a prominent role, is now available for streaming. Fans can watch the popular title digitally as it officially lands on JioHotstar.",
+      "title": "Mamitha Baiju Starrer Bethlehem Kudumba Unit Makes Its OTT Debut on JioHotstar",
+      "summary": "Actor Mamitha Baiju's successful film Bethlehem Kudumba Unit has officially arrived on the digital streaming platform JioHotstar. Fans and digital audiences can now watch the industry hit online.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ott-alert-mamitha-baijus-industry-hit-bethlehem-kudumba-unit-now-streaming-on-jiohotstar-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Bethlehem-Kudumba-Unit.webp",
@@ -360,13 +401,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The acclaimed film Bethlehem Kudumba Unit, widely recognized as an industry hit, has officially landed on the digital space. Audiences can now stream the movie following its recent addition to the JioHotstar library.",
-        "Starring Mamitha Baiju, the project has generated significant excitement among fans and regional cinema enthusiasts. Its arrival on a major streaming network makes it easily accessible to a massive base of digital subscribers.",
-        "This OTT premiere offers viewers a chance to experience the industry hit title from home, further extending the film's reach beyond its successful theatrical run."
+        "The celebrated film Bethlehem Kudumba Unit, featuring actor Mamitha Baiju, has officially made its transition to the digital space. Audiences who missed the movie during its theatrical run can now stream the feature online.",
+        "The project is currently available for viewing on the popular streaming platform JioHotstar. Recognized as an industry hit, the arrival of the movie on a major digital network expands its reach to a wider audience of film enthusiasts.",
+        "Viewers looking to catch the movie can now access it directly through the JioHotstar application and web platform. This digital release marks another significant milestone for the project following its initial success."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The industry hit film Bethlehem Kudumba Unit, featuring Mamitha Baiju in a prominent role, is now available for streaming. Fans can watch the popular title digitally as it officially lands on JioHotstar.",
+      "dek": "Actor Mamitha Baiju's successful film Bethlehem Kudumba Unit has officially arrived on the digital streaming platform JioHotstar. Fans and digital audiences can now watch the industry hit online.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -375,9 +416,34 @@
       "originalUrl": "https://www.123telugu.com/mnews/ott-alert-mamitha-baijus-industry-hit-bethlehem-kudumba-unit-now-streaming-on-jiohotstar-hk.html"
     },
     {
+      "id": "https://www.gulte.com/movienews/434643/trolls-on-sigma-sundeep-kishan-warns-main-men",
+      "title": "Sundeep Kishan Issues Warning Over Trolls Targeting Sigma",
+      "summary": "Actor Sundeep Kishan has addressed online trolling directed at Sigma. His remarks call out the situation surrounding the project and highlight the reactions from the leading men.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/434643/trolls-on-sigma-sundeep-kishan-warns-main-men",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/sundeep-kishan.jpg",
+      "publishedAt": "2026-10-01T18:08:37.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Sundeep Kishan has drawn attention following recent online reactions directed at Sigma. The actor voiced his stance concerning the trolling activity surrounding the project.",
+        "The development brings focus to the ongoing interactions between film personalities and online commentators. Sundeep Kishan's warning addresses the context of these targeted remarks.",
+        "As discussions continue across various platforms, the focus remains on the reactions from the main figures associated with the project."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Sundeep Kishan has addressed online trolling directed at Sigma. His remarks call out the situation surrounding the project and highlight the reactions from the leading men.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/434643/trolls-on-sigma-sundeep-kishan-warns-main-men"
+    },
+    {
       "id": "https://www.telugu360.com/samantha-gets-a-relief-from-bombay-high-court/",
-      "title": "Bombay High Court Grants Legal Relief to Actor Samantha",
-      "summary": "Popular actor Samantha has reportedly secured legal relief from the Bombay High Court, according to recent updates. The development offers significant respite regarding ongoing legal matters concerning the prominent cinema star.",
+      "title": "Actor Samantha Secures Legal Relief from the Bombay High Court",
+      "summary": "Prominent actor Samantha has received favorable legal relief from the Bombay High Court. The decision provides a significant update regarding ongoing legal matters concerning the star.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/samantha-gets-a-relief-from-bombay-high-court/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Samantha-2.jpg",
@@ -385,13 +451,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular actor Samantha has received notable legal relief from the Bombay High Court, according to recent industry updates. The development provides important respite for the well-known cinema star amidst her ongoing legal proceedings.",
-        "While specific details regarding the case remain limited based on current reports, the ruling by the Bombay High Court marks a significant moment for the actor. Fans and followers are closely monitoring the updates as further information unfolds.",
-        "Such legal developments are often closely watched within the film fraternity, impacting both the personal and professional schedules of major cinematic personalities. We will continue to track developments as more confirmed facts emerge."
+        "Actor Samantha has successfully obtained legal relief through a ruling from the Bombay High Court. The development brings a favorable outcome in connection with the matters brought before the judicial body.",
+        "Legal proceedings involving public figures frequently draw widespread attention within the entertainment industry. This recent court decision marks a notable update in the ongoing situation.",
+        "Further details regarding the specifics of the case highlight the legal avenues utilized by the actor to address the situation."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Popular actor Samantha has reportedly secured legal relief from the Bombay High Court, according to recent updates. The development offers significant respite regarding ongoing legal matters concerning the prominent cinema star.",
+      "dek": "Prominent actor Samantha has received favorable legal relief from the Bombay High Court. The decision provides a significant update regarding ongoing legal matters concerning the star.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -401,8 +467,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/ranabaali-trailer-to-be-unveiled-on-this-date-prp.html",
-      "title": "Ranabaali Trailer Release Date Updates",
-      "summary": "Anticipation is building around the upcoming film Ranabaali as discussions surrounding its official trailer release date pick up pace. Movie enthusiasts are eagerly waiting for official confirmation on when the promotional video will debut.",
+      "title": "Anticipation Grows for the Upcoming Ranabaali Trailer Release Date",
+      "summary": "Film enthusiasts are eagerly awaiting official word on the trailer release date for Ranabaali. Updates regarding the promotional rollout are expected to be announced soon.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ranabaali-trailer-to-be-unveiled-on-this-date-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Ranabaali-2.webp",
@@ -410,13 +476,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Excitement is steadily growing among movie enthusiasts for the upcoming project Ranabaali. Recent updates indicate that discussions are underway regarding the official unveiling date for the film's theatrical trailer.",
-        "As anticipation builds for promotional assets, fans of the movie are keeping a close watch for formal announcements from the makers. Trailer releases are a crucial milestone in building momentum and audience engagement ahead of a film's premiere.",
-        "Further details concerning the exact launch schedule and promotional campaign are expected to be announced soon. Cinephiles continue to follow every development closely as the team prepares to roll out official promotional content."
+        "Excitement is building around the upcoming promotional material for Ranabaali. Followers of the project are keenly awaiting the announcement of the official trailer launch date.",
+        "Trailer unveilings serve as a critical milestone for building momentum ahead of a film's release. Audiences are looking forward to official confirmations from the makers regarding when the preview will drop.",
+        "As anticipation continues to build, further announcements about the promotional schedule are expected to provide clarity for eager fans."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Anticipation is building around the upcoming film Ranabaali as discussions surrounding its official trailer release date pick up pace. Movie enthusiasts are eagerly waiting for official confirmation on when the promotional video will debut.",
+      "dek": "Film enthusiasts are eagerly awaiting official word on the trailer release date for Ranabaali. Updates regarding the promotional rollout are expected to be announced soon.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -426,8 +492,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130331/mahendragiri-varahi-ott-release-on-amazon-prime-video.html",
-      "title": "Mahendragiri Varahi Heads to Amazon Prime Video for Digital Premiere",
-      "summary": "The digital streaming details for Mahendragiri Varahi have been confirmed, with the film scheduled for an OTT release on Amazon Prime Video.",
+      "title": "Mahendragiri Varahi Heads to Amazon Prime Video for OTT Streaming",
+      "summary": "The cinematic release Mahendragiri Varahi is making its way to digital platforms with an official streaming release scheduled on Amazon Prime Video. Fans and digital movie enthusiasts can look forward to watching the title online.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130331/mahendragiri-varahi-ott-release-on-amazon-prime-video.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/mahendragiri-varahi-ott-release-on-amazon-prime-video-1790867453724-1790867454432.jpg",
@@ -435,13 +501,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The digital streaming journey for Mahendragiri Varahi has officially found its home. According to recent updates, the movie is set to make its digital premiere on the popular streaming platform Amazon Prime Video.",
-        "For cinema enthusiasts who prefer catching the latest releases from the comfort of their homes or those looking to rewatch the feature, this upcoming digital drop brings the title straight to a major OTT service. Streaming announcements of this nature typically expand a film's reach to broader audiences beyond theatrical windows.",
-        "Further updates concerning the exact streaming premiere date and availability are anticipated as the rollout approaches."
+        "The digital streaming destination for the project titled Mahendragiri Varahi has been officially locked. According to the latest updates, the movie is heading to the popular OTT platform Amazon Prime Video.",
+        "While specific release dates and timing details are awaited by eager audiences, this digital premiere ensures that viewers who missed the theatrical run can easily stream the feature from the comfort of their homes.",
+        "OTT streaming announcements continue to be a crucial milestone for contemporary cinema, expanding audience reach beyond traditional theatrical windows. Stay tuned for further updates regarding the exact streaming debut on Amazon Prime Video."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The digital streaming details for Mahendragiri Varahi have been confirmed, with the film scheduled for an OTT release on Amazon Prime Video.",
+      "dek": "The cinematic release Mahendragiri Varahi is making its way to digital platforms with an official streaming release scheduled on Amazon Prime Video. Fans and digital movie enthusiasts can look forward to watching the title online.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -450,59 +516,9 @@
       "originalUrl": "https://www.cinejosh.com/news/1/130331/mahendragiri-varahi-ott-release-on-amazon-prime-video.html"
     },
     {
-      "id": "https://www.gulte.com/movienews/434601/back-to-back-legal-setbacks-for-music-maestro",
-      "title": "Music Maestro Faces Consecutive Legal Setbacks",
-      "summary": "A prominent music maestro has encountered a series of back-to-back legal hurdles, marking a challenging phase amid ongoing developments.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/434601/back-to-back-legal-setbacks-for-music-maestro",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/ilayaraja-counter-to-vetrimaran.jpg",
-      "publishedAt": "2026-10-01T14:59:15.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A well-known music maestro is currently navigating a difficult phase following a series of back-to-back legal setbacks. These developments have brought fresh attention to the artist outside of their usual professional music endeavors.",
-        "While details surrounding the exact nature of these legal challenges remain centered on the reported developments, such consecutive hurdles can significantly impact an artist's ongoing projects and public engagements.",
-        "Followers and industry observers will be monitoring how these situations unfold as more confirmed information comes to light regarding the maestro's legal status."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "A prominent music maestro has encountered a series of back-to-back legal hurdles, marking a challenging phase amid ongoing developments.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/434601/back-to-back-legal-setbacks-for-music-maestro"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/434598/sks-sigma-promises-a-racy-heist-ride",
-      "title": "SK’s Sigma Shaped Up as a High-Octane Heist Ride",
-      "summary": "SK's upcoming project Sigma is generating buzz, promising audiences an action-packed and fast-paced heist cinematic experience.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/434598/sks-sigma-promises-a-racy-heist-ride",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/sigma.jpg",
-      "publishedAt": "2026-10-01T14:42:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Excitement is building around SK's upcoming cinematic venture, tentatively titled Sigma. Early indications suggest the project is shaping up to be a thrilling, fast-paced heist ride for moviegoers.",
-        "Heist films traditionally rely on intricate plots, stylish action sequences, and high stakes, and Sigma appears to lean directly into this engaging genre. The combination of SK's involvement and a racy premise has naturally heightened expectations among fans.",
-        "As production and promotional phases continue to progress, audiences eagerly await further glimpses into what the project has in store."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "SK's upcoming project Sigma is generating buzz, promising audiences an action-packed and fast-paced heist cinematic experience.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/434598/sks-sigma-promises-a-racy-heist-ride"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/allu-arjun-marks-a-new-beginning-with-iconza-prp.html",
       "title": "Allu Arjun Embarks on a Fresh Chapter with ICONZA",
-      "summary": "Renowned actor Allu Arjun has officially marked a fresh chapter in his professional trajectory by associating with ICONZA.",
+      "summary": "Popular actor Allu Arjun is marking the start of a brand new journey with an initiative titled ICONZA. Fans and movie enthusiasts are keeping a close eye on this development as further details unfold.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/allu-arjun-marks-a-new-beginning-with-iconza-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Allu-Arjun.webp",
@@ -510,13 +526,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Renowned actor Allu Arjun has officially marked a fresh chapter in his professional trajectory by associating with ICONZA. This new beginning has captured the attention of fans and industry circles alike.",
-        "While specific details regarding the collaboration are unfolding, announcements of this nature often point toward unique branding, ventures, or strategic initiatives connected to the star's expanding portfolio.",
-        "As more formal details emerge about what ICONZA entails, supporters are enthusiastic to see how this fresh partnership will unfold for the actor."
+        "Tollywood actor Allu Arjun has officially stepped into a new beginning associated with the name ICONZA. The announcement has quickly captured the attention of moviegoers and industry trackers alike.",
+        "While specific details regarding the nature of ICONZA remain sparse, the milestone signifies a notable phase for the prominent star. As the project or initiative moves forward, admirers eagerly await official announcements to learn more about what this new beginning entails for the actor's career."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Renowned actor Allu Arjun has officially marked a fresh chapter in his professional trajectory by associating with ICONZA.",
+      "dek": "Popular actor Allu Arjun is marking the start of a brand new journey with an initiative titled ICONZA. Fans and movie enthusiasts are keeping a close eye on this development as further details unfold.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -526,8 +541,8 @@
     },
     {
       "id": "https://www.telugu360.com/sundeep-kishan-reacts-to-targeted-trolling-ahead-of-sigma-release/",
-      "title": "Actor Sundeep Kishan Speaks Out Against Targeted Trolling Ahead of Sigma",
-      "summary": "Actor Sundeep Kishan has addressed the issue of targeted trolling directed at him ahead of his upcoming film Sigma. The star's reactions to this negativity have drawn attention as the release approaches.",
+      "title": "Sundeep Kishan Addresses Targeted Trolling Prior to Sigma Launch",
+      "summary": "Actor Sundeep Kishan has spoken out against targeted trolling directed at him as his film Sigma approaches its release. The actor addressed the negative online attention surrounding the project.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/sundeep-kishan-reacts-to-targeted-trolling-ahead-of-sigma-release/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sundeep-Kishan-has-responded-to-the-wave-of-anti-tweets-surrounding-his-upcoming-film-Sigma.jpg",
@@ -535,13 +550,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Sundeep Kishan has publicly reacted to instances of targeted trolling directed his way as the release date for his upcoming cinematic venture Sigma draws closer. Public figures in the film industry often face online scrutiny, and these recent events have brought the topic of targeted negative campaigns back into focus for followers and film enthusiasts.",
-        "As anticipation builds for Sigma, the reactions shared by Sundeep Kishan highlight the ongoing challenges that cinema personalities navigate on social media platforms. The actor's response addresses the climate of online discussions surrounding his latest project.",
-        "Industry observers continue to monitor how these digital dynamics influence the rollout of new movies. The discussion around Sigma and its lead actor remains a talking point within contemporary film circles."
+        "As the release date for the movie Sigma draws closer, actor Sundeep Kishan has found himself responding to a wave of targeted online trolling. The actor chose to address the negativity head-on amidst promotional activities for the film.",
+        "Reactions to targeted social media campaigns highlight the ongoing challenges film casts face prior to theatrical debuts. Sundeep Kishan's response brings light to the digital hurdles encountered by contemporary cinema projects leading up to their premieres."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Sundeep Kishan has addressed the issue of targeted trolling directed at him ahead of his upcoming film Sigma. The star's reactions to this negativity have drawn attention as the release approaches.",
+      "dek": "Actor Sundeep Kishan has spoken out against targeted trolling directed at him as his film Sigma approaches its release. The actor addressed the negative online attention surrounding the project.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -551,8 +565,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/434581/last-minute-legal-hurdle-for-drishyam-3",
-      "title": "Drishyam 3 Faces Potential Last-Minute Legal Hurdles",
-      "summary": "The upcoming film Drishyam 3 has reportedly encountered a last-minute legal hurdle prior to its developments. Legal challenges ahead of major cinematic projects often create anticipation and uncertainty regarding timelines.",
+      "title": "Drishyam 3 Faces Unexpected Legal Obstacles at the Last Minute",
+      "summary": "The anticipated project Drishyam 3 has encountered a late-stage legal hurdle. This sudden development creates uncertainty surrounding the progress of the popular franchise.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434581/last-minute-legal-hurdle-for-drishyam-3",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/drishyam-3.jpg",
@@ -560,13 +574,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The highly anticipated project Drishyam 3 has reportedly run into a last-minute legal hurdle. Legal complications emerging right before key milestones can introduce unexpected delays and concerns for creators and audiences alike.",
-        "While specific details regarding the nature of the legal obstacle remain contained, such hurdles are notable events within the production and release pipeline of major film franchises. Industry followers are watching closely to see how the situation resolves.",
-        "Legal challenges of this nature underscore the complex regulatory and rights landscapes that major cinematic releases must navigate before reaching the public."
+        "The cinematic franchise Drishyam 3 has unexpectedly run into a last-minute legal hurdle. Such obstacles can significantly impact release schedules and ongoing production workflows for major film properties.",
+        "At this stage, the exact nature of the legal impediment continues to be monitored as stakeholders await further updates. The situation underscores the unpredictable legal complexities that can affect high-profile cinema franchises."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The upcoming film Drishyam 3 has reportedly encountered a last-minute legal hurdle prior to its developments. Legal challenges ahead of major cinematic projects often create anticipation and uncertainty regarding timelines.",
+      "dek": "The anticipated project Drishyam 3 has encountered a late-stage legal hurdle. This sudden development creates uncertainty surrounding the progress of the popular franchise.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -576,8 +589,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/434578/cult-classic-geethanjali-locks-new-date-for-re-release",
-      "title": "Cult Classic Geethanjali Secures a Fresh Date for Theatrical Re-Release",
-      "summary": "The cult classic film Geethanjali has officially locked a new release date for its upcoming theatrical re-release. Fans of the celebrated movie can look forward to experiencing the title back on the big screen.",
+      "title": "Cult Classic Geethanjali Sets a Fresh Theatrical Re-Release Date",
+      "summary": "The beloved cult classic movie Geethanjali has officially scheduled a new date for its upcoming theatrical re-release. Fans of the classic title will soon have another opportunity to experience it on the big screen.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434578/cult-classic-geethanjali-locks-new-date-for-re-release",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Geethanjali-re-release.jpg",
@@ -585,92 +598,18 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The celebrated cult classic Geethanjali has officially locked a brand new date for its upcoming theatrical re-release. Re-releasing classic titles has become a popular trend, allowing both longtime admirers and newer audiences to experience notable cinematic works in theaters once again.",
-        "With a fresh date now secured, preparations are underway for the film's return to the big screen. Such theatrical re-runs celebrate the enduring legacy of memorable movies within the industry.",
-        "Fans and film enthusiasts will have another opportunity to appreciate the classic title in a theatrical environment, keeping its cultural footprint active in contemporary cinema discourse."
+        "The timeless cult classic Geethanjali has locked in a brand new date for its theatrical re-release. Re-releases of acclaimed older films have become a popular trend, allowing audiences to revisit historical cinema landmarks in theaters.",
+        "With a fresh release date now confirmed, anticipation builds among movie buffs eager to watch the cherished classic on the big screen once again. This scheduling update breathes new life into a celebrated title from the archives."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The cult classic film Geethanjali has officially locked a new release date for its upcoming theatrical re-release. Fans of the celebrated movie can look forward to experiencing the title back on the big screen.",
+      "dek": "The beloved cult classic movie Geethanjali has officially scheduled a new date for its upcoming theatrical re-release. Fans of the classic title will soon have another opportunity to experience it on the big screen.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "Gulte"
       ],
       "originalUrl": "https://www.gulte.com/movienews/434578/cult-classic-geethanjali-locks-new-date-for-re-release"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/434575/talented-hero-finally-gets-a-deserving-hit",
-      "title": "Is a Deserving Hit Finally on the Horizon for This Talented Hero?",
-      "summary": "Discussion has sparked around a talented actor finally securing a deserving box-office success. Observers and fans are looking closely at recent developments surrounding the star's career trajectory.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/434575/talented-hero-finally-gets-a-deserving-hit",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/baththa.jpg",
-      "publishedAt": "2026-10-01T11:51:05.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A fresh wave of discussion has emerged within cinema circles regarding whether a notably talented hero is finally securing a long-overdue and deserving hit. Career milestones for dedicated performers frequently capture the interest of moviegoers and industry trackers alike.",
-        "The conversation underscores the appreciation for consistent acting talent and the anticipation of seeing commendable work translate into substantial commercial recognition.",
-        "As developments unfold, supporters continue to rally behind the star, hoping this momentum marks a significant high point in their ongoing cinematic journey."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Discussion has sparked around a talented actor finally securing a deserving box-office success. Observers and fans are looking closely at recent developments surrounding the star's career trajectory.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/434575/talented-hero-finally-gets-a-deserving-hit"
-    },
-    {
-      "id": "https://www.telugu360.com/allu-arjuns-iconza/",
-      "title": "Allu Arjun's ICONZA Project Draws Attention",
-      "summary": "Telugu star Allu Arjun is associated with a new venture titled ICONZA, generating considerable excitement among movie buffs and followers of Tollywood cinema news updates.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/allu-arjuns-iconza/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Allu-Arjuns-ICONZA.jpg",
-      "publishedAt": "2026-10-01T11:15:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Popular Telugu actor Allu Arjun is currently linked to an exciting new project titled ICONZA. The announcement has captured the attention of movie enthusiasts across the industry, sparking anticipation for what the venture holds.",
-        "As discussions surrounding ICONZA continue to circulate, fans eagerly await further official updates regarding the star's upcoming cinematic endeavors. The project highlights the ongoing buzz and high expectations surrounding the prominent actor's career choices in Tollywood."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Telugu star Allu Arjun is associated with a new venture titled ICONZA, generating considerable excitement among movie buffs and followers of Tollywood cinema news updates.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://www.telugu360.com/allu-arjuns-iconza/"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/vijay-sethupathis-baththa-opens-to-positive-word-of-mouth-prp.html",
-      "title": "Vijay Sethupathi Starrer Baththa Debuts With Favorable Word of Mouth",
-      "summary": "Actor Vijay Sethupathi's latest release, Baththa, has successfully made its way to the screens, opening to a positive word of mouth from audiences and viewers.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/vijay-sethupathis-baththa-opens-to-positive-word-of-mouth-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Baththa.webp",
-      "publishedAt": "2026-10-01T10:32:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Versatile actor Vijay Sethupathi's latest cinematic offering, Baththa, has officially opened to a positive word of mouth from audiences. The early reactions highlight a favorable reception among viewers following its release.",
-        "This encouraging initial response marks a strong start for the film. As word continues to spread, the positive audience reaction sets a promising tone for its theatrical run and overall reception in the entertainment space."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Vijay Sethupathi's latest release, Baththa, has successfully made its way to the screens, opening to a positive word of mouth from audiences and viewers.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/vijay-sethupathis-baththa-opens-to-positive-word-of-mouth-prp.html"
     }
   ],
   "trailers": [
@@ -678,10 +617,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=N7GKjMwQbvk",
+      "url": "https://www.youtube.com/watch?v=CIZD3O4k0bs",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/N7GKjMwQbvk/hqdefault.jpg",
-      "youtubeId": "N7GKjMwQbvk",
+      "img": "https://i.ytimg.com/vi/CIZD3O4k0bs/hqdefault.jpg",
+      "youtubeId": "CIZD3O4k0bs",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -689,10 +628,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
       "title": "Prahaar: The Untold Story of Ujjwal Nikam - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=6cn88OnZF1Q",
+      "url": "https://www.youtube.com/watch?v=JPsMGxeov8k",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
-      "img": "https://i.ytimg.com/vi/6cn88OnZF1Q/hqdefault.jpg",
-      "youtubeId": "6cn88OnZF1Q",
+      "img": "https://i.ytimg.com/vi/JPsMGxeov8k/hqdefault.jpg",
+      "youtubeId": "JPsMGxeov8k",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -711,10 +650,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=deKwt9SJ7TI",
+      "url": "https://www.youtube.com/watch?v=n67-f7Ttxy4",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/deKwt9SJ7TI/hqdefault.jpg",
-      "youtubeId": "deKwt9SJ7TI",
+      "img": "https://i.ytimg.com/vi/n67-f7Ttxy4/hqdefault.jpg",
+      "youtubeId": "n67-f7Ttxy4",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -722,10 +661,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=XS3a2ETpeaE",
+      "url": "https://www.youtube.com/watch?v=PFWwt5asUe0",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/XS3a2ETpeaE/hqdefault.jpg",
-      "youtubeId": "XS3a2ETpeaE",
+      "img": "https://i.ytimg.com/vi/PFWwt5asUe0/hqdefault.jpg",
+      "youtubeId": "PFWwt5asUe0",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -921,6 +860,50 @@
   ],
   "reviews": [
     {
+      "t": "Sigma",
+      "l": "Telugu",
+      "releaseDate": "2026-10-02",
+      "rating": "1.92/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 1.92,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": 1.5,
+            "ratingText": "1.5/5",
+            "url": "https://www.greatandhra.com/movies/reviews/#site-content-contain"
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": 2,
+            "ratingText": "2/5",
+            "url": "https://www.telugu360.com/sigma-movie-review/"
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
       "t": "Dorothy",
       "l": "Telugu",
       "releaseDate": "2026-10-02",
@@ -1048,50 +1031,6 @@
             "rating": 2.75,
             "ratingText": "2.75/5",
             "url": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html"
-          }
-        ]
-      }
-    },
-    {
-      "t": "SIGMA",
-      "l": "Telugu",
-      "releaseDate": "2026-10-02",
-      "rating": "1.75/5",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sigma-movie-review.jpg",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.telugu360.com/sigma-movie-review/",
-      "aggregator": {
-        "average": 1.75,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": 1.5,
-            "ratingText": "1.5/5",
-            "url": "https://www.greatandhra.com/movies/reviews/#site-content-contain"
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": 2,
-            "ratingText": "2/5",
-            "url": "https://www.telugu360.com/sigma-movie-review/"
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
           }
         ]
       }
@@ -1672,12 +1611,12 @@
       "t": "Sardar 2",
       "l": "Telugu",
       "releaseDate": "2026-09-10",
-      "rating": "1.67/5",
+      "rating": "1.25/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/sardar-2-movie-review-boring-spy-thriller/",
       "aggregator": {
-        "average": 1.67,
+        "average": 1.25,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1705,9 +1644,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.123telugu.com/reviews/karthis-sardar-2-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
