@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T05:19:17.483Z",
+  "updatedAt": "2026-10-02T05:31:29.402Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,18 +55,18 @@
   ],
   "movies": [
     {
-      "id": "mahendragiri-varahi",
-      "title": "Mahendragiri Varahi",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
+      "id": "dont-trouble-the-trouble",
+      "title": "Don’t Trouble The Trouble",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/donttroublethetrouble.jpg",
       "language": "Telugu",
-      "buzzScore": 42,
+      "buzzScore": 32,
       "status": "STEADY",
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
       "sourceSignals": {
-        "news": 2,
+        "news": 1,
         "reviews": 1,
         "trailers": 0,
         "theatreLocations": 0,
@@ -74,9 +74,28 @@
       }
     },
     {
-      "id": "dont-trouble-the-trouble",
-      "title": "Don’t Trouble The Trouble",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
+      "id": "mahendragiri-varahi",
+      "title": "Mahendragiri Varahi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
+      "language": "Telugu",
+      "buzzScore": 32,
+      "status": "STEADY",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "bethlehem-kudumba-unit",
+      "title": "Bethlehem Kudumba Unit",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -114,7 +133,7 @@
     {
       "id": "baththa",
       "title": "Baththa - Official Trailer",
-      "img": "https://i.ytimg.com/vi/asrF4DinJAc/hqdefault.jpg",
+      "img": "https://static.toiimg.com/thumb/msid-134285020,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -126,6 +145,25 @@
         "news": 1,
         "reviews": 0,
         "trailers": 1,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "thella-kaagitham",
+      "title": "Thella Kaagitham",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Thella-Kaagitham-Review.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
         "theatreLocations": 0,
         "theatreShows": 0
       }
@@ -416,25 +454,6 @@
       }
     },
     {
-      "id": "bethlehem-kudumba-unit",
-      "title": "Bethlehem Kudumba Unit",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "romanchakam",
       "title": "Romanchakam",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
@@ -490,25 +509,6 @@
         "theatreLocations": 0,
         "theatreShows": 0
       }
-    },
-    {
-      "id": "pallaburusu",
-      "title": "Pallaburusu",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg",
-      "language": "Telugu",
-      "buzzScore": 22,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
     }
   ],
   "ottTrending": {
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:19:17.454Z",
+      "updatedAt": "2026-10-02T05:31:29.376Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:19:17.454Z",
+      "updatedAt": "2026-10-02T05:31:29.377Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:19:17.455Z",
+      "updatedAt": "2026-10-02T05:31:29.377Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:19:17.455Z",
+      "updatedAt": "2026-10-02T05:31:29.377Z",
       "items": [
         {
           "rank": 1,
@@ -693,7 +693,7 @@
           "rank": 2,
           "title": "Thudakkam",
           "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Thudakkam.webp",
+          "img": "https://images.filmibeat.com/img/280x383/popcorn/movie_posters/thudakkam-20260803092529-23794.jpg",
           "platform": "JioHotstar",
           "releaseDate": "September 18, 2026",
           "languages": "Malayalam · Telugu · Tamil · Kannada · Hindi"
@@ -702,7 +702,7 @@
           "rank": 3,
           "title": "Raja The Raja",
           "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Raja-The-Raja.webp",
+          "img": "https://images.filmibeat.com/img/280x383/popcorn/movie_posters/rajatheraja-20260707160648-24398.jpg",
           "platform": "JioHotstar",
           "releaseDate": "September 2026",
           "languages": "Telugu"
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:19:17.455Z",
+      "updatedAt": "2026-10-02T05:31:29.377Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T05:19:17.455Z",
+      "updatedAt": "2026-10-02T05:31:29.377Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T05:19:17.455Z",
+      "updatedAt": "2026-10-02T05:31:29.377Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:19:17.455Z",
+      "updatedAt": "2026-10-02T05:31:29.377Z",
       "items": [
         {
           "rank": 1,

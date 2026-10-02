@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T05:17:46.643Z",
+  "updatedAt": "2026-10-02T05:30:24.783Z",
   "language": "Telugu",
   "news": [
     {
@@ -448,10 +448,21 @@
       "id": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/ebenezer-a-christmas-carol-official-trailer-offers-a-new-look-into-ebenezer-scrooges-story-johnny-depp-doing-what-he-does-best/articleshow/134631451.cms",
       "title": "Ebenezer: A Christmas Carol’ official trailer offers a new look into Ebenezer Scrooge’s story- 'Johnny Depp doing what he does best'",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=l_Ozo1xUgbU",
+      "url": "https://www.youtube.com/watch?v=DQpujuXVJfg",
       "originalUrl": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/ebenezer-a-christmas-carol-official-trailer-offers-a-new-look-into-ebenezer-scrooges-story-johnny-depp-doing-what-he-does-best/articleshow/134631451.cms",
-      "img": "https://i.ytimg.com/vi/l_Ozo1xUgbU/hqdefault.jpg",
-      "youtubeId": "l_Ozo1xUgbU",
+      "img": "https://i.ytimg.com/vi/DQpujuXVJfg/hqdefault.jpg",
+      "youtubeId": "DQpujuXVJfg",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://www.youtube.com/watch?v=ziq2ipwcoig",
+      "originalUrl": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://i.ytimg.com/vi/ziq2ipwcoig/hqdefault.jpg",
+      "youtubeId": "ziq2ipwcoig",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -459,10 +470,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=OqZtDjJOMR8",
+      "url": "https://www.youtube.com/watch?v=CIZD3O4k0bs",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/OqZtDjJOMR8/hqdefault.jpg",
-      "youtubeId": "OqZtDjJOMR8",
+      "img": "https://i.ytimg.com/vi/CIZD3O4k0bs/hqdefault.jpg",
+      "youtubeId": "CIZD3O4k0bs",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -470,10 +481,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
       "title": "Prahaar: The Untold Story of Ujjwal Nikam - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=JPsMGxeov8k",
+      "url": "https://www.youtube.com/watch?v=6cn88OnZF1Q",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
-      "img": "https://i.ytimg.com/vi/JPsMGxeov8k/hqdefault.jpg",
-      "youtubeId": "JPsMGxeov8k",
+      "img": "https://i.ytimg.com/vi/6cn88OnZF1Q/hqdefault.jpg",
+      "youtubeId": "6cn88OnZF1Q",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -492,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=Pun1I1swtOw",
+      "url": "https://www.youtube.com/watch?v=4Jpoh8N0oxI",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/Pun1I1swtOw/hqdefault.jpg",
-      "youtubeId": "Pun1I1swtOw",
+      "img": "https://i.ytimg.com/vi/4Jpoh8N0oxI/hqdefault.jpg",
+      "youtubeId": "4Jpoh8N0oxI",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -564,64 +575,9 @@
       "youtubeId": "",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/drishyam-the-conclusion-official-trailer/videoshow/133965911.cms",
-      "title": "Drishyam: The Conclusion - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/drishyam-the-conclusion-official-trailer/videoshow/133965911.cms",
-      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/drishyam-the-conclusion-official-trailer/videoshow/133965911.cms",
-      "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "language": "Telugu"
     }
   ],
   "interviews": [
-    {
-      "id": "6BkK8SV9qkQ",
-      "youtubeId": "6BkK8SV9qkQ",
-      "title": "ముగ్గురితో కలిసి వెంకటేష్ గారు చేసిన డాన్స్ | Srinidhi Shetty About Narayanamma Song | Venkatesh",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=6BkK8SV9qkQ",
-      "img": "https://i.ytimg.com/vi/6BkK8SV9qkQ/hqdefault.jpg",
-      "publishedAt": "2026-10-02T04:23:03.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "Y_F-f2k4UoY",
-      "youtubeId": "Y_F-f2k4UoY",
-      "title": "Dont Trouble The Trouble Telugu Public Talk | Public Review | Fahadh Faasil, Ssara | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=Y_F-f2k4UoY",
-      "img": "https://i.ytimg.com/vi/Y_F-f2k4UoY/hqdefault.jpg",
-      "publishedAt": "2026-10-01T20:50:51.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "bUkSzkJReMY",
-      "youtubeId": "bUkSzkJReMY",
-      "title": "శోభన్ బాబు తర్వాత ఆ స్థాయిలోకి Nani మాత్రమే వచ్చాడు : Mohan Babu | Nani | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=bUkSzkJReMY",
-      "img": "https://i.ytimg.com/vi/bUkSzkJReMY/hqdefault.jpg",
-      "publishedAt": "2026-10-01T16:04:54.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "s--T9UWhMAA",
-      "youtubeId": "s--T9UWhMAA",
-      "title": "#SrikanthOdela నన్ను మోసం చేసాడు..: Mohan Babu about Srikanth Odela | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=s--T9UWhMAA",
-      "img": "https://i.ytimg.com/vi/s--T9UWhMAA/hqdefault.jpg",
-      "publishedAt": "2026-10-01T13:32:33.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
     {
       "id": "Gk-oUiiowFA",
       "youtubeId": "Gk-oUiiowFA",
@@ -652,39 +608,6 @@
       "url": "https://www.youtube.com/watch?v=V5TgC2peP2E",
       "img": "https://i.ytimg.com/vi/V5TgC2peP2E/hqdefault.jpg",
       "publishedAt": "2026-10-01T08:13:03.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "noVXFWgoRdQ",
-      "youtubeId": "noVXFWgoRdQ",
-      "title": "LIVE : ANAKAPALLI Team Q&A Press Meet | Vikram Sahidev | Sandhya Vasishta | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=noVXFWgoRdQ",
-      "img": "https://i.ytimg.com/vi/noVXFWgoRdQ/hqdefault.jpg",
-      "publishedAt": "2026-09-30T21:50:05.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "lEtdFC2G2_U",
-      "youtubeId": "lEtdFC2G2_U",
-      "title": "Q&A With Media at Dorothy Telugu Trailer Launch Event | Keerthy Suresh | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=lEtdFC2G2_U",
-      "img": "https://i.ytimg.com/vi/lEtdFC2G2_U/hqdefault.jpg",
-      "publishedAt": "2026-09-30T14:27:19.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "Kff8NJ-e91c",
-      "youtubeId": "Kff8NJ-e91c",
-      "title": "Actor Rana Daggubati Speech at Dorothy (Telugu) - Trailer Launch Event | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=Kff8NJ-e91c",
-      "img": "https://i.ytimg.com/vi/Kff8NJ-e91c/hqdefault.jpg",
-      "publishedAt": "2026-09-30T13:56:30.000Z",
       "language": "Telugu",
       "category": "Movie Interviews"
     }
