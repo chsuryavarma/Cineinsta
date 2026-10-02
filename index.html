@@ -557,15 +557,38 @@ document.getElementById("reviewList").innerHTML='<div class="empty">Reviews coul
 
 function renderHero(items){
 const hero=document.getElementById("homeHero");
-const item=items.find(function(news){return news&&typeof news.img==="string"&&news.img.trim()!==""&&news.url;});
-if(!item){hero.style.display="none";return}
+const candidates=(Array.isArray(items)?items:[]).filter(function(news){
+return news&&typeof news.img==="string"&&/^https?:\/\//i.test(news.img.trim())&&news.url;
+});
+let index=0;
+
+function showHeroItem(){
+const item=candidates[index];
+if(!item){
+hero.style.display="none";
+window.cineHeroKey="";
+renderNews(Array.isArray(items)?items:[],window.cineNewsDisplayLimit||20);
+return;
+}
+
 hero.style.display="block";
 window.cineHeroKey=String(item.id||item.url||newsTitleKey(item.title||item.t||""));
-document.getElementById("heroImage").innerHTML='<img src="'+escapeHTML(item.img)+'" alt="'+escapeHTML(item.title)+'">';
+const heroImage=document.getElementById("heroImage");
+heroImage.innerHTML='<img src="'+escapeHTML(item.img)+'" alt="'+escapeHTML(item.title||"")+'">';
+const image=heroImage.querySelector("img");
+
+image.addEventListener("error",function(){
+index++;
+showHeroItem();
+},{once:true});
+
 document.getElementById("heroTitle").textContent=item.title||"";
 document.getElementById("heroSummary").textContent=cleanSummary(item.summary||"");
 document.getElementById("heroMeta").textContent=(item.source||"Telugu Cinema")+(formatDate(item.publishedAt)?" · "+formatDate(item.publishedAt):"");
 document.getElementById("heroLink").href="/news/"+articleSlug(item);
+}
+
+showHeroItem();
 }
 
 function newsTitleKey(title){
@@ -669,7 +692,17 @@ return;
 }
 const initialCount=20;
 const displayLimit=Number.isInteger(limit)?limit:initialCount;
-const visible=validNews.slice(0,displayLimit);
+window.cineNewsDisplayLimit=displayLimit;
+const visible=[];
+const seenRenderKeys=new Set();
+validNews.slice(0,displayLimit).forEach(function(item){
+const renderTitleKey=newsTitleKey(item.title||item.t||"");
+const renderUrlKey=String(item.url||item.id||"").trim().toLowerCase();
+const renderKey=renderTitleKey||renderUrlKey;
+if(!renderKey||seenRenderKeys.has(renderKey))return;
+seenRenderKeys.add(renderKey);
+visible.push(item);
+});
 let html="";
 
 visible.forEach(function(item){
