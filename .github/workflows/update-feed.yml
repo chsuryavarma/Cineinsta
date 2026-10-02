@@ -47,7 +47,6 @@ jobs:
           node scripts/publish-feed.mjs
 
       - name: Update South Indian trailer feed
-        continue-on-error: true
         run: |
           node scripts/update-trailers-SOUTH-ONLY-SAFE.mjs
 
