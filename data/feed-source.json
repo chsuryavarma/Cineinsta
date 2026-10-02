@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-02T05:41:03.118Z",
+  "updatedAt": "2026-10-02T06:26:17.584Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://www.telugu360.com/thella-kaagitam-movie-review/",
-      "title": "Thella Kaagitam Review : A Sweet Love Story Stretched Too Far",
+      "id": "https://www.telugu360.com/sigma-movie-review/",
+      "title": "SIGMA Review: A Template Action Film With Little Impact",
       "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie...",
       "source": "Telugu360",
-      "url": "https://www.telugu360.com/thella-kaagitam-movie-review/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thella-Kagitham-movie-review.jpg",
-      "publishedAt": "2026-10-02T04:40:41.000Z",
+      "url": "https://www.telugu360.com/sigma-movie-review/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sigma-movie-review.jpg",
+      "publishedAt": "2026-10-02T06:12:25.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -20,7 +20,18 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
-      "publishedAt": "2026-10-02T04:32:46.000Z",
+      "publishedAt": "2026-10-02T05:52:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/thella-kaagitam-movie-review/",
+      "title": "Thella Kaagitam Review : A Sweet Love Story Stretched Too Far",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/thella-kaagitam-movie-review/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thella-Kagitham-movie-review.jpg",
+      "publishedAt": "2026-10-02T04:40:41.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -430,31 +441,9 @@
       "publishedAt": "2026-09-30T07:17:13.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/sreeleela-begins-shooting-for-rajinikanths-dharman",
-      "title": "Sreeleela begins shooting for Rajinikanth’s Dharman",
-      "summary": "--> --> Sreeleela begins shooting for Rajinikanth’s Dharman - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News Movie Reviews...",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/sreeleela-begins-shooting-for-rajinikanths-dharman",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/09/sreeleelamarriage-sep2726.jpg",
-      "publishedAt": "2026-09-30T05:18:14.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
-    {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=L89XrUMfuzw",
-      "originalUrl": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://i.ytimg.com/vi/L89XrUMfuzw/hqdefault.jpg",
-      "youtubeId": "L89XrUMfuzw",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "language": "Telugu"
-    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
@@ -503,10 +492,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=glScZzZ7vtI",
+      "url": "https://www.youtube.com/watch?v=j_5auSjE2ig",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/glScZzZ7vtI/hqdefault.jpg",
-      "youtubeId": "glScZzZ7vtI",
+      "img": "https://i.ytimg.com/vi/j_5auSjE2ig/hqdefault.jpg",
+      "youtubeId": "j_5auSjE2ig",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -525,10 +514,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
       "title": "Baththa - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=0CmJToOXecY",
+      "url": "https://www.youtube.com/watch?v=asrF4DinJAc",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://i.ytimg.com/vi/0CmJToOXecY/hqdefault.jpg",
-      "youtubeId": "0CmJToOXecY",
+      "img": "https://i.ytimg.com/vi/asrF4DinJAc/hqdefault.jpg",
+      "youtubeId": "asrF4DinJAc",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -575,43 +564,20 @@
       "youtubeId": "",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "language": "Telugu"
-    }
-  ],
-  "interviews": [
-    {
-      "id": "Gk-oUiiowFA",
-      "youtubeId": "Gk-oUiiowFA",
-      "title": "సినిమాలో #MohanBabu గారు ఉన్నారని #SrikanthOdela చెప్పగానే సర్ప్రైజ్ అయ్యాను | #Nani | #TheParadise",
-      "source": "Telugu Filmnagar",
-      "url": "https://www.youtube.com/watch?v=Gk-oUiiowFA",
-      "img": "https://i.ytimg.com/vi/Gk-oUiiowFA/hqdefault.jpg",
-      "publishedAt": "2026-10-01T12:45:10.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
     },
     {
-      "id": "35Lu6CoFdtM",
-      "youtubeId": "35Lu6CoFdtM",
-      "title": "నా రోల్ ఇంత భయంకరంగా ఉంటుందని అస్సలు అనుకోలేదు | #MohanBabu | #TheParadise | #Nani | #Shorts | TFN",
-      "source": "Telugu Filmnagar",
-      "url": "https://www.youtube.com/watch?v=35Lu6CoFdtM",
-      "img": "https://i.ytimg.com/vi/35Lu6CoFdtM/hqdefault.jpg",
-      "publishedAt": "2026-10-01T11:47:46.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "V5TgC2peP2E",
-      "youtubeId": "V5TgC2peP2E",
-      "title": "Jadal With Shikanja Maalik | The Paradise Interview | Nani | Mohan Babu | Srikanth Odela | TFN",
-      "source": "Telugu Filmnagar",
-      "url": "https://www.youtube.com/watch?v=V5TgC2peP2E",
-      "img": "https://i.ytimg.com/vi/V5TgC2peP2E/hqdefault.jpg",
-      "publishedAt": "2026-10-01T08:13:03.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
+      "title": "Vibe - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
+      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/vibe-official-trailer/videoshow/133713137.cms",
+      "img": "https://static.toiimg.com/thumb/msid-133713137,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "language": "Telugu"
     }
   ],
+  "interviews": [],
   "reviews": [
     {
       "t": "Thella Kaagitham",

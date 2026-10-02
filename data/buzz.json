@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T05:42:22.793Z",
+  "updatedAt": "2026-10-02T06:26:55.887Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -133,7 +133,7 @@
     {
       "id": "baththa",
       "title": "Baththa - Official Trailer",
-      "img": "https://i.ytimg.com/vi/0CmJToOXecY/hqdefault.jpg",
+      "img": "https://i.ytimg.com/vi/asrF4DinJAc/hqdefault.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:42:18.498Z",
+      "updatedAt": "2026-10-02T06:26:50.504Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:42:18.499Z",
+      "updatedAt": "2026-10-02T06:26:50.504Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:42:18.499Z",
+      "updatedAt": "2026-10-02T06:26:50.504Z",
       "items": [
         {
           "rank": 1,
@@ -678,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:42:18.499Z",
+      "updatedAt": "2026-10-02T06:26:50.504Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:42:18.499Z",
+      "updatedAt": "2026-10-02T06:26:50.504Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T05:42:18.499Z",
+      "updatedAt": "2026-10-02T06:26:50.504Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-02T05:42:18.499Z",
+      "updatedAt": "2026-10-02T06:26:50.504Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-02T05:42:18.499Z",
+      "updatedAt": "2026-10-02T06:26:50.504Z",
       "items": [
         {
           "rank": 1,
