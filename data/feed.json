@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T11:07:52.859Z",
+  "updatedAt": "2026-10-02T12:10:49.255Z",
   "language": "Telugu",
   "news": [
     {
@@ -699,6 +699,28 @@
       "youtubeId": "uVu0mM-Fnvc",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "language": "Malayalam"
+    },
+    {
+      "id": "youtube:cCbiVWgEW1w",
+      "title": "കാർത്തിക് സുബ്ബരാജ്- കീർത്തി സുരേഷ് ചിത്രം 'ദൊറോത്തി' ട്രെയിലർ",
+      "source": "Asianet News",
+      "url": "https://www.youtube.com/watch?v=cCbiVWgEW1w",
+      "originalUrl": "https://www.asianetnews.com/trailer/keerthy-suresh-movie-dorothy-trailer-directed-by-karthik-subbaraj-articleshow-24n17ed",
+      "img": "https://i.ytimg.com/vi/cCbiVWgEW1w/hqdefault.jpg",
+      "youtubeId": "cCbiVWgEW1w",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "language": "Malayalam"
+    },
+    {
+      "id": "youtube:hgnVXBtuWe8",
+      "title": "சிக்மா - டிரைலர்",
+      "source": "Dinamalar Cinema",
+      "url": "https://www.youtube.com/watch?v=hgnVXBtuWe8",
+      "originalUrl": "https://cinema.dinamalar.com/video/sigma---official-trailer/347464",
+      "img": "https://i.ytimg.com/vi/hgnVXBtuWe8/hqdefault.jpg",
+      "youtubeId": "hgnVXBtuWe8",
+      "publishedAt": null,
+      "language": "Tamil"
     },
     {
       "id": "youtube:iOMvWcMo8cA",
