@@ -44,7 +44,6 @@ function abs(v, base) {
   try { return new URL(v, base).href; } catch { return ''; }
 }
 
-/* One normalization is used everywhere so title/image matching is consistent. */
 function normalizeMatchTitle(v = '') {
   return clean(decode(v))
     .toLowerCase()
@@ -162,10 +161,10 @@ const SEED = [
   ['Jagamae Sangeetham','Prime Video','September 4, 2026','Telugu · Tamil','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jagamae-Sangeetham.webp'],
   ['Mister Middle Class','Aha','September 2026','Telugu','https://static.digit.in/product/tr:n-ott_home_crousel/mr-middle-class-aaf0eb84d7.jpeg'],
   ['Vishwanath and Sons','Netflix','September 11, 2026','Tamil · Telugu · Kannada · Malayalam · Hindi','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg'],
-  ['Thudakkam','JioHotstar','September 18, 2026','Malayalam · Telugu · Tamil · Kannada · Hindi','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Thudakkam.webp'],
+  ['Thudakkam','JioHotstar','September 18, 2026','Malayalam · Telugu · Tamil · Kannada · Hindi','https://images.filmibeat.com/img/280x383/popcorn/movie_posters/thudakkam-20260803092529-23794.jpg'],
   ['Chennai Love Story','SonyLIV','September 2026','Telugu','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Chennai-Love-Story.webp'],
   ['Least Eligible Bachelor','Netflix','October 2026','Telugu','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Least-Eligible-Bachelor.webp'],
-  ['Raja The Raja','JioHotstar','September 2026','Telugu','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Raja-The-Raja.webp'],
+  ['Raja The Raja','JioHotstar','September 2026','Telugu','https://images.filmibeat.com/img/280x383/popcorn/movie_posters/rajatheraja-20260707160648-24398.jpg'],
   ['Panchanama','ZEE5','September 2026','Telugu','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Panchanama.webp'],
   ['Deewana','Aha','July 31, 2026','Telugu · Tamil','https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Deewana.webp']
 ].map(([title,platform,releaseDate,languages,img]) => ({title,platform,releaseDate,languages,img,text:''}));
@@ -185,7 +184,6 @@ function buildOtt(parsed) {
   return result;
 }
 
-/* Build an image index from every Cineinsta feed section. */
 function buildImageIndex(feed, ottTrending) {
   const records = [];
   const add = (title, img, source) => {
@@ -252,8 +250,6 @@ async function main() {
   trailers.forEach(item=>add(item.title,item.img,'trailer'));
   (trends.movies||[]).forEach(item=>add(item.movie,item.img,'theatre',{cinemas:item.signal?.cinemas,shows:item.signal?.shows}));
 
-  /* Critical fix: resolve missing Buzz images from all existing Cineinsta data,
-     using exact title matching first and controlled fuzzy matching second. */
   const imageIndex=buildImageIndex(feed,Object.values(ottTrending).flatMap(x=>x.items||[]));
   for(const item of candidates.values()){
     if(!item.img)item.img=findBestImage(item.title,imageIndex);
