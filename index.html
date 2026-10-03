@@ -339,6 +339,92 @@ background:transparent!important;
 filter:none!important;
 }
 
+
+/* =========================================================
+   FINAL ALL-BLACK CINEINSTA BACKGROUND
+   Keep content readable with white text and gold accents.
+   ========================================================= */
+html,body{
+  background:#070707!important;
+  color:#f4f4f4!important;
+}
+main,
+.section,
+.intro,
+.jumpNav,
+.articlePage,
+article,
+.newsGrid,
+.reviewList,
+.buzzGrid,
+.cineBuzzGrid,
+.trailerGrid{
+  background:#070707!important;
+  color:#f4f4f4!important;
+}
+.sectionHead h2,
+.intro h1,
+.intro h2,
+.intro h3,
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.articlePage h1,
+.articlePage h2,
+.articlePage h3{
+  color:#fff!important;
+}
+.intro p,
+.sectionHead span,
+.section p,
+.articlePage p{
+  color:#aaa!important;
+}
+
+/* Cards remain dark so there are no white/light blocks against the black page. */
+.newsCard,
+.reviewWide,
+.buzzCard,
+.cineBuzzCard,
+.trailerCard,
+.articlePage .relatedCard,
+.relatedNewsCard{
+  background:#111!important;
+  color:#fff!important;
+  border-color:#303030!important;
+}
+.newsCard *,
+.reviewWide *,
+.buzzCard *,
+.cineBuzzCard *,
+.trailerCard *,
+.articlePage .relatedCard *,
+.relatedNewsCard *{
+  color:#f2f2f2!important;
+}
+.newsCard .meta,
+.reviewWide .meta,
+.buzzCard .buzzSource,
+.cineBuzzMeta,
+.trailerCard .trailerSource{
+  color:#999!important;
+}
+.jumpNav{
+  background:#070707!important;
+}
+.jumpNav a{
+  background:#111!important;
+  color:#eee!important;
+  border-color:#333!important;
+}
+footer{
+  background:#090909!important;
+  color:#999!important;
+  border-color:#252525!important;
+}
+footer a{color:#bbb!important}
+
 </style>
 </head>
 <body>
@@ -646,7 +732,7 @@ const editorialHtml=entry.type==="news"?renderEditorialArticle(item):`<div class
 const highlightsHtml=entry.type==="news"?renderWhatToLookFor(item):"";
 const sourceNames=item.source||"Cineinsta";
 const sourceExtra=Array.isArray(item.sources)&&item.sources.length?`<div class="articleSourceList"><strong>Information sources</strong><ul>${item.sources.map(function(s){return `<li>${escapeHTML(String(s))}</li>`}).join("")}</ul></div>`:"";
-articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${highlightsHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#trailersSection" data-section="trailersSection">Jump to Trailers</a></nav></div>`;
+articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${highlightsHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#boxOfficeBattleSection" data-section="boxOfficeBattleSection">Jump to BOB</a></nav></div>`;
 updateSEO(entry);
 }
 
