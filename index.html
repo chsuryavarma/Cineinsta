@@ -677,21 +677,25 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
 }
 
 
+/* FINAL DARK ARTICLE CARD OVERRIDE
+   Keep internal article information sections dark to match Cineinsta's black theme.
+   This changes only article information-card styling. */
 /* Final readability fix for internal article information cards */
 #articlePage .articleHighlights,
 #articlePage .articleFacts,
 #articlePage .articleContext,
 #articlePage .articleSourceList,
 #articlePage .articleSourceBox{
-  color:#222!important;
-  background:#faf9f7!important;
+  color:#f2f2f2!important;
+  background:#111!important;
+  border-color:#303030!important;
 }
 #articlePage .articleHighlights h2,
 #articlePage .articleFacts h2,
 #articlePage .articleContext h2,
 #articlePage .articleSourceList strong,
 #articlePage .articleSourceBox .sourceLabel{
-  color:#222!important;
+  color:#ffffff!important;
 }
 #articlePage .articleHighlights li,
 #articlePage .articleFacts li,
@@ -699,7 +703,10 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
 #articlePage .articleSourceList li,
 #articlePage .articleSourceBox .sourceNote,
 #articlePage .articleSourceBox strong{
-  color:#444!important;
+  color:#d6d6d6!important;
+}
+#articlePage .articleSourceList{
+  border-top-color:#303030!important;
 }
 #articlePage .articleSourceBox .sourceLabel{
   color:var(--accent)!important;
