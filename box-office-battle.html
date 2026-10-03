@@ -67,6 +67,8 @@ h1{font-size:clamp(46px,8vw,92px);line-height:.94;margin:14px 0 18px;letter-spac
 .compareGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .compareCard{background:#0a0c10;border:1px solid var(--line);border-radius:16px;padding:16px}
 .compareCard h3{margin:0 0 4px;font-size:20px}.compareCard p{margin:0;color:var(--muted);font-size:12px;line-height:1.6}
+
+.metricTable{margin-top:14px;border:1px solid #252a34;border-radius:14px;overflow:hidden;background:#090b0f}.metricRow{display:grid;grid-template-columns:1.4fr 1fr 1fr;border-top:1px solid #20242c}.metricRow:first-child{border-top:0}.metricRow span,.metricRow b{padding:11px 12px;font-size:12px}.metricRow span{color:#9ea6b4}.metricRow b{text-align:right;color:#f4f6fa}.sourceLine{margin-top:10px;color:#777f8c;font-size:10px;text-align:center}.metricRow:nth-child(even){background:#0d1015}
 .notice{margin-top:12px;color:#aeb5c2;font-size:12px;text-align:center}
 .controls{
   display:grid;grid-template-columns:minmax(220px,1fr) 150px 150px;gap:10px;
@@ -192,11 +194,25 @@ $("compareBtn").addEventListener("click",()=>{
   const a=getFilm($("movieA").value),b=getFilm($("movieB").value);
   if(!a||!b)return;
   $("result").classList.add("show");
+  const rows=[
+    ["Budget",a.budgetCr,b.budgetCr],
+    ["Day 1 India Net",a.day1IndiaNetCr,b.day1IndiaNetCr],
+    ["India Net",a.indiaNetCr,b.indiaNetCr],
+    ["India Gross",a.indiaGrossCr,b.indiaGrossCr],
+    ["Overseas",a.overseasCr,b.overseasCr],
+    ["Worldwide Gross",a.worldwideGrossCr,b.worldwideGrossCr],
+    ["Reported Footfalls",a.footfalls?`${(a.footfalls/10000000).toFixed(2)} Cr`:null,b.footfalls?`${(b.footfalls/10000000).toFixed(2)} Cr`:null]
+  ];
+  const fmt=(v)=>v===null||v===undefined||v===""?"—":(typeof v==='number'?`₹${v.toLocaleString('en-IN',{maximumFractionDigits:2})} Cr`:v);
   $("result").innerHTML=`
     <div class="compareGrid">
       <div class="compareCard"><h3>${esc(a.title)}</h3><p>${a.year} • ${esc(a.hero)} • Dir. ${esc(a.director)}</p></div>
       <div class="compareCard"><h3>${esc(b.title)}</h3><p>${b.year} • ${esc(b.hero)} • Dir. ${esc(b.director)}</p></div>
-    </div>`;
+    </div>
+    <div class="metricTable">
+      ${rows.map(r=>`<div class="metricRow"><span>${esc(r[0])}</span><b>${fmt(r[1])}</b><b>${fmt(r[2])}</b></div>`).join('')}
+    </div>
+    <div class="sourceLine">Source status: ${a.boxOfficeSource?esc(a.boxOfficeSource):'pending verification'} · ${b.boxOfficeSource?esc(b.boxOfficeSource):'pending verification'}</div>`;
   $("result").scrollIntoView({behavior:"smooth",block:"nearest"});
 });
 $("search").addEventListener("input",render);$("year").addEventListener("change",render);$("sort").addEventListener("change",render);
