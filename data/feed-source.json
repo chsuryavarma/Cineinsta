@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T18:10:04.345Z",
+  "updatedAt": "2026-10-03T00:09:46.066Z",
   "language": "Telugu",
   "news": [
     {
@@ -9,7 +9,7 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
-      "publishedAt": "2026-10-02T17:35:44.000Z",
+      "publishedAt": "2026-10-02T20:35:44.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -20,7 +20,40 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
-      "publishedAt": "2026-10-02T17:34:46.000Z",
+      "publishedAt": "2026-10-02T20:34:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/ajay-devgn-drishyam-the-conclusion-hindi-movie-review-and-rating.html",
+      "title": "Review: Ajay Devgn's Drishyam The Conclusion - Hits The Bull's Eye",
+      "summary": "Ajay Devgn's Drishyam: The Conclusion Hindi Movie Review And Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/ajay-devgn-drishyam-the-conclusion-hindi-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Drishyam.jpg",
+      "publishedAt": "2026-10-02T20:32:29.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/thella-kaagitham-movie-review-and-rating.html",
+      "title": "Review: Thella Kaagitham - Has Its Moments",
+      "summary": "Thella Kaagitham Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/thella-kaagitham-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Thella-Kaagitham.webp",
+      "publishedAt": "2026-10-02T20:31:47.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/nani-to-start-prepping-for-a-grueling-schedule-of-bloody-romeo-avd.html",
+      "title": "Nani to start prepping for a grueling schedule of Bloody Romeo",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Nani to start prepping for a grueling...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/nani-to-start-prepping-for-a-grueling-schedule-of-bloody-romeo-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/04/nani.webp",
+      "publishedAt": "2026-10-02T18:55:04.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -32,28 +65,6 @@
       "url": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
       "publishedAt": "2026-10-02T17:33:03.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/ajay-devgn-drishyam-the-conclusion-hindi-movie-review-and-rating.html",
-      "title": "Review: Ajay Devgn's Drishyam The Conclusion - Hits The Bull's Eye",
-      "summary": "Ajay Devgn's Drishyam: The Conclusion Hindi Movie Review And Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/ajay-devgn-drishyam-the-conclusion-hindi-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Drishyam.jpg",
-      "publishedAt": "2026-10-02T17:32:29.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/thella-kaagitham-movie-review-and-rating.html",
-      "title": "Review: Thella Kaagitham - Has Its Moments",
-      "summary": "Thella Kaagitham Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/thella-kaagitham-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Thella-Kaagitham.webp",
-      "publishedAt": "2026-10-02T17:31:47.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -430,20 +441,31 @@
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://indiaglitz.com/romanchakam-ott-release-sumanth-prabhas-film-now-streaming-on-netflix",
-      "title": "Romanchakam OTT Release: Sumanth Prabhas Film Now Streaming on Netflix",
-      "summary": "| IndiaGlitz Home Bollywood Tamil Telugu Malayalam Kannada हिन्दी தமிழ் తెలుగు മലയാളം ಕನ್ನಡ Download App Menu Home Movie News Headlines Actress Reviews Previews Trailers Home Movie News Headlines Actress Reviews...",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/romanchakam-ott-release-sumanth-prabhas-film-now-streaming-on-netflix",
-      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/07/romanchakam-first-single.jpg",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/mukesh-khanna-criticises-ranbir-kapoors-portrayal-of-lord-ram-in-ramayana-teaser-i-said-schwarzenegger-salman-khan-akshay-kumar-and-rajinikanth-can-do-this-but-purushottam-would-never/articleshow/134645391.cms",
+      "title": "Mukesh Khanna CRITICISES Ranbir Kapoor's portrayal of Lord Ram in 'Ramayana' teaser: 'I said Schwarzenegger, Salman Khan, Akshay Kumar and Rajinikanth can do this, but Purushottam would never'",
+      "source": "ETimes Telugu",
+      "url": "https://www.youtube.com/watch?v=-Pmg-nND3kk",
+      "originalUrl": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/mukesh-khanna-criticises-ranbir-kapoors-portrayal-of-lord-ram-in-ramayana-teaser-i-said-schwarzenegger-salman-khan-akshay-kumar-and-rajinikanth-can-do-this-but-purushottam-would-never/articleshow/134645391.cms",
+      "img": "https://i.ytimg.com/vi/-Pmg-nND3kk/hqdefault.jpg",
+      "youtubeId": "-Pmg-nND3kk",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://www.youtube.com/watch?v=5UvfX83pcaQ",
+      "originalUrl": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://i.ytimg.com/vi/5UvfX83pcaQ/hqdefault.jpg",
+      "youtubeId": "5UvfX83pcaQ",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
       "title": "Ebenezer - Official Trailer",
@@ -492,10 +514,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=deKwt9SJ7TI",
+      "url": "https://www.youtube.com/watch?v=cOa2IzaEBbg",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/deKwt9SJ7TI/hqdefault.jpg",
-      "youtubeId": "deKwt9SJ7TI",
+      "img": "https://i.ytimg.com/vi/cOa2IzaEBbg/hqdefault.jpg",
+      "youtubeId": "cOa2IzaEBbg",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +525,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=XS3a2ETpeaE",
+      "url": "https://www.youtube.com/watch?v=3jhbxrsdtVI",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/XS3a2ETpeaE/hqdefault.jpg",
-      "youtubeId": "XS3a2ETpeaE",
+      "img": "https://i.ytimg.com/vi/3jhbxrsdtVI/hqdefault.jpg",
+      "youtubeId": "3jhbxrsdtVI",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +536,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
       "title": "The Vvaan - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=5D45G3OFH-c",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
-      "img": "https://i.ytimg.com/vi/5D45G3OFH-c/hqdefault.jpg",
-      "youtubeId": "5D45G3OFH-c",
+      "img": "https://static.toiimg.com/thumb/msid-134284930,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -552,28 +574,6 @@
       "img": "https://static.toiimg.com/thumb/msid-134003172,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/telugu/ranabaali-official-telugu-teaser/videoshow/133973124.cms",
-      "title": "Ranabaali - Official Telugu Teaser",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/regional/telugu/ranabaali-official-telugu-teaser/videoshow/133973124.cms",
-      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/regional/telugu/ranabaali-official-telugu-teaser/videoshow/133973124.cms",
-      "img": "https://static.toiimg.com/thumb/msid-133973124,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/drishyam-the-conclusion-official-trailer/videoshow/133965911.cms",
-      "title": "Drishyam: The Conclusion - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/drishyam-the-conclusion-official-trailer/videoshow/133965911.cms",
-      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/drishyam-the-conclusion-official-trailer/videoshow/133965911.cms",
-      "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
@@ -757,50 +757,6 @@
       }
     },
     {
-      "t": "Dorothy",
-      "l": "Telugu",
-      "releaseDate": "2026-10-02",
-      "rating": "2.5/5",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html",
-      "aggregator": {
-        "average": 2.5,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html"
-          }
-        ]
-      }
-    },
-    {
       "t": "Thellakaagitham",
       "l": "Telugu",
       "releaseDate": "2026-10-02",
@@ -840,6 +796,50 @@
             "rating": 2.75,
             "ratingText": "2.75/5",
             "url": "https://www.123telugu.com/reviews/thella-kaagitham-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Dorothy",
+      "l": "Telugu",
+      "releaseDate": "2026-10-02",
+      "rating": "2.5/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.5,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html"
           }
         ]
       }
