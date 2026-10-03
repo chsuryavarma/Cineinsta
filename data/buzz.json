@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T00:49:22.045Z",
+  "updatedAt": "2026-10-03T06:15:39.911Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,18 +55,18 @@
   ],
   "movies": [
     {
-      "id": "sigma",
-      "title": "Sigma",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
+      "id": "dont-trouble-the-trouble",
+      "title": "Don't Trouble The Trouble",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
       "language": "Telugu",
-      "buzzScore": 32,
+      "buzzScore": 42,
       "status": "STEADY",
       "theatre": {
         "cinemas": 0,
         "shows": 0
       },
       "sourceSignals": {
-        "news": 1,
+        "news": 2,
         "reviews": 1,
         "trailers": 0,
         "theatreLocations": 0,
@@ -74,9 +74,9 @@
       }
     },
     {
-      "id": "dont-trouble-the-trouble",
-      "title": "Don't Trouble The Trouble",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
+      "id": "sigma",
+      "title": "Sigma",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -114,64 +114,7 @@
     {
       "id": "thella-kaagitham",
       "title": "Thella Kaagitham",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thella-Kagitham-movie-review.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "the-paradise",
-      "title": "The Paradise",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "bethlehem-kudumba-unit",
-      "title": "Bethlehem Kudumba Unit",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "romanchakam",
-      "title": "Romanchakam",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/Thella_Kaagitham_Movie_11.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -248,6 +191,25 @@
       "id": "the-vvaan",
       "title": "The Vvaan",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "the-paradise",
+      "title": "The Paradise",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -492,6 +454,44 @@
       }
     },
     {
+      "id": "bethlehem-kudumba-unit",
+      "title": "Bethlehem Kudumba Unit",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "romanchakam",
+      "title": "Romanchakam",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "toxic",
       "title": "Toxic",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/toxic4.jpg",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-03T00:49:21.017Z",
+      "updatedAt": "2026-10-03T06:15:37.769Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-03T00:49:21.017Z",
+      "updatedAt": "2026-10-03T06:15:37.769Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-03T00:49:21.017Z",
+      "updatedAt": "2026-10-03T06:15:37.769Z",
       "items": [
         {
           "rank": 1,
@@ -661,15 +661,6 @@
           "platform": "Aha",
           "releaseDate": "July 31, 2026",
           "languages": "Telugu · Tamil"
-        },
-        {
-          "rank": 3,
-          "title": "Kahan Shuru Kahan Khatam OTT: When And Where To...",
-          "language": "Telugu",
-          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/kahan-shuru-kahan-khatam-ott-when-and-where-to-dhvani-bhanushalis-comedy-drama-online-20260930102736-444.jpg",
-          "platform": "Aha",
-          "releaseDate": "",
-          "languages": "Telugu"
         }
       ],
       "note": "Latest available Telugu-relevant titles on Aha."
@@ -678,7 +669,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-03T00:49:21.017Z",
+      "updatedAt": "2026-10-03T06:15:37.770Z",
       "items": [
         {
           "rank": 1,
@@ -714,7 +705,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-03T00:49:21.017Z",
+      "updatedAt": "2026-10-03T06:15:37.770Z",
       "items": [
         {
           "rank": 1,
@@ -741,7 +732,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-03T00:49:21.017Z",
+      "updatedAt": "2026-10-03T06:15:37.770Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -749,7 +740,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-03T00:49:21.017Z",
+      "updatedAt": "2026-10-03T06:15:37.770Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -757,7 +748,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-03T00:49:21.017Z",
+      "updatedAt": "2026-10-03T06:15:37.770Z",
       "items": [
         {
           "rank": 1,
