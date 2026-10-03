@@ -104,6 +104,7 @@ const pageUrls = uniqueUrls([
   { loc: `${BASE_URL}/reviews`, lastmod: isoDate(feed.updatedAt) },
   { loc: `${BASE_URL}/trailers`, lastmod: isoDate(feed.updatedAt) },
   { loc: `${BASE_URL}/buzz`, lastmod: isoDate(feed.updatedAt) },
+  { loc: `${BASE_URL}/box-office-battle.html` },
   { loc: `${BASE_URL}/about.html` },
   { loc: `${BASE_URL}/contact.html` },
   { loc: `${BASE_URL}/privacy-policy.html` },
