@@ -9,7 +9,6 @@
       "year": 2015,
       "director": "S. S. Rajamouli",
       "hero": "Prabhas",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": 180,
       "day1IndiaNetCr": 5.15,
@@ -23,7 +22,8 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk / published trade estimates",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-002",
@@ -31,7 +31,6 @@
       "year": 2015,
       "director": "Koratala Siva",
       "hero": "Mahesh Babu",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": 80,
       "day1IndiaNetCr": null,
@@ -44,8 +43,9 @@
       "worldwideGrossCr": 200,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "published trade estimates; India split not populated until separately verified",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "boxOfficeSource": "Published trade estimates",
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-003",
@@ -53,7 +53,6 @@
       "year": 2015,
       "director": "Trivikram Srinivas",
       "hero": "Allu Arjun",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -67,6 +66,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -75,7 +75,6 @@
       "year": 2015,
       "director": "Puri Jagannadh",
       "hero": "N. T. Rama Rao Jr.",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -89,6 +88,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -97,7 +97,6 @@
       "year": 2015,
       "director": "Maruthi",
       "hero": "Nani",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -111,6 +110,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -119,21 +119,21 @@
       "year": 2015,
       "director": "Gunasekhar",
       "hero": "Anushka Shetty",
-      "status": "historical",
-      "dataVerified": false,
-      "budgetCr": null,
+      "dataVerified": true,
+      "budgetCr": 80,
       "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
-      "openingWeekendCr": null,
+      "day1WorldwideCr": 13.6,
+      "openingWeekendCr": 55.27,
       "firstWeekIndiaNetCr": null,
-      "indiaNetCr": null,
-      "indiaGrossCr": null,
-      "overseasCr": null,
-      "worldwideGrossCr": null,
+      "indiaNetCr": 58.85,
+      "indiaGrossCr": 79.55,
+      "overseasCr": 7.37,
+      "worldwideGrossCr": 86.92,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": ""
+      "boxOfficeSource": "Published trade estimates",
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-007",
@@ -141,7 +141,6 @@
       "year": 2016,
       "director": "Koratala Siva",
       "hero": "N. T. Rama Rao Jr.",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -155,6 +154,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -163,7 +163,6 @@
       "year": 2016,
       "director": "Boyapati Srinu",
       "hero": "Allu Arjun",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -177,6 +176,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -185,7 +185,6 @@
       "year": 2016,
       "director": "Sukumar",
       "hero": "N. T. Rama Rao Jr.",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -199,6 +198,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -207,7 +207,6 @@
       "year": 2016,
       "director": "Tharun Bhascker",
       "hero": "Vijay Deverakonda",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -221,6 +220,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -229,7 +229,6 @@
       "year": 2016,
       "director": "Chandoo Mondeti",
       "hero": "Naga Chaitanya",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -243,6 +242,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -251,7 +251,6 @@
       "year": 2017,
       "director": "S. S. Rajamouli",
       "hero": "Prabhas",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": 250,
       "day1IndiaNetCr": 58,
@@ -265,7 +264,8 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-013",
@@ -273,7 +273,6 @@
       "year": 2017,
       "director": "V. V. Vinayak",
       "hero": "Chiranjeevi",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -287,6 +286,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -295,7 +295,6 @@
       "year": 2017,
       "director": "K. S. Ravindra",
       "hero": "N. T. Rama Rao Jr.",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -309,6 +308,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -317,7 +317,6 @@
       "year": 2017,
       "director": "Harish Shankar",
       "hero": "Allu Arjun",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -331,6 +330,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -339,7 +339,6 @@
       "year": 2017,
       "director": "Sandeep Reddy Vanga",
       "hero": "Vijay Deverakonda",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -353,6 +352,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -361,7 +361,6 @@
       "year": 2017,
       "director": "Sekhar Kammula",
       "hero": "Varun Tej",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -375,6 +374,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -383,7 +383,6 @@
       "year": 2018,
       "director": "Sukumar",
       "hero": "Ram Charan",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -396,8 +395,9 @@
       "worldwideGrossCr": 216,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "published trade estimates",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "boxOfficeSource": "Published trade estimates",
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-019",
@@ -405,7 +405,6 @@
       "year": 2018,
       "director": "Koratala Siva",
       "hero": "Mahesh Babu",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -419,6 +418,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -427,7 +427,6 @@
       "year": 2018,
       "director": "Trivikram Srinivas",
       "hero": "N. T. Rama Rao Jr.",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -441,6 +440,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -449,7 +449,6 @@
       "year": 2018,
       "director": "Parasuram",
       "hero": "Vijay Deverakonda",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -463,6 +462,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -471,7 +471,6 @@
       "year": 2018,
       "director": "Nag Ashwin",
       "hero": "Keerthy Suresh",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -485,6 +484,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -493,7 +493,6 @@
       "year": 2018,
       "director": "Sashi Kiran Tikka",
       "hero": "Adivi Sesh",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -507,6 +506,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -515,7 +515,6 @@
       "year": 2019,
       "director": "Sujeeth",
       "hero": "Prabhas",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": 350,
       "day1IndiaNetCr": 89,
@@ -529,7 +528,8 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk / published trade estimates",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-025",
@@ -537,7 +537,6 @@
       "year": 2019,
       "director": "Surender Reddy",
       "hero": "Chiranjeevi",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -551,6 +550,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -559,7 +559,6 @@
       "year": 2019,
       "director": "Vamshi Paidipally",
       "hero": "Mahesh Babu",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -573,6 +572,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -581,7 +581,6 @@
       "year": 2019,
       "director": "Anil Ravipudi",
       "hero": "Venkatesh / Varun Tej",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -595,6 +594,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -603,7 +603,6 @@
       "year": 2019,
       "director": "Shiva Nirvana",
       "hero": "Naga Chaitanya",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -617,6 +616,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -625,7 +625,6 @@
       "year": 2019,
       "director": "Puri Jagannadh",
       "hero": "Ram Pothineni",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -639,6 +638,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -647,7 +647,6 @@
       "year": 2020,
       "director": "Trivikram Srinivas",
       "hero": "Allu Arjun",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": 120,
       "day1IndiaNetCr": 37,
@@ -661,7 +660,8 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-031",
@@ -669,7 +669,6 @@
       "year": 2020,
       "director": "Anil Ravipudi",
       "hero": "Mahesh Babu",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -683,6 +682,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -691,7 +691,6 @@
       "year": 2020,
       "director": "Venky Kudumula",
       "hero": "Nithiin",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -705,6 +704,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -713,7 +713,6 @@
       "year": 2020,
       "director": "Buchi Babu Sana",
       "hero": "Panja Vaisshnav Tej",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -727,6 +726,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -735,7 +735,6 @@
       "year": 2021,
       "director": "Sukumar",
       "hero": "Allu Arjun",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": 45.78,
@@ -749,7 +748,8 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk / published trade estimates",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-035",
@@ -757,7 +757,6 @@
       "year": 2021,
       "director": "Boyapati Srinu",
       "hero": "Nandamuri Balakrishna",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -771,6 +770,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -779,7 +779,6 @@
       "year": 2021,
       "director": "Venu Sriram",
       "hero": "Pawan Kalyan",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -793,6 +792,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -801,7 +801,6 @@
       "year": 2021,
       "director": "Anudeep K. V.",
       "hero": "Naveen Polishetty",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -815,6 +814,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -823,7 +823,6 @@
       "year": 2021,
       "director": "Rahul Sankrityan",
       "hero": "Nani",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -837,6 +836,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -845,7 +845,6 @@
       "year": 2022,
       "director": "S. S. Rajamouli",
       "hero": "N. T. Rama Rao Jr. / Ram Charan",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": 550,
       "day1IndiaNetCr": 133,
@@ -859,7 +858,8 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-040",
@@ -867,7 +867,6 @@
       "year": 2022,
       "director": "Parasuram",
       "hero": "Mahesh Babu",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -881,6 +880,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -889,7 +889,6 @@
       "year": 2022,
       "director": "Saagar K. Chandra",
       "hero": "Pawan Kalyan",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -903,6 +902,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -911,7 +911,6 @@
       "year": 2022,
       "director": "Chandoo Mondeti",
       "hero": "Nikhil Siddhartha",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -925,6 +924,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -933,7 +933,6 @@
       "year": 2022,
       "director": "Hanu Raghavapudi",
       "hero": "Dulquer Salmaan",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -947,6 +946,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -955,7 +955,6 @@
       "year": 2022,
       "director": "Sashi Kiran Tikka",
       "hero": "Adivi Sesh",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -969,6 +968,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -977,7 +977,6 @@
       "year": 2022,
       "director": "Trinadha Rao Nakkina",
       "hero": "Ravi Teja",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -991,6 +990,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -999,7 +999,6 @@
       "year": 2023,
       "director": "Prashanth Neel",
       "hero": "Prabhas",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": 200,
       "day1IndiaNetCr": 90.7,
@@ -1013,7 +1012,8 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-047",
@@ -1021,7 +1021,6 @@
       "year": 2023,
       "director": "K. S. Ravindra",
       "hero": "Chiranjeevi",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1035,6 +1034,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1043,7 +1043,6 @@
       "year": 2023,
       "director": "Gopichand Malineni",
       "hero": "Nandamuri Balakrishna",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1057,6 +1056,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1065,7 +1065,6 @@
       "year": 2023,
       "director": "Srikanth Odela",
       "hero": "Nani",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1079,6 +1078,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1087,7 +1087,6 @@
       "year": 2023,
       "director": "Om Raut",
       "hero": "Prabhas",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1101,6 +1100,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1109,7 +1109,6 @@
       "year": 2023,
       "director": "Shouryuv",
       "hero": "Nani",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1123,6 +1122,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1131,7 +1131,6 @@
       "year": 2024,
       "director": "Sukumar",
       "hero": "Allu Arjun",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": 164.25,
@@ -1144,8 +1143,9 @@
       "worldwideGrossCr": 1742.1,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Sacnilk; India gross/overseas split withheld pending separate verification",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "boxOfficeSource": "Sacnilk",
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-053",
@@ -1153,7 +1153,6 @@
       "year": 2024,
       "director": "Nag Ashwin",
       "hero": "Prabhas",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": 95.3,
@@ -1167,7 +1166,8 @@
       "footfalls": 36400000,
       "footfallsSource": "Sacnilk reported approx. 3.64 crore India tickets",
       "boxOfficeSource": "Sacnilk",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Reported footfall figure; remaining fields require separate source verification."
     },
     {
       "id": "obb-054",
@@ -1175,7 +1175,6 @@
       "year": 2024,
       "director": "Koratala Siva",
       "hero": "N. T. Rama Rao Jr.",
-      "status": "historical",
       "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": 82.5,
@@ -1189,7 +1188,8 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
+      "status": "historical",
+      "notes": "Published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-055",
@@ -1197,7 +1197,6 @@
       "year": 2024,
       "director": "Trivikram Srinivas",
       "hero": "Mahesh Babu",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1211,6 +1210,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1219,7 +1219,6 @@
       "year": 2024,
       "director": "Prasanth Varma",
       "hero": "Teja Sajja",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1233,6 +1232,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1241,7 +1241,6 @@
       "year": 2024,
       "director": "Mallik Ram",
       "hero": "Siddhu Jonnalagadda",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1255,6 +1254,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1263,7 +1263,6 @@
       "year": 2024,
       "director": "Venky Atluri",
       "hero": "Dulquer Salmaan",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1277,6 +1276,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1285,7 +1285,6 @@
       "year": 2025,
       "director": "Sujeeth",
       "hero": "Pawan Kalyan",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1299,6 +1298,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1307,7 +1307,6 @@
       "year": 2025,
       "director": "Anil Ravipudi",
       "hero": "Venkatesh",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1321,6 +1320,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1329,7 +1329,6 @@
       "year": 2025,
       "director": "S. Shankar",
       "hero": "Ram Charan",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1343,6 +1342,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1351,7 +1351,6 @@
       "year": 2025,
       "director": "Karthik Gattamneni",
       "hero": "Teja Sajja",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1365,6 +1364,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1373,7 +1373,6 @@
       "year": 2025,
       "director": "Bobby Kolli",
       "hero": "Nandamuri Balakrishna",
-      "status": "historical",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1387,6 +1386,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "historical",
       "notes": ""
     },
     {
@@ -1395,7 +1395,6 @@
       "year": 2026,
       "director": "Anil Ravipudi",
       "hero": "Chiranjeevi",
-      "status": "current",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1409,6 +1408,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "current",
       "notes": ""
     },
     {
@@ -1417,7 +1417,6 @@
       "year": 2026,
       "director": "Maruthi",
       "hero": "Prabhas",
-      "status": "current",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1431,6 +1430,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "current",
       "notes": ""
     },
     {
@@ -1439,7 +1439,6 @@
       "year": 2026,
       "director": "Srikanth Odela",
       "hero": "Nani",
-      "status": "current",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1453,6 +1452,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "current",
       "notes": ""
     },
     {
@@ -1461,7 +1461,6 @@
       "year": 2026,
       "director": "Harish Shankar",
       "hero": "Pawan Kalyan",
-      "status": "current",
       "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
@@ -1475,6 +1474,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
+      "status": "current",
       "notes": ""
     }
   ]
