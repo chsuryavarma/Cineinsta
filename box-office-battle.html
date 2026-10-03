@@ -1,1 +1,205 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BOX OFFICE BATTLE | Cineinsta</title><meta name="description" content="Cineinsta Box Office Battle — significant Telugu films from 2015 onward."><style>*{box-sizing:border-box}body{margin:0;background:#090909;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif}header{padding:42px 18px 28px;text-align:center;border-bottom:1px solid #242424}h1{margin:0;font-size:clamp(30px,6vw,58px);letter-spacing:2px}.wrap{max-width:1180px;margin:auto;padding:22px 16px 60px}.note{color:#aaa;line-height:1.5}.controls{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}input,select{background:#151515;color:#fff;border:1px solid #333;border-radius:10px;padding:12px 14px;font-size:15px}input{flex:1;min-width:220px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}.card{background:#111;border:1px solid #282828;border-radius:16px;padding:18px}.year{font-size:12px;opacity:.6}.title{font-size:20px;font-weight:700;margin:7px 0}.meta{font-size:13px;line-height:1.6;color:#bbb}.badge{display:inline-block;margin-top:12px;padding:5px 9px;border-radius:999px;background:#222;color:#aaa;font-size:11px}.empty{padding:30px;text-align:center;color:#888}</style></head><body><header><h1>BOX OFFICE BATTLE</h1></header><main class="wrap"><p class="note">Cineinsta's Telugu cinema comparison database — 2015 to present. This standalone build contains the master film list. Box-office figures will be added only after source verification.</p><div class="controls"><input id="search" placeholder="Search a movie, hero or director…"><select id="year"><option value="">All years</option></select></div><div id="grid" class="grid"></div></main><script>let films=[];const search=document.getElementById('search'),year=document.getElementById('year'),grid=document.getElementById('grid');fetch('./box-office-battle.json').then(r=>r.json()).then(d=>{films=d.films||[];[...new Set(films.map(f=>f.year))].sort((a,b)=>b-a).forEach(y=>year.insertAdjacentHTML('beforeend',`<option>${y}</option>`));render()}).catch(()=>grid.innerHTML='<div class="empty">Unable to load the database.</div>');function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}function render(){const q=search.value.toLowerCase().trim(),y=year.value;const rows=films.filter(f=>(!y||String(f.year)===y)&&(!q||`${f.title} ${f.hero} ${f.director}`.toLowerCase().includes(q)));grid.innerHTML=rows.length?rows.map(f=>`<article class="card"><div class="year">${f.year}</div><div class="title">${esc(f.title)}</div><div class="meta"><b>Hero:</b> ${esc(f.hero)}<br><b>Director:</b> ${esc(f.director)}</div><span class="badge">Master list — figures pending verification</span></article>`).join(''):'<div class="empty">No films found.</div>'}search.addEventListener('input',render);year.addEventListener('change',render)</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BOX OFFICE BATTLE | Cineinsta</title>
+<meta name="description" content="Cineinsta Box Office Battle — explore and compare significant Telugu films from 2015 onward.">
+<style>
+:root{
+  --bg:#07080b; --panel:#101217; --panel2:#151821; --line:#272b36;
+  --text:#f5f7fb; --muted:#9aa2b1; --soft:#cbd1dc; --accent:#ffb000;
+  --accent2:#ff5c35; --good:#71e1ad;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:
+  radial-gradient(circle at 15% 0%,rgba(255,176,0,.12),transparent 30%),
+  radial-gradient(circle at 85% 8%,rgba(255,92,53,.10),transparent 28%),
+  var(--bg);color:var(--text);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+}
+a{color:inherit}
+.topbar{
+  position:sticky;top:0;z-index:20;
+  background:rgba(7,8,11,.86);backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.nav{max-width:1240px;margin:auto;padding:13px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:900;letter-spacing:.8px;font-size:17px}.brand span{color:var(--accent)}
+.navpill{font-size:12px;color:#c7cbd4;border:1px solid #30343e;border-radius:999px;padding:7px 11px}
+.hero{max-width:1240px;margin:auto;padding:70px 20px 45px;text-align:center}
+.kicker{font-size:12px;letter-spacing:4px;color:var(--accent);font-weight:800}
+h1{font-size:clamp(46px,8vw,92px);line-height:.94;margin:14px 0 18px;letter-spacing:-3px}
+.hero p{max-width:720px;margin:0 auto;color:var(--muted);font-size:16px;line-height:1.7}
+.heroStats{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:28px}
+.stat{
+  min-width:130px;padding:13px 18px;border:1px solid var(--line);background:rgba(255,255,255,.025);
+  border-radius:14px
+}
+.stat b{display:block;font-size:22px}.stat span{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+.wrap{max-width:1240px;margin:auto;padding:0 20px 70px}
+.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:28px 0 15px}
+.sectionHead h2{margin:0;font-size:25px}.sectionHead p{margin:0;color:var(--muted);font-size:13px}
+.battle{
+  border:1px solid #393d48;border-radius:24px;padding:22px;
+  background:
+    linear-gradient(135deg,rgba(255,176,0,.08),transparent 40%),
+    linear-gradient(315deg,rgba(255,92,53,.06),transparent 45%),#0d0f14;
+  box-shadow:0 20px 60px rgba(0,0,0,.28);
+}
+.battleTop{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center}
+.pick{background:#11141a;border:1px solid #2a2e38;border-radius:18px;padding:18px}
+.pick label{display:block;text-transform:uppercase;letter-spacing:2px;color:var(--muted);font-size:10px;font-weight:800;margin-bottom:8px}
+.pick select{
+  width:100%;background:#0a0c10;color:#fff;border:1px solid #343945;border-radius:10px;
+  padding:13px;font-size:15px;outline:none
+}
+.vs{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#111;font-weight:1000;font-style:italic;box-shadow:0 0 30px rgba(255,176,0,.22)}
+.compareBtn{
+  display:block;margin:16px auto 0;border:0;border-radius:999px;padding:11px 19px;
+  background:linear-gradient(90deg,var(--accent),#ffd15a);color:#111;font-weight:900;cursor:pointer
+}
+.compareBtn:hover{transform:translateY(-1px)}
+.result{display:none;margin-top:18px;border-top:1px solid var(--line);padding-top:18px}
+.result.show{display:block}
+.compareGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.compareCard{background:#0a0c10;border:1px solid var(--line);border-radius:16px;padding:16px}
+.compareCard h3{margin:0 0 4px;font-size:20px}.compareCard p{margin:0;color:var(--muted);font-size:12px;line-height:1.6}
+.notice{margin-top:12px;color:#aeb5c2;font-size:12px;text-align:center}
+.controls{
+  display:grid;grid-template-columns:minmax(220px,1fr) 150px 150px;gap:10px;
+  margin:18px 0 22px
+}
+input,select.filter{
+  background:#101218;color:#eef1f7;border:1px solid #2c303a;border-radius:12px;padding:13px 14px;
+  font-size:14px;outline:none
+}
+input:focus,select:focus{border-color:#686f7c}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.card{
+  position:relative;min-height:188px;overflow:hidden;
+  background:linear-gradient(145deg,#12151b,#0d0f13);
+  border:1px solid #242832;border-radius:18px;padding:17px;
+  transition:.2s transform,.2s border-color,.2s box-shadow;
+}
+.card:before{
+  content:"";position:absolute;inset:auto -35px -55px auto;width:130px;height:130px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,176,0,.10),transparent 65%);
+}
+.card:hover{transform:translateY(-4px);border-color:#4b505d;box-shadow:0 16px 35px rgba(0,0,0,.28)}
+.cardYear{font-size:11px;color:var(--accent);font-weight:900;letter-spacing:1.5px}
+.cardTitle{font-size:19px;font-weight:850;line-height:1.1;margin:9px 0 12px;max-width:95%}
+.meta{font-size:12px;color:#aeb5c1;line-height:1.7}
+.meta b{color:#e1e5ec}
+.cardFoot{position:absolute;bottom:14px;left:17px;right:17px;display:flex;justify-content:space-between;align-items:center}
+.badge{font-size:9px;text-transform:uppercase;letter-spacing:1px;color:#777f8e}
+.openBtn{font-size:10px;color:#d8dce4;border:1px solid #303540;padding:5px 8px;border-radius:999px}
+.empty{grid-column:1/-1;text-align:center;color:#7f8795;padding:40px}
+.footer{border-top:1px solid #1d2027;color:#747c8a;text-align:center;padding:25px 20px;font-size:11px}
+@media(max-width:950px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){
+  .hero{padding:48px 16px 32px}.wrap{padding:0 14px 55px}
+  .battleTop{grid-template-columns:1fr}.vs{margin:auto}.controls{grid-template-columns:1fr 1fr}
+  .controls input{grid-column:1/-1}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  h1{letter-spacing:-2px}
+}
+@media(max-width:460px){
+  .nav{padding:11px 14px}.navpill{display:none}
+  .grid{grid-template-columns:1fr}.compareGrid{grid-template-columns:1fr}
+  .controls{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="nav"><div class="brand">CINE<span>INSTA</span></div><div class="navpill">TELUGU CINEMA • 2015 → PRESENT</div></div></div>
+
+<section class="hero">
+  <div class="kicker">CINEINSTA ORIGINAL</div>
+  <h1>BOX OFFICE<br>BATTLE</h1>
+  <p>A visual archive of modern Telugu cinema — the films, stars and box-office milestones that shaped the era after 2015.</p>
+  <div class="heroStats">
+    <div class="stat"><b id="filmCount">—</b><span>FILMS</span></div>
+    <div class="stat"><b>2015</b><span>STARTING POINT</span></div>
+    <div class="stat"><b id="yearCount">—</b><span>YEARS COVERED</span></div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="sectionHead">
+    <div><h2>HEAD-TO-HEAD</h2><p>Choose any two films when verified figures are ready.</p></div>
+  </div>
+  <section class="battle">
+    <div class="battleTop">
+      <div class="pick"><label>Movie A</label><select id="movieA"></select></div>
+      <div class="vs">VS</div>
+      <div class="pick"><label>Movie B</label><select id="movieB"></select></div>
+    </div>
+    <button class="compareBtn" id="compareBtn">COMPARE MOVIES</button>
+    <div class="result" id="result"></div>
+    <div class="notice">Box-office figures will appear only after source verification. No estimates are presented as facts.</div>
+  </section>
+
+  <div class="sectionHead">
+    <div><h2>THE MODERN TFI ARCHIVE</h2><p id="resultCount">Loading films…</p></div>
+  </div>
+  <div class="controls">
+    <input id="search" placeholder="Search movie, hero or director…">
+    <select class="filter" id="year"><option value="">All years</option></select>
+    <select class="filter" id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option><option value="az">A–Z</option></select>
+  </div>
+  <div id="grid" class="grid"></div>
+</main>
+<footer class="footer">Cineinsta • Box Office Battle • Data is being verified film-by-film from published trade/box-office sources.</footer>
+
+<script>
+const DATA_URL="./box-office-battle.json";
+let films=[];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+
+fetch(DATA_URL,{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("data");return r.json()}).then(d=>{
+  films=d.films||[];
+  $("filmCount").textContent=films.length;
+  $("yearCount").textContent=new Set(films.map(f=>f.year)).size;
+  buildFilters(); buildBattle(); render();
+}).catch(()=>{$("grid").innerHTML='<div class="empty">The database could not be loaded. Please check that box-office-battle.json is in the same folder.</div>'});
+
+function buildFilters(){
+  [...new Set(films.map(f=>f.year))].sort((a,b)=>b-a).forEach(y=>$("year").insertAdjacentHTML("beforeend",`<option value="${y}">${y}</option>`));
+}
+function buildBattle(){
+  const opts=films.map(f=>`<option value="${esc(f.id)}">${esc(f.year)} — ${esc(f.title)}</option>`).join("");
+  $("movieA").innerHTML=opts;$("movieB").innerHTML=opts;
+  if(films[1])$("movieB").value=films[1].id;
+}
+function render(){
+  const q=$("search").value.toLowerCase().trim(), y=$("year").value, sort=$("sort").value;
+  let rows=films.filter(f=>(!y||String(f.year)===y)&&(!q||`${f.title} ${f.hero} ${f.director}`.toLowerCase().includes(q)));
+  rows.sort((a,b)=>sort==="az"?a.title.localeCompare(b.title):sort==="old"?a.year-b.year:b.year-a.year||a.title.localeCompare(b.title));
+  $("resultCount").textContent=`Showing ${rows.length} of ${films.length} films`;
+  $("grid").innerHTML=rows.length?rows.map(f=>`
+    <article class="card">
+      <div class="cardYear">${f.year}</div>
+      <div class="cardTitle">${esc(f.title)}</div>
+      <div class="meta"><b>Hero</b> ${esc(f.hero)}<br><b>Director</b> ${esc(f.director)}</div>
+      <div class="cardFoot"><span class="badge">${f.dataVerified?"Verified data":"Data pending"}</span><span class="openBtn">COMPARE ↑</span></div>
+    </article>`).join(""):'<div class="empty">No films found.</div>';
+}
+function getFilm(id){return films.find(f=>f.id===id)}
+$("compareBtn").addEventListener("click",()=>{
+  const a=getFilm($("movieA").value),b=getFilm($("movieB").value);
+  if(!a||!b)return;
+  $("result").classList.add("show");
+  $("result").innerHTML=`
+    <div class="compareGrid">
+      <div class="compareCard"><h3>${esc(a.title)}</h3><p>${a.year} • ${esc(a.hero)} • Dir. ${esc(a.director)}</p></div>
+      <div class="compareCard"><h3>${esc(b.title)}</h3><p>${b.year} • ${esc(b.hero)} • Dir. ${esc(b.director)}</p></div>
+    </div>`;
+  $("result").scrollIntoView({behavior:"smooth",block:"nearest"});
+});
+$("search").addEventListener("input",render);$("year").addEventListener("change",render);$("sort").addEventListener("change",render);
+</script>
+</body>
+</html>
