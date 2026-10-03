@@ -12,7 +12,7 @@
       "status": "historical",
       "dataVerified": true,
       "budgetCr": 180,
-      "day1IndiaNetCr": null,
+      "day1IndiaNetCr": 5.15,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
@@ -22,8 +22,8 @@
       "worldwideGrossCr": 650,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "BoxOfficeWala / Sacnilk comparison",
-      "notes": ""
+      "boxOfficeSource": "Sacnilk / published trade estimates",
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-002",
@@ -32,20 +32,20 @@
       "director": "Koratala Siva",
       "hero": "Mahesh Babu",
       "status": "historical",
-      "dataVerified": false,
-      "budgetCr": null,
+      "dataVerified": true,
+      "budgetCr": 80,
       "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1WorldwideCr": 31,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": null,
+      "worldwideGrossCr": 200,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": ""
+      "boxOfficeSource": "published trade estimates; India split not populated until separately verified",
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-003",
@@ -254,8 +254,8 @@
       "status": "historical",
       "dataVerified": true,
       "budgetCr": 250,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1IndiaNetCr": 58,
+      "day1WorldwideCr": 217,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": 1030.42,
@@ -265,7 +265,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": ""
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-013",
@@ -385,9 +385,9 @@
       "hero": "Ram Charan",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 60,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1WorldwideCr": 43.8,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": null,
@@ -396,8 +396,8 @@
       "worldwideGrossCr": 216,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published trade figures",
-      "notes": ""
+      "boxOfficeSource": "published trade estimates",
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-019",
@@ -518,8 +518,8 @@
       "status": "historical",
       "dataVerified": true,
       "budgetCr": 350,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1IndiaNetCr": 89,
+      "day1WorldwideCr": 130,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": 310.6,
@@ -528,8 +528,8 @@
       "worldwideGrossCr": 451,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Sacnilk / published trade figures",
-      "notes": ""
+      "boxOfficeSource": "Sacnilk / published trade estimates",
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-025",
@@ -650,8 +650,8 @@
       "status": "historical",
       "dataVerified": true,
       "budgetCr": 120,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1IndiaNetCr": 37,
+      "day1WorldwideCr": 57,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": 200.98,
@@ -661,7 +661,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": ""
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-031",
@@ -738,8 +738,8 @@
       "status": "historical",
       "dataVerified": true,
       "budgetCr": null,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1IndiaNetCr": 45.78,
+      "day1WorldwideCr": 63.7,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": 267.55,
@@ -748,8 +748,8 @@
       "worldwideGrossCr": 350.1,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Sacnilk",
-      "notes": ""
+      "boxOfficeSource": "Sacnilk / published trade estimates",
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-035",
@@ -848,8 +848,8 @@
       "status": "historical",
       "dataVerified": true,
       "budgetCr": 550,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1IndiaNetCr": 133,
+      "day1WorldwideCr": 223,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": 782.2,
@@ -858,8 +858,8 @@
       "worldwideGrossCr": 1230,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Sacnilk / published trade reports",
-      "notes": ""
+      "boxOfficeSource": "Sacnilk",
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-040",
@@ -1001,9 +1001,9 @@
       "hero": "Prabhas",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 270,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "budgetCr": 200,
+      "day1IndiaNetCr": 90.7,
+      "day1WorldwideCr": 158.12,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": 406.45,
@@ -1013,7 +1013,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": ""
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-047",
@@ -1134,18 +1134,18 @@
       "status": "historical",
       "dataVerified": true,
       "budgetCr": null,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1IndiaNetCr": 164.25,
+      "day1WorldwideCr": 275.01,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": 1234.1,
-      "indiaGrossCr": 1471.1,
-      "overseasCr": 271,
+      "indiaGrossCr": null,
+      "overseasCr": null,
       "worldwideGrossCr": 1742.1,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Sacnilk; figure reported Jan 2026",
-      "notes": ""
+      "boxOfficeSource": "Sacnilk; India gross/overseas split withheld pending separate verification",
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-053",
@@ -1155,19 +1155,19 @@
       "hero": "Prabhas",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 600,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "budgetCr": null,
+      "day1IndiaNetCr": 95.3,
+      "day1WorldwideCr": 177.72,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
-      "indiaNetCr": 646.25,
+      "indiaNetCr": 646.31,
       "indiaGrossCr": 767.25,
       "overseasCr": 275,
       "worldwideGrossCr": 1042.25,
       "footfalls": 36400000,
-      "footfallsSource": "Sacnilk final report",
+      "footfallsSource": "Sacnilk reported approx. 3.64 crore India tickets",
       "boxOfficeSource": "Sacnilk",
-      "notes": ""
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-054",
@@ -1178,8 +1178,8 @@
       "status": "historical",
       "dataVerified": true,
       "budgetCr": null,
-      "day1IndiaNetCr": null,
-      "day1WorldwideCr": null,
+      "day1IndiaNetCr": 82.5,
+      "day1WorldwideCr": 142.02,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
       "indiaNetCr": 292.47,
@@ -1189,7 +1189,7 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Sacnilk",
-      "notes": ""
+      "notes": "Verified/published-source fields populated selectively; remaining fields require separate source verification."
     },
     {
       "id": "obb-055",
@@ -1198,19 +1198,19 @@
       "director": "Trivikram Srinivas",
       "hero": "Mahesh Babu",
       "status": "historical",
-      "dataVerified": true,
+      "dataVerified": false,
       "budgetCr": null,
-      "day1IndiaNetCr": 41.3,
+      "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
-      "indiaNetCr": 127.41,
-      "indiaGrossCr": 150.38,
-      "overseasCr": 31,
-      "worldwideGrossCr": 181.38,
+      "indiaNetCr": null,
+      "indiaGrossCr": null,
+      "overseasCr": null,
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Sacnilk",
+      "boxOfficeSource": null,
       "notes": ""
     },
     {
@@ -1477,7 +1477,5 @@
       "boxOfficeSource": null,
       "notes": ""
     }
-  ],
-  "verifiedFilmCount": 12,
-  "note": "Verified values are source-attributed estimates/trade figures and can differ between sources. Null means not yet verified."
+  ]
 }
