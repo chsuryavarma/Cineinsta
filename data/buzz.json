@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T06:58:48.958Z",
+  "updatedAt": "2026-10-03T13:22:37.562Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,82 +55,6 @@
   ],
   "movies": [
     {
-      "id": "dont-trouble-the-trouble",
-      "title": "Don't Trouble The Trouble",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
-      "language": "Telugu",
-      "buzzScore": 42,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 2,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "sigma",
-      "title": "Sigma",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "dorothy",
-      "title": "Dorothy",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "thella-kaagitham",
-      "title": "Thella Kaagitham",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/Thella_Kaagitham_Movie_11.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
       "id": "drishyam-the-conclusion",
       "title": "Drishyam The Conclusion",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Drishyam.jpg",
@@ -150,9 +74,85 @@
       }
     },
     {
+      "id": "sigma",
+      "title": "Sigma",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Sigma.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "dont-trouble-the-trouble",
+      "title": "Don't Trouble The Trouble",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
       "id": "thellakaagitham",
       "title": "Thellakaagitham",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Thella-Kaagitham.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "dorothy",
+      "title": "Dorothy",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
+    },
+    {
+      "id": "thella-kaagitham",
+      "title": "Thella Kaagitham",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/Thella_Kaagitham_Movie_11.jpg",
       "language": "Telugu",
       "buzzScore": 22,
       "status": "COOLING",
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-03T06:58:47.992Z",
+      "updatedAt": "2026-10-03T13:22:34.630Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-03T06:58:47.993Z",
+      "updatedAt": "2026-10-03T13:22:34.630Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-03T06:58:47.993Z",
+      "updatedAt": "2026-10-03T13:22:34.631Z",
       "items": [
         {
           "rank": 1,
@@ -669,7 +669,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-03T06:58:47.993Z",
+      "updatedAt": "2026-10-03T13:22:34.631Z",
       "items": [
         {
           "rank": 1,
@@ -705,7 +705,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-03T06:58:47.993Z",
+      "updatedAt": "2026-10-03T13:22:34.631Z",
       "items": [
         {
           "rank": 1,
@@ -732,7 +732,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-03T06:58:47.993Z",
+      "updatedAt": "2026-10-03T13:22:34.631Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -740,7 +740,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-03T06:58:47.993Z",
+      "updatedAt": "2026-10-03T13:22:34.631Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -748,7 +748,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-03T06:58:47.993Z",
+      "updatedAt": "2026-10-03T13:22:34.631Z",
       "items": [
         {
           "rank": 1,
