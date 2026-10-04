@@ -1,6 +1,6 @@
 {
   "project": "Cineinsta Box Office Battle",
-  "coverage": "145-film Telugu catalog; source-enriched. Existing verified figures preserved; Wikipedia and other source references added where available. Unverified figures remain blank.",
+  "coverage": "145-film Telugu catalog. Figures are populated only where a source provides a usable numeric value; ranges are retained and share figures are not silently converted to gross.",
   "filmCount": 145,
   "films": [
     {
@@ -10,25 +10,23 @@
       "director": "S. S. Rajamouli",
       "hero": "Prabhas",
       "status": "historical",
-      "dataVerified": true,
-      "budgetCr": 180,
+      "dataVerified": false,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
-      "indiaNetCr": 421,
-      "indiaGrossCr": 516,
-      "overseasCr": 134,
-      "worldwideGrossCr": 650,
+      "indiaNetCr": null,
+      "indiaGrossCr": null,
+      "overseasCr": null,
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / BoxOfficeWala / Sacnilk comparison",
-      "notes": "Wikipedia lists published worldwide figures in a range; current Cineinsta value retained from verified dataset.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baahubali:_The_Beginning",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": null,
+      "notes": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Baahubali:_The_Beginning"
+      ]
     },
     {
       "id": "obb-002",
@@ -38,7 +36,7 @@
       "hero": "Mahesh Babu",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": "60–70",
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -46,16 +44,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": "144–200",
+      "worldwideGrossCr": 143.2,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia (budget/gross range); Box Office Andhra",
-      "notes": "Worldwide gross: ₹143.20 Cr, sourced from Box Office Andhra. Wikipedia reports budget estimates of ₹60–70 Cr and gross of ₹144–200 Cr. Box Office Andhra previously reported ₹143.2 Cr.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Srimanthudu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": "Box Office Andhra",
+      "notes": "Worldwide gross: ₹143.20 Cr, sourced from Box Office Andhra.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Srimanthudu"
+      ]
     },
     {
       "id": "obb-003",
@@ -64,8 +60,8 @@
       "director": "Trivikram Srinivas",
       "hero": "Allu Arjun",
       "status": "historical",
-      "dataVerified": true,
-      "budgetCr": "40–50",
+      "dataVerified": false,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -73,16 +69,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": 90.5,
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published 2015 Telugu box-office reports",
-      "notes": "Published 2015 reports list ₹90.5 Cr worldwide; budget commonly reported around ₹40–50 Cr.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/S%2FO_Satyamurthy",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": null,
+      "notes": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/S/O_Satyamurthy"
+      ]
     },
     {
       "id": "obb-004",
@@ -92,7 +86,7 @@
       "hero": "N. T. Rama Rao Jr.",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 35,
+      "budgetCr": "35",
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -100,16 +94,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": 74.3,
+      "worldwideGrossCr": "74.3",
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / 2015 Telugu box-office reports",
-      "notes": "Wikipedia reports a ₹35 Cr budget and ₹74.3 Cr worldwide gross.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Temper",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia lists budget ₹35 Cr and gross ₹74.3 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Temper_(film)"
+      ]
     },
     {
       "id": "obb-005",
@@ -127,16 +119,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": 50.05,
+      "worldwideGrossCr": "50.05",
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published 2015 Telugu box-office reports",
-      "notes": "Wikipedia reports ₹7–9 Cr budget and ₹50.05 Cr worldwide gross.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bhale_Bhale_Magadivoy",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia lists budget ₹7–9 Cr and gross ₹50.05 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Bhale_Bhale_Magadivoy"
+      ]
     },
     {
       "id": "obb-006",
@@ -159,11 +149,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rudhramadevi",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Rudhramadevi"
+      ]
     },
     {
       "id": "obb-007",
@@ -186,11 +174,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Janatha_Garage",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Janatha_Garage"
+      ]
     },
     {
       "id": "obb-008",
@@ -199,8 +185,8 @@
       "director": "Boyapati Srinu",
       "hero": "Allu Arjun",
       "status": "historical",
-      "dataVerified": true,
-      "budgetCr": 50,
+      "dataVerified": false,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -208,16 +194,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": 127.6,
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia",
-      "notes": "Wikipedia reports ₹50 Cr budget and ₹127.6 Cr gross.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sarrainodu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": null,
+      "notes": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Sarrainodu"
+      ]
     },
     {
       "id": "obb-009",
@@ -240,11 +224,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nannaku_Prematho",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Nannaku_Prematho"
+      ]
     },
     {
       "id": "obb-010",
@@ -262,16 +244,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": ">30",
+      "worldwideGrossCr": "30",
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Wikipedia",
-      "notes": "Wikipedia reports a ₹0.6–1.2 Cr budget and over ₹30 Cr gross in five weeks; Cineinsta does not convert this to an invented final figure.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pelli_Choopulu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "notes": "Wikipedia lists budget ₹60 lakh–₹1.2 Cr and estimated box office of ₹30 Cr. Opening week AP/TG gross was over ₹5 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Pelli_Choopulu"
+      ]
     },
     {
       "id": "obb-011",
@@ -294,11 +274,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Premam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Premam"
+      ]
     },
     {
       "id": "obb-012",
@@ -307,8 +285,8 @@
       "director": "S. S. Rajamouli",
       "hero": "Prabhas",
       "status": "historical",
-      "dataVerified": true,
-      "budgetCr": 250,
+      "dataVerified": false,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -316,16 +294,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": 1810.43,
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published box-office sources",
-      "notes": "Wikipedia's current highest-grossing Telugu list reports ₹1,810.43 Cr worldwide.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baahubali_2:_The_Conclusion",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": null,
+      "notes": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Baahubali_2:_The_Conclusion"
+      ]
     },
     {
       "id": "obb-013",
@@ -335,7 +311,7 @@
       "hero": "Chiranjeevi",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 50,
+      "budgetCr": "50",
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -343,16 +319,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": 164,
+      "worldwideGrossCr": "164",
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": "Wikipedia",
-      "notes": "Wikipedia reports ₹50 Cr budget and ₹164 Cr gross.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Khaidi_No._150",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "notes": "Wikipedia lists budget ₹50 Cr and gross ₹164 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Khaidi_No._150"
+      ]
     },
     {
       "id": "obb-014",
@@ -375,11 +349,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jai_Lava_Kusa",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Jai_Lava_Kusa"
+      ]
     },
     {
       "id": "obb-015",
@@ -402,11 +374,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/DJ:_Duvvada_Jagannadham",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/DJ:_Duvvada_Jagannadham"
+      ]
     },
     {
       "id": "obb-016",
@@ -415,8 +385,8 @@
       "director": "Sandeep Reddy Vanga",
       "hero": "Vijay Deverakonda",
       "status": "historical",
-      "dataVerified": false,
-      "budgetCr": null,
+      "dataVerified": true,
+      "budgetCr": "5–5.15",
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -424,16 +394,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": null,
+      "worldwideGrossCr": "51",
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Arjun_Reddy",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia lists budget ₹5–5.15 Cr and gross ₹51 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Arjun_Reddy"
+      ]
     },
     {
       "id": "obb-017",
@@ -456,11 +424,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fidaa",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Fidaa"
+      ]
     },
     {
       "id": "obb-018",
@@ -470,7 +436,7 @@
       "hero": "Ram Charan",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 60,
+      "budgetCr": "60",
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -478,16 +444,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": 216,
+      "worldwideGrossCr": "216",
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Existing Cineinsta verified dataset / trade reports",
-      "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rangasthalam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia lists budget ₹60 Cr and gross ₹216 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Rangasthalam"
+      ]
     },
     {
       "id": "obb-019",
@@ -496,25 +460,23 @@
       "director": "Koratala Siva",
       "hero": "Mahesh Babu",
       "status": "historical",
-      "dataVerified": true,
-      "budgetCr": 70,
+      "dataVerified": false,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
-      "indiaNetCr": 105.15,
-      "indiaGrossCr": 129.75,
-      "overseasCr": 31.7,
-      "worldwideGrossCr": 161.45,
+      "indiaNetCr": null,
+      "indiaGrossCr": null,
+      "overseasCr": null,
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Existing Cineinsta verified dataset / trade reports",
+      "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bharat_Ane_Nenu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Bharat_Ane_Nenu"
+      ]
     },
     {
       "id": "obb-020",
@@ -537,11 +499,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aravinda_Sametha_Veera_Raghava",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Aravinda_Sametha_Veera_Raghava"
+      ]
     },
     {
       "id": "obb-021",
@@ -564,11 +524,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Geetha_Govindam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Geetha_Govindam"
+      ]
     },
     {
       "id": "obb-022",
@@ -591,11 +549,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahanati",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mahanati"
+      ]
     },
     {
       "id": "obb-023",
@@ -618,11 +574,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Goodachari",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Goodachari"
+      ]
     },
     {
       "id": "obb-024",
@@ -631,8 +585,8 @@
       "director": "Sujeeth",
       "hero": "Prabhas",
       "status": "historical",
-      "dataVerified": true,
-      "budgetCr": "325–350",
+      "dataVerified": false,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -640,16 +594,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": "419–439",
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published box-office sources",
-      "notes": "Wikipedia currently reports ₹325–350 Cr budget and ₹419–439 Cr worldwide gross.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saaho",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": null,
+      "notes": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Saaho"
+      ]
     },
     {
       "id": "obb-025",
@@ -672,11 +624,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sye_Raa_Narasimha_Reddy",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Sye_Raa_Narasimha_Reddy"
+      ]
     },
     {
       "id": "obb-026",
@@ -685,25 +635,23 @@
       "director": "Vamshi Paidipally",
       "hero": "Mahesh Babu",
       "status": "historical",
-      "dataVerified": true,
-      "budgetCr": 100,
-      "day1IndiaNetCr": 34.75,
-      "day1WorldwideCr": 48.1,
+      "dataVerified": false,
+      "budgetCr": null,
+      "day1IndiaNetCr": null,
+      "day1WorldwideCr": null,
       "openingWeekendCr": null,
-      "firstWeekIndiaNetCr": 90.1,
-      "indiaNetCr": 129.9,
-      "indiaGrossCr": 154,
-      "overseasCr": 22,
-      "worldwideGrossCr": 176,
+      "firstWeekIndiaNetCr": null,
+      "indiaNetCr": null,
+      "indiaGrossCr": null,
+      "overseasCr": null,
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Existing Cineinsta verified dataset / trade reports",
+      "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maharshi",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Maharshi"
+      ]
     },
     {
       "id": "obb-027",
@@ -726,11 +674,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/F2:_Fun_and_Frustration",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/F2:_Fun_and_Frustration"
+      ]
     },
     {
       "id": "obb-028",
@@ -753,11 +699,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Majili",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Majili"
+      ]
     },
     {
       "id": "obb-029",
@@ -780,11 +724,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/iSmart_Shankar",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/iSmart_Shankar"
+      ]
     },
     {
       "id": "obb-030",
@@ -794,24 +736,22 @@
       "hero": "Allu Arjun",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 120,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
-      "indiaNetCr": 200.98,
-      "indiaGrossCr": 233.35,
-      "overseasCr": 31,
-      "worldwideGrossCr": 269.35,
+      "indiaNetCr": null,
+      "indiaGrossCr": 224.4,
+      "overseasCr": null,
+      "worldwideGrossCr": 260.35,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Existing Cineinsta verified dataset / trade reports",
+      "boxOfficeSource": "Box Office Andhra",
       "notes": "India gross: ₹224.40 Cr; worldwide gross: ₹260.35 Cr, sourced from Box Office Andhra.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ala_Vaikunthapurramuloo",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ala_Vaikunthapurramuloo"
+      ]
     },
     {
       "id": "obb-031",
@@ -834,11 +774,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sarileru_Neekevvaru",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Sarileru_Neekevvaru"
+      ]
     },
     {
       "id": "obb-032",
@@ -861,11 +799,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bheeshma",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Bheeshma"
+      ]
     },
     {
       "id": "obb-033",
@@ -887,12 +823,10 @@
       "footfalls": null,
       "footfallsSource": null,
       "boxOfficeSource": null,
-      "notes": "Catalog year appears inconsistent; theatrical release was 2021. Kept as-is pending catalog cleanup.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Uppena",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "notes": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Uppena"
+      ]
     },
     {
       "id": "obb-034",
@@ -901,25 +835,23 @@
       "director": "Sukumar",
       "hero": "Allu Arjun",
       "status": "historical",
-      "dataVerified": true,
+      "dataVerified": false,
       "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
-      "indiaNetCr": 267.55,
-      "indiaGrossCr": 313.8,
+      "indiaNetCr": null,
+      "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": 360,
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published box-office sources",
-      "notes": "Wikipedia's current Telugu list reports ₹360 Cr worldwide; India net/gross retained from Cineinsta dataset.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pushpa:_The_Rise",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": null,
+      "notes": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Pushpa:_The_Rise"
+      ]
     },
     {
       "id": "obb-035",
@@ -942,11 +874,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Akhanda",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Akhanda"
+      ]
     },
     {
       "id": "obb-036",
@@ -969,11 +899,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vakeel_Saab",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Vakeel_Saab"
+      ]
     },
     {
       "id": "obb-037",
@@ -996,11 +924,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jathi_Ratnalu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Jathi_Ratnalu"
+      ]
     },
     {
       "id": "obb-038",
@@ -1023,11 +949,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shyam_Singha_Roy",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Shyam_Singha_Roy"
+      ]
     },
     {
       "id": "obb-039",
@@ -1036,8 +960,8 @@
       "director": "S. S. Rajamouli",
       "hero": "N. T. Rama Rao Jr. / Ram Charan",
       "status": "historical",
-      "dataVerified": true,
-      "budgetCr": 550,
+      "dataVerified": false,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -1045,16 +969,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": "1300–1387",
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published trade sources",
-      "notes": "Wikipedia reports a published worldwide range of ₹1,300–1,387 Cr.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/RRR",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": null,
+      "notes": "",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/RRR"
+      ]
     },
     {
       "id": "obb-040",
@@ -1077,11 +999,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sarkaru_Vaari_Paata",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Sarkaru_Vaari_Paata"
+      ]
     },
     {
       "id": "obb-041",
@@ -1104,11 +1024,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bheemla_Nayak",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Bheemla_Nayak"
+      ]
     },
     {
       "id": "obb-042",
@@ -1131,11 +1049,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Karthikeya_2",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Karthikeya_2"
+      ]
     },
     {
       "id": "obb-043",
@@ -1158,11 +1074,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sita_Ramam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Sita_Ramam"
+      ]
     },
     {
       "id": "obb-044",
@@ -1185,11 +1099,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Major",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Major"
+      ]
     },
     {
       "id": "obb-045",
@@ -1212,11 +1124,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dhamaka",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Dhamaka"
+      ]
     },
     {
       "id": "obb-046",
@@ -1226,7 +1136,7 @@
       "hero": "Prabhas",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 270,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -1234,16 +1144,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": 278,
       "overseasCr": null,
-      "worldwideGrossCr": "614–702",
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published trade sources",
-      "notes": "Telugu domestic gross: ₹278 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified. Wikipedia notes multiple published worldwide estimates; retain the range rather than forcing one figure.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Salaar:_Part_1_%E2%80%93_Ceasefire",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": "Ormax Box Office Report",
+      "notes": "Telugu domestic gross: ₹278 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Salaar:_Part_1_–_Ceasefire"
+      ]
     },
     {
       "id": "obb-047",
@@ -1266,11 +1174,9 @@
       "footfallsSource": null,
       "boxOfficeSource": "Ormax Box Office Report",
       "notes": "Telugu domestic gross: ₹181 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Waltair_Veerayya",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Waltair_Veerayya"
+      ]
     },
     {
       "id": "obb-048",
@@ -1293,11 +1199,9 @@
       "footfallsSource": null,
       "boxOfficeSource": "Ormax Box Office Report",
       "notes": "Telugu domestic gross: ₹109 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Veera_Simha_Reddy",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Veera_Simha_Reddy"
+      ]
     },
     {
       "id": "obb-049",
@@ -1320,11 +1224,9 @@
       "footfallsSource": null,
       "boxOfficeSource": "Ormax Box Office Report",
       "notes": "Telugu domestic gross: ₹85 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dasara",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Dasara"
+      ]
     },
     {
       "id": "obb-050",
@@ -1347,11 +1249,9 @@
       "footfallsSource": null,
       "boxOfficeSource": "Ormax Box Office Report",
       "notes": "Telugu domestic gross: ₹153 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adipurush",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Adipurush"
+      ]
     },
     {
       "id": "obb-051",
@@ -1374,11 +1274,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hi_Nanna",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Hi_Nanna"
+      ]
     },
     {
       "id": "obb-052",
@@ -1388,7 +1286,7 @@
       "hero": "Allu Arjun",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": "400–500",
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -1396,16 +1294,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": 418,
       "overseasCr": null,
-      "worldwideGrossCr": "1642–1800",
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published trade sources",
-      "notes": "Telugu domestic gross: ₹418 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified. Wikipedia reports published worldwide figures ranging from ₹1,642 Cr to ₹1,800 Cr.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pushpa_2:_The_Rule",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": "Ormax Box Office Report",
+      "notes": "Telugu domestic gross: ₹418 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Pushpa_2:_The_Rule"
+      ]
     },
     {
       "id": "obb-053",
@@ -1415,7 +1311,7 @@
       "hero": "Prabhas",
       "status": "historical",
       "dataVerified": true,
-      "budgetCr": 600,
+      "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -1423,16 +1319,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": 353,
       "overseasCr": null,
-      "worldwideGrossCr": "1042–1100",
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published trade sources",
-      "notes": "Telugu domestic gross: ₹353 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified. Wikipedia reports published worldwide figures ranging from ₹1,042 Cr to ₹1,100 Cr.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kalki_2898_AD",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": "Ormax Box Office Report",
+      "notes": "Telugu domestic gross: ₹353 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Kalki_2898_AD"
+      ]
     },
     {
       "id": "obb-054",
@@ -1450,16 +1344,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": 263,
       "overseasCr": null,
-      "worldwideGrossCr": "380–521",
+      "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Wikipedia / published trade sources",
-      "notes": "Telugu domestic gross: ₹263 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified. Published worldwide estimates vary substantially; Cineinsta retains a range rather than selecting one unsupported number.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Devara:_Part_1",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "boxOfficeSource": "Ormax Box Office Report",
+      "notes": "Telugu domestic gross: ₹263 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Devara:_Part_1"
+      ]
     },
     {
       "id": "obb-055",
@@ -1474,19 +1366,17 @@
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
       "firstWeekIndiaNetCr": null,
-      "indiaNetCr": 127.41,
-      "indiaGrossCr": 150.38,
-      "overseasCr": 31,
-      "worldwideGrossCr": 181.38,
+      "indiaNetCr": null,
+      "indiaGrossCr": 135,
+      "overseasCr": null,
+      "worldwideGrossCr": 161.95,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Existing Cineinsta verified dataset / trade reports",
+      "boxOfficeSource": "Ormax Box Office Report",
       "notes": "Telugu domestic gross: ₹135 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Guntur_Kaaram",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Guntur_Kaaram"
+      ]
     },
     {
       "id": "obb-056",
@@ -1507,13 +1397,11 @@
       "worldwideGrossCr": 294.55,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Existing Cineinsta verified dataset / trade reports",
+      "boxOfficeSource": "Box Office Andhra; Ormax Box Office Report",
       "notes": "Telugu domestic gross: ₹173 Cr from Ormax; worldwide gross: ₹294.55 Cr from Box Office Andhra.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/HanuMan",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/HanuMan"
+      ]
     },
     {
       "id": "obb-057",
@@ -1534,13 +1422,11 @@
       "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Existing Cineinsta verified dataset / trade reports",
+      "boxOfficeSource": "Ormax Box Office Report",
       "notes": "Telugu domestic gross: ₹96 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tillu_Square",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Tillu_Square"
+      ]
     },
     {
       "id": "obb-058",
@@ -1561,13 +1447,11 @@
       "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": "Existing Cineinsta verified dataset / trade reports",
+      "boxOfficeSource": "Ormax Box Office Report",
       "notes": "Telugu domestic gross: ₹48 Cr from Ormax's annual Telugu Top 10 report. Other metrics remain blank until separately verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lucky_Baskhar",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": true
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Lucky_Baskhar"
+      ]
     },
     {
       "id": "obb-059",
@@ -1590,11 +1474,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/They_Call_Him_OG",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/They_Call_Him_OG"
+      ]
     },
     {
       "id": "obb-060",
@@ -1617,11 +1499,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sankranthiki_Vasthunam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Sankranthiki_Vasthunam"
+      ]
     },
     {
       "id": "obb-061",
@@ -1644,11 +1524,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Game_Changer",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Game_Changer"
+      ]
     },
     {
       "id": "obb-062",
@@ -1671,11 +1549,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mirai",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mirai"
+      ]
     },
     {
       "id": "obb-063",
@@ -1698,11 +1574,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Daaku_Maharaaj",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Daaku_Maharaaj"
+      ]
     },
     {
       "id": "obb-064",
@@ -1725,11 +1599,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mana_ShankaraVaraprasad_Garu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mana_ShankaraVaraprasad_Garu"
+      ]
     },
     {
       "id": "obb-065",
@@ -1752,11 +1624,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Raja_Saab",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/The_Raja_Saab"
+      ]
     },
     {
       "id": "obb-066",
@@ -1779,11 +1649,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Paradise",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/The_Paradise"
+      ]
     },
     {
       "id": "obb-067",
@@ -1806,11 +1674,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ustaad_Bhagat_Singh",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ustaad_Bhagat_Singh"
+      ]
     },
     {
       "id": "obb-068",
@@ -1819,8 +1685,8 @@
       "director": "Nag Ashwin",
       "hero": "Nani",
       "status": "historical",
-      "dataVerified": false,
-      "budgetCr": null,
+      "dataVerified": true,
+      "budgetCr": "3",
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -1828,16 +1694,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": null,
+      "worldwideGrossCr": "18",
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Yevade_Subramanyam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia lists budget ₹3 Cr and gross ₹18 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Yevade_Subramanyam"
+      ]
     },
     {
       "id": "obb-069",
@@ -1846,8 +1710,8 @@
       "director": "Anil Ravipudi",
       "hero": "Nandamuri Kalyan Ram",
       "status": "historical",
-      "dataVerified": false,
-      "budgetCr": null,
+      "dataVerified": true,
+      "budgetCr": "7",
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -1858,13 +1722,11 @@
       "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pataas",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia lists budget ₹7 Cr. No lifetime gross was added because the available page text does not provide a numeric final gross.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Pataas"
+      ]
     },
     {
       "id": "obb-070",
@@ -1887,11 +1749,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Malli_Malli_Idhi_Rani_Roju",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Malli_Malli_Idhi_Rani_Roju"
+      ]
     },
     {
       "id": "obb-071",
@@ -1914,11 +1774,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Surya_vs_Surya",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Surya_vs_Surya"
+      ]
     },
     {
       "id": "obb-072",
@@ -1941,11 +1799,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kerintha",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Kerintha"
+      ]
     },
     {
       "id": "obb-073",
@@ -1968,11 +1824,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cinema_Choopistha_Mava",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Cinema_Choopistha_Mava"
+      ]
     },
     {
       "id": "obb-074",
@@ -1995,11 +1849,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Raju_Gari_Gadhi",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Raju_Gari_Gadhi"
+      ]
     },
     {
       "id": "obb-075",
@@ -2022,11 +1874,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kumari_21F",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Kumari_21F"
+      ]
     },
     {
       "id": "obb-076",
@@ -2049,11 +1899,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jadoogadu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Jadoogadu"
+      ]
     },
     {
       "id": "obb-077",
@@ -2062,7 +1910,7 @@
       "director": "Hanu Raghavapudi",
       "hero": "Nani",
       "status": "historical",
-      "dataVerified": false,
+      "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
@@ -2074,13 +1922,11 @@
       "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Krishna_Gaadi_Veera_Prema_Gaadha",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia records opening-day India gross ₹3 Cr, opening weekend ₹10.86 Cr, and detailed US collections; no lifetime worldwide gross was used here because the page excerpt does not provide a single final worldwide gross.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Krishna_Gaadi_Veera_Prema_Gaadha"
+      ]
     },
     {
       "id": "obb-078",
@@ -2103,11 +1949,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kshanam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Kshanam"
+      ]
     },
     {
       "id": "obb-079",
@@ -2130,11 +1974,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eluka_Majaka",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Eluka_Majaka"
+      ]
     },
     {
       "id": "obb-080",
@@ -2157,11 +1999,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Padesave",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Padesave"
+      ]
     },
     {
       "id": "obb-081",
@@ -2184,11 +2024,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Terror",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Terror"
+      ]
     },
     {
       "id": "obb-082",
@@ -2211,11 +2049,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jakkanna",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Jakkanna"
+      ]
     },
     {
       "id": "obb-083",
@@ -2238,11 +2074,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Manamantha",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Manamantha"
+      ]
     },
     {
       "id": "obb-084",
@@ -2265,11 +2099,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Srirastu_Subhamastu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Srirastu_Subhamastu"
+      ]
     },
     {
       "id": "obb-085",
@@ -2292,11 +2124,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Naruda_Donoruda",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Naruda_Donoruda"
+      ]
     },
     {
       "id": "obb-086",
@@ -2305,7 +2135,7 @@
       "director": "Vi Anand",
       "hero": "Nikhil Siddharth",
       "status": "historical",
-      "dataVerified": false,
+      "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
@@ -2317,13 +2147,11 @@
       "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ekkadiki_Pothavu_Chinnavada",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "boxOfficeSource": "Box Office Andhra",
+      "notes": "Box Office Andhra reports closing total ₹16.53 Cr including AP/N ₹12.70 Cr, Karnataka ₹1.20 Cr, USA ₹2.43 Cr and rest ₹0.20 Cr. This is a reported closing total; it should not be treated as a gross/net definition without qualification.",
+      "sourceUrls": [
+        "https://www.boxofficeandhra.com/2016/11/ekkadiki-pothavu-chinnavada-collections.html"
+      ]
     },
     {
       "id": "obb-087",
@@ -2346,11 +2174,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jayammu_Nischayammu_Raa",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Jayammu_Nischayammu_Raa"
+      ]
     },
     {
       "id": "obb-088",
@@ -2373,11 +2199,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Appatlo_Okadundevadu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Appatlo_Okadundevadu"
+      ]
     },
     {
       "id": "obb-089",
@@ -2400,11 +2224,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Intlo_Deyyam_Nakem_Bhayam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Intlo_Deyyam_Nakem_Bhayam"
+      ]
     },
     {
       "id": "obb-090",
@@ -2413,7 +2235,7 @@
       "director": "Maruthi",
       "hero": "Sharwanand",
       "status": "historical",
-      "dataVerified": false,
+      "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
@@ -2425,13 +2247,11 @@
       "worldwideGrossCr": null,
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mahanubhavudu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "boxOfficeSource": "Wikipedia / Times of India",
+      "notes": "Wikipedia cites a Times of India report of ₹32.31 Cr worldwide in one week. This is not entered as lifetime worldwide gross.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mahanubhavudu"
+      ]
     },
     {
       "id": "obb-091",
@@ -2454,11 +2274,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Raja_The_Great",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Raja_The_Great"
+      ]
     },
     {
       "id": "obb-092",
@@ -2481,11 +2299,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Anando_Brahma",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Anando_Brahma"
+      ]
     },
     {
       "id": "obb-093",
@@ -2508,11 +2324,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Keshava",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Keshava"
+      ]
     },
     {
       "id": "obb-094",
@@ -2535,11 +2349,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ami_Thumi",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ami_Thumi"
+      ]
     },
     {
       "id": "obb-095",
@@ -2562,11 +2374,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vunnadhi_Okate_Zindagi",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Vunnadhi_Okate_Zindagi"
+      ]
     },
     {
       "id": "obb-096",
@@ -2589,11 +2399,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Malli_Raava",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Malli_Raava"
+      ]
     },
     {
       "id": "obb-097",
@@ -2616,11 +2424,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mental_Madilo",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mental_Madilo"
+      ]
     },
     {
       "id": "obb-098",
@@ -2643,11 +2449,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gruham",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Gruham"
+      ]
     },
     {
       "id": "obb-099",
@@ -2670,11 +2474,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/RX_100",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/RX_100"
+      ]
     },
     {
       "id": "obb-100",
@@ -2697,11 +2499,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/C%2Fo_Kancharapalem",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/C/o_Kancharapalem"
+      ]
     },
     {
       "id": "obb-101",
@@ -2710,7 +2510,7 @@
       "director": "Tharun Bhascker Dhaassyam",
       "hero": "Vishwak Sen",
       "status": "historical",
-      "dataVerified": false,
+      "dataVerified": true,
       "budgetCr": null,
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
@@ -2719,16 +2519,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": null,
+      "worldwideGrossCr": "12",
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ee_Nagaraniki_Emaindi",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia lists gross ₹12 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ee_Nagaraniki_Emaindi"
+      ]
     },
     {
       "id": "obb-102",
@@ -2737,8 +2535,8 @@
       "director": "Rahul Sankrityan",
       "hero": "Vijay Deverakonda",
       "status": "historical",
-      "dataVerified": false,
-      "budgetCr": null,
+      "dataVerified": true,
+      "budgetCr": "7",
       "day1IndiaNetCr": null,
       "day1WorldwideCr": null,
       "openingWeekendCr": null,
@@ -2746,16 +2544,14 @@
       "indiaNetCr": null,
       "indiaGrossCr": null,
       "overseasCr": null,
-      "worldwideGrossCr": null,
+      "worldwideGrossCr": "42",
       "footfalls": null,
       "footfallsSource": null,
-      "boxOfficeSource": null,
-      "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Taxiwaala",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "boxOfficeSource": "Wikipedia",
+      "notes": "Wikipedia lists budget ₹7 Cr and gross ₹42 Cr.",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Taxiwaala"
+      ]
     },
     {
       "id": "obb-103",
@@ -2778,11 +2574,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chi_La_Sow",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Chi_La_Sow"
+      ]
     },
     {
       "id": "obb-104",
@@ -2805,11 +2599,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sammohanam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Sammohanam"
+      ]
     },
     {
       "id": "obb-105",
@@ -2832,11 +2624,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nannu_Dochukunduvate",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Nannu_Dochukunduvate"
+      ]
     },
     {
       "id": "obb-106",
@@ -2859,11 +2649,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Padi_Padi_Leche_Manasu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Padi_Padi_Leche_Manasu"
+      ]
     },
     {
       "id": "obb-107",
@@ -2886,11 +2674,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hello_Guru_Prema_Kosame",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Hello_Guru_Prema_Kosame"
+      ]
     },
     {
       "id": "obb-108",
@@ -2913,11 +2699,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Awe",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Awe"
+      ]
     },
     {
       "id": "obb-109",
@@ -2940,11 +2724,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chitralahari",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Chitralahari"
+      ]
     },
     {
       "id": "obb-110",
@@ -2967,11 +2749,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Brochevarevarura",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Brochevarevarura"
+      ]
     },
     {
       "id": "obb-111",
@@ -2994,11 +2774,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Agent_Sai_Srinivasa_Athreya",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Agent_Sai_Srinivasa_Athreya"
+      ]
     },
     {
       "id": "obb-112",
@@ -3021,11 +2799,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Evaru",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Evaru"
+      ]
     },
     {
       "id": "obb-113",
@@ -3048,11 +2824,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Oh_Baby",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Oh_Baby"
+      ]
     },
     {
       "id": "obb-114",
@@ -3075,11 +2849,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mathu_Vadalara",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mathu_Vadalara"
+      ]
     },
     {
       "id": "obb-115",
@@ -3102,11 +2874,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mallesham",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mallesham"
+      ]
     },
     {
       "id": "obb-116",
@@ -3129,11 +2899,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/118",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/118"
+      ]
     },
     {
       "id": "obb-117",
@@ -3156,11 +2924,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Palasa_1978",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Palasa_1978"
+      ]
     },
     {
       "id": "obb-118",
@@ -3183,11 +2949,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/O_Pitta_Katha",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/O_Pitta_Katha"
+      ]
     },
     {
       "id": "obb-119",
@@ -3210,11 +2974,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Madha",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Madha"
+      ]
     },
     {
       "id": "obb-120",
@@ -3237,11 +2999,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eureka",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Eureka"
+      ]
     },
     {
       "id": "obb-121",
@@ -3264,11 +3024,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/College_Kumar",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/College_Kumar"
+      ]
     },
     {
       "id": "obb-122",
@@ -3291,11 +3049,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Uma_Maheswara_Ugra_Roopasya",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Uma_Maheswara_Ugra_Roopasya"
+      ]
     },
     {
       "id": "obb-123",
@@ -3318,11 +3074,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Middle_Class_Melodies",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Middle_Class_Melodies"
+      ]
     },
     {
       "id": "obb-124",
@@ -3345,11 +3099,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Colour_Photo",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Colour_Photo"
+      ]
     },
     {
       "id": "obb-125",
@@ -3372,11 +3124,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/HIT:_The_First_Case",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/HIT:_The_First_Case"
+      ]
     },
     {
       "id": "obb-126",
@@ -3399,11 +3149,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Krack",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Krack"
+      ]
     },
     {
       "id": "obb-127",
@@ -3426,11 +3174,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Uppena",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Uppena"
+      ]
     },
     {
       "id": "obb-128",
@@ -3453,11 +3199,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cinema_Bandi",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Cinema_Bandi"
+      ]
     },
     {
       "id": "obb-129",
@@ -3480,11 +3224,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Naandhi",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Naandhi"
+      ]
     },
     {
       "id": "obb-130",
@@ -3507,11 +3249,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Raja_Raja_Chora",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Raja_Raja_Chora"
+      ]
     },
     {
       "id": "obb-131",
@@ -3534,11 +3274,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/DJ_Tillu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/DJ_Tillu"
+      ]
     },
     {
       "id": "obb-132",
@@ -3561,11 +3299,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ante_Sundaraniki",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Ante_Sundaraniki"
+      ]
     },
     {
       "id": "obb-133",
@@ -3588,11 +3324,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Masooda",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Masooda"
+      ]
     },
     {
       "id": "obb-134",
@@ -3615,11 +3349,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Writer_Padmabhushan",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Writer_Padmabhushan"
+      ]
     },
     {
       "id": "obb-135",
@@ -3642,11 +3374,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Balagam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Balagam"
+      ]
     },
     {
       "id": "obb-136",
@@ -3669,11 +3399,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mem_Famous",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mem_Famous"
+      ]
     },
     {
       "id": "obb-137",
@@ -3696,11 +3424,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Month_of_Madhu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Month_of_Madhu"
+      ]
     },
     {
       "id": "obb-138",
@@ -3723,11 +3449,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mad",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mad"
+      ]
     },
     {
       "id": "obb-139",
@@ -3750,11 +3474,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Samajavaragamana",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Samajavaragamana"
+      ]
     },
     {
       "id": "obb-140",
@@ -3777,11 +3499,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Keedaa_Cola",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Keedaa_Cola"
+      ]
     },
     {
       "id": "obb-141",
@@ -3804,11 +3524,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Committee_Kurrollu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Committee_Kurrollu"
+      ]
     },
     {
       "id": "obb-142",
@@ -3831,11 +3549,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/35_Chinna_Katha_Kaadu",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/35_Chinna_Katha_Kaadu"
+      ]
     },
     {
       "id": "obb-143",
@@ -3858,11 +3574,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maruthi_Nagar_Subramanyam",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Maruthi_Nagar_Subramanyam"
+      ]
     },
     {
       "id": "obb-144",
@@ -3885,11 +3599,9 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gam_Gam_Ganesha",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Gam_Gam_Ganesha"
+      ]
     },
     {
       "id": "obb-145",
@@ -3912,18 +3624,11 @@
       "footfallsSource": null,
       "boxOfficeSource": null,
       "notes": "Catalog entry added for broader Cineinsta coverage; box-office figures not yet verified.",
-      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eagle",
-      "sources": [
-        "Wikipedia"
-      ],
-      "hasReportedBoxOfficeData": false
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Eagle"
+      ]
     }
   ],
   "version": "v4-source-enriched",
-  "sourcePolicy": [
-    "Use Wikipedia film pages and Wikipedia Telugu box-office lists where available.",
-    "Supplement with Sacnilk, Box Office India, Box Office Andhra, Ormax and reputable trade publications.",
-    "Do not silently merge conflicting figures; preserve ranges or source-specific figures in notes.",
-    "Do not estimate missing figures."
-  ]
+  "sourcePolicy": "Wikipedia and other published trade sources; source differences are retained and unavailable fields remain blank."
 }
