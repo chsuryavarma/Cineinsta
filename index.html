@@ -1190,7 +1190,7 @@ return String(value);
 async function loadBoxOfficeBattleHome(){
 const result=document.getElementById("bobResult");
 try{
-const response=await fetch("/box-office-battle.json?v="+Date.now(),{cache:"no-store"});
+const response=await fetch("/box-office-battle-data-v3.json?v="+Date.now(),{cache:"no-store"});
 if(!response.ok)throw new Error("Box Office Battle data unavailable");
 const data=await response.json();
 bobFilms=Array.isArray(data.films)?data.films:[];
