@@ -1190,7 +1190,7 @@ async function collectNews() {
         )
         .slice(
           0,
-          10
+          15
         );
 
 
