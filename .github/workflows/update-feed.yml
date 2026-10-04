@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# Prevent two feed workflows from generating and pushing at the same time.
+concurrency:
+  group: cineinsta-feed-main
+  cancel-in-progress: false
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
@@ -15,6 +20,8 @@ jobs:
     steps:
       - name: Checkout Cineinsta
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -75,6 +82,17 @@ jobs:
             git add data/ticket-trends.json
           fi
 
-          git diff --cached --quiet || git commit -m "Update Cineinsta feed, South Indian trailers, Buzz and sitemaps"
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
 
-          git push
+          git commit -m "Update Cineinsta feed, South Indian trailers, Buzz and sitemaps"
+
+          # The remote main branch may have advanced while this job was running.
+          # Rebase this generated commit onto the latest remote main before pushing.
+          git fetch origin main
+          git rebase origin/main
+
+          # Push the rebased commit to the current main branch.
+          git push origin HEAD:main
