@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-04T03:06:15.766Z",
+  "updatedAt": "2026-10-04T04:57:00.953Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.cinejosh.com/news/1/130370/dada-shooting-resumes-with-nandamuri-balakrishna-return.html",
+      "title": "Dada Shooting Resumes With Nandamuri Balakrishna Return",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; NBK Ready To Roar In DADA Shoot Dada Shooting Resumes With Nandamuri Balakrishna Return By Rambabu Updated at: 2026-10-04 03:43:39...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130370/dada-shooting-resumes-with-nandamuri-balakrishna-return.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/dada-shooting-resumes-with-nandamuri-balakrishna-return-1791085414873-1791085415201.jpg",
+      "publishedAt": "2026-10-04T03:43:39.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.gulte.com/movienews/434957/nag-ashwin-reveals-singeethams-last-script-idea",
       "title": "Nag Ashwin Reveals Singeetham's Last Script Idea",
@@ -10,6 +21,17 @@
       "url": "https://www.gulte.com/movienews/434957/nag-ashwin-reveals-singeethams-last-script-idea",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/singeetham-.jpg",
       "publishedAt": "2026-10-04T02:56:55.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/nag-ashwin-reveals-singeetham-srinivasa-raos-62nd-film-title-hk.html",
+      "title": "Nag Ashwin Reveals Singeetham Srinivasa Rao’s 62nd Film Title",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Nag Ashwin Reveals Singeetham Srinivasa...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/nag-ashwin-reveals-singeetham-srinivasa-raos-62nd-film-title-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/nag.webp",
+      "publishedAt": "2026-10-04T02:30:28.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -267,17 +289,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130358/ntr-strong-warning.html",
-      "title": "NTR Strong Warning",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; NTR Condemns Chuttamalle AI Deepfake NTR Strong Warning By Rambabu Updated at: 2026-10-03 12:31:17 PM IST Jr NTR has strongly...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130358/ntr-strong-warning.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ntr-strong-warning-1791030673483-1791030673863.jpg",
-      "publishedAt": "2026-10-03T12:31:17.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/this-mighty-blockbuster-is-not-coming-to-ott-anytime-soon-prp.html",
       "title": "This mighty blockbuster is not coming to OTT anytime soon",
       "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు This mighty blockbuster is not coming to...",
@@ -430,17 +441,6 @@
       "publishedAt": "2026-10-03T07:30:33.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/salman-khans-most-delayed-film-finally-cleared-by-the-government-prp.html",
-      "title": "Salman Khan's most delayed film finally cleared by the government?",
-      "summary": "Salman Khan’s most delayed film finally cleared by the government?",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/salman-khans-most-delayed-film-finally-cleared-by-the-government-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Maatrubhumi.webp",
-      "publishedAt": "2026-10-03T05:32:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -448,10 +448,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
       "title": "Ebenezer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=Tz0CWjeV8Pc",
+      "url": "https://www.youtube.com/watch?v=6bNoalF0MA4",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
-      "img": "https://i.ytimg.com/vi/Tz0CWjeV8Pc/hqdefault.jpg",
-      "youtubeId": "Tz0CWjeV8Pc",
+      "img": "https://i.ytimg.com/vi/6bNoalF0MA4/hqdefault.jpg",
+      "youtubeId": "6bNoalF0MA4",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -459,10 +459,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=DOW6yyd5Pw0",
+      "url": "https://www.youtube.com/watch?v=N7GKjMwQbvk",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/DOW6yyd5Pw0/hqdefault.jpg",
-      "youtubeId": "DOW6yyd5Pw0",
+      "img": "https://i.ytimg.com/vi/N7GKjMwQbvk/hqdefault.jpg",
+      "youtubeId": "N7GKjMwQbvk",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -470,10 +470,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
       "title": "Prahaar: The Untold Story of Ujjwal Nikam - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=vaEzhsSrHjQ",
+      "url": "https://www.youtube.com/watch?v=5keOjyYnmjU",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
-      "img": "https://i.ytimg.com/vi/vaEzhsSrHjQ/hqdefault.jpg",
-      "youtubeId": "vaEzhsSrHjQ",
+      "img": "https://i.ytimg.com/vi/5keOjyYnmjU/hqdefault.jpg",
+      "youtubeId": "5keOjyYnmjU",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -492,10 +492,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=-7aHjBcHLQ4",
+      "url": "https://www.youtube.com/watch?v=deKwt9SJ7TI",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/-7aHjBcHLQ4/hqdefault.jpg",
-      "youtubeId": "-7aHjBcHLQ4",
+      "img": "https://i.ytimg.com/vi/deKwt9SJ7TI/hqdefault.jpg",
+      "youtubeId": "deKwt9SJ7TI",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
