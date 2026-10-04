@@ -1421,6 +1421,23 @@ function sharedStrongUrlEntities(a, b) {
   return [...aa].filter(token => bb.has(token));
 }
 
+const NEWS_ENTITY_ALIASES = new Map([
+  ["sharwa", "sharwanand"],
+  ["sharwanand", "sharwanand"],
+  ["vd", "vijaydeverakonda"],
+  ["vijaydeverakonda", "vijaydeverakonda"],
+  ["vijay", "vijay"],
+  ["nani", "nani"],
+  ["singeetham", "singeetham"],
+  ["srinivasa", "srinivasa"],
+  ["rao", "rao"]
+]);
+
+function canonicalNewsEntityToken(token) {
+  const clean = String(token || "").toLowerCase().trim();
+  return NEWS_ENTITY_ALIASES.get(clean) || clean;
+}
+
 function newsTitleTokens(item) {
   return new Set(
     normalizeTitle(item?.title || "")
@@ -1428,6 +1445,13 @@ function newsTitleTokens(item) {
       .filter(Boolean)
       .filter(token => token.length >= 4)
       .filter(token => !NEWS_EVENT_STOP_WORDS.has(token))
+      .map(canonicalNewsEntityToken)
+  );
+}
+
+function canonicalUrlEntityTokens(item) {
+  return new Set(
+    [...strongUrlEntityTokens(item)].map(canonicalNewsEntityToken)
   );
 }
 
@@ -1439,9 +1463,9 @@ function sameNewsEvent(a, b) {
 
   if (eventA !== eventB) return false;
 
-  const urlA = strongUrlEntityTokens(a);
-  const urlB = strongUrlEntityTokens(b);
-  const sharedUrl = sharedStrongUrlEntities(a, b);
+  const urlA = canonicalUrlEntityTokens(a);
+  const urlB = canonicalUrlEntityTokens(b);
+  const sharedUrl = [...urlA].filter(token => urlB.has(token));
   const titleA = newsTitleTokens(a);
   const titleB = newsTitleTokens(b);
   const sharedTitle = [...titleA].filter(token => titleB.has(token));
