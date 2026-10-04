@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-10-04T06:12:34.160Z",
+  "updatedAt": "2026-10-04T06:40:25.877Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/bhogi-teaser-sharwanand-stuns-in-a-raw-and-gritty-period-drama-hk.html",
+      "title": "Bhogi Teaser: Sharwanand Stuns in a Raw and Gritty Period Drama",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Bhogi Teaser: Sharwanand Stuns in a Raw and...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/bhogi-teaser-sharwanand-stuns-in-a-raw-and-gritty-period-drama-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/bhogi.webp",
+      "publishedAt": "2026-10-04T06:37:26.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/featured/434995/raakas-two-part-strategy-could-change-release-plans",
+      "title": "Raaka's Two-Part Strategy Could Change Release Plans?",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/featured/434995/raakas-two-part-strategy-could-change-release-plans",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/04/raaka-allu-arjun-.jpg",
+      "publishedAt": "2026-10-04T06:18:52.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/kamal-haasan-pays-final-respects-to-legendary-filmmaker-singeetham-srinivasa-rao-hk.html",
       "title": "Kamal Haasan Pays Final Respects to Legendary Filmmaker Singeetham Srinivasa Rao",
@@ -419,28 +441,6 @@
       "publishedAt": "2026-10-03T08:17:04.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/rishab-shetty-and-manjummel-boys-director-two-film-deal/",
-      "title": "Rishab Shetty and Manjummel Boys Director: Two Film Deal?",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/rishab-shetty-and-manjummel-boys-director-two-film-deal/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Rishab-Shetty-and-Manjummel-Boys-Director.jpg",
-      "publishedAt": "2026-10-03T07:40:21.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/popular-actress-denies-being-part-of-allu-arjuns-raaka-prp.html",
-      "title": "Popular actress denies being part of Allu Arjun's Raaka",
-      "summary": "Popular actress denies being part of Allu Arjun’s Raaka Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/popular-actress-denies-being-part-of-allu-arjuns-raaka-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Raaka.webp",
-      "publishedAt": "2026-10-03T07:30:33.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -448,10 +448,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
       "title": "Ebenezer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=5t33R_JmZhk",
+      "url": "https://www.youtube.com/watch?v=TpUoFTuxnNw",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
-      "img": "https://i.ytimg.com/vi/5t33R_JmZhk/hqdefault.jpg",
-      "youtubeId": "5t33R_JmZhk",
+      "img": "https://i.ytimg.com/vi/TpUoFTuxnNw/hqdefault.jpg",
+      "youtubeId": "TpUoFTuxnNw",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=mpWDffjW47U",
+      "url": "https://www.youtube.com/watch?v=LmuqwpsGP_g",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/mpWDffjW47U/hqdefault.jpg",
-      "youtubeId": "mpWDffjW47U",
+      "img": "https://i.ytimg.com/vi/LmuqwpsGP_g/hqdefault.jpg",
+      "youtubeId": "LmuqwpsGP_g",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +514,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
       "title": "The Vvaan - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=5D45G3OFH-c",
+      "url": "https://www.youtube.com/watch?v=CPt9XcCzwAc",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
-      "img": "https://i.ytimg.com/vi/5D45G3OFH-c/hqdefault.jpg",
-      "youtubeId": "5D45G3OFH-c",
+      "img": "https://i.ytimg.com/vi/CPt9XcCzwAc/hqdefault.jpg",
+      "youtubeId": "CPt9XcCzwAc",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
