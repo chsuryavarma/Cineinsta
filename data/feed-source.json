@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T11:19:18.195Z",
+  "updatedAt": "2026-10-04T11:33:57.801Z",
   "language": "Telugu",
   "news": [
     {
@@ -335,6 +335,16 @@
   ],
   "trailers": [
     {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
       "title": "Ebenezer - Official Trailer",
       "source": "ETimes Telugu",
@@ -442,16 +452,6 @@
       "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-09T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
-      "youtubeId": "",
-      "publishedAt": null,
       "language": "Telugu"
     }
   ],
