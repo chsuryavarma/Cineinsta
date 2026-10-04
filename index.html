@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="Cineinsta brings you Telugu cinema news, movie reviews, Cineinsta Buzz, trailers and Box Office Battle with the latest updates from Indian cinema.">
+    <meta name="description" content="Cineinsta brings Telugu cinema news, movie reviews, trailers, OTT updates and Cineinsta Buzz in one place.">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="index,follow">
     <script async
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4425907690117354"
   crossorigin="anonymous"></script>
-<title>Cineinsta – Telugu Cinema News, Reviews &amp; Box Office</title>
+<title>Cineinsta — Telugu Cinema</title>
 <!-- CINEINSTA HOMEPAGE SEO / SOCIAL META
 Add this block inside <head>, immediately after the existing meta description.
 Do not remove or replace the existing Cineinsta meta description.
@@ -18,13 +17,13 @@ Do not remove or replace the existing Cineinsta meta description.
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Cineinsta">
-<meta property="og:title" content="Cineinsta – Telugu Cinema News, Reviews &amp; Box Office">
-<meta property="og:description" content="Telugu cinema news, movie reviews, Cineinsta Buzz, trailers and Box Office Battle.">
+<meta property="og:title" content="Cineinsta — Telugu Cinema">
+<meta property="og:description" content="Latest Telugu cinema news, movie reviews, trailers, celebrity interviews and Cineinsta Buzz.">
 <meta property="og:url" content="https://www.cineinsta.com/">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Cineinsta – Telugu Cinema News, Reviews &amp; Box Office">
-<meta name="twitter:description" content="Telugu cinema news, movie reviews, Cineinsta Buzz, trailers and Box Office Battle.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cineinsta — Telugu Cinema">
+<meta name="twitter:description" content="Latest Telugu cinema news, movie reviews, trailers, celebrity interviews and Cineinsta Buzz.">
 
 <script type="application/ld+json">
 {
@@ -32,7 +31,7 @@ Do not remove or replace the existing Cineinsta meta description.
   "@type": "WebSite",
   "name": "Cineinsta",
   "url": "https://www.cineinsta.com/",
-  "description": "Telugu cinema news, movie reviews, Cineinsta Buzz, trailers and Box Office Battle.",
+  "description": "Latest Telugu cinema news, movie reviews, trailers, celebrity interviews and Cineinsta Buzz.",
   "publisher": {
     "@type": "Organization",
     "name": "Cineinsta",
@@ -676,89 +675,6 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
   border-color:#333!important;
 }
 
-
-/* FINAL DARK ARTICLE CARD OVERRIDE
-   Keep internal article information sections dark to match Cineinsta's black theme.
-   This changes only article information-card styling. */
-/* Final readability fix for internal article information cards */
-#articlePage .articleHighlights,
-#articlePage .articleFacts,
-#articlePage .articleContext,
-#articlePage .articleSourceList,
-#articlePage .articleSourceBox{
-  color:#f2f2f2!important;
-  background:#111!important;
-  border-color:#303030!important;
-}
-#articlePage .articleHighlights h2,
-#articlePage .articleFacts h2,
-#articlePage .articleContext h2,
-#articlePage .articleSourceList strong,
-#articlePage .articleSourceBox .sourceLabel{
-  color:#ffffff!important;
-}
-#articlePage .articleHighlights li,
-#articlePage .articleFacts li,
-#articlePage .articleContext p,
-#articlePage .articleSourceList li,
-#articlePage .articleSourceBox .sourceNote,
-#articlePage .articleSourceBox strong{
-  color:#d6d6d6!important;
-}
-#articlePage .articleSourceList{
-  border-top-color:#303030!important;
-}
-#articlePage .articleSourceBox .sourceLabel{
-  color:var(--accent)!important;
-}
-#articlePage .articleSourceBox a{
-  color:var(--accent)!important;
-}
-
-/* =========================================================
-   CINEINSTA FINAL JUMP BUTTON + BUZZ WHITE-PATCH FIX
-   - Header menu (Home / News / Buzz / Reviews / BOB) unchanged
-   - Only the three homepage jump buttons become solid gold
-   - Remove white/grey image backing in Cineinsta Buzz cards
-   ========================================================= */
-
-/* Three homepage jump buttons */
-.jumpNav a{
-  background:#f1c232!important;
-  color:#111!important;
-  border:1px solid #f1c232!important;
-  box-shadow:none!important;
-  font-weight:900!important;
-}
-
-.jumpNav a:hover,
-.jumpNav a:focus-visible{
-  background:#ffc52e!important;
-  color:#111!important;
-  border-color:#ffc52e!important;
-}
-
-/* Keep the jump-button strip itself black */
-.jumpNav{
-  background:#070707!important;
-}
-
-/* Remove the white image backing / letterbox effect from Buzz cards */
-.cineBuzzCard{
-  background:#111!important;
-  border-color:#303030!important;
-}
-
-.cineBuzzImage{
-  background:#111!important;
-  object-fit:cover!important;
-}
-
-/* Buzz fallback should also remain dark */
-.cineBuzzFallback{
-  background:linear-gradient(145deg,#171717,#3a2b08)!important;
-}
-
 </style>
 </head>
 <body>
@@ -826,7 +742,6 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
 <div class="bobHomeSelectBox"><label for="bobMovieB">MOVIE B</label><select id="bobMovieB"></select></div>
 </div>
 <button type="button" class="bobHomeCompareBtn" id="bobCompareBtn">COMPARE MOVIES</button>
-<a href="/box-office-battle.html" class="moreBtn">Explore the full Box Office Battle →</a>
 <div id="bobResult" class="bobHomeResult"></div>
 </section>
 </section>
@@ -1171,7 +1086,7 @@ return `<a class="cineBuzzCard" href="/buzz/${articleSlug(movie||item)}">${image
 
 /* =========================================================
    BOX OFFICE BATTLE — HOME PAGE LOGIC
-   Uses the existing box-office-battle.json only.
+   Uses the existing box-office-battle-data-v3.json only.
    ========================================================= */
 let bobFilms=[];
 
