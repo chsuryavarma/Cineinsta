@@ -6,6 +6,7 @@
     {"source": "/news", "destination": "/"},
     {"source": "/reviews", "destination": "/"},
     {"source": "/trailers", "destination": "/"},
-    {"source": "/buzz", "destination": "/"}
+    {"source": "/buzz", "destination": "/"},
+    {"source": "/box-office-battle", "destination": "/box-office-battle.html"}
   ]
 }
