@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T06:40:25.877Z",
+  "updatedAt": "2026-10-04T06:45:55.572Z",
   "language": "Telugu",
   "news": [
     {
@@ -322,17 +322,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130362/rajamouli-praises-mahesh-babu-performance-as-rudhra-in-varanasi.html",
-      "title": "Rajamouli Praises Mahesh Babu Performance As Rudhra In Varanasi",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; SSMB Exceeded SSR Expectations Rajamouli Praises Mahesh Babu Performance As Rudhra In Varanasi By Rambabu Updated at: 2026-10-03...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130362/rajamouli-praises-mahesh-babu-performance-as-rudhra-in-varanasi.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rajamouli-praises-mahesh-babu-performance-as-rudhra-in-varanasi-1791031786120-1791031787611.jpg",
-      "publishedAt": "2026-10-03T12:49:50.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/this-mighty-blockbuster-is-not-coming-to-ott-anytime-soon-prp.html",
       "title": "This mighty blockbuster is not coming to OTT anytime soon",
       "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు This mighty blockbuster is not coming to...",
@@ -441,6 +430,17 @@
       "publishedAt": "2026-10-03T08:17:04.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/rishab-shetty-and-manjummel-boys-director-two-film-deal/",
+      "title": "Rishab Shetty and Manjummel Boys Director: Two Film Deal?",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/rishab-shetty-and-manjummel-boys-director-two-film-deal/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Rishab-Shetty-and-Manjummel-Boys-Director.jpg",
+      "publishedAt": "2026-10-03T07:40:21.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -459,10 +459,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=DOW6yyd5Pw0",
+      "url": "https://www.youtube.com/watch?v=E6SJlOhjcxk",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/DOW6yyd5Pw0/hqdefault.jpg",
-      "youtubeId": "DOW6yyd5Pw0",
+      "img": "https://i.ytimg.com/vi/E6SJlOhjcxk/hqdefault.jpg",
+      "youtubeId": "E6SJlOhjcxk",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=LmuqwpsGP_g",
+      "url": "https://www.youtube.com/watch?v=mpWDffjW47U",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/LmuqwpsGP_g/hqdefault.jpg",
-      "youtubeId": "LmuqwpsGP_g",
+      "img": "https://i.ytimg.com/vi/mpWDffjW47U/hqdefault.jpg",
+      "youtubeId": "mpWDffjW47U",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -514,10 +514,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
       "title": "The Vvaan - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=CPt9XcCzwAc",
+      "url": "https://www.youtube.com/watch?v=5D45G3OFH-c",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
-      "img": "https://i.ytimg.com/vi/CPt9XcCzwAc/hqdefault.jpg",
-      "youtubeId": "CPt9XcCzwAc",
+      "img": "https://i.ytimg.com/vi/5D45G3OFH-c/hqdefault.jpg",
+      "youtubeId": "5D45G3OFH-c",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
     },
