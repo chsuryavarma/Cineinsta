@@ -1912,7 +1912,7 @@ function dedupeTrailers(
 
 
           return (
-            similarity(
+            headlineSimilarity(
               existing.title,
               item.title
             ) >= 0.75
