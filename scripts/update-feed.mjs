@@ -1134,127 +1134,101 @@ async function readNewsArticle(
 
 async function collectNews() {
 
-  const all = [];
+  /*
+     IMPORTANT: news is screened BEFORE it enters the accepted list.
+
+     We do not collect a large batch and clean it afterward. Each article
+     must pass the duplicate-event gate against the stories already accepted.
+  */
+  const acceptedNews = [];
 
 
   console.log("");
-  console.log(
-    "======================================"
-  );
-  console.log(
-    "TELUGU NEWS"
-  );
-  console.log(
-    "======================================"
-  );
+  console.log("======================================");
+  console.log("TELUGU NEWS");
+  console.log("======================================");
 
 
-  for (
-    const source of NEWS_SOURCES
-  ) {
+  for (const source of NEWS_SOURCES) {
 
     console.log("");
-    console.log(
-      `Loading ${source.name}: ${source.url}`
-    );
+    console.log(`Loading ${source.name}: ${source.url}`);
 
 
-    const html =
-      await fetchHTML(
-        source.url
-      );
+    const html = await fetchHTML(source.url);
 
-
-    if (
-      !html
-    ) {
+    if (!html) {
       continue;
     }
 
 
-    const links =
-      extractLinks(
-        html,
-        source.url
-      );
+    const links = extractLinks(html, source.url);
 
 
-    const candidates =
-      links
-        .filter(
-          link =>
-            isNewsLink(
-              source,
-              link
-            )
-        )
-        .slice(
-          0,
-          15
-        );
+    const candidates = links
+      .filter(link => isNewsLink(source, link))
+      .slice(0, 15);
 
 
-    console.log(
-      `${source.name}: ${candidates.length} candidates`
-    );
+    console.log(`${source.name}: ${candidates.length} candidates`);
 
 
-    for (
-      const candidate of
-        candidates
-    ) {
+    for (const candidate of candidates) {
 
-      const article =
-        await readNewsArticle(
-          source,
-          candidate
-        );
+      const article = await readNewsArticle(source, candidate);
 
-
-      if (
-        article
-      ) {
-
-        console.log(
-          `${source.name} | ${article.title}`
-        );
-
-
-        all.push(
-          article
-        );
+      if (!article) {
+        continue;
       }
+
+
+      console.log(`${source.name} | ${article.title}`);
+
+
+      /*
+         DUPLICATE GATE — BEFORE ADDING
+
+         The candidate is compared only with stories that have already
+         passed the gate. If it represents the same event, it is rejected
+         immediately and never enters acceptedNews.
+      */
+      const duplicateOf = findDuplicateAcceptedNews(article, acceptedNews);
+
+      if (duplicateOf) {
+        console.log(
+          `SKIP DUPLICATE | ${source.name} | ${article.title} | already covered by: ${duplicateOf.title}`
+        );
+        continue;
+      }
+
+
+      acceptedNews.push(article);
+      console.log(`ACCEPT NEWS | ${source.name} | ${article.title}`);
+
+      /*
+         Keep the candidate pool bounded while still allowing every source
+         to contribute fresh events. The final published feed is sorted and
+         limited below.
+      */
+      if (acceptedNews.length >= 60) {
+        break;
+      }
+    }
+
+
+    if (acceptedNews.length >= 60) {
+      break;
     }
   }
 
 
-  return dedupeNews(
-    all
-  )
-    .sort(
-      (a, b) => {
-
-        const ad =
-          a.publishedAt
-            ? new Date(
-                a.publishedAt
-              ).getTime()
-            : 0;
-
-        const bd =
-          b.publishedAt
-            ? new Date(
-                b.publishedAt
-              ).getTime()
-            : 0;
-
-        return bd - ad;
-      }
-    )
-    .slice(
-      0,
-      30
-    );
+  return acceptedNews
+    .sort((a, b) => {
+      const ad = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+      const bd = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+      return bd - ad;
+    })
+    .slice(0, 30);
 }
 
 
@@ -1329,6 +1303,7 @@ const NEWS_EVENT_PATTERNS = [
   { type: "shooting", terms: ["shooting", "filming", "wrap", "wrapped", "production begins", "production starts"] },
   { type: "review", terms: ["review", "reviews", "rating", "verdict", "movie review", "film review"] },
   { type: "interview", terms: ["interview", "conversation", "talks about", "speaks about", "opens up", "interaction", "media meet", "press meet"] },
+  { type: "death-tribute", terms: ["passes away", "passed away", "dies", "died", "death", "final respects", "tributes", "tribute", "demise", "condolences", "mourns", "mourn", "farewell", "last rites"] },
   { type: "controversy", terms: ["controversy", "controversial", "row", "legal", "lawsuit", "notice", "ban", "boycott"] },
   { type: "award", terms: ["award", "awards", "wins", "won", "nomination", "nominated"] }
 ];
@@ -1434,13 +1409,47 @@ function headlineSimilarity(a, b) {
   return common / Math.max(aa.size, bb.size);
 }
 
+function sharedStrongUrlEntities(a, b) {
+  const aTokens = strongUrlEntityTokens(a);
+  const bTokens = strongUrlEntityTokens(b);
+  const shared = [];
+
+  for (const token of aTokens) {
+    if (bTokens.has(token)) shared.push(token);
+  }
+
+  return shared;
+}
+
+function entityPhrases(item) {
+  const tokens = [...newsEntityTokens(item)];
+  const phrases = new Set();
+
+  for (let i = 0; i < tokens.length - 1; i++) {
+    phrases.add(`${tokens[i]} ${tokens[i + 1]}`);
+  }
+
+  return phrases;
+}
+
+function sharedEntityPhrase(a, b) {
+  const aPhrases = entityPhrases(a);
+  const bPhrases = entityPhrases(b);
+
+  for (const phrase of aPhrases) {
+    if (bPhrases.has(phrase)) return true;
+  }
+
+  return false;
+}
+
 function sameNewsEvent(a, b) {
   if (normalizeUrl(a.url) === normalizeUrl(b.url)) return true;
 
   const eventA = detectNewsEventType(a);
   const eventB = detectNewsEventType(b);
 
-  /* Different event types must never collapse together. */
+  /* Different event types are different stories. */
   if (eventA !== eventB) return false;
 
   const entitiesA = newsEntityTokens(a);
@@ -1449,23 +1458,85 @@ function sameNewsEvent(a, b) {
   const urlEntitiesA = strongUrlEntityTokens(a);
   const urlEntitiesB = strongUrlEntityTokens(b);
   const urlOverlap = tokenOverlap(urlEntitiesA, urlEntitiesB);
-  const primaryA = primaryUrlEntity(a);
-  const primaryB = primaryUrlEntity(b);
+  const sharedUrl = sharedStrongUrlEntities(a, b);
 
-  /* Specific events need a shared movie/entity in the article URL.
-     Using the first meaningful slug entity catches rewritten headlines
-     such as all five Bhogi teaser reports while keeping different films
-     starring the same actor separate. */
-  if (["teaser","trailer","first-look","poster","song","release-date","ott","box-office"].includes(eventA)) {
-    if ((primaryA && primaryA === primaryB) || urlOverlap >= 0.75 || overlap >= 0.75) return true;
+  /*
+     EVENT-FIRST MATCHING
+
+     A rewritten headline can use completely different descriptive words.
+     The URL is therefore used as a stronger identity signal. For specific
+     events, one or more shared meaningful URL entities plus some entity
+     overlap is enough to identify the same underlying event.
+  */
+  const specificEvents = [
+    "teaser", "trailer", "first-look", "poster", "song",
+    "release-date", "ott", "box-office", "death-tribute"
+  ];
+
+  if (specificEvents.includes(eventA)) {
+    /* Very strong match: substantial URL identity. */
+    if (urlOverlap >= 0.50) return true;
+
+    /*
+       Same event entity appears in both URLs and the stories also share
+       meaningful entity context. This catches rewritten stories such as:
+       Bhogi teaser reports and Singeetham death/tribute reports.
+    */
+    if (sharedUrl.length >= 1 && overlap >= 0.20) return true;
+
+    /* Death/tribute reporting is commonly rewritten around the person's
+       name, so use a slightly more permissive entity threshold here. */
+    if (
+      eventA === "death-tribute" &&
+      sharedUrl.length >= 1 &&
+      overlap >= 0.12
+    ) {
+      return true;
+    }
   }
 
-  /* General stories require stronger entity evidence. */
-  if (overlap >= 0.75) return true;
+  /*
+     General stories are deliberately stricter. Sharing an actor's name is
+     not enough because that actor can have many unrelated stories on the
+     same day. Require a shared multi-word entity phrase as well.
+  */
+  if (overlap >= 0.80 && sharedUrl.length >= 3 && sharedEntityPhrase(a, b)) return true;
 
-  /* Keep the old similarity rule as a safety net. */
-  return headlineSimilarity(a.title, b.title) >= 0.68;
+  /*
+     Do not use headline similarity as a general duplicate rule. It caused
+     unrelated stories about the same actor to be rejected simply because
+     their headlines were written in a similar style.
+  */
+  return false;
 }
+
+function findDuplicateAcceptedNews(candidate, acceptedNews) {
+  for (const existing of acceptedNews) {
+    if (sameNewsEvent(existing, candidate)) {
+      return existing;
+    }
+  }
+
+  /*
+     Same image is only a supporting signal and is checked only when the
+     event type is identical. This prevents a reused promotional image from
+     collapsing unrelated stories about the same film.
+  */
+  const candidateImage = imageKey(candidate?.img || "");
+  if (candidateImage) {
+    for (const existing of acceptedNews) {
+      if (
+        candidateImage === imageKey(existing?.img || "") &&
+        detectNewsEventType(existing) === detectNewsEventType(candidate)
+      ) {
+        return existing;
+      }
+    }
+  }
+
+  return null;
+}
+
 
 function choosePrimaryNewsStory(a, b) {
   const aImage = /^https?:\/\//i.test(a?.img || "") ? 1 : 0;
@@ -1487,45 +1558,22 @@ function choosePrimaryNewsStory(a, b) {
 }
 
 function dedupeNews(items) {
-  const output = [];
-  const seenUrls = new Set();
+  /*
+     Legacy safety wrapper retained for compatibility. The primary duplicate
+     prevention now happens inside collectNews(), BEFORE each story is added.
+  */
+  const accepted = [];
 
   for (const item of Array.isArray(items) ? items : []) {
     if (!item || !item.url || !item.img) continue;
-
-    const urlKey = normalizeUrl(item.url);
-    if (seenUrls.has(urlKey)) continue;
-
-    let duplicateIndex = -1;
-
-    for (let i = 0; i < output.length; i++) {
-      if (sameNewsEvent(output[i], item)) {
-        duplicateIndex = i;
-        break;
-      }
+    if (!findDuplicateAcceptedNews(item, accepted)) {
+      accepted.push(item);
     }
-
-    if (duplicateIndex >= 0) {
-      output[duplicateIndex] = choosePrimaryNewsStory(output[duplicateIndex], item);
-      seenUrls.add(urlKey);
-      continue;
-    }
-
-    /* Same image is only a supporting signal when event type also matches. */
-    const currentImage = imageKey(item.img);
-    if (currentImage && output.some(existing =>
-      imageKey(existing.img) === currentImage &&
-      detectNewsEventType(existing) === detectNewsEventType(item)
-    )) {
-      continue;
-    }
-
-    output.push(item);
-    seenUrls.add(urlKey);
   }
 
-  return output;
+  return accepted;
 }
+
 
 /* =========================================================
    TRAILERS
