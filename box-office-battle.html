@@ -68,13 +68,14 @@
 /* Cineinsta Box Office Battle — Hero / Year filters */
 .bobFilters{margin:0 0 14px;padding:14px;border:1px solid #2f3540;border-radius:14px;background:#0d0f14}
 .bobFiltersHead{margin:0 0 10px;color:#fff;font-size:12px;font-weight:900;letter-spacing:.5px}
-.bobFilterRow{display:grid;grid-template-columns:1.4fr .8fr auto;gap:9px;align-items:center}
+.bobFilterRow{display:grid;grid-template-columns:1.4fr .8fr auto auto;gap:9px;align-items:center}
 .bobFilterRow input,.bobFilterRow select{width:100%;height:38px;padding:0 11px;border:1px solid #303541;border-radius:9px;background:#090b0f;color:#fff;font:inherit;font-size:11px;outline:none}
 .bobFilterRow input:focus,.bobFilterRow select:focus{border-color:#ffb000;box-shadow:0 0 0 2px rgba(255,176,0,.12)}
+.bobSearchBtn{height:38px;padding:0 16px;border:0;border-radius:999px;background:#ffb000;color:#111;font-size:10px;font-weight:900;cursor:pointer}.bobSearchBtn:hover{filter:brightness(1.08)}
 .bobReset{height:38px;padding:0 14px;border:1px solid #ffb000;border-radius:999px;background:transparent;color:#ffb000;font-size:10px;font-weight:900;cursor:pointer}
 .bobReset:hover{background:#ffb000;color:#111}
 .bobFilterNote{margin:8px 0 0;color:#737c8e;font-size:9px}
-@media(max-width:650px){.bobFilterRow{grid-template-columns:1fr 1fr}.bobReset{grid-column:1/-1;width:max-content}}
+@media(max-width:650px){.bobFilterRow{grid-template-columns:1fr 1fr}.bobSearchBtn,.bobReset{grid-column:auto;width:max-content}}
 @media(max-width:430px){.bobFilterRow{grid-template-columns:1fr}.bobReset{grid-column:auto}}
 
 </style>
@@ -92,14 +93,14 @@
 <p>Reported footfalls are displayed only when a source explicitly reports them. Cineinsta does not estimate footfalls from collection figures. Budget, net collections, gross collections and worldwide figures are presented as reported metrics and should not be interpreted as profit.</p>
 </div>
 
-<div class="bobFilters" aria-label="Find films">
+<div class="bobFilters" id="bobFilters" aria-label="Find films">
   <div class="bobFiltersHead">FIND A FILM</div>
   <div class="bobFilterRow">
     <input id="bobHeroSearch" type="search" placeholder="Search by hero..." aria-label="Search by hero">
     <select id="bobYearFilter" aria-label="Filter by year">
       <option value="">All years</option>
     </select>
-    <button type="button" class="bobReset" id="bobResetFilters">RESET</button>
+    <button type="button" class="bobSearchBtn" id="bobSearchFilters">SEARCH</button><button type="button" class="bobReset" id="bobResetFilters">RESET</button>
   </div>
   <div class="bobFilterNote">Filter the Movie A and Movie B lists by hero or release year.</div>
 </div>
@@ -130,6 +131,7 @@ function refreshFilmSelectors(preserve=true){
   const opts=filtered.map(f=>`<option value="${esc(f.id)}">${esc(f.year)} — ${esc(f.title)}</option>`).join("");
   $("movieA").innerHTML=opts||'<option value="">No matching films</option>';
   $("movieB").innerHTML=opts||'<option value="">No matching films</option>';
+  if(!filtered.length){$("result").innerHTML='<div class="sourceLine">No films match these filters. Try another hero or year.</div>';}
   if(filtered.length){
     const hasA=preserve&&filtered.some(f=>f.id===oldA);
     const hasB=preserve&&filtered.some(f=>f.id===oldB);
@@ -147,7 +149,16 @@ function buildBattle(){
   }
 }
 function val(v){if(v===null||v===undefined||v==="")return"Not reported";if(typeof v==="number")return `₹${v.toLocaleString("en-IN",{maximumFractionDigits:2})} Cr`;return String(v)}
-function compare(){const a=films.find(f=>f.id===$("movieA").value),b=films.find(f=>f.id===$("movieB").value);if(!a||!b)return;const fields=[["Budget","budgetCr"],["Day 1 India Net","day1IndiaNetCr"],["Day 1 Worldwide","day1WorldwideCr"],["Opening Weekend","openingWeekendCr"],["First Week India Net","firstWeekIndiaNetCr"],["India Net","indiaNetCr"],["India Gross","indiaGrossCr"],["Overseas","overseasCr"],["Worldwide Gross","worldwideGrossCr"],["Reported Footfalls",null]];const column=(f)=>`<div class="movieData"><div class="movieDataHead">${esc(f.title)}</div>${fields.map(([label,key])=>{let v=key?f[key]:f.footfalls?`${(f.footfalls/10000000).toFixed(2)} Cr admissions`:f.footfallsSource||"Not reported";return `<div class="metric"><span>${esc(label)}</span><b>${esc(val(v))}</b></div>`}).join("")}<div class="sourceLine">Source: ${esc(f.boxOfficeSource||"Not reported")}</div></div>`;$("result").innerHTML=`<div class="compareColumnGrid">${column(a)}${column(b)}</div>`}
+function compare(){const a=films.find(f=>f.id===$("movieA").value),b=films.find(f=>f.id===$("movieB").value);if(!a||!b)return;const fields=[["Budget","budgetCr"],["Day 1 India Net","day1IndiaNetCr"],["Day 1 Worldwide","day1WorldwideCr"],["Opening Weekend","openingWeekendCr"],["First Week India Net","firstWeekIndiaNetCr"],["India Net","indiaNetCr"],["India Gross","indiaGrossCr"],["Overseas","overseasCr"],["Worldwide Gross","worldwideGrossCr"],["Reported Footfalls",null]];const column=(f)=>`<div class="movieData"><div class="movieDataHead">${esc(f.title)}</div>${fields.map(([label,key])=>{let v=key?f[key]:f.footfalls?`${(f.footfalls/10000000).toFixed(2)} Cr admissions`:f.footfallsSource||"Not reported";return `<div class="metric"><span>${esc(label)}</span><b>${esc(val(v))}</b></div>`}).join("")}<div class="sourceLine">Source: ${esc(f.boxOfficeSource||"Not reported")}</div></div>`;$("result").innerHTML=`<div class="compareColumnGrid">${column(a)}${column(b)}</div>`; $("result").scrollIntoView({behavior:"smooth",block:"start"});
+function applyBobFilters(){
+  refreshFilmSelectors(true);
+  const box=$("bobFilters");
+  if(box) box.scrollIntoView({behavior:"smooth",block:"center"});
+}
+$("bobSearchFilters").addEventListener("click",applyBobFilters);
+$("bobHeroSearch").addEventListener("keydown",e=>{
+  if(e.key==="Enter"){e.preventDefault();applyBobFilters();}
+});
 $("bobHeroSearch").addEventListener("input",()=>refreshFilmSelectors(true));
 $("bobYearFilter").addEventListener("change",()=>refreshFilmSelectors(true));
 $("bobResetFilters").addEventListener("click",()=>{
