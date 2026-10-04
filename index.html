@@ -714,6 +714,51 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
 #articlePage .articleSourceBox a{
   color:var(--accent)!important;
 }
+
+/* =========================================================
+   CINEINSTA FINAL JUMP BUTTON + BUZZ WHITE-PATCH FIX
+   - Header menu (Home / News / Buzz / Reviews / BOB) unchanged
+   - Only the three homepage jump buttons become solid gold
+   - Remove white/grey image backing in Cineinsta Buzz cards
+   ========================================================= */
+
+/* Three homepage jump buttons */
+.jumpNav a{
+  background:#f1c232!important;
+  color:#111!important;
+  border:1px solid #f1c232!important;
+  box-shadow:none!important;
+  font-weight:900!important;
+}
+
+.jumpNav a:hover,
+.jumpNav a:focus-visible{
+  background:#ffc52e!important;
+  color:#111!important;
+  border-color:#ffc52e!important;
+}
+
+/* Keep the jump-button strip itself black */
+.jumpNav{
+  background:#070707!important;
+}
+
+/* Remove the white image backing / letterbox effect from Buzz cards */
+.cineBuzzCard{
+  background:#111!important;
+  border-color:#303030!important;
+}
+
+.cineBuzzImage{
+  background:#111!important;
+  object-fit:cover!important;
+}
+
+/* Buzz fallback should also remain dark */
+.cineBuzzFallback{
+  background:linear-gradient(145deg,#171717,#3a2b08)!important;
+}
+
 </style>
 </head>
 <body>
