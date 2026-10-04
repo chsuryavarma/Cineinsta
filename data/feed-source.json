@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-04T07:28:59.690Z",
+  "updatedAt": "2026-10-04T07:42:57.170Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/atlee-opens-up-on-working-with-vijays-son-jason-sanjay-hk.html",
+      "title": "Atlee Opens Up on Working With Vijay’s Son Jason Sanjay",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Atlee Opens Up on Working With Vijay’s Son...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/atlee-opens-up-on-working-with-vijays-son-jason-sanjay-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/atlee.webp",
+      "publishedAt": "2026-10-04T07:36:07.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.cinejosh.com/news/1/130377/bhogi-teaser-highlights-raw-period-world.html",
       "title": "Bhogi Teaser Highlights Raw Period World",
@@ -430,17 +441,6 @@
       "publishedAt": "2026-10-03T09:30:05.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/chuttamalle-song-ai-morph-jr-ntr-says-he-wont-leave-the-scumbags-prp.html",
-      "title": "Chuttamalle song AI morph: Jr. NTR says he won't leave the scumbags",
-      "summary": "Chuttamalle song AI morph: Jr. NTR says he won’t leave the scumbags Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/chuttamalle-song-ai-morph-jr-ntr-says-he-wont-leave-the-scumbags-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jr-NTR.webp",
-      "publishedAt": "2026-10-03T08:28:19.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -448,10 +448,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
       "title": "Ebenezer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=6bNoalF0MA4",
+      "url": "https://www.youtube.com/watch?v=TpUoFTuxnNw",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
-      "img": "https://i.ytimg.com/vi/6bNoalF0MA4/hqdefault.jpg",
-      "youtubeId": "6bNoalF0MA4",
+      "img": "https://i.ytimg.com/vi/TpUoFTuxnNw/hqdefault.jpg",
+      "youtubeId": "TpUoFTuxnNw",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -459,10 +459,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "title": "Nayyi Navelli - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=DOW6yyd5Pw0",
+      "url": "https://www.youtube.com/watch?v=Yw3OYjRrITA",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://i.ytimg.com/vi/DOW6yyd5Pw0/hqdefault.jpg",
-      "youtubeId": "DOW6yyd5Pw0",
+      "img": "https://i.ytimg.com/vi/Yw3OYjRrITA/hqdefault.jpg",
+      "youtubeId": "Yw3OYjRrITA",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -492,10 +492,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=deKwt9SJ7TI",
+      "url": "https://www.youtube.com/watch?v=z8QU9-iM7LQ",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://i.ytimg.com/vi/deKwt9SJ7TI/hqdefault.jpg",
-      "youtubeId": "deKwt9SJ7TI",
+      "img": "https://i.ytimg.com/vi/z8QU9-iM7LQ/hqdefault.jpg",
+      "youtubeId": "z8QU9-iM7LQ",
       "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -503,10 +503,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
       "title": "Mysaa - Official Hindi​​ Teaser",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=AHqrDflEVJs",
+      "url": "https://www.youtube.com/watch?v=mpWDffjW47U",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/mysaa-official-hindi-teaser/videoshow/134373089.cms",
-      "img": "https://i.ytimg.com/vi/AHqrDflEVJs/hqdefault.jpg",
-      "youtubeId": "AHqrDflEVJs",
+      "img": "https://i.ytimg.com/vi/mpWDffjW47U/hqdefault.jpg",
+      "youtubeId": "mpWDffjW47U",
       "publishedAt": "2026-09-20T00:00:00.000Z",
       "language": "Telugu"
     },
