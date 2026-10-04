@@ -148,14 +148,36 @@ function populateYears(){
     years.map(y => `<option value="${esc(y)}">${esc(y)}</option>`).join("");
 }
 
+function normalizeSearch(value){
+  return String(value || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\\u0300-\\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+}
+
 function getFilteredFilms(){
-  const hero = $("bobHeroSearch").value.trim().toLowerCase();
+  const hero = normalizeSearch($("bobHeroSearch").value);
   const year = $("bobYearFilter").value;
 
   return films.filter(f => {
-    const filmHero = String(f.hero || "").toLowerCase().trim();
+    const heroName = normalizeSearch(f.hero);
+    const title = normalizeSearch(f.title);
+    const director = normalizeSearch(f.director);
+
     const yearMatch = !year || String(f.year) === year;
-    const heroMatch = !hero || filmHero.includes(hero);
+
+    // Allows:
+    // "Mahesh Babu" -> Mahesh Babu
+    // "maheshbabu"  -> Mahesh Babu
+    // "prabhas"     -> Prabhas
+    // Also searches title/director as a useful fallback.
+    const heroMatch =
+      !hero ||
+      heroName.includes(hero) ||
+      title.includes(hero) ||
+      director.includes(hero);
+
     return heroMatch && yearMatch;
   });
 }
