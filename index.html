@@ -1105,9 +1105,24 @@ return String(value);
 async function loadBoxOfficeBattleHome(){
 const result=document.getElementById("bobResult");
 try{
-const response=await fetch("/box-office-battle-data-v3.json?v="+Date.now(),{cache:"no-store"});
-if(!response.ok)throw new Error("Box Office Battle data unavailable");
-const data=await response.json();
+const dataUrls=[
+"/box-office-battle-data-v3.json?v="+Date.now(),
+"./box-office-battle-data-v3.json?v="+Date.now(),
+"https://raw.githubusercontent.com/chsuryavarma/Cineinsta/main/box-office-battle-data-v3.json?v="+Date.now()
+];
+let data=null;
+for(const url of dataUrls){
+try{
+const response=await fetch(url,{cache:"no-store"});
+if(!response.ok)continue;
+const candidate=await response.json();
+if(candidate&&Array.isArray(candidate.films)){
+data=candidate;
+break;
+}
+}catch(fetchError){}
+}
+if(!data)throw new Error("Box Office Battle data unavailable");
 bobFilms=Array.isArray(data.films)?data.films:[];
 const movieA=document.getElementById("bobMovieA");
 const movieB=document.getElementById("bobMovieB");
