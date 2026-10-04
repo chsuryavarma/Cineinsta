@@ -1,11 +1,111 @@
 {
-  "updatedAt": "2026-10-03T21:59:34.127Z",
+  "updatedAt": "2026-10-04T03:07:16.160Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.gulte.com/movienews/434957/nag-ashwin-reveals-singeethams-last-script-idea",
+      "title": "Director Nag Ashwin Shares Details of Singeetham's Final Script Concept",
+      "summary": "Filmmaker Nag Ashwin has shared insights regarding the last script idea conceived by veteran director Singeetham. The revelation highlights the creative legacy and ongoing discussions surrounding the legendary filmmaker's conceptual work.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/434957/nag-ashwin-reveals-singeethams-last-script-idea",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/singeetham-.jpg",
+      "publishedAt": "2026-10-04T02:56:55.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Filmmaker Nag Ashwin has publicly spoken about the final script concept envisioned by veteran director Singeetham. The disclosure offers fans and industry followers a glimpse into the creative mind of the legendary director during his later storytelling endeavors.",
+        "While specific narrative details remain limited, the revelation highlights the enduring legacy of Singeetham and his continuous engagement with cinematic storytelling. Discussions regarding his unfilmed works often draw significant attention from the Indian film community.",
+        "Such insights from contemporary directors like Nag Ashwin help preserve the visionary ideas of industry pioneers, keeping their creative spirit alive for new generations of cinema enthusiasts."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Filmmaker Nag Ashwin has shared insights regarding the last script idea conceived by veteran director Singeetham. The revelation highlights the creative legacy and ongoing discussions surrounding the legendary filmmaker's conceptual work.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/434957/nag-ashwin-reveals-singeethams-last-script-idea"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130368/soori-suhas-mandaadi-on-ott-from-this-day.html",
+      "title": "Blockbuster Tamil Film Starring Soori and Suhas Mandaadi Sets OTT Release Date",
+      "summary": "The hit Tamil cinematic project featuring Soori and Suhas Mandaadi has officially announced its upcoming digital streaming debut. Audiences looking forward to catching the blockbuster from home can stream it starting from the scheduled release date.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130368/soori-suhas-mandaadi-on-ott-from-this-day.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/soori-suhas-mandaadi-on-ott-from-this-day-1791080448820-1791080448930.jpg",
+      "publishedAt": "2026-10-04T02:20:52.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The much-discussed Tamil blockbuster featuring Soori and Suhas Mandaadi is heading to digital platforms, giving fans a confirmed date for its home release. Viewers who missed theatrical screenings or wish to revisit the feature can now mark their calendars.",
+        "OTT premieres of successful theatrical features continue to play an essential role in expanding a film's audience reach across diverse regions. This upcoming digital streaming debut ensures wider accessibility for fans of Tamil cinema.",
+        "Further details regarding the exact streaming platform and timing are anticipated as the premiere date approaches."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The hit Tamil cinematic project featuring Soori and Suhas Mandaadi has officially announced its upcoming digital streaming debut. Audiences looking forward to catching the blockbuster from home can stream it starting from the scheduled release date.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130368/soori-suhas-mandaadi-on-ott-from-this-day.html"
+    },
+    {
+      "id": "https://www.telugu360.com/legendary-director-singeetam-srinivasa-rao-is-no-more/",
+      "title": "Legendary Filmmaker Singeetam Srinivasa Rao Passes Away",
+      "summary": "Legendary director Singeetam Srinivasa Rao has passed away, marking the end of an extraordinary era in Indian cinema. The iconic filmmaker leaves behind a monumental legacy of cinematic masterpieces across multiple languages.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/legendary-director-singeetam-srinivasa-rao-is-no-more/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/01/Singeetam-Srinivasa-Rao.jpg",
+      "publishedAt": "2026-10-04T02:11:12.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Indian film fraternity is mourning the loss of legendary director Singeetam Srinivasa Rao. Known for his pioneering and versatile contributions to cinema, his passing marks a profound loss for the entertainment industry.",
+        "Throughout his illustrious career, Singeetam Srinivasa Rao directed numerous acclaimed films that redefined storytelling, technical standards, and genre experimentation in Indian movies. His works are celebrated as timeless classics.",
+        "Tributes and condolences from prominent industry figures and fans continue to pour in as the cinematic community honors his remarkable life and enduring creative footprint."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Legendary director Singeetam Srinivasa Rao has passed away, marking the end of an extraordinary era in Indian cinema. The iconic filmmaker leaves behind a monumental legacy of cinematic masterpieces across multiple languages.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/legendary-director-singeetam-srinivasa-rao-is-no-more/"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/surprise-nanis-the-paradise-beats-fahadh-faasil-keerthy-suresh-sundeep-kishan-films-in-ticket-sales-hk.html",
+      "title": "Nani's 'The Paradise' Outpaces Projects of Fahadh Faasil, Keerthy Suresh, and Sundeep Kishan in Ticket Sales",
+      "summary": "Nani's upcoming film 'The Paradise' has taken an early lead in ticket sales, outperforming concurrent projects starring Fahadh Faasil, Keerthy Suresh, and Sundeep Kishan. This strong early momentum highlights high audience anticipation for the feature.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/surprise-nanis-the-paradise-beats-fahadh-faasil-keerthy-suresh-sundeep-kishan-films-in-ticket-sales-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-2.webp",
+      "publishedAt": "2026-10-04T01:30:26.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a competitive box office landscape, Nani's upcoming film 'The Paradise' has surged ahead by beating projects featuring Fahadh Faasil, Keerthy Suresh, and Sundeep Kishan in ticket sales. The robust early numbers point to substantial viewer interest.",
+        "Such trends demonstrate the strong pulling power of high-profile casting and effective promotional buzz ahead of theatrical releases. Industry trackers are closely monitoring these early sales indicators to gauge opening potential.",
+        "As anticipation builds, 'The Paradise' continues to command significant attention among moviegoers, setting a high benchmark against competing contemporary releases."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Nani's upcoming film 'The Paradise' has taken an early lead in ticket sales, outperforming concurrent projects starring Fahadh Faasil, Keerthy Suresh, and Sundeep Kishan. This strong early momentum highlights high audience anticipation for the feature.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/surprise-nanis-the-paradise-beats-fahadh-faasil-keerthy-suresh-sundeep-kishan-films-in-ticket-sales-hk.html"
+    },
+    {
       "id": "https://www.123telugu.com/mnews/are-the-leaked-scenes-from-thella-kaagitham-publicity-stunt-director-reacts-avd.html",
       "title": "Director Responds to Leaked Scenes Controversy Surrounding Thella Kaagitham",
-      "summary": "The director of Thella Kaagitham has addressed the recent incident involving leaked scenes from the project. Questions have been raised among film enthusiasts regarding whether the leak was an intentional promotional tactic.",
+      "summary": "The director of Thella Kaagitham has officially reacted to the recent circulation of leaked footage from the project. Discussions have sparked regarding whether these unexpected video leaks were an intentional promotional tactic.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/are-the-leaked-scenes-from-thella-kaagitham-publicity-stunt-director-reacts-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Thella-Kaagitham.webp",
@@ -13,13 +113,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The team behind the upcoming project Thella Kaagitham has found itself at the center of attention following the online appearance of unreleased footage. As clips from the movie began circulating widely, discussions emerged across film circles regarding the origin and intent of the leak.",
-        "Addressing the growing speculation, the director of Thella Kaagitham has officially reacted to the situation. The filmmaker's response directly touches upon whether these leaked scenes were part of a deliberate publicity stunt designed to generate buzz or an accidental security lapse.",
-        "Such incidents often spark intense debate within the entertainment community regarding digital security and modern marketing strategies. As the conversation continues, followers of the project await further official updates from the creative team regarding Thella Kaagitham."
+        "The team behind the upcoming project Thella Kaagitham has found itself at the center of attention following the unexpected emergence of leaked scenes online. As clips from the production began circulating across digital platforms, viewers and industry watchers quickly began questioning the origins of the breach.",
+        "In response to the growing speculation, the director of Thella Kaagitham has stepped forward to address the situation directly. The filmmaker shared a reaction regarding whether the appearance of these unauthorized clips was a deliberate publicity stunt designed to drive engagement for the film.",
+        "As discussions continue across various entertainment circles, the focus remains on how the creative team will manage the fallout from the leaked material. Such incidents frequently prompt conversations within the film industry about digital security and promotional strategies during active production cycles."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The director of Thella Kaagitham has addressed the recent incident involving leaked scenes from the project. Questions have been raised among film enthusiasts regarding whether the leak was an intentional promotional tactic.",
+      "dek": "The director of Thella Kaagitham has officially reacted to the recent circulation of leaked footage from the project. Discussions have sparked regarding whether these unexpected video leaks were an intentional promotional tactic.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -30,7 +130,7 @@
     {
       "id": "https://www.123telugu.com/mnews/breaking-legendary-director-singeetham-srinivasa-rao-passes-away-prp.html",
       "title": "Legendary Filmmaker Singeetham Srinivasa Rao Passes Away",
-      "summary": "The Indian film fraternity is mourning the loss of legendary director Singeetham Srinivasa Rao, who has passed away. Known for his pioneering work and immense contributions to cinema, his departure marks the end of an era.",
+      "summary": "The Indian film fraternity is mourning the loss of legendary director Singeetham Srinivasa Rao, who has passed away. Known for his pioneering and diverse contributions to cinema, his departure marks the end of an extraordinary era.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/breaking-legendary-director-singeetham-srinivasa-rao-passes-away-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Srinivas-rao.webp",
@@ -38,13 +138,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The world of cinema has suffered an immense loss with the passing of legendary director Singeetham Srinivasa Rao. A towering figure in the film industry, his visionary storytelling and creative brilliance have left an indelible mark on generations of moviegoers and creators alike.",
-        "Throughout his celebrated career, Singeetham Srinivasa Rao pushed the boundaries of filmmaking with unique concepts, timeless classics, and fearless experimentation across various genres. His remarkable body of work remains a cherished treasure of Indian cinema.",
-        "As news of his demise spreads, colleagues, actors, and admirers from across the entertainment world have been expressing their deep sorrow and paying tribute to his monumental legacy. The impact of his artistic contributions will continue to inspire future generations of filmmakers."
+        "The Indian cinema world has suffered a monumental loss with the passing of legendary director Singeetham Srinivasa Rao. Celebrated for his immense creative vision and willingness to push cinematic boundaries, he leaves behind an indelible legacy in the film industry.",
+        "Throughout his illustrious career, the veteran filmmaker helmed numerous memorable projects that redefined storytelling standards. His remarkable ability to navigate diverse genres earned him widespread critical acclaim and the deep admiration of audiences and peers alike.",
+        "As news of his demise spreads, tributes from film personalities and fans continue to pour in, honoring his monumental artistic contributions. The cinema community deeply grieves the loss of a true visionary whose timeless works will continue to inspire generations of filmmakers."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The Indian film fraternity is mourning the loss of legendary director Singeetham Srinivasa Rao, who has passed away. Known for his pioneering work and immense contributions to cinema, his departure marks the end of an era.",
+      "dek": "The Indian film fraternity is mourning the loss of legendary director Singeetham Srinivasa Rao, who has passed away. Known for his pioneering and diverse contributions to cinema, his departure marks the end of an extraordinary era.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -54,8 +154,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/434947/young-actress-replaces-raashii-in-blockbuster-series",
-      "title": "Reports Suggest Young Actress May Replace Raashii in Major Series",
-      "summary": "Speculation surrounds a prominent streaming project as rumors indicate a young actress might step in to replace Raashii. The potential casting change has sparked considerable interest among followers of popular web series.",
+      "title": "Is a Young Actress Replacing Raashii in a Blockbuster Series?",
+      "summary": "Rumors are circulating within entertainment circles suggesting that a young actress might replace Raashii in a major blockbuster web series. Speculation continues to grow as details surrounding the potential casting change emerge.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434947/young-actress-replaces-raashii-in-blockbuster-series",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/farzi-2-raashi1.jpg",
@@ -63,13 +163,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Talks of potential casting adjustments have captured the attention of digital series enthusiasts, with reports indicating a shift in the lineup for a high-profile streaming project. Whispers suggest that a rising young actress is lined up to take over a key role previously associated with Raashii.",
-        "While details regarding the transition remain a subject of discussion, casting changes in successful multi-season or blockbuster series often draw significant curiosity from audiences tracking their favorite shows. Such developments can shape the future trajectory and dynamic of ongoing storylines.",
-        "Official confirmation from the production team is expected to clarify the extent of these changes. Until then, followers continue to monitor updates surrounding the production and its final cast roster."
+        "Recent developments have sparked intense speculation across entertainment platforms regarding a potential casting change in a high-profile streaming project. Reports suggest that a rising young actress is being considered to take over a prominent role previously associated with Raashii.",
+        "The blockbuster series, which has already captured significant audience attention, faces potential shifts in its primary cast lineup. While details remain fluid, industry trackers are closely monitoring updates regarding the production's casting decisions.",
+        "Changes in major series casts often draw substantial interest from followers of streaming content. Further official announcements are expected to clarify whether the rumored replacement will officially join the ongoing project."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Speculation surrounds a prominent streaming project as rumors indicate a young actress might step in to replace Raashii. The potential casting change has sparked considerable interest among followers of popular web series.",
+      "dek": "Rumors are circulating within entertainment circles suggesting that a young actress might replace Raashii in a major blockbuster web series. Speculation continues to grow as details surrounding the potential casting change emerge.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -79,8 +179,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/chuttamalle-ai-morph-issue-megastar-chiranjeevi-steps-in-prp.html",
-      "title": "Megastar Chiranjeevi Intervenes in Chuttamalle AI Morph Controversy",
-      "summary": "Megastar Chiranjeevi has stepped in to address the emerging issue concerning the AI morphing controversy linked to the popular track Chuttamalle. The intervention highlights growing concerns over the misuse of artificial intelligence in media.",
+      "title": "Megastar Chiranjeevi Intervenes in Chuttamalle AI Morph Issue",
+      "summary": "Megastar Chiranjeevi has officially stepped in to address the growing controversy surrounding the AI morph issue tied to the song Chuttamalle. His intervention highlights rising industry concerns over the misuse of artificial intelligence in media.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/chuttamalle-ai-morph-issue-megastar-chiranjeevi-steps-in-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Chutamalle.webp",
@@ -88,13 +188,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The entertainment industry has faced a fresh wave of concern regarding digital tampering, leading Megastar Chiranjeevi to actively step in concerning the Chuttamalle AI morph issue. The incident brings to light the rising misuse of artificial intelligence technology to manipulate media and content involving prominent public figures.",
-        "The involvement of a senior industry figure like Chiranjeevi emphasizes the gravity of unauthorized digital alterations and the protection of artists' likenesses. As synthetic media becomes more prevalent, prominent voices are increasingly speaking out against malicious digital practices.",
-        "Further developments are anticipated as stakeholders and creators address the challenges posed by AI manipulation within the entertainment ecosystem. The intervention serves as a strong reminder of the need for stricter awareness and safeguards around digital content."
+        "The ongoing controversy surrounding the AI-morphed content connected to the popular song Chuttamalle has drawn a major response from the film community. Megastar Chiranjeevi has officially stepped in to tackle the disturbing issue head-on.",
+        "The unauthorized manipulation of media using artificial intelligence has raised serious ethical and legal concerns within the entertainment sector. By taking a stand, the veteran actor has brought prominent attention to the urgent need for stricter oversight regarding digital content alteration.",
+        "Incidents like the Chuttamalle morphing case underscore the growing vulnerabilities faced by public figures in the digital age. Industry stakeholders are increasingly calling for robust measures to protect artists and creative properties from malicious digital exploitation."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Megastar Chiranjeevi has stepped in to address the emerging issue concerning the AI morphing controversy linked to the popular track Chuttamalle. The intervention highlights growing concerns over the misuse of artificial intelligence in media.",
+      "dek": "Megastar Chiranjeevi has officially stepped in to address the growing controversy surrounding the AI morph issue tied to the song Chuttamalle. His intervention highlights rising industry concerns over the misuse of artificial intelligence in media.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -104,8 +204,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/434942/ai-deepfake-videos-will-telugu-actresses-become-even-rarer",
-      "title": "Examining the Impact of AI Deepfake Technology on Telugu Actresses",
-      "summary": "The rising prevalence of AI deepfake videos raises critical questions regarding the future and security of Telugu actresses in the film industry.",
+      "title": "Examining the Impact of AI Deepfake Videos on Telugu Actresses",
+      "summary": "As artificial intelligence technology evolves, questions arise regarding how deepfake videos might affect Telugu actresses and the broader regional film industry landscape.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434942/ai-deepfake-videos-will-telugu-actresses-become-even-rarer",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/heroine.webp",
@@ -113,13 +213,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The rapid advancement of artificial intelligence technology has introduced complex challenges across the entertainment sector. Among these concerns, the creation of AI deepfake videos has emerged as a significant talking point regarding how prominent figures, particularly Telugu actresses, are represented and protected.",
-        "As digital manipulation techniques become more sophisticated, industry observers and fans alike are discussing the potential implications for performers. The conversation centers on how these unauthorized digital alterations impact the safety, privacy, and overall presence of women working in regional cinema.",
-        "While technology continues to shape modern entertainment and media consumption, stakeholders are increasingly forced to address the ethical boundaries of digital content. The ongoing discourse highlights the pressing need for awareness and safeguards as the industry navigates the digital age."
+        "The rapid advancement of artificial intelligence and deepfake video technology has introduced new concerns across the entertainment sector. In the Telugu film industry, questions are being raised about the potential consequences these digital manipulations could bring for actresses.",
+        "As digital fabrication tools become more sophisticated, stakeholders within cinema are closely observing how synthetic media might influence performers. The issue highlights ongoing discussions surrounding digital safety, consent, and the protection of artists' likenesses in modern filmmaking.",
+        "While technology continues to shape the future of entertainment, the conversation around deepfake videos underscores the need for vigilance within the Telugu cinema community to safeguard performers against unauthorized digital alterations."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The rising prevalence of AI deepfake videos raises critical questions regarding the future and security of Telugu actresses in the film industry.",
+      "dek": "As artificial intelligence technology evolves, questions arise regarding how deepfake videos might affect Telugu actresses and the broader regional film industry landscape.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -129,8 +229,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/434935/bigg-boss-10-whos-next-on-the-eviction-list",
-      "title": "Bigg Boss 10 Evictions: Anticipation Builds Over Next Departure",
-      "summary": "As Bigg Boss 10 continues its run, viewers and followers of the reality television program eagerly anticipate the upcoming eviction list and elimination results.",
+      "title": "Anticipation Grows Around Bigg Boss 10 Evictions",
+      "summary": "As Bigg Boss 10 continues its television run, viewers and followers are left wondering who will be next on the elimination list as competition intensifies.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434935/bigg-boss-10-whos-next-on-the-eviction-list",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/bigg-Boss-10-.jpg",
@@ -138,13 +238,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Reality television excitement remains high as Bigg Boss 10 progresses through its schedule. Audiences closely follow the daily developments inside the house to gauge contestant standings and predict potential exits.",
-        "With competition tightening among the remaining participants, speculation regarding the eviction list grows stronger. Fans actively discuss performance dynamics, house politics, and voting trends to foresee who might be next to leave the show.",
-        "As the elimination episode approaches, tension builds within the house and among the viewing public. These weekly developments continue to drive significant engagement for the popular reality series."
+        "The television reality series Bigg Boss 10 continues to capture audience attention as competition among participants heats up. With each passing phase of the show, speculation grows regarding upcoming evictions and who might be next to leave the house.",
+        "Viewers and followers of the program closely monitor house dynamics, weekly tasks, and voting trends to predict potential exits. As the elimination list approaches, tension builds both inside and outside the television set.",
+        "Reality television formats like Bigg Boss rely heavily on audience engagement and unpredictable house developments, making every elimination round a significant talking point for television fans."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "As Bigg Boss 10 continues its run, viewers and followers of the reality television program eagerly anticipate the upcoming eviction list and elimination results.",
+      "dek": "As Bigg Boss 10 continues its television run, viewers and followers are left wondering who will be next on the elimination list as competition intensifies.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -154,8 +254,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/the-paradise-ott-version-likely-to-feature-a-key-change-prp.html",
-      "title": "Potential Key Modification Anticipated for The Paradise OTT Release",
-      "summary": "Reports indicate that the upcoming OTT version of The Paradise is likely to feature a notable change, stirring interest among digital streaming audiences.",
+      "title": "Anticipated Changes for The Paradise OTT Release",
+      "summary": "Reports indicate that the upcoming digital streaming release of The Paradise is likely to feature a notable modification for its OTT audience.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/the-paradise-ott-version-likely-to-feature-a-key-change-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-3-2.webp",
@@ -163,13 +263,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Audiences awaiting the digital premiere of The Paradise have new developments to consider regarding its streaming debut. Industry updates suggest that the OTT version of the project is likely to feature a significant modification.",
-        "While specific details regarding the nature of the change remain limited, alterations for digital streaming formats often capture the attention of movie enthusiasts. Fans are keenly observing how the transition to an OTT platform might shape the viewing experience compared to its initial presentation.",
-        "Further official updates are expected to clarify what adjustments viewers can anticipate when the project officially becomes available on digital platforms."
+        "As anticipation builds for the digital streaming premiere of The Paradise, updates indicate that the OTT version of the project is likely to feature a key change. Fans and movie enthusiasts are taking note of what this modification might mean for the streaming experience.",
+        "Streaming platforms often adapt titles for digital audiences, and modifications can range from content adjustments to presentation formats. While specific details about the nature of the change are unfolding, the update keeps the project in the industry spotlight.",
+        "The transition of cinematic titles to OTT platforms continues to be an important phase for modern releases, allowing creators to reach wider audiences while sometimes tailoring the experience for home viewing."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Reports indicate that the upcoming OTT version of The Paradise is likely to feature a notable change, stirring interest among digital streaming audiences.",
+      "dek": "Reports indicate that the upcoming digital streaming release of The Paradise is likely to feature a notable modification for its OTT audience.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -179,8 +279,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130366/four-rivers-six-ranges-brings-forgotten-tibetan-resistance-to-screen.html",
-      "title": "Four Rivers Six Ranges Highlights Forgotten Tibetan Resistance",
-      "summary": "The cinematic project Four Rivers Six Ranges brings the forgotten history of Tibetan resistance to the screen, navigating complex discussions and delays.",
+      "title": "Four Rivers Six Ranges Sheds Light on Forgotten Tibetan Resistance",
+      "summary": "The cinematic project Four Rivers Six Ranges brings the forgotten history of Tibetan resistance to the screen, facing notable delays both in China and India.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130366/four-rivers-six-ranges-brings-forgotten-tibetan-resistance-to-screen.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/four-rivers-six-ranges-brings-forgotten-tibetan-resistance-to-screen-1791043785458-1791043788911.jpg",
@@ -188,13 +288,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The cinematic landscape is set to explore a compelling historical narrative with the arrival of Four Rivers Six Ranges. The project brings focus to the forgotten Tibetan resistance movement, putting a historically significant subject onto the screen.",
-        "The film has also drawn attention due to its reception, noting that it is a piece that drew strong reactions and experienced a delayed release in India. These circumstances highlight the sensitive geopolitical and cultural themes addressed within the narrative.",
-        "By shedding light on this chapter of history, the feature offers audiences an opportunity to engage with a rarely discussed subject through visual storytelling, sparking conversation among cinephiles and cultural observers alike."
+        "The film Four Rivers Six Ranges has drawn attention for bringing a forgotten chapter of Tibetan resistance to cinematic audiences. The project explores historical narratives that have rarely been captured on film.",
+        "According to reports, the feature has faced delays, noting that the film that drew concern in China has also experienced scheduling setbacks in India. These hurdles highlight the sensitive political and historical themes explored within the narrative.",
+        "By focusing on lesser-known historical resistance movements, the production offers a distinct perspective, underscoring the complexities and challenges faced when bringing politically charged historical subjects to the big screen."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The cinematic project Four Rivers Six Ranges brings the forgotten history of Tibetan resistance to the screen, navigating complex discussions and delays.",
+      "dek": "The cinematic project Four Rivers Six Ranges brings the forgotten history of Tibetan resistance to the screen, facing notable delays both in China and India.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -204,8 +304,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/i-am-blessed-to-have-rashmika-as-my-wife-vijay-deverakonda-avd.html",
-      "title": "Vijay Deverakonda's Statement on Rashmika Garners Attention",
-      "summary": "Actor Vijay Deverakonda shares his thoughts about Rashmika, expressing that he feels blessed to have her as his wife in recent remarks.",
+      "title": "Vijay Deverakonda Expresses Gratitude Regarding Rashmika Mandanna",
+      "summary": "Actor Vijay Deverakonda recently shared statements expressing appreciation for Rashmika Mandanna, referring to her as his wife. The comments have drawn attention from fans and followers tracking the public figures.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/i-am-blessed-to-have-rashmika-as-my-wife-vijay-deverakonda-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/05/Vijay-Deverakonda-%E2%80%93-Rashmik.webp",
@@ -213,13 +313,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In recent developments concerning popular cinema personalities, actor Vijay Deverakonda opened up with a notable statement regarding Rashmika.",
-        "The actor expressed his feelings clearly, stating that he feels blessed to have Rashmika as his wife. This statement has quickly captured the attention of movie enthusiasts and fans across various platforms.",
-        "As details continue to circulate, followers of both actors remain engaged with the latest updates coming from the Telugu film industry."
+        "In a recent development making waves across the entertainment landscape, actor Vijay Deverakonda shared remarks expressing a deep sense of appreciation regarding Rashmika Mandanna. Referring to her as his wife, the actor's statements quickly circulated among cinema enthusiasts and followers alike.",
+        "Both actors have maintained significant visibility in the film industry, often drawing intense public interest regarding their professional and personal lives. While details remain limited to the statements made, the remarks have sparked widespread conversations across digital platforms.",
+        "Such updates regarding prominent film personalities continue to capture the attention of moviegoers who closely follow developments involving the stars. Further updates are awaited as fans and media outlets track any additional announcements."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda shares his thoughts about Rashmika, expressing that he feels blessed to have her as his wife in recent remarks.",
+      "dek": "Actor Vijay Deverakonda recently shared statements expressing appreciation for Rashmika Mandanna, referring to her as his wife. The comments have drawn attention from fans and followers tracking the public figures.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -229,8 +329,8 @@
     },
     {
       "id": "https://telugucinema.com/news/vishwaksen-wraps-up-shooting-for-cult-gets-ready-for-release",
-      "title": "Vishwaksen Concludes Filming for Cult as Release Preparations Begin",
-      "summary": "Actor Vishwaksen has officially wrapped up the shooting schedule for his upcoming film Cult and is now gearing up for the theatrical release.",
+      "title": "Vishwaksen Completes Production for Cult Ahead of Release",
+      "summary": "Actor Vishwaksen has officially wrapped up the shooting phase for his upcoming film Cult. The project is now progressing toward its scheduled release, marking another significant milestone for the actor.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/vishwaksen-wraps-up-shooting-for-cult-gets-ready-for-release",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/cult-shooting-oct0326.jpg",
@@ -238,13 +338,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Vishwaksen has completed the production phase for his upcoming cinematic project titled Cult. With the wrap-up of the shooting schedule, the team is shifting its focus entirely toward the upcoming release.",
-        "The completion of filming marks a significant milestone for the project, moving it closer to reaching audiences in theaters. Further updates regarding release dates and promotional campaigns are expected to follow shortly.",
-        "Fans of Vishwaksen are closely following developments as the film transitions from production to distribution."
+        "Actor Vishwaksen has successfully finished filming for his upcoming movie titled Cult. The completion of the shooting schedule marks a major step forward for the project as it transitions into its next phase of preparation.",
+        "With production officially wrapped, the team behind Cult is gearing up for the release process. Anticipation is building among fans who have been following updates regarding the film's progress and Vishwaksen's involvement.",
+        "As the release approaches, further details regarding promotional campaigns and official dates are expected to be unveiled. This milestone highlights the steady progress of the project within the current regional cinema schedule."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vishwaksen has officially wrapped up the shooting schedule for his upcoming film Cult and is now gearing up for the theatrical release.",
+      "dek": "Actor Vishwaksen has officially wrapped up the shooting phase for his upcoming film Cult. The project is now progressing toward its scheduled release, marking another significant milestone for the actor.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -254,8 +354,8 @@
     },
     {
       "id": "https://www.telugu360.com/sharwanands-bhogi-release-plan/",
-      "title": "Sharwanand's Upcoming Film Bhogi Sets Release Strategy",
-      "summary": "Actor Sharwanand's upcoming film Bhogi has outlined its release plan, generating interest regarding its arrival in cinema halls.",
+      "title": "Sharwanand's Upcoming Project Bhogi Unveils Release Strategy",
+      "summary": "Actor Sharwanand's forthcoming film Bhogi has outlined its release strategy. The production plans provide clarity for moviegoers awaiting the project's arrival on the big screen.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/sharwanands-bhogi-release-plan/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sharwanand-in-Bhogi.jpg",
@@ -263,13 +363,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The release plan for actor Sharwanand's upcoming movie Bhogi has become a topic of discussion among industry followers and fans alike.",
-        "With strategies being finalized for its theatrical debut, the project is moving steadily toward its scheduled arrival. Audiences are anticipating further announcements regarding the exact rollout schedule.",
-        "Such release plans play an essential role in mapping out box office performance and ensuring maximum reach for regional features."
+        "The release plan for actor Sharwanand's upcoming film Bhogi has been outlined, providing clarity for audiences and industry observers alike. The project has been a subject of interest since its announcement.",
+        "Strategic release planning is essential for maximizing visibility and ensuring a strong theatrical run for prominent star-studded features. This latest update maps out the trajectory for the film's arrival in cinemas.",
+        "Fans of Sharwanand can look forward to further promotional updates as the release schedule progresses. The planning reflects the structured approach taken by the makers for this cinematic venture."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Sharwanand's upcoming film Bhogi has outlined its release plan, generating interest regarding its arrival in cinema halls.",
+      "dek": "Actor Sharwanand's forthcoming film Bhogi has outlined its release strategy. The production plans provide clarity for moviegoers awaiting the project's arrival on the big screen.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -279,8 +379,8 @@
     },
     {
       "id": "https://www.telugu360.com/dhurandhar-actor-gets-drishyam-shock/",
-      "title": "Dhurandhar Actor Encounters a Drishyam Shock",
-      "summary": "An actor from the project Dhurandhar has reportedly encountered a development referred to as a Drishyam shock, according to recent updates.",
+      "title": "Dhurandhar Cast Member Faces Unexpected Development",
+      "summary": "An actor from the project Dhurandhar has encountered a sudden situation described as a Drishyam shock. The unexpected turn has drawn curiosity from followers of the film.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/dhurandhar-actor-gets-drishyam-shock/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Akshaye-Khanna.jpg",
@@ -288,13 +388,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent developments from the film industry indicate that an actor associated with Dhurandhar has experienced a surprising turn of events, described as a Drishyam shock.",
-        "Specific details surrounding the incident remain tied to the initial reports, keeping followers intrigued about how this development might unfold.",
-        "Such unexpected updates frequently capture the interest of cinema enthusiasts tracking regional entertainment news."
+        "An actor associated with the film Dhurandhar has recently encountered a surprising situation. Referred to in reports as a Drishyam shock, the development has caught many followers and industry observers by surprise.",
+        "Details surrounding the incident continue to attract interest as details emerge about the unexpected turn of events. Cast members of prominent projects often find themselves in the spotlight due to such developments.",
+        "As the situation unfolds, further information is anticipated to clarify the exact nature of the occurrence. The update adds an unexpected chapter to the ongoing news cycle surrounding the film's team."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "An actor from the project Dhurandhar has reportedly encountered a development referred to as a Drishyam shock, according to recent updates.",
+      "dek": "An actor from the project Dhurandhar has encountered a sudden situation described as a Drishyam shock. The unexpected turn has drawn curiosity from followers of the film.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -305,7 +405,7 @@
     {
       "id": "https://www.123telugu.com/mnews/after-jr-ntrs-strong-warning-ai-generated-chuttamalle-video-taken-down-avd.html",
       "title": "AI-Generated Chuttamalle Video Removed Following Jr NTR's Firm Warning",
-      "summary": "An artificial intelligence-generated version of the Chuttamalle video has been officially taken down. The removal follows a strong warning issued by prominent actor Jr NTR regarding the unauthorized content.",
+      "summary": "An artificial intelligence-generated video featuring the track Chuttamalle has been officially taken down. This removal occurred directly after actor Jr NTR issued a strong warning regarding the unauthorized or generated content.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/after-jr-ntrs-strong-warning-ai-generated-chuttamalle-video-taken-down-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Jr-NTR-1.webp",
@@ -313,13 +413,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "An unauthorized artificial intelligence-generated video featuring Chuttamalle has been removed from circulation. The action came swiftly after actor Jr NTR issued a strong warning concerning the unauthorized creation and distribution of the synthetic media.",
-        "The removal highlights the growing concerns among prominent film personalities regarding the misuse of emerging technologies, particularly artificial intelligence, to manipulate cinematic assets and music tracks. Such incidents underline the strict stance that leading industry figures are taking to protect intellectual property and personal likeness.",
-        "As the industry navigates the challenges posed by artificial intelligence, the successful takedown of the Chuttamalle clip serves as a notable example of the impact star warnings can have on curbing unauthorized digital content."
+        "An unauthorized artificial intelligence-generated video utilizing the popular musical track Chuttamalle has been successfully removed from circulation. The swift removal followed a strong and direct warning issued by prominent actor Jr NTR concerning the unauthorized content.",
+        "The incident highlights growing concerns within the film industry regarding the misuse of digital tools, deepfakes, and artificial intelligence to recreate or manipulate cinematic content. With leading stars actively pushing back against such unauthorized media, creators and platforms are facing heightened scrutiny over digital copyright and likeness protection.",
+        "As digital technology continues to evolve, instances involving unauthorized AI creations highlight the ongoing challenges creators and actors face in safeguarding their work and public profiles. The prompt takedown serves as a notable example of the impact major industry voices can have when addressing digital infringement."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "An artificial intelligence-generated version of the Chuttamalle video has been officially taken down. The removal follows a strong warning issued by prominent actor Jr NTR regarding the unauthorized content.",
+      "dek": "An artificial intelligence-generated video featuring the track Chuttamalle has been officially taken down. This removal occurred directly after actor Jr NTR issued a strong warning regarding the unauthorized or generated content.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -329,8 +429,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/3/130364/chiranjeevi-buchi-babu-film-rumours-add-fresh-twist.html",
-      "title": "New Speculation Surrounds Collaboration Between Chiranjeevi and Director Buchi Babu",
-      "summary": "Fresh speculation has emerged regarding a potential film project uniting Megastar Chiranjeevi and director Buchi Babu. Rumours point to the filmmaker becoming a frontrunner for the high-profile venture.",
+      "title": "Fresh Speculation Surrounds Potential Collaboration Between Chiranjeevi and Buchi Babu",
+      "summary": "New rumors have surfaced regarding a potential cinematic project pairing Megastar Chiranjeevi with director Buchi Babu. Speculation continues to grow as industry chatter points to fresh developments surrounding the rumored combination.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/3/130364/chiranjeevi-buchi-babu-film-rumours-add-fresh-twist.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-buchi-babu-film-rumours-add-fresh-twist-1791036634916-1791036636807.jpg",
@@ -338,13 +438,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Fresh developments have added new twists to ongoing film industry rumours regarding a collaborative project between Megastar Chiranjeevi and director Buchi Babu. Speculation has intensified across entertainment circles as details surrounding the potential combination continue to emerge.",
-        "According to circulating reports, the director has surfaced as a prominent frontrunner to helm the anticipated project starring the Megastar. While official confirmations are awaited, the pairing has generated significant chatter among fans and followers tracking upcoming ventures in Tollywood.",
-        "As discussions and speculations progress, the cinematic community remains watchful for official announcements regarding this high-profile combination."
+        "Recent developments have added new layers of speculation regarding a potential collaboration between Megastar Chiranjeevi and director Buchi Babu. Industry whispers and emerging chatter have placed the director as a prominent frontrunner for a prospective project starring the veteran actor.",
+        "While official announcements are still awaited, rumors of this high-profile combination have quickly captured the attention of movie enthusiasts. Speculation surrounding major star-director pairings often generates significant excitement across regional film circles as audiences eagerly anticipate formal confirmations.",
+        "As discussions and speculation continue to evolve, fans and industry watchers alike remain tuned for any concrete updates regarding whether this rumored collaboration will transition into an official production."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Fresh speculation has emerged regarding a potential film project uniting Megastar Chiranjeevi and director Buchi Babu. Rumours point to the filmmaker becoming a frontrunner for the high-profile venture.",
+      "dek": "New rumors have surfaced regarding a potential cinematic project pairing Megastar Chiranjeevi with director Buchi Babu. Speculation continues to grow as industry chatter points to fresh developments surrounding the rumored combination.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -355,7 +455,7 @@
     {
       "id": "https://www.telugu360.com/chandrayaan-teaser-fun-filled-mission-to-moon/",
       "title": "Chandrayaan Teaser Unveils a Fun-Filled Mission to the Moon",
-      "summary": "The teaser for Chandrayaan has been released, offering audiences a glimpse into a fun-filled cinematic mission to the moon. The promotional clip highlights an entertaining approach to the lunar theme.",
+      "summary": "The teaser for Chandrayaan has officially been released, giving audiences a first look at what is described as a fun-filled cinematic mission to the moon. The promotional clip highlights the entertaining elements of the space-themed project.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/chandrayaan-teaser-fun-filled-mission-to-moon/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Chandrayaan-Teaser.jpg",
@@ -363,13 +463,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The newly released teaser for Chandrayaan has given audiences a first look at an entertaining and fun-filled cinematic journey to the moon. The promotional video sets an engaging tone for the project, emphasizing lighthearted elements within its space-exploration narrative.",
-        "By showcasing a blend of humor and a lunar mission theme, the teaser aims to pique viewer curiosity. The light-hearted premise offers a distinct flavor compared to traditional space dramas.",
-        "As anticipation builds following the teaser drop, moviegoers look forward to further promotional material and details regarding the release of the project."
+        "The newly released teaser for Chandrayaan has offered viewers an early glimpse into an entertaining cinematic space venture. Billed as a fun-filled mission to the moon, the promotional material sets an engaging tone for the upcoming release.",
+        "Teasers play a crucial role in establishing a film's primary genre and mood, and this newly revealed footage leans into lighthearted elements surrounding a lunar expedition. The approach aims to pique curiosity among audiences looking for fresh entertainment within unique thematic settings.",
+        "As the promotional campaign moves forward, moviegoers will be looking for further updates, trailers, and release details concerning how the fun-filled space mission unfolds on screen."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The teaser for Chandrayaan has been released, offering audiences a glimpse into a fun-filled cinematic mission to the moon. The promotional clip highlights an entertaining approach to the lunar theme.",
+      "dek": "The teaser for Chandrayaan has officially been released, giving audiences a first look at what is described as a fun-filled cinematic mission to the moon. The promotional clip highlights the entertaining elements of the space-themed project.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -379,8 +479,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/434895/drishyam-3-wins-big-even-without-dhurandhar-villain",
-      "title": "Drishyam 3 Achieves Major Success Amid Ongoing Industry Buzz",
-      "summary": "Drishyam 3 has achieved significant success, capturing attention even without the presence of a Dhurandhar villain. The milestone underscores the enduring popularity of the acclaimed franchise.",
+      "title": "Drishyam 3 Secures Major Success Amid Ongoing Industry Buzz",
+      "summary": "Drishyam 3 has achieved major success, drawing significant attention even without the presence of the Dhurandhar villain character. The development highlights the enduring franchise power and audience appeal of the acclaimed thriller series.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/434895/drishyam-3-wins-big-even-without-dhurandhar-villain",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Jaideep-akshaye-khanna-drishyam-3.jpg",
@@ -388,13 +488,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The anticipated project Drishyam 3 has secured major achievements, drawing notable attention and success. Interestingly, this milestone has been reached even without the inclusion of a Dhurandhar villain, proving the standalone strength of the franchise's core appeal.",
-        "The continued triumph of the property demonstrates how strong storytelling and audience loyalty can drive momentum. Franchise continuations often face high expectations, and this development signifies a positive reception among viewers.",
-        "As the title continues to make waves, industry observers are analyzing the factors contributing to its sustained popularity and box-office or platform traction."
+        "The anticipated project Drishyam 3 has made significant waves, capturing major success and widespread attention even in the absence of the Dhurandhar villain. This milestone underscores the strong pull of the franchise brand and its ability to captivate audiences.",
+        "Franchise continuations often face high expectations, but the strong reception indicates that the core narrative strength of the series continues to resonate deeply with viewers. The ongoing discussions surrounding the film reflect its prominent standing in current entertainment circles.",
+        "As the title continues to make headlines, its strong performance proves that the overarching appeal of the cinematic universe remains robust among fans of suspenseful storytelling."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Drishyam 3 has achieved significant success, capturing attention even without the presence of a Dhurandhar villain. The milestone underscores the enduring popularity of the acclaimed franchise.",
+      "dek": "Drishyam 3 has achieved major success, drawing significant attention even without the presence of the Dhurandhar villain character. The development highlights the enduring franchise power and audience appeal of the acclaimed thriller series.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -405,7 +505,7 @@
     {
       "id": "https://www.cinejosh.com/news/1/130362/rajamouli-praises-mahesh-babu-performance-as-rudhra-in-varanasi.html",
       "title": "SS Rajamouli Applauds Mahesh Babu's Portrayal of Rudhra in Varanasi",
-      "summary": "Director SS Rajamouli has shared high praise for leading actor Mahesh Babu, noting that his remarkable performance as Rudhra in Varanasi has successfully surpassed all expectations.",
+      "summary": "Director SS Rajamouli has shared high praise for leading actor Mahesh Babu, noting that his remarkable performance as Rudhra in Varanasi exceeded all initial expectations.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130362/rajamouli-praises-mahesh-babu-performance-as-rudhra-in-varanasi.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/rajamouli-praises-mahesh-babu-performance-as-rudhra-in-varanasi-1791031786120-1791031787611.jpg",
@@ -413,12 +513,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Renowned filmmaker SS Rajamouli has expressed immense appreciation for Mahesh Babu's work in the upcoming project Varanasi. According to the updates, the actor's portrayal of the character Rudhra has managed to exceed the filmmaker's expectations.",
-        "The creative synergy between the leading actor and the director continues to draw significant attention from cinema enthusiasts. As details regarding Varanasi gradually emerge, this recent praise highlights the dedication and impact of Mahesh Babu's performance on screen."
+        "Renowned filmmaker SS Rajamouli has expressed immense satisfaction with Mahesh Babu's work in the upcoming project Varanasi. According to the updates, the actor's depiction of the character Rudhra has gone well beyond what the director originally anticipated.",
+        "This positive acknowledgment highlights the strong collaborative dynamic between the filmmaker and the lead star. Fans and movie enthusiasts tracking the progress of Varanasi have taken note of the high praise, which builds anticipation for the film's eventual release."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Director SS Rajamouli has shared high praise for leading actor Mahesh Babu, noting that his remarkable performance as Rudhra in Varanasi has successfully surpassed all expectations.",
+      "dek": "Director SS Rajamouli has shared high praise for leading actor Mahesh Babu, noting that his remarkable performance as Rudhra in Varanasi exceeded all initial expectations.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -428,8 +528,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130361/chandrayaan-first-signal-teaser-introduces-a-crazy-moon-mission.html",
-      "title": "Chandrayaan First Signal Teaser Unveils Quirky Moon Mission Caper",
-      "summary": "The newly released teaser for Chandrayaan First Signal introduces audiences to an unconventional and quirky lunar exploration caper.",
+      "title": "Chandrayaan First Signal Teaser Unveils an Unconventional Moon Mission",
+      "summary": "The teaser for Chandrayaan First Signal has officially been released, giving audiences a first look at a quirky caper centered around an eccentric and unconventional lunar journey.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130361/chandrayaan-first-signal-teaser-introduces-a-crazy-moon-mission.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/chandrayaan-first-signal-teaser-introduces-a-crazy-moon-mission-1791031158393-1791031159330.jpg",
@@ -437,12 +537,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The film industry is buzzing with the release of the Chandrayaan First Signal teaser, which promises a unique cinematic ride. The promotional footage introduces viewers to a remarkably unconventional moon mission narrative.",
-        "Positioned as a quirky caper, this latest teaser offers a fresh thematic approach to space-related storytelling on the big screen. Moviegoers can look forward to more updates as the project unfolds its distinct premise."
+        "The newly launched teaser for Chandrayaan First Signal offers viewers a glimpse into a unique cinematic journey. Billed as a quirky caper, the promotional clip introduces an unusual and eccentric mission directed toward the moon.",
+        "As anticipation builds around this distinctive project, the teaser successfully establishes a playful tone that sets it apart from conventional space-themed narratives. Moviegoers can expect further updates regarding the release as the promotional campaign rolls on."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The newly released teaser for Chandrayaan First Signal introduces audiences to an unconventional and quirky lunar exploration caper.",
+      "dek": "The teaser for Chandrayaan First Signal has officially been released, giving audiences a first look at a quirky caper centered around an eccentric and unconventional lunar journey.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -452,8 +552,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130360/drishyam-the-conclusion-opens-to-a-massive-box-office-response.html",
-      "title": "Drishyam The Conclusion Registers Massive Worldwide Box Office Opening",
-      "summary": "Drishyam The Conclusion has officially commenced its theatrical run with an enormous opening response at the worldwide box office.",
+      "title": "Drishyam The Conclusion Records Strong Worldwide Box Office Opening",
+      "summary": "Drishyam The Conclusion has kicked off its theatrical run with a tremendous worldwide box office response, drawing massive numbers of viewers on its opening day.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130360/drishyam-the-conclusion-opens-to-a-massive-box-office-response.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/drishyam-the-conclusion-opens-to-a-massive-box-office-response-1791030991212-1791030991683.jpg",
@@ -461,12 +561,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The cinematic continuation of the acclaimed franchise, Drishyam The Conclusion, has opened to an overwhelmingly massive response from audiences globally. Initial tracking indicates a stellar start at the worldwide box office.",
-        "This robust commercial beginning underscores the enduring popularity of the suspenseful franchise and the strong pull it exerts on ticket buyers. The impressive early figures highlight a successful start to its theatrical journey."
+        "The theatrical journey of Drishyam The Conclusion has begun on a phenomenal note, registering a massive response at the global box office. Early returns from its opening day indicate that audiences turned out in large numbers to support the release.",
+        "This strong initial performance highlights the enduring popularity and pulling power of the franchise. As ticket sales continue to hold firm, the film is positioned well for a lucrative box office run in the coming days."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Drishyam The Conclusion has officially commenced its theatrical run with an enormous opening response at the worldwide box office.",
+      "dek": "Drishyam The Conclusion has kicked off its theatrical run with a tremendous worldwide box office response, drawing massive numbers of viewers on its opening day.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -476,8 +576,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130359/mohabbat-teaser-highlights-music-and-emotion.html",
-      "title": "Mohabbat Teaser Puts Spotlight on Heartfelt Music and Deep Emotion",
-      "summary": "The newly debuted teaser for Mohabbat places a strong emphasis on rich musical arrangements and deep emotional resonance.",
+      "title": "Mohabbat Teaser Focuses on Powerful Music and Deep Emotions",
+      "summary": "The recently unveiled teaser for Mohabbat puts its core strengths on full display, promising viewers a compelling journey driven by strong emotional themes and striking music.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130359/mohabbat-teaser-highlights-music-and-emotion.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/mohabbat-teaser-highlights-music-and-emotion-1791030834271-1791030834834.jpg",
@@ -485,12 +585,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The first promotional teaser for Mohabbat has arrived, offering audiences a glimpse into its dramatic world. The preview prominently highlights a strong emotional promise supported by compelling musical elements.",
-        "By focusing on core feelings and auditory appeal, the teaser sets a distinct tone for the movie. Fans of emotionally driven cinema will be keeping a close eye on further promotional rollouts."
+        "The official teaser for Mohabbat has arrived, offering a clear look at what the project has in store for audiences. Prominent elements of the preview include a heavy emphasis on emotional resonance and memorable musical cues.",
+        "By focusing on these dramatic and sonic elements, the teaser successfully conveys a sincere dramatic promise. This early promotional material sets a distinct tone, leaving followers eager for further details concerning the film's narrative."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The newly debuted teaser for Mohabbat places a strong emphasis on rich musical arrangements and deep emotional resonance.",
+      "dek": "The recently unveiled teaser for Mohabbat puts its core strengths on full display, promising viewers a compelling journey driven by strong emotional themes and striking music.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -500,8 +600,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130358/ntr-strong-warning.html",
-      "title": "Jr NTR Issues Strong Condemnation Over AI Deepfake Video",
-      "summary": "Jr NTR has strongly condemned the emergence of an AI deepfake video utilizing the popular Chuttamalle track. The actor voiced his firm disapproval regarding the unauthorized digital manipulation.",
+      "title": "Jr NTR Issues Strong Warning Against Chuttamalle AI Deepfake",
+      "summary": "Jr NTR has issued a strong warning condemning the creation and circulation of an AI deepfake video related to the song Chuttamalle. The actor voiced his firm stance against the unauthorized manipulation of digital media.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130358/ntr-strong-warning.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ntr-strong-warning-1791030673483-1791030673863.jpg",
@@ -509,13 +609,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular Telugu cinema star Jr NTR has issued a strong warning and condemnation following the creation of an unauthorized artificial intelligence deepfake video. The manipulated media piece specifically targeted the well-known track Chuttamalle.",
-        "The incident highlights growing concerns within the film industry regarding the misuse of emerging artificial intelligence technologies to alter and manipulate actor likenesses and popular movie content without consent.",
-        "Jr NTR expressed his sharp disapproval of such deceptive digital practices, drawing attention to the potential risks that deepfakes pose to artists and creators in the entertainment sector."
+        "In a recent development concerning digital content manipulation within the film industry, actor Jr NTR has spoken out firmly. He issued a strong warning condemning the unauthorized use of artificial intelligence to create a deepfake version of the popular track Chuttamalle.",
+        "The emergence of deepfake technology has raised growing concerns among cinema personalities regarding copyright and digital safety. By addressing the Chuttamalle AI deepfake directly, Jr NTR highlights the ongoing challenges that actors and filmmakers face as unauthorized digital alterations become more prevalent online."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Jr NTR has strongly condemned the emergence of an AI deepfake video utilizing the popular Chuttamalle track. The actor voiced his firm disapproval regarding the unauthorized digital manipulation.",
+      "dek": "Jr NTR has issued a strong warning condemning the creation and circulation of an AI deepfake video related to the song Chuttamalle. The actor voiced his firm stance against the unauthorized manipulation of digital media.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -525,8 +624,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/this-mighty-blockbuster-is-not-coming-to-ott-anytime-soon-prp.html",
-      "title": "Major Blockbuster Delays Digital Streaming Release",
-      "summary": "Recent updates indicate that a major box office blockbuster will not be making its way onto OTT streaming platforms anytime soon. Fans awaiting the digital release of the hit film will need to exercise patience.",
+      "title": "Blockbuster Film Holds Off on Immediate OTT Release",
+      "summary": "A major blockbuster film is reportedly delaying its digital streaming debut, opting to stay away from OTT platforms for the time being. Fans eagerly waiting for the digital premiere will have to wait longer to stream the hit title.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/this-mighty-blockbuster-is-not-coming-to-ott-anytime-soon-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Hanuman-Ansh.jpg",
@@ -534,13 +633,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Audiences eagerly anticipating the digital streaming debut of a recent major blockbuster will have to wait longer than expected. Reports confirm that the film is not arriving on any OTT platforms in the immediate future.",
-        "While many successful feature films quickly transition to digital streaming services following their theatrical runs, this particular blockbuster is bucking the trend. The decision keeps the focus firmly on the cinematic experience for the time being.",
-        "Further details regarding an official digital premiere date remain unannounced by the makers, leaving fans waiting for future updates about its eventual OTT arrival."
+        "Audiences anticipating the digital streaming debut of a recent major blockbuster will have to exercise patience. Reports indicate that the high-performing movie is not making its way to any over-the-top (OTT) platforms anytime soon.",
+        "While many successful theatrical releases quickly transition to digital streaming services, this particular blockbuster is maintaining a different release trajectory. The decision keeps focus on its ongoing cinematic journey rather than an immediate home-viewing release."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Recent updates indicate that a major box office blockbuster will not be making its way onto OTT streaming platforms anytime soon. Fans awaiting the digital release of the hit film will need to exercise patience.",
+      "dek": "A major blockbuster film is reportedly delaying its digital streaming debut, opting to stay away from OTT platforms for the time being. Fans eagerly waiting for the digital premiere will have to wait longer to stream the hit title.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -550,8 +648,8 @@
     },
     {
       "id": "https://www.telugu360.com/third-collaboration-nani-and-shiva-nirvana/",
-      "title": "Rumours Hint at Third Collaboration Between Nani and Shiva Nirvana",
-      "summary": "Speculation is mounting within Tollywood regarding a potential third collaboration between actor Nani and director Shiva Nirvana. Film enthusiasts are closely following updates on this prospective creative partnership.",
+      "title": "Rumours Suggest Nani and Shiva Nirvana May Collaborate Again",
+      "summary": "Speculation is building up in the Telugu film industry regarding a potential third collaboration between actor Nani and director Shiva Nirvana. Industry updates point toward a possible new project uniting the duo once more.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/third-collaboration-nani-and-shiva-nirvana/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Third-Collaboration-Nani-and-Shiva-Nirvana.jpg",
@@ -559,13 +657,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Industry circles are abuzz with speculation that actor Nani and director Shiva Nirvana might team up once again. If confirmed, this project would mark the third collaboration between the duo.",
-        "Both Nani and Shiva Nirvana have previously established a working relationship in the Telugu film industry, drawing attention from fans and trade analysts alike whenever news of a potential reunion surfaces.",
-        "As of now, official confirmations regarding the venture are awaited, but the possibility of their third cinematic outing has already generated significant excitement among moviegoers."
+        "Speculation is circulating within the film community about a potential third partnership between actor Nani and director Shiva Nirvana. The duo has previously worked together, and latest discussions suggest they might team up again for a new project.",
+        "While official details are yet to be fully established, the prospect of a third collaboration has drawn interest from fans of both creators. Such creative reunions are closely watched as artists look to build upon their past cinematic journeys."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Speculation is mounting within Tollywood regarding a potential third collaboration between actor Nani and director Shiva Nirvana. Film enthusiasts are closely following updates on this prospective creative partnership.",
+      "dek": "Speculation is building up in the Telugu film industry regarding a potential third collaboration between actor Nani and director Shiva Nirvana. Industry updates point toward a possible new project uniting the duo once more.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -575,8 +672,8 @@
     },
     {
       "id": "https://telugucinema.com/news/vijay-deverakonda-jokes-about-rashmika-mandannas-cooking-skills",
-      "title": "Vijay Deverakonda Lightheartedly Comments on Rashmika Mandanna’s Culinary Skills",
-      "summary": "Actor Vijay Deverakonda recently made playful remarks regarding Rashmika Mandanna's cooking abilities. The lighthearted comments have drawn attention from fans and entertainment circles alike.",
+      "title": "Vijay Deverakonda Lightheartedly Comments on Rashmika Mandanna’s Cooking",
+      "summary": "Actor Vijay Deverakonda recently made headlines with a playful remark about Rashmika Mandanna’s cooking abilities. The lighthearted comment added a touch of humor, capturing the attention of entertainment followers.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/vijay-deverakonda-jokes-about-rashmika-mandannas-cooking-skills",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/rashmikamandanna-sep2326.jpg",
@@ -584,13 +681,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In recent entertainment news, actor Vijay Deverakonda caught the attention of fans by making a joke about the cooking skills of fellow actor Rashmika Mandanna.",
-        "The lighthearted remark added a touch of humor to the regular updates circulating about prominent Tollywood personalities, offering a glimpse into their rapport.",
-        "Such light moments shared publicly often quickly capture the interest of followers across social media platforms, keeping fans entertained."
+        "In a recent lighthearted moment, actor Vijay Deverakonda shared a playful joke concerning the cooking skills of Rashmika Mandanna. The casual remark brought a dose of humor to the forefront, attracting interest from fans and followers of the actors.",
+        "Incidents like this highlight the engaging personal rapport shared by film personalities outside of their screen roles. Such light moments often quickly find traction across entertainment media platforms."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda recently made playful remarks regarding Rashmika Mandanna's cooking abilities. The lighthearted comments have drawn attention from fans and entertainment circles alike.",
+      "dek": "Actor Vijay Deverakonda recently made headlines with a playful remark about Rashmika Mandanna’s cooking abilities. The lighthearted comment added a touch of humor, capturing the attention of entertainment followers.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -600,8 +696,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/adorable-video-rashmika-mandannas-cute-act-on-ranabaali-sets-wins-the-internet-prp.html",
-      "title": "Rashmika Mandanna Charms Fans With Sweet Video From Ranabaali Sets",
-      "summary": "Actor Rashmika Mandanna has captured the attention of internet users with an endearing video capturing a cute moment of hers on the production sets of Ranabaali. The adorable footage quickly gained traction online.",
+      "title": "Rashmika Mandanna Wins Hearts With Cute Behaviour on Ranabaali Sets",
+      "summary": "An adorable video featuring actor Rashmika Mandanna has captured the attention of fans online. A sweet moment from the sets of Ranabaali was shared, showcasing a charming act that has been winning widespread appreciation across social media platforms.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/adorable-video-rashmika-mandannas-cute-act-on-ranabaali-sets-wins-the-internet-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Ranabaali-2.webp",
@@ -609,131 +705,21 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular actor Rashmika Mandanna has once again won over social media users. A charming new video featuring a cute act by the actor has emerged from the production sets of the project titled Ranabaali.",
-        "The lighthearted footage quickly made its rounds across digital platforms, capturing the affection of fans and followers alike. Such behind-the-scenes glimpses continue to generate excitement and buzz surrounding the film's ongoing production journey.",
-        "As anticipation builds for Ranabaali, these delightful moments offer audiences a fun look at the atmosphere on set. The viral clip highlights the engaging off-screen presence of the film's lead cast."
+        "A charming video capturing actor Rashmika Mandanna during the production of Ranabaali has recently emerged online. The delightful footage highlights a cute act by the actor that quickly resonated with internet users and film enthusiasts alike.",
+        "Behind-the-scenes glimpses from major film sets often provide audiences with a lighter look at their favorite stars. This particular clip from Ranabaali has successfully drawn considerable attention, generating warmth and enthusiasm among fans following the project's progress."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Rashmika Mandanna has captured the attention of internet users with an endearing video capturing a cute moment of hers on the production sets of Ranabaali. The adorable footage quickly gained traction online.",
+      "dek": "An adorable video featuring actor Rashmika Mandanna has captured the attention of fans online. A sweet moment from the sets of Ranabaali was shared, showcasing a charming act that has been winning widespread appreciation across social media platforms.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "123telugu"
       ],
       "originalUrl": "https://www.123telugu.com/mnews/adorable-video-rashmika-mandannas-cute-act-on-ranabaali-sets-wins-the-internet-prp.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/farzi-2-this-actress-plays-shahid-kapoors-romantic-interest-in-raj-dks-show-prp.html",
-      "title": "Farzi Season 2 Update: Details Emerge on Shahid Kapoor's Romantic Interest",
-      "summary": "Fresh updates regarding Farzi Season 2 reveal details about the actress cast as Shahid Kapoor's romantic interest in the upcoming installment of the Raj and DK series.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/farzi-2-this-actress-plays-shahid-kapoors-romantic-interest-in-raj-dks-show-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Farzi.webp",
-      "publishedAt": "2026-10-03T10:30:43.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Excitement continues to build for the highly anticipated return of the acclaimed streaming series Farzi Season 2. Creators Raj and DK are advancing development on the project, bringing fresh narrative arcs to the screen.",
-        "Recent details have surfaced concerning the casting lineup, specifically regarding the actress who will be playing Shahid Kapoor's romantic interest in the new season. Fans of the hit show are eager to see how this dynamic unfolds within the complex storyline established in the first season.",
-        "As production details develop, the continuation of Farzi remains one of the most closely watched projects in the digital space. The involvement of directors Raj and DK alongside lead star Shahid Kapoor guarantees high expectations for the upcoming season."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Fresh updates regarding Farzi Season 2 reveal details about the actress cast as Shahid Kapoor's romantic interest in the upcoming installment of the Raj and DK series.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/farzi-2-this-actress-plays-shahid-kapoors-romantic-interest-in-raj-dks-show-prp.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/drishyam-3-day-one-collections-third-biggest-opener-ever-among-bollywood-films-prp.html",
-      "title": "Drishyam 3 Makes History With Massive Opening Day Box Office Collections",
-      "summary": "Drishyam 3 has made a stellar debut at the box office, securing its place as the third-biggest opening day earner of all time among Bollywood films.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/drishyam-3-day-one-collections-third-biggest-opener-ever-among-bollywood-films-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/06/Drishyam-3-Hindi.webp",
-      "publishedAt": "2026-10-03T09:30:05.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The box office momentum for Drishyam 3 has officially broken records following a massive opening day. The latest installment has drawn massive crowds to theaters across the country on its first day of release.",
-        "According to initial collection reports, the film has achieved a historic milestone by becoming the third-biggest opening day earner ever recorded for a Bollywood movie. This phenomenal start underlines the immense popularity and enduring strength of the franchise among audiences.",
-        "The stellar opening numbers demonstrate strong theatrical turnout and high viewer anticipation. Drishyam 3 continues to dominate box office discussions as it sets a high benchmark for subsequent theatrical runs in the industry."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Drishyam 3 has made a stellar debut at the box office, securing its place as the third-biggest opening day earner of all time among Bollywood films.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/drishyam-3-day-one-collections-third-biggest-opener-ever-among-bollywood-films-prp.html"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/434878/why-vijays-film-struggling-despite-positive-talk",
-      "title": "Examining the Performance Challenges Facing Vijay's Latest Project",
-      "summary": "Despite positive talk surrounding the project, Vijay's latest film faces unexpected challenges in its theatrical run. Industry watchers and fans continue to analyze the factors influencing its box-office momentum.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/434878/why-vijays-film-struggling-despite-positive-talk",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/baththa-collections.jpg",
-      "publishedAt": "2026-10-03T08:50:23.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "In the latest developments surrounding Tamil cinema, a film starring Vijay has encountered an unexpected struggle at the box office despite receiving positive talk. Such scenarios often prompt discussions among industry analysts regarding audience turnout, theatrical distribution, and shifting commercial trends.",
-        "While initial reactions to the movie were favorable, the translation from positive word-of-mouth to sustained ticket sales has faced hurdles. Observers continue to monitor how the feature navigates its ongoing theatrical run amidst these contrasting indicators."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Despite positive talk surrounding the project, Vijay's latest film faces unexpected challenges in its theatrical run. Industry watchers and fans continue to analyze the factors influencing its box-office momentum.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/434878/why-vijays-film-struggling-despite-positive-talk"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/chuttamalle-song-ai-morph-jr-ntr-says-he-wont-leave-the-scumbags-prp.html",
-      "title": "Jr. NTR Slams AI Morphing of Chuttamalle Song, Vows Action",
-      "summary": "Actor Jr. NTR has strongly reacted to the AI morphing of the popular Chuttamalle song, declaring that he will not let the perpetrators off the hook. The incident highlights growing concerns over the malicious use of artificial intelligence technology in the entertainment industry.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/chuttamalle-song-ai-morph-jr-ntr-says-he-wont-leave-the-scumbags-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jr-NTR.webp",
-      "publishedAt": "2026-10-03T08:28:19.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Jr. NTR has issued a strong reaction following the unauthorized AI morphing of the Chuttamalle song. Addressing the issue directly, the actor made it clear that he intends to take a firm stand against those responsible for the digital manipulation.",
-        "This incident brings to light the rising misuse of artificial intelligence tools within the entertainment landscape, raising concerns among artists and creators alike. The strong stance taken by Jr. NTR underscores the urgent need to address digital safety and the unauthorized alteration of artistic content."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Jr. NTR has strongly reacted to the AI morphing of the popular Chuttamalle song, declaring that he will not let the perpetrators off the hook. The incident highlights growing concerns over the malicious use of artificial intelligence technology in the entertainment industry.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/chuttamalle-song-ai-morph-jr-ntr-says-he-wont-leave-the-scumbags-prp.html"
     }
   ],
   "trailers": [
-    {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=5UvfX83pcaQ",
-      "originalUrl": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://i.ytimg.com/vi/5UvfX83pcaQ/hqdefault.jpg",
-      "youtubeId": "5UvfX83pcaQ",
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "language": "Telugu"
-    },
     {
       "id": "youtube:QQQZDiV7L-k",
       "title": "Video : Baa Baa Black Sheep Trailer (Venu Donepudi, Guni Manchikanti)",
@@ -749,10 +735,10 @@
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
       "title": "Ebenezer - Official Trailer",
       "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=TpUoFTuxnNw",
+      "url": "https://www.youtube.com/watch?v=Tz0CWjeV8Pc",
       "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
-      "img": "https://i.ytimg.com/vi/TpUoFTuxnNw/hqdefault.jpg",
-      "youtubeId": "TpUoFTuxnNw",
+      "img": "https://i.ytimg.com/vi/Tz0CWjeV8Pc/hqdefault.jpg",
+      "youtubeId": "Tz0CWjeV8Pc",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -823,28 +809,6 @@
       "language": "Malayalam"
     },
     {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "title": "Baththa - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=asrF4DinJAc",
-      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://i.ytimg.com/vi/asrF4DinJAc/hqdefault.jpg",
-      "youtubeId": "asrF4DinJAc",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/primetime-official-trailer/videoshow/134286189.cms",
-      "title": "Primetime - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://www.youtube.com/watch?v=v0bUIkCkY4A",
-      "originalUrl": "https://timesofindia.indiatimes.com/videos/entertainment/english/primetime-official-trailer/videoshow/134286189.cms",
-      "img": "https://i.ytimg.com/vi/v0bUIkCkY4A/hqdefault.jpg",
-      "youtubeId": "v0bUIkCkY4A",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
       "id": "youtube:iOMvWcMo8cA",
       "title": "Kannada Movie Trailers",
       "source": "CinemaIP Kannada",
@@ -867,118 +831,7 @@
       "language": "Kannada"
     }
   ],
-  "interviews": [
-    {
-      "id": "jk8DL2sB2mk",
-      "youtubeId": "jk8DL2sB2mk",
-      "title": "స్లోగా కనెక్ట్ అవుతుందని ముందే తెలుసు | Director Srikanth Odela and Lyricist Kasarla Shyam",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=jk8DL2sB2mk",
-      "img": "https://i.ytimg.com/vi/jk8DL2sB2mk/hqdefault.jpg",
-      "publishedAt": "2026-10-03T13:06:07.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "HtOstMfOu4o",
-      "youtubeId": "HtOstMfOu4o",
-      "title": "Director Srikanth Odela and Lyricist Kasarla Shyam Chitchat about The Paradise Movie | greatandhra",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=HtOstMfOu4o",
-      "img": "https://i.ytimg.com/vi/HtOstMfOu4o/hqdefault.jpg",
-      "publishedAt": "2026-10-03T12:18:16.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "t9zEFDiF2Ng",
-      "youtubeId": "t9zEFDiF2Ng",
-      "title": "Director Srikanth Odela & Kasarla Shyam Chit Chat | The Paradise Interview | Nani | Mohan Babu | TFN",
-      "source": "Telugu Filmnagar",
-      "url": "https://www.youtube.com/watch?v=t9zEFDiF2Ng",
-      "img": "https://i.ytimg.com/vi/t9zEFDiF2Ng/hqdefault.jpg",
-      "publishedAt": "2026-10-03T11:27:53.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "x9rdfWuPP6U",
-      "youtubeId": "x9rdfWuPP6U",
-      "title": "సింగిల్ టేక్ అది :Venkatesh, Srinidhi Shetty, Satya,Thaman S | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=x9rdfWuPP6U",
-      "img": "https://i.ytimg.com/vi/x9rdfWuPP6U/hqdefault.jpg",
-      "publishedAt": "2026-10-02T15:56:18.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "364SScS3W8U",
-      "youtubeId": "364SScS3W8U",
-      "title": "Team Aadarsha Kutumbam - Full Interview With Venkatesh, Srinidhi Shetty, Satya,Thaman S |greatandhra",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=364SScS3W8U",
-      "img": "https://i.ytimg.com/vi/364SScS3W8U/hqdefault.jpg",
-      "publishedAt": "2026-10-02T14:18:27.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "K2_zD34-uxg",
-      "youtubeId": "K2_zD34-uxg",
-      "title": "Nani’s Paradise: Srinidhi Shetty Gives Her Honest Opinion | greatandhra",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=K2_zD34-uxg",
-      "img": "https://i.ytimg.com/vi/K2_zD34-uxg/hqdefault.jpg",
-      "publishedAt": "2026-10-02T05:49:49.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "6BkK8SV9qkQ",
-      "youtubeId": "6BkK8SV9qkQ",
-      "title": "ముగ్గురితో కలిసి వెంకటేష్ గారు చేసిన డాన్స్ | Srinidhi Shetty About Narayanamma Song | Venkatesh",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=6BkK8SV9qkQ",
-      "img": "https://i.ytimg.com/vi/6BkK8SV9qkQ/hqdefault.jpg",
-      "publishedAt": "2026-10-02T04:23:03.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "Y_F-f2k4UoY",
-      "youtubeId": "Y_F-f2k4UoY",
-      "title": "Dont Trouble The Trouble Telugu Public Talk | Public Review | Fahadh Faasil, Ssara | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=Y_F-f2k4UoY",
-      "img": "https://i.ytimg.com/vi/Y_F-f2k4UoY/hqdefault.jpg",
-      "publishedAt": "2026-10-01T20:50:51.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "bUkSzkJReMY",
-      "youtubeId": "bUkSzkJReMY",
-      "title": "శోభన్ బాబు తర్వాత ఆ స్థాయిలోకి Nani మాత్రమే వచ్చాడు : Mohan Babu | Nani | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=bUkSzkJReMY",
-      "img": "https://i.ytimg.com/vi/bUkSzkJReMY/hqdefault.jpg",
-      "publishedAt": "2026-10-01T16:04:54.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    },
-    {
-      "id": "s--T9UWhMAA",
-      "youtubeId": "s--T9UWhMAA",
-      "title": "#SrikanthOdela నన్ను మోసం చేసాడు..: Mohan Babu about Srikanth Odela | greatandhra.com",
-      "source": "GreatAndhra",
-      "url": "https://www.youtube.com/watch?v=s--T9UWhMAA",
-      "img": "https://i.ytimg.com/vi/s--T9UWhMAA/hqdefault.jpg",
-      "publishedAt": "2026-10-01T13:32:33.000Z",
-      "language": "Telugu",
-      "category": "Movie Interviews"
-    }
-  ],
+  "interviews": [],
   "reviews": [
     {
       "t": "Sigma",
@@ -2340,6 +2193,50 @@
             "rating": 2.75,
             "ratingText": "2.75/5",
             "url": "https://www.123telugu.com/telugu/news/anakapalli-movie-review-and-rating-in-telugu.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "సమీక్ష : సీక్రెట్ సోల్జర్ - రెగ్యులర్ ఎమోషనల్ క్రైమ్ డ్రామా !",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "2.5/5",
+      "img": "https://cdn.123telugu.com/telugu/wp-content/uploads/2026/09/screct.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html",
+      "aggregator": {
+        "average": 2.5,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/telugu/news/secret-soldier-movie-review-in-telugu.html"
           }
         ]
       }
