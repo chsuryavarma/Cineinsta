@@ -1,11 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/box-office-battle",
-      "destination": "/",
-      "permanent": true
-    }
-  ],
   "rewrites": [
     {"source": "/news/:slug", "destination": "/"},
     {"source": "/reviews/:slug", "destination": "/"},
@@ -13,6 +6,7 @@
     {"source": "/news", "destination": "/"},
     {"source": "/reviews", "destination": "/"},
     {"source": "/trailers", "destination": "/"},
-    {"source": "/buzz", "destination": "/"}
+    {"source": "/buzz", "destination": "/"},
+    {"source": "/box-office-battle", "destination": "/box-office-battle.html"}
   ]
 }
