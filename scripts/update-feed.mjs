@@ -1309,14 +1309,28 @@ const NEWS_EVENT_PATTERNS = [
 ];
 
 function detectNewsEventType(item) {
-  const combined = normalizeTitle(
+  const titleUrl = normalizeTitle(
     String(item?.title || "") + " " +
-    String(item?.url || "") + " " +
-    String(item?.summary || "")
+    String(item?.url || "")
   );
 
+  // Strong title/URL signals always win. Summary is only a fallback.
+  const priority = [
+    "death-tribute","box-office","release-date","ott","trailer","teaser",
+    "first-look","poster","song","casting","announcement","shooting",
+    "review","controversy","award","interview"
+  ];
+
+  for (const type of priority) {
+    const pattern = NEWS_EVENT_PATTERNS.find(p => p.type === type);
+    if (pattern && pattern.terms.some(term => titleUrl.includes(normalizeTitle(term)))) {
+      return type;
+    }
+  }
+
+  const summary = normalizeTitle(String(item?.summary || ""));
   for (const pattern of NEWS_EVENT_PATTERNS) {
-    if (pattern.terms.some(term => combined.includes(normalizeTitle(term)))) {
+    if (pattern.terms.some(term => summary.includes(normalizeTitle(term)))) {
       return pattern.type;
     }
   }
@@ -1327,17 +1341,14 @@ function detectNewsEventType(item) {
 function newsEntityTokens(item) {
   const title = normalizeTitle(item?.title || "");
   let urlPath = "";
-
   try {
     urlPath = new URL(item?.url || "").pathname || "";
   } catch {
     urlPath = String(item?.url || "");
   }
 
-  const url = normalizeTitle(urlPath);
-
   return new Set(
-    (title + " " + url)
+    (title + " " + normalizeTitle(urlPath))
       .split(/\s+/)
       .filter(Boolean)
       .filter(token => token.length >= 4)
@@ -1362,11 +1373,6 @@ function strongUrlEntityTokens(item) {
       .filter(token => !NEWS_EVENT_STOP_WORDS.has(token))
       .filter(token => !/^\d+$/.test(token))
   );
-}
-
-function primaryUrlEntity(item) {
-  const tokens = [...strongUrlEntityTokens(item)];
-  return tokens[0] || "";
 }
 
 function normalizeUrl(url = "") {
@@ -1401,8 +1407,8 @@ function tokenOverlap(a, b) {
 }
 
 function headlineSimilarity(a, b) {
-  const aa = new Set(normalizeTitle(a).split(/\s+/).filter(word => word.length > 2));
-  const bb = new Set(normalizeTitle(b).split(/\s+/).filter(word => word.length > 2));
+  const aa = new Set(normalizeTitle(a).split(/\s+/).filter(w => w.length > 2));
+  const bb = new Set(normalizeTitle(b).split(/\s+/).filter(w => w.length > 2));
   if (!aa.size || !bb.size) return 0;
   let common = 0;
   for (const word of aa) if (bb.has(word)) common++;
@@ -1410,37 +1416,19 @@ function headlineSimilarity(a, b) {
 }
 
 function sharedStrongUrlEntities(a, b) {
-  const aTokens = strongUrlEntityTokens(a);
-  const bTokens = strongUrlEntityTokens(b);
-  const shared = [];
-
-  for (const token of aTokens) {
-    if (bTokens.has(token)) shared.push(token);
-  }
-
-  return shared;
+  const aa = strongUrlEntityTokens(a);
+  const bb = strongUrlEntityTokens(b);
+  return [...aa].filter(token => bb.has(token));
 }
 
-function entityPhrases(item) {
-  const tokens = [...newsEntityTokens(item)];
-  const phrases = new Set();
-
-  for (let i = 0; i < tokens.length - 1; i++) {
-    phrases.add(`${tokens[i]} ${tokens[i + 1]}`);
-  }
-
-  return phrases;
-}
-
-function sharedEntityPhrase(a, b) {
-  const aPhrases = entityPhrases(a);
-  const bPhrases = entityPhrases(b);
-
-  for (const phrase of aPhrases) {
-    if (bPhrases.has(phrase)) return true;
-  }
-
-  return false;
+function newsTitleTokens(item) {
+  return new Set(
+    normalizeTitle(item?.title || "")
+      .split(/\s+/)
+      .filter(Boolean)
+      .filter(token => token.length >= 4)
+      .filter(token => !NEWS_EVENT_STOP_WORDS.has(token))
+  );
 }
 
 function sameNewsEvent(a, b) {
@@ -1449,79 +1437,66 @@ function sameNewsEvent(a, b) {
   const eventA = detectNewsEventType(a);
   const eventB = detectNewsEventType(b);
 
-  /* Different event types are different stories. */
   if (eventA !== eventB) return false;
 
-  const entitiesA = newsEntityTokens(a);
-  const entitiesB = newsEntityTokens(b);
-  const overlap = tokenOverlap(entitiesA, entitiesB);
-  const urlEntitiesA = strongUrlEntityTokens(a);
-  const urlEntitiesB = strongUrlEntityTokens(b);
-  const urlOverlap = tokenOverlap(urlEntitiesA, urlEntitiesB);
+  const urlA = strongUrlEntityTokens(a);
+  const urlB = strongUrlEntityTokens(b);
   const sharedUrl = sharedStrongUrlEntities(a, b);
+  const titleA = newsTitleTokens(a);
+  const titleB = newsTitleTokens(b);
+  const sharedTitle = [...titleA].filter(token => titleB.has(token));
 
-  /*
-     EVENT-FIRST MATCHING
-
-     A rewritten headline can use completely different descriptive words.
-     The URL is therefore used as a stronger identity signal. For specific
-     events, one or more shared meaningful URL entities plus some entity
-     overlap is enough to identify the same underlying event.
-  */
   const specificEvents = [
-    "teaser", "trailer", "first-look", "poster", "song",
-    "release-date", "ott", "box-office", "death-tribute"
+    "teaser","trailer","first-look","poster","song",
+    "release-date","ott","box-office","death-tribute"
   ];
 
   if (specificEvents.includes(eventA)) {
-    /* Very strong match: substantial URL identity. */
-    if (urlOverlap >= 0.50) return true;
+    // Two or more shared URL entities = same underlying event.
+    if (sharedUrl.length >= 2) return true;
 
-    /*
-       Same event entity appears in both URLs and the stories also share
-       meaningful entity context. This catches rewritten stories such as:
-       Bhogi teaser reports and Singeetham death/tribute reports.
-    */
-    if (sharedUrl.length >= 1 && overlap >= 0.20) return true;
+    // One shared URL entity is enough when that entity appears in both titles.
+    // This catches Bhogi teaser variants while avoiding actor-only matches.
+    if (
+      sharedUrl.length >= 1 &&
+      sharedUrl.some(token => titleA.has(token) && titleB.has(token))
+    ) {
+      // Death/tribute stories are name-centric; one shared person/entity
+      // token is sufficient to group the same death coverage.
+      if (eventA === "death-tribute") return true;
 
-    /* Death/tribute reporting is commonly rewritten around the person's
-       name, so use a slightly more permissive entity threshold here. */
+      // For other events require another shared meaningful title entity,
+      // unless both URLs are very short/focused slugs.
+      if (sharedTitle.length >= 2) return true;
+      if (urlA.size <= 2 && urlB.size <= 2) return true;
+    }
+
+    if (tokenOverlap(urlA, urlB) >= 0.50) return true;
+
+    // Death/tribute safety net for abbreviated name slugs.
     if (
       eventA === "death-tribute" &&
       sharedUrl.length >= 1 &&
-      overlap >= 0.12
-    ) {
-      return true;
-    }
+      (sharedTitle.length >= 1 || tokenOverlap(titleA, titleB) >= 0.12)
+    ) return true;
   }
 
-  /*
-     General stories are deliberately stricter. Sharing an actor's name is
-     not enough because that actor can have many unrelated stories on the
-     same day. Require a shared multi-word entity phrase as well.
-  */
-  if (overlap >= 0.80 && sharedUrl.length >= 3 && sharedEntityPhrase(a, b)) return true;
+  // General events remain deliberately strict.
+  if (
+    tokenOverlap(newsEntityTokens(a), newsEntityTokens(b)) >= 0.80 &&
+    sharedUrl.length >= 3
+  ) {
+    return true;
+  }
 
-  /*
-     Do not use headline similarity as a general duplicate rule. It caused
-     unrelated stories about the same actor to be rejected simply because
-     their headlines were written in a similar style.
-  */
   return false;
 }
 
 function findDuplicateAcceptedNews(candidate, acceptedNews) {
   for (const existing of acceptedNews) {
-    if (sameNewsEvent(existing, candidate)) {
-      return existing;
-    }
+    if (sameNewsEvent(existing, candidate)) return existing;
   }
 
-  /*
-     Same image is only a supporting signal and is checked only when the
-     event type is identical. This prevents a reused promotional image from
-     collapsing unrelated stories about the same film.
-  */
   const candidateImage = imageKey(candidate?.img || "");
   if (candidateImage) {
     for (const existing of acceptedNews) {
@@ -1536,7 +1511,6 @@ function findDuplicateAcceptedNews(candidate, acceptedNews) {
 
   return null;
 }
-
 
 function choosePrimaryNewsStory(a, b) {
   const aImage = /^https?:\/\//i.test(a?.img || "") ? 1 : 0;
