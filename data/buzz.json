@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T00:53:04.006Z",
+  "updatedAt": "2026-10-05T06:13:48.847Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -58,25 +58,6 @@
       "id": "sardar-2",
       "title": "Sardar 2",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
-      "language": "Telugu",
-      "buzzScore": 32,
-      "status": "STEADY",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 1,
-        "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "drishyam-the-conclusion",
-      "title": "Drishyam: The Conclusion",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Drishyam.jpg",
       "language": "Telugu",
       "buzzScore": 32,
       "status": "STEADY",
@@ -509,6 +490,25 @@
         "theatreLocations": 0,
         "theatreShows": 0
       }
+    },
+    {
+      "id": "irumudi",
+      "title": "Irumudi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
     }
   ],
   "ottTrending": {
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "ok",
-      "updatedAt": "2026-10-05T00:53:03.191Z",
+      "updatedAt": "2026-10-05T06:13:48.127Z",
       "items": [
         {
           "rank": 1,
@@ -588,7 +588,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-05T00:53:03.191Z",
+      "updatedAt": "2026-10-05T06:13:48.127Z",
       "items": [
         {
           "rank": 1,
@@ -642,7 +642,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-05T00:53:03.191Z",
+      "updatedAt": "2026-10-05T06:13:48.127Z",
       "items": [
         {
           "rank": 1,
@@ -661,6 +661,15 @@
           "platform": "Aha",
           "releaseDate": "July 31, 2026",
           "languages": "Telugu · Tamil"
+        },
+        {
+          "rank": 3,
+          "title": "Kahan Shuru Kahan Khatam OTT: When And Where To...",
+          "language": "Telugu",
+          "img": "https://images.filmibeat.com/img/popcorn/movie_lists/kahan-shuru-kahan-khatam-ott-when-and-where-to-dhvani-bhanushalis-comedy-drama-online-20260930102736-444.jpg",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
         }
       ],
       "note": "Latest available Telugu-relevant titles on Aha."
@@ -669,7 +678,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "ok",
-      "updatedAt": "2026-10-05T00:53:03.191Z",
+      "updatedAt": "2026-10-05T06:13:48.127Z",
       "items": [
         {
           "rank": 1,
@@ -705,7 +714,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "ok",
-      "updatedAt": "2026-10-05T00:53:03.191Z",
+      "updatedAt": "2026-10-05T06:13:48.127Z",
       "items": [
         {
           "rank": 1,
@@ -732,7 +741,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-05T00:53:03.191Z",
+      "updatedAt": "2026-10-05T06:13:48.127Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -740,7 +749,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-05T00:53:03.191Z",
+      "updatedAt": "2026-10-05T06:13:48.127Z",
       "items": [],
       "note": "No usable titles currently available."
     },
@@ -748,7 +757,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "ok",
-      "updatedAt": "2026-10-05T00:53:03.191Z",
+      "updatedAt": "2026-10-05T06:13:48.127Z",
       "items": [
         {
           "rank": 1,
