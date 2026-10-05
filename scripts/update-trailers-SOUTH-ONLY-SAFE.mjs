@@ -125,7 +125,6 @@ async function searchYouTube(query, publishedAfter){
     regionCode: "IN",
     relevanceLanguage: "te",
     videoEmbeddable: "true",
-    videoSyndicated: "true",
     maxResults: MAX_RESULTS
   });
 }
