@@ -132,12 +132,23 @@ async function searchYouTube(query, publishedAfter){
 async function getDetails(ids){
   if (!ids.length) return [];
 
-  const data = await youtube("videos", {
-    part: "snippet,status,contentDetails",
-    id: ids.join(",")
-  });
+  const results = [];
 
-  return Array.isArray(data.items) ? data.items : [];
+  // YouTube videos.list accepts a maximum of 50 video IDs per request.
+  for (let i = 0; i < ids.length; i += 50) {
+    const batch = ids.slice(i, i + 50);
+
+    const data = await youtube("videos", {
+      part: "snippet,status,contentDetails",
+      id: batch.join(",")
+    });
+
+    if (Array.isArray(data.items)) {
+      results.push(...data.items);
+    }
+  }
+
+  return results;
 }
 
 async function main(){
