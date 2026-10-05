@@ -134,8 +134,7 @@ async function getDetails(ids){
 
   const data = await youtube("videos", {
     part: "snippet,status,contentDetails",
-    id: ids.join(","),
-    maxResults: 50
+    id: ids.join(",")
   });
 
   return Array.isArray(data.items) ? data.items : [];
