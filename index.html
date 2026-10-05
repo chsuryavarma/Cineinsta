@@ -832,7 +832,7 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
 </section>
 
 <section class="section" id="trailersSection">
-<div class="sectionHead"><h2>Latest Trailers</h2><span>Telugu</span></div>
+<div class="sectionHead"><h2>Latest Telugu Trailers &amp; Teasers</h2><span>Telugu</span></div>
 <div class="trailerGrid" id="trailerGrid"><div class="empty">Loading latest Telugu trailers...</div></div>
 <a href="/trailers" class="moreBtn">View All Trailers</a>
 </section>
@@ -1459,13 +1459,13 @@ button.textContent=displayLimit>initialCount ? "Show Less News" : "Read More New
 function renderTrailers(items){
 const grid=document.getElementById("trailerGrid");
 if(!items.length){grid.innerHTML='<div class="empty">No latest Telugu trailers available right now.</div>';return}
-grid.innerHTML=items.slice(0,8).map(function(item){
+grid.innerHTML=items.slice(0,10).map(function(item){
 let image=item.img||"";
 if(item.youtubeId)image="https://i.ytimg.com/vi/"+item.youtubeId+"/hqdefault.jpg";
 return `
 <article class="trailerCard"><a href="/trailers/${articleSlug(item)}">
 <div class="trailerThumb">${image?`<img src="${escapeHTML(image)}" alt="${escapeHTML(item.title||"")}" loading="lazy" decoding="async" onerror="this.closest('.trailerCard')?.remove()">`:`<div style="height:100%;display:grid;place-items:center;color:#555;font-size:24px">🎬</div>`}<div class="play">▶</div></div>
-<div class="trailerBody"><div class="trailerTitle">${escapeHTML(item.title||"")}</div><div class="trailerSource">${escapeHTML(item.source||"Telugu Trailer")}${formatDate(item.publishedAt)?" · "+formatDate(item.publishedAt):""}</div></div>
+<div class="trailerBody"><div class="trailerTitle">${escapeHTML(item.title||"")}</div><div class="trailerSource">${escapeHTML(item.videoType ? item.videoType + " · YouTube" : "YouTube")}${formatDate(item.publishedAt)?" · "+formatDate(item.publishedAt):""}</div></div>
 </a></article>`}).join("");
 }
 
