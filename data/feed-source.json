@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-04T18:14:40.380Z",
+  "updatedAt": "2026-10-05T00:10:32.490Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.gulte.com/movienews/435064/rgvs-attack-on-celebs-misses-another-perspective",
+      "title": "RGV’s Attack on Celebs Misses Another Perspective?",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/435064/rgvs-attack-on-celebs-misses-another-perspective",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2025/12/RGV-bollywood.jpg",
+      "publishedAt": "2026-10-04T20:49:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/can-ranabaali-end-vijay-deverakondas-eight-year-box-office-slump-ng.html",
       "title": "Box Office Success: Can Ranabaali End Vijay Deverakonda’s Eight-Year Slump?",
@@ -9,7 +20,7 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/can-ranabaali-end-vijay-deverakondas-eight-year-box-office-slump-ng.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/RAnabali-1.webp",
-      "publishedAt": "2026-10-04T17:15:39.000Z",
+      "publishedAt": "2026-10-04T18:15:39.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -320,20 +331,19 @@
       "publishedAt": "2026-10-03T17:30:37.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/the-paradise-ott-version-likely-to-feature-a-key-change-prp.html",
-      "title": "The Paradise: OTT version likely to feature a key change",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు The Paradise: OTT version likely to feature...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/the-paradise-ott-version-likely-to-feature-a-key-change-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-3-2.webp",
-      "publishedAt": "2026-10-03T16:30:22.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
       "title": "Ebenezer - Official Trailer",
@@ -442,16 +452,6 @@
       "img": "https://static.toiimg.com/thumb/msid-133965911,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-09T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
-      "youtubeId": "",
-      "publishedAt": null,
       "language": "Telugu"
     }
   ],
