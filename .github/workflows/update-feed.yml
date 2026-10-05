@@ -54,10 +54,10 @@ jobs:
           node scripts/publish-feed.mjs
 
       - name: Update South Indian trailer feed
-  env:
-    YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-  run: |
-    node scripts/update-trailers-SOUTH-ONLY-SAFE.mjs
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          node scripts/update-trailers-SOUTH-ONLY-SAFE.mjs
 
       - name: Update Cineinsta theatre trend signals
         env:
