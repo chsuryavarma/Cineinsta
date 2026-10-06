@@ -3,6 +3,16 @@ import fs from "node:fs/promises";
 const FEED_FILE = new URL("../data/feed.json", import.meta.url);
 const API_KEY = process.env.YOUTUBE_API_KEY || "";
 
+const OFFICIAL_CHANNEL_HANDLES = [
+  "@MythriMovieMakers",
+  "@peoplemediafcy",
+  "@GeethaArts",
+  "@DVVMovies",
+  "@SitharaEnts",
+  "@srivenkateswaracreations3802",
+  "@VyjayanthiNetwork"
+];
+
 const QUERIES = [
   "Telugu official trailer",
   "Telugu official teaser",
@@ -23,7 +33,15 @@ const BLOCKED = [
   "full movie","full video","interview","review","reaction","shorts",
   "short","reel","making","behind the scenes","bts","promo song",
   "audio launch","press meet","media meet","first look poster",
-  "motion poster","title announcement"
+  "motion poster","title announcement","speech","launch event",
+  "event highlights","trailer launch","teaser launch","pre-release event",
+  "pre release event","success meet","public talk","public response",
+  "news","news update","cinema update","film update","movie update",
+  "trailer reaction","teaser reaction","trailer review","teaser review",
+  "trailer explained","teaser explained","breakdown","status",
+  "whatsapp status","instagram reel","fan made","fan edit","fan trailer",
+  "concept trailer","concept teaser","ai trailer","ai teaser","parody",
+  "meme","trending","trends"
 ];
 
 const NON_TELUGU = [
@@ -115,6 +133,36 @@ async function youtube(path, params){
   return data;
 }
 
+async function resolveOfficialChannels(){
+  const approved = new Map();
+
+  for (const handle of OFFICIAL_CHANNEL_HANDLES) {
+    try {
+      const data = await youtube("channels", {
+        part: "snippet",
+        forHandle: handle
+      });
+
+      const item = data?.items?.[0];
+      if (item?.id) {
+        approved.set(item.id, clean(item.snippet?.title || handle));
+        console.log("Approved official channel: " + clean(item.snippet?.title || handle));
+      } else {
+        console.log("Official channel not found for handle: " + handle);
+      }
+    } catch (error) {
+      console.log("Channel lookup failed for " + handle + ": " + error.message);
+    }
+  }
+
+  if (approved.size < 3) {
+    throw new Error("Official channel verification failed. Only " + approved.size + " approved production-house channels were resolved.");
+  }
+
+  console.log("Approved official channels: " + approved.size);
+  return approved;
+}
+
 async function searchYouTube(query, publishedAfter){
   return youtube("search", {
     part: "snippet",
@@ -152,6 +200,8 @@ async function getDetails(ids){
 }
 
 async function main(){
+  const approvedChannels = await resolveOfficialChannels();
+
   const cutoff = Date.now() - DAYS_BACK * 86400000;
   const publishedAfter = new Date(cutoff).toISOString();
   const candidates = new Map();
@@ -182,6 +232,7 @@ async function main(){
   }
 
   console.log("YouTube candidates: " + candidates.size);
+  console.log("Authenticity filter: approved official production-house channels only");
 
   const videos = await getDetails([...candidates.keys()]);
   const byId = new Map(videos.map(v => [v.id,v]));
@@ -197,6 +248,11 @@ async function main(){
     const title = clean(s.title || candidate.title);
     const description = clean(s.description || candidate.description);
     const publishedAt = s.publishedAt || candidate.publishedAt;
+    const channelId = s.channelId || candidate.channelId || "";
+
+    // HARD AUTHENTICITY GATE: uploader must be an approved official channel.
+    if (!approvedChannels.has(channelId)) continue;
+
     const videoType = classify(title, description);
 
     if (!videoType) continue;
@@ -213,8 +269,8 @@ async function main(){
     accepted.push({
       id: "youtube:" + candidate.id,
       title,
-      source: candidate.channelTitle || "YouTube",
-      channelId: candidate.channelId || s.channelId || "",
+      source: approvedChannels.get(channelId) || candidate.channelTitle || "YouTube",
+      channelId,
       url: "https://www.youtube.com/watch?v=" + candidate.id,
       img:
         s.thumbnails?.high?.url ||
