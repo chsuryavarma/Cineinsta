@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-10-05T18:12:08.700Z",
+  "updatedAt": "2026-10-06T00:13:37.051Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/is-allu-arjun-planning-to-reunite-with-this-telugu-mass-director-prp.html",
+      "title": "Is Allu Arjun planning to reunite with this Telugu mass director?",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Is Allu Arjun planning to reunite with this Telugu mass...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/is-allu-arjun-planning-to-reunite-with-this-telugu-mass-director-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/11/alluarjun-1.webp",
+      "publishedAt": "2026-10-05T20:30:16.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/dont-trouble-the-trouble-continues-to-struggle-at-the-box-office-avd.html",
+      "title": "Don’t Trouble The Trouble continues to struggle at the box office",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Don’t Trouble The Trouble continues to...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/dont-trouble-the-trouble-continues-to-struggle-at-the-box-office-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
+      "publishedAt": "2026-10-05T19:30:36.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/ott-releases-from-oct-5-to-oct-11-what-to-watch-this-week-on-netflix-jiohotstar-and-others-hk.html",
       "title": "OTT Releases From Oct 5 to Oct 11: What to Watch This Week on Netflix, JioHotstar and Others",
@@ -212,17 +234,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.123telugu.com/mnews/pic-talk-allu-arjun-serving-a-style-statement-in-the-latest-snap-prp.html",
-      "title": "Pic Talk: Allu Arjun serving a style statement in the latest snap",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Pic Talk: Allu Arjun serving a style...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/pic-talk-allu-arjun-serving-a-style-statement-in-the-latest-snap-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/AA.webp",
-      "publishedAt": "2026-10-05T09:34:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.cinejosh.com/news/1/130397/vijay-sethupathi-baththa-box-office-shows-gradual-growth.html",
       "title": "Vijay Sethupathi Baththa Box Office Shows Gradual Growth",
       "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Glowing Reviews For Vijay Sethupathi Film Vijay Sethupathi Baththa Box Office Shows Gradual Growth By Rambabu Updated at:...",
@@ -300,17 +311,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.123telugu.com/mnews/boyapati-sreenu-on-chiranjeevi-balakrishna-multistarrer-definitely-should-be-done-hk.html",
-      "title": "Boyapati Sreenu on Chiranjeevi-Balakrishna Multistarrer - “Definitely Should Be Done”",
-      "summary": "Boyapati Sreenu on Chiranjeevi-Balakrishna Multistarrer – “Definitely Should Be Done” Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/boyapati-sreenu-on-chiranjeevi-balakrishna-multistarrer-definitely-should-be-done-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/BALLAYA.webp",
-      "publishedAt": "2026-10-05T06:31:35.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.telugu360.com/reality-title-glimpse-wholesome-and-outstanding/",
       "title": "Reality Title Glimpse: Wholesome and Outstanding",
       "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
@@ -334,6 +334,16 @@
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://telugu.indiaglitz.com/movie-news/bhogi-teaser-sharwanands-mass-avatar-is-stunning",
       "title": "భోగి టీజర్: శర్వానంద్ ఊరమాస్ అవతార్ అదిరింది..",
@@ -440,16 +450,6 @@
       "source": "ETimes Telugu",
       "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
       "img": "https://static.toiimg.com/thumb/msid-134284930,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "title": "Baththa - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134285020,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
@@ -1120,12 +1120,12 @@
       "t": "Epic First Semester",
       "l": "Telugu",
       "releaseDate": "2026-09-11",
-      "rating": "2.25/5",
+      "rating": "2.33/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/epic-first-semester-review-bold-but-uneven/",
       "aggregator": {
-        "average": 2.25,
+        "average": 2.33,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1141,8 +1141,8 @@
           },
           {
             "source": "M9.news",
-            "rating": 2,
-            "ratingText": "2/5",
+            "rating": null,
+            "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/epic-2026-telugu-movie-review-rating/"
           },
           {
