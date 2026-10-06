@@ -41,7 +41,7 @@ jobs:
             echo "EDITORIAL_FAILED=true" >> "$GITHUB_OUTPUT"
             echo "Editorial generation did not produce a publishable batch."
             echo "The existing published feed will be preserved."
-            echo "The workflow will continue so Buzz, theatre signals, trailers and sitemaps can still update."
+            echo "The workflow will continue so Buzz, theatre signals and sitemaps can still update."
           else
             echo "EDITORIAL_FAILED=false" >> "$GITHUB_OUTPUT"
           fi
@@ -52,12 +52,6 @@ jobs:
         if: steps.editorial.outputs.EDITORIAL_FAILED != 'true'
         run: |
           node scripts/publish-feed.mjs
-
-      - name: Update South Indian trailer feed
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: |
-          node scripts/update-trailers-SOUTH-ONLY-SAFE.mjs
 
       - name: Update Cineinsta theatre trend signals
         env:
@@ -89,7 +83,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update Cineinsta feed, South Indian trailers, Buzz and sitemaps"
+          git commit -m "Update Cineinsta feed, Buzz and sitemaps"
 
           # The remote main branch may have advanced while this job was running.
           # Rebase this generated commit onto the latest remote main before pushing.
