@@ -1,11 +1,222 @@
 {
-  "updatedAt": "2026-10-06T06:13:40.809Z",
+  "updatedAt": "2026-10-06T12:14:11.985Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://telugucinema.com/news/aa23-is-allu-arjun-lokesh-kanagaraj-film-scrapped",
+      "title": "Uncertainty Surrounds Allu Arjun and Lokesh Kanagaraj's AA23 Project",
+      "summary": "Questions have been raised regarding the status of AA23, the proposed collaboration between actor Allu Arjun and filmmaker Lokesh Kanagaraj. Movie enthusiasts and industry followers are closely monitoring updates to see whether the venture remains active or has been shelved.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/aa23-is-allu-arjun-lokesh-kanagaraj-film-scrapped",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/02/aa23-lokeshalluarjun.jpg",
+      "publishedAt": "2026-10-06T12:00:01.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Speculation and uncertainty have emerged around AA23, a highly anticipated cinematic venture that brings together prominent actor Allu Arjun and director Lokesh Kanagaraj. As discussions regarding the project's future circulate, fans and industry observers are left wondering about its actual status.",
+        "Collaborations of this scale naturally attract immense attention within the entertainment sphere. While questions linger over whether the venture has been officially scrapped, audiences continue to await formal clarifications from the creative team involved."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/435277/anupamas-crazy-kalyanam-gets-october-16-release",
+      "title": "Anupama Starrer Crazy Kalyanam Locks October 16 Release Date",
+      "summary": "The upcoming film Crazy Kalyanam, featuring Anupama, has officially locked in its theatrical arrival for October 16. Anticipation is building as the project secures its official launch schedule.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/435277/anupamas-crazy-kalyanam-gets-october-16-release",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/New-Project-61.jpg",
+      "publishedAt": "2026-10-06T11:24:08.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The makers of Crazy Kalyanam have locked an official release date for the project. Starring Anupama, the feature is scheduled to arrive for audiences on October 16.",
+        "With the release timeline now firmly established, supporters can look forward to seeing the project materialize on the big screen as preparations move forward."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/the-traitors-trailer-teja-sajja-brings-authority-to-primevideos-biggest-reality-show/",
+      "title": "Teja Sajja Leads Prime Video's The Traitors in New Trailer",
+      "summary": "Teja Sajja brings a strong sense of authority to Prime Video's major reality program, The Traitors, following the release of its latest promotional trailer. The new video highlights his prominent involvement in the high-stakes streaming series.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/the-traitors-trailer-teja-sajja-brings-authority-to-primevideos-biggest-reality-show/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/The-Traitors-trailer.jpg",
+      "publishedAt": "2026-10-06T11:16:52.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Prime Video has rolled out promotional material for its major reality venture, The Traitors, spotlighting actor Teja Sajja. The newly launched trailer showcases his commanding presence and authority on the show.",
+        "As one of the platform's major reality productions, the release of the trailer offers audiences a glimpse into the dynamic tone of the series and the role Teja Sajja plays in driving the format forward."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130420/jim-jim-thaara-songfrom-parnashala.html",
+      "title": "Parnashala Team Adopts Unique Marketing Strategy for Jim Jim Thaara Song",
+      "summary": "The creative team behind Parnashala has rolled out a distinct marketing strategy for their upcoming track, Jim Jim Thaara, generating fresh buzz around the film.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130420/jim-jim-thaara-songfrom-parnashala.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/jim-jim-thaara-songfrom-parnashala-1791283715862-1791283715792.jpg",
+      "publishedAt": "2026-10-06T10:48:38.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The makers of the upcoming cinematic project Parnashala have grabbed attention with an innovative promotional approach for their musical track, Jim Jim Thaara.",
+        "As promotional campaigns for new releases continue to evolve across the industry, the Parnashala team's strategy highlights the growing importance of creative pre-release marketing to capture audience interest."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/comrade-kalyan-trailer-sree-vishnus-naxalite-avatar-promises-a-fun-ride-prp.html",
+      "title": "Sree Vishnu Embraces a Naxalite Persona in Comrade Kalyan Trailer",
+      "summary": "The official trailer for Comrade Kalyan has dropped, featuring Sree Vishnu in an entertaining Naxalite avatar that promises an engaging cinematic ride.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/comrade-kalyan-trailer-sree-vishnus-naxalite-avatar-promises-a-fun-ride-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-1.webp",
+      "publishedAt": "2026-10-06T10:32:55.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Sree Vishnu is back in the spotlight with the newly released trailer for his upcoming project, Comrade Kalyan.",
+        "The preview showcases the lead star stepping into a Naxalite avatar, blending a serious backdrop with a fun and entertaining ride for moviegoers.",
+        "With the trailer now out, anticipation continues to build around how this unique character arc will unfold on the big screen."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/435267/allu-arjun-lokesh-kanagaraj-movie-is-very-much-on-track",
+      "title": "Collaboration Between Allu Arjun and Lokesh Kanagaraj Remains on Track",
+      "summary": "Recent updates confirm that the much-discussed cinematic collaboration between star Allu Arjun and director Lokesh Kanagaraj is very much moving forward as planned.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/435267/allu-arjun-lokesh-kanagaraj-movie-is-very-much-on-track",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/08/allu-arjun-Loki-dc-.jpg",
+      "publishedAt": "2026-10-06T09:06:48.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Fans awaiting updates on the potential project featuring Allu Arjun and director Lokesh Kanagaraj can breathe a sigh of relief, as current reports confirm the venture remains firmly on track.",
+        "Such high-profile creative pairings are heavily anticipated within the industry, and any confirmation regarding its active status is welcome news for followers of both talents."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130419/vijay-devarakonda-rashmika-mandanna-shoot-for-koffee-with-karan.html",
+      "title": "Vijay Deverakonda and Rashmika Mandanna Reportedly Shoot for Koffee with Karan",
+      "summary": "Popular actors Vijay Deverakonda and Rashmika Mandanna have reportedly completed a shooting schedule for the hit celebrity chat show Koffee with Karan.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130419/vijay-devarakonda-rashmika-mandanna-shoot-for-koffee-with-karan.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-devarakonda-rashmika-mandanna-shoot-for-koffee-with-karan-1791276942833-1791276943223.jpg",
+      "publishedAt": "2026-10-06T08:56:51.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Popular Indian cinema stars Vijay Deverakonda and Rashmika Mandanna have captured attention after reportedly stepping onto the famous couch for Karan Johar's celebrity chat show, Koffee with Karan.",
+        "Both actors have built substantial fan bases through their work in the film industry, making their joint appearance a notable topic of discussion among cinema followers.",
+        "While specific broadcast details and official promotional announcements remain awaited, the confirmed filming session has generated considerable curiosity about what the pair will share on the programme."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/maremma-ravi-tejas-nephew-maadhav-bhupathirajus-film-locks-ott-date-hk.html",
+      "title": "Maadhav Bhupathiraju’s Maremma Locks Official OTT Premiere Date",
+      "summary": "Maremma, featuring Ravi Teja’s nephew Maadhav Bhupathiraju, has officially locked its upcoming digital streaming release date.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/maremma-ravi-tejas-nephew-maadhav-bhupathirajus-film-locks-ott-date-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Maremma-2.webp",
+      "publishedAt": "2026-10-06T08:32:39.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The upcoming film Maremma, which stars Maadhav Bhupathiraju—nephew of prominent actor Ravi Teja—has officially secured its digital streaming platform release date.",
+        "The project has drawn attention from regional cinema followers due to its casting connections and the growing preference for OTT premieres.",
+        "Further details regarding the streaming platform and premiere timings are anticipated as the release date approaches."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/130418/prabhas-accidentally-leaks-fauzi-video.html",
+      "title": "Prabhas Accidentally Leaks Footage Related to Fauzi",
+      "summary": "Leading Indian cinema star Prabhas has reportedly been connected to an accidental leak of video footage concerning the project Fauzi.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/130418/prabhas-accidentally-leaks-fauzi-video.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-accidentally-leaks-fauzi-video-1791273895392-1791273895788.jpg",
+      "publishedAt": "2026-10-06T08:04:58.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Tollywood superstar Prabhas has inadvertently drawn the spotlight following an accidental leak involving video material from the project Fauzi.",
+        "The unintentional disclosure has sparked discussion across cinema circles regarding the nature of the footage and its connection to the actor.",
+        "As discussions continue among fans and observers, official clarifications or statements regarding the leaked video are awaited."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/jailer-2-trailer-hrithik-roshans-body-double-clears-the-mystery-hk.html",
+      "title": "Jailer 2 Trailer Clears Up Mystery Surrounding Hrithik Roshan’s Body Double",
+      "summary": "The trailer for Jailer 2 has officially cleared up ongoing questions and mysteries concerning Hrithik Roshan’s body double.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/jailer-2-trailer-hrithik-roshans-body-double-clears-the-mystery-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Jailer-and-hrithik.webp",
+      "publishedAt": "2026-10-06T07:42:19.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The newly released trailer for the upcoming film Jailer 2 has offered clarity on a specific point of discussion involving a body double for Bollywood star Hrithik Roshan.",
+        "Questions and speculations had previously circulated regarding the inclusion and role of the body double in connection with the production.",
+        "With the arrival of the promotional trailer, the mystery has been publicly addressed, satisfying curious fans and industry observers alike."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/435220/husharu-gang-returns-with-double-the-madness",
+      "title": "The Husharu Crew Makes a Chaotic Comeback",
+      "summary": "The popular gang from Husharu is officially back on the radar, promising double the madness for cinema enthusiasts. Fans of the original project can look forward to seeing the ensemble team return together.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/435220/husharu-gang-returns-with-double-the-madness",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/husharu-21.jpg",
+      "publishedAt": "2026-10-06T07:10:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The creative team behind the well-known cinematic outing Husharu is making waves with news of their return. Known for their distinct youthful energy and camaraderie, the ensemble is gearing up to bring a double dose of madness back to the screen.",
+        "Followers of the original feature have expressed eagerness regarding how the upcoming venture will capture that same chaotic spirit. While specific plot details remain under wraps, the mere return of the primary gang has sparked conversations across film circles.",
+        "As developments unfold, moviegoers continue to track updates surrounding this energetic reunion. The return of the team promises to deliver another entertaining ride for regional cinema fans."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/435273/akshay-maddy-to-join-hands-for-a-middle-aged-men-drama",
+      "title": "Akshay Kumar and R Madhavan Reportedly Eyeing Middle-Aged Men Drama",
+      "summary": "Prominent actors Akshay Kumar and R Madhavan are reportedly considering a collaboration for a new drama focused on middle-aged men. Cinephiles are tracking the potential pairing as an intriguing new cinematic prospect.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/435273/akshay-maddy-to-join-hands-for-a-middle-aged-men-drama",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Screenshot_20261006_162723.jpg",
+      "publishedAt": "2026-10-06T07:08:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Rumors are circulating that prominent actors Akshay Kumar and R Madhavan might soon share the screen for a dramatic feature. Speculation points toward a narrative centered on the lives and experiences of middle-aged men.",
+        "Both actors bring distinct acting styles and strong screen presence to their respective filmographies, making a potential collaboration an interesting prospect for movie enthusiasts. Industry watchers are keen to see how this dynamic duo would handle a character-driven drama.",
+        "No official confirmation has been finalized regarding the project's timeline or production details yet. However, the initial pairing rumor has already captured the attention of followers anticipating fresh combinations in mainstream cinema."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
       "id": "https://telugucinema.com/news/will-dada-really-complete-its-entire-shooting-in-the-next-two-months",
-      "title": "Questions Surround Shooting Timeline for Dada",
-      "summary": "Industry discussions focus on whether the film Dada will manage to wrap up its entire production schedule over the course of the next two months.",
+      "title": "Industry Buzz Surrounds the Shooting Timeline of Dada",
+      "summary": "Questions are swirling in film circles about whether the movie Dada will manage to wrap up its entire shooting schedule within the next two months. Observers are closely following production updates as the team works through their filming commitments.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/will-dada-really-complete-its-entire-shooting-in-the-next-two-months",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/dada-title-sep0626.jpg",
@@ -13,16 +224,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Questions are currently circulating within the film community regarding the production timeline of the project known as Dada. Specifically, discussions center on whether the entire shooting schedule for the film can realistically be completed within the next two months.",
-        "As details continue to emerge around the production pace of Dada, industry observers are tracking the feasibility of this tight shooting window. Such rapid production timelines often draw significant attention from fans and followers eager to see how quickly a project moves from set to completion.",
-        "Further updates from the makers are expected to clarify the actual progress of the shooting schedule for Dada. Until then, the question of whether production will wrap up in the next two months remains a point of interest for audiences."
+        "Speculation has risen within the regional cinema circuit regarding the production timeline of the film Dada. Specifically, discussions are focused on whether the entire principal photography and shooting schedule can be completed within a strict two-month window.",
+        "Fast-paced production schedules are not uncommon in the film industry, but wrapping up a complete feature shoot within such a short timeframe requires careful coordination. Cast and crew members face tight deadlines to meet these projected production milestones.",
+        "Fans and industry trackers await official updates from the production team regarding whether they will successfully meet this ambitious target. Completion of the shoot will mark a major step forward toward the film's eventual release."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/no-truth-in-rumours-about-allu-arjuns-next-hk.html",
-      "title": "Clarification Issued Regarding Allu Arjun’s Upcoming Projects",
-      "summary": "Recent reports regarding Allu Arjun's next cinematic venture have been addressed, with clarifications confirming that various circulating rumors hold no truth.",
+      "title": "Cineinsta Update: Clarifying Recent Rumours Surrounding Allu Arjun’s Upcoming Projects",
+      "summary": "Recent speculations regarding Allu Arjun's next cinematic venture have been addressed, with official indications clarifying that the circulating rumours hold no truth. Fans and industry followers keeping track of the star's upcoming updates are advised to rely on official announcements.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/no-truth-in-rumours-about-allu-arjuns-next-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/01/AA23-2.webp",
@@ -30,16 +242,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent speculation surrounding Allu Arjun’s next film project has prompted a clear response regarding ongoing rumors. Official indications clarify that there is no truth to the various reports currently circulating about the actor's upcoming cinematic ventures.",
-        "In the film industry, high-profile stars frequently become the subject of speculative casting and project rumors. This latest clarification aims to set the record straight for fans and followers who have been tracking news about Allu Arjun's next move.",
-        "Audiences are advised to rely on official announcements rather than unconfirmed reports concerning the star's upcoming slate. Further authentic updates regarding Allu Arjun's next project will be shared as they become available."
+        "Recent social media circles and industry chatter have been rife with speculations regarding Allu Arjun's next film project. However, updates surrounding the actor have confirmed that there is no truth to the ongoing rumours.",
+        "In the film industry, prominent actors frequently find themselves at the center of unverified reports concerning their future cinematic ventures. This latest clarification aims to put an end to the baseless stories currently circulating among movie enthusiasts.",
+        "Fans and followers looking forward to official news on Allu Arjun's upcoming work are encouraged to wait for verified announcements directly from the actor or authorized production teams rather than relying on unconfirmed speculation."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.cinejosh.com/news/1/130412/when-big-films-postpone-small-films-pay-the-price.html",
-      "title": "The Industry Ripple Effect: How Major Film Postponements Impact Smaller Releases",
-      "summary": "When high-profile cinematic productions decide to alter their release schedules, the resulting changes often create notable challenges for smaller films operating in the same market.",
+      "title": "Cineinsta Analysis: The Hidden Industry Cost When Major Productions Postpone Their Release",
+      "summary": "When high-profile major films delay their release schedules, smaller productions often bear the unintended financial and strategic consequences. Industry discussions highlight how rescheduling blockbusters creates a ripple effect across the broader theatrical landscape.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130412/when-big-films-postpone-small-films-pay-the-price.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/when-big-films-postpone-small-films-pay-the-price-1791263977367-1791263977766.jpg",
@@ -47,16 +260,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The rescheduling and postponement of major cinematic projects often trigger a significant ripple effect across the film industry. While blockbuster productions command immense attention, their scheduling shifts frequently create unforeseen hurdles for smaller films trying to secure adequate screen space and audience traction.",
-        "In the ecosystem of commercial cinema, the timing of a major release dictates the surrounding market environment. When a prominent film delays its arrival, smaller movies often bear the financial and logistical consequences, struggling to navigate the altered release landscape.",
-        "Understanding these industry dynamics highlights the delicate balance required in film distribution and scheduling. The interplay between big-budget titles and smaller releases remains a critical factor in the overall health of the entertainment market."
+        "The theatrical release ecosystem relies on careful scheduling to ensure that various projects find adequate breathing room at the box office. When a high-profile major film decides to postpone its arrival, the resulting scheduling shift often triggers unexpected challenges for smaller independent or mid-budget releases.",
+        "Smaller films frequently struggle to secure optimal theater screens, showtimes, and audience attention when forced to compete or adjust alongside rescheduled blockbusters. This dynamic underscores the interconnected nature of film distribution, where scheduling adjustments at the top level directly impact the commercial viability of modest productions.",
+        "Understanding these behind-the-scenes distribution complexities offers valuable insight into the risks and strategic planning required by producers navigating the theatrical market."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/naga-vamsis-epic-gets-its-ott-release-date-netflix-confirms-multilingual-release-hk.html",
-      "title": "Netflix Announces OTT Release Date and Multilingual Plans for Naga Vamsi’s Epic",
-      "summary": "Netflix has officially confirmed the OTT release date for Naga Vamsi's upcoming epic, which is set to launch globally in a multilingual format.",
+      "title": "Cineinsta OTT Update: Netflix Confirms Multilingual Digital Release Date for Naga Vamsi’s Epic",
+      "summary": "Producer Naga Vamsi's epic project has officially secured its digital premiere date on Netflix. The platform has confirmed a multilingual streaming release, bringing the grand scale production to a broader audience base.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/naga-vamsis-epic-gets-its-ott-release-date-netflix-confirms-multilingual-release-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Epic-4.webp",
@@ -64,16 +278,35 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The digital release details for producer Naga Vamsi’s upcoming epic project have officially been locked. Streaming platform Netflix has confirmed both the scheduled OTT release date and the multilingual format for the film's premiere.",
-        "This development brings the high-profile project one step closer to reaching a wide digital audience across different language regions. Multilingual releases on major streaming platforms have become increasingly vital for expanding the reach of prominent cinematic works.",
-        "Fans eagerly awaiting the film can now mark their calendars for its digital arrival on Netflix. Further details regarding the streaming premiere are expected to follow as the release date approaches."
+        "Streaming giant Netflix has officially announced the OTT release date for the much-anticipated epic production associated with producer Naga Vamsi. The project is set to reach digital audiences in multiple languages, ensuring wide accessibility across different regions.",
+        "Multilingual digital releases have become an essential component of modern cinema distribution, allowing large-scale regional films to connect with viewers beyond traditional theatrical boundaries. Netflix's confirmation highlights the growing trend of making grand cinematic ventures available globally on digital platforms.",
+        "With the streaming premiere date now locked in, audiences eagerly awaiting the digital debut can look forward to experiencing the epic production from the comfort of their homes in their preferred language."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/435209/ntrs-ai-video-issue-reaching-dcm-pawan-kalyan",
+      "title": "Cineinsta Spotlight: Addressing the Talking Points Around NTR and Janhvi’s AI Video Issue",
+      "summary": "Recent discussions have turned toward how prominent figures might address the ongoing concerns involving an AI-generated video featuring NTR and Janhvi. As digital manipulation and deepfake technology impact the industry, questions arise regarding official responses and regulatory measures.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/435209/ntrs-ai-video-issue-reaching-dcm-pawan-kalyan",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/NTR-chuttamalle-pawan-kalyan.jpg",
+      "publishedAt": "2026-10-06T04:27:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The rapid evolution of artificial intelligence and digital video manipulation has introduced new challenges for the film industry, most recently highlighted by an AI video issue involving NTR and Janhvi. As these unauthorized digital creations circulate online, industry observers are discussing how prominent personalities and leaders might respond to the growing phenomenon.",
+        "The misuse of actor likenesses through deepfakes and AI-generated content poses serious ethical and legal concerns for performers and studios alike. Discussions surrounding potential interventions highlight the urgent need for stricter safeguards and proactive measures to protect artists from digital impersonation.",
+        "As conversations continue across film circles, the handling of such digital incidents remains a critical talking point for the future governance of media representation in entertainment."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://telugucinema.com/news/ranabaali-director-rahul-sankrityan-gets-trolled-for-electricity-comment",
-      "title": "Ranabaali Director Rahul Sankrityan Faces Social Media Trolling Over Electricity Remarks",
-      "summary": "Filmmaker Rahul Sankrityan, director of the upcoming project Ranabaali, has found himself targeted by online trolls following a recent comment he made concerning electricity.",
+      "title": "Director Rahul Sankrityan Faces Social Media Trolling Over Electricity Remark",
+      "summary": "Filmmaker Rahul Sankrityan, known for directing the upcoming project Ranabaali, has drawn heavy trolling on social media following a recent comment he made regarding electricity.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/ranabaali-director-rahul-sankrityan-gets-trolled-for-electricity-comment",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/vijaydeverakonda-rahusankrityan-oct626.jpg",
@@ -81,16 +314,35 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Filmmaker Rahul Sankrityan, known for directing the upcoming movie Ranabaali, has recently drawn significant online attention and trolling. The social media backlash stems from a specific comment regarding electricity made by the director.",
-        "While details surrounding the exact context of the remark remain limited to initial reactions online, the comment quickly drew criticism from netizens. Public figures and filmmakers often face intense scrutiny on digital platforms, where casual remarks can rapidly escalate into major social media discussions.",
-        "As the discourse continues to circulate online, the situation highlights the delicate relationship between creators and public opinion in the digital age. Filmmakers like Sankrityan must navigate heightened visibility as anticipation builds for their upcoming cinematic ventures."
+        "Filmmaker Rahul Sankrityan has recently found himself at the center of social media trolling. The online backlash stems from a specific comment made by the director regarding electricity.",
+        "Sankrityan, who is gearing up for his upcoming directorial venture titled Ranabaali, became the target of negative reactions across digital platforms following his remarks. While details surrounding the exact context of the comment remain sparse in initial reports, social media users quickly seized upon the statement.",
+        "Incidents like these highlight the intense scrutiny that directors and public figures in the film industry face online. As the conversation continues to circulate on digital networks, the focus for Sankrityan remains tied to his upcoming cinematic projects."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/spider-man-brand-new-day-lands-on-ott-heres-where-to-watch-it-in-india-hk.html",
+      "title": "Spider-Man Brand New Day Streams in India: Where to Watch",
+      "summary": "Spider-Man Brand New Day has officially made its way to the digital space. Indian audiences can now stream the title as it arrives on OTT platforms.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/spider-man-brand-new-day-lands-on-ott-heres-where-to-watch-it-in-india-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/06/Spider-Man-Brand-New-Day.webp",
+      "publishedAt": "2026-10-06T03:31:39.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The digital landscape for international superhero cinema in India has expanded with the arrival of Spider-Man Brand New Day on OTT platforms.",
+        "Fans across the country looking to watch the project can now access it through digital streaming channels. This release brings the title directly to home screens for Indian viewers.",
+        "The availability of such major international features on OTT underscores the growing demand for convenient digital access among Indian cinephiles."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.telugu360.com/exclusive-allu-arjun-has-no-time-for-boyapati/",
-      "title": "Reports Indicate Allu Arjun Has No Schedule Alignment for Boyapati Collaboration",
-      "summary": "Recent industry updates suggest that actor Allu Arjun currently has no open schedule to collaborate with director Boyapati, keeping fans waiting for a potential pairing.",
+      "title": "Reports Indicate Allu Arjun Has No Time for Boyapati Collaboration",
+      "summary": "Recent reports suggest that prominent Telugu actor Allu Arjun currently has no availability for a project with filmmaker Boyapati Srinu, as scheduling constraints take precedence.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/exclusive-allu-arjun-has-no-time-for-boyapati/",
       "img": "https://www.telugu360.com/wp-content/uploads/2025/12/Allu-Arjun-2.jpg",
@@ -98,16 +350,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent developments in the film industry indicate that prominent actor Allu Arjun currently lacks the time in his schedule to team up with director Boyapati. Reports point to scheduling constraints as the primary factor keeping the two prominent cinema figures from working together at this moment.",
-        "For cinema enthusiasts eagerly awaiting updates on potential collaborations, schedule alignments often dictate the timeline of major projects. With Allu Arjun's current commitments keeping his calendar full, any prospective partnership with Boyapati will have to wait until future slots open up.",
-        "Industry updates of this nature are common as top-tier actors juggle multiple film commitments. Observers will continue to monitor both talents to see when their respective timelines might finally align for a future venture."
+        "Prominent Telugu actor Allu Arjun is currently facing heavy scheduling constraints that affect his upcoming professional commitments.",
+        "According to recent reports, the actor currently has no time to collaborate with filmmaker Boyapati Srinu. Industry schedules often dictate how stars manage multiple potential film ventures.",
+        "Such scheduling updates are common in the Telugu film industry as major actors juggle high-profile line-ups and production timelines."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/big-surprise-star-heros-flop-film-to-stream-on-6-ott-platforms-hk.html",
-      "title": "Major Star's Underperforming Movie Set for Multi-Platform OTT Debut",
-      "summary": "In an unexpected development for digital releases, a prominent star's commercially unsuccessful film is officially heading to six different OTT platforms. This wide digital availability offers audiences a fresh opportunity to watch the project.",
+      "title": "Surprise OTT Release: A Star Hero's Flop Film Lands on Six Platforms",
+      "summary": "In an unexpected development, a major star hero's previous box office failure is preparing to expand its digital footprint by streaming simultaneously across six different OTT platforms.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/big-surprise-star-heros-flop-film-to-stream-on-6-ott-platforms-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Khalifa.webp",
@@ -115,16 +368,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In a surprising turn of events for digital streaming, a star hero's film that previously faced a tough theatrical run is making its way to multiple streaming services. Rather than locking into a single exclusive provider, the project is preparing for a broad digital launch across as many as six different OTT platforms.",
-        "For cinephiles and fans of the lead actor, this multi-platform strategy ensures that the movie will be widely accessible upon its digital premiere. Even though the title struggled to find commercial success during its initial release, its upcoming presence across various streaming outlets highlights changing distribution trends in the industry.",
-        "The decision to distribute the title across six distinct platforms offers a unique second chance for viewers to experience the project from home. Further details regarding exact streaming dates and the lineup of participating digital networks are anticipated to follow."
+        "In an unexpected turn of events for the digital streaming market, a star hero's previous box office failure is making waves by heading to multiple platforms.",
+        "The title has surprised industry observers by securing a simultaneous release across six distinct OTT channels. This broad multi-platform strategy offers widespread accessibility despite the film's initial theatrical performance.",
+        "Such wide digital distribution highlights how producers and platforms seek to maximize viewership and recover value for projects even after challenging theatrical runs."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/dont-trouble-the-trouble-continues-to-struggle-at-the-box-office-avd.html",
-      "title": "Box Office Struggles Persist for Don’t Trouble The Trouble",
-      "summary": "The theatrical run for Don’t Trouble The Trouble continues to face hurdles as the movie struggles to pull audiences into cinema halls. Ticket window collections reflect ongoing difficulties for the film.",
+      "title": "Don’t Trouble The Trouble Faces Box Office Struggles",
+      "summary": "The film Don’t Trouble The Trouble is currently facing difficulties at the box office, according to recent updates from the theatrical circuit.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/dont-trouble-the-trouble-continues-to-struggle-at-the-box-office-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Trouble-The-Trouble.webp",
@@ -132,16 +386,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The theatrical journey for Don’t Trouble The Trouble remains challenging as the film continues to encounter low momentum at the box office. Despite its presence in theaters, the movie has been unable to secure strong collections.",
-        "Box office reports indicate that the title is facing an uphill battle to attract moviegoers. Industry watchers are closely monitoring how the film performs through the remainder of its theatrical run given the current trend at the ticket windows.",
-        "As the theatrical run moves forward, overcoming these financial and audience turnout hurdles will remain a central challenge for the project."
+        "The theatrical run for the film Don’t Trouble The Trouble has hit a rough patch, with reports indicating ongoing struggles at the box office.",
+        "As the movie continues its theatrical journey, it faces notable challenges in attracting audiences and driving ticket sales. Industry trackers are closely observing how the title fares in the coming days.",
+        "Box office outcomes of this nature often prompt discussions among trade analysts regarding audience reception and theatrical performance trends for current releases."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/435204/rashmika-and-vijay-shot-for-the-baap-of-all-controversies",
-      "title": "Rashmika and Vijay Stir Discussion Following Recent Shoot",
-      "summary": "Actors Rashmika and Vijay have recently drawn attention following a shoot that has sparked widespread discussion and speculation online. The latest developments surrounding the pair have become a major talking point among entertainment followers.",
+      "title": "Rashmika Mandanna And Vijay Devarakonda Linked To Controversy",
+      "summary": "Actors Rashmika Mandanna and Vijay Devarakonda have recently been associated with a major controversy, drawing significant attention across entertainment circles.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/435204/rashmika-and-vijay-shot-for-the-baap-of-all-controversies",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/02/Vijay-Devarakonda-Rashmika.webp",
@@ -149,33 +404,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular actors Rashmika and Vijay have recently found themselves at the center of attention following a filming schedule. Their recent work together has generated considerable buzz and discussion across various media circles.",
-        "The developments surrounding the duo's latest shoot have quickly caught the interest of movie enthusiasts and followers alike. Discussions regarding the nature of the project and their collaboration continue to circulate actively.",
-        "As more information regarding their recent activities emerges, the buzz surrounding Rashmika and Vijay highlights the intense public interest directed toward prominent industry figures."
+        "Popular actors Rashmika Mandanna and Vijay Devarakonda have found themselves at the centre of a fresh controversy that has captured the attention of movie enthusiasts and media outlets alike.",
+        "The unfolding situation highlights the constant public scrutiny faced by prominent figures in the film industry, where developments surrounding notable actors quickly draw widespread interest.",
+        "Further details regarding the nature of this discussion continue to circulate as followers and industry observers monitor the situation closely."
       ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/435201/is-venkatesh-hurt-by-ak-47-postponement",
-      "title": "Questions Raised Over Venkatesh and AK 47 Postponement",
-      "summary": "The recent delay involving AK 47 has led to discussions regarding actor Venkatesh and whether the schedule change has impacted him. Observers are closely following the situation surrounding the project's revised timeline.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435201/is-venkatesh-hurt-by-ak-47-postponement",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/07/adarsha-kutumbam-.jpg",
-      "publishedAt": "2026-10-05T17:11:52.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Recent updates concerning the postponement of AK 47 have raised questions about how the change affects actor Venkatesh. Alterations in release or production schedules frequently spark industry-wide discussions and speculation.",
-        "As details regarding the delay continue to unfold, fans and industry watchers are keen to understand the implications for the actor and the project's overall timeline. Schedule shifts often alter upcoming promotional plans and release calendars.",
-        "Further official announcements are expected to clarify the exact circumstances surrounding the postponement and its impact on those involved."
-      ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/rashmika-reveals-the-basic-reason-for-accepting-ranabaali-avd.html",
-      "title": "Rashmika Discloses Why She Agreed to Star in Ranabaali",
-      "summary": "Actor Rashmika has opened up about her decision to join the project Ranabaali, shedding light on the fundamental motivation behind her signing the film.",
+      "title": "Rashmika Explains Her Motive For Signing Ranabaali",
+      "summary": "Actor Rashmika has publicly shared the primary motivation behind her decision to accept a role in the upcoming project Ranabaali.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/rashmika-reveals-the-basic-reason-for-accepting-ranabaali-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Ranabaali-2.webp",
@@ -183,16 +422,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Rashmika has shared the core reason behind her choice to accept the upcoming film Ranabaali. The revelation gives fans an insight into what drew her to the project.",
-        "While details surrounding the plot of Ranabaali remain limited, Rashmika's explanation highlights the primary factor that influenced her casting decision. Her involvement has generated considerable interest among moviegoers looking forward to the release.",
-        "As production and promotional updates for Ranabaali continue to unfold, audiences will be watching closely to see how this specific role shapes up on screen."
+        "Actor Rashmika has opened up about her professional choices, specifically detailing the fundamental reason that prompted her to sign on for the project Ranabaali.",
+        "Understanding what draws prominent artists to specific scripts offers fans a clearer perspective on upcoming cinema projects and the artistic direction chosen by the actors.",
+        "As anticipation builds for Ranabaali, such insights from the lead cast help maintain audience engagement and excitement around the production."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/balakrishna-to-resume-shooting-for-dada-prp.html",
-      "title": "Balakrishna Gears Up to Restart Filming for Dada",
-      "summary": "Actor Balakrishna is all set to resume production duties for his upcoming film project titled Dada, according to the latest updates.",
+      "title": "Balakrishna Set To Get Back To Work On Dada",
+      "summary": "Prominent actor Balakrishna is preparing to resume filming for his upcoming movie project titled Dada, bringing positive updates for fans.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/balakrishna-to-resume-shooting-for-dada-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/DADA.webp",
@@ -200,33 +440,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Prominent actor Balakrishna is preparing to get back in front of the camera for the upcoming movie Dada. Production activities are scheduled to resume shortly.",
-        "Fans of the star have been eagerly anticipating further updates regarding the progress of Dada. This upcoming restart in the shooting schedule marks a key step forward for the movie's production timeline.",
-        "Further announcements from the team regarding the shooting schedule and other cast details are expected as production moves ahead."
+        "Actor Balakrishna is gearing up to return to the sets to resume shooting for his film project known as Dada, as per recent production updates.",
+        "The resumption of filming is a notable development for the movie's production schedule, ensuring steady progress as the team continues their work on the project.",
+        "Fans and followers of the actor eagerly anticipate further updates from the sets as the shooting schedule moves forward."
       ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130406/youthful-teaser-of-metro-lover.html",
-      "title": "Metro Lover Unveils Youthful Teaser Along with November Release Date",
-      "summary": "The makers of Metro Lover have unveiled a vibrant, youthful teaser while officially locking in November 20 as the film's release date.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130406/youthful-teaser-of-metro-lover.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/youthful-teaser-of-metro-lover-1791216730247-1791216729579.jpg",
-      "publishedAt": "2026-10-05T16:12:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The film Metro Lover has officially locked its theatrical arrival date for November 20. Alongside this release date confirmation, the creative team has rolled out a youthful teaser to build anticipation.",
-        "The newly released teaser highlights the youthful energy of the project, offering audiences a glimpse into the tone and style of the movie. Such promotional material is designed to attract moviegoers ahead of the late-November premiere.",
-        "As November 20 approaches, viewers can anticipate further promotional content as the film gears up for its scheduled launch."
-      ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/garividi-lakshmi-trailer-anandhi-brings-a-folk-singers-inspiring-journey-to-life-prp.html",
-      "title": "Garividi Lakshmi Trailer Showcases Anandhi Portraying a Folk Singer",
-      "summary": "The trailer for Garividi Lakshmi has been released, highlighting Anandhi as she brings the inspiring journey of a folk singer to the screen.",
+      "title": "Anandhi Stars as a Folk Singer in the Garividi Lakshmi Trailer",
+      "summary": "The newly released trailer for Garividi Lakshmi highlights Anandhi as she portrays the inspiring life journey of a traditional folk singer, sparking fresh interest in the upcoming project.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/garividi-lakshmi-trailer-anandhi-brings-a-folk-singers-inspiring-journey-to-life-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/garividi.webp",
@@ -234,212 +458,43 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The official trailer for Garividi Lakshmi has arrived, giving audiences a first look at the inspiring journey of a folk singer. The project features actor Anandhi in the lead role, bringing the character's narrative to life.",
-        "The newly debuted trailer emphasizes the emotional and musical journey central to Garividi Lakshmi. Anandhi's portrayal of the folk singer is poised to be a major highlight of the film.",
-        "With the trailer now public, interest in Garividi Lakshmi continues to grow as viewers anticipate the full feature highlighting this inspiring biographical or dramatic tale."
+        "The official trailer for the upcoming project Garividi Lakshmi has officially been released, giving audiences a first look at the cinematic journey. In the footage, lead actor Anandhi steps into the role of a traditional folk singer, bringing the inspiring real-life path of the artist to the screen.",
+        "As the narrative unfolds through the trailer, viewers get a glimpse into the struggles, triumphs, and musical passion that define the title character. Anandhi's portrayal highlights the unique cultural roots of the protagonist's journey, capturing the spirit of folk artistry within a cinematic framework.",
+        "With the trailer now available for viewing, anticipation is building for how the film will explore these musical and biographical themes. The project places a strong emphasis on the protagonist's inspiring narrative and regional heritage."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130405/hanuman-ansh-telugu-trailer-creates-buzz.html",
-      "title": "Telugu Trailer of Hanuman Ansh Generates Significant Buzz",
-      "summary": "The Telugu trailer for Hanuman Ansh has officially been released and is currently generating substantial buzz among movie enthusiasts. Fans and followers are closely tracking the promotional material as anticipation builds around the project.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130405/hanuman-ansh-telugu-trailer-creates-buzz.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/hanuman-ansh-telugu-trailer-creates-buzz-1791211387848-1791211394478.jpg",
-      "publishedAt": "2026-10-05T14:43:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The newly launched Telugu trailer for Hanuman Ansh has successfully captured the attention of audiences, creating considerable buzz across the film community. As promotional material rolls out, viewer interest in the project continues to scale upward.",
-        "With the release of this latest preview, anticipation surrounding Hanuman Ansh has notably intensified. The ongoing discussions highlight the film's growing visibility as audiences await further updates from the makers."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/videos/polls/poll-whats-your-take-on-rajinikanths-jailer-2-trailer.html",
-      "title": "Audience Poll Gauges Reactions to Rajinikanth's Jailer 2 Trailer",
-      "summary": "A public poll has been launched to capture audience opinions and reactions regarding the trailer for Rajinikanth's anticipated film, Jailer 2. Fans are actively sharing their perspectives as the promotional preview continues to draw attention.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/videos/polls/poll-whats-your-take-on-rajinikanths-jailer-2-trailer.html",
-      "img": "",
-      "publishedAt": "2026-10-05T14:34:23.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A fresh poll has been initiated to understand public sentiment regarding the trailer for Rajinikanth's Jailer 2. The interactive survey invites viewers to register their take on the newly released promotional footage.",
-        "As the industry and fans dissect the trailer, this poll provides a platform to measure the immediate reception of the superstar's latest cinematic venture. Discussions continue to circulate as audiences weigh in on what to expect."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ravi-teja-vivek-athreya-film-set-to-roll-soon-prp.html",
-      "title": "Ravi Teja and Vivek Athreya Collaboration Set to Commence Production",
-      "summary": "Actor Ravi Teja and director Vivek Athreya are gearing up for their upcoming film, which is officially scheduled to roll soon. Fans of the actor-director combination are eagerly awaiting further developments as pre-production moves forward.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ravi-teja-vivek-athreya-film-set-to-roll-soon-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/raviteja-1.webp",
-      "publishedAt": "2026-10-05T14:30:31.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The collaborative film featuring Ravi Teja and directed by Vivek Athreya is swiftly approaching its production phase. Preparations are in motion for the project to hit the floors shortly.",
-        "This upcoming venture brings together notable talent, sparking curiosity among moviegoers about the creative direction the film will take. Further details regarding the shooting schedule and cast are anticipated as the film prepares to roll."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/435184/jason-sanjays-love-and-mutual-breakup-story",
-      "title": "Exploring Jason Sanjay's Narrative on Love and Mutual Breakup",
-      "summary": "Recent reports have brought attention to Jason Sanjay's narrative concerning love and a mutual breakup. The personal update has drawn interest from followers tracking developments surrounding his life and career path.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435184/jason-sanjays-love-and-mutual-breakup-story",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Jason-sanjay-breakup.jpg",
-      "publishedAt": "2026-10-05T13:42:51.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Recent discussions in the entertainment sphere have focused on Jason Sanjay, highlighting a reported story regarding love and a mutual breakup. The details have circulated among followers interested in his personal journey.",
-        "While public figures often navigate various personal milestones in the spotlight, this narrative offers a glimpse into reported developments surrounding his experiences. Observers continue to follow related updates closely."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/435172/jailer-2-trailer-muthuvel-pandian-returns",
-      "title": "Jailer 2 Trailer Teases a Darker Return for Muthuvel",
-      "summary": "The trailer for Jailer 2 has arrived, promising a much darker and more intense comeback for the protagonist Muthuvel. Cineinsta brings you the latest updates on this anticipated sequel.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435172/jailer-2-trailer-muthuvel-pandian-returns",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/jailer-2-trailer-1.jpg",
-      "publishedAt": "2026-10-05T13:34:37.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The cinematic world is buzzing with the release of the Jailer 2 trailer, which signals an intense and gritty continuation of the franchise. Fans have been given a first look at the returning protagonist, Muthuvel.",
-        "Based on the newly dropped trailer, Muthuvel is back and appears darker than ever in this upcoming installment. The preview sets a heavy tone for the character's narrative arc in the sequel.",
-        "As anticipation builds for Jailer 2, audiences are eager to see how this darker direction will unfold on the big screen. Stay tuned to Cineinsta for more updates on the film's progress."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/kaaka-prominent-bollywood-actor-director-joins-megastars-film-prp.html",
-      "title": "Prominent Bollywood Figure Boards Megastar's Kaaka",
-      "summary": "A well-known Bollywood actor and director has officially joined the cast and crew of the Megastar's upcoming cinematic project titled Kaaka. This collaboration adds major excitement to the film's production.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/kaaka-prominent-bollywood-actor-director-joins-megastars-film-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/kaa.jpg",
-      "publishedAt": "2026-10-05T12:30:59.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Exciting updates are emerging from the sets of the Megastar's project, Kaaka. A prominent Bollywood actor-director has officially signed on to join the film.",
-        "This notable collaboration brings a fresh cross-industry dynamic to Kaaka, blending different cinematic styles. Fans of the Megastar are thrilled to see what this prominent addition brings to the narrative.",
-        "Further details regarding the specific role and involvement of the Bollywood actor-director are awaited as production continues. Cineinsta will keep track of all major casting announcements for Kaaka."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/435169/kaaka-get-ready-for-chirus-face-off-with-anurag",
-      "title": "Anurag Set for a Major Face-Off with Chiru in Kaaka",
-      "summary": "Movie enthusiasts can prepare for an epic showdown as Anurag gears up for a high-stakes face-off against Chiru in the upcoming film Kaaka. Cineinsta has all the details on this exciting matchup.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435169/kaaka-get-ready-for-chirus-face-off-with-anurag",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Kaaka-Bobby.jpeg",
-      "publishedAt": "2026-10-05T11:42:33.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The excitement surrounding the upcoming film Kaaka has scaled new heights with reports of a direct confrontation between key figures. Audiences can look forward to an intense face-off between Chiru and Anurag.",
-        "Such high-voltage showdowns are a major draw for commercial cinema fans, promising dramatic sequences and stellar performances. The clash between Chiru and Anurag is shaping up to be a primary highlight of Kaaka.",
-        "As production moves forward, fans await more promotional content highlighting this epic face-off. Cineinsta will continue to provide timely updates on Kaaka and its stellar cast."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/435162/ak-47-officially-postponed-naga-vamsi-reveals-reason",
-      "title": "AK 47 Officially Postponed as Naga Vamsi Explains the Reasons",
-      "summary": "Producer Naga Vamsi has officially announced the postponement of AK 47, while also revealing the rationale behind the decision. Cineinsta provides the official breakdown of this schedule change.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435162/ak-47-officially-postponed-naga-vamsi-reveals-reason",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/naga-Vamsi-ak-471.jpg",
-      "publishedAt": "2026-10-05T11:10:27.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The theatrical release of AK 47 has officially been pushed back, according to recent statements from the makers. Producer Naga Vamsi stepped forward to address the delay and share the reasons with the audience.",
-        "Schedule shifts are a common occurrence in the film industry, often implemented to ensure optimal production quality and strategic box office placement. Naga Vamsi's transparent explanation provides clarity to eager fans waiting for the film.",
-        "While the postponement alters the initial timeline, the team remains focused on delivering a polished final product. Cineinsta will keep readers updated on any future release date announcements for AK 47."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.telugu360.com/suriya-and-chandoo-mondeti-to-collaborate-director-says-definitely/",
-      "title": "Suriya and Chandoo Mondeti Team-Up on the Cards as Director Confirms Plans",
-      "summary": "Filmmaker Chandoo Mondeti has addressed potential collaboration rumors with actor Suriya, indicating that a project together is definitely on the horizon for the Indian cinema industry.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/suriya-and-chandoo-mondeti-to-collaborate-director-says-definitely/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Suriya-and-Chandoo-Mondeti.jpg",
-      "publishedAt": "2026-10-05T10:20:34.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A fresh cinematic collaboration could be shaping up as filmmaker Chandoo Mondeti addresses potential plans to work with prominent actor Suriya. When questioned about the prospect of joining forces, the director responded with a definite affirmative, sparking keen interest among film enthusiasts.",
-        "While specific plot details, production timelines, and official casting confirmations remain under wraps, the director's remarks highlight an upcoming creative exchange. Such cross-industry pairings consistently draw significant attention from fans tracking new developments in regional and national cinema.",
-        "As discussions progress toward an official rollout, audiences eagerly await further announcements regarding this anticipated actor-director team-up."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://telugucinema.com/news/keerthy-suresh-fails-to-score-a-success-with-quick-releases",
-      "title": "Keerthy Suresh Faces Box Office Hurdles Following Rapid Release Schedule",
-      "summary": "Renowned actor Keerthy Suresh has encountered a challenging phase at the box office as a string of rapid cinematic releases failed to secure commercial success.",
+      "id": "https://telugucinema.com/news/jailer-2-telugu-trailer-promises-action-and-rajinikanths-swag",
+      "title": "Jailer 2 Telugu Trailer Highlights Action and Rajinikanth's Signature Swag",
+      "summary": "The Telugu trailer for Jailer 2 has dropped, showcasing high-octane action sequences paired with superstar Rajinikanth's trademark style and screen presence.",
       "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/keerthy-suresh-fails-to-score-a-success-with-quick-releases",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/keerthysuresh-oct0526.jpg",
-      "publishedAt": "2026-10-05T08:39:47.000Z",
+      "url": "https://telugucinema.com/news/jailer-2-telugu-trailer-promises-action-and-rajinikanths-swag",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/jailer2-trailer-oct526.jpg",
+      "publishedAt": "2026-10-05T15:06:23.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Keerthy Suresh has experienced a testing period in her career, with recent rapid-fire film releases struggling to find commercial success at the box office. Despite maintaining a consistent onscreen presence and taking on diverse roles, the actor's latest projects have fallen short of meeting expectations.",
-        "Rapid release schedules often present unique hurdles for performers, balancing visibility with the pressure of continuous audience reception. This current box office dip highlights the dynamic and unpredictable nature of audience preferences within the film industry.",
-        "Followers and industry observers will be watching closely to see how the talented actor recalibrates her upcoming project choices following this recent phase of results."
+        "Fans of mass cinema have a new reason to celebrate as the Telugu trailer for Jailer 2 makes its official debut. The promotional video heavily emphasizes high-intensity action sequences and the unmistakable screen presence of veteran star Rajinikanth.",
+        "Known for his iconic style, Rajinikanth brings his signature swag back to the forefront in this anticipated sequel. The trailer offers rapid-fire glimpses of thrilling confrontations, setting expectations high for action enthusiasts.",
+        "The release of the Telugu trailer broadens the excitement surrounding the project, reinforcing the star's enduring appeal. Viewers can expect a heavy dose of commercial entertainment when the film arrives."
       ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/435135/reality-kiran-abbavaram-joins-christmas-race",
-      "title": "Kiran Abbavaram's Reality Sets Sights on Christmas Release",
-      "summary": "Actor Kiran Abbavaram is officially stepping into the festive holiday window as his upcoming film, Reality, locks in its sights on a Christmas release.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435135/reality-kiran-abbavaram-joins-christmas-race",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/reality-date.jpg",
-      "publishedAt": "2026-10-05T07:41:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Telugu cinema actor Kiran Abbavaram is gearing up for a major festive release with his upcoming movie titled Reality. The project has officially joined the highly competitive Christmas box office race, drawing attention from film enthusiasts and trade analysts alike.",
-        "While specific plot details and character descriptions remain under wraps, the confirmation of the Christmas release window establishes the timeline for the film's promotional campaign and eventual arrival in theaters. As the holiday season traditionally serves as a prime window for cinematic releases, this scheduling puts the project front and center in upcoming entertainment discussions."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://telugucinema.com/news/kiran-abbavarams-reality-aims-for-christmas-2026-release",
-      "title": "Kiran Abbavaram Stars in Reality, Targeting Christmas 2026 Release",
-      "summary": "Actor Kiran Abbavaram's upcoming cinematic venture, Reality, has officially set its sights on hitting the big screen for a Christmas 2026 release.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/kiran-abbavarams-reality-aims-for-christmas-2026-release",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/reality-oct0526.jpg",
-      "publishedAt": "2026-10-05T07:22:15.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The Telugu film industry is gearing up for a future festive showdown as Kiran Abbavaram’s upcoming movie, Reality, has locked in a target release window for Christmas 2026. This early scheduling announcement highlights the production timeline for the project.",
-        "As anticipation begins to build around the actor's forthcoming slate, the Christmas 2026 target gives audiences a definitive timeframe to look forward to. Further updates regarding the cast, crew, and production milestones are expected to follow as filming progresses toward the holiday debut."
-      ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tu-hai-meri-kiran-official-trailer/videoshow/134734376.cms",
+      "title": "Tu Hai Meri Kiran - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tu-hai-meri-kiran-official-trailer/videoshow/134734376.cms",
+      "img": "https://static.toiimg.com/thumb/msid-134734376,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://telugu.indiaglitz.com/movie-news/bhogi-teaser-sharwanands-mass-avatar-is-stunning",
       "title": "భోగి టీజర్: శర్వానంద్ ఊరమాస్ అవతార్ అదిరింది..",
@@ -546,16 +601,6 @@
       "source": "ETimes Telugu",
       "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/the-vvaan-official-trailer/videoshow/134284930.cms",
       "img": "https://static.toiimg.com/thumb/msid-134284930,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "title": "Baththa - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/baththa-official-trailer/videoshow/134285020.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134285020,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-16T00:00:00.000Z",
       "language": "Telugu"
@@ -2234,5 +2279,7 @@
         ]
       }
     }
-  ]
+  ],
+  "generatedAt": "2026-10-06T12:14:11.994Z",
+  "reviewStatus": "auto-approved"
 }
