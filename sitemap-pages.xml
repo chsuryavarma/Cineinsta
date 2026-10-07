@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cineinsta.com/</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/news</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/buzz</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/box-office-battle.html</loc>
@@ -152,51 +152,51 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/i-m-game</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/drishyam-the-conclusion</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/thella-kagitham</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/secret-soldier</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/mandaadi</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/mirzapur-the</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/sahaa</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/</loc>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/daayra</loc>
-    <lastmod>2026-10-06T18:11:58.178Z</lastmod>
+    <lastmod>2026-10-07T00:16:07.848Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/trailers/</loc>
-    <lastmod>2026-10-06T13:36:01.000Z</lastmod>
+    <loc>https://www.cineinsta.com/trailers/latest-trailers-entertainment-videos-times-of-india</loc>
+    <lastmod>2026-10-07T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/tu-hai-meri-kiran-official-trailer</loc>
     <lastmod>2026-10-06T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/trailers/haiku-trailer-a-feel-good-rom-com-with-youthful-fun-and-an-emotional-core</loc>
-    <lastmod>2026-10-06T00:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/comrade-kalyan-trailer-sree-vishnu-leads-a-fun-ride-with-a-serious-twist</loc>
-    <lastmod>2026-10-06T00:00:00.000Z</lastmod>
+    <loc>https://www.cineinsta.com/trailers/</loc>
+    <lastmod>2026-10-05T04:08:48.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/jailer-2-official-trailer</loc>
@@ -204,6 +204,10 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/reporting-live-trailer-parineeti-chopra-and-deven-bhojani-starrer-reporting-live-official-trailer</loc>
+    <lastmod>2026-10-05T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/ranabaali-trailer-release-date-announced</loc>
     <lastmod>2026-10-05T00:00:00.000Z</lastmod>
   </url>
   <url>
@@ -225,5 +229,9 @@
   <url>
     <loc>https://www.cineinsta.com/trailers/udta-teer-official-trailer</loc>
     <lastmod>2026-09-23T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/mysaa-official-hindi-teaser</loc>
+    <lastmod>2026-09-20T00:00:00.000Z</lastmod>
   </url>
 </urlset>
