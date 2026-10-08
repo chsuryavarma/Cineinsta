@@ -754,6 +754,21 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
 .mobileNav a span{color:#f1c232!important}
 .mobileNav a:hover,.mobileNav a:focus,.mobileNav a:active{color:#ffd95a!important}
 .mobileNav a:hover span,.mobileNav a:focus span,.mobileNav a:active span{color:#ffd95a!important}
+
+/* FINAL OTT TAB + NAV POLISH */
+.cineBuzzTabs{background:transparent!important;}
+.cineBuzzTab{background:#f1c232!important;color:#111!important;border:1px solid #f1c232!important;box-shadow:0 3px 10px rgba(0,0,0,.18)!important;font-weight:950!important;}
+.cineBuzzTab:hover,.cineBuzzTab:focus-visible{background:#ffd95a!important;color:#111!important;border-color:#ffd95a!important;}
+.cineBuzzTab.active{background:#ffd95a!important;color:#111!important;border-color:#ffd95a!important;}
+.cineBuzzTab small{color:#111!important;opacity:.8!important;}
+.articleJumpNav,.jumpNav{display:none!important;}
+.cineBuzzCard{background:#111!important;border-color:#333!important;color:#fff!important;}
+.cineBuzzTitle{color:#fff!important;}
+.cineBuzzKicker{color:#f1c232!important;}
+.cineBuzzReason,.cineBuzzMeta,.cineBuzzDetails{color:#bdbdbd!important;}
+.cineBuzzOtt{background:#1a1a1a!important;color:#ccc!important;border:1px solid #2d2d2d!important;}
+.cineBuzzOtt strong{color:#f1c232!important;}
+.cineBuzzFallback{background:linear-gradient(145deg,#171717,#3a2b08)!important;color:#fff!important;}
 </style>
 </head>
 <body>
@@ -1051,7 +1066,7 @@ const editorialHtml=entry.type==="news"?renderEditorialArticle(item):`<div class
 const highlightsHtml=entry.type==="news"?renderWhatToLookFor(item):"";
 const sourceNames=item.source||"Cineinsta";
 const sourceExtra=Array.isArray(item.sources)&&item.sources.length?`<div class="articleSourceList"><strong>Information sources</strong><ul>${item.sources.map(function(s){return `<li>${escapeHTML(String(s))}</li>`}).join("")}</ul></div>`:"";
-articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${highlightsHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}<nav class="articleJumpNav" aria-label="More Cineinsta sections"><a href="#reviewsSection" data-section="reviewsSection">Jump to Reviews</a><a href="#buzzSection" data-section="buzzSection">Cineinsta Buzz</a><a href="#boxOfficeBattleSection" data-section="boxOfficeBattleSection">Jump to BOB</a></nav></div>`;
+articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${highlightsHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}</div>`;
 updateSEO(entry);
 }
 
@@ -1083,11 +1098,36 @@ function hasPlatformMovie(x,id){
 return Array.isArray(x.platformIds)&&x.platformIds.includes(id)||(x.ott&&x.ott[id]);
 }
 
+function isUsableOttItem(item){
+if(!item)return false;
+const title=String(item.title||item.t||"").trim();
+if(!title)return false;
+if(/^(netflix home|watch for free|offers|my aha|instagram-icon|facebook-icon|twitter-footer|android-icon|ios-icon|support@|more details for |go to |watch telugu .* movies|watch telugu .* movie)$/i.test(title))return false;
+if(/^watch telugu\b/i.test(title))return false;
+if(/^(home|movies|movie|more|view all|subscribe|sign in|login)$/i.test(title))return false;
+return true;
+}
+
 function ottItems(id){
 const block=ott[id];
-return block&&Array.isArray(block.items)?block.items.filter(function(item){
-return item&&(item.title||item.t)&&item.img;
-}):[];
+if(!block||!Array.isArray(block.items))return [];
+const seenTitles=new Set();
+const seenImages=new Set();
+return block.items.filter(function(item){
+if(!isUsableOttItem(item))return false;
+const titleKey=String(item.title||item.t||"").toLowerCase().replace(/[^a-z0-9]+/g,"");
+if(!titleKey||seenTitles.has(titleKey))return false;
+seenTitles.add(titleKey);
+const img=String(item.img||"").trim();
+// A repeated generic catalogue/hero image is not a movie poster. Keep the first
+// real image, but don't display the same image on every card.
+if(img){
+const imageKey=img.split('?')[0];
+if(seenImages.has(imageKey))item.__duplicateImage=true;
+else seenImages.add(imageKey);
+}
+return true;
+});
 }
 
 function movieForOtt(item,id){
@@ -1142,7 +1182,7 @@ return;
 
 grid.innerHTML=items.slice(0,8).map(function(item){
 const title=item.title||item.t||"Cineinsta OTT";
-const image=item.img||"";
+const image=item.__duplicateImage?"":(item.img||"");
 const movie=movieForOtt(item,active);
 const score=movie&&movie.buzzScore!=null?String(movie.buzzScore):"";
 const release=item.releaseDate||"";
