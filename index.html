@@ -754,21 +754,6 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
 .mobileNav a span{color:#f1c232!important}
 .mobileNav a:hover,.mobileNav a:focus,.mobileNav a:active{color:#ffd95a!important}
 .mobileNav a:hover span,.mobileNav a:focus span,.mobileNav a:active span{color:#ffd95a!important}
-
-/* FINAL OTT TAB + NAV POLISH */
-.cineBuzzTabs{background:transparent!important;}
-.cineBuzzTab{background:#f1c232!important;color:#111!important;border:1px solid #f1c232!important;box-shadow:0 3px 10px rgba(0,0,0,.18)!important;font-weight:950!important;}
-.cineBuzzTab:hover,.cineBuzzTab:focus-visible{background:#ffd95a!important;color:#111!important;border-color:#ffd95a!important;}
-.cineBuzzTab.active{background:#ffd95a!important;color:#111!important;border-color:#ffd95a!important;}
-.cineBuzzTab small{color:#111!important;opacity:.8!important;}
-.articleJumpNav,.jumpNav{display:none!important;}
-.cineBuzzCard{background:#111!important;border-color:#333!important;color:#fff!important;}
-.cineBuzzTitle{color:#fff!important;}
-.cineBuzzKicker{color:#f1c232!important;}
-.cineBuzzReason,.cineBuzzMeta,.cineBuzzDetails{color:#bdbdbd!important;}
-.cineBuzzOtt{background:#1a1a1a!important;color:#ccc!important;border:1px solid #2d2d2d!important;}
-.cineBuzzOtt strong{color:#f1c232!important;}
-.cineBuzzFallback{background:linear-gradient(145deg,#171717,#3a2b08)!important;color:#fff!important;}
 </style>
 </head>
 <body>
@@ -1078,7 +1063,7 @@ if(!grid||!tabs)return;
 const all=Array.isArray(feed.buzz)?feed.buzz.filter(function(item){return item&&(item.title||item.t)&&item.img;}):[];
 const ott=feed.ottTrending&&typeof feed.ottTrending==="object"?feed.ottTrending:{};
 
-const platforms=[
+const allPlatformDefs=[
 {id:"all",name:"Buzz Now"},
 {id:"netflix",name:"Netflix"},
 {id:"prime-video",name:"Prime Video"},
@@ -1089,6 +1074,13 @@ const platforms=[
 {id:"etv-win",name:"ETV Win"},
 {id:"sonyliv",name:"SonyLIV"}
 ];
+
+const platforms=[allPlatformDefs[0]].concat(
+  allPlatformDefs.slice(1).filter(function(p){
+    const block=ott[p.id];
+    return block && Array.isArray(block.items) && block.items.length > 0 && block.status === "ok";
+  })
+);
 
 let active=window.cineBuzzActiveTab||"all";
 if(!platforms.some(function(p){return p.id===active;}))active="all";
@@ -1141,7 +1133,7 @@ return movieTitle===title;
 tabs.innerHTML=platforms.map(function(p){
 let count=0;
 if(p.id==="all")count=all.length;
-else count=ottItems(p.id).length||all.filter(function(x){return hasPlatformMovie(x,p.id);}).length;
+else count=ottItems(p.id).length;
 return `<button type="button" class="cineBuzzTab${p.id===active?" active":""}" data-buzz-tab="${escapeHTML(p.id)}" role="tab" aria-selected="${p.id===active?"true":"false"}">${escapeHTML(p.name)}${count?`<small>${count}</small>`:""}</button>`;
 }).join("");
 
@@ -1188,7 +1180,7 @@ const score=movie&&movie.buzzScore!=null?String(movie.buzzScore):"";
 const release=item.releaseDate||"";
 const languages=item.languages||"Telugu";
 const platformName=(platforms.find(function(p){return p.id===active;})||{}).name||active;
-return `<a class="cineBuzzCard" href="/buzz/${articleSlug(movie||item)}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.style.display='none'">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">Cineinsta OTT · ${escapeHTML(platformName)}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>${escapeHTML(release||"Latest listing")}</span></div><div class="cineBuzzReason">${escapeHTML(languages)}</div><div class="cineBuzzMeta"><span>Telugu OTT</span>${score?`<strong class="cineBuzzScore">Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">Latest Telugu-relevant OTT listing in Cineinsta's feed.</div></div></a>`;
+return `<article class="cineBuzzCard" aria-label="${escapeHTML(title)}">${image?`<img class="cineBuzzImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" onerror="this.style.display='none'">`:`<div class="cineBuzzFallback">${escapeHTML(title)}</div>`}<div class="cineBuzzBody"><div class="cineBuzzKicker">Cineinsta OTT · ${escapeHTML(platformName)}</div><div class="cineBuzzTitle">${escapeHTML(title)}</div><div class="cineBuzzOtt"><strong>${escapeHTML(platformName)}</strong><span>${escapeHTML(release||"Latest listing")}</span></div><div class="cineBuzzReason">${escapeHTML(languages)}</div><div class="cineBuzzMeta"><span>Telugu OTT</span>${score?`<strong class="cineBuzzScore">Buzz Score ${escapeHTML(score)}<span>/100</span></strong>`:""}</div><div class="cineBuzzDetails">Latest Telugu-relevant OTT listing in Cineinsta's feed.</div></div></article>`;
 }).join("");
 }
 
