@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T18:16:19.973Z",
+  "updatedAt": "2026-10-08T18:52:28.234Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-08T18:15:47.871Z",
-      "lastAttemptedAt": "2026-10-08T18:15:47.871Z",
+      "updatedAt": "2026-10-08T18:51:51.770Z",
+      "lastAttemptedAt": "2026-10-08T18:51:51.770Z",
       "items": [
         {
           "title": "Modha Rathri",
@@ -396,7 +396,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:53:52.119Z",
-      "lastAttemptedAt": "2026-10-08T18:16:03.700Z",
+      "lastAttemptedAt": "2026-10-08T18:52:06.657Z",
       "items": [
         {
           "title": "More details for Spider-Man: Brand New Day",
@@ -475,8 +475,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-08T18:16:03.998Z",
-      "lastAttemptedAt": "2026-10-08T18:16:03.998Z",
+      "updatedAt": "2026-10-08T18:52:07.261Z",
+      "lastAttemptedAt": "2026-10-08T18:52:07.261Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -543,14 +543,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-08T18:16:04.182Z",
+      "lastAttemptedAt": "2026-10-08T18:52:07.434Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-08T18:16:15.286Z",
+      "lastAttemptedAt": "2026-10-08T18:52:22.147Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -630,21 +630,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-08T18:16:17.071Z",
+      "lastAttemptedAt": "2026-10-08T18:52:23.943Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-08T18:16:18.256Z",
+      "lastAttemptedAt": "2026-10-08T18:52:25.140Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-08T18:16:19.971Z",
+      "lastAttemptedAt": "2026-10-08T18:52:28.232Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
