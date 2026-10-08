@@ -263,31 +263,6 @@ function parseFilmibeat(html) {
  * Seeds are retained only as fallback data. Their image URLs are NOT trusted
  * automatically. Every final URL is validated before it reaches buzz.json.
  */
-const SEED = [
-  ['Romanchakam','Netflix','October 1, 2026','Telugu · Tamil · Kannada · Malayalam · Hindi','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg'],
-  ['Sardar 2','Prime Video','October 1, 2026','Tamil · Telugu · Kannada · Malayalam · Hindi','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg'],
-  ['Bethlehem Kudumba Unit','JioHotstar','October 2, 2026','Malayalam · Tamil · Telugu · Kannada · Hindi','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg'],
-  ['#Love','Netflix','October 2, 2026','Tamil · Telugu · Kannada · Malayalam · Hindi','https://www.whats-on-netflix.com/wp-content/uploads/2025/10/Love-Key-Art.jpg'],
-  ['Ramba Oorvasi Menaka','Prime Video','September 25, 2026','Telugu','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/RambhaUrvashiMenaka2.jpg'],
-  ['Agadha','ZEE5','September 25, 2026','Telugu','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/05/Agadha_Movie_31.jpg'],
-  ['Irumudi','Netflix','September 18, 2026','Telugu · Tamil · Kannada · Malayalam · Hindi','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg'],
-  ['Hushar Pittalu','Prime Video','September 15, 2026','Telugu','https://img2.freejobalert.com/freejobalert/2026/02/husharu-pittalu-release-date-cast-story-hints-teaser-launch-latest-updates-2026-telu-698d788b55f8996913058-1200.webp'],
-  ['Modha Rathri','Netflix','September 18, 2026','Tamil · Telugu · Kannada · Malayalam · Hindi','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Modha-Rathri.webp'],
-  ['Korean Kanakaraju','Netflix','September 4, 2026','Telugu · Hindi · Tamil · Kannada · Malayalam','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Korean-Kanakaraju.webp'],
-  ['Pallaburusu','Prime Video','September 2, 2026','Telugu · Tamil · Kannada · Malayalam','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg'],
-  ['Jagamae Sangeetham','Prime Video','September 4, 2026','Telugu · Tamil','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jagamae-Sangeetham.webp'],
-  ['Mister Middle Class','Aha','September 2026','Telugu','https://static.digit.in/product/tr:n-ott_home_crousel/mr-middle-class-aaf0eb84d7.jpeg'],
-  ['Vishwanath and Sons','Netflix','September 11, 2026','Tamil · Telugu · Kannada · Malayalam · Hindi','https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg'],
-  ['Thudakkam','JioHotstar','September 18, 2026','Malayalam · Telugu · Tamil · Kannada · Hindi','https://images.filmibeat.com/img/280x383/popcorn/movie_posters/thudakkam-20260803092529-23794.jpg'],
-  ['Chennai Love Story','SonyLIV','September 2026','Telugu','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Chennai-Love-Story.webp'],
-  ['Least Eligible Bachelor','Netflix','October 2026','Telugu','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Least-Eligible-Bachelor.webp'],
-  ['Raja The Raja','JioHotstar','September 2026','Telugu','https://images.filmibeat.com/img/280x383/popcorn/movie_posters/rajatheraja-20260707160648-24398.jpg'],
-  ['Panchanama','ZEE5','September 2026','Telugu','https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Panchanama.webp'],
-  ['Deewana','Aha','July 31, 2026','Telugu · Tamil','https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Deewana.webp']
-].map(([title,platform,releaseDate,languages,img]) => ({
-  title, platform, releaseDate, languages, img, text:''
-}));
-
 function makeCard(item, rank) {
   return {
     rank,
@@ -301,33 +276,30 @@ function makeCard(item, rank) {
 }
 
 function buildOtt(parsed) {
-  const merged=[...parsed];
+  /*
+   * Build OTT lists only from the current source parse.
+   * Do not inject hard-coded seed titles.
+   */
+  const current = Array.isArray(parsed) ? parsed : [];
+  const result = {};
 
-  for(const seed of SEED) {
-    if(!merged.some(x=>key(x.title)===key(seed.title)&&x.platform===seed.platform)) {
-      merged.push(seed);
-    }
-  }
-
-  const result={};
-
-  for(const platform of PLATFORMS) {
-    const items=unique(
-      merged
-        .filter(x=>x.platform===platform.name&&x.img)
-        .map(x=>({...x,dateSort:Date.parse(x.releaseDate||'')||0}))
+  for (const platform of PLATFORMS) {
+    const items = unique(
+      current
+        .filter(x => x.platform === platform.name && x.img)
+        .map(x => ({ ...x, dateSort: Date.parse(x.releaseDate || '') || 0 }))
     )
-      .sort((a,b)=>b.dateSort-a.dateSort)
-      .slice(0,10)
-      .map((x,i)=>makeCard(x,i+1));
+      .sort((a, b) => b.dateSort - a.dateSort)
+      .slice(0, 10)
+      .map((x, i) => makeCard(x, i + 1));
 
-    result[platform.id]={
-      id:platform.id,
-      name:platform.name,
-      status:items.length?'ok':'unavailable',
-      updatedAt:new Date().toISOString(),
+    result[platform.id] = {
+      id: platform.id,
+      name: platform.name,
+      status: items.length ? 'ok' : 'unavailable',
+      updatedAt: new Date().toISOString(),
       items,
-      note:items.length
+      note: items.length
         ? `Latest available Telugu-relevant titles on ${platform.name}.`
         : `No usable titles currently available.`
     };
@@ -638,7 +610,7 @@ async function main() {
     tabs,
     movies:buzz,
     ottTrending,
-    methodology:'OTT tabs show up to 10 latest available Telugu-relevant movies or shows per platform. Image URLs are validated before publishing and matching Cineinsta News, Reviews, Trailers and YouTube thumbnails are used as fallbacks when necessary.'
+    methodology:'OTT tabs show up to 10 latest available Telugu-relevant movies or shows parsed from the current OTT source page. No hard-coded OTT seed titles are injected. Image URLs are validated before publishing and matching Cineinsta News, Reviews, Trailers and YouTube thumbnails are used as fallbacks when necessary.'
   };
 
   await fs.writeFile(
