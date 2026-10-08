@@ -744,6 +744,16 @@ html,body,main{background:#070707!important;color:#f5f5f5!important}
 .logo{width:190px!important;height:68px!important;}
 @media(max-width:650px){.logo{width:175px!important;height:64px!important;}}
 @media(max-width:420px){.logo{width:165px!important;height:62px!important;}}
+
+/* Cineinsta navigation: gold on cinematic dark theme */
+.headerNav a{color:#f1c232!important;font-weight:900}
+.headerNav a:hover{color:#ffd95a!important}
+.searchBtn{border-color:#f1c232!important;background:#111!important;color:#f1c232!important}
+.mobileNav{background:rgba(8,8,8,.98)!important;border-top:1px solid #343434!important}
+.mobileNav a{color:#f1c232!important;font-weight:900;text-decoration:none}
+.mobileNav a span{color:#f1c232!important}
+.mobileNav a:hover,.mobileNav a:focus,.mobileNav a:active{color:#ffd95a!important}
+.mobileNav a:hover span,.mobileNav a:focus span,.mobileNav a:active span{color:#ffd95a!important}
 </style>
 </head>
 <body>
@@ -1553,13 +1563,13 @@ articlePage.innerHTML="";
 }
 
 function showHomeLayout(){
-const intro=document.querySelector(".intro"),hero=document.getElementById("homeHero"),newsSection=document.getElementById("newsSection"),buzzSection=document.getElementById("buzzSection"),reviewsSection=document.getElementById("reviewsSection"),globalJumpNav=document.querySelector(".jumpNav"),buzzTitle=buzzSection.querySelector(".sectionHead h2"),buzzLabel=buzzSection.querySelector(".sectionHead span");
-intro.style.display="";hero.style.display="";newsSection.style.display="";buzzSection.style.display="";reviewsSection.style.display="";if(globalJumpNav)globalJumpNav.style.display="";
+const hero=document.getElementById("homeHero"),newsSection=document.getElementById("newsSection"),buzzSection=document.getElementById("buzzSection"),reviewsSection=document.getElementById("reviewsSection"),buzzTitle=buzzSection.querySelector(".sectionHead h2"),buzzLabel=buzzSection.querySelector(".sectionHead span");
+hero.style.display="";newsSection.style.display="";buzzSection.style.display="";reviewsSection.style.display="";
 renderHero(feed.news);newsExpanded=false;renderNews(feed.news,20);renderCineinstaBuzz();renderReviews(feed.reviews);buzzTitle.textContent="Cineinsta Buzz";if(buzzLabel)buzzLabel.textContent="";
 }
 function hideArticlePage(){const articlePage=document.getElementById("articlePage");if(articlePage){articlePage.style.display="none";articlePage.innerHTML="";}}
 function showArticleLayout(article){
-document.querySelector(".intro").style.display="none";document.getElementById("homeHero").style.display="none";document.getElementById("newsSection").style.display="none";document.getElementById("buzzSection").style.display="none";document.getElementById("reviewsSection").style.display="none";const globalJumpNav=document.querySelector(".jumpNav");if(globalJumpNav)globalJumpNav.style.display="none";const articlePage=document.getElementById("articlePage");articlePage.style.display="block";showArticlePage(article);window.scrollTo({top:0,behavior:"instant"});
+const intro=document.querySelector(".intro");if(intro)intro.style.display="none";document.getElementById("homeHero").style.display="none";document.getElementById("newsSection").style.display="none";document.getElementById("buzzSection").style.display="none";document.getElementById("reviewsSection").style.display="none";const globalJumpNav=document.querySelector(".jumpNav");if(globalJumpNav)globalJumpNav.style.display="none";const articlePage=document.getElementById("articlePage");articlePage.style.display="block";showArticlePage(article);window.scrollTo({top:0,behavior:"instant"});
 }
 function navigateHomeSection(targetId,updateUrl=true){
 const target=document.getElementById(targetId);if(!target)return;hideArticlePage();showHomeLayout();
