@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T04:51:45.038Z",
+  "updatedAt": "2026-10-08T05:15:45.313Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -15,7 +15,7 @@
     {
       "id": "netflix",
       "name": "Netflix",
-      "status": "ok"
+      "status": "unavailable"
     },
     {
       "id": "prime-video",
@@ -30,12 +30,12 @@
     {
       "id": "jiohotstar",
       "name": "JioHotstar",
-      "status": "ok"
+      "status": "unavailable"
     },
     {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "ok"
+      "status": "unavailable"
     },
     {
       "id": "sun-nxt",
@@ -50,7 +50,7 @@
     {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "ok"
+      "status": "unavailable"
     }
   ],
   "movies": [
@@ -515,253 +515,249 @@
     "netflix": {
       "id": "netflix",
       "name": "Netflix",
-      "status": "ok",
-      "updatedAt": "2026-10-08T04:51:42.337Z",
-      "items": [
-        {
-          "rank": 1,
-          "title": "#Love",
-          "language": "Telugu",
-          "img": "https://www.whats-on-netflix.com/wp-content/uploads/2025/10/Love-Key-Art.jpg",
-          "platform": "Netflix",
-          "releaseDate": "October 2, 2026",
-          "languages": "Tamil · Telugu · Kannada · Malayalam · Hindi"
-        },
-        {
-          "rank": 2,
-          "title": "Romanchakam",
-          "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
-          "platform": "Netflix",
-          "releaseDate": "October 1, 2026",
-          "languages": "Telugu · Tamil · Kannada · Malayalam · Hindi"
-        },
-        {
-          "rank": 3,
-          "title": "Least Eligible Bachelor",
-          "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Least-Eligible-Bachelor.webp",
-          "platform": "Netflix",
-          "releaseDate": "October 2026",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 4,
-          "title": "Irumudi",
-          "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
-          "platform": "Netflix",
-          "releaseDate": "September 18, 2026",
-          "languages": "Telugu · Tamil · Kannada · Malayalam · Hindi"
-        },
-        {
-          "rank": 5,
-          "title": "Modha Rathri",
-          "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Modha-Rathri.webp",
-          "platform": "Netflix",
-          "releaseDate": "September 18, 2026",
-          "languages": "Tamil · Telugu · Kannada · Malayalam · Hindi"
-        },
-        {
-          "rank": 6,
-          "title": "Vishwanath and Sons",
-          "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg",
-          "platform": "Netflix",
-          "releaseDate": "September 11, 2026",
-          "languages": "Tamil · Telugu · Kannada · Malayalam · Hindi"
-        },
-        {
-          "rank": 7,
-          "title": "Korean Kanakaraju",
-          "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Korean-Kanakaraju.webp",
-          "platform": "Netflix",
-          "releaseDate": "September 4, 2026",
-          "languages": "Telugu · Hindi · Tamil · Kannada · Malayalam"
-        }
-      ],
-      "note": "Latest available Telugu-relevant titles on Netflix."
+      "status": "unavailable",
+      "updatedAt": "2026-10-08T05:15:42.030Z",
+      "items": [],
+      "note": "No usable public movie titles could be extracted from Netflix's current source."
     },
     "prime-video": {
       "id": "prime-video",
       "name": "Prime Video",
       "status": "ok",
-      "updatedAt": "2026-10-08T04:51:42.337Z",
+      "updatedAt": "2026-10-08T05:15:42.031Z",
       "items": [
         {
           "rank": 1,
-          "title": "Sardar 2",
+          "title": "NOW YOU SEE ME: NOW YOU DON`T",
           "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/sardar2_1.jpg",
+          "img": "https://m.media-amazon.com/images/S/sonata-images-prod/US_3P_SVOD_NowYouSeeMeNowYouDont/e64e368d-27dc-4ec0-bf0c-e8701eab7fc4._UR3840,1440_.jpeg",
           "platform": "Prime Video",
-          "releaseDate": "October 1, 2026",
-          "languages": "Tamil · Telugu · Kannada · Malayalam · Hindi"
+          "releaseDate": "",
+          "languages": "Telugu"
         },
         {
           "rank": 2,
-          "title": "Ramba Oorvasi Menaka",
+          "title": "Livestream from Hell",
           "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/RambhaUrvashiMenaka2.jpg",
+          "img": "https://m.media-amazon.com/images/S/sonata-images-prod/US_SVOD_Livestream_from_Hell/c3343c40-b378-4674-af6f-b1d95c6596f4._UR3840,1440_.jpeg",
           "platform": "Prime Video",
-          "releaseDate": "September 25, 2026",
+          "releaseDate": "",
           "languages": "Telugu"
         },
         {
           "rank": 3,
-          "title": "Hushar Pittalu",
+          "title": "Spider-Man: Brand New Day",
           "language": "Telugu",
-          "img": "https://img2.freejobalert.com/freejobalert/2026/02/husharu-pittalu-release-date-cast-story-hints-teaser-launch-latest-updates-2026-telu-698d788b55f8996913058-1200.webp",
+          "img": "https://m.media-amazon.com/images/S/sonata-images-prod/US_TVOD_SpiderManBrandNewDay_PVOD_SH_V2/7e8e3ae6-2c04-4c4d-8f50-b6605f0b2a21._UR3840,1440_.jpeg",
           "platform": "Prime Video",
-          "releaseDate": "September 15, 2026",
+          "releaseDate": "",
           "languages": "Telugu"
         },
         {
           "rank": 4,
-          "title": "Jagamae Sangeetham",
+          "title": "Damaged",
           "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jagamae-Sangeetham.webp",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/611737c4d11a0ef533f4ebe87dbfef8d8ead77644313efdaa4dab85ec876398d._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
           "platform": "Prime Video",
-          "releaseDate": "September 4, 2026",
-          "languages": "Telugu · Tamil"
+          "releaseDate": "",
+          "languages": "Telugu"
         },
         {
           "rank": 5,
-          "title": "Pallaburusu",
+          "title": "Sing 2",
           "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/pallaburusu1.jpg",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/3601d630d08ca56314fcc4a7a5548d4f5589d3b5154167936574dd02b4d31a1b._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
           "platform": "Prime Video",
-          "releaseDate": "September 2, 2026",
-          "languages": "Telugu · Tamil · Kannada · Malayalam"
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 6,
+          "title": "Hotel Transylvania: Transformania",
+          "language": "Telugu",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/b48eea04ea5b68a7a67e1a983a6f6de088d8e1eecda2e66ed1b2d66e677b56dc._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.png",
+          "platform": "Prime Video",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 7,
+          "title": "The Tomorrow War",
+          "language": "Telugu",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/33a83055d8f3773dc3ad9f4f2180bff71257dcd02cc1bdb18b4569e7f942bd15._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.png",
+          "platform": "Prime Video",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 8,
+          "title": "The Secret of Moonacre",
+          "language": "Telugu",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/a7e994f765af58ec63b63e83b6a06b9ae7836054eb254d1fb3e60caa8cc72c2f._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
+          "platform": "Prime Video",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 9,
+          "title": "Winterset",
+          "language": "Telugu",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/af846d8f21fbeeadbf8ae20c0d3444c05e3dbbf0877faea1bae1973927c5b1e4._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
+          "platform": "Prime Video",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 10,
+          "title": "Killers",
+          "language": "Telugu",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/ed55d7630e07c19c8057c0d85aed3413b29f9f8be5327dd5db9b02d3f8d8faf3._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
+          "platform": "Prime Video",
+          "releaseDate": "",
+          "languages": "Telugu"
         }
       ],
-      "note": "Latest available Telugu-relevant titles on Prime Video."
+      "note": "Current Telugu-relevant titles surfaced by Prime Video's public movie/trending surface."
     },
     "aha": {
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-08T04:51:42.337Z",
+      "updatedAt": "2026-10-08T05:15:42.031Z",
       "items": [
         {
           "rank": 1,
-          "title": "Mister Middle Class",
+          "title": "Deewana",
           "language": "Telugu",
-          "img": "https://static.digit.in/product/tr:n-ott_home_crousel/mr-middle-class-aaf0eb84d7.jpeg",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/060773FF-7380-4379-8343-9269738B55D5/0-2x3.jpg?width=300&updatedTime=2026-07-30T18:37:18Z&dt=Web",
           "platform": "Aha",
-          "releaseDate": "September 2026",
+          "releaseDate": "",
           "languages": "Telugu"
         },
         {
           "rank": 2,
-          "title": "Deewana",
+          "title": "Premistunnaa",
           "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/07/Deewana.webp",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/2427F26E-0FDA-40E5-BC8E-0E9123954A6D/0-2x3.jpg?width=300&updatedTime=2026-07-16T06:27:48Z&dt=Web",
           "platform": "Aha",
-          "releaseDate": "July 31, 2026",
-          "languages": "Telugu · Tamil"
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 3,
+          "title": "Ashoka Vanamlo Arjuna Kalyanam",
+          "language": "Telugu",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/58873AFE-D16F-4ADD-8EA7-658462587A83/0-2x3.jpg?width=300&updatedTime=2026-07-16T04:47:00Z&dt=Web",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 4,
+          "title": "Euphoria",
+          "language": "Telugu",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/5F6AB1DC-6BA4-4678-B2FB-C0E879024B6E/0-2x3.jpg?width=300&updatedTime=2026-07-16T05:19:49Z&dt=Web",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 5,
+          "title": "Ugly Story",
+          "language": "Telugu",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/952AE5E6-C137-4712-94FD-6A09C01F73CC/0-2x3.jpg?width=300&updatedTime=2026-08-03T07:09:37Z&dt=Web",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 6,
+          "title": "Anandalahari",
+          "language": "Telugu",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/D9404455-C72F-4A8B-BDFD-E8C0A60BD57D/0-2x3.jpg?width=300&updatedTime=2026-09-04T09:40:12Z&dt=Web",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 7,
+          "title": "Arjun Suravaram",
+          "language": "Telugu",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/E9B92DEE-9107-4A6B-9E3A-4BD01968B819/0-2x3.jpg?width=300&updatedTime=2026-07-16T04:38:00Z&dt=Web",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 8,
+          "title": "M.R.P (Neekentha Naakentha)",
+          "language": "Telugu",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/21758E11-AA6A-46D8-95E2-2BFD95D414E9/0-2x3.jpg?width=300&updatedTime=2026-08-06T19:46:09Z&dt=Web",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 9,
+          "title": "Forest Guard",
+          "language": "Telugu",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/7CF8E548-908F-426C-9B07-D5045F533646/0-2x3.jpg?width=300&updatedTime=2026-08-12T12:54:10Z&dt=Web",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
+        },
+        {
+          "rank": 10,
+          "title": "Dhairye Sahase Amrutha",
+          "language": "Telugu",
+          "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/11D46052-977F-457D-8AA3-AF5281FEEB2A/0-2x3.jpg?width=300&updatedTime=2026-07-16T05:10:16Z&dt=Web",
+          "platform": "Aha",
+          "releaseDate": "",
+          "languages": "Telugu"
         }
       ],
-      "note": "Latest available Telugu-relevant titles on Aha."
+      "note": "Current Telugu-relevant titles surfaced by Aha's public movie/trending surface."
     },
     "jiohotstar": {
       "id": "jiohotstar",
       "name": "JioHotstar",
-      "status": "ok",
-      "updatedAt": "2026-10-08T04:51:42.337Z",
-      "items": [
-        {
-          "rank": 1,
-          "title": "Bethlehem Kudumba Unit",
-          "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/BethlehemKudumbaUnit.jpg",
-          "platform": "JioHotstar",
-          "releaseDate": "October 2, 2026",
-          "languages": "Malayalam · Tamil · Telugu · Kannada · Hindi"
-        },
-        {
-          "rank": 2,
-          "title": "Thudakkam",
-          "language": "Telugu",
-          "img": "https://images.filmibeat.com/img/280x383/popcorn/movie_posters/thudakkam-20260803092529-23794.jpg",
-          "platform": "JioHotstar",
-          "releaseDate": "September 18, 2026",
-          "languages": "Malayalam · Telugu · Tamil · Kannada · Hindi"
-        },
-        {
-          "rank": 3,
-          "title": "Raja The Raja",
-          "language": "Telugu",
-          "img": "https://images.filmibeat.com/img/280x383/popcorn/movie_posters/rajatheraja-20260707160648-24398.jpg",
-          "platform": "JioHotstar",
-          "releaseDate": "September 2026",
-          "languages": "Telugu"
-        }
-      ],
-      "note": "Latest available Telugu-relevant titles on JioHotstar."
+      "status": "unavailable",
+      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "items": [],
+      "note": "No usable public movie titles could be extracted from JioHotstar's current source."
     },
     "zee5": {
       "id": "zee5",
       "name": "ZEE5",
-      "status": "ok",
-      "updatedAt": "2026-10-08T04:51:42.337Z",
-      "items": [
-        {
-          "rank": 1,
-          "title": "Agadha",
-          "language": "Telugu",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/05/Agadha_Movie_31.jpg",
-          "platform": "ZEE5",
-          "releaseDate": "September 25, 2026",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 2,
-          "title": "Panchanama",
-          "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Panchanama.webp",
-          "platform": "ZEE5",
-          "releaseDate": "September 2026",
-          "languages": "Telugu"
-        }
-      ],
-      "note": "Latest available Telugu-relevant titles on ZEE5."
+      "status": "unavailable",
+      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "items": [],
+      "note": "No usable public movie titles could be extracted from ZEE5's current source."
     },
     "sun-nxt": {
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T04:51:42.337Z",
+      "updatedAt": "2026-10-08T05:15:42.031Z",
       "items": [],
-      "note": "No usable titles currently available."
+      "note": "No usable public movie titles could be extracted from Sun NXT's current source."
     },
     "etv-win": {
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T04:51:42.337Z",
+      "updatedAt": "2026-10-08T05:15:42.031Z",
       "items": [],
-      "note": "No usable titles currently available."
+      "note": "No usable public movie titles could be extracted from ETV Win's current source."
     },
     "sonyliv": {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "ok",
-      "updatedAt": "2026-10-08T04:51:42.337Z",
-      "items": [
-        {
-          "rank": 1,
-          "title": "Chennai Love Story",
-          "language": "Telugu",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Chennai-Love-Story.webp",
-          "platform": "SonyLIV",
-          "releaseDate": "September 2026",
-          "languages": "Telugu"
-        }
-      ],
-      "note": "Latest available Telugu-relevant titles on SonyLIV."
+      "status": "unavailable",
+      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "items": [],
+      "note": "No usable public movie titles could be extracted from SonyLIV's current source."
     }
   },
-  "methodology": "OTT tabs show up to 10 latest available Telugu-relevant movies or shows per platform. Image URLs are validated before publishing and matching Cineinsta News, Reviews, Trailers and YouTube thumbnails are used as fallbacks when necessary."
+  "methodology": "OTT tabs are rebuilt independently from each platform’s current public movie/trending surface. Cineinsta does not use hard-coded OTT titles, does not invent OTT rankings or scores, and marks a platform unavailable when no reliable public movie data can be extracted."
 }
