@@ -1459,16 +1459,25 @@ feed=await feedResponse.json();
 if(!feed||typeof feed!=="object")throw new Error("Invalid feed data");
 feed.news=Array.isArray(feed.news)?feed.news:[];
 feed.reviews=Array.isArray(feed.reviews)?feed.reviews:[];
+
+// Preserve OTT data already supplied by feed.json. The previous build
+// reset this object before reading buzz.json, so OTT updates disappeared
+// whenever buzz.json did not contain its own ottTrending payload.
+const feedOttTrending=feed.ottTrending&&typeof feed.ottTrending==="object"?feed.ottTrending:{};
+const feedBuzzTabs=Array.isArray(feed.buzzTabs)?feed.buzzTabs:[];
 feed.buzz=[];
-feed.buzzTabs=[];
-feed.ottTrending={};
+feed.buzzTabs=feedBuzzTabs;
+feed.ottTrending=feedOttTrending;
+
 const buzzResponse=results[1].status==="fulfilled"?results[1].value:null;
 if(buzzResponse&&buzzResponse.ok){
 try{
 const buzzData=await buzzResponse.json();
 feed.buzz=Array.isArray(buzzData.movies)?buzzData.movies:[];
-feed.buzzTabs=Array.isArray(buzzData.tabs)?buzzData.tabs:[];
-feed.ottTrending=buzzData&&buzzData.ottTrending&&typeof buzzData.ottTrending==="object"?buzzData.ottTrending:{};
+feed.buzzTabs=Array.isArray(buzzData.tabs)&&buzzData.tabs.length?buzzData.tabs:feedBuzzTabs;
+if(buzzData&&buzzData.ottTrending&&typeof buzzData.ottTrending==="object"){
+  feed.ottTrending=buzzData.ottTrending;
+}
 }catch(error){console.warn("Buzz data could not be parsed:",error);}
 }
 renderHero(feed.news);renderNews(feed.news,20);renderCineinstaBuzz();renderReviews(feed.reviews);
