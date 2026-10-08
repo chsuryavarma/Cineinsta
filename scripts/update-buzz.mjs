@@ -392,6 +392,17 @@ function dedupeCandidates(items) {
   return [...map.values()];
 }
 
+function isZee5DetailUrl(value) {
+  const u = String(value || '').trim();
+  if (!u || !/^https?:\/\/(?:www\.)?zee5\.com\//i.test(u)) return false;
+  let url;
+  try { url = new URL(u); } catch { return false; }
+  const path = url.pathname.replace(/\/+$/, '');
+  if (!/^\/(?:movies|movie)\/[^/]+$/i.test(path)) return false;
+  if (/\/(?:genre|genres|lang|language|collection|collections|category|categories|search|watch)\//i.test(path)) return false;
+  return true;
+}
+
 function filterByPlatform(platform, candidates) {
   const detailPattern = {
     netflix: /netflix\.com\/.*\/title\/|netflix\.com\/title\//i,
@@ -412,8 +423,7 @@ function filterByPlatform(platform, candidates) {
       return /netflix\.com\/(?:in\/)?title\//i.test(item.url || '');
     }
     if (platform.id === 'zee5') {
-      const u = item.url || '';
-      return /zee5\.com\/.*\/movies\//i.test(u) && !/\/(genre|collections?)\//i.test(u);
+      return isZee5DetailUrl(item.url || '');
     }
     if (platform.id === 'aha') {
       return /aha\.video\/movie\//i.test(item.url || '');
@@ -487,8 +497,22 @@ async function fetchDetailMetadata(url) {
     }
 
     const jsonLd = extractJsonLdCandidates(text, url);
-    const title = titleMatches.find(looksLikeTitle) || jsonLd.find(x => looksLikeTitle(x.title))?.title || '';
-    const image = imageMatches.map(x => safeUrl(x, url)).find(Boolean) || jsonLd.find(x => x.img)?.img || '';
+    const h1Matches = [];
+    const h1Re = /<h1\b[^>]*>([\s\S]*?)<\/h1>/gi;
+    let h1;
+    while ((h1 = h1Re.exec(text))) {
+      const value = clean(h1[1]);
+      if (looksLikeTitle(value)) h1Matches.push(value);
+    }
+    const title =
+      titleMatches.find(looksLikeTitle) ||
+      jsonLd.find(x => looksLikeTitle(x.title))?.title ||
+      h1Matches.find(looksLikeTitle) ||
+      '';
+    const image =
+      imageMatches.map(x => safeUrl(x, url)).find(Boolean) ||
+      jsonLd.find(x => x.img)?.img ||
+      '';
 
     return {
       text,
@@ -521,8 +545,16 @@ async function enrichAndVerify(platform, candidates) {
 
     if (candidate.url) detail = await fetchDetailMetadata(candidate.url);
 
-    if (platform.id === 'netflix' || platform.id === 'zee5' || platform.id === 'aha') {
-      // Only publish real movie/detail pages, never catalogue/genre/navigation cards.
+    if (platform.id === 'zee5') {
+      accepted = Boolean(
+        isZee5DetailUrl(candidate.url) &&
+        detail &&
+        detail.title &&
+        detail.image &&
+        looksLikeTitle(detail.title)
+      );
+    } else if (platform.id === 'netflix' || platform.id === 'aha') {
+      // Keep the working Netflix/Aha validation unchanged.
       accepted = Boolean(detail && (detail.title || candidate.title));
     } else if (platform.id === 'prime-video') {
       accepted = /\(telugu\)|telugu/i.test(candidate.title) || hasStrongTeluguEvidence(detail?.text || candidate.evidence);
@@ -542,7 +574,9 @@ async function enrichAndVerify(platform, candidates) {
     out.push({
       title: finalTitle.replace(/^Go to\s+/i, '').replace(/^More details for\s+/i, ''),
       url: candidate.url,
-      img: detail?.image || candidate.img || '',
+      img: platform.id === 'zee5'
+        ? detail.image
+        : (detail?.image || candidate.img || ''),
       languages: 'Telugu'
     });
 
@@ -722,7 +756,10 @@ async function main() {
     const validItems = result.items
       .map(item => ({
         ...item,
-        img: item.img || imageFromExistingFeed(item.title, feed)
+        img:
+          platform.id === 'zee5'
+            ? item.img
+            : (item.img || imageFromExistingFeed(item.title, feed))
       }))
       .filter(item => item.img);
 
