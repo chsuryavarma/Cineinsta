@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T06:16:37.188Z",
+  "updatedAt": "2026-10-08T06:53:59.442Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -516,7 +516,7 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T06:16:35.773Z",
+      "updatedAt": "2026-10-08T06:53:58.351Z",
       "items": [],
       "note": "No reliable Telugu movie data could be extracted from Netflix's current public source."
     },
@@ -524,7 +524,7 @@
       "id": "prime-video",
       "name": "Prime Video",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T06:16:35.773Z",
+      "updatedAt": "2026-10-08T06:53:58.351Z",
       "items": [],
       "note": "No reliable Telugu movie data could be extracted from Prime Video's current public source."
     },
@@ -532,7 +532,7 @@
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-08T06:16:35.773Z",
+      "updatedAt": "2026-10-08T06:53:58.351Z",
       "items": [
         {
           "rank": 1,
@@ -631,7 +631,7 @@
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T06:16:35.773Z",
+      "updatedAt": "2026-10-08T06:53:58.352Z",
       "items": [],
       "note": "No reliable Telugu movie data could be extracted from JioHotstar's current public source."
     },
@@ -639,7 +639,7 @@
       "id": "zee5",
       "name": "ZEE5",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T06:16:35.773Z",
+      "updatedAt": "2026-10-08T06:53:58.352Z",
       "items": [],
       "note": "No reliable Telugu movie data could be extracted from ZEE5's current public source."
     },
@@ -647,7 +647,7 @@
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T06:16:35.773Z",
+      "updatedAt": "2026-10-08T06:53:58.352Z",
       "items": [],
       "note": "No reliable Telugu movie data could be extracted from Sun NXT's current public source."
     },
@@ -655,7 +655,7 @@
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T06:16:35.773Z",
+      "updatedAt": "2026-10-08T06:53:58.352Z",
       "items": [],
       "note": "No reliable Telugu movie data could be extracted from ETV Win's current public source."
     },
@@ -663,7 +663,7 @@
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T06:16:35.773Z",
+      "updatedAt": "2026-10-08T06:53:58.352Z",
       "items": [],
       "note": "No reliable Telugu movie data could be extracted from SonyLIV's current public source."
     }
