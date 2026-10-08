@@ -40,6 +40,53 @@ Do not remove or replace the existing Cineinsta meta description.
   }
 }
 </script>
+#articlePage{
+  background:transparent!important;
+  color:#f2f2f2!important;
+}
+#articlePage > .articlePage{
+  background:#111!important;
+  color:#f2f2f2!important;
+  border-color:#303030!important;
+  box-shadow:0 10px 30px rgba(0,0,0,.28)!important;
+}
+#articlePage > .articlePage .articleTitle,
+#articlePage > .articlePage .articleBody,
+#articlePage > .articlePage .articleSummary,
+#articlePage > .articlePage .articleEditorial,
+#articlePage > .articlePage h1,
+#articlePage > .articlePage h2,
+#articlePage > .articlePage h3,
+#articlePage > .articlePage p,
+#articlePage > .articlePage li{
+  color:#f2f2f2!important;
+}
+#articlePage > .articlePage .articleBack,
+#articlePage > .articlePage .articleMeta{
+  color:#bdbdbd!important;
+}
+#articlePage > .articlePage .articleSource{
+  color:#f1c232!important;
+}
+#articlePage > .articlePage .articleImage{
+  background:#181818!important;
+  border:1px solid #303030!important;
+}
+.articleImageFallback{
+  width:100%;
+  min-height:220px;
+  margin:0 0 25px;
+  border-radius:12px;
+  border:1px solid #303030;
+  background:#181818;
+  color:#888;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:25px;
+  font-size:12px;
+}
 
 <style>
 :root{--bg:#f4f1eb;--surface:#fffdf9;--surface2:#eeeae2;--line:#ded8ce;--text:#202124;--muted:#707070;--accent:#c9282d;--accent2:#8f171b;--gold:#b1842f;--shadow:0 10px 30px rgba(30,25,20,.08)}
@@ -1037,6 +1084,13 @@ if(!points.length && body.length)points=body.slice(0,3);
 if(!points.length)return "";
 return `<section class="articleHighlights" aria-labelledby="whatToLookForTitle"><h2 id="whatToLookForTitle">What to Look for</h2><ul>${points.slice(0,4).map(function(p){return `<li>${escapeHTML(String(p))}</li>`}).join("")}</ul></section>`;
 }
+function handleArticleImageError(img){
+  if(!img)return;
+  const fallback=document.createElement("div");
+  fallback.className="articleImageFallback";
+  fallback.textContent="Image unavailable from the original source.";
+  img.replaceWith(fallback);
+}
 
 function showArticlePage(entry){
 const articlePage=document.getElementById("articlePage");
@@ -1051,7 +1105,7 @@ const editorialHtml=entry.type==="news"?renderEditorialArticle(item):`<div class
 const highlightsHtml=entry.type==="news"?renderWhatToLookFor(item):"";
 const sourceNames=item.source||"Cineinsta";
 const sourceExtra=Array.isArray(item.sources)&&item.sources.length?`<div class="articleSourceList"><strong>Information sources</strong><ul>${item.sources.map(function(s){return `<li>${escapeHTML(String(s))}</li>`}).join("")}</ul></div>`:"";
-articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}">`:"")}${editorialHtml}${highlightsHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}</div>`;
+articlePage.innerHTML=`<div class="articlePage"><a class="articleBack" href="/">← Back to Cineinsta</a><div class="articleSource">${escapeHTML(source)}</div><h1 class="articleTitle">${escapeHTML(title)}</h1><div class="articleMeta">${entry.type.toUpperCase()}${date?" · "+escapeHTML(date):""}</div>${(entry.type==="buzz" || entry.type==="trailers")&&item.youtubeId?`<div class="articleVideo"><iframe src="https://www.youtube.com/embed/${encodeURIComponent(item.youtubeId)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}" title="${escapeHTML(title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`:(image?`<img class="articleImage" src="${escapeHTML(image)}" alt="${escapeHTML(title)}" onerror="handleArticleImageError(this)">`:"")}${editorialHtml}${highlightsHtml}${sourceExtra}<div class="articleSourceBox"><div class="sourceLabel">Information source</div><strong>${escapeHTML(sourceNames)}</strong><div class="sourceNote">Cineinsta's article is written for this page from the reported facts. The original report is provided for attribution and verification.</div>${originalUrl&&originalUrl!=="#"?`<a href="${escapeHTML(originalUrl)}" target="_blank" rel="noopener noreferrer">Read original report →</a>`:""}</div>${relatedHtml}</div>`;
 updateSEO(entry);
 }
 
