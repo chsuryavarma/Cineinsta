@@ -180,11 +180,18 @@ function key(value) {
 
 function looksLikeTitle(title) {
   const t = clean(title);
+  const lower = t.toLowerCase();
   if (!t || t.length < 2 || t.length > 140) return false;
-  if (BAD_TITLES.has(t.toLowerCase())) return false;
+  if (BAD_TITLES.has(lower)) return false;
   if (/^(image|logo|poster|play|watch|arrow|menu|close)$/i.test(t)) return false;
   if (/^(https?:\/\/|www\.)/i.test(t)) return false;
-  if (/^(page|next|previous|\d+)$/.test(t.toLowerCase())) return false;
+  if (/^(page|next|previous|\d+)$/.test(lower)) return false;
+  // Catalogue navigation / genre pages are never movie titles.
+  if (/^(go to|more details for|watch telugu|watch for free|view all|see all)\b/i.test(t)) return false;
+  if (/^watch\s+telugu\b/i.test(t)) return false;
+  if (/\b(movies|movie)\s+(by|in|on)\s+(genre|language)/i.test(t)) return false;
+  if (/^(action|adventure|thriller|romance|comedy|horror|kids|drama|crime|sci[- ]?fi|fantasy|suspense)\s+movies$/i.test(t)) return false;
+  if (/^(instagram|facebook|twitter|android|ios|support@|offers|my aha)\b/i.test(t)) return false;
   return true;
 }
 
@@ -400,14 +407,20 @@ function filterByPlatform(platform, candidates) {
   return candidates.filter(item => {
     if (!looksLikeTitle(item.title)) return false;
 
-    if (platform.mode === 'catalog') return true;
-
-    if (hasTeluguEvidence(item.evidence)) return true;
-
-    if (platform.id === 'prime-video' && /\(telugu\)|telugu/i.test(item.title)) {
-      return true;
+    // Catalog platforms must point to an actual title/detail page.
+    if (platform.id === 'netflix') {
+      return /netflix\.com\/(?:in\/)?title\//i.test(item.url || '');
+    }
+    if (platform.id === 'zee5') {
+      const u = item.url || '';
+      return /zee5\.com\/.*\/movies\//i.test(u) && !/\/(genre|collections?)\//i.test(u);
+    }
+    if (platform.id === 'aha') {
+      return /aha\.video\/movie\//i.test(item.url || '');
     }
 
+    if (hasTeluguEvidence(item.evidence)) return true;
+    if (platform.id === 'prime-video' && /\(telugu\)|telugu/i.test(item.title)) return true;
     return item.url && detailPattern[platform.id]?.test(item.url);
   });
 }
@@ -457,32 +470,42 @@ async function extractFromUrl(url, platform) {
   };
 }
 
-async function verifyDetail(candidate, platform) {
-  if (!candidate.url) return false;
-
+async function fetchDetailMetadata(url) {
   try {
-    const host = new URL(candidate.url).hostname.toLowerCase();
-    if (!platform.detailHosts.some(h => host === h || host.endsWith(`.${h}`))) {
-      return false;
+    const { text } = await fetchText(url);
+    const titleMatches = [];
+    const imageMatches = [];
+
+    const metaRe = /<meta\b([^>]+)>/gi;
+    let m;
+    while ((m = metaRe.exec(text))) {
+      const a = parseAttributes(m[1]);
+      const property = (a.property || a.name || '').toLowerCase();
+      const content = a.content || '';
+      if (/^(og:title|twitter:title)$/i.test(property) && content) titleMatches.push(clean(content));
+      if (/^(og:image|twitter:image)$/i.test(property) && content) imageMatches.push(content);
     }
 
-    const { text } = await fetchText(candidate.url);
+    const jsonLd = extractJsonLdCandidates(text, url);
+    const title = titleMatches.find(looksLikeTitle) || jsonLd.find(x => looksLikeTitle(x.title))?.title || '';
+    const image = imageMatches.map(x => safeUrl(x, url)).find(Boolean) || jsonLd.find(x => x.img)?.img || '';
 
-    if (hasTeluguEvidence(text)) return true;
-
-    // Some pages expose language names in structured JSON/escaped text.
-    const decoded = text
-      .replace(/\\u([0-9a-f]{4})/gi, (_, h) =>
-        String.fromCharCode(parseInt(h, 16))
-      )
-      .replace(/\\x([0-9a-f]{2})/gi, (_, h) =>
-        String.fromCharCode(parseInt(h, 16))
-      );
-
-    return hasTeluguEvidence(decoded);
+    return {
+      text,
+      title: title || '',
+      image: image || ''
+    };
   } catch {
-    return false;
+    return null;
   }
+}
+
+function hasStrongTeluguEvidence(text) {
+  const s = String(text || '');
+  if (/\(telugu\)|\btelugu\s+(audio|language|dubbed|version|track)\b/i.test(s)) return true;
+  if (/\b(audio\s+languages?|languages?|audio|dubbed|language)\b[^\n]{0,300}\btelugu\b/i.test(s)) return true;
+  if (/\btelugu\b[^\n]{0,300}\b(audio\s+languages?|languages?|audio|dubbed|language)\b/i.test(s)) return true;
+  return false;
 }
 
 async function enrichAndVerify(platform, candidates) {
@@ -494,24 +517,32 @@ async function enrichAndVerify(platform, candidates) {
     if (!k || seen.has(k)) continue;
 
     let accepted = false;
+    let detail = null;
 
-    if (platform.mode === 'catalog') {
-      accepted = true;
-    } else if (hasTeluguEvidence(candidate.evidence)) {
-      accepted = true;
-    } else if (platform.id === 'prime-video' && /\(telugu\)|telugu/i.test(candidate.title)) {
-      accepted = true;
+    if (candidate.url) detail = await fetchDetailMetadata(candidate.url);
+
+    if (platform.id === 'netflix' || platform.id === 'zee5' || platform.id === 'aha') {
+      // Only publish real movie/detail pages, never catalogue/genre/navigation cards.
+      accepted = Boolean(detail && (detail.title || candidate.title));
+    } else if (platform.id === 'prime-video') {
+      accepted = /\(telugu\)|telugu/i.test(candidate.title) || hasStrongTeluguEvidence(detail?.text || candidate.evidence);
     } else {
-      accepted = await verifyDetail(candidate, platform);
+      accepted = hasStrongTeluguEvidence(detail?.text || candidate.evidence);
     }
 
     if (!accepted) continue;
 
-    seen.add(k);
+    const finalTitle = detail?.title && looksLikeTitle(detail.title) ? detail.title : candidate.title;
+    if (!looksLikeTitle(finalTitle)) continue;
+
+    const finalKey = key(finalTitle);
+    if (seen.has(finalKey)) continue;
+    seen.add(finalKey);
+
     out.push({
-      title: candidate.title,
+      title: finalTitle.replace(/^Go to\s+/i, '').replace(/^More details for\s+/i, ''),
       url: candidate.url,
-      img: candidate.img || '',
+      img: detail?.image || candidate.img || '',
       languages: 'Telugu'
     });
 
