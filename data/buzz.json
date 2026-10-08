@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T14:41:27.473Z",
+  "updatedAt": "2026-10-08T18:16:19.973Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-08T14:40:52.716Z",
-      "lastAttemptedAt": "2026-10-08T14:40:52.716Z",
+      "updatedAt": "2026-10-08T18:15:47.871Z",
+      "lastAttemptedAt": "2026-10-08T18:15:47.871Z",
       "items": [
         {
           "title": "Modha Rathri",
@@ -384,13 +384,19 @@
           "url": "https://www.netflix.com/title/83001420",
           "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
           "languages": "Telugu"
+        },
+        {
+          "title": "Romã​nchakam",
+          "url": "https://www.netflix.com/title/82969780",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/romanchakam2-1.jpg",
+          "languages": "Telugu"
         }
       ]
     },
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:53:52.119Z",
-      "lastAttemptedAt": "2026-10-08T14:41:07.746Z",
+      "lastAttemptedAt": "2026-10-08T18:16:03.700Z",
       "items": [
         {
           "title": "More details for Spider-Man: Brand New Day",
@@ -469,8 +475,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-08T14:41:08.008Z",
-      "lastAttemptedAt": "2026-10-08T14:41:08.008Z",
+      "updatedAt": "2026-10-08T18:16:03.998Z",
+      "lastAttemptedAt": "2026-10-08T18:16:03.998Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -537,14 +543,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-08T14:41:08.252Z",
+      "lastAttemptedAt": "2026-10-08T18:16:04.182Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-08T14:41:22.606Z",
+      "lastAttemptedAt": "2026-10-08T18:16:15.286Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -624,21 +630,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-08T14:41:24.717Z",
+      "lastAttemptedAt": "2026-10-08T18:16:17.071Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-08T14:41:25.937Z",
+      "lastAttemptedAt": "2026-10-08T18:16:18.256Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-08T14:41:27.471Z",
+      "lastAttemptedAt": "2026-10-08T18:16:19.971Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
