@@ -186,7 +186,6 @@ function looksLikeTitle(title) {
   if (/^(image|logo|poster|play|watch|arrow|menu|close)$/i.test(t)) return false;
   if (/^(https?:\/\/|www\.)/i.test(t)) return false;
   if (/^(page|next|previous|\d+)$/.test(lower)) return false;
-  // Catalogue navigation / genre pages are never movie titles.
   if (/^(go to|more details for|watch telugu|watch for free|view all|see all)\b/i.test(t)) return false;
   if (/^watch\s+telugu\b/i.test(t)) return false;
   if (/\b(movies|movie)\s+(by|in|on)\s+(genre|language)/i.test(t)) return false;
@@ -418,7 +417,6 @@ function filterByPlatform(platform, candidates) {
   return candidates.filter(item => {
     if (!looksLikeTitle(item.title)) return false;
 
-    // Catalog platforms must point to an actual title/detail page.
     if (platform.id === 'netflix') {
       return /netflix\.com\/(?:in\/)?title\//i.test(item.url || '');
     }
@@ -480,7 +478,31 @@ async function extractFromUrl(url, platform) {
   };
 }
 
-async function fetchDetailMetadata(url) {
+function normalizeOttTitle(platformId, title) {
+  let t = clean(title);
+  if (!t) return '';
+
+  if (platformId === 'aha') {
+    t = t
+      .replace(/^watch\s+/i, '')
+      .replace(/\s+online\s+in\s+hd$/i, '')
+      .replace(/\s+(?:movie|film)\s+online(?:\s+in\s+hd)?$/i, '')
+      .replace(/\s+\d{4}\s+(?:telugu|tamil|malayalam|kannada)\s+(?:movie|film)$/i, '')
+      .replace(/\s+(?:telugu|tamil|malayalam|kannada)\s+(?:movie|film)$/i, '')
+      .trim();
+  }
+
+  if (platformId === 'prime-video') {
+    t = t
+      .replace(/^more\s+details\s+for\s+/i, '')
+      .replace(/^more\s+details\s*:\s*/i, '')
+      .trim();
+  }
+
+  return t;
+}
+
+async function fetchDetailMetadata(url, platformId = '') {
   try {
     const { text } = await fetchText(url);
     const titleMatches = [];
@@ -504,11 +526,18 @@ async function fetchDetailMetadata(url) {
       const value = clean(h1[1]);
       if (looksLikeTitle(value)) h1Matches.push(value);
     }
-    const title =
-      titleMatches.find(looksLikeTitle) ||
-      jsonLd.find(x => looksLikeTitle(x.title))?.title ||
-      h1Matches.find(looksLikeTitle) ||
-      '';
+
+    const rawTitle =
+      platformId === 'aha'
+        ? (h1Matches.find(looksLikeTitle) ||
+           jsonLd.find(x => looksLikeTitle(x.title))?.title ||
+           titleMatches.find(looksLikeTitle) || '')
+        : (titleMatches.find(looksLikeTitle) ||
+           jsonLd.find(x => looksLikeTitle(x.title))?.title ||
+           h1Matches.find(looksLikeTitle) || '');
+
+    const title = normalizeOttTitle(platformId, rawTitle);
+
     const image =
       imageMatches.map(x => safeUrl(x, url)).find(Boolean) ||
       jsonLd.find(x => x.img)?.img ||
@@ -526,9 +555,15 @@ async function fetchDetailMetadata(url) {
 
 function hasStrongTeluguEvidence(text) {
   const s = String(text || '');
-  if (/\(telugu\)|\btelugu\s+(audio|language|dubbed|version|track)\b/i.test(s)) return true;
-  if (/\b(audio\s+languages?|languages?|audio|dubbed|language)\b[^\n]{0,300}\btelugu\b/i.test(s)) return true;
-  if (/\btelugu\b[^\n]{0,300}\b(audio\s+languages?|languages?|audio|dubbed|language)\b/i.test(s)) return true;
+  if (!/\btelugu\b/i.test(s) && !/తెలుగు/i.test(s)) return false;
+
+  if (/\(telugu\)|\btelugu\s+(audio|language|dubbed|version|track|content|movie)\b/i.test(s)) return true;
+  if (/\b(audio\s+languages?|languages?|audio|dubbed|language|subtitle|subtitles)\b[\s\S]{0,1500}\btelugu\b/i.test(s)) return true;
+  if (/\btelugu\b[\s\S]{0,1500}\b(audio\s+languages?|languages?|audio|dubbed|language|subtitle|subtitles)\b/i.test(s)) return true;
+
+  if (/"(?:language|languageCode|audioLanguage|audioLanguages)"\s*:\s*"[^"]*telugu/i.test(s)) return true;
+  if (/"(?:languages|audioLanguages)"\s*:\s*\[[^\]]{0,3000}\btelugu\b/i.test(s)) return true;
+
   return false;
 }
 
@@ -543,7 +578,7 @@ async function enrichAndVerify(platform, candidates) {
     let accepted = false;
     let detail = null;
 
-    if (candidate.url) detail = await fetchDetailMetadata(candidate.url);
+    if (candidate.url) detail = await fetchDetailMetadata(candidate.url, platform.id);
 
     if (platform.id === 'zee5') {
       accepted = Boolean(
@@ -554,7 +589,6 @@ async function enrichAndVerify(platform, candidates) {
         looksLikeTitle(detail.title)
       );
     } else if (platform.id === 'netflix' || platform.id === 'aha') {
-      // Keep the working Netflix/Aha validation unchanged.
       accepted = Boolean(detail && (detail.title || candidate.title));
     } else if (platform.id === 'prime-video') {
       accepted = /\(telugu\)|telugu/i.test(candidate.title) || hasStrongTeluguEvidence(detail?.text || candidate.evidence);
@@ -564,7 +598,10 @@ async function enrichAndVerify(platform, candidates) {
 
     if (!accepted) continue;
 
-    const finalTitle = detail?.title && looksLikeTitle(detail.title) ? detail.title : candidate.title;
+    const finalTitle = detail?.title && looksLikeTitle(detail.title)
+      ? detail.title
+      : normalizeOttTitle(platform.id, candidate.title);
+
     if (!looksLikeTitle(finalTitle)) continue;
 
     const finalKey = key(finalTitle);
