@@ -1,588 +1,761 @@
-import fs from "node:fs/promises";
+/**
+ * Cineinsta Buzz / OTT updater
+ *
+ * Replace:
+ *   scripts/update-buzz.mjs
+ *
+ * Design goals:
+ * - Platform-specific extraction instead of one generic parser.
+ * - Netflix and ZEE5 use dedicated Telugu catalogue pages.
+ * - Prime Video verifies Telugu availability from listing/detail pages.
+ * - Aha keeps its working parser.
+ * - JioHotstar, Sun NXT, ETV Win and SonyLIV use multiple public catalogue
+ *   surfaces and detail-page language verification where possible.
+ * - A source failure NEVER replaces the last successful OTT dataset with [].
+ * - No hard-coded movie list is used.
+ *
+ * Runtime: Node 20+ (GitHub Actions).
+ * No external npm packages required.
+ */
 
-const FEED = new URL("../data/feed.json", import.meta.url);
-const TRENDS = new URL("../data/ticket-trends.json", import.meta.url);
-const OUTPUT = new URL("../data/buzz.json", import.meta.url);
+import fs from 'node:fs/promises';
 
-const UA =
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36 Cineinsta/1.0";
+const ROOT = process.cwd();
+const FEED_FILE = `${ROOT}/data/feed.json`;
+const OUTPUT = `${ROOT}/data/buzz.json`;
 
-const SOURCES = [
+const USER_AGENT =
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 ' +
+  '(KHTML, like Gecko) Chrome/130.0 Safari/537.36 CineinstaBot/1.0';
+
+const MAX_ITEMS = 12;
+const DETAIL_LIMIT = 24;
+const REQUEST_TIMEOUT = 25000;
+
+const PLATFORMS = [
   {
-    id: "netflix",
-    name: "Netflix",
-    mode: "netflix",
+    id: 'netflix',
+    name: 'Netflix',
+    mode: 'catalog',
     urls: [
-      "https://www.netflix.com/in/browse/genre/34399",
-      "https://qr.netflix.com/in/browse/genre/100381",
-      "https://www.netflix.com/in/browse/genre/81610866",
+      'https://www.netflix.com/in/browse/genre/81396423',
+      'https://www.netflix.com/in/browse/genre/100381'
     ],
+    detailHosts: ['netflix.com']
   },
   {
-    id: "prime-video",
-    name: "Prime Video",
-    mode: "prime",
-    urls: ["https://www.primevideo.com/-/en/movie?tr=is"],
-  },
-  {
-    id: "aha",
-    name: "Aha",
-    mode: "telugu",
-    urls: ["https://www.aha.video/telugu/movies"],
-  },
-  {
-    id: "jiohotstar",
-    name: "JioHotstar",
-    mode: "generic",
-    urls: ["https://www.hotstar.com/in/cinema"],
-  },
-  {
-    id: "zee5",
-    name: "ZEE5",
-    mode: "telugu",
+    id: 'prime-video',
+    name: 'Prime Video',
+    mode: 'verify',
     urls: [
-      "https://www.zee5.com/movies/lang/telugu",
-      "https://www.zee5.com/collections/telugu/0-8-3z5553078",
+      'https://www.primevideo.com/-/en/movie?tr=is',
+      'https://www.primevideo.com/movie?tr=tv'
     ],
+    detailHosts: ['primevideo.com']
   },
   {
-    id: "sun-nxt",
-    name: "Sun NXT",
-    mode: "generic",
+    id: 'aha',
+    name: 'Aha',
+    mode: 'catalog',
     urls: [
-      "https://www.sunnxt.com/movie/inside/telugu-movies?actioURL=true&publishid=45&title=Telugu+Movies&type=movie",
+      'https://www.aha.video/telugu/movies'
     ],
+    detailHosts: ['aha.video']
   },
   {
-    id: "etv-win",
-    name: "ETV Win",
-    mode: "generic",
-    urls: ["https://www.etvwin.com/"],
+    id: 'jiohotstar',
+    name: 'JioHotstar',
+    mode: 'verify',
+    urls: [
+      'https://www.hotstar.com/in/cinema',
+      'https://www.hotstar.com/in/movies'
+    ],
+    detailHosts: ['hotstar.com']
   },
   {
-    id: "sonyliv",
-    name: "SonyLIV",
-    mode: "generic",
-    urls: ["https://www.sonyliv.com/?lang=en"],
+    id: 'zee5',
+    name: 'ZEE5',
+    mode: 'catalog',
+    urls: [
+      'https://www.zee5.com/movies/lang/telugu',
+      'https://www.zee5.com/collections/telugu/0-8-manualcoll_727670498'
+    ],
+    detailHosts: ['zee5.com']
   },
+  {
+    id: 'sun-nxt',
+    name: 'Sun NXT',
+    mode: 'verify',
+    urls: [
+      'https://www.sunnxt.com/movie/inside/telugu-movies?actioURL=true&publishid=45&title=Telugu+Movies&type=movie',
+      'https://www.sunnxt.com/movies/telugu'
+    ],
+    detailHosts: ['sunnxt.com']
+  },
+  {
+    id: 'etv-win',
+    name: 'ETV Win',
+    mode: 'verify',
+    urls: [
+      'https://www.etvwin.com/',
+      'https://www.etvwin.com/movies'
+    ],
+    detailHosts: ['etvwin.com']
+  },
+  {
+    id: 'sonyliv',
+    name: 'SonyLIV',
+    mode: 'verify',
+    urls: [
+      'https://www.sonyliv.com/',
+      'https://www.sonyliv.com/movies'
+    ],
+    detailHosts: ['sonyliv.com']
+  }
 ];
 
-const GENERIC_TITLES = new Set([
-  "home","movies","movie","series","shows","show","watch now","subscribe",
-  "login","sign in","more","previous","next","top 10","top listing",
-  "latest movies","latest ott releases","ott releases","this week",
-  "read more","advertisement","release date","telugu movies",
-  "popular movies","trending","featured","view all","see all"
+const BAD_TITLES = new Set([
+  'home', 'movies', 'movie', 'series', 'shows', 'more', 'watch now',
+  'view all', 'see all', 'subscribe', 'sign in', 'login', 'search',
+  'trending', 'popular', 'featured', 'new', 'latest', 'top 10',
+  'top 10 movies', 'telugu movies', 'all movies', 'free', 'premium',
+  'languages', 'genres', 'kids', 'sports', 'live tv', 'originals',
+  'continue watching', 'recommended for you', 'browse all', 'details'
 ]);
 
-function clean(v = "") {
-  return String(v ?? "")
-    .replace(/\u00a0/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function decode(v = "") {
-  return String(v ?? "")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
+function clean(value) {
+  return String(value ?? '')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&#39;|&#x27;/gi, "'")
     .replace(/&quot;/gi, '"')
-    .replace(/&#39;|&apos;|&#x27;/gi, "'")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">");
-}
-
-function strip(v = "") {
-  return clean(
-    decode(
-      String(v)
-        .replace(/<script[\s\S]*?<\/script>/gi, " ")
-        .replace(/<style[\s\S]*?<\/style>/gi, " ")
-        .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
-        .replace(/<[^>]+>/g, " ")
-    )
-  );
-}
-
-function attr(tag, name) {
-  const m = String(tag).match(
-    new RegExp(`\\b${name}\\s*=\\s*["']([^"']+)["']`, "i")
-  );
-  return decode(m?.[1] || "");
-}
-
-function abs(url, base) {
-  try { return new URL(url, base).href; } catch { return ""; }
-}
-
-function key(v = "") {
-  return clean(decode(v))
-    .toLowerCase()
-    .replace(/[’'`]/g, "")
-    .replace(/&/g, " and ")
-    .replace(/[^\p{L}\p{N}]+/gu, " ")
-    .replace(/\s+/g, " ")
+    .replace(/&amp;/gi, '&')
+    .replace(/&#x2F;|&#47;/gi, '/')
+    .replace(/&#x3A;|&#58;/gi, ':')
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
 }
 
-function normalizeTitle(v = "") {
-  let t = clean(v)
-    .replace(/^\d+[\).\s-]+/, "")
-    .replace(/\s*\|\s*20\d{2}.*$/i, "")
-    .replace(/\s*-\s*20\d{2}.*$/i, "")
-    .trim();
-
-  if (!t || t.length < 2 || t.length > 140) return "";
-  if (GENERIC_TITLES.has(t.toLowerCase())) return "";
-  if (/^(language|genre|cast|crew|details|audio|subtitles)$/i.test(t)) return "";
-  return t;
+function decodeEntities(value) {
+  return clean(value)
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)));
 }
 
-function isTelugu(text = "") {
-  return /[\u0C00-\u0C7F]/.test(String(text)) || /\btelugu\b/i.test(String(text));
-}
-
-async function fetchText(url, timeout = 30000) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeout);
+function absoluteUrl(value, base) {
+  if (!value) return '';
   try {
-    const r = await fetch(url, {
-      redirect: "follow",
-      headers: {
-        "User-Agent": UA,
-        "Accept": "text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-IN,en;q=0.9",
-      },
-      signal: controller.signal,
-    });
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    return await r.text();
-  } finally {
-    clearTimeout(timer);
+    const url = new URL(value, base);
+    if (!/^https?:$/i.test(url.protocol)) return '';
+    return url.href;
+  } catch {
+    return '';
   }
 }
 
-function imageFromTag(tag, base) {
-  const raw =
-    attr(tag, "src") ||
-    attr(tag, "data-src") ||
-    attr(tag, "data-lazy-src") ||
-    attr(tag, "data-original") ||
-    attr(tag, "content");
-
-  const url = abs(raw, base);
-  if (!/^https?:\/\//i.test(url)) return "";
-  if (/(logo|icon|sprite|avatar|facebook|instagram|twitter|google_play|app_store|advert|ads?[-_])/i.test(url))
-    return "";
+function safeUrl(value, base) {
+  const url = absoluteUrl(value, base);
+  if (!url) return '';
+  if (/^(javascript|data|blob):/i.test(url)) return '';
   return url;
 }
 
-function extractImageIndex(html, base) {
-  const out = [];
-  const re = /<img\b[^>]*>/gi;
+function slug(value) {
+  return String(value || '')
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[^\p{Letter}\p{Number}]+/gu, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 100);
+}
+
+function key(value) {
+  return String(value || '')
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[^\p{Letter}\p{Number}]+/gu, '')
+    .replace(/(the|a|an)$/g, '');
+}
+
+function looksLikeTitle(title) {
+  const t = clean(title);
+  if (!t || t.length < 2 || t.length > 140) return false;
+  if (BAD_TITLES.has(t.toLowerCase())) return false;
+  if (/^(image|logo|poster|play|watch|arrow|menu|close)$/i.test(t)) return false;
+  if (/^(https?:\/\/|www\.)/i.test(t)) return false;
+  if (/^(page|next|previous|\d+)$/.test(t.toLowerCase())) return false;
+  return true;
+}
+
+function hasTeluguEvidence(text) {
+  const s = String(text || '');
+  return /తెలుగు|telugu/i.test(s);
+}
+
+function parseAttributes(tag) {
+  const out = {};
+  const re = /([:\w-]+)\s*=\s*("([^"]*)"|'([^']*)')/gi;
   let m;
-  while ((m = re.exec(html))) {
-    const tag = m[0];
-    const img = imageFromTag(tag, base);
-    if (!img) continue;
-    const text = clean(
-      [
-        attr(tag, "alt"),
-        attr(tag, "title"),
-        attr(tag, "aria-label"),
-        attr(tag, "data-title"),
-      ].join(" ")
-    );
-    out.push({ img, text, k: key(text) });
+  while ((m = re.exec(tag))) {
+    out[m[1].toLowerCase()] = decodeEntities(m[3] ?? m[4] ?? '');
   }
   return out;
 }
 
-function nearestImage(html, position, base, imageIndex) {
-  const nearby = html.slice(
-    Math.max(0, position - 5000),
-    Math.min(html.length, position + 5000)
-  );
-  const tags = nearby.match(/<img\b[^>]*>/gi) || [];
-  for (const tag of tags) {
-    const img = imageFromTag(tag, base);
-    if (img) return img;
-  }
-  return "";
-}
-
-function imageForTitle(title, imageIndex) {
-  const wanted = key(title);
-  if (!wanted) return "";
-  const exact = imageIndex.find(x => x.k && (x.k === wanted || x.k.includes(wanted)));
-  return exact?.img || "";
-}
-
-function extractCandidates(html, base, platform) {
-  const imageIndex = extractImageIndex(html, base);
-  const out = [];
-
-  const anchorRe = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+function extractImages(html, baseUrl) {
+  const images = [];
+  const re = /<img\b([^>]*)>/gi;
   let m;
-  while ((m = anchorRe.exec(html)) && out.length < 500) {
-    const title = normalizeTitle(strip(m[2]));
-    if (!title) continue;
+  while ((m = re.exec(html))) {
+    const a = parseAttributes(m[1]);
+    const src =
+      a.src ||
+      a['data-src'] ||
+      a['data-lazy-src'] ||
+      a['data-original'] ||
+      a.content ||
+      '';
+    const url = safeUrl(src, baseUrl);
+    if (!url) continue;
+    images.push({
+      url,
+      alt: a.alt || '',
+      title: a.title || '',
+      dataTitle: a['data-title'] || '',
+      pos: m.index
+    });
+  }
+  return images;
+}
 
-    const block = m[2];
-    let img = nearestImage(html, m.index, base, imageIndex);
-    if (!img) img = imageForTitle(title, imageIndex);
+function nearestImage(images, start, end, title = '') {
+  const lower = title.toLowerCase();
+  const candidates = images
+    .map(img => {
+      const distance =
+        img.pos >= start && img.pos <= end
+          ? 0
+          : Math.min(Math.abs(img.pos - start), Math.abs(img.pos - end));
+      const text = `${img.alt} ${img.title} ${img.dataTitle}`.toLowerCase();
+      const titleBonus =
+        lower && text.includes(lower) ? -100000 :
+        lower && lower.split(/\s+/).filter(Boolean).some(w => w.length > 4 && text.includes(w))
+          ? -5000 : 0;
+      return { img, score: distance + titleBonus };
+    })
+    .sort((a, b) => a.score - b.score);
+  return candidates[0]?.img?.url || '';
+}
 
-    out.push({
+function extractAnchorCandidates(html, baseUrl) {
+  const images = extractImages(html, baseUrl);
+  const results = [];
+  const re = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
+  let m;
+
+  while ((m = re.exec(html))) {
+    const attrs = parseAttributes(m[1]);
+    const body = m[2];
+    const href = safeUrl(attrs.href || '', baseUrl);
+    const title =
+      clean(attrs['aria-label']) ||
+      clean(attrs.title) ||
+      clean(attrs['data-title']) ||
+      clean(body);
+
+    if (!looksLikeTitle(title)) continue;
+
+    const start = m.index;
+    const end = m.index + m[0].length;
+    const img = nearestImage(images, start, end, title);
+
+    results.push({
       title,
+      url: href,
       img,
-      url: abs(m[1], base),
-      platform: platform.name,
-      text: strip(block),
+      evidence: `${attrs['aria-label'] || ''} ${attrs.title || ''} ${body}`,
+      sourcePos: start
     });
   }
 
-  const headingRe = /<(h1|h2|h3|h4|h5)\b[^>]*>([\s\S]*?)<\/\1>/gi;
-  while ((m = headingRe.exec(html))) {
-    const title = normalizeTitle(strip(m[2]));
-    if (!title) continue;
-    let img = nearestImage(html, m.index, base, imageIndex);
-    if (!img) img = imageForTitle(title, imageIndex);
-    out.push({
+  return results;
+}
+
+function extractHeadingCandidates(html, baseUrl) {
+  const images = extractImages(html, baseUrl);
+  const results = [];
+  const re = /<(h1|h2|h3|h4|h5|h6)\b([^>]*)>([\s\S]*?)<\/\1>/gi;
+  let m;
+
+  while ((m = re.exec(html))) {
+    const attrs = parseAttributes(m[2]);
+    const title =
+      clean(attrs['aria-label']) ||
+      clean(attrs.title) ||
+      clean(m[3]);
+
+    if (!looksLikeTitle(title)) continue;
+
+    const img = nearestImage(images, m.index, m.index + m[0].length, title);
+    results.push({
       title,
+      url: '',
       img,
-      url: "",
-      platform: platform.name,
-      text: strip(html.slice(Math.max(0, m.index - 1000), m.index + 2500)),
+      evidence: clean(m[3]),
+      sourcePos: m.index
     });
   }
+  return results;
+}
 
-  // JSON-LD often survives server-side fetching even when visual cards do not.
-  const ld = html.match(
-    /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi
-  ) || [];
+function extractJsonLdCandidates(html, baseUrl) {
+  const results = [];
+  const re = /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+  let m;
 
-  for (const script of ld) {
-    const raw = script
-      .replace(/^<script[^>]*>/i, "")
-      .replace(/<\/script>$/i, "")
-      .trim();
+  while ((m = re.exec(html))) {
+    let json;
     try {
-      const parsed = JSON.parse(raw);
-      const nodes = Array.isArray(parsed) ? parsed : [parsed];
-
-      const walk = node => {
-        if (!node || typeof node !== "object") return;
-        if (Array.isArray(node)) return node.forEach(walk);
-
-        const title = normalizeTitle(node.name || node.headline || "");
-        let image = node.image;
-        if (Array.isArray(image)) image = image[0];
-        if (image && typeof image === "object") image = image.url;
-
-        if (title) {
-          out.push({
-            title,
-            img: abs(String(image || ""), base),
-            url: abs(String(node.url || ""), base),
-            platform: platform.name,
-            text: JSON.stringify(node).slice(0, 5000),
-          });
-        }
-        Object.values(node).forEach(walk);
-      };
-
-      walk(nodes);
-    } catch {}
-  }
-
-  const seen = new Set();
-  return out.filter(x => {
-    const k = `${key(x.title)}|${platform.id}`;
-    if (!key(x.title) || seen.has(k)) return false;
-    seen.add(k);
-    return true;
-  });
-}
-
-function platformAccepts(source, item) {
-  const text = `${item.title} ${item.text}`;
-  if (source.mode === "telugu") return true;
-  if (source.mode === "netflix") return true;
-  if (source.mode === "prime") return isTelugu(text);
-  return isTelugu(text);
-}
-
-async function parsePrime(items) {
-  const result = [];
-  for (const item of items.slice(0, 60)) {
-    if (isTelugu(`${item.title} ${item.text}`)) {
-      result.push({ ...item, verifiedTelugu: true });
+      json = JSON.parse(m[1].trim());
+    } catch {
       continue;
     }
 
-    if (!item.url || !/primevideo\.com/i.test(item.url)) continue;
+    const stack = Array.isArray(json) ? [...json] : [json];
+    while (stack.length) {
+      const item = stack.shift();
+      if (!item || typeof item !== 'object') continue;
 
-    try {
-      const detail = await fetchText(item.url, 18000);
-      if (isTelugu(detail) || /\baudio languages?\b[\s\S]{0,500}\btelugu\b/i.test(detail)) {
-        const images = extractImageIndex(detail, item.url);
-        result.push({
-          ...item,
-          img: imageForTitle(item.title, images) || item.img,
-          verifiedTelugu: true,
+      if (Array.isArray(item)) {
+        stack.push(...item);
+        continue;
+      }
+
+      const name = clean(item.name || item.headline || '');
+      const image = Array.isArray(item.image) ? item.image[0] : item.image;
+      const url = safeUrl(item.url || '', baseUrl);
+
+      if (looksLikeTitle(name)) {
+        results.push({
+          title: name,
+          url,
+          img: safeUrl(image || '', baseUrl),
+          evidence: JSON.stringify(item).slice(0, 5000),
+          sourcePos: m.index
         });
       }
-    } catch {}
+
+      for (const value of Object.values(item)) {
+        if (value && typeof value === 'object') stack.push(value);
+      }
+    }
   }
-  return result;
+  return results;
 }
 
-async function getSourceData(source) {
-  const all = [];
+function dedupeCandidates(items) {
+  const map = new Map();
 
-  for (const url of source.urls) {
-    try {
-      const html = await fetchText(url);
-      let items = extractCandidates(html, url, source);
+  for (const item of items) {
+    const title = clean(item.title);
+    if (!looksLikeTitle(title)) continue;
 
-      if (source.mode === "prime") {
-        items = await parsePrime(items);
-      } else {
-        items = items.filter(x => platformAccepts(source, x));
-      }
+    const k = key(title);
+    if (!k || k.length < 2) continue;
 
-      all.push(...items);
-    } catch (e) {
-      console.warn(`${source.name}: ${url} failed: ${e.message}`);
+    const existing = map.get(k);
+    if (!existing) {
+      map.set(k, {
+        title,
+        url: item.url || '',
+        img: item.img || '',
+        evidence: item.evidence || ''
+      });
+      continue;
+    }
+
+    if (!existing.img && item.img) existing.img = item.img;
+    if (!existing.url && item.url) existing.url = item.url;
+    if ((item.evidence || '').length > (existing.evidence || '').length) {
+      existing.evidence = item.evidence;
     }
   }
 
-  const seen = new Set();
-  return all.filter(item => {
-    const k = key(item.title);
-    if (!k || seen.has(k)) return false;
-    seen.add(k);
-    return true;
-  }).slice(0, 30);
+  return [...map.values()];
 }
 
-function feedImageIndex(feed, previous) {
-  const out = [];
-  const add = x => {
-    if (x?.title && x?.img) out.push({ k: key(x.title), img: x.img });
+function filterByPlatform(platform, candidates) {
+  const detailPattern = {
+    netflix: /netflix\.com\/.*\/title\/|netflix\.com\/title\//i,
+    'prime-video': /primevideo\.com\/detail\//i,
+    aha: /aha\.video\/movie\//i,
+    jiohotstar: /hotstar\.com\/.*\/(?:movies|movie)\//i,
+    zee5: /zee5\.com\/(?:movies|movie)\//i,
+    'sun-nxt': /sunnxt\.com\/(?:movie|movies)\//i,
+    'etv-win': /etvwin\.com\/.*(?:movie|movies)/i,
+    sonyliv: /sonyliv\.com\/.*(?:movie|movies)/i
   };
 
-  for (const x of feed.news || []) add({ title: x.title || x.t, img: x.img });
-  for (const x of feed.reviews || []) add({ title: x.title || x.t || x.movie, img: x.img });
-  for (const x of feed.trailers || []) add({ title: x.title || x.t, img: x.img });
+  return candidates.filter(item => {
+    if (!looksLikeTitle(item.title)) return false;
 
-  for (const p of Object.values(previous?.ottTrending || {})) {
-    for (const x of p.items || []) add(x);
-  }
+    if (platform.mode === 'catalog') return true;
 
-  return out;
+    if (hasTeluguEvidence(item.evidence)) return true;
+
+    if (platform.id === 'prime-video' && /\(telugu\)|telugu/i.test(item.title)) {
+      return true;
+    }
+
+    return item.url && detailPattern[platform.id]?.test(item.url);
+  });
 }
 
-async function imageWorks(url) {
-  if (!/^https?:\/\//i.test(String(url || ""))) return false;
+async function fetchText(url) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 7000);
+  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT);
+
   try {
-    const r = await fetch(url, {
-      method: "GET",
-      redirect: "follow",
-      headers: { "User-Agent": UA, Range: "bytes=0-4095" },
-      signal: controller.signal,
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': USER_AGENT,
+        Accept:
+          'text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-IN,en;q=0.9,te;q=0.8'
+      },
+      redirect: 'follow',
+      signal: controller.signal
     });
-    return r.ok && /^image\//i.test(r.headers.get("content-type") || "");
-  } catch {
-    return false;
+
+    const text = await response.text();
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    return { text, url: response.url || url };
   } finally {
     clearTimeout(timer);
   }
 }
 
-async function chooseImage(item, feedImages) {
-  const candidates = [];
-  if (item.img) candidates.push(item.img);
+async function extractFromUrl(url, platform) {
+  const result = await fetchText(url);
+  const html = result.text;
+  const finalUrl = result.url;
 
-  const k = key(item.title);
-  for (const x of feedImages) {
-    if (x.k === k || x.k.includes(k) || k.includes(x.k)) candidates.push(x.img);
-  }
+  const candidates = dedupeCandidates([
+    ...extractAnchorCandidates(html, finalUrl),
+    ...extractHeadingCandidates(html, finalUrl),
+    ...extractJsonLdCandidates(html, finalUrl)
+  ]);
 
-  for (const url of candidates) {
-    if (await imageWorks(url)) return url;
-  }
-  return "";
+  return {
+    html,
+    finalUrl,
+    candidates: filterByPlatform(platform, candidates)
+  };
 }
 
-function buildOtt(results, previous, now) {
-  const out = {};
+async function verifyDetail(candidate, platform) {
+  if (!candidate.url) return false;
 
-  for (const source of SOURCES) {
-    const fresh = results[source.id] || [];
-    const valid = fresh.filter(x => x.title).slice(0, 10);
-
-    // CRITICAL: a scraper failure must never erase the last successful dataset.
-    if (valid.length > 0) {
-      out[source.id] = {
-        id: source.id,
-        name: source.name,
-        status: "ok",
-        updatedAt: now,
-        items: valid.map((x, i) => ({
-          rank: i + 1,
-          title: x.title,
-          language: "Telugu",
-          img: x.img,
-          platform: source.name,
-          releaseDate: x.releaseDate || "",
-          languages: "Telugu",
-        })),
-        note: `Fresh Telugu-relevant titles collected from ${source.name}'s public source.`,
-      };
-    } else {
-      const old = previous?.ottTrending?.[source.id];
-      if (old?.items?.length) {
-        out[source.id] = {
-          ...old,
-          status: "stale",
-          lastAttemptedAt: now,
-          note: `${source.name} source could not be read reliably on this run. Showing the last successful dataset instead of replacing it with zero.`,
-        };
-      } else {
-        out[source.id] = {
-          id: source.id,
-          name: source.name,
-          status: "unavailable",
-          updatedAt: now,
-          items: [],
-          note: `No successful dataset is available yet for ${source.name}.`,
-        };
-      }
+  try {
+    const host = new URL(candidate.url).hostname.toLowerCase();
+    if (!platform.detailHosts.some(h => host === h || host.endsWith(`.${h}`))) {
+      return false;
     }
+
+    const { text } = await fetchText(candidate.url);
+
+    if (hasTeluguEvidence(text)) return true;
+
+    // Some pages expose language names in structured JSON/escaped text.
+    const decoded = text
+      .replace(/\\u([0-9a-f]{4})/gi, (_, h) =>
+        String.fromCharCode(parseInt(h, 16))
+      )
+      .replace(/\\x([0-9a-f]{2})/gi, (_, h) =>
+        String.fromCharCode(parseInt(h, 16))
+      );
+
+    return hasTeluguEvidence(decoded);
+  } catch {
+    return false;
+  }
+}
+
+async function enrichAndVerify(platform, candidates) {
+  const out = [];
+  const seen = new Set();
+
+  for (const candidate of candidates.slice(0, DETAIL_LIMIT)) {
+    const k = key(candidate.title);
+    if (!k || seen.has(k)) continue;
+
+    let accepted = false;
+
+    if (platform.mode === 'catalog') {
+      accepted = true;
+    } else if (hasTeluguEvidence(candidate.evidence)) {
+      accepted = true;
+    } else if (platform.id === 'prime-video' && /\(telugu\)|telugu/i.test(candidate.title)) {
+      accepted = true;
+    } else {
+      accepted = await verifyDetail(candidate, platform);
+    }
+
+    if (!accepted) continue;
+
+    seen.add(k);
+    out.push({
+      title: candidate.title,
+      url: candidate.url,
+      img: candidate.img || '',
+      languages: 'Telugu'
+    });
+
+    if (out.length >= MAX_ITEMS) break;
   }
 
   return out;
 }
 
-async function main() {
-  const feed = JSON.parse(await fs.readFile(FEED, "utf8"));
+function imageFromExistingFeed(title, feed) {
+  const all = [
+    ...(Array.isArray(feed.news) ? feed.news : []),
+    ...(Array.isArray(feed.reviews) ? feed.reviews : []),
+    ...(Array.isArray(feed.trailers) ? feed.trailers : []),
+    ...(Array.isArray(feed.buzz) ? feed.buzz : [])
+  ];
 
-  let trends = { movies: [] };
-  try { trends = JSON.parse(await fs.readFile(TRENDS, "utf8")); } catch {}
+  const target = key(title);
+  const match = all.find(item => key(item?.title || item?.t || '') === target);
 
-  let previous = null;
-  try { previous = JSON.parse(await fs.readFile(OUTPUT, "utf8")); } catch {}
+  return match?.img || '';
+}
 
-  const now = new Date().toISOString();
-  const feedImages = feedImageIndex(feed, previous);
+function previousOtt(payload, id) {
+  const item = payload?.ottTrending?.[id];
+  return item && Array.isArray(item.items) ? item : null;
+}
 
-  const results = {};
-  for (const source of SOURCES) {
-    results[source.id] = await getSourceData(source);
-    console.log(`${source.name}: ${results[source.id].length} extracted`);
+async function readJson(path, fallback) {
+  try {
+    return JSON.parse(await fs.readFile(path, 'utf8'));
+  } catch {
+    return fallback;
+  }
+}
+
+async function scrapePlatform(platform) {
+  const combined = [];
+  const attempted = [];
+
+  for (const url of platform.urls) {
+    try {
+      const result = await extractFromUrl(url, platform);
+      attempted.push({
+        url,
+        ok: true,
+        candidateCount: result.candidates.length
+      });
+      combined.push(...result.candidates);
+    } catch (error) {
+      attempted.push({
+        url,
+        ok: false,
+        error: error instanceof Error ? error.message : String(error)
+      });
+    }
   }
 
-  // Resolve images without rejecting a title merely because the anchor did not
-  // contain an <img>. This was one of the main causes of Netflix/ZEE5 = 0.
-  for (const source of SOURCES) {
-    const resolved = [];
-    for (const item of results[source.id]) {
-      const img = await chooseImage(item, feedImages);
-      if (img) resolved.push({ ...item, img });
-    }
-    results[source.id] = resolved;
-    console.log(`${source.name}: ${resolved.length} image-valid titles`);
-  }
+  const candidates = dedupeCandidates(combined);
+  const items = await enrichAndVerify(platform, candidates);
 
-  const ottTrending = buildOtt(results, previous, now);
-
-  // Preserve the existing Buzz movie calculation.
-  const candidates = new Map();
-  const add = (title, img, kind) => {
-    title = clean(title);
-    if (!title) return;
-    const id = key(title);
-    if (!id) return;
-    const item = candidates.get(id) || {
-      title, img: img || "", reviews: 0, trailers: 0, cinemas: 0, shows: 0
-    };
-    if (!item.img && img) item.img = img;
-    if (kind === "review") item.reviews++;
-    if (kind === "trailer") item.trailers++;
-    if (kind === "theatre") {
-      item.cinemas += 1;
-      item.shows += 1;
-    }
-    candidates.set(id, item);
+  return {
+    items,
+    attempted,
+    candidates: candidates.length
   };
+}
 
-  for (const x of feed.reviews || []) add(x.title || x.t || x.movie, x.img, "review");
-  for (const x of feed.trailers || []) add(x.title || x.t, x.img, "trailer");
-  for (const x of trends.movies || []) add(x.movie, x.img, "theatre");
+function makeTabs(ottTrending) {
+  return [
+    { id: 'buzz', name: 'Buzz Now', status: 'active' },
+    { id: 'theatres', name: 'Theatres Now', status: 'ok' },
+    ...PLATFORMS.map(platform => ({
+      id: platform.id,
+      name: platform.name,
+      status: ottTrending[platform.id]?.status || 'unavailable'
+    }))
+  ];
+}
 
-  const news = feed.news || [];
-  const buzz = [...candidates.values()]
-    .filter(x => x.img)
-    .map(x => {
-      const k = key(x.title);
-      const newsSignals = news.filter(n => {
-        const t = key([n?.title || "", n?.summary || "", n?.dek || ""].join(" "));
-        return t.includes(k) || (k.split(" ").filter(w => w.length > 2).filter(w => t.includes(w)).length >= Math.ceil(k.split(" ").length * .75));
-      }).length;
+function buildBuzz(feed) {
+  const candidates = new Map();
 
+  for (const item of Array.isArray(feed.news) ? feed.news : []) {
+    const title = clean(item?.title || item?.t || '');
+    if (looksLikeTitle(title)) {
+      const k = key(title);
+      const existing = candidates.get(k) || {
+        title,
+        img: item?.img || '',
+        news: 0,
+        reviews: 0,
+        trailers: 0
+      };
+      existing.news += 1;
+      if (!existing.img) existing.img = item?.img || '';
+      candidates.set(k, existing);
+    }
+  }
+
+  for (const item of Array.isArray(feed.reviews) ? feed.reviews : []) {
+    const title = clean(item?.title || item?.t || '');
+    if (!looksLikeTitle(title)) continue;
+    const k = key(title);
+    const existing = candidates.get(k) || {
+      title,
+      img: item?.img || '',
+      news: 0,
+      reviews: 0,
+      trailers: 0
+    };
+    existing.reviews += 1;
+    if (!existing.img) existing.img = item?.img || '';
+    candidates.set(k, existing);
+  }
+
+  for (const item of Array.isArray(feed.trailers) ? feed.trailers : []) {
+    const title = clean(item?.title || item?.t || '');
+    if (!looksLikeTitle(title)) continue;
+    const k = key(title);
+    const existing = candidates.get(k) || {
+      title,
+      img: item?.img || '',
+      news: 0,
+      reviews: 0,
+      trailers: 0
+    };
+    existing.trailers += 1;
+    if (!existing.img) existing.img = item?.img || '';
+    candidates.set(k, existing);
+  }
+
+  return [...candidates.values()]
+    .filter(item => item.img)
+    .map(item => {
       const score = Math.min(
         100,
-        12 + Math.min(newsSignals * 10, 30) +
-        Math.min(x.reviews * 10, 20) +
-        Math.min(x.trailers * 5, 10) +
-        Math.min(x.cinemas * 3, 30)
+        15 +
+          Math.min(item.news * 12, 45) +
+          Math.min(item.reviews * 10, 25) +
+          Math.min(item.trailers * 5, 15)
       );
 
       return {
-        id: k.replace(/\s+/g, "-").slice(0, 100),
-        title: x.title,
-        img: x.img,
-        language: "Telugu",
+        id: slug(item.title),
+        title: item.title,
+        img: item.img,
+        language: 'Telugu',
         buzzScore: Math.round(score),
-        status: score >= 70 ? "HIGH BUZZ" : score >= 50 ? "RISING" : score < 30 ? "COOLING" : "STEADY",
-        theatre: { cinemas: x.cinemas, shows: x.shows },
-        sourceSignals: { news: newsSignals, reviews: x.reviews, trailers: x.trailers, theatreLocations: x.cinemas, theatreShows: x.shows }
+        status:
+          score >= 70 ? 'HIGH BUZZ' :
+          score >= 50 ? 'RISING' :
+          score < 30 ? 'COOLING' : 'STEADY',
+        sourceSignals: {
+          news: item.news,
+          reviews: item.reviews,
+          trailers: item.trailers
+        }
       };
     })
     .sort((a, b) => b.buzzScore - a.buzzScore)
     .slice(0, 24);
+}
+
+async function main() {
+  const feed = await readJson(FEED_FILE, {});
+  const previous = await readJson(OUTPUT, {});
+
+  const ottTrending = {};
+
+  for (const platform of PLATFORMS) {
+    console.log(`\n[OTT] ${platform.name}`);
+
+    const previousBlock = previousOtt(previous, platform.id);
+    const result = await scrapePlatform(platform);
+
+    const validItems = result.items
+      .map(item => ({
+        ...item,
+        img: item.img || imageFromExistingFeed(item.title, feed)
+      }))
+      .filter(item => item.img);
+
+    if (validItems.length > 0) {
+      ottTrending[platform.id] = {
+        status: 'ok',
+        updatedAt: new Date().toISOString(),
+        lastAttemptedAt: new Date().toISOString(),
+        items: validItems.slice(0, MAX_ITEMS)
+      };
+
+      console.log(
+        `[OTT] ${platform.name}: ${validItems.length} fresh titles`
+      );
+    } else if (previousBlock?.items?.length) {
+      ottTrending[platform.id] = {
+        ...previousBlock,
+        status: 'stale',
+        lastAttemptedAt: new Date().toISOString(),
+        note:
+          'Fresh extraction failed or returned no validated titles; the last successful dataset was preserved.'
+      };
+
+      console.log(
+        `[OTT] ${platform.name}: 0 fresh titles — preserved ${previousBlock.items.length} previous titles`
+      );
+    } else {
+      ottTrending[platform.id] = {
+        status: 'unavailable',
+        updatedAt: null,
+        lastAttemptedAt: new Date().toISOString(),
+        items: [],
+        note:
+          'No validated titles were obtained from the platform public catalogue during this run.'
+      };
+
+      console.log(`[OTT] ${platform.name}: unavailable`);
+    }
+  }
+
+  const movies = buildBuzz(feed);
 
   const payload = {
-    updatedAt: now,
-    language: "Telugu",
-    tabs: [
-      { id: "buzz", name: "Buzz Now", status: "active" },
-      { id: "theatres", name: "Theatres Now", status: "ok" },
-      ...SOURCES.map(s => ({
-        id: s.id,
-        name: s.name,
-        status: ottTrending[s.id].status
-      }))
-    ],
-    movies: buzz,
+    updatedAt: new Date().toISOString(),
+    language: 'Telugu',
+    tabs: makeTabs(ottTrending),
+    movies,
     ottTrending,
     methodology:
-      "OTT data is collected independently per platform. No hard-coded movie list is used. A failed source read never overwrites the last successful OTT dataset with zero items. Netflix and ZEE5 use their dedicated Telugu catalogue pages; Prime Video verifies Telugu titles using catalogue/detail-page language evidence; other platforms publish only titles that can be reliably identified."
+      'OTT tabs are collected independently from each platform public catalogue or movie surface. Netflix and ZEE5 use Telugu catalogue pages. Prime Video and other platforms verify Telugu evidence from listing/detail pages where required. No hard-coded movie list is used. A temporary source failure never replaces the last successful OTT dataset with zero items.'
   };
 
-  await fs.writeFile(OUTPUT, JSON.stringify(payload, null, 2) + "\n", "utf8");
+  await fs.writeFile(OUTPUT, JSON.stringify(payload, null, 2) + '\n', 'utf8');
 
-  console.log("Cineinsta Buzz updated.");
-  for (const source of SOURCES) {
-    const x = ottTrending[source.id];
-    console.log(`${source.name}: ${x.items.length} titles (${x.status})`);
+  console.log('\n=== Cineinsta OTT update summary ===');
+  for (const platform of PLATFORMS) {
+    const block = ottTrending[platform.id];
+    console.log(
+      `${platform.name}: ${block.items.length} items (${block.status})`
+    );
   }
 }
 
-main().catch(err => {
-  console.error(err);
+main().catch(error => {
+  console.error(error);
   process.exit(1);
 });
