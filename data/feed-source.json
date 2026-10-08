@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-10-08T05:14:40.585Z",
+  "updatedAt": "2026-10-08T05:24:30.291Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.telugu360.com/prabhas-birthday-surprises-loading/",
+      "title": "Prabhas' Birthday Surprises Loading",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/prabhas-birthday-surprises-loading/",
+      "img": "https://cdn.telugu360.com/wp-content/uploads/2025/03/Prabhas-9.jpg",
+      "publishedAt": "2026-10-08T05:15:36.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130467/ntr-fans-file-police-complaint-against-ai-deepfake-content.html",
+      "title": "NTR Fans File Police Complaint Against AI Deepfake Content",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; NTR Fans Take Action Against AI Deepfake Content NTR Fans File Police Complaint Against AI Deepfake Content By Rambabu Updated at:...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130467/ntr-fans-file-police-complaint-against-ai-deepfake-content.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ntr-fans-file-police-complaint-against-ai-deepfake-content-1791436091463-1791436091833.jpg",
+      "publishedAt": "2026-10-08T05:08:15.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/ranabaali-trailer-launch-event-date-time-and-venue-details-revealed-hk.html",
       "title": "Ranabaali Trailer Launch Event Date, Time, and Venue Details Revealed",
@@ -309,31 +331,19 @@
       "publishedAt": "2026-10-07T07:33:44.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/435393/when-a-little-star-outshines-vijay-sethupathi",
-      "title": "When A Little Star Outshines Vijay Sethupathi",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435393/when-a-little-star-outshines-vijay-sethupathi",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vijay-baththa.jpg",
-      "publishedAt": "2026-10-07T07:19:02.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ramayana-character-poster-campaign-begins-with-arun-govils-king-dashrath-hk.html",
-      "title": "Ramayana: Character Poster Campaign Begins With Arun Govil’s King Dashrath",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Ramayana: Character Poster Campaign Begins...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ramayana-character-poster-campaign-begins-with-arun-govils-king-dashrath-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ramayana.webp",
-      "publishedAt": "2026-10-07T06:17:21.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://telugu.indiaglitz.com/movie-news/ranabaali-trailer-trailer-on-october-8-makers-clarify-ticket-prices",
       "title": "Ranabaali Trailer: అక్టోబర్ 8న ట్రైలర్.. టికెట్ ధరలపై మేకర్స్ క్లారిటీ",
@@ -442,16 +452,6 @@
       "img": "https://static.toiimg.com/thumb/msid-134464346,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-24T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "title": "Udta Teer - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134439254.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134439254,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
       "language": "Telugu"
     }
   ],

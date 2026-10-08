@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T05:15:45.313Z",
+  "updatedAt": "2026-10-08T05:25:37.504Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "ok"
+      "status": "unavailable"
     },
     {
       "id": "aha",
@@ -88,25 +88,6 @@
         "news": 1,
         "reviews": 1,
         "trailers": 0,
-        "theatreLocations": 0,
-        "theatreShows": 0
-      }
-    },
-    {
-      "id": "jailer-2",
-      "title": "Jailer 2 - Official Trailer",
-      "img": "https://static.toiimg.com/thumb/msid-134706074,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "theatre": {
-        "cinemas": 0,
-        "shows": 0
-      },
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 1,
         "theatreLocations": 0,
         "theatreShows": 0
       }
@@ -509,6 +490,25 @@
         "theatreLocations": 0,
         "theatreShows": 0
       }
+    },
+    {
+      "id": "irumudi",
+      "title": "Irumudi",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
+      "language": "Telugu",
+      "buzzScore": 22,
+      "status": "COOLING",
+      "theatre": {
+        "cinemas": 0,
+        "shows": 0
+      },
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0,
+        "theatreLocations": 0,
+        "theatreShows": 0
+      }
     }
   ],
   "ottTrending": {
@@ -516,114 +516,23 @@
       "id": "netflix",
       "name": "Netflix",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T05:15:42.030Z",
+      "updatedAt": "2026-10-08T05:25:35.994Z",
       "items": [],
-      "note": "No usable public movie titles could be extracted from Netflix's current source."
+      "note": "No reliable Telugu movie data could be extracted from Netflix's current public source."
     },
     "prime-video": {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "ok",
-      "updatedAt": "2026-10-08T05:15:42.031Z",
-      "items": [
-        {
-          "rank": 1,
-          "title": "NOW YOU SEE ME: NOW YOU DON`T",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/sonata-images-prod/US_3P_SVOD_NowYouSeeMeNowYouDont/e64e368d-27dc-4ec0-bf0c-e8701eab7fc4._UR3840,1440_.jpeg",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 2,
-          "title": "Livestream from Hell",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/sonata-images-prod/US_SVOD_Livestream_from_Hell/c3343c40-b378-4674-af6f-b1d95c6596f4._UR3840,1440_.jpeg",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 3,
-          "title": "Spider-Man: Brand New Day",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/sonata-images-prod/US_TVOD_SpiderManBrandNewDay_PVOD_SH_V2/7e8e3ae6-2c04-4c4d-8f50-b6605f0b2a21._UR3840,1440_.jpeg",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 4,
-          "title": "Damaged",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/611737c4d11a0ef533f4ebe87dbfef8d8ead77644313efdaa4dab85ec876398d._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 5,
-          "title": "Sing 2",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/3601d630d08ca56314fcc4a7a5548d4f5589d3b5154167936574dd02b4d31a1b._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 6,
-          "title": "Hotel Transylvania: Transformania",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/b48eea04ea5b68a7a67e1a983a6f6de088d8e1eecda2e66ed1b2d66e677b56dc._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.png",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 7,
-          "title": "The Tomorrow War",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/33a83055d8f3773dc3ad9f4f2180bff71257dcd02cc1bdb18b4569e7f942bd15._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.png",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 8,
-          "title": "The Secret of Moonacre",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/a7e994f765af58ec63b63e83b6a06b9ae7836054eb254d1fb3e60caa8cc72c2f._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 9,
-          "title": "Winterset",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/af846d8f21fbeeadbf8ae20c0d3444c05e3dbbf0877faea1bae1973927c5b1e4._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        },
-        {
-          "rank": 10,
-          "title": "Killers",
-          "language": "Telugu",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/ed55d7630e07c19c8057c0d85aed3413b29f9f8be5327dd5db9b02d3f8d8faf3._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_.jpg",
-          "platform": "Prime Video",
-          "releaseDate": "",
-          "languages": "Telugu"
-        }
-      ],
-      "note": "Current Telugu-relevant titles surfaced by Prime Video's public movie/trending surface."
+      "status": "unavailable",
+      "updatedAt": "2026-10-08T05:25:35.994Z",
+      "items": [],
+      "note": "No reliable Telugu movie data could be extracted from Prime Video's current public source."
     },
     "aha": {
       "id": "aha",
       "name": "Aha",
       "status": "ok",
-      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "updatedAt": "2026-10-08T05:25:35.995Z",
       "items": [
         {
           "rank": 1,
@@ -716,48 +625,48 @@
           "languages": "Telugu"
         }
       ],
-      "note": "Current Telugu-relevant titles surfaced by Aha's public movie/trending surface."
+      "note": "Current Telugu-relevant titles surfaced from Aha's public catalogue/trending page."
     },
     "jiohotstar": {
       "id": "jiohotstar",
       "name": "JioHotstar",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "updatedAt": "2026-10-08T05:25:35.995Z",
       "items": [],
-      "note": "No usable public movie titles could be extracted from JioHotstar's current source."
+      "note": "No reliable Telugu movie data could be extracted from JioHotstar's current public source."
     },
     "zee5": {
       "id": "zee5",
       "name": "ZEE5",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "updatedAt": "2026-10-08T05:25:35.995Z",
       "items": [],
-      "note": "No usable public movie titles could be extracted from ZEE5's current source."
+      "note": "No reliable Telugu movie data could be extracted from ZEE5's current public source."
     },
     "sun-nxt": {
       "id": "sun-nxt",
       "name": "Sun NXT",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "updatedAt": "2026-10-08T05:25:35.995Z",
       "items": [],
-      "note": "No usable public movie titles could be extracted from Sun NXT's current source."
+      "note": "No reliable Telugu movie data could be extracted from Sun NXT's current public source."
     },
     "etv-win": {
       "id": "etv-win",
       "name": "ETV Win",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "updatedAt": "2026-10-08T05:25:35.995Z",
       "items": [],
-      "note": "No usable public movie titles could be extracted from ETV Win's current source."
+      "note": "No reliable Telugu movie data could be extracted from ETV Win's current public source."
     },
     "sonyliv": {
       "id": "sonyliv",
       "name": "SonyLIV",
       "status": "unavailable",
-      "updatedAt": "2026-10-08T05:15:42.031Z",
+      "updatedAt": "2026-10-08T05:25:35.995Z",
       "items": [],
-      "note": "No usable public movie titles could be extracted from SonyLIV's current source."
+      "note": "No reliable Telugu movie data could be extracted from SonyLIV's current public source."
     }
   },
-  "methodology": "OTT tabs are rebuilt independently from each platform’s current public movie/trending surface. Cineinsta does not use hard-coded OTT titles, does not invent OTT rankings or scores, and marks a platform unavailable when no reliable public movie data can be extracted."
+  "methodology": "OTT tabs are built independently from public platform catalogue/trending pages. Netflix uses its Telugu catalogue and current India Top 10 surfaces. Prime Video titles are verified for Telugu by catalogue text or the title detail page audio-language metadata. ZEE5 uses its Telugu catalogue. Other platforms are published only when reliable public Telugu-relevant movie data can be extracted. Cineinsta does not use hard-coded OTT titles and does not invent OTT rankings or scores."
 }
