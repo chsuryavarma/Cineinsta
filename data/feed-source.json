@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-10-08T18:13:38.777Z",
+  "updatedAt": "2026-10-09T00:15:12.377Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/reviews/hanuman-ansh-telugu-movie-review-and-rating.html",
+      "title": "Review : Hanuman Ansh - Divine, Emotional, but Slow",
+      "summary": "Hanuman Ansh Telugu Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/hanuman-ansh-telugu-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Hanuman-Ansh.jpg",
+      "publishedAt": "2026-10-08T20:32:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://telugucinema.com/news/chiranjeevis-kaaka-nearly-70-percent-of-shooting-completed",
+      "title": "Chiranjeevi’s Kaaka: Nearly 70 percent of shooting completed",
+      "summary": "--> --> Chiranjeevi’s Kaaka: Nearly 70 percent of shooting completed - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News Movie...",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/chiranjeevis-kaaka-nearly-70-percent-of-shooting-completed",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/08/kaaka-aug2226.jpg",
+      "publishedAt": "2026-10-08T19:45:19.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.gulte.com/movienews/435549/tom-cruise-film-faces-%e2%82%b92300-crore-losses",
       "title": "Tom Cruise Film Faces ₹2,300 Crore Losses?",
@@ -307,28 +329,6 @@
       "url": "https://indiaglitz.com/mandaadi-ott-release-soori-suhas-sports-action-drama-now-streaming",
       "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2025/12/mandaadi021225_4.jpg",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/latest-buzz-about-ram-charan-sukumars-film-prp.html",
-      "title": "Latest buzz about Ram Charan & Sukumar's film",
-      "summary": "Latest buzz about Ram Charan & Sukumar’s film Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/latest-buzz-about-ram-charan-sukumars-film-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/11/rc17.webp",
-      "publishedAt": "2026-10-07T19:32:22.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/karthik-subbaraj-waiting-for-megastar-chiranjeevis-nod-prp.html",
-      "title": "Karthik Subbaraj waiting for Megastar Chiranjeevi's nod?",
-      "summary": "Karthik Subbaraj waiting for Megastar Chiranjeevi’s nod? Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/karthik-subbaraj-waiting-for-megastar-chiranjeevis-nod-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/chiru-karthik.webp",
-      "publishedAt": "2026-10-07T18:56:51.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     }
@@ -1076,12 +1076,12 @@
       "t": "Mahendragiri Varahi",
       "l": "Telugu",
       "releaseDate": "2026-09-11",
-      "rating": "2.33/5",
+      "rating": "2.13/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/MahendragiriVarahi1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/mahendragiri-varahi-review-a-divine-mystery/",
       "aggregator": {
-        "average": 2.33,
+        "average": 2.13,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1109,9 +1109,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/sumanths-mahendragiri-varahi-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
@@ -1992,6 +1992,50 @@
             "rating": null,
             "ratingText": "Not available",
             "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "t": "Hanuman Ansh",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "3/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Hanuman-Ansh.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/hanuman-ansh-telugu-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 3,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 3,
+            "ratingText": "3/5",
+            "url": "https://www.123telugu.com/reviews/hanuman-ansh-telugu-movie-review-and-rating.html"
           }
         ]
       }
