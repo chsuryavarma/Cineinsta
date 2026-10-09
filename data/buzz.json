@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T12:17:45.024Z",
+  "updatedAt": "2026-10-09T12:54:26.019Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "id": "aha",
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-09T12:15:27.507Z",
-      "lastAttemptedAt": "2026-10-09T12:15:27.507Z",
+      "updatedAt": "2026-10-09T12:52:59.634Z",
+      "lastAttemptedAt": "2026-10-09T12:52:59.634Z",
       "items": [
         {
           "title": "Modha Rathri",
@@ -394,9 +394,9 @@
       ]
     },
     "prime-video": {
-      "status": "stale",
-      "updatedAt": "2026-10-09T06:54:24.754Z",
-      "lastAttemptedAt": "2026-10-09T12:15:46.355Z",
+      "status": "ok",
+      "updatedAt": "2026-10-09T12:53:19.437Z",
+      "lastAttemptedAt": "2026-10-09T12:53:19.437Z",
       "items": [
         {
           "title": "Param Sundari",
@@ -409,14 +409,19 @@
           "url": "https://www.primevideo.com/detail/0OSP4ZJPUFA4UTOXAQR641UJ37?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OB7591f8_brws_3_3",
           "img": "https://m.media-amazon.com/images/S/pv-target-images/ebcb9de7d580c8be8ea32397c8bf289489951fc58c94122b347b2990cc7a6b96.jpg",
           "languages": "Telugu"
+        },
+        {
+          "title": "Naari Naari Naduma Murari",
+          "url": "https://www.primevideo.com/detail/0PFHWA4V6C63PRNBDLNO1N3YDZ?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OB7591f8_brws_3_8",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/a34943d35e4b0a822fcea8980a7c99a478dcbe82b5e630a88e7aca6b53d1146b.jpg",
+          "languages": "Telugu"
         }
-      ],
-      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
+      ]
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-09T12:17:24.485Z",
-      "lastAttemptedAt": "2026-10-09T12:17:24.485Z",
+      "updatedAt": "2026-10-09T12:54:08.435Z",
+      "lastAttemptedAt": "2026-10-09T12:54:08.435Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -483,14 +488,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T12:17:24.723Z",
+      "lastAttemptedAt": "2026-10-09T12:54:08.660Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-09T12:17:40.086Z",
+      "lastAttemptedAt": "2026-10-09T12:54:21.351Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -570,21 +575,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T12:17:41.893Z",
+      "lastAttemptedAt": "2026-10-09T12:54:23.235Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T12:17:43.339Z",
+      "lastAttemptedAt": "2026-10-09T12:54:24.677Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T12:17:45.021Z",
+      "lastAttemptedAt": "2026-10-09T12:54:26.017Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
