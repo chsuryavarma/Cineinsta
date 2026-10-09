@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T18:14:08.151Z",
+  "updatedAt": "2026-10-09T18:52:56.724Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-09T18:12:00.828Z",
-      "lastAttemptedAt": "2026-10-09T18:12:00.828Z",
+      "updatedAt": "2026-10-09T18:50:40.370Z",
+      "lastAttemptedAt": "2026-10-09T18:50:40.370Z",
       "items": [
         {
           "title": "Irumudi",
@@ -390,7 +390,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-09T12:53:19.437Z",
-      "lastAttemptedAt": "2026-10-09T18:12:18.436Z",
+      "lastAttemptedAt": "2026-10-09T18:50:58.282Z",
       "items": [
         {
           "title": "Param Sundari",
@@ -415,8 +415,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-09T18:13:46.992Z",
-      "lastAttemptedAt": "2026-10-09T18:13:46.992Z",
+      "updatedAt": "2026-10-09T18:52:35.347Z",
+      "lastAttemptedAt": "2026-10-09T18:52:35.347Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -483,14 +483,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T18:13:47.203Z",
+      "lastAttemptedAt": "2026-10-09T18:52:35.852Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-09T18:14:02.467Z",
+      "lastAttemptedAt": "2026-10-09T18:52:51.153Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -570,21 +570,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T18:14:04.522Z",
+      "lastAttemptedAt": "2026-10-09T18:52:53.321Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T18:14:05.866Z",
+      "lastAttemptedAt": "2026-10-09T18:52:54.673Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T18:14:08.149Z",
+      "lastAttemptedAt": "2026-10-09T18:52:56.721Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
