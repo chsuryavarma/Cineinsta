@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T06:14:48.809Z",
+  "updatedAt": "2026-10-09T06:54:49.786Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "id": "aha",
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-09T06:13:27.714Z",
-      "lastAttemptedAt": "2026-10-09T06:13:27.714Z",
+      "updatedAt": "2026-10-09T06:54:10.304Z",
+      "lastAttemptedAt": "2026-10-09T06:54:10.305Z",
       "items": [
         {
           "title": "Modha Rathri",
@@ -394,89 +394,28 @@
       ]
     },
     "prime-video": {
-      "status": "stale",
-      "updatedAt": "2026-10-08T09:53:52.119Z",
-      "lastAttemptedAt": "2026-10-09T06:13:47.995Z",
+      "status": "ok",
+      "updatedAt": "2026-10-09T06:54:24.754Z",
+      "lastAttemptedAt": "2026-10-09T06:54:24.754Z",
       "items": [
         {
-          "title": "More details for Spider-Man: Brand New Day",
-          "url": "https://www.primevideo.com/detail/B0H8PJM68W?tr=is&jic=16%7CCgNhbGwSA2FsbA%3D%3D&ref_=atv_mv_hom_c_3N84Xx_HS73d938_1_2",
-          "img": "https://m.media-amazon.com/images/S/sonata-images-prod/EU_TVOD_SH_Sony_SpiderMan_Brand_New_Day/e6aaf1a5-10dd-4f3f-bee3-7a792c1e0502._BR-6_AC_SX1000_FMpng_.png",
+          "title": "Param Sundari",
+          "url": "https://www.primevideo.com/detail/0PYOHW8F94U6Z8IOA12OUWUY0Q?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OB7591f8_brws_3_1",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/a2b2277586ec751ebf69fbe7d9c4580b7a1ca688adfe7c76d025b4603d4e2464.jpg",
           "languages": "Telugu"
         },
         {
-          "title": "The Breadwinner",
-          "url": "https://www.primevideo.com/detail/0SMNKBIRKBG8G8VZ1P28TLSGL1?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_1",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/e830fffda60663e2ed7c7b2bf9c42ba092f345feec5c25412099c57d733b118f._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "The Mask",
-          "url": "https://www.primevideo.com/detail/0U8HFS38945CNPERL16277W83S?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_2",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/e830fffda60663e2ed7c7b2bf9c42ba092f345feec5c25412099c57d733b118f._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Steel Magnolias",
-          "url": "https://www.primevideo.com/detail/0TN23TEIW9PEBR3WC7I8VRT2RS?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_3",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/a8061d7f7ba0c77b2e056fc172a6d9ef8c0feef6b31d599587ceae228f8d016c._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Jumanji: The Next Level",
-          "url": "https://www.primevideo.com/detail/0TEN87T2RS1AMP0IB8TFK1ERWV?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_4",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/14b0e80a1dedeaaa8d02e5d73c576dc823125ae4c2e0f5947f3dcfa4aa1f7476._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "The Secret Life of Pets 2",
-          "url": "https://www.primevideo.com/detail/0H7L1DDZBEC1ID7KHVTHB8F0JK?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_5",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/ddfaaf97cbd382f2e1a583fa532122f5ffb12cbf9019e0d50334ba3f26ddcdff._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Spider-Man: No Way Home",
-          "url": "https://www.primevideo.com/detail/0K2K4N25VGA0GOABHNZ2AXJPF7?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_6",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/a61231d2a160572a451e7f12083b4f40f450f89ad7a6b30b022951ab10aa580a._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "The Hangover",
-          "url": "https://www.primevideo.com/detail/0FSC5A5MCN5DES4OW71YRJT6CB?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_7",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/156a3ef2ebda6d9e2127b5731ab105b1d1bfc6e0cda295b1b8b108911265eda3._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Wicked: For Good",
-          "url": "https://www.primevideo.com/detail/0SUGEOQNBDFSCARAW0RHJYZ5A6?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_8",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/a2cfe8036826c55da3b976b682380aecc70d5d270431781c33965c13b34f094e._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "The End of Oak Street",
-          "url": "https://www.primevideo.com/detail/0J84ZMEJL8WVBN0E26ZRJEMDE7?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_10",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/5a2317ba4421b1fd9c8795da3336a1723713fcc2a51353bda22cdcffa53d83a4._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "PAW Patrol: The Dino Movie",
-          "url": "https://www.primevideo.com/detail/0MOO17K1LQTHVFGQ7WYZ5VYIP0?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_11",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/7e8fb923578998cf8c6e8c931ce90571827e99b5a3d7a393d0de64b77aece21a._UR1920,1080_SX624_FMjpg_.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Scream 7",
-          "url": "https://www.primevideo.com/detail/0R4HOUHPV4SU3LSWK7M1K5S5JB?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_12",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/2994de22d661a12dbef76243d8dee4a633e26d44caabfd990803fbb9f1fbebe1._UR1920,1080_SX624_FMjpg_.jpg",
+          "title": "Srinivasa Mangapuram",
+          "url": "https://www.primevideo.com/detail/0OSP4ZJPUFA4UTOXAQR641UJ37?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OB7591f8_brws_3_3",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/ebcb9de7d580c8be8ea32397c8bf289489951fc58c94122b347b2990cc7a6b96.jpg",
           "languages": "Telugu"
         }
-      ],
-      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
+      ]
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-09T06:14:32.974Z",
-      "lastAttemptedAt": "2026-10-09T06:14:32.974Z",
+      "updatedAt": "2026-10-09T06:54:29.633Z",
+      "lastAttemptedAt": "2026-10-09T06:54:29.633Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -543,14 +482,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T06:14:33.201Z",
+      "lastAttemptedAt": "2026-10-09T06:54:29.894Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-09T06:14:44.223Z",
+      "lastAttemptedAt": "2026-10-09T06:54:44.915Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -630,21 +569,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T06:14:46.222Z",
+      "lastAttemptedAt": "2026-10-09T06:54:46.780Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T06:14:47.667Z",
+      "lastAttemptedAt": "2026-10-09T06:54:48.005Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-09T06:14:48.807Z",
+      "lastAttemptedAt": "2026-10-09T06:54:49.784Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
