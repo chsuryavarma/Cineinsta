@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T00:57:27.832Z",
+  "updatedAt": "2026-10-10T06:16:00.517Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -68,9 +68,9 @@
       }
     },
     {
-      "id": "sree-vishnu-starrer-comrade-kalyan-offers-a-decent-dose-of-fun",
-      "title": "Sree Vishnu Starrer Comrade Kalyan Offers a Decent Dose of Fun",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-Review.webp",
+      "id": "kamal-haasan-weighs-in-on-starlink-entry-and-ambani-debate",
+      "title": "Kamal Haasan Weighs In on Starlink Entry and Ambani Debate",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/kamal-haasan-responds-to-elon-musk-over-starlink-s-india-entry-1791611728532-1791611728876.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -81,9 +81,9 @@
       }
     },
     {
-      "id": "hanuman-ansh-review-a-divine-and-emotional-journey-that-runs-slow",
-      "title": "Hanuman Ansh Review: A Divine and Emotional Journey That Runs Slow",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Hanuman-Ansh.jpg",
+      "id": "ranabaali-usa-pre-sales-fall-short-of-previous-vijay-deverakonda-starrers",
+      "title": "Ranabaali USA Pre-Sales Fall Short of Previous Vijay Deverakonda Starrers",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ranabaali-usa-pre-sales-disappointing-compared-to-vd-previous-films-1791611274561-1791611274959.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -94,9 +94,9 @@
       }
     },
     {
-      "id": "is-nani-paying-special-attention-to-the-paradise-ott-release",
-      "title": "Is Nani Paying Special Attention to The Paradise OTT Release?",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-2.webp",
+      "id": "facing-the-box-office-hurdle-the-road-ahead-for-ranabaali-and-vijay-deverakonda",
+      "title": "Facing the Box-Office Hurdle: The Road Ahead for Ranabaali and Vijay Deverakonda",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/ranabaali-oct1026.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -107,8 +107,60 @@
       }
     },
     {
-      "id": "ott-review-least-eligible-bachelor-debuts-on-etv-win",
-      "title": "OTT Review: Least Eligible Bachelor Debuts on ETV Win",
+      "id": "mega-star-chiranjeevi-set-to-visit-kapileswarapuram",
+      "title": "Mega Star Chiranjeevi Set to Visit Kapileswarapuram",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-to-land-in-kapileswarapuram-1791607157232-1791607157572.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "director-nelson-s-tollywood-discussions-exploring-alternative-casting-possibilities",
+      "title": "Director Nelson's Tollywood Discussions: Exploring Alternative Casting Possibilities",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2023/11/Nelson.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "comrade-kalyan-opens-to-fair-box-office-numbers-on-day-one",
+      "title": "Comrade Kalyan Opens to Fair Box Office Numbers on Day One",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-3.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "uncertainty-surrounds-the-ott-deal-for-yash-s-toxic",
+      "title": "Uncertainty Surrounds the OTT Deal for Yash's Toxic",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/02/Toxic-Movie.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "least-eligible-bachelor-arrives-on-etv-win-an-ott-review",
+      "title": "Least Eligible Bachelor Arrives on ETV Win: An OTT Review",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Least-Eligible-Bachelor-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -120,8 +172,47 @@
       }
     },
     {
-      "id": "allu-arjun-and-lokesh-kanagaraj-collaboration-remains-on-track",
-      "title": "Allu Arjun and Lokesh Kanagaraj Collaboration Remains On Track",
+      "id": "cineinsta-review-sree-vishnu-s-comrade-kalyan-delivers-fun",
+      "title": "Cineinsta Review: Sree Vishnu's Comrade Kalyan Delivers Fun",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-Review.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "cineinsta-review-hanuman-ansh-blends-divine-and-emotional-themes",
+      "title": "Cineinsta Review: Hanuman Ansh Blends Divine and Emotional Themes",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Hanuman-Ansh.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "is-nani-giving-special-attention-to-the-paradise-ott-release",
+      "title": "Is Nani Giving Special Attention to The Paradise OTT Release?",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-2.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "allu-arjun-and-lokesh-kanagaraj-collaboration-confirmed-to-be-on",
+      "title": "Allu Arjun and Lokesh Kanagaraj Collaboration Confirmed to be On",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/01/Allu-Arjun-and-Lokesh.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -133,8 +224,8 @@
       }
     },
     {
-      "id": "positive-reception-fails-to-translate-at-the-box-office-for-new-tamil-release",
-      "title": "Positive Reception Fails to Translate at the Box Office for New Tamil Release",
+      "id": "a-surprising-trend-for-a-recent-tamil-release-strong-word-of-mouth-amid-slow-box-office-numbers",
+      "title": "A Surprising Trend for a Recent Tamil Release: Strong Word of Mouth Amid Slow Box Office Numbers",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/bhattha.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,8 +237,8 @@
       }
     },
     {
-      "id": "noted-telugu-film-sets-an-efficient-precedent-with-four-month-completion-timeline",
-      "title": "Noted Telugu Film Sets an Efficient Precedent with Four-Month Completion Timeline",
+      "id": "quick-turnaround-noted-telugu-film-completes-shoot-and-post-production-in-four-months",
+      "title": "Quick Turnaround: Noted Telugu Film Completes Shoot and Post-Production in Four Months",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Alias-Rukmini-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -159,8 +250,8 @@
       }
     },
     {
-      "id": "reports-suggest-special-inspiration-from-chiranjeevi-s-sye-rraa-for-ranabaali",
-      "title": "Reports Suggest Special Inspiration from Chiranjeevi's Sye Rraa for Ranabaali",
+      "id": "rumours-swirl-about-a-special-inspiration-in-ranabaali-drawing-from-chiranjeevi-s-sye-rraa",
+      "title": "Rumours Swirl About a Special Inspiration in Ranabaali Drawing From Chiranjeevi’s Sye Rraa",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ranaali.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,8 +263,8 @@
       }
     },
     {
-      "id": "malayalam-thriller-s-netflix-streaming-debut-sparks-viewer-frustration",
-      "title": "Malayalam Thriller's Netflix Streaming Debut Sparks Viewer Frustration",
+      "id": "why-the-netflix-streaming-debut-of-a-hit-malayalam-thriller-disappointed-ott-audiences",
+      "title": "Why the Netflix Streaming Debut of a Hit Malayalam Thriller Disappointed OTT Audiences",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Pradhama-Drishtiya-Kuttakka.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -185,112 +276,8 @@
       }
     },
     {
-      "id": "addressing-speculation-around-the-rajinikanth-and-kamal-haasan-multistarrer-project",
-      "title": "Addressing Speculation Around the Rajinikanth and Kamal Haasan Multistarrer Project",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rumours-about-rajinikanth-kamal-haasan-multistarrer-film-shelved-1791561861123-1791561862554.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "anticipation-builds-around-rahul-s-impact-in-ranabaali",
-      "title": "Anticipation Builds Around Rahul's Impact in Ranabaali",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/rahul-ranabaali.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "director-nelson-s-path-examined-in-current-industry-conversations",
-      "title": "Director Nelson's Path Examined in Current Industry Conversations",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/lokesh-nelson-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "vijay-sethupathi-wins-hearts-by-reducing-remuneration-for-mani-ratnam-project",
-      "title": "Vijay Sethupathi Wins Hearts by Reducing Remuneration for Mani Ratnam Project",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-sethupathi-gesture-for-mani-ratnam-film-winning-hearts-1791556848965-1791556850195.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "actor-vijay-anticipated-to-visit-vijayawada-for-dasara-celebrations",
-      "title": "Actor Vijay Anticipated to Visit Vijayawada for Dasara Celebrations",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/cm-vijay-likely-to-visit-vijayawada-for-dasara-festivities-1791555234285-1791555235494.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "fresh-update-locked-for-mass-raja-ravi-teja-s-rt-78",
-      "title": "Fresh Update Locked for Mass Raja Ravi Teja's RT 78",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/interesting-update-on-rt-78-1791553648808-1791553650142.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sai-dharam-tej-officially-signs-a-fresh-cinematic-venture",
-      "title": "Sai Dharam Tej Officially Signs a Fresh Cinematic Venture",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Sai-Dharamtej.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "cineinsta-review-chakkora-proves-outdated-and-tedious",
-      "title": "Cineinsta Review: Chakkora Proves Outdated and Tedious",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Chakkora.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "cineinsta-review-sapthasagaralu-sapthagirulu-falls-short",
-      "title": "Cineinsta Review: Sapthasagaralu Sapthagirulu Falls Short",
+      "id": "cineinsta-review-sapthasagaralu-sapthagirulu-explored-as-a-fairy-tale-gone-wrong",
+      "title": "Cineinsta Review: Sapthasagaralu Sapthagirulu Explored as a Fairy Tale Gone Wrong",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Sapthasagaralu-Sapthagirulu.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -302,8 +289,8 @@
       }
     },
     {
-      "id": "cineinsta-update-major-development-surrounds-ravi-teja-and-vivek-athreya-project",
-      "title": "Cineinsta Update: Major Development Surrounds Ravi Teja and Vivek Athreya Project",
+      "id": "major-update-surfaces-for-ravi-teja-and-vivek-athreya-s-upcoming-collaboration",
+      "title": "Major Update Surfaces for Ravi Teja and Vivek Athreya's Upcoming Collaboration",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/rt.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -315,8 +302,8 @@
       }
     },
     {
-      "id": "chandrabose-pens-authentic-telangana-dialect-song-egilivaranga-for-bhogi",
-      "title": "Chandrabose Pens Authentic Telangana Dialect Song 'Egilivaranga' for 'Bhogi'",
+      "id": "chandrabose-crafts-authentic-telangana-dialect-song-titled-bhogi-for-egilivaranga",
+      "title": "Chandrabose Crafts Authentic Telangana Dialect Song Titled 'Bhogi' for Egilivaranga",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/ellivaranga-bhogi-song-oct926.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -328,8 +315,8 @@
       }
     },
     {
-      "id": "vijay-deverakonda-handles-backlash-head-on-for-ranabaali",
-      "title": "Vijay Deverakonda Handles Backlash Head-On for Ranabaali",
+      "id": "vijay-deverakonda-wins-hearts-by-confronting-criticism-head-on-in-ranabaali",
+      "title": "Vijay Deverakonda Wins Hearts by Confronting Criticism Head-On in Ranabaali",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-1-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -341,9 +328,9 @@
       }
     },
     {
-      "id": "egili-varanga-song-from-sharwanand-s-bhogi-showcases-rural-charm",
-      "title": "Egili Varanga Song from Sharwanand's Bhogi Showcases Rural Charm",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Bhogi-1.webp",
+      "id": "egilivaranga-unveiled-from-bhogi-highlighting-soil-and-spirit",
+      "title": "Egilivaranga Unveiled From Bhogi Highlighting Soil and Spirit",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/bhogi-song.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -354,9 +341,9 @@
       }
     },
     {
-      "id": "exploring-the-soil-and-spirit-of-egilivaranga-from-bhogi",
-      "title": "Exploring the Soil and Spirit of Egilivaranga from Bhogi",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/bhogi-song.jpg",
+      "id": "keerthy-suresh-revisits-ooty-for-filming-after-twelve-years",
+      "title": "Keerthy Suresh Revisits Ooty for Filming After Twelve Years",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/keerthysuresh-oct0526.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -365,13 +352,26 @@
         "reviews": 0,
         "trailers": 0
       }
+    },
+    {
+      "id": "comrade-kalyan",
+      "title": "Comrade Kalyan",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Comrade-Kalyan-Review.jpeg",
+      "language": "Telugu",
+      "buzzScore": 25,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 0,
+        "reviews": 1,
+        "trailers": 0
+      }
     }
   ],
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-10T00:55:23.375Z",
-      "lastAttemptedAt": "2026-10-10T00:55:23.376Z",
+      "updatedAt": "2026-10-10T06:13:46.896Z",
+      "lastAttemptedAt": "2026-10-10T06:13:46.896Z",
       "items": [
         {
           "title": "Irumudi",
@@ -384,7 +384,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-09T12:53:19.437Z",
-      "lastAttemptedAt": "2026-10-10T00:55:38.600Z",
+      "lastAttemptedAt": "2026-10-10T06:14:07.378Z",
       "items": [
         {
           "title": "Param Sundari",
@@ -409,8 +409,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-10T00:57:11.382Z",
-      "lastAttemptedAt": "2026-10-10T00:57:11.382Z",
+      "updatedAt": "2026-10-10T06:15:41.245Z",
+      "lastAttemptedAt": "2026-10-10T06:15:41.245Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -477,14 +477,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-10T00:57:11.640Z",
+      "lastAttemptedAt": "2026-10-10T06:15:41.399Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-10T00:57:23.512Z",
+      "lastAttemptedAt": "2026-10-10T06:15:54.334Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -564,21 +564,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-10T00:57:24.994Z",
+      "lastAttemptedAt": "2026-10-10T06:15:56.324Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-10T00:57:26.171Z",
+      "lastAttemptedAt": "2026-10-10T06:15:57.727Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-10T00:57:27.830Z",
+      "lastAttemptedAt": "2026-10-10T06:16:00.515Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
