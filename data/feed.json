@@ -1,11 +1,307 @@
 {
-  "updatedAt": "2026-10-11T06:14:44.478Z",
+  "updatedAt": "2026-10-11T12:12:11.846Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.123telugu.com/mnews/big-update-ramayana-release-preponed-worldwide-bookings-open-on-dussehra-hk.html",
+      "title": "Ramayana Release Schedule Advanced With Dussehra Worldwide Bookings",
+      "summary": "A significant update has emerged regarding the much-anticipated project Ramayana, as its release schedule has been preponed. Cinephiles and fans can now look forward to securing their seats worldwide with global bookings officially opening on Dussehra.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/big-update-ramayana-release-preponed-worldwide-bookings-open-on-dussehra-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ramya.jpg",
+      "publishedAt": "2026-10-11T12:03:41.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a major development for movie enthusiasts, the makers of Ramayana have announced that the film's release has been preponed. This update brings forward the arrival of the grand cinematic project, generating fresh anticipation among audiences.",
+        "Adding to the excitement, worldwide bookings for the film are scheduled to open on Dussehra. Fans across the globe will have the opportunity to secure their tickets early as the festive season kicks off.",
+        "This strategic scheduling update marks an important milestone for the venture. As global ticket windows open on Dussehra, followers can prepare for the upcoming theatrical arrival of Ramayana."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "A significant update has emerged regarding the much-anticipated project Ramayana, as its release schedule has been preponed. Cinephiles and fans can now look forward to securing their seats worldwide with global bookings officially opening on Dussehra.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/big-update-ramayana-release-preponed-worldwide-bookings-open-on-dussehra-hk.html"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/sukumar-ram-charan-film-anirudh-in-talks-for-music-avd.html",
+      "title": "Composer Anirudh Reportedly in Discussions for Sukumar and Ram Charan Project",
+      "summary": "Popular musician Anirudh is reportedly in discussions to compose the music for the upcoming collaboration between director Sukumar and actor Ram Charan. This potential team-up has generated substantial buzz among film enthusiasts.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/sukumar-ram-charan-film-anirudh-in-talks-for-music-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/rc17.webp",
+      "publishedAt": "2026-10-11T11:36:30.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Exciting speculation surrounds the upcoming collaborative project between filmmaker Sukumar and leading actor Ram Charan. According to recent updates, composer Anirudh is currently in talks to come on board for the film's music.",
+        "The potential partnership between this high-profile creative trio has captured the attention of movie buffs. While discussions are underway, music lovers are eager to see if Anirudh will officially sign on to score the venture.",
+        "As developments continue to unfold regarding the Sukumar and Ram Charan film, confirmation on the musical front remains one of the most anticipated announcements for the project."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Popular musician Anirudh is reportedly in discussions to compose the music for the upcoming collaboration between director Sukumar and actor Ram Charan. This potential team-up has generated substantial buzz among film enthusiasts.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/sukumar-ram-charan-film-anirudh-in-talks-for-music-avd.html"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130533/vijay-deverakonda-thoughts-on-ticket-rates-hike.html",
+      "title": "Vijay Deverakonda Shares Perspective on Ticket Rate Hikes",
+      "summary": "Actor Vijay Deverakonda has expressed his thoughts regarding ticket rate hikes, offering a notable perspective on the matter. His views on the topic have drawn attention within film circles.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130533/vijay-deverakonda-thoughts-on-ticket-rates-hike.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-thoughts-on-ticket-rates-hike-1791717950724-1791717952704.jpg",
+      "publishedAt": "2026-10-11T11:25:53.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Vijay Deverakonda has recently shared his perspective concerning ticket rate hikes in the film industry. His thoughts on the subject provide insight into how pricing adjustments impact cinema releases and viewers.",
+        "The discussion surrounding ticket rate revisions remains a prominent topic of conversation among artists, producers, and audiences alike. Vijay Deverakonda's take adds a notable voice to the ongoing industry dialogue.",
+        "As discussions on theatrical pricing continue across the entertainment sector, the actor's viewpoints highlight the multifaceted considerations involved in commercial cinema releases."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Vijay Deverakonda has expressed his thoughts regarding ticket rate hikes, offering a notable perspective on the matter. His views on the topic have drawn attention within film circles.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130533/vijay-deverakonda-thoughts-on-ticket-rates-hike.html"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130532/chiranjeevi-calls-amitabh-bachchan-guruji-in-heartfelt-birthday-wishes.html",
+      "title": "Chiranjeevi Shares Heartfelt Birthday Wishes and Calls Amitabh Bachchan Guruji",
+      "summary": "Megastar Chiranjeevi conveyed warm birthday wishes to legendary actor Amitabh Bachchan, affectionately addressing him as Guruji. The heartfelt message highlights the deep mutual respect shared between the cinematic icons.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130532/chiranjeevi-calls-amitabh-bachchan-guruji-in-heartfelt-birthday-wishes.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-calls-amitabh-bachchan-guruji-in-heartfelt-birthday-wishes-1791715559244-1791715560891.jpg",
+      "publishedAt": "2026-10-11T10:46:01.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Megastar Chiranjeevi recently extended his heartfelt birthday greetings to legendary Bollywood actor Amitabh Bachchan. In a touching gesture, Chiranjeevi referred to the veteran actor as his Guruji.",
+        "The warm exchange underscores the immense admiration and reverence that top-tier actors hold for one another. Such interactions between iconic figures resonate strongly with fans across the entertainment industry.",
+        "Chiranjeevi's affectionate birthday message celebrates the enduring legacy and monumental contributions of Amitabh Bachchan to Indian cinema."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Megastar Chiranjeevi conveyed warm birthday wishes to legendary actor Amitabh Bachchan, affectionately addressing him as Guruji. The heartfelt message highlights the deep mutual respect shared between the cinematic icons.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130532/chiranjeevi-calls-amitabh-bachchan-guruji-in-heartfelt-birthday-wishes.html"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/maremma-goes-pan-india-on-a-new-ott-platform-hk.html",
+      "title": "Maremma Expands Reach with Pan-India OTT Release",
+      "summary": "The title Maremma is making its way to a broader audience through a pan-India digital streaming platform. This development brings the project onto a larger virtual stage for viewers across the country.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/maremma-goes-pan-india-on-a-new-ott-platform-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Maremma-2.webp",
+      "publishedAt": "2026-10-11T09:22:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The cinematic project titled Maremma is officially expanding its reach to audiences nationwide. This move involves a digital streaming release on a new OTT platform.",
+        "By going pan-India via digital distribution, the title opens up new avenues for viewers outside its initial market to experience the feature on a streaming service. Such releases highlight the growing trend of regional content aiming for broader geographical visibility through online platforms."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The title Maremma is making its way to a broader audience through a pan-India digital streaming platform. This development brings the project onto a larger virtual stage for viewers across the country.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/maremma-goes-pan-india-on-a-new-ott-platform-hk.html"
+    },
+    {
+      "id": "https://telugucinema.com/news/we-wanted-our-third-combination-to-be-special-vijay-deverakonda",
+      "title": "Vijay Deverakonda Highlights Special Nature of Third Collaboration",
+      "summary": "Actor Vijay Deverakonda has shared insights into his latest creative partnership, stating that the team specifically wanted their third collaboration together to be truly special.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/we-wanted-our-third-combination-to-be-special-vijay-deverakonda",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/ranabaali-movie-oct1126.jpg",
+      "publishedAt": "2026-10-11T09:18:19.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Popular actor Vijay Deverakonda recently spoke about his ongoing creative journey, focusing on a significant professional partnership. According to the actor, the team deliberately aimed to make their third combination distinct and memorable.",
+        "Collaborations spanning multiple projects often carry high expectations from fans and industry observers alike. By expressing a desire to elevate their latest venture, the team underscores the careful thought going into their ongoing cinematic association."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Vijay Deverakonda has shared insights into his latest creative partnership, stating that the team specifically wanted their third collaboration together to be truly special.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "TeluguCinema"
+      ],
+      "originalUrl": "https://telugucinema.com/news/we-wanted-our-third-combination-to-be-special-vijay-deverakonda"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/130526/star-director-special-in-january-12-vidudala.html",
+      "title": "Buzz Surrounds a Star Director Special in January 12 Vidudala",
+      "summary": "Talk is circulating regarding a star director's special involvement or presence linked to January 12 Vidudala. Fans and followers are closely watching for updates on this notable development.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/130526/star-director-special-in-january-12-vidudala.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/star-director-special-in-january-12-vidudala-1791703665643-1791703666940.jpg",
+      "publishedAt": "2026-10-11T07:27:49.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Discussion has emerged within film circles concerning a star director's special connection to January 12 Vidudala. As details circulate, interest continues to build around how this element will shape the project.",
+        "In the realm of cinema news, the involvement of prominent directors often draws heightened scrutiny and enthusiasm from audiences. Further announcements are anticipated to clarify the exact nature of this reported special association."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Talk is circulating regarding a star director's special involvement or presence linked to January 12 Vidudala. Fans and followers are closely watching for updates on this notable development.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/3/130526/star-director-special-in-january-12-vidudala.html"
+    },
+    {
+      "id": "https://www.telugu360.com/alias-rukmini-is-a-jackpot-for-nani/",
+      "title": "Reports Indicate Alias Rukmini Serves as a Major Opportunity for Nani",
+      "summary": "Industry discussions point towards Alias Rukmini being a significant project for actor Nani. Observers are taking note of what this development means for the actor's lineup.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/alias-rukmini-is-a-jackpot-for-nani/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Alias-Rukmini-1.jpg",
+      "publishedAt": "2026-10-11T07:16:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Recent updates from film circles suggest that Alias Rukmini represents a major milestone or opportunity for actor Nani. Projects of this nature often attract significant attention regarding an actor's career trajectory.",
+        "As details regarding the project unfold, fans of the actor are eager to see how this particular venture develops within his broader filmography. The association highlights the ongoing anticipation surrounding his upcoming choices."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Industry discussions point towards Alias Rukmini being a significant project for actor Nani. Observers are taking note of what this development means for the actor's lineup.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/alias-rukmini-is-a-jackpot-for-nani/"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/435977/watch-teja-sajja-reveals-challenges-of-his-traitors-journey",
+      "title": "Teja Sajja Discusses the Hurdles of His Traitors Journey",
+      "summary": "Actor Teja Sajja opens up about the various challenges he encountered during his journey on the project titled Traitors, sharing insights directly with audiences.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/435977/watch-teja-sajja-reveals-challenges-of-his-traitors-journey",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/teja-sajja-interview.jpg",
+      "publishedAt": "2026-10-11T07:05:58.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Teja Sajja has recently spoken about the demanding experiences associated with his ongoing cinematic journey in the project titled Traitors. In a newly shared video update, the actor pulls back the curtain on what it took to navigate the specific hurdles of the production.",
+        "While specific narrative details remain tightly under wraps, Sajja's candid discussion highlights the physical and professional demands placed upon him throughout the venture. Fans and followers of the actor can catch his firsthand accounts detailing the trials faced during the filming schedule.",
+        "Discussions surrounding behind-the-scenes hurdles offer valuable perspective on the dedication required from contemporary actors in the Indian film industry. As anticipation builds around Trajunctions and updates regarding Traitors, Sajja's revelations provide an engaging look into the realities of modern filmmaking."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Teja Sajja opens up about the various challenges he encountered during his journey on the project titled Traitors, sharing insights directly with audiences.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/435977/watch-teja-sajja-reveals-challenges-of-his-traitors-journey"
+    },
+    {
+      "id": "https://www.telugu360.com/photos-thulabaram-movie-launch/",
+      "title": "Official Launch Event Held for the Upcoming Telugu Film Thulabaram",
+      "summary": "The Telugu film industry marks the official commencement of a new cinematic venture titled Thulabaram, with photographs capturing the key moments from the grand movie launch event.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/photos-thulabaram-movie-launch/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thulabaram14.jpg",
+      "publishedAt": "2026-10-11T06:39:11.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Telugu film community is buzzing following the official launch event for the upcoming movie titled Thulabaram. Celebrations and formal ceremonies marked the commencement of the project, bringing together key figures associated with the production.",
+        "Photographs from the launch event have started circulating, showcasing the atmosphere of the auspicious muhurtham ceremony. These visual galleries provide fans with an early look at the commencement of production for Thulabaram.",
+        "As the film moves forward from its formal launch into regular shooting schedules, further updates regarding the cast, crew, and overall vision are expected to follow. The launch marks a notable milestone for the team involved in bringing this new story to the big screen."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The Telugu film industry marks the official commencement of a new cinematic venture titled Thulabaram, with photographs capturing the key moments from the grand movie launch event.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/photos-thulabaram-movie-launch/"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130525/vijay-deverakonda-knicker-dreams-unfulfilled.html",
+      "title": "Vijay Deverakonda's Unique Cinematic Ambitions Highlighted in Latest Updates",
+      "summary": "Recent entertainment updates touch upon actor Vijay Deverakonda, noting unique industry discussions and humorous anecdotes surrounding his career aspirations and personal goals.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130525/vijay-deverakonda-knicker-dreams-unfulfilled.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-knicker-dreams-unfulfilled-1791699709073-1791699710080.jpg",
+      "publishedAt": "2026-10-11T06:21:51.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Popular Telugu cinema star Vijay Deverakonda has once again captured attention following recent updates circulating across entertainment portals. The latest reports touch upon distinct conversational topics surrounding the actor and his career path.",
+        "While details remain light on specific project developments, reports continue to track the actor's movements and public interest in his upcoming cinematic choices. Deverakonda remains one of the most closely followed names in the regional industry.",
+        "Such updates underline the continuous media attention commanded by top-tier Tollywood actors as they balance ongoing professional commitments with public expectations."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Recent entertainment updates touch upon actor Vijay Deverakonda, noting unique industry discussions and humorous anecdotes surrounding his career aspirations and personal goals.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130525/vijay-deverakonda-knicker-dreams-unfulfilled.html"
+    },
+    {
+      "id": "https://www.telugu360.com/thulabaram-launch-ravi-tejas-daughter-turns-centre-of-attraction/",
+      "title": "Ravi Teja's Daughter Draws Attention at the Thulabaram Movie Launch",
+      "summary": "The grand launch event of the upcoming Telugu film Thulabaram drew significant attention, with Ravi Teja's daughter emerging as a major center of attraction during the ceremony.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/thulabaram-launch-ravi-tejas-daughter-turns-centre-of-attraction/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ravi-teja-daughter.jpg",
+      "publishedAt": "2026-10-11T06:20:01.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The film industry gathered for the official launch of the upcoming Telugu movie Thulabaram, but the event also made headlines for a special family presence. Ravi Teja's daughter quickly became a primary center of attraction at the star-studded muhurtham ceremony.",
+        "Photographs and reports from the launch venue highlighted her appearance, drawing considerable interest from attendees and fans alike. Such high-profile gatherings frequently bring out family members of prominent cinema stars, adding an extra layer of excitement to the proceedings.",
+        "As production ramps up for Thulabaram, the successful and highly attended launch event establishes a strong public profile for the new cinematic venture from its very first day."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The grand launch event of the upcoming Telugu film Thulabaram drew significant attention, with Ravi Teja's daughter emerging as a major center of attraction during the ceremony.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/thulabaram-launch-ravi-tejas-daughter-turns-centre-of-attraction/"
+    },
+    {
       "id": "https://telugucinema.com/news/ravi-tejas-thulabharam-unveiled-film-launched",
-      "title": "Ravi Teja’s New Project Thulabharam Officially Launched",
-      "summary": "Tollywood actor Ravi Teja’s upcoming film titled Thulabharam has been officially unveiled and launched. This development marks the commencement of the new cinematic venture featuring the popular star.",
+      "title": "Mass Maharaja Ravi Teja's Next Project Titled 'Thulabharam' Officially Launched",
+      "summary": "Tollywood star Ravi Teja's upcoming cinematic venture has officially been unveiled and launched, carrying the intriguing title Thulabharam. The project brings fresh excitement for fans of the Mass Maharaja as production gets underway.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/ravi-tejas-thulabharam-unveiled-film-launched",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/thulabharam-title-oct1126.jpg",
@@ -13,12 +309,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Tollywood actor Ravi Teja’s upcoming cinematic project, titled Thulabharam, has officially been launched and unveiled to the public. The announcement marks the official commencement of this new film starring the prominent Telugu cinema actor.",
-        "As the project moves forward following its launch, further details regarding the cast, crew, and production schedule are anticipated by fans and followers of the actor. The unveiling of Thulabharam adds another prominent title to Ravi Teja's ongoing filmography."
+        "Tollywood is abuzz with excitement as actor Ravi Teja's brand new film has officially been launched. Titled Thulabharam, the project marks another notable addition to the actor's extensive filmography in the Telugu cinema industry.",
+        "The official unveiling of Thulabharam has generated considerable curiosity among moviegoers and fans of the Mass Maharaja alike. While specific plot details and cast additions remain under wraps, the formal launch signifies the official beginning of the film's journey on the production front.",
+        "As Ravi Teja takes on this latest cinematic endeavor, cinephiles eagerly anticipate further updates regarding the film's shooting schedules, lead actress, and technical crew. Thulabharam stands as one of the keenly watched upcoming announcements in the Telugu film circuit."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Tollywood actor Ravi Teja’s upcoming film titled Thulabharam has been officially unveiled and launched. This development marks the commencement of the new cinematic venture featuring the popular star.",
+      "dek": "Tollywood star Ravi Teja's upcoming cinematic venture has officially been unveiled and launched, carrying the intriguing title Thulabharam. The project brings fresh excitement for fans of the Mass Maharaja as production gets underway.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -28,8 +325,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/435962/ravi-tejas-thulabharam-title-documentary-unique-idea",
-      "title": "A Creative Approach: Ravi Teja’s Thulabharam Title Documentary",
-      "summary": "The makers of Ravi Teja’s Thulabharam opted for a unique promotional strategy by releasing a title documentary. This creative idea has drawn attention for introducing the film's title in an innovative manner.",
+      "title": "Ravi Teja’s Thulabharam Opts for a Unique Title Documentary Approach",
+      "summary": "The makers of Ravi Teja's upcoming film Thulabharam have adopted a unique promotional strategy by releasing a title documentary. This creative approach to revealing the movie's title has caught the attention of Telugu cinema enthusiasts.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/435962/ravi-tejas-thulabharam-title-documentary-unique-idea",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-10.31.28.jpeg",
@@ -37,12 +334,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In a creative promotional move, the makers of Ravi Teja's upcoming film Thulabharam introduced a title documentary for the project. This unique idea sets a distinct tone for the movie's promotional campaign in the Telugu film industry.",
-        "Title documentaries are an uncommon approach in mainstream cinema marketing, making this strategy a notable talking point among movie enthusiasts. The innovative unveiling highlights the team's efforts to present the project differently."
+        "In a fresh promotional move for Tollywood cinema, the upcoming Ravi Teja project Thulabharam has introduced a unique title documentary. Instead of a standard title poster or teaser, the makers chose a documentary style to unveil the movie's official name.",
+        "This innovative strategy has brought a creative shift to how major Telugu film projects build initial buzz and engage with audiences. By highlighting the thought and concept behind the title through a documentary format, the team has successfully sparked curiosity across entertainment platforms.",
+        "As the film continues its early promotional phase, this distinctive unveiling method sets a fresh tone for Ravi Teja's Thulabharam, keeping fans thoroughly engaged as production progresses."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The makers of Ravi Teja’s Thulabharam opted for a unique promotional strategy by releasing a title documentary. This creative idea has drawn attention for introducing the film's title in an innovative manner.",
+      "dek": "The makers of Ravi Teja's upcoming film Thulabharam have adopted a unique promotional strategy by releasing a title documentary. This creative approach to revealing the movie's title has caught the attention of Telugu cinema enthusiasts.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -52,8 +350,8 @@
     },
     {
       "id": "https://www.telugu360.com/thulabaram-title-documentary-highly-creative-and-intriguing/",
-      "title": "Intriguing and Highly Creative: Inside the Thulabaram Title Documentary",
-      "summary": "The title documentary for Ravi Teja's Thulabaram has been noted for its highly creative and intriguing presentation. This unconventional reveal has captured the interest of cinema audiences and followers.",
+      "title": "Creative and Intriguing Title Documentary Unveiled for Ravi Teja’s Thulabharam",
+      "summary": "The recently released title documentary for Ravi Teja's Thulabharam has been praised as a highly creative and intriguing presentation. This artistic choice offers fans a fresh and engaging way to connect with the actor's upcoming project.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/thulabaram-title-documentary-highly-creative-and-intriguing/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thulabaram-2.jpg",
@@ -61,12 +359,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The promotional campaign for Ravi Teja's Thulabaram gained momentum with the release of its title documentary, which has been described as highly creative and intriguing. The artistic approach offers a fresh perspective on how film titles can be introduced to the audience.",
-        "Such imaginative introductions help build anticipation for the project, showcasing the creative direction behind the film's pre-release phase. Fans and movie lovers have responded positively to the intriguing format."
+        "The promotional campaign for Ravi Teja's Thulabharam has taken an interesting turn with the release of its title documentary. Described as highly creative and intriguing, the presentation breaks away from conventional title announcement templates in the Telugu film industry.",
+        "By opting for a documentary format to introduce the title, the creative team has delivered a compelling piece that stands out to movie lovers and industry observers. Such imaginative introductions help elevate expectations surrounding the artistic direction of the project.",
+        "The positive reception toward the Thulabharam title documentary underscores the audience's appetite for fresh, out-of-the-box promotional content in contemporary Telugu cinema."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The title documentary for Ravi Teja's Thulabaram has been noted for its highly creative and intriguing presentation. This unconventional reveal has captured the interest of cinema audiences and followers.",
+      "dek": "The recently released title documentary for Ravi Teja's Thulabharam has been praised as a highly creative and intriguing presentation. This artistic choice offers fans a fresh and engaging way to connect with the actor's upcoming project.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -76,8 +375,8 @@
     },
     {
       "id": "https://www.telugu360.com/ranabaali-will-bring-forgotten-stories-of-historical-warriors-vijay-d/",
-      "title": "Vijay Deverakonda States Ranabaali Will Spotlight Forgotten Historical Warriors",
-      "summary": "Actor Vijay Deverakonda has shared that his upcoming project Ranabaali is set to bring forgotten stories of historical warriors to the screen. The film aims to highlight lesser-known historical figures through its narrative.",
+      "title": "Vijay Deverakonda Shares That 'Ranabaali' Will Highlight Forgotten Historical Warriors",
+      "summary": "Actor Vijay Deverakonda has revealed that his upcoming project Ranabaali is set to bring forward the untold and forgotten stories of historical warriors. The project promises to explore significant historical narratives through a cinematic lens.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/ranabaali-will-bring-forgotten-stories-of-historical-warriors-vijay-d/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Vijay-Deverakonda-4-1.jpg",
@@ -85,12 +384,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Vijay Deverakonda has shared insights into his upcoming project Ranabaali, revealing that the film will focus on bringing forgotten stories of historical warriors to light. The cinematic venture aims to explore lesser-known narratives from history through its storytelling.",
-        "By focusing on historical warriors whose tales have faded over time, the project promises to offer audiences a meaningful and content-driven cinematic experience. Further announcements regarding the film's production and release details are awaited."
+        "Actor Vijay Deverakonda has provided fresh insights into his upcoming cinematic venture, Ranabaali. According to the actor, the film is designed to spotlight the forgotten stories of historical warriors, bringing their untold journeys to the silver screen.",
+        "Historical dramas hold a special place in Indian cinema, offering a chance to revisit the valor and sacrifices of figures from the past. By focusing on less-remembered historical figures, Ranabaali aims to carve out a distinct space within regional and national historical storytelling.",
+        "As details about Ranabaali continue to emerge, Vijay Deverakonda's revelation has heightened anticipation regarding the narrative scope and thematic depth of the historical project."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda has shared that his upcoming project Ranabaali is set to bring forgotten stories of historical warriors to the screen. The film aims to highlight lesser-known historical figures through its narrative.",
+      "dek": "Actor Vijay Deverakonda has revealed that his upcoming project Ranabaali is set to bring forward the untold and forgotten stories of historical warriors. The project promises to explore significant historical narratives through a cinematic lens.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -100,8 +400,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130522/ah-will-thrill-audiences-as-a-mysterious-and-intriguing-investigation-thriller-rahul-vijay.html",
-      "title": "Rahul Vijay Teases AH As An Engaging Investigation Thriller",
-      "summary": "Actor Rahul Vijay has shared insights about his upcoming project AH, describing it as a mysterious and intriguing investigation thriller that is set to captivate audiences.",
+      "title": "Rahul Vijay Teases Mysterious and Intriguing Investigation Thriller 'AH'",
+      "summary": "Actor Rahul Vijay has shared exciting details about his upcoming project 'AH', describing it as a mysterious investigation thriller designed to captivate audiences. The project promises to deliver a gripping cinematic experience filled with suspense.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130522/ah-will-thrill-audiences-as-a-mysterious-and-intriguing-investigation-thriller-rahul-vijay.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ah-will-thrill-audiences-as-a-mysterious-and-intriguing-investigation-thriller-rahul-vijay-1791692236830-1791692237891.jpg",
@@ -109,13 +409,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Rahul Vijay has opened up about his upcoming cinematic venture, AH, giving fans a glimpse into what they can expect from the project. According to the actor, the film is shaped as a mysterious and intriguing investigation thriller designed to thrill viewers.",
-        "The project has drawn attention for its distinct genre approach. By focusing on investigative elements and mystery, the film aims to deliver a suspenseful cinematic experience under the spotlight of Rahul Vijay's involvement.",
-        "As anticipation builds around the movie's rollout, details regarding its full cast, crew, and premiere dates are expected to follow. For now, the actor's description sets clear expectations for fans of investigative thrillers."
+        "Actor Rahul Vijay has opened up about his upcoming cinematic venture titled 'AH', promising moviegoers a thrilling theatrical experience. According to the actor, the film is structured as a mysterious and intriguing investigation thriller.",
+        "With suspense at its core, 'AH' aims to keep audiences hooked through its unfolding narrative and gripping investigation elements. Rahul Vijay's latest update highlights the distinct genre focus of the project, generating fresh anticipation among fans of mystery-driven dramas.",
+        "As developments continue to unfold regarding 'AH', film enthusiasts can look forward to more updates on this suspenseful project as it moves closer to its audience engagement."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Rahul Vijay has shared insights about his upcoming project AH, describing it as a mysterious and intriguing investigation thriller that is set to captivate audiences.",
+      "dek": "Actor Rahul Vijay has shared exciting details about his upcoming project 'AH', describing it as a mysterious investigation thriller designed to captivate audiences. The project promises to deliver a gripping cinematic experience filled with suspense.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -124,34 +424,9 @@
       "originalUrl": "https://www.cinejosh.com/news/1/130522/ah-will-thrill-audiences-as-a-mysterious-and-intriguing-investigation-thriller-rahul-vijay.html"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130518/time-ticking-for-ranabaali-next-song.html",
-      "title": "Ranabaali Prepares For Next Song Release Alongside Kobali",
-      "summary": "Anticipation builds as the clock ticks toward the release of the next song from Ranabaali, coinciding with the Kobali release scheduled for today.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130518/time-ticking-for-ranabaali-next-song.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/time-ticking-for-ranabaali-next-song-1791688460064-1791688460645.jpg",
-      "publishedAt": "2026-10-11T03:14:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Excitement is peaking for the upcoming music track from Ranabaali. Updates indicate that the release timeline for the next song is actively moving forward, bringing fresh content for music and movie enthusiasts alike.",
-        "The musical rollout coincides with another major project update involving Kobali, which is slated for release today. This double dose of updates has kept followers engaged across entertainment circles.",
-        "As the countdown continues, audiences eagerly await the official drop of the Ranabaali track to experience the latest audio offerings associated with the venture."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Anticipation builds as the clock ticks toward the release of the next song from Ranabaali, coinciding with the Kobali release scheduled for today.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130518/time-ticking-for-ranabaali-next-song.html"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/ott-two-days-in-still-no-telugu-version-for-this-hit-malayalam-thriller-hk.html",
-      "title": "Hit Malayalam Thriller Faces Telugu Version Delay on OTT",
-      "summary": "A popular Malayalam thriller making waves on digital platforms is currently missing its Telugu dubbed version, leaving regional viewers waiting two days into its release.",
+      "title": "Hit Malayalam Thriller Faces Telugu OTT Release Delay",
+      "summary": "A popular Malayalam thriller making waves on digital platforms is currently facing a delay regarding its Telugu dubbed version. Even two days into its streaming run, viewers awaiting the Telugu audio option are still met with a missing version.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ott-two-days-in-still-no-telugu-version-for-this-hit-malayalam-thriller-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Pradhama-Drishtya-Kuttakkar.webp",
@@ -159,13 +434,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Digital streaming releases often face regional rollout hiccups, and a recent hit Malayalam thriller is a prime example. Two days after its initial digital debut, the film's Telugu version is still unavailable to viewers.",
-        "The delay has sparked conversation among regional movie buffs who are keen to watch the acclaimed thriller in their native language. While the original version is accessible on the OTT platform, the absence of the regional dub has left a gap for Telugu audiences.",
-        "Fans are now looking toward the streaming service for a prompt update regarding the arrival of the Telugu track so they can experience the hit thriller without further postponement."
+        "Digital streaming enthusiasts looking forward to a major hit Malayalam thriller have encountered an unexpected roadblock. Two days into its platform debut, the film's Telugu version is still not available for viewers.",
+        "The delay has sparked disappointment among regional audiences who were eager to experience the suspenseful drama in their native language. While the original release has landed on the digital space, the lack of the Telugu audio track remains a talking point.",
+        "Fans and subscribers are keeping a close eye on the platform for any official updates regarding when the Telugu version will finally drop for streaming."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "A popular Malayalam thriller making waves on digital platforms is currently missing its Telugu dubbed version, leaving regional viewers waiting two days into its release.",
+      "dek": "A popular Malayalam thriller making waves on digital platforms is currently facing a delay regarding its Telugu dubbed version. Even two days into its streaming run, viewers awaiting the Telugu audio option are still met with a missing version.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -175,8 +450,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/overseas-setback-ranabaali-dubbed-versions-delayed-telugu-release-on-track-hk.html",
-      "title": "Ranabaali Telugu Release Remains On Track Despite Overseas Dubbing Delays",
-      "summary": "While Ranabaali faces overseas setbacks regarding its dubbed versions, the much-anticipated Telugu release remains firmly on schedule for fans.",
+      "title": "Overseas Setback Hits 'Ranabaali' Dubbed Versions While Telugu Release Stays on Track",
+      "summary": "The upcoming film 'Ranabaali' has encountered an overseas hurdle with delays affecting its dubbed versions. However, the core Telugu release remains fully on track for audiences.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/overseas-setback-ranabaali-dubbed-versions-delayed-telugu-release-on-track-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-1-1.webp",
@@ -184,13 +459,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Makers of Ranabaali are navigating a mixed bag of distribution updates as the film approaches its launch. While the overseas rollout has hit a minor roadblock with delays concerning its dubbed language versions, the primary Telugu release remains completely on track.",
-        "The hiccup involving international dubbed formats has caused some logistical adjustments, but domestic enthusiasts can breathe a sigh of relief knowing the core release schedule is proceeding as planned.",
-        "As preparations continue, the production team remains focused on delivering the film smoothly to its target audiences, ensuring that the primary regional launch moves forward without interruption."
+        "Makers of the upcoming cinematic venture 'Ranabaali' are navigating a mixed bag of updates regarding its regional rollout. While the primary Telugu release remains firmly on track, the overseas distribution has hit a roadblock concerning its dubbed variants.",
+        "The setback specifically impacts the planned dubbed language versions in international territories, causing temporary adjustments. Despite this hurdle, the core schedule for the Telugu release is proceeding as planned.",
+        "Industry observers continue to monitor the distribution updates as the team works through the overseas logistical adjustments for the dubbed editions."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "While Ranabaali faces overseas setbacks regarding its dubbed versions, the much-anticipated Telugu release remains firmly on schedule for fans.",
+      "dek": "The upcoming film 'Ranabaali' has encountered an overseas hurdle with delays affecting its dubbed versions. However, the core Telugu release remains fully on track for audiences.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -200,8 +475,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/comrade-kalyan-sree-vishnus-film-grows-on-day-2-eyes-solid-weekend-prp.html",
-      "title": "Sree Vishnu's Comrade Kalyan Witnesses Day Two Growth and Solid Weekend Projections",
-      "summary": "Sree Vishnu starrer Comrade Kalyan has experienced an upward trend in its theatrical run, registering positive growth on its second day. The film is now anticipated to close out the weekend with a strong performance at the box office.",
+      "title": "Sree Vishnu's 'Comrade Kalyan' Shows Day 2 Growth, Eyes Strong Weekend Box Office",
+      "summary": "Sree Vishnu starrer 'Comrade Kalyan' is witnessing positive momentum at the box office, recording an upward growth trend on its second day. The film is now eyeing a solid opening weekend performance.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/comrade-kalyan-sree-vishnus-film-grows-on-day-2-eyes-solid-weekend-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-Review.webp",
@@ -209,13 +484,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The theatrical journey of Comrade Kalyan, starring actor Sree Vishnu, has shown promising momentum following its release. Trade reports indicate that the movie recorded an increase in audience numbers on its second day, pointing to positive reception among moviegoers.",
-        "With this notable growth on day two, the film is firmly on track to secure a solid opening weekend. Exhibitors and trade analysts are closely observing the numbers as the project heads further into the weekend period.",
-        "Comrade Kalyan continues to draw attention within regional cinema circles as Sree Vishnu leads the project. The upcoming days will be crucial in determining the final box-office trajectory for this cinematic release."
+        "Actor Sree Vishnu's latest cinematic outing, 'Comrade Kalyan', is maintaining steady momentum at the box office. Following its theatrical rollout, the movie registered a noticeable growth in collections on its second day.",
+        "This encouraging upward trend on day two has boosted trade expectations, with the feature now eyeing a solid and profitable opening weekend. The positive response indicates a favorable reception among theatergoers.",
+        "As the weekend progresses, industry trackers will be closely watching the film's box office numbers to gauge its overall theatrical hold in the coming days."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Sree Vishnu starrer Comrade Kalyan has experienced an upward trend in its theatrical run, registering positive growth on its second day. The film is now anticipated to close out the weekend with a strong performance at the box office.",
+      "dek": "Sree Vishnu starrer 'Comrade Kalyan' is witnessing positive momentum at the box office, recording an upward growth trend on its second day. The film is now eyeing a solid opening weekend performance.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -225,8 +500,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/jailer-2-nizam-bookings-update-is-here-prp.html",
-      "title": "Jailer 2 Nizam Region Advance Bookings Update Surfaces",
-      "summary": "An update regarding the advance ticket bookings for the upcoming film Jailer 2 in the Nizam region has emerged. Fans and trade circles are keeping a close eye on the pre-release sales figures as anticipation builds.",
+      "title": "Jailer 2 Nizam Bookings Update Emerges",
+      "summary": "An update regarding the Nizam region ticket bookings for Jailer 2 has arrived. Fans are keeping a close watch on the latest box office developments.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/jailer-2-nizam-bookings-update-is-here-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jailer-2-3.webp",
@@ -234,13 +509,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Anticipation for the upcoming film Jailer 2 continues to generate discussion among cinema enthusiasts and industry trackers. The latest updates focusing on advance bookings in the Nizam territory provide an early glimpse into audience demand.",
-        "Pre-release ticket sales serve as an important indicator of a movie's opening potential in key regional markets. The figures from the Nizam region reflect how followers are responding to the rollout of advance ticketing for the project.",
-        "As further updates regarding bookings and box-office readiness become available, stakeholders will gain a clearer picture of the scale of release for Jailer 2 in major territories."
+        "The latest update concerning ticket bookings for Jailer 2 in the Nizam territory has officially landed. Cinephiles and trade analysts alike are tracking how advance sales and pre-release traction are shaping up for this anticipated project.",
+        "As the conversation around Jailer 2 continues to grow, updates on regional bookings offer an early look at audience interest. Further announcements regarding ticket sales and distribution milestones are expected as the release approaches."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "An update regarding the advance ticket bookings for the upcoming film Jailer 2 in the Nizam region has emerged. Fans and trade circles are keeping a close eye on the pre-release sales figures as anticipation builds.",
+      "dek": "An update regarding the Nizam region ticket bookings for Jailer 2 has arrived. Fans are keeping a close watch on the latest box office developments.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -249,84 +523,33 @@
       "originalUrl": "https://www.123telugu.com/mnews/jailer-2-nizam-bookings-update-is-here-prp.html"
     },
     {
-      "id": "https://www.gulte.com/movienews/435945/sree-vishnu-about-acharya-dalam-in-comrade-kalyan",
-      "title": "Sree Vishnu Opens Up About Acharya Dalam Connection in Comrade Kalyan",
-      "summary": "Actor Sree Vishnu has shared insights regarding the Acharya Dalam reference featured within his latest cinematic venture, Comrade Kalyan. The comments offer fans a deeper look into the creative elements of the movie.",
+      "id": "https://www.gulte.com/movienews/435868/kona-venkat-calls-these-directors-as-criminals",
+      "title": "Kona Venkat Shares Strong Words About Specific Directors",
+      "summary": "Noted film personality Kona Venkat has publicly referred to certain directors as 'criminals'. This striking comment has generated significant buzz within the film industry.",
       "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435945/sree-vishnu-about-acharya-dalam-in-comrade-kalyan",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-10-at-17.35.11.jpeg",
-      "publishedAt": "2026-10-10T16:51:00.000Z",
+      "url": "https://www.gulte.com/movienews/435868/kona-venkat-calls-these-directors-as-criminals",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/kona-venkat-on-trimming.jpg",
+      "publishedAt": "2026-10-10T16:28:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Sree Vishnu has addressed details concerning the Acharya Dalam element incorporated in his ongoing cinematic release, Comrade Kalyan. Discussions surrounding this specific aspect have drawn the attention of audiences following the film's promotional and theatrical rollout.",
-        "Character motivations and thematic elements often form a major talking point for regional film releases. Sree Vishnu's remarks shed light on how this particular facet fits into the broader narrative framework of Comrade Kalyan.",
-        "As viewers continue to experience the project in theaters, insights from the leading man add context to the creative choices made behind the production of Comrade Kalyan."
+        "In a recent development making waves across the film community, writer and producer Kona Venkat has stirred discussion by labeling certain directors as 'criminals'. The remark has caught the attention of movie enthusiasts and industry observers alike.",
+        "While the context behind the strong statement continues to draw speculation, such outspoken remarks frequently spark wide-ranging debates regarding creative standards, professional conduct, and industry dynamics."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Sree Vishnu has shared insights regarding the Acharya Dalam reference featured within his latest cinematic venture, Comrade Kalyan. The comments offer fans a deeper look into the creative elements of the movie.",
+      "dek": "Noted film personality Kona Venkat has publicly referred to certain directors as 'criminals'. This striking comment has generated significant buzz within the film industry.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "Gulte"
       ],
-      "originalUrl": "https://www.gulte.com/movienews/435945/sree-vishnu-about-acharya-dalam-in-comrade-kalyan"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130514/chiranjeevi-backstabbed-for-national-award.html",
-      "title": "Discussion Surrounds National Award Recognition Involving Megastar Chiranjeevi",
-      "summary": "Recent discussions in regional cinema circles have touched upon past National Award considerations involving Megastar Chiranjeevi. Commentary and retrospectives continue to spark debates among film enthusiasts regarding awards recognition.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130514/chiranjeevi-backstabbed-for-national-award.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-backstabbed-for-national-award-1791645917829-1791645918628.jpg",
-      "publishedAt": "2026-10-10T15:25:20.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Conversations regarding prestigious accolades and prominent figures of Indian cinema frequently draw strong reactions from fans and critics alike. Recent commentary has focused on historical National Award discussions concerning Megastar Chiranjeevi.",
-        "Such retrospectives often examine the vast filmography of leading veterans and the industry milestones associated with their careers. The discourse reflects the deep passion of audiences regarding honors bestowed upon legendary performers.",
-        "While specific outcomes remain part of cinema history, discussions surrounding recognition for stalwarts like Chiranjeevi continue to remain a frequent topic of debate across entertainment platforms."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Recent discussions in regional cinema circles have touched upon past National Award considerations involving Megastar Chiranjeevi. Commentary and retrospectives continue to spark debates among film enthusiasts regarding awards recognition.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130514/chiranjeevi-backstabbed-for-national-award.html"
-    },
-    {
-      "id": "https://telugucinema.com/news/nara-lokeshs-tweet-could-boost-vijay-deverakondas-ranabaali",
-      "title": "Nara Lokesh’s Social Media Post Draws Attention to Vijay Deverakonda's Ranabaali",
-      "summary": "A recent social media message shared by Nara Lokesh has sparked discussion regarding Vijay Deverakonda's upcoming cinematic venture, Ranabaali. Film enthusiasts are looking at how public endorsements and digital mentions impact promotional momentum.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/nara-lokeshs-tweet-could-boost-vijay-deverakondas-ranabaali",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/vijaydeverakonda-naralokesh-oct1026.jpg",
-      "publishedAt": "2026-10-10T15:24:09.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Public figures and political personalities often share updates that capture widespread attention within the entertainment sphere. Recently, a specific social media post by Nara Lokesh has drawn significant notice in connection with the upcoming film Ranabaali, starring actor Vijay Deverakonda.",
-        "In the realm of modern filmmaking, visibility plays a critical role in shaping audience expectations ahead of a release. Digital remarks and acknowledgments from prominent personalities can amplify chatter across various platforms, bringing additional spotlight to ongoing projects.",
-        "As developments surrounding Ranabaali continue to unfold, industry observers will be watching to see how digital engagement translates into mainstream anticipation for Vijay Deverakonda's latest cinematic undertaking."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "A recent social media message shared by Nara Lokesh has sparked discussion regarding Vijay Deverakonda's upcoming cinematic venture, Ranabaali. Film enthusiasts are looking at how public endorsements and digital mentions impact promotional momentum.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "TeluguCinema"
-      ],
-      "originalUrl": "https://telugucinema.com/news/nara-lokeshs-tweet-could-boost-vijay-deverakondas-ranabaali"
+      "originalUrl": "https://www.gulte.com/movienews/435868/kona-venkat-calls-these-directors-as-criminals"
     },
     {
       "id": "https://www.telugu360.com/one-more-rumor-mahesh-babu-and-sukumar-project/",
-      "title": "New Speculation Surfaces Surrounding a Potential Collaboration Between Mahesh Babu and Sukumar",
-      "summary": "Fresh speculation has emerged regarding a possible collaborative project featuring actor Mahesh Babu and director Sukumar. While details remain unconfirmed, such reports frequently generate substantial buzz among film enthusiasts.",
+      "title": "Fresh Speculation Surrounds Mahesh Babu and Sukumar Collaboration",
+      "summary": "Fresh speculation has emerged concerning a potential collaborative project between actor Mahesh Babu and director Sukumar. Fans are eagerly awaiting official confirmation on the rumored venture.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/one-more-rumor-mahesh-babu-and-sukumar-project/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Mahesh-Babu-and-Sukumar-2.jpg",
@@ -334,13 +557,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Whispers and speculation are a constant feature of the entertainment landscape, particularly when high-profile talent is involved. Recently, fresh chatter has surfaced concerning a potential coming-together of actor Mahesh Babu and director Sukumar.",
-        "While industry rumors often circulate well before any formal announcements are made, they highlight the high level of audience interest in seeing prominent creative forces unite. Fans and followers closely track these discussions as they wait for official word from the respective camps.",
-        "Until concrete details are provided by the makers, the nature of this rumored project remains a topic of conversation among cinema enthusiasts tracking future updates from Tollywood."
+        "Rumors have surfaced linking prominent actor Mahesh Babu and acclaimed director Sukumar for a potential new cinematic venture. Speculation of this nature regularly generates excitement among film enthusiasts tracking major actor-director pairings.",
+        "At present, the reports remain strictly in the realm of speculation as no formal announcements have been made by the creative teams involved. Audiences and industry trackers will need to wait for official word to confirm any future collaboration."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Fresh speculation has emerged regarding a possible collaborative project featuring actor Mahesh Babu and director Sukumar. While details remain unconfirmed, such reports frequently generate substantial buzz among film enthusiasts.",
+      "dek": "Fresh speculation has emerged concerning a potential collaborative project between actor Mahesh Babu and director Sukumar. Fans are eagerly awaiting official confirmation on the rumored venture.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -350,8 +572,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/435879/pics-sharvari-brings-the-thunder-in-silver-mini",
-      "title": "Sharvari Captures Attention in a Striking Silver Mini Outfit",
-      "summary": "Actor Sharvari recently turned heads with a striking appearance in a silver mini outfit, capturing the attention of fashion followers and photographers alike. Visual updates from public appearances continue to be a major talking point in entertainment media.",
+      "title": "Sharvari Stuns in Recent Silver Mini Outfit Photos",
+      "summary": "Actor Sharvari has caught the attention of style enthusiasts with a striking new set of photographs featuring a silver mini outfit. The latest visuals have quickly circulated across entertainment media.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/435879/pics-sharvari-brings-the-thunder-in-silver-mini",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Sharvari-2.jpg",
@@ -359,13 +581,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Sharvari recently made waves across fashion and entertainment circles with a striking public appearance. Donning a bold silver mini outfit, she quickly drew the gaze of photographers and style enthusiasts alike.",
-        "Appearances of this nature frequently become talking points across digital platforms, where followers and fashion critics dissect the latest trends embraced by prominent film personalities. Such styling choices highlight the intersection of fashion and cinema branding.",
-        "As visual media continues to drive engagement, moments like these ensure that actors maintain a dynamic presence in the public eye even outside their primary on-screen roles."
+        "Actor Sharvari has stepped into the spotlight with a fresh set of images showcasing a bold silver mini outfit. The photographs highlight her latest public appearance and have quickly become a talking point among fashion followers.",
+        "Celebrity style updates and photo galleries remain a popular staple for fans tracking fashion trends within the entertainment industry. These recent visuals provide yet another memorable style statement from the actor."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Sharvari recently turned heads with a striking appearance in a silver mini outfit, capturing the attention of fashion followers and photographers alike. Visual updates from public appearances continue to be a major talking point in entertainment media.",
+      "dek": "Actor Sharvari has caught the attention of style enthusiasts with a striking new set of photographs featuring a silver mini outfit. The latest visuals have quickly circulated across entertainment media.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -374,59 +595,9 @@
       "originalUrl": "https://www.gulte.com/movienews/435879/pics-sharvari-brings-the-thunder-in-silver-mini"
     },
     {
-      "id": "https://www.123telugu.com/mnews/criminals-of-the-industry-kona-venkats-shocking-remarks-on-directors-wasting-resources-prp.html",
-      "title": "Kona Venkat Raises Concerns Over Resource Management by Industry Directors",
-      "summary": "Filmmaker Kona Venkat has made strong remarks concerning directors who waste industry resources, labeling such practices harshly. His comments highlight ongoing internal discussions about financial responsibility and efficiency within film production.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/criminals-of-the-industry-kona-venkats-shocking-remarks-on-directors-wasting-resources-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/kona-venkat.webp",
-      "publishedAt": "2026-10-10T14:30:29.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Conversations regarding production ethics and financial discipline often spark intense debate within the entertainment sector. Recently, notable writer and filmmaker Kona Venkat made strong remarks addressing directors whom he accused of wasting industry resources.",
-        "Such statements bring to light the behind-the-scenes challenges of budget management and operational efficiency in filmmaking. Industry stakeholders frequently grapple with how creative ambitions align with fiscal accountability during production cycles.",
-        "Kona Venkat's pointed commentary serves as a reminder of the pressures faced by production teams and the ongoing need for responsible resource allocation across regional cinema industries."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Filmmaker Kona Venkat has made strong remarks concerning directors who waste industry resources, labeling such practices harshly. His comments highlight ongoing internal discussions about financial responsibility and efficiency within film production.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/criminals-of-the-industry-kona-venkats-shocking-remarks-on-directors-wasting-resources-prp.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130512/nani-transforms-for-bloody-romeo.html",
-      "title": "Natural Star Nani Unveils a Dramatic Transformation for Bloody Romeo",
-      "summary": "Natural Star Nani is stepping into a striking new look for the upcoming project Bloody Romeo, trading his previous rugged appearance for a distinctively stylish persona.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130512/nani-transforms-for-bloody-romeo.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/nani-transforms-for-bloody-romeo-1791640559752-1791640560183.jpg",
-      "publishedAt": "2026-10-10T13:56:02.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Nani has captured audience attention with a major visual transition for his upcoming venture, Bloody Romeo. Known for adapting his screen presence to suit diverse narratives, the Natural Star has moved away from the rugged avatar that fans recently associated with him.",
-        "In Bloody Romeo, Nani embraces a thoroughly stylish look. This transformation highlights the actor's willingness to experiment with his onscreen persona, generating fresh anticipation surrounding the project's overall aesthetic and tone.",
-        "As details regarding Bloody Romeo continue to emerge, this stylistic pivot remains a major talking point for followers of the actor. The transition from a rustic vibe to a modern, polished appearance sets the stage for a unique cinematic offering."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Natural Star Nani is stepping into a striking new look for the upcoming project Bloody Romeo, trading his previous rugged appearance for a distinctively stylish persona.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130512/nani-transforms-for-bloody-romeo.html"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/bloody-romeo-nani-transforms-from-a-rugged-avatar-to-a-stylish-look-prp.html",
-      "title": "Nani Shifts From Rugged to Stylish for Bloody Romeo",
-      "summary": "Actor Nani sports a stylish new look, transitioning away from a rugged avatar for his involvement in the upcoming movie Bloody Romeo.",
+      "title": "Nani Shifting From Rugged to Stylish for Bloody Romeo",
+      "summary": "Actor Nani is set to undergo a striking transformation, moving from a rugged appearance to a sleek, stylish avatar for the project titled Bloody Romeo.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/bloody-romeo-nani-transforms-from-a-rugged-avatar-to-a-stylish-look-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Bloody-Romeo.webp",
@@ -434,13 +605,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The cinematic journey of Bloody Romeo has brought forth a notable update regarding its lead star. Nani, widely recognized as Natural Star, has shifted his appearance significantly for the venture.",
-        "Moving completely away from the rugged look, Nani adopts a polished and stylish avatar for Bloody Romeo. This modification in appearance showcases his versatility in presenting distinct characters to the audience.",
-        "The newly revealed styling has drawn considerable attention from movie enthusiasts tracking updates on Bloody Romeo. Further developments on the project are awaited as the promotional cycle progresses."
+        "In a notable shift for his cinematic look, actor Nani is preparing to captivate audiences with a brand new aesthetic. Known for frequently adapting his appearance to suit his roles, the actor is transitioning from a rugged persona into a much more stylish avatar.",
+        "This upcoming transformation is centered around the project titled Bloody Romeo. While specific plot details and character motivations remain under wraps, the visual shift has already generated curiosity among fans eagerly following his career choices.",
+        "As developments continue to emerge surrounding Bloody Romeo, Nani's distinct styling changes highlight his ongoing commitment to presenting fresh visuals on screen, keeping anticipation high for his upcoming cinematic ventures."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Nani sports a stylish new look, transitioning away from a rugged avatar for his involvement in the upcoming movie Bloody Romeo.",
+      "dek": "Actor Nani is set to undergo a striking transformation, moving from a rugged appearance to a sleek, stylish avatar for the project titled Bloody Romeo.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -450,8 +621,8 @@
     },
     {
       "id": "https://www.telugu360.com/vijay-deverakonda-pledges-to-stay-away-from-ticket-hikes/",
-      "title": "Vijay Deverakonda Takes a Stand Against Ticket Price Hikes",
-      "summary": "Actor Vijay Deverakonda has made a definitive commitment to stay away from ticket price hikes, marking a noteworthy stance within the film industry.",
+      "title": "Vijay Deverakonda Takes a Stand Against Movie Ticket Price Hikes",
+      "summary": "Popular actor Vijay Deverakonda has made a firm pledge to stay away from ticket price hikes, opting for a different approach regarding theatrical releases.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/vijay-deverakonda-pledges-to-stay-away-from-ticket-hikes/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/IMG-20261008-WA0028.jpg",
@@ -459,171 +630,32 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In a notable development concerning regional cinema economics, actor Vijay Deverakonda has pledged to stay away from ticket hikes. The decision highlights a specific approach toward managing film accessibility and audience outreach.",
-        "Ticket pricing strategies have long been a subject of discussion among filmmakers, distributors, and moviegoers. By choosing to step back from hikes, Vijay Deverakonda's stance addresses ongoing conversations about making cinema affordable for the general public.",
-        "Fans and industry observers are closely following this pledge, as pricing models continue to influence box office patterns and viewer turnout across theatrical releases."
+        "In a notable development within the film industry, actor Vijay Deverakonda has formally pledged to steer clear of ticket price hikes. The decision highlights a deliberate choice regarding how theatrical admissions are handled for his films.",
+        "By committing to avoid inflated ticket rates, the actor aims to maintain accessibility for moviegoers. Such stances are closely watched by trade analysts and audiences alike, as ticket pricing continues to be a major discussion point in contemporary cinema.",
+        "This pledge sets a specific standard for his upcoming releases and reflects the actor's consideration of general audiences when bringing his projects to the big screen."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda has made a definitive commitment to stay away from ticket price hikes, marking a noteworthy stance within the film industry.",
+      "dek": "Popular actor Vijay Deverakonda has made a firm pledge to stay away from ticket price hikes, opting for a different approach regarding theatrical releases.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "Telugu360"
       ],
       "originalUrl": "https://www.telugu360.com/vijay-deverakonda-pledges-to-stay-away-from-ticket-hikes/"
-    },
-    {
-      "id": "https://telugucinema.com/news/bloody-romeo-sujeeth-shares-video-of-nanis-stylish-makeover",
-      "title": "Sujeeth Reveals Stylish Makeover Video for Nani in Bloody Romeo",
-      "summary": "Director Sujeeth has shared a new video highlighting a striking and stylish makeover for Nani in the project titled Bloody Romeo. The update offers fans a fresh look at the actor's appearance and style for the cinematic venture.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/bloody-romeo-sujeeth-shares-video-of-nanis-stylish-makeover",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/nanibloodyromoe-gangsta-oct1026.jpg",
-      "publishedAt": "2026-10-10T12:03:17.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Director Sujeeth has caught the attention of film enthusiasts by releasing a video that showcases a stylish new makeover for actor Nani. The promotional material is tied to the project titled Bloody Romeo.",
-        "The shared footage gives audiences a glimpse into Nani's distinct look and aesthetic presentation for the movie. Such early reveals are often used to build anticipation among fans following the actor's career and Sujeeth's directorial path.",
-        "As details continue to emerge around Bloody Romeo, this video provides a clear look at the visual direction planned for Nani's character. Cinephiles and supporters are closely following further updates regarding the production."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Director Sujeeth has shared a new video highlighting a striking and stylish makeover for Nani in the project titled Bloody Romeo. The update offers fans a fresh look at the actor's appearance and style for the cinematic venture.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "TeluguCinema"
-      ],
-      "originalUrl": "https://telugucinema.com/news/bloody-romeo-sujeeth-shares-video-of-nanis-stylish-makeover"
-    },
-    {
-      "id": "https://telugucinema.com/news/rc17-ram-charan-and-sukumars-film-launch-set-for-october-20",
-      "title": "Ram Charan and Sukumar's RC17 Launch Scheduled for October 20",
-      "summary": "The official launch event for RC17, bringing together Ram Charan and director Sukumar, has been locked for October 20. This collaboration marks an eagerly awaited union in Telugu cinema, generating significant excitement among fans.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/rc17-ram-charan-and-sukumars-film-launch-set-for-october-20",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/rc17-oct1026.jpg",
-      "publishedAt": "2026-10-10T11:48:26.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Anticipation is building for the upcoming project tentatively titled RC17, which pairs actor Ram Charan with director Sukumar. Organizers have confirmed that the official launch ceremony for the film is set to take place on October 20.",
-        "Collaboration between prominent leading men and acclaimed directors always commands high attention within the industry. The upcoming launch event serves as the official starting point for production and promotional activities for the movie.",
-        "Fans and followers of both Ram Charan and Sukumar are eagerly awaiting further details regarding the cast, crew, and filming schedules following the October 20 launch."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The official launch event for RC17, bringing together Ram Charan and director Sukumar, has been locked for October 20. This collaboration marks an eagerly awaited union in Telugu cinema, generating significant excitement among fans.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "TeluguCinema"
-      ],
-      "originalUrl": "https://telugucinema.com/news/rc17-ram-charan-and-sukumars-film-launch-set-for-october-20"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/no-ticket-rate-hikes-for-vijay-deverakondas-films-from-here-on-prp.html",
-      "title": "Vijay Deverakonda Confirms Policy Against Ticket Rate Hikes for His Future Films",
-      "summary": "Actor Vijay Deverakonda has announced a definitive decision regarding ticket pricing for his upcoming cinematic releases. Moving forward, his films will not feature ticket rate hikes, offering a clear update for moviegoers.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/no-ticket-rate-hikes-for-vijay-deverakondas-films-from-here-on-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Vijay-Deverakonda.webp",
-      "publishedAt": "2026-10-10T11:31:38.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Vijay Deverakonda has made a notable announcement regarding theatrical economics for his future projects, declaring that there will be no ticket rate hikes for his films from here on.",
-        "This decision impacts how audiences access his upcoming cinematic releases in theaters. Ticket pricing strategies are frequently discussed topics within the film industry, making this choice a distinct update for moviegoers.",
-        "Further updates concerning his upcoming slate of films will likely reflect this new approach to theatrical pricing and release management."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda has announced a definitive decision regarding ticket pricing for his upcoming cinematic releases. Moving forward, his films will not feature ticket rate hikes, offering a clear update for moviegoers.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/no-ticket-rate-hikes-for-vijay-deverakondas-films-from-here-on-prp.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130508/vijay-deverakonda-reveals-ranabaali-runtime.html",
-      "title": "Vijay Deverakonda Unveils Runtime Details for Ranabaali",
-      "summary": "Actor Vijay Deverakonda has officially disclosed the runtime for his upcoming movie Ranabaali. This update gives fans a precise idea of the length of the theatrical experience ahead of the film's release.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130508/vijay-deverakonda-reveals-ranabaali-runtime.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-reveals-ranabaali-runtime-1791631345439-1791631345989.jpg",
-      "publishedAt": "2026-10-10T11:22:28.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Vijay Deverakonda has shared new information concerning his project Ranabaali by revealing its official runtime. Knowing the length of a movie helps audiences understand the pacing and format of the upcoming theatrical release.",
-        "As details about Ranabaali continue to circulate, runtime announcements serve as key milestones for fans tracking the film's progress. Further updates regarding promotional materials and release schedules are expected to follow."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda has officially disclosed the runtime for his upcoming movie Ranabaali. This update gives fans a precise idea of the length of the theatrical experience ahead of the film's release.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130508/vijay-deverakonda-reveals-ranabaali-runtime.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130507/nara-lokesh-praises-ranabaali-trailer.html",
-      "title": "Nara Lokesh Extends Appreciation for the Ranabaali Trailer",
-      "summary": "Nara Lokesh has publicly shared praise for the newly released trailer of Ranabaali. The acknowledgment highlights the growing visibility and promotional momentum surrounding the film.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130507/nara-lokesh-praises-ranabaali-trailer.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/nara-lokesh-praises-ranabaali-trailer-1791623233542-1791623233889.jpg",
-      "publishedAt": "2026-10-10T09:07:18.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The promotional campaign for Ranabaali has received a notable endorsement from political figure Nara Lokesh. Following the release of the film's trailer, Lokesh took the opportunity to share his thoughts and praise the promotional material.",
-        "Public figures sharing their reactions to cinema trailers often brings additional spotlight to upcoming projects. In this instance, Nara Lokesh's positive review of the Ranabaali trailer serves as a notable highlight for the film's team as they build anticipation among audiences.",
-        "As the project moves forward with its promotional schedule, industry observers and fans will be keeping an eye on how this early praise impacts the overall reception and interest in Ranabaali."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Nara Lokesh has publicly shared praise for the newly released trailer of Ranabaali. The acknowledgment highlights the growing visibility and promotional momentum surrounding the film.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130507/nara-lokesh-praises-ranabaali-trailer.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/small-film-big-success-rs-2-crore-film-set-to-beat-yashs-toxic-in-karnataka-prp.html",
-      "title": "Compact Budget Production Set to Challenge Major Releases in Karnataka",
-      "summary": "A modest production with a budget of Rs. 2 crore is reportedly drawing significant attention and is poised to rival high-profile films like Yash's Toxic in Karnataka. This development highlights the shifting dynamics of box office competition for smaller cinematic ventures.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/small-film-big-success-rs-2-crore-film-set-to-beat-yashs-toxic-in-karnataka-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Toxic-and-premilo.webp",
-      "publishedAt": "2026-10-10T07:27:42.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "In a striking example of modest-budget cinema making waves, a production made on a budget of Rs. 2 crore is capturing industry attention in Karnataka. Reports indicate that the small film is poised to compete strongly against major high-profile projects, notably Yash's upcoming film Toxic.",
-        "Situations where lower-budget films rival massive blockbusters underscore changing audience preferences and the potential for unexpected commercial success within the regional market. Financial scale does not always dictate the level of traction a project can achieve prior to its release.",
-        "Industry stakeholders will be monitoring how this Rs. 2 crore film performs commercially against heavily anticipated big-budget titles in Karnataka, marking an interesting chapter in current regional box office trends."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "A modest production with a budget of Rs. 2 crore is reportedly drawing significant attention and is poised to rival high-profile films like Yash's Toxic in Karnataka. This development highlights the shifting dynamics of box office competition for smaller cinematic ventures.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/small-film-big-success-rs-2-crore-film-set-to-beat-yashs-toxic-in-karnataka-prp.html"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tum-mere-ho-official-trailer/videoshow/134829707.cms",
       "title": "Tum Mere Ho - Official Trailer",
@@ -732,16 +764,6 @@
       "img": "https://static.toiimg.com/thumb/msid-134582448,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
-      "title": "Clayface - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134464346,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
