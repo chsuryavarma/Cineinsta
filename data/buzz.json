@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T00:58:22.724Z",
+  "updatedAt": "2026-10-12T06:20:31.400Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -68,48 +68,165 @@
       }
     },
     {
-      "id": "audience-frustration-rises-over-ticket-price-hikes-for-dubbed-cinema-releases",
-      "title": "Audience Frustration Rises Over Ticket Price Hikes for Dubbed Cinema Releases",
+      "id": "mythri-movie-makers-steps-into-new-age-rom-com-space-with-medha-meka-s-debut",
+      "title": "Mythri Movie Makers Steps Into New-Age Rom-Com Space With Medha Meka's Debut",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Medha-Mek-1.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "mythri-movie-makers-expands-romance-slate-under-mythriinlove-banner",
+      "title": "Mythri Movie Makers Expands Romance Slate Under #MythriInLove Banner",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-10.30.25.jpeg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "actor-nithiin-lines-up-four-new-films-for-upcoming-cinematic-slate",
+      "title": "Actor Nithiin Lines Up Four New Films for Upcoming Cinematic Slate",
+      "img": "https://www.telugu360.com/wp-content/uploads/2024/05/Nithiin.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "baththa-director-opens-up-about-the-magical-writing-process-behind-the-film",
+      "title": "Baththa Director Opens Up About the Magical Writing Process Behind the Film",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/baththa-director.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "jailer-2-hindi-version-reported-to-bypass-national-multiplex-chains-for-swift-ott-premiere",
+      "title": "Jailer 2 Hindi Version Reported to Bypass National Multiplex Chains for Swift OTT Premiere",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jailer-2-3.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "casting-speculation-surrounds-jailer-2-involving-vijay-sethupathi-and-santhanam",
+      "title": "Casting Speculation Surrounds Jailer 2 Involving Vijay Sethupathi and Santhanam",
+      "img": "https://www.telugu360.com/wp-content/uploads/2024/06/Vijay-sethupathi.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "director-rajamouli-expresses-dissatisfaction-with-past-screen-adaptations-of-indian-epics",
+      "title": "Director Rajamouli Expresses Dissatisfaction With Past Screen Adaptations of Indian Epics",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Rajamouli-varanasi-epic.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "industry-buzz-points-to-a-dussehra-launch-for-ramayana-second-trailer",
+      "title": "Industry Buzz Points to a Dussehra Launch for Ramayana Second Trailer",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/ramayana-3.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "caste-teaser-promises-an-honest-and-realistic-cinematic-experience",
+      "title": "Caste Teaser Promises an Honest and Realistic Cinematic Experience",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/782939bc-a0cb-414b-a5f5-94049766c84f.jpeg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "ramayana-unveils-new-poster-and-confirms-release-date-with-star-studded-cast",
+      "title": "Ramayana Unveils New Poster and Confirms Release Date with Star-Studded Cast",
+      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/10/ramayana-new-poster.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-deverakonda-faces-his-biggest-challenge-playing-a-villager-in-ranabaali",
+      "title": "Vijay Deverakonda Faces His Biggest Challenge Playing a Villager in Ranabaali",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Ranabaali-2.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "prabhas-fans-receive-a-special-double-bonanza",
+      "title": "Prabhas Fans Receive a Special Double Bonanza",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-fans-get-a-double-treat-1791737998823-1791738000952.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "concerns-raised-over-ticket-price-hikes-for-dubbed-cinema-releases",
+      "title": "Concerns Raised Over Ticket Price Hikes for Dubbed Cinema Releases",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/movie-lovers-cheated-with-dubbed-films-ticket-hikes-1791728109173-1791728109778.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "fresh-production-details-emerge-for-the-kalki-2898-ad-follow-up",
-      "title": "Fresh Production Details Emerge for the Kalki 2898 AD Follow-Up",
-      "img": "https://www.telugu360.com/wp-content/uploads/2024/06/Kalki-2898-AD-6.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "crazy-kalyanam-trailer-delivers-a-blend-of-marriage-madness-and-family-entertainment",
-      "title": "Crazy Kalyanam Trailer Delivers a Blend of Marriage Madness and Family Entertainment",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Crazy-Kalyanam.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "allu-arjun-pulls-out-all-the-stops-for-upcoming-lokesh-kanagaraj-collaboration",
-      "title": "Allu Arjun Pulls Out All the Stops for Upcoming Lokesh Kanagaraj Collaboration",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/allu-arjun-going-allout-for-lokesh-kanagaraj-project-1791725482470-1791725484538.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -146,8 +263,8 @@
       }
     },
     {
-      "id": "kobali-song-from-ranabaali-released-featuring-music-by-ajay-atul",
-      "title": "Kobali Song from Ranabaali Released, Featuring Music by Ajay Atul",
+      "id": "ranabaali-unveils-kobali-song-composed-by-ajay-atul",
+      "title": "Ranabaali Unveils Kobali Song Composed by Ajay Atul",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/kobali.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -159,8 +276,8 @@
       }
     },
     {
-      "id": "ramayana-release-date-preponed-with-worldwide-bookings-opening-on-dussehra",
-      "title": "Ramayana Release Date Preponed with Worldwide Bookings Opening on Dussehra",
+      "id": "ramayana-release-preponed-with-worldwide-bookings-opening-on-dussehra",
+      "title": "Ramayana Release Preponed with Worldwide Bookings Opening on Dussehra",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ramya.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,8 +289,8 @@
       }
     },
     {
-      "id": "anirudh-ravichander-in-discussions-for-sukumar-and-ram-charan-project",
-      "title": "Anirudh Ravichander in Discussions for Sukumar and Ram Charan Project",
+      "id": "anirudh-ravichander-in-talks-for-music-in-sukumar-and-ram-charan-project",
+      "title": "Anirudh Ravichander in Talks for Music in Sukumar and Ram Charan Project",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/rc17.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -185,34 +302,8 @@
       }
     },
     {
-      "id": "vijay-deverakonda-shares-perspectives-on-cinema-ticket-rate-revisions",
-      "title": "Vijay Deverakonda Shares Perspectives on Cinema Ticket Rate Revisions",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-thoughts-on-ticket-rates-hike-1791717950724-1791717952704.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "chiranjeevi-extends-heartfelt-birthday-wishes-addressing-amitabh-bachchan-as-guruji",
-      "title": "Chiranjeevi Extends Heartfelt Birthday Wishes, Addressing Amitabh Bachchan as Guruji",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-calls-amitabh-bachchan-guruji-in-heartfelt-birthday-wishes-1791715559244-1791715560891.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "rumours-emerge-regarding-ram-charan-s-rc17-grand-launch-and-cast",
-      "title": "Rumours Emerge Regarding Ram Charan's RC17 Grand Launch and Cast",
+      "id": "rumours-surrounding-ram-charan-s-rc17-grand-launch-and-cast",
+      "title": "Rumours Surrounding Ram Charan's RC17 Grand Launch and Cast",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ram-charan-rc17-grand-launch-on-dussehra-1791714634866-1791714636510.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -224,8 +315,8 @@
       }
     },
     {
-      "id": "actor-sree-vishnu-reveals-plans-to-collaborate-with-established-directors-in-upcoming-projects",
-      "title": "Actor Sree Vishnu Reveals Plans to Collaborate with Established Directors in Upcoming Projects",
+      "id": "sree-vishnu-confirms-upcoming-projects-with-established-directors",
+      "title": "Sree Vishnu Confirms Upcoming Projects with Established Directors",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/04/Sree-Vishnu.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -237,8 +328,8 @@
       }
     },
     {
-      "id": "could-ajay-atul-elevate-ranabaali-to-new-heights",
-      "title": "Could Ajay Atul Elevate Ranabaali to New Heights?",
+      "id": "expectations-rise-on-ajay-atul-s-musical-impact-for-ranabaali",
+      "title": "Expectations Rise on Ajay Atul's Musical Impact for Ranabaali",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/ranabaali-ajay-atul.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -250,8 +341,8 @@
       }
     },
     {
-      "id": "maremma-expands-reach-with-a-pan-india-ott-platform-release",
-      "title": "Maremma Expands Reach with a Pan-India OTT Platform Release",
+      "id": "maremma-expands-reach-with-pan-india-ott-release",
+      "title": "Maremma Expands Reach with Pan-India OTT Release",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Maremma-2.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -263,100 +354,9 @@
       }
     },
     {
-      "id": "vijay-deverakonda-highlights-special-intent-behind-their-third-collaboration",
-      "title": "Vijay Deverakonda Highlights Special Intent Behind Their Third Collaboration",
+      "id": "vijay-deverakonda-highlights-special-nature-of-third-collaboration",
+      "title": "Vijay Deverakonda Highlights Special Nature of Third Collaboration",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/ranabaali-movie-oct1126.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "alias-rukmini-shapes-up-as-a-major-project-for-nani",
-      "title": "Alias Rukmini Shapes Up As A Major Project For Nani",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Alias-Rukmini-1.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "teja-sajja-discusses-the-challenges-of-his-traitors-journey",
-      "title": "Teja Sajja Discusses The Challenges Of His Traitors Journey",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/teja-sajja-interview.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "ravi-teja-s-daughter-draws-attention-at-thulabaram-launch",
-      "title": "Ravi Teja's Daughter Draws Attention At Thulabaram Launch",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ravi-teja-daughter.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "ravi-teja-s-new-project-thulabharam-officially-launched",
-      "title": "Ravi Teja’s New Project Thulabharam Officially Launched",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/thulabharam-title-oct1126.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "a-creative-approach-ravi-teja-s-thulabharam-title-documentary",
-      "title": "A Creative Approach: Ravi Teja’s Thulabharam Title Documentary",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-10.31.28.jpeg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "intriguing-title-documentary-unveiled-for-thulabharam",
-      "title": "Intriguing Title Documentary Unveiled for Thulabharam",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thulabaram-2.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "malayalam-hit-thriller-faces-delay-in-telugu-ott-release",
-      "title": "Malayalam Hit Thriller Faces Delay in Telugu OTT Release",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Pradhama-Drishtya-Kuttakkar.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-12T00:57:51.117Z",
-      "lastAttemptedAt": "2026-10-12T00:57:51.117Z",
+      "updatedAt": "2026-10-12T06:18:20.307Z",
+      "lastAttemptedAt": "2026-10-12T06:18:20.307Z",
       "items": [
         {
           "title": "Irumudi",
@@ -384,7 +384,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-09T12:53:19.437Z",
-      "lastAttemptedAt": "2026-10-12T00:58:06.321Z",
+      "lastAttemptedAt": "2026-10-12T06:18:37.403Z",
       "items": [
         {
           "title": "Param Sundari",
@@ -409,8 +409,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-12T00:58:06.632Z",
-      "lastAttemptedAt": "2026-10-12T00:58:06.632Z",
+      "updatedAt": "2026-10-12T06:20:12.089Z",
+      "lastAttemptedAt": "2026-10-12T06:20:12.089Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -477,14 +477,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T00:58:06.892Z",
+      "lastAttemptedAt": "2026-10-12T06:20:12.377Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-12T00:58:17.925Z",
+      "lastAttemptedAt": "2026-10-12T06:20:25.826Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -564,21 +564,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T00:58:19.665Z",
+      "lastAttemptedAt": "2026-10-12T06:20:27.908Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T00:58:20.739Z",
+      "lastAttemptedAt": "2026-10-12T06:20:29.555Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T00:58:22.722Z",
+      "lastAttemptedAt": "2026-10-12T06:20:31.397Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }

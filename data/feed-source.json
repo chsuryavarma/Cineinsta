@@ -1,7 +1,117 @@
 {
-  "updatedAt": "2026-10-12T00:14:56.916Z",
+  "updatedAt": "2026-10-12T06:17:41.421Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/mythri-movie-makers-announces-new-age-rom-com-srikanths-daughter-medha-meka-debuts-hk.html",
+      "title": "Mythri Movie Makers Announces New-Age Rom-Com; Srikanth’s Daughter Medha Meka Debuts",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Mythri Movie Makers Announces New-Age...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/mythri-movie-makers-announces-new-age-rom-com-srikanths-daughter-medha-meka-debuts-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Medha-Mek-1.jpg",
+      "publishedAt": "2026-10-12T05:52:10.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436022/after-uppena-its-mythriinlove",
+      "title": "After Uppena, It’s #MythriInLove",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436022/after-uppena-its-mythriinlove",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-10.30.25.jpeg",
+      "publishedAt": "2026-10-12T05:34:56.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/four-films-lined-up-for-nithiin/",
+      "title": "Four Films Lined Up for Nithiin",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/four-films-lined-up-for-nithiin/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2024/05/Nithiin.jpg",
+      "publishedAt": "2026-10-12T05:26:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436040/watch-baththa-director-on-its-magical-writing",
+      "title": "Watch: Baththa Director On Its Magical Writing",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436040/watch-baththa-director-on-its-magical-writing",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/baththa-director.jpg",
+      "publishedAt": "2026-10-12T04:44:58.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/trade-buzz-jailer-2-hindi-version-skips-national-multiplexes-for-early-ott-release-hk.html",
+      "title": "Trade Buzz: Jailer 2 Hindi Version Skips National Multiplexes for Early OTT Release",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Trade Buzz: Jailer 2 Hindi Version Skips...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/trade-buzz-jailer-2-hindi-version-skips-national-multiplexes-for-early-ott-release-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jailer-2-3.webp",
+      "publishedAt": "2026-10-12T04:25:51.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/jailer-2-shock-for-vijay-sethupathi-and-santhanam/",
+      "title": "Jailer 2: Shock for Vijay Sethupathi and Santhanam",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Editor's...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/jailer-2-shock-for-vijay-sethupathi-and-santhanam/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2024/06/Vijay-sethupathi.jpg",
+      "publishedAt": "2026-10-12T03:45:24.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436035/rajamouli-not-satisfied-with-indian-epics-on-screen-till-now",
+      "title": "Rajamouli Not Satisfied With Indian Epics On Screen Till Now",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436035/rajamouli-not-satisfied-with-indian-epics-on-screen-till-now",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Rajamouli-varanasi-epic.jpg",
+      "publishedAt": "2026-10-12T03:39:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/buzz-ramayana-second-trailer-set-for-dussehra-release-hk.html",
+      "title": "Buzz: Ramayana Second Trailer Set for Dussehra Release",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Buzz: Ramayana Second Trailer Set for...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/buzz-ramayana-second-trailer-set-for-dussehra-release-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/ramayana-3.webp",
+      "publishedAt": "2026-10-12T02:27:49.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/caste-teaser-honest-realistic-and-impactful/",
+      "title": "Caste Teaser: Honest, Realistic and Impactful",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/caste-teaser-honest-realistic-and-impactful/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/782939bc-a0cb-414b-a5f5-94049766c84f.jpeg",
+      "publishedAt": "2026-10-12T01:10:02.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://indiaglitz.com/ramayana-ranbir-kapoor-sai-pallavi-and-yash-unite-in-new-poster-release-date-confirmed",
+      "title": "Ramayana: Ranbir Kapoor, Sai Pallavi and Yash Unite in New Poster; Release Date Confirmed",
+      "summary": "| IndiaGlitz Home Bollywood Tamil Telugu Malayalam Kannada हिन्दी தமிழ் తెలుగు മലയാളം ಕನ್ನಡ Download App Menu Home Movie News Headlines Actress Reviews Previews Trailers Home Movie News Headlines Actress Reviews...",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/ramayana-ranbir-kapoor-sai-pallavi-and-yash-unite-in-new-poster-release-date-confirmed",
+      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/10/ramayana-new-poster.jpg",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/ranabaali-vijay-deverakondas-biggest-challenge-was-playing-a-villager-avd.html",
       "title": "Ranabaali: Vijay Deverakonda’s biggest challenge was playing a villager",
@@ -36,17 +146,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130540/ramayana-release-date-officially-announced.html",
-      "title": "Ramayana Release Date Officially Announced",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Mythological Epic Arrives on November 5 Ramayana Release Date Officially Announced By Rambabu Updated at: 2026-10-11 03:28:01 PM...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130540/ramayana-release-date-officially-announced.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ramayana-release-date-officially-announced-1791732478152-1791732480234.jpg",
-      "publishedAt": "2026-10-11T15:28:01.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.cinejosh.com/news/3/130537/movie-lovers-cheated-with-dubbed-films-ticket-hikes.html",
       "title": "Movie lovers cheated with dubbed films ticket hikes",
       "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Gossips &gt;&gt; Ticket hikes for dubbed films: Movie lovers cheated Movie lovers cheated with dubbed films ticket hikes By Rambabu Updated at:...",
@@ -76,17 +175,6 @@
       "url": "https://www.telugu360.com/crazy-kalyanam-trailer-promises-marriage-madness-family-vibes/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Crazy-Kalyanam.jpg",
       "publishedAt": "2026-10-11T14:01:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130536/allu-arjun-going-allout-for-lokesh-kanagaraj-project.html",
-      "title": "Allu Arjun going allout for Lokesh Kanagaraj project",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Allu Arjun leaving no stone for AK23 Allu Arjun going allout for Lokesh Kanagaraj project By Rambabu Updated at: 2026-10-11...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130536/allu-arjun-going-allout-for-lokesh-kanagaraj-project.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/allu-arjun-going-allout-for-lokesh-kanagaraj-project-1791725482470-1791725484538.jpg",
-      "publishedAt": "2026-10-11T13:31:27.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -142,28 +230,6 @@
       "url": "https://www.123telugu.com/mnews/sukumar-ram-charan-film-anirudh-in-talks-for-music-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/rc17.webp",
       "publishedAt": "2026-10-11T11:36:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130533/vijay-deverakonda-thoughts-on-ticket-rates-hike.html",
-      "title": "Vijay Deverakonda thoughts on ticket rates hike",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; VD powerful take on ticket rates hike Vijay Deverakonda thoughts on ticket rates hike By Rambabu Updated at: 2026-10-11 11:25:53...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130533/vijay-deverakonda-thoughts-on-ticket-rates-hike.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-thoughts-on-ticket-rates-hike-1791717950724-1791717952704.jpg",
-      "publishedAt": "2026-10-11T11:25:53.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130532/chiranjeevi-calls-amitabh-bachchan-guruji-in-heartfelt-birthday-wishes.html",
-      "title": "Chiranjeevi Calls Amitabh Bachchan Guruji in Heartfelt Birthday Wishes",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Mega Star Conveyed Birthday Wishes To His Guruji Chiranjeevi Calls Amitabh Bachchan Guruji in Heartfelt Birthday Wishes By Rambabu...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130532/chiranjeevi-calls-amitabh-bachchan-guruji-in-heartfelt-birthday-wishes.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-calls-amitabh-bachchan-guruji-in-heartfelt-birthday-wishes-1791715559244-1791715560891.jpg",
-      "publishedAt": "2026-10-11T10:46:01.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -265,85 +331,9 @@
       "publishedAt": "2026-10-11T06:20:01.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/ravi-tejas-thulabharam-unveiled-film-launched",
-      "title": "Ravi Teja’s Thulabharam unveiled, film launched",
-      "summary": "--> --> Ravi Teja’s Thulabharam unveiled, film launched - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News Movie Reviews...",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/ravi-tejas-thulabharam-unveiled-film-launched",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/thulabharam-title-oct1126.jpg",
-      "publishedAt": "2026-10-11T05:44:37.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/435962/ravi-tejas-thulabharam-title-documentary-unique-idea",
-      "title": "Ravi Teja’s Thulabharam Title Documentary: Unique Idea",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/435962/ravi-tejas-thulabharam-title-documentary-unique-idea",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-10.31.28.jpeg",
-      "publishedAt": "2026-10-11T05:24:05.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/thulabaram-title-documentary-highly-creative-and-intriguing/",
-      "title": "Thulabaram Title Documentary: Highly creative and Intriguing",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/thulabaram-title-documentary-highly-creative-and-intriguing/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Thulabaram-2.jpg",
-      "publishedAt": "2026-10-11T05:21:08.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ott-two-days-in-still-no-telugu-version-for-this-hit-malayalam-thriller-hk.html",
-      "title": "OTT: Two Days In, Still No Telugu Version for This Hit Malayalam Thriller",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు OTT: Two Days In, Still No Telugu Version...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ott-two-days-in-still-no-telugu-version-for-this-hit-malayalam-thriller-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Pradhama-Drishtya-Kuttakkar.webp",
-      "publishedAt": "2026-10-11T02:31:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/overseas-setback-ranabaali-dubbed-versions-delayed-telugu-release-on-track-hk.html",
-      "title": "Overseas Setback: Ranabaali Dubbed Versions Delayed; Telugu Release on Track",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Overseas Setback: Ranabaali Dubbed Versions...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/overseas-setback-ranabaali-dubbed-versions-delayed-telugu-release-on-track-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-1-1.webp",
-      "publishedAt": "2026-10-11T01:29:58.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/comrade-kalyan-sree-vishnus-film-grows-on-day-2-eyes-solid-weekend-prp.html",
-      "title": "Comrade Kalyan: Sree Vishnu's film grows on day 2, eyes solid weekend",
-      "summary": "Comrade Kalyan: Sree Vishnu’s film grows on day 2, eyes solid weekend Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/comrade-kalyan-sree-vishnus-film-grows-on-day-2-eyes-solid-weekend-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-Review.webp",
-      "publishedAt": "2026-10-10T20:30:07.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
-    {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
-      "youtubeId": "",
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "language": "Telugu"
-    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tum-mere-ho-official-trailer/videoshow/134829707.cms",
       "title": "Tum Mere Ho - Official Trailer",
@@ -452,6 +442,16 @@
       "img": "https://static.toiimg.com/thumb/msid-134582448,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-30T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
+      "title": "Clayface - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
+      "img": "https://static.toiimg.com/thumb/msid-134464346,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
