@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T18:16:23.501Z",
+  "updatedAt": "2026-10-12T18:54:06.311Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "id": "aha",
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-12T18:14:11.705Z",
-      "lastAttemptedAt": "2026-10-12T18:14:11.705Z",
+      "updatedAt": "2026-10-12T18:53:28.253Z",
+      "lastAttemptedAt": "2026-10-12T18:53:28.253Z",
       "items": [
         {
           "title": "Irumudi",
@@ -382,35 +382,22 @@
       ]
     },
     "prime-video": {
-      "status": "stale",
-      "updatedAt": "2026-10-09T12:53:19.437Z",
-      "lastAttemptedAt": "2026-10-12T18:14:30.656Z",
+      "status": "ok",
+      "updatedAt": "2026-10-12T18:53:47.387Z",
+      "lastAttemptedAt": "2026-10-12T18:53:47.387Z",
       "items": [
         {
-          "title": "Param Sundari",
-          "url": "https://www.primevideo.com/detail/0PYOHW8F94U6Z8IOA12OUWUY0Q?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OB7591f8_brws_3_1",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/a2b2277586ec751ebf69fbe7d9c4580b7a1ca688adfe7c76d025b4603d4e2464.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Srinivasa Mangapuram",
-          "url": "https://www.primevideo.com/detail/0OSP4ZJPUFA4UTOXAQR641UJ37?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OB7591f8_brws_3_3",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/ebcb9de7d580c8be8ea32397c8bf289489951fc58c94122b347b2990cc7a6b96.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Naari Naari Naduma Murari",
-          "url": "https://www.primevideo.com/detail/0PFHWA4V6C63PRNBDLNO1N3YDZ?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OB7591f8_brws_3_8",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/a34943d35e4b0a822fcea8980a7c99a478dcbe82b5e630a88e7aca6b53d1146b.jpg",
+          "title": "Below",
+          "url": "https://www.primevideo.com/detail/0RY4FZDTJFRDIGD8Z4MFBLZDLI?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_13",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/01fe83fb7306c4d1091264ed561ec4ba83819906d1e627f749e7795fa40d4b54.jpg",
           "languages": "Telugu"
         }
-      ],
-      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
+      ]
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-12T18:16:03.198Z",
-      "lastAttemptedAt": "2026-10-12T18:16:03.198Z",
+      "updatedAt": "2026-10-12T18:53:47.693Z",
+      "lastAttemptedAt": "2026-10-12T18:53:47.693Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -477,14 +464,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T18:16:03.633Z",
+      "lastAttemptedAt": "2026-10-12T18:53:48.152Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-12T18:16:17.323Z",
+      "lastAttemptedAt": "2026-10-12T18:54:01.068Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -564,21 +551,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T18:16:19.278Z",
+      "lastAttemptedAt": "2026-10-12T18:54:03.041Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T18:16:20.719Z",
+      "lastAttemptedAt": "2026-10-12T18:54:04.437Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T18:16:23.498Z",
+      "lastAttemptedAt": "2026-10-12T18:54:06.309Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
