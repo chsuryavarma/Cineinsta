@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-11T18:12:25.920Z",
+  "updatedAt": "2026-10-12T00:14:56.916Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/ranabaali-vijay-deverakondas-biggest-challenge-was-playing-a-villager-avd.html",
+      "title": "Ranabaali: Vijay Deverakonda’s biggest challenge was playing a villager",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Ranabaali: Vijay Deverakonda’s biggest...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/ranabaali-vijay-deverakondas-biggest-challenge-was-playing-a-villager-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Ranabaali-2.webp",
+      "publishedAt": "2026-10-11T18:30:02.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.cinejosh.com/news/1/130545/prabhas-fans-get-a-double-treat.html",
       "title": "Prabhas Fans Get a Double Treat",
@@ -289,17 +300,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.telugu360.com/ranabaali-will-bring-forgotten-stories-of-historical-warriors-vijay-d/",
-      "title": "Ranabaali Will Bring Forgotten Stories of Historical Warriors: Vijay D",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/ranabaali-will-bring-forgotten-stories-of-historical-warriors-vijay-d/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Vijay-Deverakonda-4-1.jpg",
-      "publishedAt": "2026-10-11T04:55:53.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/ott-two-days-in-still-no-telugu-version-for-this-hit-malayalam-thriller-hk.html",
       "title": "OTT: Two Days In, Still No Telugu Version for This Hit Malayalam Thriller",
       "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు OTT: Two Days In, Still No Telugu Version...",
@@ -334,6 +334,16 @@
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tum-mere-ho-official-trailer/videoshow/134829707.cms",
       "title": "Tum Mere Ho - Official Trailer",
@@ -442,16 +452,6 @@
       "img": "https://static.toiimg.com/thumb/msid-134582448,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
-      "title": "Clayface - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134464346,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
@@ -2124,6 +2124,50 @@
             "rating": 2.5,
             "ratingText": "2.5/5",
             "url": "https://www.123telugu.com/telugu/news/baa-baa-black-sheep-movie-review-in-telugu.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "సమీక్ష : ‘అనకాపల్లి’ - కొన్నిచోట్ల ఆకట్టుకునే ఎమోషనల్ లవ్ క్రైమ్ డ్రామా !",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/telugu/wp-content/uploads/2026/10/Anakapalli.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/telugu/news/anakapalli-movie-review-and-rating-in-telugu.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/telugu/news/anakapalli-movie-review-and-rating-in-telugu.html"
           }
         ]
       }
