@@ -1,15 +1,37 @@
 {
-  "updatedAt": "2026-10-12T18:13:26.355Z",
+  "updatedAt": "2026-10-13T00:16:29.926Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://www.123telugu.com/mnews/rashmika-mandanna-has-a-substantial-role-in-ranabaali-avd.html",
-      "title": "Rashmika Mandanna has a substantial role in Ranabaali",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Rashmika Mandanna has a substantial role in...",
+      "id": "https://www.123telugu.com/mnews/nithiin-to-collaborate-with-this-hit-director-prp.html",
+      "title": "Nithiin to collaborate with this hit director?",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Nithiin to collaborate with this hit...",
       "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/rashmika-mandanna-has-a-substantial-role-in-ranabaali-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Ranabaali-2.webp",
-      "publishedAt": "2026-10-12T16:30:04.000Z",
+      "url": "https://www.123telugu.com/mnews/nithiin-to-collaborate-with-this-hit-director-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/08/Nithiin.webp",
+      "publishedAt": "2026-10-12T20:30:42.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/ranabaali-usa-content-update-first-half-sent-second-half-awaited-prp.html",
+      "title": "Ranabaali USA content update: First half sent, second half awaited",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Ranabaali USA content update: First half...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/ranabaali-usa-content-update-first-half-sent-second-half-awaited-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ranabaali.webp",
+      "publishedAt": "2026-10-12T19:30:42.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/photo-moment-vijay-deverakonda-rashmika-meet-tn-cm-vijay-prp.html",
+      "title": "Photo Moment: Vijay Deverakonda & Rashmika meet TN CM Vijay",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Photo Moment: Vijay Deverakonda & Rashmika...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/photo-moment-vijay-deverakonda-rashmika-meet-tn-cm-vijay-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/vijay.webp",
+      "publishedAt": "2026-10-12T16:07:07.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -309,31 +331,29 @@
       "publishedAt": "2026-10-12T05:35:10.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/four-films-lined-up-for-nithiin/",
-      "title": "Four Films Lined Up for Nithiin",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/four-films-lined-up-for-nithiin/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2024/05/Nithiin.jpg",
-      "publishedAt": "2026-10-12T05:26:35.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/trade-buzz-jailer-2-hindi-version-skips-national-multiplexes-for-early-ott-release-hk.html",
-      "title": "Trade Buzz: Jailer 2 Hindi Version Skips National Multiplexes for Early OTT Release",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Trade Buzz: Jailer 2 Hindi Version Skips...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/trade-buzz-jailer-2-hindi-version-skips-national-multiplexes-for-early-ott-release-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Jailer-2-3.webp",
-      "publishedAt": "2026-10-12T04:25:51.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://indiaglitz.com/jo-jo-caution-1-teaser-diamond-hunt-rural-romance-and-unfiltered-comedy-take-centre-stage",
+      "title": "Jo Jo Caution 1 Teaser: Diamond Hunt, Rural Romance and Unfiltered Comedy Take Centre Stage",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/jo-jo-caution-1-teaser-diamond-hunt-rural-romance-and-unfiltered-comedy-take-centre-stage",
+      "img": "https://i.ytimg.com/vi/SSoFCpFvZtE/hqdefault.jpg",
+      "youtubeId": "SSoFCpFvZtE",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tum-mere-ho-official-trailer/videoshow/134829707.cms",
       "title": "Tum Mere Ho - Official Trailer",
@@ -385,16 +405,6 @@
       "language": "Telugu"
     },
     {
-      "id": "https://telugu.indiaglitz.com/movie-news/bhogi-teaser-sharwanands-mass-avatar-is-stunning",
-      "title": "భోగి టీజర్: శర్వానంద్ ఊరమాస్ అవతార్ అదిరింది..",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://telugu.indiaglitz.com/movie-news/bhogi-teaser-sharwanands-mass-avatar-is-stunning",
-      "img": "https://i.ytimg.com/vi/qjp5KL_Zg4A/hqdefault.jpg",
-      "youtubeId": "qjp5KL_Zg4A",
-      "publishedAt": "2026-10-05T04:08:48.000Z",
-      "language": "Telugu"
-    },
-    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/jailer-2-official-trailer/videoshow/134706074.cms",
       "title": "Jailer 2 - Official Trailer",
       "source": "ETimes Telugu",
@@ -442,16 +452,6 @@
       "img": "https://static.toiimg.com/thumb/msid-134582448,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
-      "title": "Clayface - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/clayface-official-trailer/videoshow/134464346.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134464346,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-24T00:00:00.000Z",
       "language": "Telugu"
     }
   ],

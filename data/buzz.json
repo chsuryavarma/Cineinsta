@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T18:54:06.311Z",
+  "updatedAt": "2026-10-13T00:18:00.249Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "id": "aha",
@@ -68,9 +68,9 @@
       }
     },
     {
-      "id": "rashmika-mandanna-secured-a-major-part-in-ranabaali",
-      "title": "Rashmika Mandanna Secured a Major Part in Ranabaali",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Ranabaali-2.webp",
+      "id": "actor-nithiin-rumored-for-new-collaboration-with-hit-director",
+      "title": "Actor Nithiin Rumored For New Collaboration with Hit Director",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/08/Nithiin.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -81,8 +81,34 @@
       }
     },
     {
-      "id": "vijay-deverakonda-and-rashmika-mandanna-meet-tamil-nadu-political-figures-in-chennai",
-      "title": "Vijay Deverakonda and Rashmika Mandanna Meet Tamil Nadu Political Figures in Chennai",
+      "id": "ranabaali-overseas-update-first-half-ready-second-half-pending",
+      "title": "Ranabaali Overseas Update: First Half Ready, Second Half Pending",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ranabaali.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "a-special-encounter-vijay-deverakonda-and-rashmika-mandanna-meet-tn-chief-minister",
+      "title": "A Special Encounter: Vijay Deverakonda and Rashmika Mandanna Meet TN Chief Minister",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/vijay.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-deverakonda-and-rashmika-mandanna-meet-tamil-nadu-cm-in-chennai",
+      "title": "Vijay Deverakonda and Rashmika Mandanna Meet Tamil Nadu CM in Chennai",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/vijay-vijaydeverakondarashmika-oct1226.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -94,8 +120,8 @@
       }
     },
     {
-      "id": "vijay-devarakonda-connects-with-vijay-thalapathy",
-      "title": "Vijay Devarakonda Connects with Vijay Thalapathy",
+      "id": "a-special-meeting-vijay-deverakonda-connects-with-thalapathy-vijay",
+      "title": "A Special Meeting: Vijay Deverakonda Connects With Thalapathy Vijay",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vijay-vijay-rashmika-3-1.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,8 +133,8 @@
       }
     },
     {
-      "id": "vignesh-shivan-addresses-rumors-regarding-nayanthara-s-political-entry",
-      "title": "Vignesh Shivan Addresses Rumors Regarding Nayanthara's Political Entry",
+      "id": "vignesh-shivan-addresses-rumors-surrounding-nayanthara-s-political-entry",
+      "title": "Vignesh Shivan Addresses Rumors Surrounding Nayanthara's Political Entry",
       "img": "https://telugucinema.com/wp-content/uploads/2026/07/nayanthara-july2926.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -120,8 +146,8 @@
       }
     },
     {
-      "id": "where-is-the-buzz-for-nagarjuna-s-milestone-100th-film-king-100",
-      "title": "Where Is the Buzz for Nagarjuna's Milestone 100th Film, King 100?",
+      "id": "examining-the-silence-around-nagarjuna-s-milestone-king-100",
+      "title": "Examining the Silence Around Nagarjuna's Milestone King 100",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/nagarjunaakkineni-sep2626.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -133,8 +159,8 @@
       }
     },
     {
-      "id": "mythri-movie-makers-reportedly-eyeing-major-new-film-studio-project",
-      "title": "Mythri Movie Makers Reportedly Eyeing Major New Film Studio Project",
+      "id": "mythri-movie-makers-rumored-to-construct-a-major-film-studio",
+      "title": "Mythri Movie Makers Rumored to Construct a Major Film Studio",
       "img": "https://cdn.gulte.com/wp-content/uploads/2025/08/Mythri.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,8 +172,8 @@
       }
     },
     {
-      "id": "speculation-arises-over-yash-and-a-potential-project-involving-dhanush",
-      "title": "Speculation Arises Over Yash and a Potential Project Involving Dhanush",
+      "id": "unpacking-the-rumours-surrounding-yash-and-dhanush-s-potential-project",
+      "title": "Unpacking the Rumours Surrounding Yash and Dhanush's Potential Project",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/07/yash.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -159,8 +185,8 @@
       }
     },
     {
-      "id": "jo-jo-teaser-combines-wealth-pursuit-with-unfiltered-rural-humour",
-      "title": "‘Jo Jo’ Teaser Combines Wealth Pursuit With Unfiltered Rural Humour",
+      "id": "the-jo-jo-teaser-offers-a-blend-of-rural-humour-and-fortune-hunting",
+      "title": "The 'Jo Jo' Teaser Offers a Blend of Rural Humour and Fortune-Hunting",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/jo-jo-teaser.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,8 +198,8 @@
       }
     },
     {
-      "id": "rc17-producer-shares-important-update-on-ram-charan-and-sukumar-project",
-      "title": "RC17: Producer Shares Important Update on Ram Charan and Sukumar Project",
+      "id": "producer-shares-major-update-on-ram-charan-and-sukumar-s-rc17",
+      "title": "Producer Shares Major Update on Ram Charan and Sukumar's RC17",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/11/rc17.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -185,8 +211,8 @@
       }
     },
     {
-      "id": "bellamkonda-sreenivas-starrer-haindava-teaser-update-released",
-      "title": "Bellamkonda Sreenivas Starrer Haindava Teaser Update Released",
+      "id": "makers-announce-teaser-update-for-bellamkonda-sreenivas-s-haindava",
+      "title": "Makers Announce Teaser Update for Bellamkonda Sreenivas's 'Haindava'",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/hai.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -198,8 +224,8 @@
       }
     },
     {
-      "id": "jo-jo-teaser-highlights-romance-mixed-with-fortune-hunting-chaos",
-      "title": "'Jo Jo' Teaser Highlights Romance Mixed with Fortune Hunting Chaos",
+      "id": "jo-jo-teaser-unveiled-romance-blends-with-the-chase-for-wealth",
+      "title": "‘Jo Jo’ Teaser Unveiled: Romance Blends with the Chase for Wealth",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/jojo-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -211,8 +237,8 @@
       }
     },
     {
-      "id": "dhurandhar-beauty-confirmed-for-ram-charan-project",
-      "title": "Dhurandhar Beauty Confirmed for Ram Charan Project",
+      "id": "actor-ram-charan-locks-in-dhurandhar-talent-for-next-project",
+      "title": "Actor Ram Charan Locks In 'Dhurandhar' Talent for Next Project",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Dhurandhar-Beauty-Locked-for-Ram-Charan.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -224,8 +250,21 @@
       }
     },
     {
-      "id": "lokesh-kanagaraj-and-allu-arjun-s-recent-photograph-silences-speculation",
-      "title": "Lokesh Kanagaraj and Allu Arjun's Recent Photograph Silences Speculation",
+      "id": "rumours-swirl-over-mythri-movie-makers-entering-film-studio-business",
+      "title": "Rumours Swirl Over Mythri Movie Makers Entering Film Studio Business",
+      "img": "https://www.telugu360.com/wp-content/uploads/2025/08/Mythri-Movie-Makers.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "lokesh-kanagaraj-and-allu-arjun-put-rumours-to-rest-with-viral-photograph",
+      "title": "Lokesh Kanagaraj and Allu Arjun Put Rumours to Rest with Viral Photograph",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/lokesh-kanagaraj-allu-arjun-snap-shuts-down-rumours-1791807004582-1791807005532.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -237,8 +276,8 @@
       }
     },
     {
-      "id": "examining-the-significance-of-ranabaali-for-vijay",
-      "title": "Examining the Significance of 'Ranabaali' for Vijay",
+      "id": "is-ranabaali-the-definitive-test-for-vijay",
+      "title": "Is Ranabaali the Definitive Test for Vijay?",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ranabaali-a-make-or-break-moment-for-vijay-1791806072673-1791806073320.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -250,8 +289,8 @@
       }
     },
     {
-      "id": "suhas-gears-up-for-rooted-romantic-comedy-hide-silk",
-      "title": "Suhas Gears Up for Rooted Romantic Comedy 'Hide & Silk'",
+      "id": "suhas-set-to-star-in-rooted-romantic-comedy-hide-silk",
+      "title": "Suhas Set to Star in Rooted Romantic Comedy 'Hide & Silk'",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/111.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -263,8 +302,8 @@
       }
     },
     {
-      "id": "prabhas-fans-disappointed-no-fauzi-teaser-for-birthday",
-      "title": "Prabhas Fans Disappointed: No Fauzi Teaser for Birthday",
+      "id": "no-fauzi-teaser-planned-for-prabhas-birthday",
+      "title": "No 'Fauzi' Teaser Planned for Prabhas' Birthday",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/FAuzi.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -276,8 +315,8 @@
       }
     },
     {
-      "id": "project-confirmed-allu-arjun-and-lokesh-kanagaraj-s-aa23-is-still-happening",
-      "title": "Project Confirmed: Allu Arjun and Lokesh Kanagaraj's AA23 is Still Happening",
+      "id": "team-confirms-allu-arjun-and-lokesh-kanagaraj-s-aa23-is-happening",
+      "title": "Team Confirms Allu Arjun and Lokesh Kanagaraj's 'AA23' is Happening",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/alluarjun-lokeshkanagaraj-oct1226.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -289,8 +328,8 @@
       }
     },
     {
-      "id": "lokesh-kanagaraj-clarifies-status-of-allu-arjun-project-amid-shelving-rumors",
-      "title": "Lokesh Kanagaraj Clarifies Status of Allu Arjun Project Amid Shelving Rumors",
+      "id": "lokesh-kanagaraj-addresses-speculation-surrounding-proposed-allu-arjun-project",
+      "title": "Lokesh Kanagaraj Addresses Speculation Surrounding Proposed Allu Arjun Project",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/AA-23-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -302,8 +341,8 @@
       }
     },
     {
-      "id": "director-lokesh-kanagaraj-puts-aa23-rumors-to-rest-with-a-telling-image",
-      "title": "Director Lokesh Kanagaraj Puts AA23 Rumors to Rest With a Telling Image",
+      "id": "director-lokesh-kanagaraj-shares-telling-image-regarding-aa23-project",
+      "title": "Director Lokesh Kanagaraj Shares Telling Image Regarding AA23 Project",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/lokesh-allu-arjun-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -315,48 +354,9 @@
       }
     },
     {
-      "id": "varun-tej-prepares-to-line-up-a-brand-new-film-project",
-      "title": "Varun Tej Prepares to Line Up a Brand New Film Project",
+      "id": "actor-varun-tej-prepares-for-a-potential-new-cinematic-venture",
+      "title": "Actor Varun Tej Prepares for a Potential New Cinematic Venture",
       "img": "https://www.telugu360.com/wp-content/uploads/2024/11/Varun-tej.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "kannada-film-premada-oorali-crosses-50-crore-milestone-in-karnataka",
-      "title": "Kannada Film Premada Oorali Crosses 50 Crore Milestone in Karnataka",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/premada-oorali-enters-karnataka-50-crore-box-office-club-1791794759496-1791794759969.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "balayya-reportedly-gives-up-house-gifted-by-ntr-for-development",
-      "title": "Balayya Reportedly Gives Up House Gifted by NTR for Development",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/12/balayya-movies-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "drishyam-3-highlights-textbook-box-office-planning",
-      "title": "Drishyam 3 Highlights Textbook Box Office Planning",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/drishyam-3-hindi.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-12T18:53:28.253Z",
-      "lastAttemptedAt": "2026-10-12T18:53:28.253Z",
+      "updatedAt": "2026-10-13T00:17:15.642Z",
+      "lastAttemptedAt": "2026-10-13T00:17:15.642Z",
       "items": [
         {
           "title": "Irumudi",
@@ -382,9 +382,9 @@
       ]
     },
     "prime-video": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-10-12T18:53:47.387Z",
-      "lastAttemptedAt": "2026-10-12T18:53:47.387Z",
+      "lastAttemptedAt": "2026-10-13T00:17:34.036Z",
       "items": [
         {
           "title": "Below",
@@ -392,12 +392,13 @@
           "img": "https://m.media-amazon.com/images/S/pv-target-images/01fe83fb7306c4d1091264ed561ec4ba83819906d1e627f749e7795fa40d4b54.jpg",
           "languages": "Telugu"
         }
-      ]
+      ],
+      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-12T18:53:47.693Z",
-      "lastAttemptedAt": "2026-10-12T18:53:47.693Z",
+      "updatedAt": "2026-10-13T00:17:42.432Z",
+      "lastAttemptedAt": "2026-10-13T00:17:42.432Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -464,14 +465,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T18:53:48.152Z",
+      "lastAttemptedAt": "2026-10-13T00:17:42.901Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-12T18:54:01.068Z",
+      "lastAttemptedAt": "2026-10-13T00:17:55.429Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -551,21 +552,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T18:54:03.041Z",
+      "lastAttemptedAt": "2026-10-13T00:17:57.354Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T18:54:04.437Z",
+      "lastAttemptedAt": "2026-10-13T00:17:58.638Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-12T18:54:06.309Z",
+      "lastAttemptedAt": "2026-10-13T00:18:00.246Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
