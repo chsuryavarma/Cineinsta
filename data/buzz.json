@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T13:00:37.358Z",
+  "updatedAt": "2026-10-13T18:21:32.694Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -15,7 +15,7 @@
     {
       "id": "netflix",
       "name": "Netflix",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "id": "prime-video",
@@ -369,9 +369,9 @@
   ],
   "ottTrending": {
     "netflix": {
-      "status": "stale",
-      "updatedAt": "2026-10-13T06:58:55.805Z",
-      "lastAttemptedAt": "2026-10-13T12:58:28.369Z",
+      "status": "ok",
+      "updatedAt": "2026-10-13T18:20:10.018Z",
+      "lastAttemptedAt": "2026-10-13T18:20:10.018Z",
       "items": [
         {
           "title": "Irumudi",
@@ -379,13 +379,12 @@
           "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
           "languages": "Telugu"
         }
-      ],
-      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
+      ]
     },
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-12T18:53:47.387Z",
-      "lastAttemptedAt": "2026-10-13T12:58:43.957Z",
+      "lastAttemptedAt": "2026-10-13T18:20:29.374Z",
       "items": [
         {
           "title": "Below",
@@ -398,8 +397,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-13T13:00:16.620Z",
-      "lastAttemptedAt": "2026-10-13T13:00:16.620Z",
+      "updatedAt": "2026-10-13T18:20:48.958Z",
+      "lastAttemptedAt": "2026-10-13T18:20:48.958Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +465,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-13T13:00:16.757Z",
+      "lastAttemptedAt": "2026-10-13T18:20:49.170Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-13T13:00:32.644Z",
+      "lastAttemptedAt": "2026-10-13T18:21:02.572Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -553,21 +552,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-13T13:00:34.338Z",
+      "lastAttemptedAt": "2026-10-13T18:21:04.704Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-13T13:00:35.687Z",
+      "lastAttemptedAt": "2026-10-13T18:21:06.078Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-13T13:00:37.355Z",
+      "lastAttemptedAt": "2026-10-13T18:21:32.692Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
