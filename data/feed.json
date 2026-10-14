@@ -1,36 +1,259 @@
 {
-  "updatedAt": "2026-10-14T00:21:47.206Z",
+  "updatedAt": "2026-10-14T06:26:40.470Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://www.123telugu.com/mnews/vijay-devarakonda-ranabaali-will-make-telugu-film-industry-proud-prp.html",
-      "title": "Vijay Deverakonda Expresses Confidence That Ranabaali Will Bring Pride to Tollywood",
-      "summary": "Actor Vijay Deverakonda has shared high expectations for the upcoming film Ranabaali, stating that the project will make the Telugu film industry proud. His enthusiastic comments have generated notable buzz among movie enthusiasts and fans following the production updates.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/vijay-devarakonda-ranabaali-will-make-telugu-film-industry-proud-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Vijay-Devarakonda.webp",
-      "publishedAt": "2026-10-13T20:30:03.000Z",
+      "id": "https://www.cinejosh.com/news/1/130599/rukmini-vasanth-likely-to-star-opposite-nani-prem-kumar-film.html",
+      "title": "Rukmini Vasanth in Talks for Fresh Pairing with Nani in Prem Kumar Project",
+      "summary": "Actor Rukmini Vasanth is heavily favored to star opposite Nani in an upcoming film directed by Prem Kumar. This potential collaboration promises an exciting new screen pairing for moviegoers looking forward to Nani's next venture.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130599/rukmini-vasanth-likely-to-star-opposite-nani-prem-kumar-film.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rukmini-vasanth-likely-to-star-opposite-nani-prem-kumar-film-1791954681528-1791954681925.jpg",
+      "publishedAt": "2026-10-14T05:11:30.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Tollywood actor Vijay Deverakonda has spoken out about an upcoming cinematic project titled Ranabaali. According to the actor, the movie is poised to bring a distinct sense of pride to the Telugu film industry upon its eventual release.",
-        "While specific details regarding the plot, director, and supporting cast remain under wraps, Deverakonda's endorsement has elevated curiosity surrounding the film. Such high-profile backing from leading stars often plays a crucial role in building pre-release anticipation across regional and national entertainment circuits.",
-        "As production and promotional milestones for Ranabaali unfold, fans and industry observers will be keeping a close eye on further official announcements regarding the venture."
+        "Casting discussions are currently underway for actor Nani's upcoming cinematic venture, which is set to be directed by filmmaker Prem Kumar. Reports indicate that actor Rukmini Vasanth is the leading choice to take on the female lead opposite Nani in the project.",
+        "The potential pairing brings together two prominent names in the industry, sparking considerable interest among fans and followers of regional cinema. While official confirmations are awaited, the prospect of this fresh combination has already generated notable buzz regarding the production.",
+        "As developments continue, audiences await further announcements from the makers regarding the official cast and production timeline for the Prem Kumar directorial."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda has shared high expectations for the upcoming film Ranabaali, stating that the project will make the Telugu film industry proud. His enthusiastic comments have generated notable buzz among movie enthusiasts and fans following the production updates.",
+      "dek": "Actor Rukmini Vasanth is heavily favored to star opposite Nani in an upcoming film directed by Prem Kumar. This potential collaboration promises an exciting new screen pairing for moviegoers looking forward to Nani's next venture.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130599/rukmini-vasanth-likely-to-star-opposite-nani-prem-kumar-film.html"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436360/will-hrithik-roshans-cameo-boost-jailer-2-in-hindi",
+      "title": "Discussion Surrounds Potential Hrithik Roshan Cameo in Jailer 2 Hindi Version",
+      "summary": "Speculation has arisen regarding a potential cameo appearance by Bollywood star Hrithik Roshan in the upcoming sequel Jailer 2. Industry watchers are discussing whether this rumored appearance could bolster the film's reach and impact in the Hindi-speaking market.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436360/will-hrithik-roshans-cameo-boost-jailer-2-in-hindi",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/06/jailer-2-hrithik-.jpg",
+      "publishedAt": "2026-10-14T05:04:51.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Industry circles are actively discussing the anticipated sequel Jailer 2 following reports concerning a potential cameo appearance by Bollywood actor Hrithik Roshan. Observers are evaluating how such a cross-industry collaboration might influence the film's reception and commercial performance in the Hindi belt.",
+        "While specific details regarding the cameo remain under discussion, the conceptual pairing of major regional and national stars continues to be a frequent strategy for expanding a movie's geographic footprint across different linguistic markets.",
+        "Further updates from the production team are expected to clarify the nature of the cameo and its ultimate integration into the upcoming project."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Speculation has arisen regarding a potential cameo appearance by Bollywood star Hrithik Roshan in the upcoming sequel Jailer 2. Industry watchers are discussing whether this rumored appearance could bolster the film's reach and impact in the Hindi-speaking market.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/436360/will-hrithik-roshans-cameo-boost-jailer-2-in-hindi"
+    },
+    {
+      "id": "https://www.telugu360.com/toxic-ott-deal-the-big-confusion-continues/",
+      "title": "Uncertainty Surrounds Digital Rights and OTT Deal for Toxic",
+      "summary": "Confusion persists regarding the digital streaming rights and final OTT agreement for the upcoming movie Toxic. Industry followers await official updates as the ongoing ambiguity surrounding the project's online platform partner continues.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/toxic-ott-deal-the-big-confusion-continues/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/08/Toxic-3.jpg",
+      "publishedAt": "2026-10-14T04:54:03.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The digital distribution landscape for the upcoming feature Toxic is currently facing notable confusion regarding its official over-the-top (OTT) streaming rights. Industry followers have noted that definitive agreements and finalized platforms have yet to be clearly established.",
+        "As streaming rights form a critical component of modern film financing and distribution strategies, the ongoing ambiguity has kept trade analysts and fans guessing about where the project will ultimately land for its digital premiere.",
+        "Stakeholders continue to monitor the situation closely for any formal announcements from the production houses regarding the finalized streaming partnership."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Confusion persists regarding the digital streaming rights and final OTT agreement for the upcoming movie Toxic. Industry followers await official updates as the ongoing ambiguity surrounding the project's online platform partner continues.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/toxic-ott-deal-the-big-confusion-continues/"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/jailer-2-mithun-chakraborty-laid-a-crazy-condition-before-signing-the-rajini-film-avd.html",
+      "title": "Mithun Chakraborty Reportedly Places Specific Condition for Jailer 2 Role",
+      "summary": "Veteran actor Mithun Chakraborty has reportedly established a specific condition before committing to star in the Rajinikanth-starrer Jailer 2. This development adds a layer of intrigue to the casting process of the much-anticipated sequel.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/jailer-2-mithun-chakraborty-laid-a-crazy-condition-before-signing-the-rajini-film-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Mithun-Chakraborty.webp",
+      "publishedAt": "2026-10-14T04:30:47.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Casting for the upcoming sequel Jailer 2 has encountered a notable development involving veteran actor Mithun Chakraborty. Reports suggest that the seasoned performer laid down a distinct condition prior to formally signing on for the Rajinikanth project.",
+        "While specifics of the condition remain unconfirmed in detail, the involvement of a prominent actor of Chakraborty's stature alongside Rajinikanth has heightened anticipation for the sequel's ensemble cast.",
+        "Makers are expected to officially address the casting roster and production updates as the film moves forward in its schedule."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Veteran actor Mithun Chakraborty has reportedly established a specific condition before committing to star in the Rajinikanth-starrer Jailer 2. This development adds a layer of intrigue to the casting process of the much-anticipated sequel.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "123telugu"
       ],
-      "originalUrl": "https://www.123telugu.com/mnews/vijay-devarakonda-ranabaali-will-make-telugu-film-industry-proud-prp.html"
+      "originalUrl": "https://www.123telugu.com/mnews/jailer-2-mithun-chakraborty-laid-a-crazy-condition-before-signing-the-rajini-film-avd.html"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130598/prabhas-to-join-hands-with-people-media-factory-again.html",
+      "title": "Prabhas Set to Collaborate with People Media Factory Once More",
+      "summary": "Popular actor Prabhas is reportedly preparing to join forces with People Media Factory for an upcoming project. This collaboration highlights the actor's continued alignment with prominent production banners in the industry.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130598/prabhas-to-join-hands-with-people-media-factory-again.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-to-join-hands-with-people-media-factory-again-1791951541572-1791951541781.jpg",
+      "publishedAt": "2026-10-14T04:19:06.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Major cinematic developments indicate that actor Prabhas is teaming up with People Media Factory for a fresh collaboration. The upcoming project brings together a major star and a prominent production house, signaling significant activity in the actor's lineup.",
+        "While specific plot details, directorial choices, and comprehensive casting announcements remain under wraps, the partnership has already garnered attention from film enthusiasts. Such collaborations are closely monitored as they shape the landscape of major commercial cinema.",
+        "As production preparations unfold, audiences and industry trackers eagerly anticipate official announcements regarding the timeline and formal launch of this venture."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Popular actor Prabhas is reportedly preparing to join forces with People Media Factory for an upcoming project. This collaboration highlights the actor's continued alignment with prominent production banners in the industry.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130598/prabhas-to-join-hands-with-people-media-factory-again.html"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/130597/shah-rukh-khan-s-king-teaser-reportedly-set-for-november-2-release.html",
+      "title": "Shah Rukh Khan Starrer King Teaser Anticipated for November 2 Launch",
+      "summary": "Industry buzz suggests that the promotional teaser for Shah Rukh Khan's upcoming film King could land on November 2. Fans and followers are keeping a close watch as anticipation builds for official promotional materials.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/130597/shah-rukh-khan-s-king-teaser-reportedly-set-for-november-2-release.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/shah-rukh-khan-s-king-teaser-reportedly-set-for-november-2-release-1791951416703-1791951417062.jpg",
+      "publishedAt": "2026-10-14T04:17:01.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Excitement is building around Shah Rukh Khan's highly discussed project, King, with reports pointing toward a potential teaser release on November 2. Promotional campaigns for major star-led vehicles are critical milestones that set the tone for audience engagement.",
+        "Though formal confirmation from the makers is awaited, the rumored date has already amplified conversations across social media platforms and fan communities. Teaser rollouts for major Hindi cinema releases routinely capture widespread attention.",
+        "Further updates from the production team are expected to clarify the release schedule and provide the first official look at the project."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Industry buzz suggests that the promotional teaser for Shah Rukh Khan's upcoming film King could land on November 2. Fans and followers are keeping a close watch as anticipation builds for official promotional materials.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/3/130597/shah-rukh-khan-s-king-teaser-reportedly-set-for-november-2-release.html"
+    },
+    {
+      "id": "https://www.telugu360.com/bloody-romeo-can-nani-control-the-budget/",
+      "title": "Financial Management in Focus for Nani's Bloody Romeo",
+      "summary": "Conversations around Nani's project Bloody Romeo have turned toward financial management and production expenses. Managing budgets effectively remains a central topic of discussion in contemporary Telugu cinema production circles.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/bloody-romeo-can-nani-control-the-budget/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2025/05/Hero-Nani-1.jpg",
+      "publishedAt": "2026-10-14T03:47:15.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Discussions surrounding Nani's film Bloody Romeo have brought questions of budgetary control and financial oversight into the spotlight. In modern filmmaking, balancing scale with fiscal discipline is a key priority for production teams.",
+        "As the project progresses through its developmental phases, industry observers continue to monitor how financial logistics are managed to ensure optimal commercial viability.",
+        "Further developments will likely shed more light on the production scale and operational approach adopted for Bloody Romeo."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Conversations around Nani's project Bloody Romeo have turned toward financial management and production expenses. Managing budgets effectively remains a central topic of discussion in contemporary Telugu cinema production circles.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/bloody-romeo-can-nani-control-the-budget/"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/youll-see-vijays-peak-performance-in-ranabaali-says-director-hk.html",
+      "title": "Director Promises Peak Performance from Vijay in Ranabaali",
+      "summary": "The director of Ranabaali has raised expectations by stating that audiences will witness Vijay deliver his career-best performance in the film. Such strong creative endorsements highlight the intensity and depth of the upcoming project.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/youll-see-vijays-peak-performance-in-ranabaali-says-director-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-2-1.webp",
+      "publishedAt": "2026-10-14T03:30:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Expectations for Ranabaali have received a notable boost following comments from the film's director regarding the lead star's performance. According to the filmmaker, the project will showcase Vijay at his absolute best, delivering peak artistic output.",
+        "Cast and crew insights of this nature often build considerable anticipation among filmgoers, emphasizing the dramatic weight and emotional scope embedded within the narrative.",
+        "As production continues toward its goals, these remarks serve to heighten interest in how the central performance will shape the overall cinematic experience."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The director of Ranabaali has raised expectations by stating that audiences will witness Vijay deliver his career-best performance in the film. Such strong creative endorsements highlight the intensity and depth of the upcoming project.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/youll-see-vijays-peak-performance-in-ranabaali-says-director-hk.html"
+    },
+    {
+      "id": "https://www.telugu360.com/ranabaali-will-make-telugu-cinema-industry-proud-vijay-deverakonda/",
+      "title": "Vijay Deverakonda Expresses Confidence in Ranabaali",
+      "summary": "Actor Vijay Deverakonda has shared high expectations for the upcoming project Ranabaali. He believes the movie will bring pride to the entire Telugu film industry.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/ranabaali-will-make-telugu-cinema-industry-proud-vijay-deverakonda/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/vijay-deverakonda.jpg",
+      "publishedAt": "2026-10-14T02:52:12.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Vijay Deverakonda has spoken out about the upcoming film project titled Ranabaali. According to his remarks, the movie holds the potential to bring significant pride to the Telugu cinema industry.",
+        "As anticipation builds around the project, Deverakonda's endorsement highlights the ambition and scale behind Ranabaali. Industry observers and fans are keeping a close watch as more details emerge regarding this high-profile undertaking in Tollywood."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Vijay Deverakonda has shared high expectations for the upcoming project Ranabaali. He believes the movie will bring pride to the entire Telugu film industry.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/ranabaali-will-make-telugu-cinema-industry-proud-vijay-deverakonda/"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130593/here-is-alias-rukmini-heroine.html",
+      "title": "Heroine Revealed for Nithiin's Alias Rukmini",
+      "summary": "The female lead for the upcoming film Alias Rukmini, starring Nithiin, has been officially revealed. Fans and movie enthusiasts now have clarity on the casting for this project.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130593/here-is-alias-rukmini-heroine.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/here-is-alias-rukmini-heroine-1791939109933-1791939110297.jpg",
+      "publishedAt": "2026-10-14T00:51:54.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The makers of the upcoming film Alias Rukmini have officially disclosed the female lead for the project. Actor Nithiin plays a prominent role in the movie, which has been generating steady interest among film enthusiasts.",
+        "With the heroine now revealed, production and promotional updates for Alias Rukmini are expected to pick up pace. Fans of Nithiin are eager to see further developments as the movie moves forward in its production timeline."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The female lead for the upcoming film Alias Rukmini, starring Nithiin, has been officially revealed. Fans and movie enthusiasts now have clarity on the casting for this project.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130593/here-is-alias-rukmini-heroine.html"
     },
     {
       "id": "https://www.123telugu.com/mnews/prabhas-signs-another-film-with-people-media-factory-prp.html",
       "title": "Prabhas Boards Another Project with People Media Factory",
-      "summary": "Leading Telugu star Prabhas has officially signed a brand new film with the production banner People Media Factory. This collaboration marks another major development in the actor's bustling career as he continues to line up high-profile cinematic ventures.",
+      "summary": "Pan-Indian star Prabhas has signed a new film collaboration with People Media Factory. This latest partnership adds another major project to the actor's busy lineup.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/prabhas-signs-another-film-with-people-media-factory-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/10/Prabhas.webp",
@@ -38,13 +261,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Pan-Indian star Prabhas has expanded his upcoming slate of movies by signing a new project with the production house People Media Factory. The collaboration marks an exciting partnership between the prominent actor and the established banner.",
-        "Although details concerning the director, genre, and shooting schedules have not yet been disclosed, the announcement alone has sent waves of excitement through the actor's massive fan base. People Media Factory has been associated with several notable cinematic productions, making this team-up a significant industry development.",
-        "Further updates from the makers regarding the official launch, cast additions, and production timelines are anticipated in the coming days."
+        "Renowned actor Prabhas has signed on for yet another film project, teaming up with People Media Factory. The collaboration marks a significant new addition to the actor's crowded production slate.",
+        "Given Prabhas's massive following and box-office pull, any new film signing generates tremendous excitement within the Indian film fraternity. Fans and trade analysts will be closely monitoring further announcements regarding the cast, crew, and shooting schedules for this venture."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Leading Telugu star Prabhas has officially signed a brand new film with the production banner People Media Factory. This collaboration marks another major development in the actor's bustling career as he continues to line up high-profile cinematic ventures.",
+      "dek": "Pan-Indian star Prabhas has signed a new film collaboration with People Media Factory. This latest partnership adds another major project to the actor's busy lineup.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -53,9 +275,33 @@
       "originalUrl": "https://www.123telugu.com/mnews/prabhas-signs-another-film-with-people-media-factory-prp.html"
     },
     {
+      "id": "https://www.123telugu.com/mnews/buchi-babu-sana-vijay-deverakonda-has-pawan-kalyan-level-stardom-prp.html",
+      "title": "Director Buchi Babu Sana Compares Vijay Deverakonda's Stardom to Pawan Kalyan",
+      "summary": "Filmmaker Buchi Babu Sana has drawn significant attention by comparing Vijay Deverakonda's fandom to that of Pawan Kalyan. The remarks highlight the massive popularity and dedicated following surrounding the actor in the Telugu film industry.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/buchi-babu-sana-vijay-deverakonda-has-pawan-kalyan-level-stardom-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/vijay-2.webp",
+      "publishedAt": "2026-10-13T17:30:32.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Filmmaker Buchi Babu Sana has shared high praise regarding actor Vijay Deverakonda, comparing his fan following and market standing directly to that of prominent star Pawan Kalyan. The observation sheds light on the immense star power commanded by Deverakonda within Telugu cinema.",
+        "Such high-profile comparisons from notable industry directors often amplify anticipation around an actor's evolving career and market reach. As conversations around major star followings continue to captivate film enthusiasts, this latest perspective from Buchi Babu Sana adds a fresh angle to the ongoing discussions about modern stardom in the industry."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Filmmaker Buchi Babu Sana has drawn significant attention by comparing Vijay Deverakonda's fandom to that of Pawan Kalyan. The remarks highlight the massive popularity and dedicated following surrounding the actor in the Telugu film industry.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/buchi-babu-sana-vijay-deverakonda-has-pawan-kalyan-level-stardom-prp.html"
+    },
+    {
       "id": "https://telugucinema.com/news/vishwaksen-starrer-ene-repeat-release-date-unchanged-say-makers",
-      "title": "Makers Confirm Release Schedule for Vishwaksen's ENE Repeat Remains Unchanged",
-      "summary": "The production team behind Vishwaksen's ENE Repeat has officially clarified that the film's release date remains entirely unchanged. This confirmation comes as welcome news to fans eagerly anticipating the theatrical arrival of the much-discussed project.",
+      "title": "Makers Confirm No Change in Release Date for Vishwaksen Starrer ENE Repeat",
+      "summary": "The creators of the upcoming film ENE Repeat, starring Vishwaksen, have officially clarified that the scheduled release date remains completely unchanged. Fans eagerly awaiting the project can look forward to its arrival as originally planned.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/vishwaksen-starrer-ene-repeat-release-date-unchanged-say-makers",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/enerepeat-oct1326.jpg",
@@ -63,13 +309,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Makers of the upcoming film ENE Repeat, starring actor Vishwaksen, have put recent speculations to rest by confirming that the release date remains unchanged. The team assured followers that the project is locked in for its scheduled arrival.",
-        "Vishwaksen continues to maintain a busy schedule with distinct cinematic choices, and ENE Repeat stands out as one of his notable upcoming ventures. Clear communication regarding release plans helps maintain steady momentum among theatergoers and trade analysts alike.",
-        "Fans can now look forward to the scheduled premiere without any alterations to the timeline, with promotional activities expected to follow the planned track."
+        "The makers of the upcoming film ENE Repeat have officially addressed schedule speculations by confirming that the project's release date remains unchanged. Featuring Vishwaksen in the lead role, the film has maintained a steady momentum leading up to its planned theatrical arrival.",
+        "This official clarification comes as a relief to eager followers and moviegoers who have been tracking updates for the project. With the timeline locked in place, the team continues to keep the release trajectory steady without any alterations."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The production team behind Vishwaksen's ENE Repeat has officially clarified that the film's release date remains entirely unchanged. This confirmation comes as welcome news to fans eagerly anticipating the theatrical arrival of the much-discussed project.",
+      "dek": "The creators of the upcoming film ENE Repeat, starring Vishwaksen, have officially clarified that the scheduled release date remains completely unchanged. Fans eagerly awaiting the project can look forward to its arrival as originally planned.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -79,8 +324,8 @@
     },
     {
       "id": "https://telugucinema.com/news/alias-rukmini-aafia-sayed-introduced-as-nithiins-heroine",
-      "title": "Aafia Sayed Boarded as Leading Lady in Nithiin's Alias Rukmini",
-      "summary": "Actress Aafia Sayed has been officially introduced as the female lead opposite Nithiin in the upcoming movie Alias Rukmini. The announcement highlights a fresh pairing in Tollywood, adding further excitement to the film's ongoing production.",
+      "title": "Aafia Sayed Unveiled as Nithiin's Leading Lady in Alias Rukmini",
+      "summary": "Aafia Sayed has been officially introduced as the leading actress opposite Nithiin in the upcoming movie Alias Rukmini. This exciting casting update offers movie enthusiasts their first major look at the film's primary pairing.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/alias-rukmini-aafia-sayed-introduced-as-nithiins-heroine",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/aafiasayed-rukminialias-oct1326.jpg",
@@ -88,13 +333,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The makers of the upcoming film Alias Rukmini have formally introduced Aafia Sayed as the leading lady alongside actor Nithiin. This casting announcement brings a fresh face to the Telugu cinema screen, pairing her with one of the industry's familiar leading men.",
-        "While details surrounding the storyline and production crew are still emerging, revealing the female lead is a key step in building the project's profile. Nithiin's involvement combined with the introduction of Aafia Sayed has added notable intrigue for movie lovers.",
-        "Additional details regarding the shooting phases and overall promotional rollout for Alias Rukmini are expected to be shared by the production team in due course."
+        "The makers of the upcoming movie Alias Rukmini have officially introduced Aafia Sayed as the leading lady starring opposite Nithiin. This casting announcement brings fresh energy to the project, revealing the primary romantic pairing for the venture.",
+        "As production updates continue to emerge, the introduction of a new leading lady generates fresh interest among film lovers. Fans of Nithiin can anticipate seeing this dynamic new pairing brought to the screen as the project progresses through its scheduled milestones."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actress Aafia Sayed has been officially introduced as the female lead opposite Nithiin in the upcoming movie Alias Rukmini. The announcement highlights a fresh pairing in Tollywood, adding further excitement to the film's ongoing production.",
+      "dek": "Aafia Sayed has been officially introduced as the leading actress opposite Nithiin in the upcoming movie Alias Rukmini. This exciting casting update offers movie enthusiasts their first major look at the film's primary pairing.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -104,8 +348,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/mammoth-box-office-blockbuster-but-makers-yet-to-sell-the-ott-rights-prp.html",
-      "title": "Blockbuster Film's OTT Rights Still Unsold",
-      "summary": "Despite turning into a massive box-office success, the makers of a recent hit film are yet to finalize or sell its digital streaming rights.",
+      "title": "Blockbuster Hit Film Still Awaiting OTT Deal Finalization, Makers Confirm",
+      "summary": "Despite turning into a massive box-office blockbuster, the creators of a recent hit film have not yet finalized or sold their digital streaming rights. The unprecedented delay in securing an OTT platform agreement has surprised industry observers.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/mammoth-box-office-blockbuster-but-makers-yet-to-sell-the-ott-rights-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/premada-oorali.webp",
@@ -113,13 +357,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "A major box-office blockbuster is currently making headlines for reasons outside its theatrical run. Even though the movie has performed immensely well commercially, its makers have not yet sold its digital streaming rights.",
-        "The delay in locking down an OTT platform has left cinephiles and industry followers waiting for updates. While the film has triumphed at the box office, negotiations or decisions regarding its post-theatrical digital home remain under wraps.",
-        "As the theatrical momentum continues, the pending digital deal stands out as an unusual scenario for a major hit. Further announcements regarding the digital premiere are expected from the production team in due course."
+        "A recent box-office blockbuster continues to create industry buzz not just for its theatrical success, but because its makers have yet to sell the digital streaming rights. Even after achieving massive financial success in theaters, the film remains uncommitted to any specific platform.",
+        "This unusual delay stands out in an era where digital streaming deals are frequently locked in well ahead of theatrical runs. Industry watchers are keeping a close eye on how and when the makers decide to finalize the digital premiere for the blockbuster hit."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Despite turning into a massive box-office success, the makers of a recent hit film are yet to finalize or sell its digital streaming rights.",
+      "dek": "Despite turning into a massive box-office blockbuster, the creators of a recent hit film have not yet finalized or sold their digital streaming rights. The unprecedented delay in securing an OTT platform agreement has surprised industry observers.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -129,8 +372,8 @@
     },
     {
       "id": "https://www.telugu360.com/when-will-aadarsha-kutumbam-release/",
-      "title": "Anticipation Builds Around Aadarsha Kutumbam Release Date",
-      "summary": "Audiences and film enthusiasts are eagerly awaiting official word on when the upcoming movie Aadarsha Kutumbam will hit the silver screen.",
+      "title": "Aadarsha Kutumbam Release Date Discussions Surface",
+      "summary": "Audiences are looking forward to updates regarding the arrival of Aadarsha Kutumbam. Fans await official announcements regarding the theatrical launch schedule for the project.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/when-will-aadarsha-kutumbam-release/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Aadarsha-Kutumbam.jpg",
@@ -138,13 +381,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Excitement is steadily building within film circles regarding the release plans for Aadarsha Kutumbam. As moviegoers look forward to fresh cinematic offerings, questions surrounding the exact theatrical arrival date remain prominent.",
-        "Currently, fans and followers of the project are keeping a close eye on the makers for official announcements. The ongoing discussions highlight the eagerness surrounding the film's schedule.",
-        "Further updates from the production camp are anticipated to clear the air regarding the premiere timeline. Until then, the release window for Aadarsha Kutumbam continues to be a subject of discussion."
+        "Film enthusiasts and followers of Telugu cinema are currently anticipating official updates concerning the release of Aadarsha Kutumbam. As discussions surrounding the movie begin to circulate, details regarding its arrival in theaters remain a point of interest for moviegoers.",
+        "At this stage, specific premiere dates or scheduling details have not been widely finalized or announced. Cinephiles are keeping a close eye on further announcements from the team behind the project to learn when they can expect to watch it on the big screen."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Audiences and film enthusiasts are eagerly awaiting official word on when the upcoming movie Aadarsha Kutumbam will hit the silver screen.",
+      "dek": "Audiences are looking forward to updates regarding the arrival of Aadarsha Kutumbam. Fans await official announcements regarding the theatrical launch schedule for the project.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -154,8 +396,8 @@
     },
     {
       "id": "https://www.telugu360.com/big-boost-needed-for-dasara-releases/",
-      "title": "Dasara Holiday Releases Seek Major Momentum",
-      "summary": "Upcoming films slated for the festive Dasara holiday season are currently looking for a significant boost to drive audience interest and box-office success.",
+      "title": "Dasara Festival Releases Require Major Momentum",
+      "summary": "Upcoming Dasara festival films are looking for a significant push at the box office. Industry observers note that strong momentum is vital for the success of these holiday season releases.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/big-boost-needed-for-dasara-releases/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ranabaali-and-jailer2.jpg",
@@ -163,13 +405,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The festive Dasara season is traditionally a critical window for the film industry, and this year's lineup is no exception. However, upcoming releases are currently in need of a solid push to elevate anticipation and strengthen their market position.",
-        "With multiple films aiming to capture holiday crowds, securing the right promotional momentum is vital. Industry observers note that strong updates or promotional materials will be essential to attract moviegoers to the theaters during the festive stretch.",
-        "As the festive season approaches, all eyes are on how producers and marketing teams will energize their campaigns. A strong push in the coming days could greatly influence the theatrical fortunes of these holiday contenders."
+        "The upcoming Dasara festive period is drawing attention across the film industry, with upcoming cinematic releases preparing for their debuts. Observers note that a substantial boost will be necessary to ensure these projects achieve strong momentum during the competitive holiday frame.",
+        "As makers line up their projects for the auspicious festival window, the focus remains on building adequate excitement and audience turnout. Further updates from the trade circles will reveal how these titles position themselves heading into the holiday season."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Upcoming films slated for the festive Dasara holiday season are currently looking for a significant boost to drive audience interest and box-office success.",
+      "dek": "Upcoming Dasara festival films are looking for a significant push at the box office. Industry observers note that strong momentum is vital for the success of these holiday season releases.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -179,8 +420,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/436309/ene-repeat-poster-the-cult-gang-is-back",
-      "title": "Cult Gang Returns in New ENE Repeat Poster",
-      "summary": "The popular cult gang is officially back in the spotlight with the release of a fresh promotional poster for ENE Repeat.",
+      "title": "ENE Repeat Poster Unveils the Return of the Cult Gang",
+      "summary": "A brand new promotional poster for ENE has been unveiled, signaling the return of the popular cult gang. Fans are celebrating the fresh look as excitement builds up for the project.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/436309/ene-repeat-poster-the-cult-gang-is-back",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/IMG-20261013-WA0069.jpg",
@@ -188,13 +429,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Fans of popular cult cinema have something to celebrate as a new poster for ENE Repeat makes its way to the public. The latest promotional material highlights the return of the beloved gang, generating fresh buzz online.",
-        "The newly unveiled poster emphasizes the signature style and camaraderie associated with the project. Such promotional drops help keep audience engagement high as supporters anticipate further developments.",
-        "With the cult gang back in action, followers are closely tracking updates related to the film. The fresh visual material serves as a nostalgic and exciting reminder of the property's ongoing popularity."
+        "The promotional campaign for ENE has kicked into gear with the unveiling of a fresh repeat poster. The latest visual asset highlights the return of the beloved cult gang, delighting fans and followers of the property.",
+        "This new promotional material serves to heighten visibility and keep discussions active among movie enthusiasts. As anticipation continues to build, audiences await further promotional content and updates regarding the venture."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The popular cult gang is officially back in the spotlight with the release of a fresh promotional poster for ENE Repeat.",
+      "dek": "A brand new promotional poster for ENE has been unveiled, signaling the return of the popular cult gang. Fans are celebrating the fresh look as excitement builds up for the project.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -204,8 +444,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130591/chiranjeevi-saved-comrade-kalyan.html",
-      "title": "Megastar Chiranjeevi's Intervention Saved Comrade Kalyan",
-      "summary": "Megastar Chiranjeevi has reportedly stepped in to save Comrade Kalyan, according to recent updates from the film industry. The development has sparked significant interest among fans and followers of the stars.",
+      "title": "Chiranjeevi's Involvement Highlighted in Comrade Kalyan Connection",
+      "summary": "Recent reports highlight a notable instance involving Megastar Chiranjeevi and Comrade Kalyan. The update has generated discussion among film fans tracking Tollywood news.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130591/chiranjeevi-saved-comrade-kalyan.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-saved-comrade-kalyan-1791901921913-1791901922217.jpg",
@@ -213,13 +453,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In a notable recent development within the film circles, Megastar Chiranjeevi has played a crucial role in saving Comrade Kalyan. Details regarding the exact circumstances of the event continue to generate widespread curiosity among cinema enthusiasts.",
-        "Such interactions and support systems among prominent figures highlight the strong bonds shared within the industry. As more details unfold, fans of both personalities are closely following the updates surrounding this intriguing situation.",
-        "The latest reports underline the influence and timely intervention of Chiranjeevi in supporting Comrade Kalyan, marking a talking point for movie followers across the region."
+        "Recent updates emerging from the regional film circle have brought attention to an interaction or connection involving Megastar Chiranjeevi and Comrade Kalyan. The topic has sparked considerable interest among fans and followers tracking industry news.",
+        "While details continue to circulate across various platforms, followers of both figures are analyzing the significance of the development within the cinematic landscape."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Megastar Chiranjeevi has reportedly stepped in to save Comrade Kalyan, according to recent updates from the film industry. The development has sparked significant interest among fans and followers of the stars.",
+      "dek": "Recent reports highlight a notable instance involving Megastar Chiranjeevi and Comrade Kalyan. The update has generated discussion among film fans tracking Tollywood news.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -229,8 +468,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130590/vijay-deverakonda-ranabaali-fans-meet-draws-huge-crowd-in-hyderabad.html",
-      "title": "Massive Turnout for Vijay Deverakonda's Ranabaali Fan Meet in Hyderabad",
-      "summary": "Actor Vijay Deverakonda's recent fan meet event for Ranabaali in Hyderabad attracted a massive gathering of supporters. The tremendous turnout highlights the strong fan following and anticipation surrounding the project.",
+      "title": "Vijay Deverakonda's Ranabaali Fan Meet Sees Massive Turnout in Hyderabad",
+      "summary": "Actor Vijay Deverakonda recently witnessed an overwhelming response from admirers in Hyderabad as organizers hosted a major fan gathering for Ranabaali, drawing a massive crowd to the event.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130590/vijay-deverakonda-ranabaali-fans-meet-draws-huge-crowd-in-hyderabad.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-ranabaali-fans-meet-draws-huge-crowd-in-hyderabad-1791898722027-1791898722258.jpg",
@@ -238,13 +477,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Vijay Deverakonda recently witnessed an overwhelming response from his supporters in Hyderabad. Organizers hosted a grand fan meet event for Ranabaali, which drew a huge crowd of enthusiastic admirers to the venue.",
-        "The massive gathering underlines the strong popularity of the actor and the high level of anticipation building around Ranabaali. Such events demonstrate the deep connection between stars and their audiences in the regional film landscape.",
-        "The successful turnout serves as a significant milestone for the promotional activities of Ranabaali, keeping excitement high among moviegoers and supporters alike."
+        "Actor Vijay Deverakonda continues to command massive attention from moviegoers, drawing a huge gathering of admirers during a recent promotional gathering in Hyderabad. Organizers arranged the special fan meet centered around the project Ranabaali, creating significant excitement among attendees.",
+        "The massive assembly of supporters highlights the strong anticipation surrounding Vijay Deverakonda and his cinematic endeavors. Large-scale gatherings of this nature often emphasize the actor's considerable following and popularity within the regional film community.",
+        "As updates regarding Ranabaali continue to circulate, fan engagements like this Hyderabad meet demonstrate the high level of audience interest. Such events play a key role in building momentum and anticipation ahead of future project developments."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda's recent fan meet event for Ranabaali in Hyderabad attracted a massive gathering of supporters. The tremendous turnout highlights the strong fan following and anticipation surrounding the project.",
+      "dek": "Actor Vijay Deverakonda recently witnessed an overwhelming response from admirers in Hyderabad as organizers hosted a major fan gathering for Ranabaali, drawing a massive crowd to the event.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -254,8 +493,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/alias-rukmini-heroine-revealed-bollywood-actress-aafiya-sayed-plays-nithiins-wife-prp.html",
-      "title": "Bollywood Talent Aafiya Sayed Cast as Nithiin's Wife in Alias Rukmini",
-      "summary": "The leading lady for the upcoming movie Alias Rukmini has been officially revealed. Bollywood actress Aafiya Sayed has been cast to play actor Nithiin's wife in the project.",
+      "title": "Bollywood Performer Aafiya Sayed Cast as Nithiin's Wife in Alias Rukmini",
+      "summary": "The leading lady for the upcoming movie Alias Rukmini has been officially confirmed. Bollywood actress Aafiya Sayed will star opposite Nithiin, stepping in to play his wife.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/alias-rukmini-heroine-revealed-bollywood-actress-aafiya-sayed-plays-nithiins-wife-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/rukmini.webp",
@@ -263,13 +502,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The makers of the upcoming project Alias Rukmini have finally unveiled the identity of the leading lady. Bollywood actress Aafiya Sayed has come onboard to play the wife of actor Nithiin in the movie.",
-        "This casting decision brings a fresh pairing to the silver screen, pairing Nithiin with Aafiya Sayed. The announcement has generated considerable buzz among movie lovers anticipating fresh combinations in upcoming releases.",
-        "As production progresses on Alias Rukmini, further details regarding the film's cast and crew are expected to keep audiences engaged."
+        "Casting details for the upcoming project Alias Rukmini have been finalized, revealing that Bollywood actress Aafiya Sayed has boarded the production. She is set to play the female lead, portraying the wife of actor Nithiin.",
+        "This casting announcement brings fresh energy to the film, pairing Nithiin with Aafiya Sayed for the cinematic venture. Viewers and trade analysts alike are taking note of this fresh on-screen pairing as production progresses.",
+        "Further updates on Alias Rukmini are expected to unveil more details regarding the cast and crew involved in the project. For now, the confirmation of the female lead gives audiences a clearer picture of the film's main character dynamics."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The leading lady for the upcoming movie Alias Rukmini has been officially revealed. Bollywood actress Aafiya Sayed has been cast to play actor Nithiin's wife in the project.",
+      "dek": "The leading lady for the upcoming movie Alias Rukmini has been officially confirmed. Bollywood actress Aafiya Sayed will star opposite Nithiin, stepping in to play his wife.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -279,8 +518,8 @@
     },
     {
       "id": "https://www.telugu360.com/prabhas-and-pmf-to-work-again/",
-      "title": "Prabhas and PMF Set to Collaborate Once Again",
-      "summary": "Pan-India star Prabhas is gearing up to team up with PMF for another exciting project. The upcoming collaboration has generated immense excitement among movie enthusiasts and followers.",
+      "title": "Prabhas Set to Collaborate with PMF Once Again",
+      "summary": "Leading Tollywood star Prabhas is officially gearing up for a brand new collaboration with PMF, bringing excitement to movie enthusiasts following previous updates on his busy production slate.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/prabhas-and-pmf-to-work-again/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Prabhas.jpg",
@@ -288,13 +527,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular actor Prabhas is set to join forces with PMF for a brand new cinematic venture. The upcoming collaboration marks another significant project for the star following previous associations.",
-        "Given the massive popularity of Prabhas and the anticipation surrounding his future lineups, this renewal of partnership with PMF has become a major talking point in entertainment circles.",
-        "Further announcements regarding the project's official launch, cast, and crew details are eagerly awaited by fans and industry observers alike."
+        "Popular actor Prabhas is preparing for a fresh cinematic collaboration. Reports indicate that the star is set to team up with PMF for another upcoming venture.",
+        "This new partnership marks a notable development in the actor's ongoing lineup of high-profile projects. Fans of the star have responded with immense enthusiasm to news of the upcoming association.",
+        "As details regarding the collaboration unfold, anticipation continues to grow across film circles. Further announcements are awaited to outline the complete scope of this new venture between Prabhas and PMF."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Pan-India star Prabhas is gearing up to team up with PMF for another exciting project. The upcoming collaboration has generated immense excitement among movie enthusiasts and followers.",
+      "dek": "Leading Tollywood star Prabhas is officially gearing up for a brand new collaboration with PMF, bringing excitement to movie enthusiasts following previous updates on his busy production slate.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -304,8 +543,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/130588/prabhas-moves-to-kalki-2-and-spirit.html",
-      "title": "Prabhas Shifts Focus to Kalki 2 and Spirit After Fauzi Nears Completion",
-      "summary": "Tollywood star Prabhas is moving forward to his next big projects, Kalki 2 and Spirit, as his film Fauzi approaches its final completion stages. Fans are eagerly tracking his upcoming schedule.",
+      "title": "Prabhas Shifts Focus to Kalki 2 and Spirit Following Fauzi Progress",
+      "summary": "With his project Fauzi nearing completion, actor Prabhas has officially shifted his attention toward his upcoming major ventures, Kalki 2 and Spirit.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130588/prabhas-moves-to-kalki-2-and-spirit.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-moves-to-kalki-2-and-spirit-1791895720253-1791895720481.jpg",
@@ -313,13 +552,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Prabhas is actively transitioning to his next major cinematic commitments. As production on Fauzi nears completion, the prominent star is shifting his attention toward the much-anticipated ventures Kalki 2 and Spirit.",
-        "The progression from Fauzi to these upcoming films marks an important phase in the actor's busy schedule. While Fauzi wraps up its filming phases, anticipation continues to build for how Prabhas will approach his roles in Kalki 2 and Spirit.",
-        "As developments unfold regarding these high-profile projects, film enthusiasts and industry followers remain attentive to further announcements concerning the actor's ongoing production timeline."
+        "Tollywood star Prabhas is transitioning to the next phases of his busy cinematic schedule. Following the progress made on Fauzi, which is nearing its completion stage, the actor has shifted his focus entirely toward upcoming major ventures.",
+        "Among the prominent titles on his slate are Kalki 2 and Spirit. Both productions hold high expectations among moviegoers and trade circles alike, given the massive scale associated with the star's recent filmography.",
+        "The transition allows the production teams behind Kalki 2 and Spirit to accelerate their schedules. Audiences can look forward to more official updates regarding these high-profile films as production moves forward."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Tollywood star Prabhas is moving forward to his next big projects, Kalki 2 and Spirit, as his film Fauzi approaches its final completion stages. Fans are eagerly tracking his upcoming schedule.",
+      "dek": "With his project Fauzi nearing completion, actor Prabhas has officially shifted his attention toward his upcoming major ventures, Kalki 2 and Spirit.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -328,34 +567,9 @@
       "originalUrl": "https://www.cinejosh.com/news/1/130588/prabhas-moves-to-kalki-2-and-spirit.html"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130587/vijay-deverakonda-ranabaali-gets-censored.html",
-      "title": "Vijay Deverakonda Starrer Ranabaali Completes Censor Formalities",
-      "summary": "Ranabaali, starring Vijay Deverakonda, has officially gone through the censor board process. The update marks a crucial milestone ahead of the film's theatrical journey.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130587/vijay-deverakonda-ranabaali-gets-censored.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-ranabaali-gets-censored-1791895359937-1791895360336.jpg",
-      "publishedAt": "2026-10-13T12:42:48.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The upcoming film Ranabaali, featuring actor Vijay Deverakonda, has officially completed its censor evaluation. This development marks an essential regulatory milestone for the movie as it prepares for its eventual release.",
-        "With the censor formalities concluded, attention now turns toward the promotional rollout and release plans for the Vijay Deverakonda starrer. Audiences and fans have been closely following updates surrounding the project's progress.",
-        "Further details regarding the censor outcome and official release schedules are expected to be shared by the team in the near future."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Ranabaali, starring Vijay Deverakonda, has officially gone through the censor board process. The update marks a crucial milestone ahead of the film's theatrical journey.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130587/vijay-deverakonda-ranabaali-gets-censored.html"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/sai-pallavi-to-appear-on-jayammu-nischayammu-raa-2-ahead-of-ramayana-release-hk.html",
-      "title": "Sai Pallavi Set for Jayammu Nischayammu Raa 2 Appearance Ahead of Ramayana",
-      "summary": "Sai Pallavi is reportedly set to make an appearance on Jayammu Nischayammu Raa 2. This comes ahead of her anticipated role in the upcoming Ramayana project.",
+      "title": "Sai Pallavi Set for Jayammu Nischayammu Raa 2 Appearance Before Ramayana",
+      "summary": "Actor Sai Pallavi is slated to make an appearance on Jayammu Nischayammu Raa 2. This development arrives ahead of her anticipated work in Ramayana, generating buzz among fans.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/sai-pallavi-to-appear-on-jayammu-nischayammu-raa-2-ahead-of-ramayana-release-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/saipallavi.webp",
@@ -363,13 +577,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Sai Pallavi is slated to appear on Jayammu Nischayammu Raa 2. The appearance arrives as she prepares for her broader cinematic lineup, notably including her involvement in the upcoming Ramayana project.",
-        "The development has drawn attention from fans tracking the actor's busy professional calendar. Her upcoming appearances on screen continue to generate significant interest across film circles.",
-        "As both projects progress, audiences await more official updates concerning her promotional activities and screen schedules."
+        "Actor Sai Pallavi is preparing for an upcoming appearance on Jayammu Nischayammu Raa 2. This exciting project update has drawn considerable attention from cinema enthusiasts tracking her career trajectory.",
+        "The announcement comes just ahead of her scheduled appearance in Ramayana. Both projects highlight her busy schedule and continued presence across major cinematic ventures.",
+        "Followers of the actor can anticipate further details as promotions and production updates roll out for these titles. Her involvement in Jayammu Nischayammu Raa 2 adds to the growing anticipation surrounding her upcoming slate."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Sai Pallavi is reportedly set to make an appearance on Jayammu Nischayammu Raa 2. This comes ahead of her anticipated role in the upcoming Ramayana project.",
+      "dek": "Actor Sai Pallavi is slated to make an appearance on Jayammu Nischayammu Raa 2. This development arrives ahead of her anticipated work in Ramayana, generating buzz among fans.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -379,8 +593,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/436289/producers-surprising-reaction-to-the-raja-saabs-result",
-      "title": "Producer Shares Unexpected Reaction to The Raja Saab's Outcome",
-      "summary": "The producer of The Raja Saab has delivered a surprising reaction regarding the film's result. The remarks have sparked fresh discussions among industry trackers and fans.",
+      "title": "Producer Shares Unexpected Response Regarding The Raja Saab Outcome",
+      "summary": "A producer has drawn attention with a surprising reaction concerning the theatrical or commercial result of The Raja Saab. The remarks have sparked discussions among movie enthusiasts and industry trackers.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/436289/producers-surprising-reaction-to-the-raja-saabs-result",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/01/Raja-Saab-Review.jpeg",
@@ -388,13 +602,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Following the outcome of The Raja Saab, the film's producer has shared a surprising reaction regarding the project's result. The comments have drawn immediate attention from movie enthusiasts and industry observers.",
-        "Reactions from producers often offer a candid look behind the scenes of major cinematic releases. This latest development adds a layer of intrigue to the ongoing conversations surrounding the film's performance.",
-        "Further statements and industry analysis are expected to follow as the wider impact of the film's result continues to be discussed."
+        "The film industry is buzzing following a producer's unexpected reaction regarding the outcome of The Raja Saab. Comments and reactions from key team members often shape public discourse around major releases.",
+        "As details regarding the film's performance continue to circulate, this unique perspective offers insight into the behind-the-scenes sentiments of the makers. Observers are closely following how this impacts the movie's ongoing reception.",
+        "Further updates from the makers are expected as discussions surrounding The Raja Saab unfold across various entertainment platforms."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The producer of The Raja Saab has delivered a surprising reaction regarding the film's result. The remarks have sparked fresh discussions among industry trackers and fans.",
+      "dek": "A producer has drawn attention with a surprising reaction concerning the theatrical or commercial result of The Raja Saab. The remarks have sparked discussions among movie enthusiasts and industry trackers.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -403,34 +617,9 @@
       "originalUrl": "https://www.gulte.com/movienews/436289/producers-surprising-reaction-to-the-raja-saabs-result"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130586/are-telugu-films-giving-heroines-meaningful-roles.html",
-      "title": "Character Depth in Question: Are Telugu Films Underwriting Heroines?",
-      "summary": "Industry discussions continue to focus on the portrayal of female characters in Tollywood. Observers are evaluating whether contemporary Telugu cinema is providing heroines with truly meaningful roles.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130586/are-telugu-films-giving-heroines-meaningful-roles.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/are-telugu-films-giving-heroines-meaningful-roles-1791891573743-1791891573902.jpg",
-      "publishedAt": "2026-10-13T11:39:38.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Discussions surrounding the depth and significance of female characters in Tollywood have once again taken center stage. Industry watchers and cinephiles are actively debating whether Telugu films are doing enough to offer heroines substantial and meaningful roles.",
-        "While commercial success often dictates mainstream casting and narrative focus, the conversation highlights a growing desire for nuanced character arcs. Critics and audiences alike continue to examine how female protagonists are written in the industry.",
-        "As the dialogue progresses, the focus remains on whether future scripts will offer more diverse and impactful parts for heroines. This ongoing scrutiny reflects broader shifts in audience expectations regarding character development in regional cinema."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Industry discussions continue to focus on the portrayal of female characters in Tollywood. Observers are evaluating whether contemporary Telugu cinema is providing heroines with truly meaningful roles.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130586/are-telugu-films-giving-heroines-meaningful-roles.html"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/ott-releases-from-oct-12-to-oct-18-what-to-watch-this-week-on-netflix-jiohotstar-and-others-hk.html",
-      "title": "Streaming Lineup: What to Watch on OTT from October 12 to October 18",
-      "summary": "Digital platforms are rolling out a fresh selection of titles for audiences this week. Viewers can check out the latest digital releases available across major streaming services like Netflix and JioHotstar.",
+      "title": "Weekly OTT Lineup: What to Watch on Netflix, JioHotstar and More from Oct 12 to Oct 18",
+      "summary": "A fresh batch of streaming titles is heading to digital platforms like Netflix and JioHotstar this week from October 12 to October 18. Viewers have multiple options to choose from across various genres.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ott-releases-from-oct-12-to-oct-18-what-to-watch-this-week-on-netflix-jiohotstar-and-others-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/OTT-1.webp",
@@ -438,13 +627,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Streaming enthusiasts have a new set of titles to explore as platforms update their libraries for the week. Major digital services, including Netflix and JioHotstar, feature fresh content for viewers looking to catch the latest releases from October 12 to October 18.",
-        "The scheduled lineup offers a variety of viewing choices for audiences turning to home entertainment. This weekly update helps fans track newly available movies and shows across popular digital networks.",
-        "With multiple platforms updating their catalogs, viewers have ample options to choose from during this period. The curated releases cater to diverse entertainment preferences on streaming services."
+        "Streaming enthusiasts have plenty of options to look forward to with the latest OTT release lineup spanning October 12 to October 18. Major platforms including Netflix and JioHotstar are stacking up their digital libraries for the week.",
+        "Audience members seeking home entertainment can explore new additions ranging across different genres and formats. This weekly schedule highlights the continuous growth of digital streaming in the Indian cinema landscape.",
+        "Be sure to check individual streaming applications for exact premiere times and availability throughout the week."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Digital platforms are rolling out a fresh selection of titles for audiences this week. Viewers can check out the latest digital releases available across major streaming services like Netflix and JioHotstar.",
+      "dek": "A fresh batch of streaming titles is heading to digital platforms like Netflix and JioHotstar this week from October 12 to October 18. Viewers have multiple options to choose from across various genres.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -454,8 +643,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/436270/tamannaah-to-lead-dirty-picture-2",
-      "title": "Reports Link Tamannaah to The Dirty Picture Sequel",
-      "summary": "Speculation is growing regarding the lead cast for a potential sequel to The Dirty Picture. Reports suggest that actress Tamannaah is being considered to headline the project.",
+      "title": "Reports Link Tamannaah to Lead Role in Dirty Picture 2",
+      "summary": "Actor Tamannaah is reportedly being considered to headline Dirty Picture 2. Speculation surrounding the lead cast has generated significant interest among movie fans.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/436270/tamannaah-to-lead-dirty-picture-2",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Vidya-Balan-Tamannah.jpg",
@@ -463,13 +652,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent industry buzz has placed actress Tamannaah at the center of discussions regarding a potential sequel to The Dirty Picture. Reports indicate she is being linked to the lead role in the upcoming project.",
-        "As details surrounding the film begin to circulate, fans and movie enthusiasts are keeping a close eye on further casting announcements. The potential project aims to follow up on the themes of the original film.",
-        "Official confirmations regarding the lead cast and production timeline are awaited. The reported casting choice has generated considerable interest across entertainment circles."
+        "Industry circles are discussing reports that actor Tamannaah might take on the lead role in the upcoming project Dirty Picture 2. Such casting speculation often builds substantial excitement among audiences.",
+        "While details remain developing, stepping into a high-profile sequel project would mark an interesting turn in the actor's diverse filmography.",
+        "Fans and film observers await official confirmation regarding the casting decision as pre-production conversations progress."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Speculation is growing regarding the lead cast for a potential sequel to The Dirty Picture. Reports suggest that actress Tamannaah is being considered to headline the project.",
+      "dek": "Actor Tamannaah is reportedly being considered to headline Dirty Picture 2. Speculation surrounding the lead cast has generated significant interest among movie fans.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -479,8 +668,8 @@
     },
     {
       "id": "https://telugucinema.com/news/exlusive-rukmini-vasanth-to-pair-up-with-nani-in-a-love-story",
-      "title": "Is Rukmini Vasanth Set to Star Alongside Nani in a New Love Story?",
-      "summary": "Rumors suggest that actress Rukmini Vasanth may be paired with Nani for an upcoming romantic film. Industry reports point to this fresh pairing for a future love story project.",
+      "title": "Rukmini Vasanth and Nani to Collaborate for a Romantic Film?",
+      "summary": "Rumours suggest that actress Rukmini Vasanth might star alongside Nani in an upcoming romantic cinematic project. Fans and film enthusiasts are discussing the potential pairing, though official confirmations are awaited.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/exlusive-rukmini-vasanth-to-pair-up-with-nani-in-a-love-story",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/rukminivasanth-oct1226.jpg",
@@ -488,13 +677,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "New industry reports have sparked excitement among fans by linking Rukmini Vasanth to a potential romantic project starring Nani. The rumored collaboration has drawn significant attention across cinema circles.",
-        "If confirmed, this pairing would bring together two notable names for a dedicated love story narrative. Audiences are eager for official updates regarding the potential casting and production details.",
-        "Further announcements from the makers are expected to clarify whether the collaboration will materialize. For now, the reported pairing remains a talking point among movie buffs."
+        "Speculation is swirling in the film industry regarding a potential new on-screen collaboration. Reports indicate that actor Nani could be joined by Rukmini Vasanth for an upcoming love story.",
+        "While details remain scarce, the pairing has already generated considerable interest among moviegoers looking forward to fresh casting combinations in upcoming romantic dramas.",
+        "As discussions continue behind the scenes, audiences await official announcements from the makers regarding the project's cast and crew details."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Rumors suggest that actress Rukmini Vasanth may be paired with Nani for an upcoming romantic film. Industry reports point to this fresh pairing for a future love story project.",
+      "dek": "Rumours suggest that actress Rukmini Vasanth might star alongside Nani in an upcoming romantic cinematic project. Fans and film enthusiasts are discussing the potential pairing, though official confirmations are awaited.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -504,8 +693,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/3/130585/nayanthara-political-entry-news.html",
-      "title": "Lady Superstar Nayanthara Faces Political Entry Speculations in Tamil Nadu",
-      "summary": "Rumors are swirling regarding a potential political entry for prominent film star Nayanthara into Tamil Nadu politics. Observers continue to closely monitor the Lady Superstar as discussions around her political future develop.",
+      "title": "Discussion Surrounds Nayanthara and Potential Political Entry",
+      "summary": "Rumours and gossip have surfaced concerning actor Nayanthara and a potential entry into Tamil Nadu politics. Speculation about the celebrated star making a transition into the political sphere has drawn public attention.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/3/130585/nayanthara-political-entry-news.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/nayanthara-political-entry-news-1791888122042-1791888122459.jpg",
@@ -513,216 +702,19 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Speculation has recently emerged surrounding the potential political entry of prominent South Indian actress Nayanthara into Tamil Nadu politics. Widely recognized by fans as the Lady Superstar, her reported consideration for a political path has generated considerable buzz among film enthusiasts and political watchers alike.",
-        "While details regarding any official political affiliation or upcoming campaigns remain unconfirmed, the ongoing discussions highlight the persistent crossover between prominent cinema personalities and the political sphere in Tamil Nadu. As a leading figure in the film industry, any move by Nayanthara into public office or political organizing would mark a notable development.",
-        "Cineinsta will continue to follow these developments closely to see if official statements or further updates regarding her political future emerge from reliable quarters."
+        "Talk has emerged within entertainment circles regarding the popular actor Nayanthara and a potential move into politics in Tamil Nadu.",
+        "Such speculation frequently surrounds prominent cinematic figures as observers wonder if established stars might transition from the screen to the political arena.",
+        "As discussions continue to circulate online, no official statements or concrete updates have been provided regarding these political rumours."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Rumors are swirling regarding a potential political entry for prominent film star Nayanthara into Tamil Nadu politics. Observers continue to closely monitor the Lady Superstar as discussions around her political future develop.",
+      "dek": "Rumours and gossip have surfaced concerning actor Nayanthara and a potential entry into Tamil Nadu politics. Speculation about the celebrated star making a transition into the political sphere has drawn public attention.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "CineJosh"
       ],
       "originalUrl": "https://www.cinejosh.com/news/3/130585/nayanthara-political-entry-news.html"
-    },
-    {
-      "id": "https://www.telugu360.com/ott-release-chart-for-october-3rd-weekend-2026/",
-      "title": "Weekend OTT Release Chart Highlights New Digital Streaming Premieres",
-      "summary": "The weekend OTT release chart is out, detailing the latest movies and shows making their way to digital streaming platforms. Audiences looking for home entertainment options can now check the lineup of fresh releases available this weekend.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/ott-release-chart-for-october-3rd-weekend-2026/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/OTT-movies-for-october-2026.jpg",
-      "publishedAt": "2026-10-13T10:40:20.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Digital streaming enthusiasts have a fresh batch of content to explore with the release of the latest OTT release chart for the weekend. As audiences increasingly turn to online platforms for their weekend entertainment, the new schedule outlines the movies and series debuting across major streaming networks.",
-        "The curated lineup gives viewers a clear overview of what is currently dropping online, offering choices ranging from recent theatrical titles to exclusive digital premieres. Checking the weekend release chart helps fans plan their viewing schedules effectively.",
-        "With a variety of content arriving on digital channels, this weekend's streaming options cater to diverse audience preferences across different platforms."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The weekend OTT release chart is out, detailing the latest movies and shows making their way to digital streaming platforms. Audiences looking for home entertainment options can now check the lineup of fresh releases available this weekend.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://www.telugu360.com/ott-release-chart-for-october-3rd-weekend-2026/"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/comrade-kalyan-break-even-done-sree-vishnus-film-is-a-clean-hit-prp.html",
-      "title": "Sree Vishnu's Comrade Kalyan Achieves Break-Even Status as a Clean Hit",
-      "summary": "Sree Vishnu's film Comrade Kalyan has officially reached its break-even milestone, cementing its status as a clean commercial hit at the box office. The positive performance highlights the strong reception of the movie among audiences.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/comrade-kalyan-break-even-done-sree-vishnus-film-is-a-clean-hit-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-3.webp",
-      "publishedAt": "2026-10-13T10:32:02.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Sree Vishnu starrer Comrade Kalyan has achieved a significant box office milestone by officially crossing its break-even mark. The film's commercial success has established it as a clean hit, reflecting positive momentum in its theatrical run.",
-        "Reaching break-even status is a crucial metric for evaluating the financial performance of cinematic releases. The favorable performance of Comrade Kalyan demonstrates solid audience turnout and appreciation for Sree Vishnu's latest project.",
-        "The film's clean hit status adds to the actor's track record and highlights the continued commercial viability of content-driven mainstream cinema."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Sree Vishnu's film Comrade Kalyan has officially reached its break-even milestone, cementing its status as a clean commercial hit at the box office. The positive performance highlights the strong reception of the movie among audiences.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/comrade-kalyan-break-even-done-sree-vishnus-film-is-a-clean-hit-prp.html"
-    },
-    {
-      "id": "https://telugucinema.com/news/jo-jo-tharun-bhascker-calls-caution-1-an-excellent-teaser",
-      "title": "Tharun Bhascker Praises 'Caution 1' Teaser as Excellent",
-      "summary": "Filmmaker Tharun Bhascker has shared his appreciation for the project Jo Jo, specifically praising its teaser titled 'caution 1' as an excellent preview. The endorsement brings positive early attention to the upcoming title.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/jo-jo-tharun-bhascker-calls-caution-1-an-excellent-teaser",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/jojcaution-oct1326.jpg",
-      "publishedAt": "2026-10-13T10:07:20.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The promotional campaign for Jo Jo received a notable boost when filmmaker Tharun Bhascker publicly praised the project's teaser, titled 'caution 1', describing it as an excellent piece of work.",
-        "Endorsements from established industry directors often help generate significant pre-release buzz for new cinematic ventures. By highlighting the quality of the 'caution 1' teaser, Bhascker's comments have drawn extra eyes toward what Jo Jo has to offer.",
-        "As anticipation builds around the project, updates regarding its full promotional rollout and release plans will be keenly watched by cinema enthusiasts."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Filmmaker Tharun Bhascker has shared his appreciation for the project Jo Jo, specifically praising its teaser titled 'caution 1' as an excellent preview. The endorsement brings positive early attention to the upcoming title.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "TeluguCinema"
-      ],
-      "originalUrl": "https://telugucinema.com/news/jo-jo-tharun-bhascker-calls-caution-1-an-excellent-teaser"
-    },
-    {
-      "id": "https://www.telugu360.com/mrunal-thakur-hasnt-signed-a-film-since-nine-months/",
-      "title": "Mrunal Thakur Reportedly Unsigned for Nine Months",
-      "summary": "Actor Mrunal Thakur has reportedly not signed any new film projects over the past nine months, drawing attention across the industry. This update highlights a notable pause in the actor's typically active signing streak.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/mrunal-thakur-hasnt-signed-a-film-since-nine-months/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Mrunal-thakur.jpg",
-      "publishedAt": "2026-10-13T09:31:41.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Recent industry updates indicate that actor Mrunal Thakur has not signed a new film project for a period of nine months. The pause in new signings has become a talking point within film circles.",
-        "While actors frequently take strategic breaks between projects to evaluate upcoming scripts and manage scheduling, a nine-month hiatus from signing new ventures is a notable development for a mainstream talent."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Mrunal Thakur has reportedly not signed any new film projects over the past nine months, drawing attention across the industry. This update highlights a notable pause in the actor's typically active signing streak.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://www.telugu360.com/mrunal-thakur-hasnt-signed-a-film-since-nine-months/"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ramayana-jatayus-first-look-poster-raises-expectations-hk.html",
-      "title": "Jatayu's First Look Poster from Ramayana Generates Buzz",
-      "summary": "The first look poster for Jatayu from the upcoming project Ramayana has officially been released, heightening anticipation among audiences. Fans and movie enthusiasts have responded enthusiastically to the character reveal.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ramayana-jatayus-first-look-poster-raises-expectations-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Untitled-3-1.webp",
-      "publishedAt": "2026-10-13T09:25:32.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The promotional campaign for the highly anticipated cinematic project Ramayana has taken a step forward with the reveal of Jatayu's first look poster. The unveiled artwork has successfully generated considerable excitement among moviegoers.",
-        "Character posters and visual reveals play a crucial role in building anticipation for mythological adaptations. This latest promotional material offers a glimpse into the creative direction of the project."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The first look poster for Jatayu from the upcoming project Ramayana has officially been released, heightening anticipation among audiences. Fans and movie enthusiasts have responded enthusiastically to the character reveal.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/ramayana-jatayus-first-look-poster-raises-expectations-hk.html"
-    },
-    {
-      "id": "https://telugucinema.com/news/sara-arjun-for-ram-charan-almost-finalised-but-not-signed",
-      "title": "Sara Arjun Nearly Finalised for Ram Charan Project",
-      "summary": "Actor Sara Arjun is reportedly very close to being finalised for an upcoming project alongside Ram Charan. Although discussions have progressed significantly, final papers have not yet been signed.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/sara-arjun-for-ram-charan-almost-finalised-but-not-signed",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/saraarjun-rc17-oct1326.jpg",
-      "publishedAt": "2026-10-13T08:30:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Developments surrounding the cast of Ram Charan's upcoming film indicate that Sara Arjun is nearly finalised for a role. While discussions have reached an advanced stage, the formal agreement has not yet been concluded.",
-        "Casting announcements involving major stars frequently undergo an intensive progression from initial talks to final signatures, keeping followers eager for official confirmations."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Sara Arjun is reportedly very close to being finalised for an upcoming project alongside Ram Charan. Although discussions have progressed significantly, final papers have not yet been signed.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "TeluguCinema"
-      ],
-      "originalUrl": "https://telugucinema.com/news/sara-arjun-for-ram-charan-almost-finalised-but-not-signed"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130582/drishyam-3-the-conclusion-box-office-collection.html",
-      "title": "Ajay Devgn Starrer Drishyam 3: The Conclusion Crosses 500 Crore Mark",
-      "summary": "Drishyam 3: The Conclusion has successfully crossed the monumental 500 crore milestone at the box office. This achievement establishes the film as Ajay Devgn's highest-grossing project in the franchise series.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130582/drishyam-3-the-conclusion-box-office-collection.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/drishyam-3-the-conclusion-box-office-collection-1791879537637-1791879538071.jpg",
-      "publishedAt": "2026-10-13T08:19:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The box office journey of Drishyam 3: The Conclusion has reached a major milestone, officially surpassing the 500 crore collection mark. Fans and trade analysts alike have been closely monitoring the film's theatrical run as it continues to pull audiences into cinema halls.",
-        "With this impressive financial achievement, the movie has officially emerged as Ajay Devgn's highest-grossing entry in the renowned suspense franchise. The strong box office numbers reflect the enduring popularity of the series among moviegoers.",
-        "As the theatrical run progresses past this significant 500 crore threshold, Drishyam 3: The Conclusion solidifies its status as a major commercial success for the star and the entire creative team."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Drishyam 3: The Conclusion has successfully crossed the monumental 500 crore milestone at the box office. This achievement establishes the film as Ajay Devgn's highest-grossing project in the franchise series.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130582/drishyam-3-the-conclusion-box-office-collection.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/nani-in-talks-with-prem-kumar-for-a-love-story-hk.html",
-      "title": "Actor Nani Reportedly in Discussions With Director Prem Kumar for Romantic Project",
-      "summary": "Popular actor Nani is reportedly in talks with director Prem Kumar for a potential new love story. Fans are eagerly waiting for official confirmations regarding this exciting upcoming romantic collaboration.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/nani-in-talks-with-prem-kumar-for-a-love-story-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/nani.webp",
-      "publishedAt": "2026-10-13T08:14:53.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Nani is reportedly in early discussions with filmmaker Prem Kumar regarding a brand-new cinematic project centered around a love story. While formal announcements are yet to be made, the news has generated considerable excitement among film enthusiasts.",
-        "Known for his versatile performances in diverse cinematic roles, Nani exploring a romantic narrative with Prem Kumar points to an interesting upcoming collaboration in the industry. Both figures have built dedicated fan followings through their respective works.",
-        "Audiences will have to wait for further official updates to confirm details about the venture, including casting choices, production timelines, and formal announcements from the makers."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Popular actor Nani is reportedly in talks with director Prem Kumar for a potential new love story. Fans are eagerly waiting for official confirmations regarding this exciting upcoming romantic collaboration.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/nani-in-talks-with-prem-kumar-for-a-love-story-hk.html"
     }
   ],
   "trailers": [
@@ -737,16 +729,6 @@
       "language": "Telugu"
     },
     {
-      "id": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/greta-gerwig-debuts-first-narnia-the-magicians-nephew-trailer-film-set-for-theatrical-release-on-february-12-watch/articleshow/134926455.cms",
-      "title": "Greta Gerwig debuts first 'Narnia: The Magician's Nephew' trailer; film set for theatrical release on February 12 - WATCH",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/greta-gerwig-debuts-first-narnia-the-magicians-nephew-trailer-film-set-for-theatrical-release-on-february-12-watch/articleshow/134926455.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134926483,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134914336.cms",
       "title": "Udta Teer - Official Trailer",
       "source": "ETimes Telugu",
@@ -757,13 +739,13 @@
       "language": "Telugu"
     },
     {
-      "id": "https://indiaglitz.com/sumo-didi-trailer-shriyam-bhagnanis-inspiring-sports-biopic-to-premiere-on-zee5-on-october-23",
-      "title": "Sumo Didi Trailer: Shriyam Bhagnani’s Inspiring Sports Biopic to Premiere on ZEE5 on October 23",
+      "id": "https://indiaglitz.com/jo-jo-caution-1-teaser-diamond-hunt-rural-romance-and-unfiltered-comedy-take-centre-stage",
+      "title": "Jo Jo Caution 1 Teaser: Diamond Hunt, Rural Romance and Unfiltered Comedy Take Centre Stage",
       "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/sumo-didi-trailer-shriyam-bhagnanis-inspiring-sports-biopic-to-premiere-on-zee5-on-october-23",
-      "img": "https://i.ytimg.com/vi/hJL9MdogzTk/hqdefault.jpg",
-      "youtubeId": "hJL9MdogzTk",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "url": "https://indiaglitz.com/jo-jo-caution-1-teaser-diamond-hunt-rural-romance-and-unfiltered-comedy-take-centre-stage",
+      "img": "https://i.ytimg.com/vi/SSoFCpFvZtE/hqdefault.jpg",
+      "youtubeId": "SSoFCpFvZtE",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
       "language": "Telugu"
     },
     {
@@ -842,6 +824,16 @@
       "source": "ETimes Telugu",
       "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "img": "https://static.toiimg.com/thumb/msid-134597149,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
+      "title": "Prahaar: The Untold Story of Ujjwal Nikam - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
+      "img": "https://static.toiimg.com/thumb/msid-134582448,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
@@ -1712,12 +1704,12 @@
       "t": "Epic First Semester",
       "l": "Telugu",
       "releaseDate": "2026-09-11",
-      "rating": "2.13/5",
+      "rating": "2.08/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/epic3.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/epic-first-semester-review-bold-but-uneven/",
       "aggregator": {
-        "average": 2.13,
+        "average": 2.08,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1733,8 +1725,8 @@
           },
           {
             "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
+            "rating": 2,
+            "ratingText": "2/5",
             "url": "https://www.m9.news/reviews/epic-2026-telugu-movie-review-rating/"
           },
           {
@@ -1777,8 +1769,8 @@
           },
           {
             "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
+            "rating": 1.25,
+            "ratingText": "1.25/5",
             "url": "https://www.m9.news/reviews/sardar-2-movie-review-rating/"
           },
           {

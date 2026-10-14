@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:13:33.179Z",
+  "updatedAt": "2026-10-14T06:27:36.681Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -68,9 +68,126 @@
       }
     },
     {
-      "id": "vijay-deverakonda-expresses-confidence-that-ranabaali-will-bring-pride-to-tollywood",
-      "title": "Vijay Deverakonda Expresses Confidence That Ranabaali Will Bring Pride to Tollywood",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Vijay-Devarakonda.webp",
+      "id": "rukmini-vasanth-in-talks-for-fresh-pairing-with-nani-in-prem-kumar-project",
+      "title": "Rukmini Vasanth in Talks for Fresh Pairing with Nani in Prem Kumar Project",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rukmini-vasanth-likely-to-star-opposite-nani-prem-kumar-film-1791954681528-1791954681925.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "discussion-surrounds-potential-hrithik-roshan-cameo-in-jailer-2-hindi-version",
+      "title": "Discussion Surrounds Potential Hrithik Roshan Cameo in Jailer 2 Hindi Version",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/06/jailer-2-hrithik-.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "uncertainty-surrounds-digital-rights-and-ott-deal-for-toxic",
+      "title": "Uncertainty Surrounds Digital Rights and OTT Deal for Toxic",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/08/Toxic-3.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "mithun-chakraborty-reportedly-places-specific-condition-for-jailer-2-role",
+      "title": "Mithun Chakraborty Reportedly Places Specific Condition for Jailer 2 Role",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Mithun-Chakraborty.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "prabhas-set-to-collaborate-with-people-media-factory-once-more",
+      "title": "Prabhas Set to Collaborate with People Media Factory Once More",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-to-join-hands-with-people-media-factory-again-1791951541572-1791951541781.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "shah-rukh-khan-starrer-king-teaser-anticipated-for-november-2-launch",
+      "title": "Shah Rukh Khan Starrer King Teaser Anticipated for November 2 Launch",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/shah-rukh-khan-s-king-teaser-reportedly-set-for-november-2-release-1791951416703-1791951417062.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "financial-management-in-focus-for-nani-s-bloody-romeo",
+      "title": "Financial Management in Focus for Nani's Bloody Romeo",
+      "img": "https://www.telugu360.com/wp-content/uploads/2025/05/Hero-Nani-1.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "director-promises-peak-performance-from-vijay-in-ranabaali",
+      "title": "Director Promises Peak Performance from Vijay in Ranabaali",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-2-1.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-deverakonda-expresses-confidence-in-ranabaali",
+      "title": "Vijay Deverakonda Expresses Confidence in Ranabaali",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/vijay-deverakonda.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "heroine-revealed-for-nithiin-s-alias-rukmini",
+      "title": "Heroine Revealed for Nithiin's Alias Rukmini",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/here-is-alias-rukmini-heroine-1791939109933-1791939110297.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -94,8 +211,21 @@
       }
     },
     {
-      "id": "makers-confirm-release-schedule-for-vishwaksen-s-ene-repeat-remains-unchanged",
-      "title": "Makers Confirm Release Schedule for Vishwaksen's ENE Repeat Remains Unchanged",
+      "id": "director-buchi-babu-sana-compares-vijay-deverakonda-s-stardom-to-pawan-kalyan",
+      "title": "Director Buchi Babu Sana Compares Vijay Deverakonda's Stardom to Pawan Kalyan",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/vijay-2.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "makers-confirm-no-change-in-release-date-for-vishwaksen-starrer-ene-repeat",
+      "title": "Makers Confirm No Change in Release Date for Vishwaksen Starrer ENE Repeat",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/enerepeat-oct1326.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,8 +237,8 @@
       }
     },
     {
-      "id": "aafia-sayed-boarded-as-leading-lady-in-nithiin-s-alias-rukmini",
-      "title": "Aafia Sayed Boarded as Leading Lady in Nithiin's Alias Rukmini",
+      "id": "aafia-sayed-unveiled-as-nithiin-s-leading-lady-in-alias-rukmini",
+      "title": "Aafia Sayed Unveiled as Nithiin's Leading Lady in Alias Rukmini",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/aafiasayed-rukminialias-oct1326.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -120,8 +250,8 @@
       }
     },
     {
-      "id": "blockbuster-film-s-ott-rights-still-unsold",
-      "title": "Blockbuster Film's OTT Rights Still Unsold",
+      "id": "blockbuster-hit-film-still-awaiting-ott-deal-finalization-makers-confirm",
+      "title": "Blockbuster Hit Film Still Awaiting OTT Deal Finalization, Makers Confirm",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/premada-oorali.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -133,8 +263,8 @@
       }
     },
     {
-      "id": "anticipation-builds-around-aadarsha-kutumbam-release-date",
-      "title": "Anticipation Builds Around Aadarsha Kutumbam Release Date",
+      "id": "aadarsha-kutumbam-release-date-discussions-surface",
+      "title": "Aadarsha Kutumbam Release Date Discussions Surface",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Aadarsha-Kutumbam.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,8 +276,8 @@
       }
     },
     {
-      "id": "dasara-holiday-releases-seek-major-momentum",
-      "title": "Dasara Holiday Releases Seek Major Momentum",
+      "id": "dasara-festival-releases-require-major-momentum",
+      "title": "Dasara Festival Releases Require Major Momentum",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ranabaali-and-jailer2.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -159,8 +289,8 @@
       }
     },
     {
-      "id": "cult-gang-returns-in-new-ene-repeat-poster",
-      "title": "Cult Gang Returns in New ENE Repeat Poster",
+      "id": "ene-repeat-poster-unveils-the-return-of-the-cult-gang",
+      "title": "ENE Repeat Poster Unveils the Return of the Cult Gang",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/IMG-20261013-WA0069.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,8 +302,8 @@
       }
     },
     {
-      "id": "megastar-chiranjeevi-s-intervention-saved-comrade-kalyan",
-      "title": "Megastar Chiranjeevi's Intervention Saved Comrade Kalyan",
+      "id": "chiranjeevi-s-involvement-highlighted-in-comrade-kalyan-connection",
+      "title": "Chiranjeevi's Involvement Highlighted in Comrade Kalyan Connection",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-saved-comrade-kalyan-1791901921913-1791901922217.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -185,8 +315,8 @@
       }
     },
     {
-      "id": "massive-turnout-for-vijay-deverakonda-s-ranabaali-fan-meet-in-hyderabad",
-      "title": "Massive Turnout for Vijay Deverakonda's Ranabaali Fan Meet in Hyderabad",
+      "id": "vijay-deverakonda-s-ranabaali-fan-meet-sees-massive-turnout-in-hyderabad",
+      "title": "Vijay Deverakonda's Ranabaali Fan Meet Sees Massive Turnout in Hyderabad",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-ranabaali-fans-meet-draws-huge-crowd-in-hyderabad-1791898722027-1791898722258.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -198,8 +328,8 @@
       }
     },
     {
-      "id": "bollywood-talent-aafiya-sayed-cast-as-nithiin-s-wife-in-alias-rukmini",
-      "title": "Bollywood Talent Aafiya Sayed Cast as Nithiin's Wife in Alias Rukmini",
+      "id": "bollywood-performer-aafiya-sayed-cast-as-nithiin-s-wife-in-alias-rukmini",
+      "title": "Bollywood Performer Aafiya Sayed Cast as Nithiin's Wife in Alias Rukmini",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/rukmini.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -211,8 +341,8 @@
       }
     },
     {
-      "id": "prabhas-and-pmf-set-to-collaborate-once-again",
-      "title": "Prabhas and PMF Set to Collaborate Once Again",
+      "id": "prabhas-set-to-collaborate-with-pmf-once-again",
+      "title": "Prabhas Set to Collaborate with PMF Once Again",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Prabhas.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -224,139 +354,9 @@
       }
     },
     {
-      "id": "prabhas-shifts-focus-to-kalki-2-and-spirit-after-fauzi-nears-completion",
-      "title": "Prabhas Shifts Focus to Kalki 2 and Spirit After Fauzi Nears Completion",
+      "id": "prabhas-shifts-focus-to-kalki-2-and-spirit-following-fauzi-progress",
+      "title": "Prabhas Shifts Focus to Kalki 2 and Spirit Following Fauzi Progress",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-moves-to-kalki-2-and-spirit-1791895720253-1791895720481.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "vijay-deverakonda-starrer-ranabaali-completes-censor-formalities",
-      "title": "Vijay Deverakonda Starrer Ranabaali Completes Censor Formalities",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-ranabaali-gets-censored-1791895359937-1791895360336.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sai-pallavi-set-for-jayammu-nischayammu-raa-2-appearance-ahead-of-ramayana",
-      "title": "Sai Pallavi Set for Jayammu Nischayammu Raa 2 Appearance Ahead of Ramayana",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/saipallavi.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "producer-shares-unexpected-reaction-to-the-raja-saab-s-outcome",
-      "title": "Producer Shares Unexpected Reaction to The Raja Saab's Outcome",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/01/Raja-Saab-Review.jpeg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "character-depth-in-question-are-telugu-films-underwriting-heroines",
-      "title": "Character Depth in Question: Are Telugu Films Underwriting Heroines?",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/are-telugu-films-giving-heroines-meaningful-roles-1791891573743-1791891573902.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "streaming-lineup-what-to-watch-on-ott-from-october-12-to-october-18",
-      "title": "Streaming Lineup: What to Watch on OTT from October 12 to October 18",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/OTT-1.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "reports-link-tamannaah-to-the-dirty-picture-sequel",
-      "title": "Reports Link Tamannaah to The Dirty Picture Sequel",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Vidya-Balan-Tamannah.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "is-rukmini-vasanth-set-to-star-alongside-nani-in-a-new-love-story",
-      "title": "Is Rukmini Vasanth Set to Star Alongside Nani in a New Love Story?",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/rukminivasanth-oct1226.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "lady-superstar-nayanthara-faces-political-entry-speculations-in-tamil-nadu",
-      "title": "Lady Superstar Nayanthara Faces Political Entry Speculations in Tamil Nadu",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/nayanthara-political-entry-news-1791888122042-1791888122459.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "weekend-ott-release-chart-highlights-new-digital-streaming-premieres",
-      "title": "Weekend OTT Release Chart Highlights New Digital Streaming Premieres",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/OTT-movies-for-october-2026.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sree-vishnu-s-comrade-kalyan-achieves-break-even-status-as-a-clean-hit",
-      "title": "Sree Vishnu's Comrade Kalyan Achieves Break-Even Status as a Clean Hit",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-3.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-14T01:11:26.210Z",
-      "lastAttemptedAt": "2026-10-14T01:11:26.210Z",
+      "updatedAt": "2026-10-14T06:26:53.358Z",
+      "lastAttemptedAt": "2026-10-14T06:26:53.358Z",
       "items": [
         {
           "title": "Irumudi",
@@ -384,7 +384,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-12T18:53:47.387Z",
-      "lastAttemptedAt": "2026-10-14T01:11:41.146Z",
+      "lastAttemptedAt": "2026-10-14T06:27:13.151Z",
       "items": [
         {
           "title": "Below",
@@ -397,8 +397,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-14T01:13:14.246Z",
-      "lastAttemptedAt": "2026-10-14T01:13:14.246Z",
+      "updatedAt": "2026-10-14T06:27:13.692Z",
+      "lastAttemptedAt": "2026-10-14T06:27:13.692Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -465,14 +465,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T01:13:14.537Z",
+      "lastAttemptedAt": "2026-10-14T06:27:13.928Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-14T01:13:27.068Z",
+      "lastAttemptedAt": "2026-10-14T06:27:29.887Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -552,21 +552,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T01:13:28.872Z",
+      "lastAttemptedAt": "2026-10-14T06:27:31.747Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T01:13:30.044Z",
+      "lastAttemptedAt": "2026-10-14T06:27:33.050Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T01:13:33.175Z",
+      "lastAttemptedAt": "2026-10-14T06:27:36.679Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
