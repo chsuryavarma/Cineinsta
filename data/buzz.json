@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T06:27:36.681Z",
+  "updatedAt": "2026-10-14T07:17:28.472Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-14T06:26:53.358Z",
-      "lastAttemptedAt": "2026-10-14T06:26:53.358Z",
+      "updatedAt": "2026-10-14T07:15:18.907Z",
+      "lastAttemptedAt": "2026-10-14T07:15:18.907Z",
       "items": [
         {
           "title": "Irumudi",
@@ -384,7 +384,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-12T18:53:47.387Z",
-      "lastAttemptedAt": "2026-10-14T06:27:13.151Z",
+      "lastAttemptedAt": "2026-10-14T07:15:37.422Z",
       "items": [
         {
           "title": "Below",
@@ -397,8 +397,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-14T06:27:13.692Z",
-      "lastAttemptedAt": "2026-10-14T06:27:13.692Z",
+      "updatedAt": "2026-10-14T07:17:06.278Z",
+      "lastAttemptedAt": "2026-10-14T07:17:06.278Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -465,14 +465,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T06:27:13.928Z",
+      "lastAttemptedAt": "2026-10-14T07:17:06.336Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-14T06:27:29.887Z",
+      "lastAttemptedAt": "2026-10-14T07:17:24.308Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -552,21 +552,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T06:27:31.747Z",
+      "lastAttemptedAt": "2026-10-14T07:17:25.930Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T06:27:33.050Z",
+      "lastAttemptedAt": "2026-10-14T07:17:26.966Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T06:27:36.679Z",
+      "lastAttemptedAt": "2026-10-14T07:17:28.468Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
