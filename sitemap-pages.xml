@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cineinsta.com/</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/news</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/buzz</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/box-office-battle.html</loc>
@@ -40,6 +40,10 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/jailer-2</loc>
+    <lastmod>2026-10-15T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/the-traitors-telugu-3-episodes-chinmayi-s-murder-vidyullekha-s-exit-and-ashika-s-strategy</loc>
     <lastmod>2026-10-15T00:00:00.000Z</lastmod>
   </url>
   <url>
@@ -148,39 +152,35 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/drishyam-the-conclusion</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/hanuman-ansh</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/thella-kagitham</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/secret-soldier</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/mandaadi</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/mirzapur-the</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/chakkora</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/new-international-trailer-of-ranbir-kapoor-s-ramayana-says-lord-ram-is-not-god-but-a-man-the-film-is-set-to-release-worldwide-on-november-5</loc>
-    <lastmod>2026-10-15T00:00:00.000Z</lastmod>
+    <lastmod>2026-10-15T18:25:26.615Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/narnia-the-magician-s-nephew-official-hindi-trailer</loc>
@@ -203,6 +203,10 @@
     <lastmod>2026-10-08T00:00:00.000Z</lastmod>
   </url>
   <url>
+    <loc>https://www.cineinsta.com/trailers/</loc>
+    <lastmod>2026-10-06T13:36:01.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.cineinsta.com/trailers/tu-hai-meri-kiran-official-trailer</loc>
     <lastmod>2026-10-06T00:00:00.000Z</lastmod>
   </url>
@@ -223,7 +227,7 @@
     <lastmod>2026-09-30T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/trailers/latest-trailers-entertainment-videos-times-of-india</loc>
-    <lastmod>2026-10-15T12:27:21.757Z</lastmod>
+    <loc>https://www.cineinsta.com/trailers/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer</loc>
+    <lastmod>2026-09-30T00:00:00.000Z</lastmod>
   </url>
 </urlset>
