@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T19:10:14.882Z",
+  "updatedAt": "2026-10-15T00:24:45.193Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -15,7 +15,7 @@
     {
       "id": "netflix",
       "name": "Netflix",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "id": "prime-video",
@@ -68,8 +68,34 @@
       }
     },
     {
-      "id": "jailer-2-pre-release-business-in-telugu-states-generates-buzz",
-      "title": "Jailer 2 Pre-release Business In Telugu States Generates Buzz",
+      "id": "megastar-chiranjeevi-to-construct-new-multiplex-in-vizag",
+      "title": "Megastar Chiranjeevi to Construct New Multiplex in Vizag",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/chiranjeevi.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "versatile-actor-reportedly-takes-massive-pay-cut-for-upcoming-project",
+      "title": "Versatile Actor Reportedly Takes Massive Pay Cut for Upcoming Project",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/03/Vijay-Sethupathi.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "jailer-2-pre-release-business-generates-buzz-in-telugu-states",
+      "title": "Jailer 2 Pre-Release Business Generates Buzz in Telugu States",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/jailer-2-trailer-1.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -81,8 +107,8 @@
       }
     },
     {
-      "id": "anticipation-builds-for-day-one-collections-of-ranabaali",
-      "title": "Anticipation Builds For Day One Collections Of Ranabaali",
+      "id": "anticipation-builds-for-vijay-and-rashmika-s-ranabaali-opening-day-numbers",
+      "title": "Anticipation Builds for Vijay and Rashmika's Ranabaali Opening Day Numbers",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-2-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -94,8 +120,8 @@
       }
     },
     {
-      "id": "questions-raised-over-south-director-following-niti-taylor-revelations",
-      "title": "Questions Raised Over South Director Following Niti Taylor Revelations",
+      "id": "niti-taylor-reveals-experience-with-south-director-involving-inappropriate-demands",
+      "title": "Niti Taylor Reveals Experience With South Director Involving Inappropriate Demands",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/nititaylor-allegationsoct1426.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,8 +133,8 @@
       }
     },
     {
-      "id": "prominent-star-actress-set-to-lead-large-scale-horror-project",
-      "title": "Prominent Star Actress Set To Lead Large-Scale Horror Project",
+      "id": "prominent-star-actress-set-to-lead-upcoming-high-budget-horror-project",
+      "title": "Prominent Star Actress Set to Lead Upcoming High-Budget Horror Project",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/06/Kriti-Sanon-2-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -120,8 +146,60 @@
       }
     },
     {
-      "id": "bellamkonda-sreenivas-s-haindava-locks-release-date-as-teaser-generates-impactful-buzz",
-      "title": "Bellamkonda Sreenivas's Haindava Locks Release Date as Teaser Generates Impactful Buzz",
+      "id": "ramayana-launches-global-promotional-drive-with-brand-new-trailer",
+      "title": "Ramayana Launches Global Promotional Drive With Brand New Trailer",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ramayana-part-1.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "haindava-teaser-highlights-an-intense-battle-between-faith-and-reason",
+      "title": "Haindava Teaser Highlights An Intense Battle Between Faith and Reason",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/haindhava-teaser-oct1426.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "a-telugu-hero-confirms-temporary-pause-on-upcoming-film-project",
+      "title": "A Telugu Hero Confirms Temporary Pause on Upcoming Film Project",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Tyson-Naidu-1.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "sukumar-and-team-gear-up-for-ram-charan-s-highly-anticipated-rc17",
+      "title": "Sukumar and Team Gear Up for Ram Charan's Highly Anticipated RC17",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/RC17-3.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "release-date-locked-and-impactful-teaser-unveiled-for-bellamkonda-sreenivas-haindava",
+      "title": "Release Date Locked and Impactful Teaser Unveiled for Bellamkonda Sreenivas' Haindava",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Haindava-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -133,8 +211,8 @@
       }
     },
     {
-      "id": "mystical-thriller-vibes-take-over-as-bellamkonda-sai-sreenivas-starrer-haindava-teaser-unveils",
-      "title": "Mystical Thriller Vibes Take Over as Bellamkonda Sai Sreenivas Starrer Haindava Teaser Unveils",
+      "id": "bellamkonda-sai-sreenivas-returns-in-mystical-thriller-haindava",
+      "title": "Bellamkonda Sai Sreenivas Returns in Mystical Thriller 'Haindava'",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/bellamkonda-sai-sreenivas-haindava-teaser-out-1791983158326-1791983158720.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,8 +224,8 @@
       }
     },
     {
-      "id": "bss-haindava-teaser-unveils-a-perfect-divine-mystery-for-audiences",
-      "title": "BSS Haindava Teaser Unveils a Perfect Divine Mystery for Audiences",
+      "id": "bss-haindava-teaser-unveils-a-divine-mystery",
+      "title": "BSS 'Haindava' Teaser Unveils a Divine Mystery",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Haindavi-teaser.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -159,8 +237,8 @@
       }
     },
     {
-      "id": "production-update-released-by-the-team-behind-chiranjeevi-s-kaaka",
-      "title": "Production Update Released by the Team Behind Chiranjeevi's Kaaka",
+      "id": "production-update-released-for-chiranjeevi-s-kaaka",
+      "title": "Production Update Released for Chiranjeevi's 'Kaaka'",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Kaaka-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,8 +250,8 @@
       }
     },
     {
-      "id": "prabhas-extends-special-birthday-treat-to-fauzi-co-star-imanvi",
-      "title": "Prabhas Extends Special Birthday Treat to Fauzi Co-Star Imanvi",
+      "id": "prabhas-delivers-special-birthday-treat-for-fauzi-co-star",
+      "title": "Prabhas Delivers Special Birthday Treat for 'Fauzi' Co-star",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Prabhas-treat-to-imanvi-1.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -185,8 +263,8 @@
       }
     },
     {
-      "id": "gopichand-s-bharata-varsha-unveils-devotional-track-amma-kadhili-vacche",
-      "title": "Gopichand's Bharata Varsha Unveils Devotional Track 'Amma Kadhili Vacche'",
+      "id": "gopichand-starrer-bharata-varsha-releases-devotional-track-amma-kadhili-vacche",
+      "title": "Gopichand Starrer Bharata Varsha Releases Devotional Track Amma Kadhili Vacche",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/ammakadilivache-bharatvarsha-oct1426.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -198,8 +276,8 @@
       }
     },
     {
-      "id": "prabhas-delights-fauzi-co-star-imanvi-with-a-delicious-birthday-surprise",
-      "title": "Prabhas Delights Fauzi Co-Star Imanvi With a Delicious Birthday Surprise",
+      "id": "prabhas-treats-fauzi-co-star-imanvi-to-a-special-birthday-feast",
+      "title": "Prabhas Treats Fauzi Co-Star Imanvi to a Special Birthday Feast",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/prabhas-and-imanvi.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -211,8 +289,8 @@
       }
     },
     {
-      "id": "divine-euphoria-takes-over-as-bharata-varsha-releases-amma-kadhili-vacche",
-      "title": "Divine Euphoria Takes Over as Bharata Varsha Releases 'Amma Kadhili Vacche'",
+      "id": "divine-euphoria-unveiled-amma-kadhili-vacche-from-bharata-varsha",
+      "title": "Divine Euphoria Unveiled: Amma Kadhili Vacche From Bharata Varsha",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-16.01.27.jpeg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -224,8 +302,8 @@
       }
     },
     {
-      "id": "imanvi-expresses-gratitude-to-prabhas-for-a-grand-birthday-feast",
-      "title": "Imanvi Expresses Gratitude to Prabhas for a Grand Birthday Feast",
+      "id": "imanvi-expresses-gratitude-to-prabhas-for-a-memorable-birthday-feast",
+      "title": "Imanvi Expresses Gratitude to Prabhas for a Memorable Birthday Feast",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/imanvibirthday-oct1426.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -237,8 +315,8 @@
       }
     },
     {
-      "id": "navigating-success-siddhu-and-vijay-deverakonda-face-the-challenge-of-iconic-roles",
-      "title": "Navigating Success: Siddhu and Vijay Deverakonda Face the Challenge of Iconic Roles",
+      "id": "siddhu-and-vijay-deverakonda-face-the-challenge-of-iconic-roles",
+      "title": "Siddhu and Vijay Deverakonda Face the Challenge of Iconic Roles",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/siddhu-vijay-deverakonda-and-the-shadow-of-iconic-roles-1791974105837-1791974106201.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -250,8 +328,8 @@
       }
     },
     {
-      "id": "jailer-2-achieves-major-ticket-sales-milestone-prior-to-premiere",
-      "title": "Jailer 2 Achieves Major Ticket Sales Milestone Prior to Premiere",
+      "id": "jailer-2-reaches-major-ticket-sales-milestone-ahead-of-release",
+      "title": "Jailer 2 Reaches Major Ticket Sales Milestone Ahead of Release",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/JAILER-1-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -263,8 +341,8 @@
       }
     },
     {
-      "id": "makers-unveil-teaser-for-ambitious-psychological-thriller-don-t-sleep",
-      "title": "Makers Unveil Teaser for Ambitious Psychological Thriller 'Don't Sleep'",
+      "id": "don-t-sleep-teaser-highlights-an-ambitious-psychological-thriller",
+      "title": "Don't Sleep Teaser Highlights an Ambitious Psychological Thriller",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dont-Sleep.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -276,87 +354,9 @@
       }
     },
     {
-      "id": "sara-ali-khan-charms-in-latest-ivory-tulle-ensemble",
-      "title": "Sara Ali Khan Charms in Latest Ivory Tulle Ensemble",
+      "id": "sara-ali-khan-makes-a-stylish-statement-in-ivory-tulle",
+      "title": "Sara Ali Khan Makes a Stylish Statement in Ivory Tulle",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Sara-7.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "mythri-movie-makers-gears-up-for-multiplex-venture",
-      "title": "Mythri Movie Makers Gears Up for Multiplex Venture",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/mythri-movie-makers-readying-multiplex-extravaganza-1791970728511-1791970728714.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "krithi-shetty-set-to-make-her-bollywood-debut",
-      "title": "Krithi Shetty Set to Make Her Bollywood Debut",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Krithi-Shetty-1.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "anticipated-indian-cinema-release-faces-pre-release-buzz-challenges",
-      "title": "Anticipated Indian Cinema Release Faces Pre-Release Buzz Challenges",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/07/Ramayana-2.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "rashmika-mandanna-signs-off-as-rashmika-deverakonda",
-      "title": "Rashmika Mandanna Signs Off as Rashmika Deverakonda",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/rashmikadeverakonda-oct1426.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "vijay-sethupathi-makes-a-notable-sacrifice-for-mani-ratnam",
-      "title": "Vijay Sethupathi Makes a Notable Sacrifice for Mani Ratnam",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Vijay-Sethupathis-Sacrifice-for-Mani-Ratnam.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "rashmika-deverakonda-launches-project-annapurna-to-support-400-families",
-      "title": "Rashmika Deverakonda Launches Project Annapurna to Support 400 Families",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Rashmika-5.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -369,9 +369,9 @@
   ],
   "ottTrending": {
     "netflix": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-10-14T19:09:13.552Z",
-      "lastAttemptedAt": "2026-10-14T19:09:13.552Z",
+      "lastAttemptedAt": "2026-10-15T00:22:35.107Z",
       "items": [
         {
           "title": "Irumudi",
@@ -379,12 +379,13 @@
           "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
           "languages": "Telugu"
         }
-      ]
+      ],
+      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-12T18:53:47.387Z",
-      "lastAttemptedAt": "2026-10-14T19:09:30.452Z",
+      "lastAttemptedAt": "2026-10-15T00:22:56.324Z",
       "items": [
         {
           "title": "Below",
@@ -397,8 +398,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-14T19:09:54.445Z",
-      "lastAttemptedAt": "2026-10-14T19:09:54.445Z",
+      "updatedAt": "2026-10-15T00:24:27.607Z",
+      "lastAttemptedAt": "2026-10-15T00:24:27.607Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -465,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T19:09:55.107Z",
+      "lastAttemptedAt": "2026-10-15T00:24:27.853Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "stale",
       "updatedAt": "2026-10-08T09:54:10.965Z",
-      "lastAttemptedAt": "2026-10-14T19:10:09.732Z",
+      "lastAttemptedAt": "2026-10-15T00:24:39.922Z",
       "items": [
         {
           "title": "Watch Telugu Action Movies",
@@ -552,21 +553,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T19:10:11.815Z",
+      "lastAttemptedAt": "2026-10-15T00:24:41.900Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T19:10:13.249Z",
+      "lastAttemptedAt": "2026-10-15T00:24:43.228Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-14T19:10:14.880Z",
+      "lastAttemptedAt": "2026-10-15T00:24:45.190Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     }
