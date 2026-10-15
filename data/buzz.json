@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T12:28:10.331Z",
+  "updatedAt": "2026-10-15T13:18:04.822Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "id": "aha",
@@ -50,7 +50,7 @@
     {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "unavailable"
+      "status": "ok"
     }
   ],
   "movies": [
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-15T06:27:40.684Z",
-      "lastAttemptedAt": "2026-10-15T12:27:33.360Z",
+      "lastAttemptedAt": "2026-10-15T13:15:41.767Z",
       "items": [
         {
           "title": "Irumudi",
@@ -383,9 +383,9 @@
       "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "prime-video": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-10-15T12:27:53.446Z",
-      "lastAttemptedAt": "2026-10-15T12:27:53.446Z",
+      "lastAttemptedAt": "2026-10-15T13:16:08.952Z",
       "items": [
         {
           "title": "THE ADDAMS FAMILY",
@@ -393,12 +393,13 @@
           "img": "https://m.media-amazon.com/images/S/pv-target-images/51a9a1c872d7a92a11151793fb4d2a8fbe6525530a3832baa737c925420904fc.png",
           "languages": "Telugu"
         }
-      ]
+      ],
+      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-15T12:27:53.886Z",
-      "lastAttemptedAt": "2026-10-15T12:27:53.886Z",
+      "updatedAt": "2026-10-15T13:17:46.101Z",
+      "lastAttemptedAt": "2026-10-15T13:17:46.101Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -465,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-15T12:27:54.346Z",
+      "lastAttemptedAt": "2026-10-15T13:17:46.378Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-15T12:28:05.272Z",
-      "lastAttemptedAt": "2026-10-15T12:28:05.272Z",
+      "updatedAt": "2026-10-15T13:17:56.879Z",
+      "lastAttemptedAt": "2026-10-15T13:17:56.879Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -503,23 +504,29 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-15T12:28:07.259Z",
+      "lastAttemptedAt": "2026-10-15T13:17:58.636Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-15T12:28:08.589Z",
+      "lastAttemptedAt": "2026-10-15T13:18:00.311Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
-      "status": "unavailable",
-      "updatedAt": null,
-      "lastAttemptedAt": "2026-10-15T12:28:10.328Z",
-      "items": [],
-      "note": "No validated titles were obtained from the platform public catalogue during this run."
+      "status": "ok",
+      "updatedAt": "2026-10-15T13:18:04.819Z",
+      "lastAttemptedAt": "2026-10-15T13:18:04.819Z",
+      "items": [
+        {
+          "title": "Watch DC Full HD Movie Online - Sony LIV",
+          "url": "https://www.sonyliv.com/movies/dc-1590016690",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000026043/1791476990957783_DC_Landscape_Thumb.jpg?w=200&q=high",
+          "languages": "Telugu"
+        }
+      ]
     }
   },
   "methodology": "OTT tabs are collected independently from each platform public catalogue or movie surface. Netflix and ZEE5 use Telugu catalogue pages. Prime Video and other platforms verify Telugu evidence from listing/detail pages where required. No hard-coded movie list is used. A temporary source failure never replaces the last successful OTT dataset with zero items."
