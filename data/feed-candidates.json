@@ -1,47 +1,262 @@
 {
-  "updatedAt": "2026-10-16T00:20:56.296Z",
+  "updatedAt": "2026-10-16T12:27:21.313Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://www.123telugu.com/reviews/the-traitors-telugu-review-and-rating.html",
-      "title": "The Traitors Telugu OTT Review: Breaking Down the First Three Episodes",
-      "summary": "An early assessment of the first three episodes of The Traitors Telugu highlights key narrative developments, including Chinmayi's murder, Vidyullekha's exit, and Ashika's tactical gameplay.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/the-traitors-telugu-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/The-Traitors-Telugu.webp",
-      "publishedAt": "2026-10-15T20:32:06.000Z",
+      "id": "https://www.cinejosh.com/news/1/130641/ntrivikram-wishes-rockstar.html",
+      "title": "NTR and Trivikram Send Birthday Wishes to Anirudh",
+      "summary": "The team behind the NTR-Trivikram collaboration has extended warm birthday greetings to acclaimed music composer Anirudh, celebrating the musician known as the Rockstar.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130641/ntrivikram-wishes-rockstar.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ntrivikram-wishes-rockstar-1792152688224-1792152689725.jpg",
+      "publishedAt": "2026-10-16T12:11:38.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The newly released Telugu digital streaming series, The Traitors Telugu, has captured audience attention with its initial three episodes. The opening sequence sets up high-stakes competition dynamics that drive the narrative forward.",
-        "Significant developments in these early episodes include Chinmayi's murder and Vidyullekha's exit from the ongoing competition. These unexpected turns shape the strategic landscape for the remaining contestants.",
-        "Amidst the exits and eliminations, Ashika's strategy emerges as a focal point for viewers tracking the tactical maneuvers within the game. The unfolding episodes continue to draw interest as players navigate alliances and eliminations."
+        "The collaborative team behind the NTR and Trivikram project has joined together to send official birthday wishes to popular composer Anirudh. Recognized widely as the Rockstar, the musician received celebratory messages from the prominent film team.",
+        "Such collaborative acknowledgments highlight the strong professional camaraderie within the industry. As fans celebrate the composer's special day, greetings from high-profile film units add considerable excitement to the occasion."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436695/ramayanas-star-studded-pre-release-event-in-hyderabad",
+      "title": "Hyderabad Hosts Star-Studded Pre-Release Event for Ramayana",
+      "summary": "The highly anticipated film Ramayana recently held a major pre-release event in Hyderabad, drawing prominent stars and creating significant buzz among movie enthusiasts.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436695/ramayanas-star-studded-pre-release-event-in-hyderabad",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/IMG-20261016-WA0051.jpg",
+      "publishedAt": "2026-10-16T11:46:49.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Hyderabad recently served as the venue for a major star-studded pre-release event for the upcoming film Ramayana. The gathering brought together key figures associated with the project to generate pre-launch excitement.",
+        "Pre-release events of this scale play an important role in engaging audiences and building momentum ahead of a film's theatrical rollout. The Hyderabad gathering successfully highlighted the star power attached to the movie."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html",
+      "title": "Ranabaali Review: Vijay Deverakonda Starrer Delivers Moderate Impact Despite Noble Intent",
+      "summary": "Vijay Deverakonda's Telugu film Ranabaali has received its review, noting that the movie possesses noble intentions while ultimately achieving a moderate impact on screen.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
+      "publishedAt": "2026-10-16T11:31:53.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Telugu film Ranabaali, featuring Vijay Deverakonda in the lead role, has drawn attention following its release and subsequent reviews. Critics and audiences have evaluated the project based on its storytelling and overall execution.",
+        "According to the critical assessment, the feature demonstrates a noble intent in its conceptualization. However, the final cinematic execution results in a moderate impact rather than a runaway success."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/crazy-kalyanam-movie-review-and-rating.html",
+      "title": "Crazy Kalyanam Review: Anupama Parameswaran Starrer Works in Parts",
+      "summary": "Anupama Parameswaran's Crazy Kalyanam has been reviewed, with critics noting that the film provides entertainment that works in parts rather than consistently throughout.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/crazy-kalyanam-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
+      "publishedAt": "2026-10-16T11:31:04.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Crazy Kalyanam, featuring Anupama Parameswaran, has undergone critical evaluation following its release. The project has sparked discussion among reviewers regarding its narrative consistency and entertainment value.",
+        "The evaluation points out that the film works in parts, suggesting that certain segments resonate well with audiences while other portions may experience narrative unevenness."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/varanasi-mahesh-babu-wishes-prithviraj-sukumaran-on-his-birthday-team-drops-new-stills-hk.html",
+      "title": "Mahesh Babu Extends Birthday Greetings to Prithviraj Sukumaran as Fresh Stills Unveiled",
+      "summary": "Tollywood star Mahesh Babu has shared warm birthday wishes for actor Prithviraj Sukumaran. To mark the occasion, the project's creative team has also released striking new promotional stills.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/varanasi-mahesh-babu-wishes-prithviraj-sukumaran-on-his-birthday-team-drops-new-stills-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/pridhvi.webp",
+      "publishedAt": "2026-10-16T10:27:22.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Special birthday celebrations for actor Prithviraj Sukumaran have brought exciting treats for cinema enthusiasts. Tollywood actor Mahesh Babu joined in to publicly wish Prithviraj Sukumaran on his special day.",
+        "Adding to the celebrations, the team behind the venture released fresh production stills. These newly unveiled promotional images offer fans a closer look at the project associated with the actors.",
+        "Such promotional updates keep cinema fans engaged as production progresses. The combination of wishes from a major star and the release of new visual materials highlights the ongoing buzz surrounding the project."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.telugu360.com/ramayana-team-plans-a-spectacular-telugu-pre-release-event/",
+      "title": "Ramayana Team Prepares for a Grand Telugu Pre-Release Event",
+      "summary": "The makers of the upcoming film Ramayana are reportedly planning a massive pre-release event tailored for Telugu audiences. This strategic promotional move aims to build strong pre-release anticipation in the region.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/ramayana-team-plans-a-spectacular-telugu-pre-release-event/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/07/Ramayana-2.jpg",
+      "publishedAt": "2026-10-16T09:40:26.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Anticipation is building around the upcoming film Ramayana as the team outlines promotional strategies for the Telugu market. Reports indicate that a spectacular pre-release event is currently in the works for Telugu-speaking audiences.",
+        "Pre-release events have become a vital part of Indian cinema marketing, offering a platform for cast and crew to connect directly with fans. Organizing a large-scale gathering helps amplify visibility ahead of the theatrical rollout.",
+        "Further details regarding the exact dates, venue, and attending dignitaries for the Telugu pre-release event are expected to be announced by the makers soon."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130639/actor-sunil-to-play-a-powerful-lawyer-in-due-date.html",
+      "title": "Sunil Set to Portray an Impactful Lawyer in Upcoming Film Due Date",
+      "summary": "Versatile Indian actor Sunil has signed on for a compelling new role. He will be seen playing a powerful lawyer in the upcoming movie titled Due Date.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130639/actor-sunil-to-play-a-powerful-lawyer-in-due-date.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/actor-sunil-to-play-a-powerful-lawyer-in-due-date-1792143271835-1792143272661.jpg",
+      "publishedAt": "2026-10-16T09:34:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Versatile actor Sunil is expanding his filmography with an intense new character. He has been confirmed to play a powerful lawyer in the upcoming movie Due Date.",
+        "Known for his diverse acting capabilities, Sunil's casting in a dominant legal role introduces an interesting dynamic to the narrative of Due Date. Fans and trade analysts are eager to see how this character shapes the story.",
+        "Production details and further casting announcements for Due Date are anticipated as filming and promotional preparations continue to move forward."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130636/young-filmmakers-losing-their-track.html",
+      "title": "Discussion arises as young filmmakers face track issues",
+      "summary": "Recent discussions in the industry highlight concerns surrounding emerging directors and how young filmmakers are managing their paths. Industry observers note that newer creators are going out of control and losing their track.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130636/young-filmmakers-losing-their-track.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/young-filmmakers-losing-their-track-1792134644454-1792134644719.jpg",
+      "publishedAt": "2026-10-16T07:10:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Recent discussions in the Indian film community have brought attention to the changing approaches of emerging directors. Observers note that some newer creators are going out of control and losing their track as they navigate the industry.",
+        "While fresh voices bring new energy to cinema, maintaining a steady direction remains crucial for long-term success. These discussions highlight the challenges faced by new talent in balancing creative ambitions with practical execution.",
+        "As the industry evolves, stakeholders continue to watch how emerging creators adapt to these demands and steer their careers forward."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.gulte.com/photos/436654/rashmika-aced-every-promotional-look-on-stylish-note",
+      "title": "Rashmika Mandanna impresses with promotional style choices",
+      "summary": "Actor Rashmika Mandanna has caught attention for her distinct choices during promotional events. Reports highlight that she aced every promotional look on a stylish note.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/photos/436654/rashmika-aced-every-promotional-look-on-stylish-note",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Rashmika-Mandanna-1-e1792132901485.jpg",
+      "publishedAt": "2026-10-16T06:41:04.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Rashmika Mandanna has been making waves during her recent promotional appearances, drawing positive attention for her fashion choices. Observers noted that she aced every promotional look on a stylish note.",
+        "Star styling during promotional campaigns plays an important role in building buzz and connecting with fans. Her recent appearances have successfully captured public interest across platforms.",
+        "Such fashion moments continue to be a key talking point among cinema enthusiasts following current promotional trails."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436647/jailer-2-telugu-good-but-not-a-super-start",
+      "title": "Jailer 2 Telugu version opens with a good response",
+      "summary": "The Telugu version of Jailer 2 has begun its journey at the box office. Early assessments indicate a good start, though not quite a super start.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436647/jailer-2-telugu-good-but-not-a-super-start",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/jailer-2-.jpg",
+      "publishedAt": "2026-10-16T05:32:21.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Telugu version of Jailer 2 has officially commenced its box office run, drawing attention from trade circles and fans alike. Early tracking suggests that the film has registered a good start, though it has not reached a super start level.",
+        "Sequels to major projects often carry high expectations regarding opening day figures. The initial reception for this release sets the stage for its upcoming theatrical performance.",
+        "Industry analysts will continue to monitor how word-of-mouth impacts the film's trajectory in the coming days."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436613/balayya-rajini-chiru-this-cameraman-is-in-limelight",
+      "title": "Prominent cinematographer draws limelight working with Balayya, Rajini, and Chiru",
+      "summary": "A notable cameraman is currently generating significant buzz in the industry. The cinematographer has gained widespread attention for working with major stars like Balayya, Rajini, and Chiru.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436613/balayya-rajini-chiru-this-cameraman-is-in-limelight",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vijay-karthik-.jpg",
+      "publishedAt": "2026-10-16T04:54:23.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "A prominent cinematographer has captured the spotlight within the industry following notable collaborations. The cameraman is currently in the limelight for handling visual duties alongside major stars such as Balayya, Rajini, and Chiru.",
+        "Working with top-tier talent requires exceptional skill and technical expertise to match the screen presence of veteran actors. This recent attention highlights the critical role cinematographers play in shaping the visual identity of major projects.",
+        "Industry followers continue to acknowledge the contributions of key technical crew members who collaborate with cinema icons."
+      ],
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.123telugu.com/reviews/rajinikanths-jailer-2-telugu-movie-review.html",
-      "title": "Jailer 2 Telugu Movie Review: Mass Moments and Pacing Evaluated",
-      "summary": "The Telugu review for Jailer 2, starring Rajinikanth, notes that while the second half feels stretched, the film successfully compensates with engaging mass moments.",
+      "title": "Cineinsta Review: Jailer 2 Delivers Engaging Mass Moments Amid a Stretched Second Half",
+      "summary": "Rajinikanth's Jailer 2 Telugu version brings a mix of entertaining mass moments that help balance out a noticeably stretched second half, according to the latest film review.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/rajinikanths-jailer-2-telugu-movie-review.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/JAILER-1-1.webp",
-      "publishedAt": "2026-10-15T20:31:07.000Z",
+      "publishedAt": "2026-10-16T04:37:07.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Rajinikanth's high-profile project, Jailer 2, has arrived in theaters, prompting reviews regarding its pacing and performance-driven highlights. The film balances its narrative weight through targeted crowd-pleasing sequences.",
-        "According to the critique, the film features a stretched second half that tests the narrative momentum. However, this is counterbalanced by solid mass moments that deliver the expected cinematic punch for fans of the star.",
-        "As audiences continue to evaluate the sequel, the blend of strong commercial elements and structural pacing issues remains the primary talking point for viewers and reviewers alike."
+        "The latest Telugu release, Jailer 2 starring the iconic Rajinikanth, has hit the screens with much anticipation from moviegoers. Film evaluations indicate that the project relies heavily on its high-energy mass sequences to keep audiences hooked throughout its theatrical run.",
+        "While the film succeeds in delivering powerful mass moments that showcase the lead star's enduring appeal, critical feedback points out that the narrative experiences a stretched second half. This pacing shift creates a dip in momentum before the film reaches its conclusion.",
+        "Ultimately, Jailer 2 manages to hold viewer interest through its standout commercial elements. Fans of Rajinikanth will find plenty of entertaining highlights to enjoy, even as the overall pacing navigates a few uneven stretches in its latter half."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130632/ntr-back-in-dragon-sets.html",
+      "title": "NTR Returns to the Sets of Dragon",
+      "summary": "Actor NTR has officially resumed shooting for his upcoming project Dragon, getting back to work on the film's production sets as updates emerge from the sets.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130632/ntr-back-in-dragon-sets.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ntr-back-in-dragon-sets-1792122092872-1792122093148.jpg",
+      "publishedAt": "2026-10-16T03:41:36.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor NTR has officially made his return to the production sets of his upcoming cinematic project, Dragon. The update has generated fresh enthusiasm among fans eagerly following the film's progress.",
+        "With production back in full swing, the resumption of shooting marks an important phase for the team involved in bringing Dragon to life. Further details regarding the shooting schedule and upcoming production milestones are expected to follow as work continues.",
+        "The return of the lead actor to the sets underlines the steady momentum of the project, keeping cinephiles updated on its current production status."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.telugu360.com/ranabaali-movie-review/",
+      "title": "Cineinsta Review: Ranabaali Offers a Strong Story Hindered by Slow-Paced Narration",
+      "summary": "The newly reviewed film Ranabaali presents a compelling narrative foundation, though its slow-paced storytelling style impacts the overall viewing experience.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/ranabaali-movie-review/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ranabaali-Movie-Review.jpg",
+      "publishedAt": "2026-10-16T02:33:28.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Ranabaali has drawn attention for its distinct narrative approach following its recent film review rollout. The project is noted for possessing a genuinely strong story at its core, appealing to viewers who appreciate thematic depth.",
+        "However, the critique highlights that the film suffers from a slow-paced narration. This deliberate narrative rhythm affects how the plot unfolds on screen, creating a more measured viewing experience for audiences.",
+        "Despite the pacing hurdles, the underlying strength of the story provides a solid foundation. The film ultimately showcases a compelling premise that walks a fine line between its narrative ambitions and its execution speed."
+      ],
+      "editorial": "Cineinsta"
+    },
+    {
+      "id": "https://www.telugu360.com/crazy-kalyanam-movie-review/",
+      "title": "Cineinsta Review: Evaluating the Telugu Release Crazy Kalyanam",
+      "summary": "Crazy Kalyanam has received a formal film review and evaluation, offering audiences insights into what the new Telugu cinematic outing has to offer.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/crazy-kalyanam-movie-review/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Crazy-Kalyanam-movie-review.jpg",
+      "publishedAt": "2026-10-16T02:23:24.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The newly released film Crazy Kalyanam has become a subject of discussion following its recent review coverage. The project enters the cinematic space with specific elements designed to engage regional movie enthusiasts.",
+        "Reviews for films like Crazy Kalyanam help audiences gauge what to expect from the narrative, performances, and overall execution. Such evaluations provide a clear perspective on the cinematic quality of current releases.",
+        "As the film continues its run, reviews serve as a useful guide for viewers looking to explore the latest offerings in the regional entertainment landscape."
+      ],
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.123telugu.com/mnews/ramayana-new-trailer-namit-malhotra-team-raise-the-bar-for-indian-cinema-prp.html",
-      "title": "Ramayana New Trailer Raises Standards for Indian Cinema, Says Namit Malhotra and Team",
-      "summary": "Namit Malhotra and his production team have unveiled a new trailer for Ramayana, drawing attention for aiming to raise the overall benchmark for Indian cinematic output.",
+      "title": "Namit Malhotra and Team Set New Benchmarks for Indian Cinema with Ramayana",
+      "summary": "Namit Malhotra and his production team have captured attention with the latest trailer for Ramayana, setting higher standards for filmmaking and visual execution in Indian cinema.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ramayana-new-trailer-namit-malhotra-team-raise-the-bar-for-indian-cinema-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ramayana-3.webp",
@@ -49,17 +264,16 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The promotional campaign for Ramayana has taken a significant step forward with the release of a new trailer. Producer Namit Malhotra and the creative team are positioning the project as a major milestone for Indian cinema.",
-        "The newly dropped preview showcases ambitious visuals and technical execution designed to push the boundaries of regional and national storytelling. The team's collective efforts aim to set a higher standard for upcoming large-scale productions.",
-        "Anticipation around the project continues to grow as the promotional material highlights the scale and scope of the cinematic adaptation."
+        "The latest promotional material for the upcoming project Ramayana has generated significant discussion among film enthusiasts, with Namit Malhotra and his creative team drawing praise for pushing technical boundaries.",
+        "Industry observers note that the new trailer elevates the overall production standards associated with large-scale cinematic endeavors in India, signaling a strong focus on execution and visual presentation.",
+        "As anticipation continues to build around Ramayana, the recent developments highlight the team's ongoing efforts to deliver a high-caliber experience for audiences nationwide."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.cinejosh.com/news/1/130629/ranabaali-nani-surprises-virosh-thanks.html",
-      "title": "Ranabaali Update: Nani Delivers a Surprise as ViRosh Expresses Gratitude",
-      "summary": "Actor Nani surprised followers with unexpected support for Ranabaali, prompting a warm acknowledgment and thanks from ViRosh.",
+      "title": "Nani Extends Support to Ranabaali as ViRosh Express Gratitude",
+      "summary": "Actor Nani recently surprised the team of Ranabaali with his support, prompting expressions of gratitude from ViRosh for backing the project.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/130629/ranabaali-nani-surprises-virosh-thanks.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ranabaali-nani-surprises-virosh-thanks-1792084019333-1792084020282.jpg",
@@ -67,17 +281,16 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent developments surrounding the project Ranabaali have brought positive momentum, highlighted by a surprising show of support from actor Nani. Nani stepped forward to bat for the film, generating fresh buzz among moviegoers.",
-        "Following the unexpected backing, ViRosh extended their thanks and appreciation for the support. This exchange has added to the conversational momentum surrounding the title on digital and media platforms.",
-        "Collaborative backing within the film fraternity continues to play a vital role in amplifying visibility for ongoing projects."
+        "The team behind Ranabaali received an unexpected boost when actor Nani extended his support to the movie. The development created positive buzz around the production, highlighting industry camaraderie.",
+        "Following Nani's gesture, ViRosh conveyed their thanks, acknowledging the significance of the backing from a prominent industry figure.",
+        "Such collaborative moments continue to generate enthusiastic conversations among movie buffs and supporters of the project."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.telugu360.com/sreeleelas-long-delayed-hindi-film-gets-release-date/",
-      "title": "Sreeleela's Long-Awaited Hindi Cinema Venture Finally Locks Release Date",
-      "summary": "Actor Sreeleela's much-delayed Hindi movie project has officially secured a designated release schedule. Fans tracking the actor's pan-Indian trajectory can look forward to seeing her grace the Hindi cinema screen following this scheduling update.",
+      "title": "Sreeleela's Long-Awaited Hindi Project Locks Official Release Date",
+      "summary": "Sreeleela's much-anticipated Hindi cinematic venture has officially secured a release date, ending a prolonged period of delay for fans waiting to see her in the film.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/sreeleelas-long-delayed-hindi-film-gets-release-date/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Kartik-Aaryan-and-sree-leela-movie.jpg",
@@ -85,17 +298,16 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Sreeleela has experienced a significant update regarding her upcoming cinematic ventures, as her long-delayed Hindi film project finally receives an official release date.",
-        "The project, which has faced multiple delays during its production and scheduling lifecycle, marks a notable milestone for the actor as she transitions into Hindi cinema projects.",
-        "With the release date now officially locked, audiences and fans await further promotional updates regarding the film's theatrical arrival."
+        "The long-delayed Hindi feature starring Sreeleela has finally received an official theatrical or platform arrival schedule, offering relief to followers who have awaited updates on the project for an extended duration.",
+        "Delays in production or release schedules often build considerable curiosity, and the announcement of a definitive date marks a major step forward for the movie's promotional journey.",
+        "With the release timeline now locked, the film is expected to kick off its formal marketing campaigns soon to reach wider audiences."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://telugucinema.com/news/rc17-sara-arjun-confirmed-as-ram-charans-female-pair",
-      "title": "Sara Arjun Locked as Female Lead Opposite Ram Charan in RC17",
-      "summary": "The highly anticipated Telugu film tentatively titled RC17 has finalized its leading lady. Sara Arjun has been officially confirmed to star alongside actor Ram Charan in this major cinematic venture.",
+      "title": "Sara Arjun Confirmed as Ram Charan's Co-Star in RC17",
+      "summary": "Casting updates for RC17 confirm that Sara Arjun will star alongside Ram Charan as his leading female pair in the highly anticipated film.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/rc17-sara-arjun-confirmed-as-ram-charans-female-pair",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/saraarjun-sep1526.jpg",
@@ -103,35 +315,32 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Casting updates for the upcoming high-profile Telugu film RC17 have officially revealed the female lead. Actor Sara Arjun has been confirmed to share the screen with Ram Charan as his female pair.",
-        "The project has generated considerable industry interest due to its star-studded pairing. The inclusion of Sara Arjun opposite Ram Charan establishes a fresh dynamic for the film's narrative.",
-        "Further updates concerning the production schedule and additional cast members for RC17 are anticipated as filming progresses."
+        "Exciting casting news has emerged regarding the project temporarily titled RC17, with confirmation that Sara Arjun has been locked in to share the screen with Ram Charan.",
+        "The pairing of Ram Charan and Sara Arjun brings a fresh combination to the screen, sparking substantial interest among cinema followers tracking the film's pre-production progress.",
+        "As the core cast solidifies, expectations continue to rise for what the collaborative team will bring to this major cinematic venture."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
-      "id": "https://www.gulte.com/movienews/436589/a-big-day-for-vijay-deverakonda",
-      "title": "A Significant Milestone Unfolds for Vijay Deverakonda",
-      "summary": "Popular actor Vijay Deverakonda is currently experiencing a notable and important milestone in his career. Industry updates highlight the day as a major occasion for the Telugu cinema star.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/436589/a-big-day-for-vijay-deverakonda",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/07/ranabaali-vdk.jpg",
-      "publishedAt": "2026-10-15T15:05:00.000Z",
+      "id": "https://www.123telugu.com/mnews/nanis-special-message-for-ranabaali-team-is-all-heart-prp.html",
+      "title": "Nani Extends Warm Wishes to the Ranabaali Team",
+      "summary": "Actor Nani has shared a heartfelt special message dedicated to the entire team of Ranabaali. Cinephiles are taking note of this encouraging gesture from the prominent actor as anticipation builds around the project.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/nanis-special-message-for-ranabaali-team-is-all-heart-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ranabaali-8.webp",
+      "publishedAt": "2026-10-15T14:30:07.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular film star Vijay Deverakonda finds himself at the center of attention following significant updates concerning his professional journey. The occasion marks a prominent development for the actor.",
-        "While specific project details tied to the milestone continue to attract attention, supporters and followers are actively tracking the actor's latest career movements.",
-        "Such key moments underscore Vijay Deverakonda's ongoing influence and steady presence within the Indian film industry."
+        "Tollywood actor Nani has caught the attention of film enthusiasts by sending a special and heartfelt message to the team behind the upcoming project Ranabaali. Known for supporting fellow cinema artists and new ventures, Nani's encouraging words have added a positive spotlight to the movie.",
+        "While specific plot details and release schedules remain under wraps, endorsements of this nature often generate considerable goodwill among fans and industry trackers alike. The cast and crew of Ranabaali will undoubtedly appreciate the backing from a prominent industry figure as they progress with their cinematic journey."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.cinejosh.com/news/3/130628/one-project-too-much-time-a-hero-s-career-dilemma.html",
-      "title": "Navigating Career Bottlenecks: The Complex Reality of Extended Big-Budget Shoots",
-      "summary": "A young hero's career path highlights the hidden pitfalls of committing excessive time to a single big-budget production. Industry discussions point toward the mounting pressure and scheduling dilemmas caused by prolonged project timelines.",
+      "title": "Career Challenges Loom as Young Hero Navigates a Lengthy Big-Budget Project",
+      "summary": "A young hero in the industry is reportedly facing a career dilemma as a single big-budget film consumes a massive amount of production time. Industry observers are discussing the potential risks and strategic hurdles of tying up an actor's schedule for too long on one project.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/3/130628/one-project-too-much-time-a-hero-s-career-dilemma.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/one-project-too-much-time-a-hero-s-career-dilemma-1792072024963-1792072027043.jpg",
@@ -139,17 +348,15 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The realities of modern filmmaking often bring unique challenges for rising stars, particularly when a single high-profile production consumes an inordinate amount of time. Industry reports highlight how a young hero's career trajectory has encountered a bottleneck due to an extended big-budget film commitment.",
-        "When a massive project undergoes prolonged scheduling stretches, it frequently restricts the actor from signing alternative ventures or maintaining steady momentum in the public eye. This career dilemma underlines the delicate balance actors must strike between investing in large-scale cinematic spectacles and sustaining regular project flow.",
-        "Ultimately, while multi-year big-budget endeavors aim for grand cinematic impact, they carry inherent risks for rising talent navigating the fast-paced demands of contemporary cinema."
+        "Young heroes in the Indian film industry often find themselves at a crucial crossroads when choosing to commit to massive, big-budget productions. Recent industry discussions point to a growing career dilemma where a single project requires an unexpectedly excessive amount of time to complete.",
+        "While high-profile films promise scale and cinematic spectacle, extended production timelines can pose significant challenges for an actor's market momentum. Balancing a time-consuming venture with future career opportunities remains a delicate task for rising stars navigating the competitive landscape."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://telugucinema.com/news/sreeleelas-bollywood-debut-film-set-for-april-2027-release",
-      "title": "Sreeleela Prepares for Her Big Bollywood Entry in April 2027",
-      "summary": "Actor Sreeleela is officially heading to the Hindi film industry, with her debut project locked in for an April 2027 theatrical release. This upcoming cinematic venture marks an important step in her growing acting career as she expands beyond regional cinema.",
+      "title": "Sreeleela Locks April 2027 for Her Highly Anticipated Bollywood Debut",
+      "summary": "Actress Sreeleela is officially heading to the Hindi film industry, with her debut Bollywood project slated for an April 2027 release. Fans are eagerly awaiting this major career milestone as she prepares to expand her cinematic reach.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/sreeleelas-bollywood-debut-film-set-for-april-2027-release",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/sreeleelamarriage-sep2726.jpg",
@@ -157,17 +364,15 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Sreeleela is set to make her entry into Bollywood, as her debut Hindi film has been scheduled for a theatrical release in April 2027. This development marks a major milestone in the actor's career as she transitions into the Hindi film industry.",
-        "While specific details regarding the plot, director, and co-stars remain under wraps, the confirmed release window has generated significant excitement among fans. Sreeleela's expanding career path highlights her increasing reach across different film industries.",
-        "As April 2027 approaches, audiences and movie enthusiasts eagerly await further announcements, promotional material, and official trailers regarding this much-anticipated debut project."
+        "Talented actress Sreeleela is officially expanding her horizons into the Hindi film industry, with her debut Bollywood project locked in for an April 2027 theatrical release. This upcoming venture marks a significant milestone in the actor's growing entertainment career.",
+        "As production ramps up toward the scheduled release window, moviegoers and industry analysts are keeping a close eye on Sreeleela's transition to a broader national stage. The April 2027 timeline gives the creative team ample opportunity to craft a grand cinematic introduction for the star."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.gulte.com/movienews/436569/vrushakarma-poster-chay-gearing-up-for-thrilling-ride",
-      "title": "Chay Prepares for a Thrilling Cinematic Ride with Vrushakarma Poster Launch",
-      "summary": "Actor Chay is gearing up for a thrilling cinematic experience, highlighted by the release of a new poster for 'Vrushakarma'. The promotional material hints at an engaging and exciting project ahead for the actor.",
+      "title": "Naga Chaitanya Gears Up For Thrilling Ride In Vrushakarma",
+      "summary": "Naga Chaitanya is getting ready for a thrilling cinematic experience with his upcoming project, Vrushakarma. A fresh poster has been released, building anticipation for the actor's latest venture.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/436569/vrushakarma-poster-chay-gearing-up-for-thrilling-ride",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-16.03.12-scaled.jpeg",
@@ -175,17 +380,15 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Chay is gearing up for an exciting new cinematic journey as promotional materials for his upcoming project continue to build anticipation. The recently revealed poster for 'Vrushakarma' suggests that the actor is preparing for a thrilling ride on screen.",
-        "The newly released poster has caught the attention of moviegoers and fans alike, offering a glimpse into the tone of the upcoming feature. Such promotional reveals are crucial in setting the mood and expectations for the film's genre.",
-        "As production and promotions move forward, audiences can look forward to more updates regarding 'Vrushakarma' and its theatrical trajectory."
+        "Actor Naga Chaitanya is gearing up for a thrilling cinematic journey with his upcoming project, Vrushakarma. The film has drawn significant attention as the actor prepares to deliver an engaging experience for audiences.",
+        "A newly released poster for Vrushakarma has given fans a glimpse of what to expect, highlighting an exciting tone for the movie. The promotional material sets the stage for the actor's upcoming venture as anticipation builds among followers of Telugu cinema."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.telugu360.com/ntr-back-to-the-sets-of-dragon/",
-      "title": "NTR Returns to the Shooting Sets of 'Dragon'",
-      "summary": "Actor NTR has officially resumed shooting for his upcoming film 'Dragon'. Returning to the sets, the actor is actively participating in the ongoing production schedule of the movie.",
+      "title": "NTR Returns To The Sets Of Dragon",
+      "summary": "Actor NTR is back at work, resuming shooting for his upcoming film Dragon. Fans and cinephiles are closely following updates as production moves forward on the much-discussed project.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/ntr-back-to-the-sets-of-dragon/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/05/Dragon-1.jpg",
@@ -193,17 +396,15 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor NTR has officially returned to the working sets of his upcoming film, 'Dragon'. The resumption of shooting marks an active phase in the production cycle of the movie.",
-        "Fans and film enthusiasts have been following the progress of 'Dragon' closely. With NTR back on set, production is expected to move forward swiftly through its current filming schedule.",
-        "Further updates concerning the schedule, cast, and eventual release details of 'Dragon' are expected as production continues."
+        "Actor NTR has officially returned to the shooting floors for his upcoming cinematic venture, Dragon. The resumption of production marks another key phase in the making of the film, keeping enthusiasts updated on its progress.",
+        "With production underway, the return of the leading man to the sets signifies steady momentum for Dragon. Followers of the star can look forward to more production updates as the schedule continues."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://telugucinema.com/news/vrushakarma-50-days-to-go-promotions-set-to-begin-for-naga-chaitanyas-film",
-      "title": "Naga Chaitanya's Vrushakarma Nears 50-Day Milestone as Promotional Campaign Begins",
-      "summary": "As Vrushakarma marks 50 days until its scheduled arrival, promotional activities for Naga Chaitanya's upcoming cinematic project are officially underway.",
+      "title": "Fifty Days To Go: Promotions Roll Out For Naga Chaitanya's Vrushakarma",
+      "summary": "With exactly fifty days remaining until release, promotional activities are officially kicking off for Naga Chaitanya's upcoming film Vrushakarma. Fans can anticipate a steady stream of promotional content as the countdown begins.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/vrushakarma-50-days-to-go-promotions-set-to-begin-for-naga-chaitanyas-film",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/vrushakarma-oct1526.jpg",
@@ -211,33 +412,15 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The promotional campaign for actor Naga Chaitanya's upcoming movie Vrushakarma has officially kicked off. With the release date now fifty days away, the team behind the project is ramping up its public outreach to build anticipation among fans and moviegoers.",
-        "As the countdown continues, audiences can expect a steady stream of promotional material and updates regarding Vrushakarma. The upcoming weeks will serve as a crucial period for the film's rollout in the Telugu cinema market as it heads toward its scheduled premiere."
+        "The promotional campaign for Naga Chaitanya's upcoming film Vrushakarma is officially set to begin. With exactly fifty days remaining until the movie hits the big screen, the makers are ramping up their outreach to build momentum.",
+        "As the countdown narrows down to the fifty-day mark, followers of the project can expect a steady rollout of promotional material. This upcoming phase aims to heighten excitement and engage audiences ahead of the theatrical debut."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/436562/sukumar-locked-ram-charan-for-the-next-3-years",
-      "title": "Reports Suggest Sukumar Has Locked Ram Charan for a Three-Year Commitment",
-      "summary": "Recent developments indicate a major collaboration between director Sukumar and actor Ram Charan spanning the next three years.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/436562/sukumar-locked-ram-charan-for-the-next-3-years",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/10/rc17-.jpg",
-      "publishedAt": "2026-10-15T11:34:51.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Speculation and reports have emerged indicating that filmmaker Sukumar has locked actor Ram Charan for a commitment spanning the next three years. The potential multi-year association has drawn significant attention across the film industry.",
-        "While full details regarding the nature of the project or projects remain under wraps, the reported timeline suggests a long-term collaborative plan between the prominent director and star actor."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.123telugu.com/mnews/new-poster-of-naga-chaitanya-from-vrushakarma-looks-striking-prp.html",
-      "title": "Striking New Poster Unveiled for Naga Chaitanya's Vrushakarma",
-      "summary": "A fresh promotional poster featuring Naga Chaitanya in Vrushakarma has been released, offering a striking new look at the project.",
+      "title": "Striking New Poster of Naga Chaitanya Unveiled for Vrushakarma",
+      "summary": "A brand new promotional poster featuring actor Naga Chaitanya from the upcoming film Vrushakarma has been released, capturing significant attention with its striking look.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/new-poster-of-naga-chaitanya-from-vrushakarma-looks-striking-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Vrushakarma-1.webp",
@@ -245,16 +428,15 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "A brand new promotional poster for Vrushakarma featuring actor Naga Chaitanya has been revealed to the public. The striking visual presents a fresh look at the star in his upcoming cinematic venture.",
-        "The unveiling of the poster adds to the growing visual materials being shared as the film builds momentum toward its scheduled release date."
+        "The makers of the upcoming Indian cinema project Vrushakarma have revealed a fresh promotional poster showcasing lead actor Naga Chaitanya. The newly released visual presents a striking appearance that has quickly generated buzz among film enthusiasts and followers of Telugu cinema.",
+        "Promotional materials like this poster play an essential role in building anticipation for upcoming releases by offering audiences a glimpse into the aesthetic and tone of the production. As details continue to emerge regarding Vrushakarma, this latest reveal keeps the spotlight firmly on Naga Chaitanya's involvement in the project."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     },
     {
       "id": "https://www.telugu360.com/naga-chaitanyas-vrushakarma-confirms-release-date/",
-      "title": "Official Release Date Confirmed for Naga Chaitanya Starrer Vrushakarma",
-      "summary": "The makers of Naga Chaitanya's Vrushakarma have officially locked and confirmed the release date for the upcoming Telugu film.",
+      "title": "Release Date Officially Confirmed for Naga Chaitanya Starrer Vrushakarma",
+      "summary": "The official release date for Naga Chaitanya's upcoming movie Vrushakarma has been locked and confirmed, giving fans a definitive timeline for the cinematic arrival.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/naga-chaitanyas-vrushakarma-confirms-release-date/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Naga-Chaitanyas-Vrushakarma-confirms-release-date.jpg",
@@ -262,208 +444,40 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The official release date for Naga Chaitanya's upcoming movie Vrushakarma has been officially locked and confirmed. This announcement gives eager fans and trade analysts a concrete timeline for the project's arrival in theaters.",
-        "With the release schedule now formalized alongside ongoing promotional activities, Vrushakarma is steadily positioning itself for its upcoming theatrical run."
+        "The release schedule for the upcoming film Vrushakarma, starring Naga Chaitanya, has been officially confirmed. This important update provides clarity for moviegoers and industry observers eagerly anticipating the film's theatrical or platform debut.",
+        "With the release date now locked in, the project moves forward into its crucial final phases of promotion and planning. Such announcements help structure the competitive calendar for upcoming releases in the Indian film landscape."
       ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/sreeleelas-bollywood-debut-film-also-starring-kartik-aaryan-locks-release-date-prp.html",
-      "title": "Sreeleela's Bollywood Debut Alongside Kartik Aaryan Locks Official Release Date",
-      "summary": "Actor Sreeleela is officially heading to Bollywood, securing a release date for her upcoming Hindi film featuring Kartik Aaryan. The announcement marks an important milestone as she steps into the Hindi film industry.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/sreeleelas-bollywood-debut-film-also-starring-kartik-aaryan-locks-release-date-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Sreeleel.webp",
-      "publishedAt": "2026-10-15T10:35:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Sreeleela is set to make her entry into Bollywood with a newly dated project that pairs her alongside actor Kartik Aaryan. The development has officially locked in the film's release timeline, generating excitement among fans awaiting her Hindi cinema debut.",
-        "While details surrounding the plot remain limited, the collaboration between Sreeleela and Kartik Aaryan highlights a fresh casting pairing for the upcoming Hindi feature. As Sreeleela transitions into Bollywood, this project marks a significant step in her expanding career across film industries."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://telugucinema.com/news/ntr-resumes-shooting-for-dragon-after-three-month-break",
-      "title": "NTR Back on Set: Actor Resumes Shooting for 'Dragon' After Three-Month Hiatus",
-      "summary": "Actor NTR has officially returned to the sets of his upcoming film 'Dragon' following a three-month break. Fans and film enthusiasts can now look forward to steady updates as production picks up pace once again.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/ntr-resumes-shooting-for-dragon-after-three-month-break",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/09/ntr-sep3026.jpg",
-      "publishedAt": "2026-10-15T09:40:49.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor NTR has officially resumed filming for his highly anticipated project, 'Dragon'. The return to the sets follows a three-month break from shooting schedules for the star.",
-        "With production back in motion, the team is set to move forward with the remaining portions of the film. The resumption of work on 'Dragon' brings fresh momentum to the project's production timeline."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://telugucinema.com/news/aadarsha-kutumbam-the-team-is-still-considering-its-options-for-release-date",
-      "title": "Makers of Aadarsha Kutumbam Evaluating Potential Release Dates",
-      "summary": "The creative team behind Aadarsha Kutumbam is currently weighing multiple options regarding the film's official theatrical premiere. Discussions are ongoing as producers look for the most suitable window to bring the movie to audiences.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/aadarsha-kutumbam-the-team-is-still-considering-its-options-for-release-date",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/07/venkateshaadarshakutumbam-july2726.jpg",
-      "publishedAt": "2026-10-15T08:31:02.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The makers of the upcoming Telugu cinema project Aadarsha Kutumbam have not yet finalized a definite theatrical schedule. According to the latest updates, the film's team is actively exploring various calendar options to determine the best possible premiere window.",
-        "As discussions continue behind the scenes, fans and industry observers are keeping a close eye on further announcements from the production camp. Deciding on an optimal release date remains a crucial step for the team as they prepare the project for its eventual audience rollout."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://telugucinema.com/news/sdt19-sai-durgha-tej-to-star-in-anil-sunkaras-production-film-announced",
-      "title": "Sai Durgha Tej Locks SDT19 Under Anil Sunkara's Production Banner",
-      "summary": "Actor Sai Durgha Tej has officially signed his next feature, temporarily titled SDT19. The upcoming venture will be backed by producer Anil Sunkara, marking an exciting new collaboration in the Telugu film industry.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/sdt19-sai-durgha-tej-to-star-in-anil-sunkaras-production-film-announced",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/sdt-akentertainments-oct1526.jpg",
-      "publishedAt": "2026-10-15T08:03:33.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Sai Durgha Tej is officially moving forward with his next cinematic venture, currently designated as SDT19. The project has been formally announced, generating considerable interest among fans of the actor.",
-        "Adding further weight to the production, the film will be produced by Anil Sunkara. Further details regarding the remaining cast, crew, and filming schedules are expected to be unveiled by the makers in due course."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/3/130620/allu-arjun-in-love-with-kollywood-filmmakers.html",
-      "title": "Icon Star Allu Arjun Expresses Admiration for Kollywood Directors",
-      "summary": "Popular Telugu star Allu Arjun has drawn attention for his appreciation of Kollywood filmmakers. The actor's reported fondness for Tamil cinema creators highlights the growing creative exchange across southern film industries.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/3/130620/allu-arjun-in-love-with-kollywood-filmmakers.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/allu-arjun-in-love-with-kollywood-filmmakers-1792047929741-1792047930320.jpg",
-      "publishedAt": "2026-10-15T07:05:34.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Tollywood actor Allu Arjun has reportedly expressed an affinity for Kollywood filmmakers. Known widely as the Icon Star, his admiration for directors from the Tamil film industry points toward potential cross-industry appreciation and creative camaraderie.",
-        "Such artistic exchanges frequently fuel speculation among moviegoers regarding future pan-Indian collaborations. As discussions around multi-industry projects continue to grow, interactions between leading actors and regional directors remain a hot topic of interest."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/436547/sundeep-kishans-karikaala-journey-begins",
-      "title": "Sundeep Kishan Officially Commences Journey on Karikaala",
-      "summary": "Actor Sundeep Kishan has officially embarked on his upcoming cinematic outing titled Karikaala. The journey for the new project has begun, setting the stage for further updates from the film's production unit.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/436547/sundeep-kishans-karikaala-journey-begins",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Sundeep-Kishans-Karikaala.jpeg",
-      "publishedAt": "2026-10-15T06:30:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Sundeep Kishan has officially kicked off work on his new cinematic venture, Karikaala. The commencement of this journey marks an important milestone for the actor and the creative team involved in bringing the project to life.",
-        "With the journey officially underway, movie enthusiasts can anticipate more announcements concerning the film's production milestones, cast additions, and promotional materials in the near future."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/3/130617/chiranjeevi-multiplex-plans-in-ap.html",
-      "title": "Mega Star Chiranjeevi Eyes Multiplex Expansion in Andhra Pradesh",
-      "summary": "Tollywood icon Chiranjeevi is reportedly moving forward with strategic plans to establish multiplex cinema infrastructure within Andhra Pradesh, expanding his footprint in the exhibition sector.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/3/130617/chiranjeevi-multiplex-plans-in-ap.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-multiplex-plans-in-ap-1792039153077-1792039153615.jpg",
-      "publishedAt": "2026-10-15T04:39:16.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Megastar Chiranjeevi is expanding his business horizons within the Telugu film industry by venturing into the exhibition sector. Recent updates indicate that the veteran actor has active plans underway to establish multiplex facilities in Andhra Pradesh.",
-        "While specific timelines and locations remain under wraps, this strategic push into multiplex infrastructure highlights a growing trend of leading Tollywood stars investing directly in the theatrical distribution and exhibition framework of the region."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.telugu360.com/november-and-december-packed-with-releases-2026/",
-      "title": "Telugu Cinema Gears Up for a Heavy Lineup of November and December Releases",
-      "summary": "The final two months of the year are bringing a dense schedule of cinematic releases to the Telugu film industry, promising a busy season for moviegoers and trade analysts alike.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/november-and-december-packed-with-releases-2026/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/NBK-Dada-Ramayana.jpg",
-      "publishedAt": "2026-10-15T04:01:27.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The upcoming months of November and December are set to witness a dense wave of new cinematic arrivals in the Telugu film industry. Industry trackers note that the slate is heavily packed with multiple titles competing for box office attention during this late-year window.",
-        "This crowded scheduling indicates a robust finish to the exhibition calendar as filmmakers look to secure preferred dates before the year concludes. Audiences and trade circles can anticipate a busy period of theatrical screenings through November and December."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.telugu360.com/when-will-pawan-kalyan-return-back-to-films-og-sequel/",
-      "title": "Anticipation Mounts Over Pawan Kalyan's Return to the Silver Screen",
-      "summary": "Questions and discussions continue to circulate within Tollywood regarding when prominent actor and political figure Pawan Kalyan will resume his acting commitments.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/when-will-pawan-kalyan-return-back-to-films-og-sequel/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2025/08/Pawan-Kalyan-OG.jpg",
-      "publishedAt": "2026-10-15T02:52:33.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Curiosity remains high across the Telugu cinema community regarding the timeline for Pawan Kalyan's return to active filmmaking. Fans and industry observers have been tracking updates on when the prominent actor-politician will step back in front of the camera.",
-        "As discussions surrounding his future film projects persist, the exact schedule for his comeback to active shooting schedules continues to be a major talking point among cinema enthusiasts."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/all-eyes-on-ramayanas-new-trailer-hk.html",
-      "title": "Anticipation Builds for the Upcoming Trailer of Ramayana",
-      "summary": "Cinephiles and film enthusiasts are eagerly turning their attention toward the release of the upcoming trailer for Ramayana, generating significant buzz across the entertainment landscape.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/all-eyes-on-ramayanas-new-trailer-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ramayana-part-1.webp",
-      "publishedAt": "2026-10-15T01:30:36.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Excitement is steadily building within the cinematic community as attention shifts toward the forthcoming trailer release for Ramayana. Followers and movie enthusiasts are keeping a close watch for the promotional material as anticipation continues to mount.",
-        "As discussions surrounding the project grow, the impending trailer is expected to offer a closer look at the film's presentation and scope. Cinephiles eagerly await further promotional updates as the rollout progresses."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://indiaglitz.com/sunil-as-powerful-lawyer-in-due-date-shooting-progresses-at-a-brisk-pace",
-      "title": "Sunil Set to Play a Powerful Lawyer in ‘Due Date’ as Production Moves Rapidly",
-      "summary": "Actor Sunil is taking on a powerful lawyer role in the upcoming film 'Due Date', with production currently progressing at a fast and steady pace.",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/sunil-as-powerful-lawyer-in-due-date-shooting-progresses-at-a-brisk-pace",
-      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/10/sunil-as-lawyer.jpg",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Sunil is gearing up for a compelling new cinematic outing, stepping into the shoes of a powerful lawyer in the upcoming film titled 'Due Date'. The project is currently drawing attention for its active production schedule.",
-        "According to the latest updates, the shooting for 'Due Date' is progressing at a brisk pace. The makers are moving swiftly through the production phases to bring the feature to life on the big screen."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
+      "editorial": "Cineinsta"
     }
   ],
   "trailers": [
     {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
+      "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ramayana-rise-of-a-legend-hindi-trailer-2-features-new-voiceover-for-yash-as-ravana-alongside-ranbir-kapoor-as-lord-ram-netizens-praise-improved-visuals-and-fight-sequence-watch/articleshow/134992957.cms",
+      "title": "‘Ramayana Rise of a Legend’ NEW Hindi trailer features new voiceover for Yash as Ravana alongside Ranbir Kapoor as Lord Ram, netizens praise improved visuals and fight sequence - Watch",
       "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ramayana-rise-of-a-legend-hindi-trailer-2-features-new-voiceover-for-yash-as-ravana-alongside-ranbir-kapoor-as-lord-ram-netizens-praise-improved-visuals-and-fight-sequence-watch/articleshow/134992957.cms",
+      "img": "https://static.toiimg.com/thumb/msid-134993269,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/ramayana-official-hindi-trailer/videoshow/134983727.cms",
+      "title": "Ramayana: Rise Of A Legend - Official Hindi Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/ramayana-official-hindi-trailer/videoshow/134983727.cms",
+      "img": "https://static.toiimg.com/thumb/msid-134983727,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://indiaglitz.com/ramayana-trailer-ranbir-kapoor-as-lord-rama-and-yash-as-ravana-impress-in-powerful-posters",
+      "title": "Ramayana Trailer : Ranbir Kapoor as Lord Rama and Yash as Ravana Impress in Powerful Posters",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/ramayana-trailer-ranbir-kapoor-as-lord-rama-and-yash-as-ravana-impress-in-powerful-posters",
+      "img": "https://i.ytimg.com/vi/Wo3__JUisj8/hqdefault.jpg",
+      "youtubeId": "Wo3__JUisj8",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -518,13 +532,13 @@
       "language": "Telugu"
     },
     {
-      "id": "https://telugu.indiaglitz.com/movie-news/comrade-kalyan-trailer-gets-a-sensational-response-a-one-man-show-by-sree-vishnu",
-      "title": "‘కామ్రేడ్ కళ్యాణ్’ ట్రైలర్‌కు అదిరిపోయే రెస్పాన్స్.. శ్రీ విష్ణు వన్ మ్యాన్ షో",
+      "id": "https://telugu.indiaglitz.com/movie-news/ranabaali-trailer-trailer-on-october-8-makers-clarify-ticket-prices",
+      "title": "Ranabaali Trailer: అక్టోబర్ 8న ట్రైలర్.. టికెట్ ధరలపై మేకర్స్ క్లారిటీ",
       "source": "IndiaGlitz Telugu",
-      "url": "https://telugu.indiaglitz.com/movie-news/comrade-kalyan-trailer-gets-a-sensational-response-a-one-man-show-by-sree-vishnu",
-      "img": "https://i.ytimg.com/vi/QTz5PqZspEs/hqdefault.jpg",
-      "youtubeId": "QTz5PqZspEs",
-      "publishedAt": "2026-10-06T13:36:01.000Z",
+      "url": "https://telugu.indiaglitz.com/movie-news/ranabaali-trailer-trailer-on-october-8-makers-clarify-ticket-prices",
+      "img": "https://i0.wp.com/telugu.indiaglitz.com/wp-content/uploads/2026/10/ranabaali-ticket-price-1.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-10-07T04:05:26.000Z",
       "language": "Telugu"
     },
     {
@@ -556,37 +570,105 @@
       "youtubeId": "",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
-      "title": "Ebenezer - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134637439,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "title": "Nayyi Navelli - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134597149,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "language": "Telugu"
     }
   ],
   "reviews": [
+    {
+      "t": "Ranabaali",
+      "l": "Telugu",
+      "releaseDate": "2026-10-16",
+      "rating": "2.38/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/09/ranabaali-endayya-sami-1.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.greatandhra.com/movies/reviews/#site-content-contain",
+      "aggregator": {
+        "average": 2.38,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.greatandhra.com/movies/reviews/#site-content-contain"
+          },
+          {
+            "source": "Gulte",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.gulte.com/moviereviews/436604/ranabaali-review"
+          },
+          {
+            "source": "M9.news",
+            "rating": 2,
+            "ratingText": "2/5",
+            "url": "https://www.m9.news/reviews/ranabaali-movie-review-rating/"
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Crazy Kalyanam",
+      "l": "Telugu",
+      "releaseDate": "2026-10-16",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/crazy-kalyanam-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/crazy-kalyanam-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
     {
       "t": "Jailer 2",
       "l": "Telugu",
       "releaseDate": "2026-10-15",
       "rating": "2.75/5",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Jailer-2.jpeg",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/jailer2_2.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.greatandhra.com/movies/reviews/#site-content-contain",
+      "u": "https://www.greatandhra.com/movies/reviews/jailer-2-review-a-fun-first-half-a-predictable-second-half/",
       "aggregator": {
         "average": 2.75,
         "sources": [
@@ -594,7 +676,7 @@
             "source": "GreatAndhra",
             "rating": 2.75,
             "ratingText": "2.75/5",
-            "url": "https://www.greatandhra.com/movies/reviews/#site-content-contain"
+            "url": "https://www.greatandhra.com/movies/reviews/jailer-2-review-a-fun-first-half-a-predictable-second-half/"
           },
           {
             "source": "Gulte",
@@ -1240,94 +1322,6 @@
       }
     },
     {
-      "t": "Lust Stories 3",
-      "l": "Telugu",
-      "releaseDate": "2026-09-18",
-      "rating": "2.75/5",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Lust-Stories-3.webp",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.123telugu.com/reviews/lust-stories-3-ott-movie-review-and-rating.html",
-      "aggregator": {
-        "average": 2.75,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/lust-stories-3-ott-movie-review-and-rating.html"
-          }
-        ]
-      }
-    },
-    {
-      "t": "Missing Meghana",
-      "l": "Telugu",
-      "releaseDate": "2026-09-18",
-      "rating": "2.5/5",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Missing-Meghana.webp",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.123telugu.com/reviews/missing-meghana-movie-review-and-rating.html",
-      "aggregator": {
-        "average": 2.5,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.123telugu.com/reviews/missing-meghana-movie-review-and-rating.html"
-          }
-        ]
-      }
-    },
-    {
       "t": "Mahendragiri Varahi",
       "l": "Telugu",
       "releaseDate": "2026-09-11",
@@ -1522,9 +1516,9 @@
           },
           {
             "source": "Gulte",
-            "rating": 2,
-            "ratingText": "2/5",
-            "url": "https://www.gulte.com/moviereviews/429825/ramba-oorvashi-menaka-review"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           },
           {
             "source": "M9.news",
@@ -1768,50 +1762,6 @@
       }
     },
     {
-      "t": "Vishwanath and Sons",
-      "l": "Telugu",
-      "releaseDate": "2026-08-14",
-      "rating": "2.75/5",
-      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/06/viswanathamandsons4.jpg",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.greatandhra.com/movies/reviews/vishwanath-and-sons-review-feel-good-but-uneven-entertainer/",
-      "aggregator": {
-        "average": 2.75,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.greatandhra.com/movies/reviews/vishwanath-and-sons-review-feel-good-but-uneven-entertainer/"
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
       "t": "Drishyam: The Conclusion",
       "l": "Telugu",
       "releaseDate": null,
@@ -1895,50 +1845,6 @@
             "rating": 3,
             "ratingText": "3/5",
             "url": "https://www.123telugu.com/reviews/hanuman-ansh-telugu-movie-review-and-rating.html"
-          }
-        ]
-      }
-    },
-    {
-      "t": "Ranabaali",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/ranabaali-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/ranabaali-movie-review-rating/"
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
           }
         ]
       }
@@ -2207,7 +2113,5 @@
         ]
       }
     }
-  ],
-  "generatedAt": "2026-10-16T00:20:56.304Z",
-  "reviewStatus": "auto-approved"
+  ]
 }
