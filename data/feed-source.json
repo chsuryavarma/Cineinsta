@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T18:24:39.036Z",
+  "updatedAt": "2026-10-16T00:20:10.483Z",
   "language": "Telugu",
   "news": [
     {
@@ -9,7 +9,7 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/the-traitors-telugu-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/The-Traitors-Telugu.webp",
-      "publishedAt": "2026-10-15T17:52:06.000Z",
+      "publishedAt": "2026-10-15T20:32:06.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -20,7 +20,7 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/rajinikanths-jailer-2-telugu-movie-review.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/JAILER-1-1.webp",
-      "publishedAt": "2026-10-15T17:51:07.000Z",
+      "publishedAt": "2026-10-15T20:31:07.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -335,6 +335,16 @@
   ],
   "trailers": [
     {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/narnia-the-magicians-nephew-official-hindi-trailer/videoshow/134959415.cms",
       "title": "Narnia: The Magician's Nephew - Official Hindi Trailer​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
       "source": "ETimes Telugu",
@@ -440,16 +450,6 @@
       "source": "ETimes Telugu",
       "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
       "img": "https://static.toiimg.com/thumb/msid-134597149,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
-      "title": "Prahaar: The Untold Story of Ujjwal Nikam - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/prahaar-the-untold-story-of-ujjwal-nikam-official-trailer/videoshow/134582448.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134582448,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
@@ -1363,7 +1363,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": ""
+            "url": "https://www.m9.news/reviews/maremma-movie-review-rating/"
           },
           {
             "source": "Telugu360",
@@ -1777,6 +1777,50 @@
       }
     },
     {
+      "t": "Ranabaali",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "Not available",
+      "img": "",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.m9.news/reviews/ranabaali-movie-review-rating/",
+      "aggregator": {
+        "average": null,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": "https://www.m9.news/reviews/ranabaali-movie-review-rating/"
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
       "t": "Thella Kagitham",
       "l": "Telugu",
       "releaseDate": null,
@@ -1892,50 +1936,6 @@
             "rating": null,
             "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/mandaadi-movie-review-rating/"
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
-      "t": "Mirzapur: The",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/mirzapur-the-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/mirzapur-the-movie-review-rating/"
           },
           {
             "source": "Telugu360",
