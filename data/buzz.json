@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T13:04:13.921Z",
+  "updatedAt": "2026-10-17T18:17:51.594Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -15,7 +15,7 @@
     {
       "id": "netflix",
       "name": "Netflix",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "id": "prime-video",
@@ -68,9 +68,9 @@
       }
     },
     {
-      "id": "veteran-music-director-deva-of-tholi-prema-fame-passes-away-at-75",
-      "title": "Veteran Music Director Deva of Tholi Prema Fame Passes Away at 75",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/music-director-deva.jpg",
+      "id": "tragic-news-young-director-passes-away-following-friday-release",
+      "title": "Tragic News: Young Director Passes Away Following Friday Release",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Belraj-Kalarickal.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -81,9 +81,9 @@
       }
     },
     {
-      "id": "questions-arise-over-nani-s-involvement-with-the-paradise",
-      "title": "Questions Arise Over Nani's Involvement with The Paradise",
-      "img": "https://www.telugu360.com/wp-content/uploads/2025/08/The-Paradise.jpg",
+      "id": "keerthy-suresh-captivates-audiences-with-fierce-akka-avatar",
+      "title": "Keerthy Suresh Captivates Audiences With Fierce AKKA Avatar",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Keerthy-suresh-akka.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -94,9 +94,9 @@
       }
     },
     {
-      "id": "aakasamlo-oka-tara-teaser-highlights-an-inspirational-journey-of-dreams",
-      "title": "Aakasamlo Oka Tara Teaser Highlights an Inspirational Journey of Dreams",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Aakasamlo-Oka-Tara.webp",
+      "id": "garividi-lakshmi-review-an-honest-attempt-with-middling-execution",
+      "title": "Garividi Lakshmi Review: An Honest Attempt With Middling Execution",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Garividi-Lakshmi-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -107,138 +107,8 @@
       }
     },
     {
-      "id": "rashmika-mandanna-delivers-a-standout-performance-as-jayamma-in-ranabaali",
-      "title": "Rashmika Mandanna Delivers a Standout Performance as Jayamma in Ranabaali",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/rashmika-jayamma-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sandeep-reddy-vanga-backs-vijay-deverakonda-to-redefine-action-cinema",
-      "title": "Sandeep Reddy Vanga Backs Vijay Deverakonda to Redefine Action Cinema",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/vijaydeverakonda-sandeepreddyvanga-oct1626.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "dulquer-salmaan-s-aot-teaser-praised-as-an-inspiring-story",
-      "title": "Dulquer Salmaan's AOT Teaser Praised as an Inspiring Story",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Aakasamlo-Oka-Tara-scaled.jpeg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "keerthy-suresh-stuns-in-traditional-first-look-for-january-12-vidudala",
-      "title": "Keerthy Suresh Stuns in Traditional First Look for January 12 Vidudala",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/January-12-Vidudala1.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sandeep-reddy-vanga-shares-his-review-of-ranabaali",
-      "title": "Sandeep Reddy Vanga Shares His Review of Ranabaali",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/10/sandeep-vanga-scaled.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sai-pallavi-steals-the-spotlight-as-warrior-sita-in-upcoming-ramayana-project",
-      "title": "Sai Pallavi Steals the Spotlight as Warrior Sita in Upcoming Ramayana Project",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Sai-pallavi-ramayana-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "jailer-2-two-day-nizam-box-office-figures-unveiled",
-      "title": "Jailer 2 Two-Day Nizam Box-Office Figures Unveiled",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/JAILER-1-1.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "keerthy-suresh-spotted-driving-a-tractor-for-a-first-look",
-      "title": "Keerthy Suresh Spotted Driving a Tractor for a First Look",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/January-12-Vidudala.jpeg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "shah-rukh-khan-starrer-king-planned-for-pan-indian-languages-release",
-      "title": "Shah Rukh Khan Starrer King Planned for Pan-Indian Languages Release?",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/KING-1.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "megastar-chiranjeevi-steps-in-to-solve-major-problem-for-sree-vishnu-s-comrade-kalyan",
-      "title": "Megastar Chiranjeevi Steps In To Solve Major Problem For Sree Vishnu's Comrade Kalyan",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Chiranjeevi.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "cineinsta-review-vijay-deverakonda-s-ranabaali-brings-noble-intent-with-moderate-impact",
-      "title": "Cineinsta Review: Vijay Deverakonda's Ranabaali Brings Noble Intent With Moderate Impact",
+      "id": "rashmika-mandanna-garners-unanimous-praise-for-ranabaali",
+      "title": "Rashmika Mandanna Garners Unanimous Praise For Ranabaali",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -250,9 +120,9 @@
       }
     },
     {
-      "id": "cineinsta-review-crazy-kalyanam-delivers-entertainment-that-works-in-parts",
-      "title": "Cineinsta Review: Crazy Kalyanam Delivers Entertainment That Works In Parts",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
+      "id": "mahesh-babu-fans-await-updates-as-varanasi-makers-remain-silent",
+      "title": "Mahesh Babu Fans Await Updates as Varanasi Makers Remain Silent",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/varanasi-makers-silence-leaves-mahesh-babu-fans-waiting-1792253484558-1792253485588.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -263,9 +133,9 @@
       }
     },
     {
-      "id": "sreeleela-kicks-off-second-hindi-project-alongside-janhvi-kapoor",
-      "title": "Sreeleela Kicks Off Second Hindi Project Alongside Janhvi Kapoor",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/sreeleela-1.webp",
+      "id": "kollywood-diwali-box-office-race-heats-up-with-suriya-and-nayanthara",
+      "title": "Kollywood Diwali Box Office Race Heats Up With Suriya and Nayanthara",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/suriya-vs-nayanthara-tamil-cinema-prepares-for-a-diwali-box-office-clash-1792252313436-1792252314599.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -276,9 +146,9 @@
       }
     },
     {
-      "id": "tollywood-stars-lend-their-voices-on-el-nin-o-following-chief-minister-s-appeal",
-      "title": "Tollywood Stars Lend Their Voices on El Niño Following Chief Minister's Appeal",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vijay-nagarjuna-el-nino.jpg",
+      "id": "bollywood-director-expresses-admiration-for-chiranjeevi-s-energy-and-fitness",
+      "title": "Bollywood Director Expresses Admiration for Chiranjeevi's Energy and Fitness",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/chiranjeevi-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -289,9 +159,9 @@
       }
     },
     {
-      "id": "vijay-deverakonda-calls-ranabaali-the-most-important-film-of-his-career",
-      "title": "Vijay Deverakonda Calls Ranabaali the Most Important Film of His Career",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ranabaali-is-most-imp-film-in-my-career-Vijay-Devarakonda.jpg",
+      "id": "sai-pallavi-joins-the-production-of-prabhas-s-kalki-2",
+      "title": "Sai Pallavi Joins the Production of Prabhas's Kalki 2",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sai-pallavi-enters-prabhas-kalki-2-shoot-1792249958527-1792249959480.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -302,9 +172,9 @@
       }
     },
     {
-      "id": "anirudh-and-kavya-maran-wedding-reports-surface",
-      "title": "Anirudh and Kavya Maran Wedding Reports Surface",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/06/anirudh-Kavya-maran.jpg",
+      "id": "varanasi-release-date-back-under-the-spotlight",
+      "title": "Varanasi Release Date Back Under the Spotlight",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/08/varanasi-mahesh-look-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -315,9 +185,9 @@
       }
     },
     {
-      "id": "vishwak-sen-s-cult-trailer-scheduled-for-sunday-release",
-      "title": "Vishwak Sen’s Cult Trailer Scheduled for Sunday Release",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/cul.jpg",
+      "id": "garividi-lakshmi-receives-film-review-attention",
+      "title": "Garividi Lakshmi Receives Film Review Attention",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Garividi-Lakshmi-Movie-Review.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -328,9 +198,9 @@
       }
     },
     {
-      "id": "vijay-deverakonda-highlights-ranabaali-as-a-proud-milestone-for-tollywood",
-      "title": "Vijay Deverakonda Highlights Ranabaali as a Proud Milestone for Tollywood",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/vijay-3.webp",
+      "id": "comrade-kalyan-highlights-sree-vishnu-s-box-office-pull",
+      "title": "Comrade Kalyan Highlights Sree Vishnu's Box Office Pull",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-Review.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -341,9 +211,9 @@
       }
     },
     {
-      "id": "devika-bhat-cast-as-aalochana-in-kiran-abbavaram-s-upcoming-project-reality",
-      "title": "Devika Bhat Cast as Aalochana in Kiran Abbavaram’s Upcoming Project Reality",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/devikabhat-oct1626.jpg",
+      "id": "ss-rajamouli-appreciates-ramayana-trailer",
+      "title": "SS Rajamouli Appreciates Ramayana Trailer",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ss-rajamouli-praises-ramayana-trailer-1792245941393-1792245943725.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -354,9 +224,139 @@
       }
     },
     {
-      "id": "rajamouli-leaves-fans-wanting-more-on-another-birthday",
-      "title": "Rajamouli Leaves Fans Wanting More on Another Birthday",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/varanasi-kumbha.jpg",
+      "id": "keerthy-suresh-shines-in-her-birthday-poster-for-rowdy-janardhana",
+      "title": "Keerthy Suresh shines in her birthday poster for Rowdy Janardhana",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/keerthy-suresh-looks-lovely-in-her-birthday-poster-of-rowdy-janardhana-1792245104672-1792245110302.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-and-puri-s-slum-dog-features-a-traditional-pumpkin-breaking-ritual",
+      "title": "Vijay and Puri's Slum Dog features a traditional pumpkin-breaking ritual",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Vijay-Puris-Slum-Dog.jpeg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "enchanting-first-look-poster-of-keerthy-suresh-unveiled-for-rowdy-janardhana",
+      "title": "Enchanting first-look poster of Keerthy Suresh unveiled for Rowdy Janardhana",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Rowdy-Janardhana-.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "tabu-introduced-in-a-special-teaser-for-nagarjuna-s-king-100",
+      "title": "Tabu Introduced in a Special Teaser for Nagarjuna's King 100",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/special-teaser-introducing-tabu-in-nagarjuna-king-100-1792229966758-1792229967066.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "priyanka-avantika-and-amita-rao-make-waves-at-la-awards-event",
+      "title": "Priyanka, Avantika, and Amita Rao Make Waves at LA Awards Event",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/priyanka-avantika-amita-rao.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "aadarsha-kutumbam-locks-october-30th-theatrical-release-date",
+      "title": "Aadarsha Kutumbam Locks October 30th Theatrical Release Date",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Aadarsha-Kutumbam.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-sethupathi-and-puri-jagannaadh-complete-shooting-for-slum-dog",
+      "title": "Vijay Sethupathi and Puri Jagannaadh Complete Shooting for Slum Dog",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Slum-Dog.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "naga-vamsi-addresses-god-of-war-title-and-confirms-nelson-ntr-project",
+      "title": "Naga Vamsi Addresses God Of War Title and Confirms Nelson-NTR Project",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2025/06/naga-Vamsi-ntr-.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "naga-vamsi-announces-release-date-for-aadarsha-kutumbam",
+      "title": "Naga Vamsi Announces Release Date for Aadarsha Kutumbam",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Aadarsha-Kutumbam.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-sethupathi-and-puri-jagannadh-project-slum-dog-concludes-filming",
+      "title": "Vijay Sethupathi and Puri Jagannadh Project 'Slum Dog' Concludes Filming",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/slumdog-oct1726.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "renowned-music-director-deva-of-tholi-prema-fame-passes-away-at-75",
+      "title": "Renowned Music Director Deva of 'Tholi Prema' Fame Passes Away at 75",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/music-director-deva.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -369,9 +369,9 @@
   ],
   "ottTrending": {
     "netflix": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-17T13:03:38.156Z",
+      "lastAttemptedAt": "2026-10-17T18:15:58.022Z",
       "items": [
         {
           "title": "Irumudi",
@@ -379,12 +379,13 @@
           "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/irumudi2.jpg",
           "languages": "Telugu"
         }
-      ]
+      ],
+      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-15T12:27:53.446Z",
-      "lastAttemptedAt": "2026-10-17T13:03:56.275Z",
+      "lastAttemptedAt": "2026-10-17T18:16:13.610Z",
       "items": [
         {
           "title": "THE ADDAMS FAMILY",
@@ -397,8 +398,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-17T13:03:56.584Z",
-      "lastAttemptedAt": "2026-10-17T13:03:56.584Z",
+      "updatedAt": "2026-10-17T18:17:35.005Z",
+      "lastAttemptedAt": "2026-10-17T18:17:35.005Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -465,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T13:03:57.782Z",
+      "lastAttemptedAt": "2026-10-17T18:17:35.249Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-17T13:04:07.014Z",
-      "lastAttemptedAt": "2026-10-17T13:04:07.014Z",
+      "updatedAt": "2026-10-17T18:17:47.061Z",
+      "lastAttemptedAt": "2026-10-17T18:17:47.061Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -503,21 +504,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T13:04:09.016Z",
+      "lastAttemptedAt": "2026-10-17T18:17:48.807Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T13:04:10.078Z",
+      "lastAttemptedAt": "2026-10-17T18:17:49.914Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-17T13:04:13.919Z",
-      "lastAttemptedAt": "2026-10-17T13:04:13.919Z",
+      "updatedAt": "2026-10-17T18:17:51.591Z",
+      "lastAttemptedAt": "2026-10-17T18:17:51.591Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",

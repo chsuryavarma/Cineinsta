@@ -1,15 +1,169 @@
 {
-  "updatedAt": "2026-10-17T12:19:27.267Z",
+  "updatedAt": "2026-10-17T18:15:20.486Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://www.cinejosh.com/news/1/130658/i-hate-marriage-teaser-released.html",
-      "title": "I Hate Marriage Teaser Released",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; I Hate Marriage Teaser Out I Hate Marriage Teaser Released By Rambabu Updated at: 2026-10-17 11:18:16 AM IST Sugi Vijay and Jupsi...",
+      "id": "https://www.gulte.com/ott/436848/young-director-died-just-after-the-friday-release",
+      "title": "Young Director Died Just After The Friday Release!",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/ott/436848/young-director-died-just-after-the-friday-release",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Belraj-Kalarickal.jpg",
+      "publishedAt": "2026-10-17T17:34:59.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436855/keerthy-suresh-stuns-in-fiercest-ever-akka-avatar",
+      "title": "Keerthy Suresh Stuns In Fiercest Ever AKKA Avatar",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436855/keerthy-suresh-stuns-in-fiercest-ever-akka-avatar",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Keerthy-suresh-akka.jpg",
+      "publishedAt": "2026-10-17T17:31:36.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html",
+      "title": "Review: Garividi Lakshmi - Honest Attempt, Middling Execution",
+      "summary": "Garividi Lakshmi Telugu Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Garividi-Lakshmi-1.webp",
+      "publishedAt": "2026-10-17T17:31:21.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/rashmika-mandanna-wins-unanimous-praise-for-ranabaali-avd.html",
+      "title": "Rashmika Mandanna wins unanimous praise for Ranabaali",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Rashmika Mandanna wins unanimous praise for...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/rashmika-mandanna-wins-unanimous-praise-for-ranabaali-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
+      "publishedAt": "2026-10-17T16:30:13.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130667/varanasi-makers-silence-leaves-mahesh-babu-fans-waiting.html",
+      "title": "Varanasi Makers Silence Leaves Mahesh Babu Fans Waiting",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Varanasi Release Date Rumours Grow Amid Limited Promotions Varanasi Makers Silence Leaves Mahesh Babu Fans Waiting By Rambabu...",
       "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130658/i-hate-marriage-teaser-released.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/i-hate-marriage-teaser-released-1792235890325-1792235891480.jpg",
-      "publishedAt": "2026-10-17T11:18:16.000Z",
+      "url": "https://www.cinejosh.com/news/1/130667/varanasi-makers-silence-leaves-mahesh-babu-fans-waiting.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/varanasi-makers-silence-leaves-mahesh-babu-fans-waiting-1792253484558-1792253485588.jpg",
+      "publishedAt": "2026-10-17T16:11:28.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130666/suriya-vs-nayanthara-tamil-cinema-prepares-for-a-diwali-box-office-clash.html",
+      "title": "Suriya vs Nayanthara Tamil Cinema Prepares for a Diwali Box Office Clash",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Diwali Race Intensifies At Kollywood Boxoffice Suriya vs Nayanthara Tamil Cinema Prepares for a Diwali Box Office Clash By Rambabu...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130666/suriya-vs-nayanthara-tamil-cinema-prepares-for-a-diwali-box-office-clash.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/suriya-vs-nayanthara-tamil-cinema-prepares-for-a-diwali-box-office-clash-1792252313436-1792252314599.jpg",
+      "publishedAt": "2026-10-17T15:51:56.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/bollywood-director-amazed-by-chiranjeevis-energy-and-fitness-avd.html",
+      "title": "Bollywood director amazed by Chiranjeevi’s energy and fitness",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Bollywood director amazed by Chiranjeevi’s...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/bollywood-director-amazed-by-chiranjeevis-energy-and-fitness-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/chiranjeevi-1.webp",
+      "publishedAt": "2026-10-17T15:30:47.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130665/sai-pallavi-enters-prabhas-kalki-2-shoot.html",
+      "title": "Sai Pallavi Enters Prabhas Kalki 2 Shoot",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Latest Update About Kalki 2 Shoot Sai Pallavi Enters Prabhas Kalki 2 Shoot By Rambabu Updated at: 2026-10-17 03:12:43 PM IST...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130665/sai-pallavi-enters-prabhas-kalki-2-shoot.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sai-pallavi-enters-prabhas-kalki-2-shoot-1792249958527-1792249959480.jpg",
+      "publishedAt": "2026-10-17T15:12:43.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436841/why-is-varanasis-release-date-in-the-news-again",
+      "title": "Why Is Varanasi’s Release Date In The News Again?",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436841/why-is-varanasis-release-date-in-the-news-again",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/08/varanasi-mahesh-look-.jpg",
+      "publishedAt": "2026-10-17T15:04:02.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/garividi-lakshmi-movie-review/",
+      "title": "Garividi Lakshmi Movie Review",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/garividi-lakshmi-movie-review/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Garividi-Lakshmi-Movie-Review.jpg",
+      "publishedAt": "2026-10-17T14:34:55.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/comrade-kalyan-proves-sree-vishnus-box-office-stamina-yet-again-avd.html",
+      "title": "Comrade Kalyan proves Sree Vishnu's box office stamina yet again",
+      "summary": "Comrade Kalyan proves Sree Vishnu’s box office stamina yet again Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/comrade-kalyan-proves-sree-vishnus-box-office-stamina-yet-again-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-Review.webp",
+      "publishedAt": "2026-10-17T14:30:25.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130663/ss-rajamouli-praises-ramayana-trailer.html",
+      "title": "SS Rajamouli Praises Ramayana Trailer",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; SS Rajamouli About Ramayana SS Rajamouli Praises Ramayana Trailer By Rambabu Updated at: 2026-10-17 02:05:44 PM IST Master...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130663/ss-rajamouli-praises-ramayana-trailer.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ss-rajamouli-praises-ramayana-trailer-1792245941393-1792245943725.jpg",
+      "publishedAt": "2026-10-17T14:05:44.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130662/keerthy-suresh-looks-lovely-in-her-birthday-poster-of-rowdy-janardhana.html",
+      "title": "Keerthy Suresh Looks Lovely In Her Birthday Poster Of Rowdy Janardhana",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Keerthy Suresh Birthday Special From Rowdy Janardhana Keerthy Suresh Looks Lovely In Her Birthday Poster Of Rowdy Janardhana By...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130662/keerthy-suresh-looks-lovely-in-her-birthday-poster-of-rowdy-janardhana.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/keerthy-suresh-looks-lovely-in-her-birthday-poster-of-rowdy-janardhana-1792245104672-1792245110302.jpg",
+      "publishedAt": "2026-10-17T14:04:37.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436837/vijay-puris-slum-dog-breaks-pumpkin",
+      "title": "Vijay-Puri’s Slum Dog Breaks Pumpkin",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436837/vijay-puris-slum-dog-breaks-pumpkin",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Vijay-Puris-Slum-Dog.jpeg",
+      "publishedAt": "2026-10-17T13:14:41.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/rowdy-janardhana-keerthy-sureshs-first-look-poster-looks-enchanting-prp.html",
+      "title": "Rowdy Janardhana: Keerthy Suresh's first-look poster looks enchanting",
+      "summary": "Rowdy Janardhana: Keerthy Suresh’s first-look poster looks enchanting Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/rowdy-janardhana-keerthy-sureshs-first-look-poster-looks-enchanting-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Rowdy-Janardhana-.jpg",
+      "publishedAt": "2026-10-17T12:30:04.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -25,17 +179,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html",
-      "title": "Review: Garividi Lakshmi - Honest Attempt, Middling Execution",
-      "summary": "Garividi Lakshmi Telugu Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Garividi-Lakshmi-1.webp",
-      "publishedAt": "2026-10-17T10:33:21.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.cinejosh.com/news/3/130656/special-teaser-introducing-tabu-in-nagarjuna-king-100.html",
       "title": "Special Teaser Introducing Tabu In Nagarjuna King 100",
       "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Gossips &gt;&gt; Latest Update From KING 100 Special Teaser Introducing Tabu In Nagarjuna King 100 By Rambabu Updated at: 2026-10-17 09:39:32 AM IST...",
@@ -43,39 +186,6 @@
       "url": "https://www.cinejosh.com/news/3/130656/special-teaser-introducing-tabu-in-nagarjuna-king-100.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/special-teaser-introducing-tabu-in-nagarjuna-king-100-1792229966758-1792229967066.jpg",
       "publishedAt": "2026-10-17T09:39:32.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130655/naga-vamsi-comments-spark-buzz-about-ntr-nelson-dilipkumar-film.html",
-      "title": "Naga Vamsi Comments Spark Buzz About NTR - Nelson Dilipkumar Film",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Nagavamsi Hinted At NTR Nelson Film Naga Vamsi Comments Spark Buzz About NTR - Nelson Dilipkumar Film By Rambabu Updated at:...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130655/naga-vamsi-comments-spark-buzz-about-ntr-nelson-dilipkumar-film.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/naga-vamsi-comments-spark-buzz-about-ntr-nelson-dilipkumar-film-1792229750837-1792229751376.jpg",
-      "publishedAt": "2026-10-17T09:35:55.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130654/charlotte-michigan-telugu-communities-celebrate-culture-and-service.html",
-      "title": "Charlotte, Michigan Telugu Communities Celebrate Culture and Service",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Telugu Communities in US Celebrate Culture and Service Charlotte, Michigan Telugu Communities Celebrate Culture and Service By...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130654/charlotte-michigan-telugu-communities-celebrate-culture-and-service.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/charlotte-michigan-telugu-communities-celebrate-culture-and-service-1792229325424-1792229326964.jpg",
-      "publishedAt": "2026-10-17T09:28:58.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130653/allari-naresh-divine-trance-in-kanakadurga-first-look.html",
-      "title": "Allari Naresh Divine Trance In Kanakadurga First Look",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Allari Naresh First Look In Kanaka Durga Unveiled Allari Naresh Divine Trance In Kanakadurga First Look By Rambabu Updated at:...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130653/allari-naresh-divine-trance-in-kanakadurga-first-look.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/allari-naresh-divine-trance-in-kanakadurga-first-look-1792229284238-1792229284867.jpg",
-      "publishedAt": "2026-10-17T09:28:08.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -221,136 +331,36 @@
       "publishedAt": "2026-10-17T05:59:48.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/436744/dulquers-aot-teaser-such-an-inspiring-story",
-      "title": "Dulquer’s AOT Teaser: Such An Inspiring Story!",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/436744/dulquers-aot-teaser-such-an-inspiring-story",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Aakasamlo-Oka-Tara-scaled.jpeg",
-      "publishedAt": "2026-10-17T05:45:40.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/january-12-vidudala-keerthy-sureshs-traditional-first-look-unveiled-prp.html",
-      "title": "January 12 Vidudala: Keerthy Suresh's traditional first look unveiled",
-      "summary": "January 12 Vidudala: Keerthy Suresh’s traditional first look unveiled Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/january-12-vidudala-keerthy-sureshs-traditional-first-look-unveiled-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/January-12-Vidudala1.webp",
-      "publishedAt": "2026-10-17T05:35:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/436738/sandeep-reddy-vanga-reviews-ranabaali",
-      "title": "Sandeep Reddy Vanga Reviews Ranabaali",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/436738/sandeep-reddy-vanga-reviews-ranabaali",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/10/sandeep-vanga-scaled.jpg",
-      "publishedAt": "2026-10-17T05:25:39.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/436742/sai-pallavi-as-warrior-sita-in-ramayana-grabs-attention",
-      "title": "Sai Pallavi As Warrior Sita in Ramayana Grabs Attention",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/436742/sai-pallavi-as-warrior-sita-in-ramayana-grabs-attention",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Sai-pallavi-ramayana-.jpg",
-      "publishedAt": "2026-10-17T05:15:37.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/jailer-2-two-day-nizam-box-office-report-of-rajinikanths-film-is-out-prp.html",
-      "title": "Jailer 2: Two-day Nizam box-office report of Rajinikanth's film is out",
-      "summary": "Jailer 2: Two-day Nizam box-office report of Rajinikanth’s film is out Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/jailer-2-two-day-nizam-box-office-report-of-rajinikanths-film-is-out-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/JAILER-1-1.webp",
-      "publishedAt": "2026-10-17T04:58:57.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/shah-rukh-khans-king-to-release-in-other-indian-languages-too-prp.html",
-      "title": "Shah Rukh Khan's King to release in other Indian languages too?",
-      "summary": "Shah Rukh Khan’s King to release in other Indian languages too?",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/shah-rukh-khans-king-to-release-in-other-indian-languages-too-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/KING-1.webp",
-      "publishedAt": "2026-10-17T02:30:54.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/comrade-kalyan-megastar-chiranjeevi-helped-resolve-this-key-issue-for-sree-vishnu-starrer-prp.html",
-      "title": "Comrade Kalyan: Megastar Chiranjeevi helped resolve this key issue for Sree Vishnu starrer",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Comrade Kalyan: Megastar Chiranjeevi helped...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/comrade-kalyan-megastar-chiranjeevi-helped-resolve-this-key-issue-for-sree-vishnu-starrer-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Chiranjeevi.webp",
-      "publishedAt": "2026-10-17T01:31:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html",
-      "title": "Review: Vijay Devarakonda's Ranabaali - Noble Intent, Moderate Impact",
-      "summary": "Vijay Deverakonda's Ranabaali Telugu Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
-      "publishedAt": "2026-10-16T20:32:53.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/crazy-kalyanam-movie-review-and-rating.html",
-      "title": "Review : Crazy Kalyanam - Works In Parts",
-      "summary": "Crazy Kalyanam Movie Review and Rating | Anupama Parameswaran Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/crazy-kalyanam-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
-      "publishedAt": "2026-10-16T20:31:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/sreeleelas-second-hindi-film-goes-on-floors-janhvi-kapoor-costars-avd.html",
-      "title": "Sreeleela’s second Hindi film goes on floors, Janhvi Kapoor costars",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Sreeleela’s second Hindi film goes on...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/sreeleelas-second-hindi-film-goes-on-floors-janhvi-kapoor-costars-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/sreeleela-1.webp",
-      "publishedAt": "2026-10-16T19:30:06.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
     {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
-      "youtubeId": "",
-      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "id": "https://telugu.indiaglitz.com/movie-news/aakasamlo-oka-tara-teaser-dont-just-dreammake-those-dreams-a-reality",
+      "title": "‘ఆకాశంలో ఒక తార’ టీజర్: కలలు కనడమే కాదు.. వాటిని నిజం చేసుకోవాలి!",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://telugu.indiaglitz.com/movie-news/aakasamlo-oka-tara-teaser-dont-just-dreammake-those-dreams-a-reality",
+      "img": "https://i.ytimg.com/vi/h3ElWvu31dc/hqdefault.jpg",
+      "youtubeId": "h3ElWvu31dc",
+      "publishedAt": "2026-10-17T13:33:35.000Z",
       "language": "Telugu"
     },
     {
-      "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ranbir-kapoor-wears-rs-78-lakh-wristwatch-at-the-ramayana-trailer-launch-in-bengaluru-know-more-about-its-reported-design/articleshow/135011692.cms",
-      "title": "Ranbir Kapoor wears Rs 78 lakh wristwatch at the ‘Ramayana’ trailer launch in Bengaluru; know more about its reported design",
+      "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ss-rajamouli-reacts-to-ranbir-kapoors-ramayana-new-trailer-each-actor-brings-these-timeless-characters-to-life-with-depth/articleshow/135015917.cms",
+      "title": "SS Rajamouli reacts to Ranbir Kapoor’s ‘Ramayana’ new trailer: 'Each actor brings these timeless characters to life with depth'",
       "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ranbir-kapoor-wears-rs-78-lakh-wristwatch-at-the-ramayana-trailer-launch-in-bengaluru-know-more-about-its-reported-design/articleshow/135011692.cms",
-      "img": "https://static.toiimg.com/thumb/msid-135011824,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ss-rajamouli-reacts-to-ranbir-kapoors-ramayana-new-trailer-each-actor-brings-these-timeless-characters-to-life-with-depth/articleshow/135015917.cms",
+      "img": "https://static.toiimg.com/thumb/msid-135016099,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://indiaglitz.com/aakasamlo-oka-tara-teaser-dulquer-salmaan-backs-a-powerful-story-of-womens-empowerment",
+      "title": "Aakasamlo Oka Tara Teaser: Dulquer Salmaan Backs a Powerful Story of Women’s Empowerment",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/aakasamlo-oka-tara-teaser-dulquer-salmaan-backs-a-powerful-story-of-womens-empowerment",
+      "img": "https://i.ytimg.com/vi/h3ElWvu31dc/hqdefault.jpg",
+      "youtubeId": "h3ElWvu31dc",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -371,16 +381,6 @@
       "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/ramayana-official-hindi-trailer/videoshow/134983727.cms",
       "img": "https://static.toiimg.com/thumb/msid-134983727,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://indiaglitz.com/ramayana-trailer-ranbir-kapoor-as-lord-rama-and-yash-as-ravana-impress-in-powerful-posters",
-      "title": "Ramayana Trailer : Ranbir Kapoor as Lord Rama and Yash as Ravana Impress in Powerful Posters",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/ramayana-trailer-ranbir-kapoor-as-lord-rama-and-yash-as-ravana-impress-in-powerful-posters",
-      "img": "https://i.ytimg.com/vi/Wo3__JUisj8/hqdefault.jpg",
-      "youtubeId": "Wo3__JUisj8",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -1672,50 +1672,6 @@
             "rating": null,
             "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/thella-kaagitham-movie-review-rating/"
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
-      "t": "Secret Soldier",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/secret-soldier-telugu-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/secret-soldier-telugu-movie-review-rating/"
           },
           {
             "source": "Telugu360",
