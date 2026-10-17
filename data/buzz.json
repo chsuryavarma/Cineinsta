@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T19:05:22.812Z",
+  "updatedAt": "2026-10-17T00:22:31.376Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -68,9 +68,9 @@
       }
     },
     {
-      "id": "the-traitors-telugu-ott-review-breaking-down-the-first-three-episodes",
-      "title": "The Traitors Telugu OTT Review: Breaking Down the First Three Episodes",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/The-Traitors-Telugu.webp",
+      "id": "vijay-deverakonda-s-ranabaali-evaluated-noble-intent-moderate-impact",
+      "title": "Vijay Deverakonda's Ranabaali Evaluated: Noble Intent, Moderate Impact",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -81,8 +81,177 @@
       }
     },
     {
-      "id": "jailer-2-telugu-movie-review-mass-moments-and-pacing-evaluated",
-      "title": "Jailer 2 Telugu Movie Review: Mass Moments and Pacing Evaluated",
+      "id": "crazy-kalyanam-review-a-feature-that-functions-in-portions",
+      "title": "Crazy Kalyanam Review: A Feature That Functions in Portions",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "sreeleela-begins-second-hindi-project-alongside-janhvi-kapoor",
+      "title": "Sreeleela Begins Second Hindi Project Alongside Janhvi Kapoor",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/sreeleela-1.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "tollywood-stars-voice-awareness-on-el-nin-o-following-chief-minister-s-appeal",
+      "title": "Tollywood Stars Voice Awareness on El Niño Following Chief Minister's Appeal",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vijay-nagarjuna-el-nino.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-deverakonda-highlights-ranabaali-as-a-defining-project",
+      "title": "Vijay Deverakonda Highlights Ranabaali as a Defining Project",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ranabaali-is-most-imp-film-in-my-career-Vijay-Devarakonda.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "official-announcement-confirms-anirudh-and-kavya-maran-wedding-details",
+      "title": "Official Announcement Confirms Anirudh and Kavya Maran Wedding Details",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2025/06/anirudh-Kavya-maran.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vishwak-sen-s-cult-trailer-scheduled-for-sunday-release",
+      "title": "Vishwak Sen's Cult Trailer Scheduled for Sunday Release",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/cul.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-deverakonda-faces-critical-box-office-test-with-ranabaali",
+      "title": "Vijay Deverakonda Faces Critical Box Office Test with Ranabaali",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-needs-a-box-office-push-1792168646329-1792168647280.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "itlu-arjuna-movie-grand-reveal-event-held",
+      "title": "Itlu Arjuna Movie Grand Reveal Event Held",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Itlu-Arjuna-Event.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "november-cinema-lineup-faces-uncertainty-amid-ak47-release-schedule",
+      "title": "November Cinema Lineup Faces Uncertainty Amid AK47 Release Schedule",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Aadarsha-Kutumbam.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "grand-telugu-pre-release-event-announced-for-ramayana",
+      "title": "Grand Telugu Pre-Release Event Announced for Ramayana",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ram.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "hyderabad-gears-up-for-star-studded-ramayana-pre-release-celebration",
+      "title": "Hyderabad Gears Up for Star-Studded Ramayana Pre-Release Celebration",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/IMG-20261016-WA0051.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "mahesh-babu-extends-birthday-wishes-to-prithviraj-sukumaran-as-varanasi-team-unveils-new-stills",
+      "title": "Mahesh Babu Extends Birthday Wishes to Prithviraj Sukumaran as Varanasi Team Unveils New Stills",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/pridhvi.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "ramayana-team-organizes-spectacular-pre-release-event-in-telugu",
+      "title": "Ramayana Team Organizes Spectacular Pre-Release Event in Telugu",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/07/Ramayana-2.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "jailer-2-review-mass-moments-hold-up-stretched-second-half",
+      "title": "Jailer 2 Review: Mass Moments Hold Up Stretched Second Half",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/JAILER-1-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -94,8 +263,34 @@
       }
     },
     {
-      "id": "ramayana-new-trailer-raises-standards-for-indian-cinema-says-namit-malhotra-and-team",
-      "title": "Ramayana New Trailer Raises Standards for Indian Cinema, Says Namit Malhotra and Team",
+      "id": "ranabaali-review-compelling-plot-hindered-by-slow-pacing",
+      "title": "Ranabaali Review: Compelling Plot Hindered by Slow Pacing",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ranabaali-Movie-Review.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "crazy-kalyanam-movie-review-a-fresh-look",
+      "title": "Crazy Kalyanam Movie Review: A Fresh Look",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Crazy-Kalyanam-movie-review.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "ramayana-new-trailer-raises-the-bar-for-indian-cinema",
+      "title": "Ramayana New Trailer Raises the Bar for Indian Cinema",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ramayana-3.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,21 +302,8 @@
       }
     },
     {
-      "id": "ranabaali-update-nani-delivers-a-surprise-as-virosh-expresses-gratitude",
-      "title": "Ranabaali Update: Nani Delivers a Surprise as ViRosh Expresses Gratitude",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ranabaali-nani-surprises-virosh-thanks-1792084019333-1792084020282.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sreeleela-s-long-awaited-hindi-cinema-venture-finally-locks-release-date",
-      "title": "Sreeleela's Long-Awaited Hindi Cinema Venture Finally Locks Release Date",
+      "id": "sreeleela-s-long-awaited-hindi-project-secures-official-release-date",
+      "title": "Sreeleela's Long-Awaited Hindi Project Secures Official Release Date",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Kartik-Aaryan-and-sree-leela-movie.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -133,8 +315,8 @@
       }
     },
     {
-      "id": "sara-arjun-locked-as-female-lead-opposite-ram-charan-in-rc17",
-      "title": "Sara Arjun Locked as Female Lead Opposite Ram Charan in RC17",
+      "id": "sara-arjun-boarded-as-female-lead-opposite-ram-charan-in-rc17",
+      "title": "Sara Arjun Boarded as Female Lead Opposite Ram Charan in RC17",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/saraarjun-sep1526.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,223 +328,41 @@
       }
     },
     {
-      "id": "a-significant-milestone-unfolds-for-vijay-deverakonda",
-      "title": "A Significant Milestone Unfolds for Vijay Deverakonda",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/07/ranabaali-vdk.jpg",
+      "id": "crazy-kalyanam",
+      "title": "Crazy Kalyanam",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
       "language": "Telugu",
-      "buzzScore": 27,
+      "buzzScore": 25,
       "status": "COOLING",
       "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
+        "news": 0,
+        "reviews": 1,
         "trailers": 0
       }
     },
     {
-      "id": "navigating-career-bottlenecks-the-complex-reality-of-extended-big-budget-shoots",
-      "title": "Navigating Career Bottlenecks: The Complex Reality of Extended Big-Budget Shoots",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/one-project-too-much-time-a-hero-s-career-dilemma-1792072024963-1792072027043.jpg",
+      "id": "ranabaali",
+      "title": "Ranabaali",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/ranabaali1.jpg",
       "language": "Telugu",
-      "buzzScore": 27,
+      "buzzScore": 25,
       "status": "COOLING",
       "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
+        "news": 0,
+        "reviews": 1,
         "trailers": 0
       }
     },
     {
-      "id": "sreeleela-prepares-for-her-big-bollywood-entry-in-april-2027",
-      "title": "Sreeleela Prepares for Her Big Bollywood Entry in April 2027",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/09/sreeleelamarriage-sep2726.jpg",
+      "id": "jailer-2",
+      "title": "Jailer 2",
+      "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/jailer2_2.jpg",
       "language": "Telugu",
-      "buzzScore": 27,
+      "buzzScore": 25,
       "status": "COOLING",
       "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "chay-prepares-for-a-thrilling-cinematic-ride-with-vrushakarma-poster-launch",
-      "title": "Chay Prepares for a Thrilling Cinematic Ride with Vrushakarma Poster Launch",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-16.03.12-scaled.jpeg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "ntr-returns-to-the-shooting-sets-of-dragon",
-      "title": "NTR Returns to the Shooting Sets of 'Dragon'",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/05/Dragon-1.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "naga-chaitanya-s-vrushakarma-nears-50-day-milestone-as-promotional-campaign-begins",
-      "title": "Naga Chaitanya's Vrushakarma Nears 50-Day Milestone as Promotional Campaign Begins",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/vrushakarma-oct1526.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "reports-suggest-sukumar-has-locked-ram-charan-for-a-three-year-commitment",
-      "title": "Reports Suggest Sukumar Has Locked Ram Charan for a Three-Year Commitment",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/10/rc17-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "striking-new-poster-unveiled-for-naga-chaitanya-s-vrushakarma",
-      "title": "Striking New Poster Unveiled for Naga Chaitanya's Vrushakarma",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Vrushakarma-1.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "official-release-date-confirmed-for-naga-chaitanya-starrer-vrushakarma",
-      "title": "Official Release Date Confirmed for Naga Chaitanya Starrer Vrushakarma",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Naga-Chaitanyas-Vrushakarma-confirms-release-date.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sreeleela-s-bollywood-debut-alongside-kartik-aaryan-locks-official-release-date",
-      "title": "Sreeleela's Bollywood Debut Alongside Kartik Aaryan Locks Official Release Date",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Sreeleel.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "ntr-back-on-set-actor-resumes-shooting-for-dragon-after-three-month-hiatus",
-      "title": "NTR Back on Set: Actor Resumes Shooting for 'Dragon' After Three-Month Hiatus",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/09/ntr-sep3026.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "makers-of-aadarsha-kutumbam-evaluating-potential-release-dates",
-      "title": "Makers of Aadarsha Kutumbam Evaluating Potential Release Dates",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/07/venkateshaadarshakutumbam-july2726.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sai-durgha-tej-locks-sdt19-under-anil-sunkara-s-production-banner",
-      "title": "Sai Durgha Tej Locks SDT19 Under Anil Sunkara's Production Banner",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/sdt-akentertainments-oct1526.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "icon-star-allu-arjun-expresses-admiration-for-kollywood-directors",
-      "title": "Icon Star Allu Arjun Expresses Admiration for Kollywood Directors",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/allu-arjun-in-love-with-kollywood-filmmakers-1792047929741-1792047930320.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sundeep-kishan-officially-commences-journey-on-karikaala",
-      "title": "Sundeep Kishan Officially Commences Journey on Karikaala",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Sundeep-Kishans-Karikaala.jpeg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "mega-star-chiranjeevi-eyes-multiplex-expansion-in-andhra-pradesh",
-      "title": "Mega Star Chiranjeevi Eyes Multiplex Expansion in Andhra Pradesh",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-multiplex-plans-in-ap-1792039153077-1792039153615.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "telugu-cinema-gears-up-for-a-heavy-lineup-of-november-and-december-releases",
-      "title": "Telugu Cinema Gears Up for a Heavy Lineup of November and December Releases",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/NBK-Dada-Ramayana.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
+        "news": 0,
+        "reviews": 1,
         "trailers": 0
       }
     }
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-16T19:04:47.372Z",
-      "lastAttemptedAt": "2026-10-16T19:04:47.373Z",
+      "updatedAt": "2026-10-17T00:21:53.122Z",
+      "lastAttemptedAt": "2026-10-17T00:21:53.123Z",
       "items": [
         {
           "title": "Irumudi",
@@ -384,7 +384,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-15T12:27:53.446Z",
-      "lastAttemptedAt": "2026-10-16T19:05:03.040Z",
+      "lastAttemptedAt": "2026-10-17T00:22:08.856Z",
       "items": [
         {
           "title": "THE ADDAMS FAMILY",
@@ -397,8 +397,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-16T19:05:04.011Z",
-      "lastAttemptedAt": "2026-10-16T19:05:04.011Z",
+      "updatedAt": "2026-10-17T00:22:16.799Z",
+      "lastAttemptedAt": "2026-10-17T00:22:16.799Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -465,14 +465,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-16T19:05:04.810Z",
+      "lastAttemptedAt": "2026-10-17T00:22:16.982Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-16T19:05:15.811Z",
-      "lastAttemptedAt": "2026-10-16T19:05:15.811Z",
+      "updatedAt": "2026-10-17T00:22:26.614Z",
+      "lastAttemptedAt": "2026-10-17T00:22:26.614Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -503,21 +503,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-16T19:05:17.859Z",
+      "lastAttemptedAt": "2026-10-17T00:22:28.097Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-16T19:05:19.178Z",
+      "lastAttemptedAt": "2026-10-17T00:22:29.112Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-16T19:05:22.810Z",
-      "lastAttemptedAt": "2026-10-16T19:05:22.810Z",
+      "updatedAt": "2026-10-17T00:22:31.372Z",
+      "lastAttemptedAt": "2026-10-17T00:22:31.372Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",

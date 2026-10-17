@@ -1,18 +1,7 @@
 {
-  "updatedAt": "2026-10-16T18:22:03.635Z",
+  "updatedAt": "2026-10-17T00:21:14.187Z",
   "language": "Telugu",
   "news": [
-    {
-      "id": "https://www.gulte.com/movienews/436712/upon-cms-request-tollywood-stars-speaking-on-el-nino",
-      "title": "Upon CM’s Request, Tollywood Stars Speaking On El Niño!",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/436712/upon-cms-request-tollywood-stars-speaking-on-el-nino",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vijay-nagarjuna-el-nino.jpg",
-      "publishedAt": "2026-10-16T18:11:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
     {
       "id": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html",
       "title": "Review: Vijay Devarakonda's Ranabaali - Noble Intent, Moderate Impact",
@@ -20,7 +9,7 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
-      "publishedAt": "2026-10-16T17:34:53.000Z",
+      "publishedAt": "2026-10-16T20:32:53.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -31,7 +20,29 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/crazy-kalyanam-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
-      "publishedAt": "2026-10-16T17:33:04.000Z",
+      "publishedAt": "2026-10-16T20:31:04.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/sreeleelas-second-hindi-film-goes-on-floors-janhvi-kapoor-costars-avd.html",
+      "title": "Sreeleela’s second Hindi film goes on floors, Janhvi Kapoor costars",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Sreeleela’s second Hindi film goes on...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/sreeleelas-second-hindi-film-goes-on-floors-janhvi-kapoor-costars-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/sreeleela-1.webp",
+      "publishedAt": "2026-10-16T19:30:06.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/436712/upon-cms-request-tollywood-stars-speaking-on-el-nino",
+      "title": "Upon CM’s Request, Tollywood Stars Speaking On El Niño!",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/436712/upon-cms-request-tollywood-stars-speaking-on-el-nino",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vijay-nagarjuna-el-nino.jpg",
+      "publishedAt": "2026-10-16T18:11:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -320,20 +331,29 @@
       "publishedAt": "2026-10-15T15:38:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/3/130628/one-project-too-much-time-a-hero-s-career-dilemma.html",
-      "title": "One Project, Too Much Time: A Hero’s Career Dilemma",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Gossips &gt;&gt; Big-Budget Film Becomes a Career Trap for Young Hero One Project, Too Much Time: A Hero’s Career Dilemma By Rambabu Updated at:...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/3/130628/one-project-too-much-time-a-hero-s-career-dilemma.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/one-project-too-much-time-a-hero-s-career-dilemma-1792072024963-1792072027043.jpg",
-      "publishedAt": "2026-10-15T13:47:09.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://telugu.indiaglitz.com/movie-news/ramayana-international-trailer-ranbir-as-rama-and-yash-as-ravana-are-outstanding",
+      "title": "‘రామాయణం’ ఇంటర్నేషనల్ ట్రైలర్.. రాముడిగా రణబీర్, రావణుడిగా యష్ అదుర్స్!",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://telugu.indiaglitz.com/movie-news/ramayana-international-trailer-ranbir-as-rama-and-yash-as-ravana-are-outstanding",
+      "img": "https://i.ytimg.com/vi/Wo3__JUisj8/hqdefault.jpg",
+      "youtubeId": "Wo3__JUisj8",
+      "publishedAt": "2026-10-16T13:29:49.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/ramayana-official-hindi-trailer/videoshow/134983727.cms",
       "title": "Ramayana: Rise Of A Legend - Official Hindi Trailer",
@@ -341,6 +361,16 @@
       "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/ramayana-official-hindi-trailer/videoshow/134983727.cms",
       "img": "https://static.toiimg.com/thumb/msid-134983727,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://indiaglitz.com/ramayana-trailer-ranbir-kapoor-as-lord-rama-and-yash-as-ravana-impress-in-powerful-posters",
+      "title": "Ramayana Trailer : Ranbir Kapoor as Lord Rama and Yash as Ravana Impress in Powerful Posters",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/ramayana-trailer-ranbir-kapoor-as-lord-rama-and-yash-as-ravana-impress-in-powerful-posters",
+      "img": "https://i.ytimg.com/vi/Wo3__JUisj8/hqdefault.jpg",
+      "youtubeId": "Wo3__JUisj8",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -395,16 +425,6 @@
       "language": "Telugu"
     },
     {
-      "id": "https://telugu.indiaglitz.com/movie-news/comrade-kalyan-trailer-gets-a-sensational-response-a-one-man-show-by-sree-vishnu",
-      "title": "‘కామ్రేడ్ కళ్యాణ్’ ట్రైలర్‌కు అదిరిపోయే రెస్పాన్స్.. శ్రీ విష్ణు వన్ మ్యాన్ షో",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://telugu.indiaglitz.com/movie-news/comrade-kalyan-trailer-gets-a-sensational-response-a-one-man-show-by-sree-vishnu",
-      "img": "https://i.ytimg.com/vi/QTz5PqZspEs/hqdefault.jpg",
-      "youtubeId": "QTz5PqZspEs",
-      "publishedAt": "2026-10-06T13:36:01.000Z",
-      "language": "Telugu"
-    },
-    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tu-hai-meri-kiran-official-trailer/videoshow/134734376.cms",
       "title": "Tu Hai Meri Kiran - Official Trailer",
       "source": "ETimes Telugu",
@@ -432,26 +452,6 @@
       "img": "https://static.toiimg.com/thumb/msid-134704119,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-10-05T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
-      "title": "Ebenezer - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/ebenezer-official-trailer/videoshow/134637439.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134637439,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "title": "Nayyi Navelli - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/nayyi-navelli-official-trailer/videoshow/134597149.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134597149,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
