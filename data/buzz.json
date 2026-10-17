@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T18:17:51.594Z",
+  "updatedAt": "2026-10-17T18:59:00.311Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "id": "aha",
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-17T18:15:58.022Z",
+      "lastAttemptedAt": "2026-10-17T18:58:02.667Z",
       "items": [
         {
           "title": "Irumudi",
@@ -383,23 +383,22 @@
       "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "prime-video": {
-      "status": "stale",
-      "updatedAt": "2026-10-15T12:27:53.446Z",
-      "lastAttemptedAt": "2026-10-17T18:16:13.610Z",
+      "status": "ok",
+      "updatedAt": "2026-10-17T18:58:18.893Z",
+      "lastAttemptedAt": "2026-10-17T18:58:18.893Z",
       "items": [
         {
-          "title": "THE ADDAMS FAMILY",
-          "url": "https://www.primevideo.com/detail/0TOXNZEVLAXUUZ09IVQHE8ZVUQ?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_13",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/51a9a1c872d7a92a11151793fb4d2a8fbe6525530a3832baa737c925420904fc.png",
+          "title": "The Magic Faraway Tree",
+          "url": "https://www.primevideo.com/detail/0R7TLENVWVPGBL5Q281L6YDLE6?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_6",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/f49b9861b0d47737e746ef84cf5c322a6f6078e7cdb4450956f555771acf1da0.jpg",
           "languages": "Telugu"
         }
-      ],
-      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
+      ]
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-17T18:17:35.005Z",
-      "lastAttemptedAt": "2026-10-17T18:17:35.005Z",
+      "updatedAt": "2026-10-17T18:58:42.565Z",
+      "lastAttemptedAt": "2026-10-17T18:58:42.565Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +465,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T18:17:35.249Z",
+      "lastAttemptedAt": "2026-10-17T18:58:42.949Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-17T18:17:47.061Z",
-      "lastAttemptedAt": "2026-10-17T18:17:47.061Z",
+      "updatedAt": "2026-10-17T18:58:54.145Z",
+      "lastAttemptedAt": "2026-10-17T18:58:54.145Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,21 +503,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T18:17:48.807Z",
+      "lastAttemptedAt": "2026-10-17T18:58:56.101Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T18:17:49.914Z",
+      "lastAttemptedAt": "2026-10-17T18:58:57.433Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-17T18:17:51.591Z",
-      "lastAttemptedAt": "2026-10-17T18:17:51.591Z",
+      "updatedAt": "2026-10-17T18:59:00.310Z",
+      "lastAttemptedAt": "2026-10-17T18:59:00.310Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
