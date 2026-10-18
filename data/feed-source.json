@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-10-17T18:15:20.486Z",
+  "updatedAt": "2026-10-18T00:20:46.183Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html",
+      "title": "Review: Garividi Lakshmi - Honest Attempt, Middling Execution",
+      "summary": "Garividi Lakshmi Telugu Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Garividi-Lakshmi-1.webp",
+      "publishedAt": "2026-10-17T20:31:21.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/can-crazy-kalyanam-survive-the-box-office-competition-avd.html",
+      "title": "Can Crazy Kalyanam survive the box office competition?",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Can Crazy Kalyanam survive the box office...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/can-crazy-kalyanam-survive-the-box-office-competition-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
+      "publishedAt": "2026-10-17T19:30:04.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.gulte.com/ott/436848/young-director-died-just-after-the-friday-release",
       "title": "Young Director Died Just After The Friday Release!",
@@ -9,7 +31,7 @@
       "source": "Gulte",
       "url": "https://www.gulte.com/ott/436848/young-director-died-just-after-the-friday-release",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Belraj-Kalarickal.jpg",
-      "publishedAt": "2026-10-17T17:34:59.000Z",
+      "publishedAt": "2026-10-17T18:14:59.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -21,17 +43,6 @@
       "url": "https://www.gulte.com/movienews/436855/keerthy-suresh-stuns-in-fiercest-ever-akka-avatar",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Keerthy-suresh-akka.jpg",
       "publishedAt": "2026-10-17T17:31:36.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html",
-      "title": "Review: Garividi Lakshmi - Honest Attempt, Middling Execution",
-      "summary": "Garividi Lakshmi Telugu Movie Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Garividi-Lakshmi-1.webp",
-      "publishedAt": "2026-10-17T17:31:21.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -320,28 +331,17 @@
       "publishedAt": "2026-10-17T06:02:24.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/sandeep-reddy-vanga-says-vijay-deverakonda-will-define-action-heroes",
-      "title": "Sandeep Reddy Vanga says Vijay Deverakonda will define action heroes",
-      "summary": "--> --> Sandeep Reddy Vanga says Vijay Deverakonda will define action heroes - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News...",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/sandeep-reddy-vanga-says-vijay-deverakonda-will-define-action-heroes",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/vijaydeverakonda-sandeepreddyvanga-oct1626.jpg",
-      "publishedAt": "2026-10-17T05:59:48.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
     {
-      "id": "https://telugu.indiaglitz.com/movie-news/aakasamlo-oka-tara-teaser-dont-just-dreammake-those-dreams-a-reality",
-      "title": "‘ఆకాశంలో ఒక తార’ టీజర్: కలలు కనడమే కాదు.. వాటిని నిజం చేసుకోవాలి!",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://telugu.indiaglitz.com/movie-news/aakasamlo-oka-tara-teaser-dont-just-dreammake-those-dreams-a-reality",
-      "img": "https://i.ytimg.com/vi/h3ElWvu31dc/hqdefault.jpg",
-      "youtubeId": "h3ElWvu31dc",
-      "publishedAt": "2026-10-17T13:33:35.000Z",
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
       "language": "Telugu"
     },
     {
@@ -351,16 +351,6 @@
       "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/ss-rajamouli-reacts-to-ranbir-kapoors-ramayana-new-trailer-each-actor-brings-these-timeless-characters-to-life-with-depth/articleshow/135015917.cms",
       "img": "https://static.toiimg.com/thumb/msid-135016099,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://indiaglitz.com/aakasamlo-oka-tara-teaser-dulquer-salmaan-backs-a-powerful-story-of-womens-empowerment",
-      "title": "Aakasamlo Oka Tara Teaser: Dulquer Salmaan Backs a Powerful Story of Women’s Empowerment",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/aakasamlo-oka-tara-teaser-dulquer-salmaan-backs-a-powerful-story-of-womens-empowerment",
-      "img": "https://i.ytimg.com/vi/h3ElWvu31dc/hqdefault.jpg",
-      "youtubeId": "h3ElWvu31dc",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -381,6 +371,16 @@
       "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/ramayana-official-hindi-trailer/videoshow/134983727.cms",
       "img": "https://static.toiimg.com/thumb/msid-134983727,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://indiaglitz.com/ramayana-trailer-ranbir-kapoor-as-lord-rama-and-yash-as-ravana-impress-in-powerful-posters",
+      "title": "Ramayana Trailer : Ranbir Kapoor as Lord Rama and Yash as Ravana Impress in Powerful Posters",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/ramayana-trailer-ranbir-kapoor-as-lord-rama-and-yash-as-ravana-impress-in-powerful-posters",
+      "img": "https://i.ytimg.com/vi/Wo3__JUisj8/hqdefault.jpg",
+      "youtubeId": "Wo3__JUisj8",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -1672,6 +1672,50 @@
             "rating": null,
             "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/thella-kaagitham-movie-review-rating/"
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "t": "Secret Soldier",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "Not available",
+      "img": "",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.m9.news/reviews/secret-soldier-telugu-movie-review-rating/",
+      "aggregator": {
+        "average": null,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": "https://www.m9.news/reviews/secret-soldier-telugu-movie-review-rating/"
           },
           {
             "source": "Telugu360",

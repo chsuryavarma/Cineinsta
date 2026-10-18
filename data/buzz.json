@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T18:59:00.311Z",
+  "updatedAt": "2026-10-18T00:22:01.538Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "id": "aha",
@@ -68,34 +68,8 @@
       }
     },
     {
-      "id": "tragic-news-young-director-passes-away-following-friday-release",
-      "title": "Tragic News: Young Director Passes Away Following Friday Release",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Belraj-Kalarickal.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "keerthy-suresh-captivates-audiences-with-fierce-akka-avatar",
-      "title": "Keerthy Suresh Captivates Audiences With Fierce AKKA Avatar",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Keerthy-suresh-akka.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "garividi-lakshmi-review-an-honest-attempt-with-middling-execution",
-      "title": "Garividi Lakshmi Review: An Honest Attempt With Middling Execution",
+      "id": "garividi-lakshmi-an-honest-attempt-with-middling-execution",
+      "title": "Garividi Lakshmi: An Honest Attempt with Middling Execution",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Garividi-Lakshmi-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,8 +81,47 @@
       }
     },
     {
-      "id": "rashmika-mandanna-garners-unanimous-praise-for-ranabaali",
-      "title": "Rashmika Mandanna Garners Unanimous Praise For Ranabaali",
+      "id": "box-office-face-off-will-crazy-kalyanam-withstand-the-competition",
+      "title": "Box Office Face-Off: Will Crazy Kalyanam Withstand the Competition?",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Crazy-Kalyanam-1.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "tragic-loss-young-director-passes-away-right-after-friday-release",
+      "title": "Tragic Loss: Young Director Passes Away Right After Friday Release",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Belraj-Kalarickal.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "keerthy-suresh-captivates-fans-in-her-fiercest-akka-look",
+      "title": "Keerthy Suresh Captivates Fans in Her Fiercest 'AKKA' Look",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Keerthy-suresh-akka.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "rashmika-mandanna-earns-unanimous-praise-for-her-work-in-ranabaali",
+      "title": "Rashmika Mandanna Earns Unanimous Praise for Her Work in Ranabaali",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -120,8 +133,8 @@
       }
     },
     {
-      "id": "mahesh-babu-fans-await-updates-as-varanasi-makers-remain-silent",
-      "title": "Mahesh Babu Fans Await Updates as Varanasi Makers Remain Silent",
+      "id": "mahesh-babu-fans-await-updates-as-varanasi-makers-maintain-silence",
+      "title": "Mahesh Babu Fans Await Updates as Varanasi Makers Maintain Silence",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/varanasi-makers-silence-leaves-mahesh-babu-fans-waiting-1792253484558-1792253485588.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -133,8 +146,8 @@
       }
     },
     {
-      "id": "kollywood-diwali-box-office-race-heats-up-with-suriya-and-nayanthara",
-      "title": "Kollywood Diwali Box Office Race Heats Up With Suriya and Nayanthara",
+      "id": "kollywood-gears-up-for-a-major-diwali-box-office-showdown",
+      "title": "Kollywood Gears Up for a Major Diwali Box Office Showdown",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/suriya-vs-nayanthara-tamil-cinema-prepares-for-a-diwali-box-office-clash-1792252313436-1792252314599.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,8 +159,8 @@
       }
     },
     {
-      "id": "bollywood-director-expresses-admiration-for-chiranjeevi-s-energy-and-fitness",
-      "title": "Bollywood Director Expresses Admiration for Chiranjeevi's Energy and Fitness",
+      "id": "bollywood-director-expresses-awe-at-megastar-chiranjeevi-s-fitness-and-energy",
+      "title": "Bollywood Director Expresses Awe at Megastar Chiranjeevi’s Fitness and Energy",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/chiranjeevi-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -159,8 +172,8 @@
       }
     },
     {
-      "id": "sai-pallavi-joins-the-production-of-prabhas-s-kalki-2",
-      "title": "Sai Pallavi Joins the Production of Prabhas's Kalki 2",
+      "id": "sai-pallavi-boards-the-cast-of-prabhas-s-kalki-2",
+      "title": "Sai Pallavi Boards the Cast of Prabhas's Kalki 2",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/sai-pallavi-enters-prabhas-kalki-2-shoot-1792249958527-1792249959480.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,8 +185,8 @@
       }
     },
     {
-      "id": "varanasi-release-date-back-under-the-spotlight",
-      "title": "Varanasi Release Date Back Under the Spotlight",
+      "id": "discussion-surrounds-the-release-date-of-varanasi",
+      "title": "Discussion Surrounds the Release Date of Varanasi",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/08/varanasi-mahesh-look-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -185,8 +198,8 @@
       }
     },
     {
-      "id": "garividi-lakshmi-receives-film-review-attention",
-      "title": "Garividi Lakshmi Receives Film Review Attention",
+      "id": "garividi-lakshmi-draws-attention-with-latest-review-coverage",
+      "title": "Garividi Lakshmi Draws Attention with Latest Review Coverage",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Garividi-Lakshmi-Movie-Review.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -211,8 +224,8 @@
       }
     },
     {
-      "id": "ss-rajamouli-appreciates-ramayana-trailer",
-      "title": "SS Rajamouli Appreciates Ramayana Trailer",
+      "id": "ss-rajamouli-shares-appreciation-for-ramayana-trailer",
+      "title": "SS Rajamouli Shares Appreciation for Ramayana Trailer",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ss-rajamouli-praises-ramayana-trailer-1792245941393-1792245943725.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -224,8 +237,8 @@
       }
     },
     {
-      "id": "keerthy-suresh-shines-in-her-birthday-poster-for-rowdy-janardhana",
-      "title": "Keerthy Suresh shines in her birthday poster for Rowdy Janardhana",
+      "id": "keerthy-suresh-enchants-in-birthday-poster-for-rowdy-janardhana",
+      "title": "Keerthy Suresh Enchants in Birthday Poster for Rowdy Janardhana",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/keerthy-suresh-looks-lovely-in-her-birthday-poster-of-rowdy-janardhana-1792245104672-1792245110302.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -237,8 +250,8 @@
       }
     },
     {
-      "id": "vijay-and-puri-s-slum-dog-features-a-traditional-pumpkin-breaking-ritual",
-      "title": "Vijay and Puri's Slum Dog features a traditional pumpkin-breaking ritual",
+      "id": "vijay-and-puri-jagannadh-project-slum-dog-marks-milestone-with-ritual",
+      "title": "Vijay and Puri Jagannadh Project 'Slum Dog' Marks Milestone with Ritual",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Vijay-Puris-Slum-Dog.jpeg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -250,8 +263,8 @@
       }
     },
     {
-      "id": "enchanting-first-look-poster-of-keerthy-suresh-unveiled-for-rowdy-janardhana",
-      "title": "Enchanting first-look poster of Keerthy Suresh unveiled for Rowdy Janardhana",
+      "id": "first-look-poster-of-keerthy-suresh-in-rowdy-janardhana-receives-praise",
+      "title": "First-Look Poster of Keerthy Suresh in Rowdy Janardhana Receives Praise",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Rowdy-Janardhana-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -263,8 +276,8 @@
       }
     },
     {
-      "id": "tabu-introduced-in-a-special-teaser-for-nagarjuna-s-king-100",
-      "title": "Tabu Introduced in a Special Teaser for Nagarjuna's King 100",
+      "id": "tabu-featured-in-special-character-teaser-for-nagarjuna-s-king-100",
+      "title": "Tabu Featured in Special Character Teaser for Nagarjuna's King 100",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/special-teaser-introducing-tabu-in-nagarjuna-king-100-1792229966758-1792229967066.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -276,21 +289,8 @@
       }
     },
     {
-      "id": "priyanka-avantika-and-amita-rao-make-waves-at-la-awards-event",
-      "title": "Priyanka, Avantika, and Amita Rao Make Waves at LA Awards Event",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/priyanka-avantika-amita-rao.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "aadarsha-kutumbam-locks-october-30th-theatrical-release-date",
-      "title": "Aadarsha Kutumbam Locks October 30th Theatrical Release Date",
+      "id": "aadarsha-kutumbam-locks-october-30th-release-date",
+      "title": "Aadarsha Kutumbam Locks October 30th Release Date",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Aadarsha-Kutumbam.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -302,8 +302,8 @@
       }
     },
     {
-      "id": "vijay-sethupathi-and-puri-jagannaadh-complete-shooting-for-slum-dog",
-      "title": "Vijay Sethupathi and Puri Jagannaadh Complete Shooting for Slum Dog",
+      "id": "principal-photography-wraps-for-vijay-sethupathi-and-puri-jagannaadh-s-slum-dog",
+      "title": "Principal Photography Wraps for Vijay Sethupathi and Puri Jagannaadh's Slum Dog",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Slum-Dog.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -315,8 +315,8 @@
       }
     },
     {
-      "id": "naga-vamsi-addresses-god-of-war-title-and-confirms-nelson-ntr-project",
-      "title": "Naga Vamsi Addresses God Of War Title and Confirms Nelson-NTR Project",
+      "id": "naga-vamsi-addresses-god-of-war-title-and-confirms-nelson-ntr-collaboration",
+      "title": "Naga Vamsi Addresses God Of War Title and Confirms Nelson-NTR Collaboration",
       "img": "https://cdn.gulte.com/wp-content/uploads/2025/06/naga-Vamsi-ntr-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -328,8 +328,8 @@
       }
     },
     {
-      "id": "naga-vamsi-announces-release-date-for-aadarsha-kutumbam",
-      "title": "Naga Vamsi Announces Release Date for Aadarsha Kutumbam",
+      "id": "naga-vamsi-clears-the-air-on-aadarsha-kutumbam-release-date",
+      "title": "Naga Vamsi Clears the Air on 'Aadarsha Kutumbam' Release Date",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Aadarsha-Kutumbam.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -341,8 +341,8 @@
       }
     },
     {
-      "id": "vijay-sethupathi-and-puri-jagannadh-project-slum-dog-concludes-filming",
-      "title": "Vijay Sethupathi and Puri Jagannadh Project 'Slum Dog' Concludes Filming",
+      "id": "shooting-concludes-for-vijay-sethupathi-and-puri-jagannadh-s-slum-dog",
+      "title": "Shooting Concludes for Vijay Sethupathi and Puri Jagannadh's 'Slum Dog'",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/slumdog-oct1726.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -354,8 +354,8 @@
       }
     },
     {
-      "id": "renowned-music-director-deva-of-tholi-prema-fame-passes-away-at-75",
-      "title": "Renowned Music Director Deva of 'Tholi Prema' Fame Passes Away at 75",
+      "id": "veteran-music-director-deva-known-for-tholi-prema-passes-away-at-75",
+      "title": "Veteran Music Director Deva, Known for 'Tholi Prema', Passes Away at 75",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/music-director-deva.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-17T18:58:02.667Z",
+      "lastAttemptedAt": "2026-10-18T00:21:24.947Z",
       "items": [
         {
           "title": "Irumudi",
@@ -383,9 +383,9 @@
       "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "prime-video": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-10-17T18:58:18.893Z",
-      "lastAttemptedAt": "2026-10-17T18:58:18.893Z",
+      "lastAttemptedAt": "2026-10-18T00:21:44.553Z",
       "items": [
         {
           "title": "The Magic Faraway Tree",
@@ -393,12 +393,13 @@
           "img": "https://m.media-amazon.com/images/S/pv-target-images/f49b9861b0d47737e746ef84cf5c322a6f6078e7cdb4450956f555771acf1da0.jpg",
           "languages": "Telugu"
         }
-      ]
+      ],
+      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-17T18:58:42.565Z",
-      "lastAttemptedAt": "2026-10-17T18:58:42.565Z",
+      "updatedAt": "2026-10-18T00:21:44.918Z",
+      "lastAttemptedAt": "2026-10-18T00:21:44.918Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -465,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T18:58:42.949Z",
+      "lastAttemptedAt": "2026-10-18T00:21:45.322Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-17T18:58:54.145Z",
-      "lastAttemptedAt": "2026-10-17T18:58:54.145Z",
+      "updatedAt": "2026-10-18T00:21:55.990Z",
+      "lastAttemptedAt": "2026-10-18T00:21:55.990Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -503,21 +504,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T18:58:56.101Z",
+      "lastAttemptedAt": "2026-10-18T00:21:57.966Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-17T18:58:57.433Z",
+      "lastAttemptedAt": "2026-10-18T00:21:59.288Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-17T18:59:00.310Z",
-      "lastAttemptedAt": "2026-10-17T18:59:00.310Z",
+      "updatedAt": "2026-10-18T00:22:01.536Z",
+      "lastAttemptedAt": "2026-10-18T00:22:01.536Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
