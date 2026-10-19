@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T00:21:58.456Z",
+  "updatedAt": "2026-10-19T01:14:14.279Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-19T00:21:26.032Z",
+      "lastAttemptedAt": "2026-10-19T01:12:08.934Z",
       "items": [
         {
           "title": "Irumudi",
@@ -385,7 +385,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-17T18:58:18.893Z",
-      "lastAttemptedAt": "2026-10-19T00:21:42.247Z",
+      "lastAttemptedAt": "2026-10-19T01:12:24.877Z",
       "items": [
         {
           "title": "The Magic Faraway Tree",
@@ -398,8 +398,8 @@
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-19T00:21:42.691Z",
-      "lastAttemptedAt": "2026-10-19T00:21:42.691Z",
+      "updatedAt": "2026-10-19T01:13:56.542Z",
+      "lastAttemptedAt": "2026-10-19T01:13:56.542Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-19T00:21:42.961Z",
+      "lastAttemptedAt": "2026-10-19T01:13:56.923Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-19T00:21:52.766Z",
-      "lastAttemptedAt": "2026-10-19T00:21:52.766Z",
+      "updatedAt": "2026-10-19T01:14:07.978Z",
+      "lastAttemptedAt": "2026-10-19T01:14:07.978Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,21 +504,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-19T00:21:54.266Z",
+      "lastAttemptedAt": "2026-10-19T01:14:09.679Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-19T00:21:55.358Z",
+      "lastAttemptedAt": "2026-10-19T01:14:10.711Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-19T00:21:58.453Z",
-      "lastAttemptedAt": "2026-10-19T00:21:58.453Z",
+      "updatedAt": "2026-10-19T01:14:14.277Z",
+      "lastAttemptedAt": "2026-10-19T01:14:14.277Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
