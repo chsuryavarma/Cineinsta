@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T13:16:35.077Z",
+  "updatedAt": "2026-10-20T18:31:27.415Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "id": "aha",
@@ -68,8 +68,125 @@
       }
     },
     {
-      "id": "examining-box-office-realities-and-budget-pressures-for-tier-2-heroes",
-      "title": "Examining Box-Office Realities and Budget Pressures for Tier 2 Heroes",
+      "id": "arr-falls-short-while-yash-captivates-with-high-energy",
+      "title": "ARR Falls Short While Yash Captivates With High Energy",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/ravana-tandav.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "dil-raju-makes-a-notable-faux-pas-at-the-ramayana-pre-release-event",
+      "title": "Dil Raju Makes a Notable Faux Pas at the Ramayana Pre-Release Event",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ramayana-pre-release-dil-raju-faux-pas-1792515976095-1792515975719.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "is-composer-thaman-directing-more-focus-toward-smaller-projects",
+      "title": "Is Composer Thaman Directing More Focus Toward Smaller Projects?",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/thaman-comments.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "malayalam-time-loop-thriller-locks-official-netflix-premiere-date",
+      "title": "Malayalam Time-Loop Thriller Locks Official Netflix Premiere Date",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Dhoomakethu.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "tabu-s-character-glimpse-from-nagarjuna-s-king-100-postponed",
+      "title": "Tabu’s Character Glimpse From Nagarjuna’s ‘King 100’ Postponed",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/tabuking100-oct2026.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "devi-sri-prasad-s-yellamma-locked-for-march-5-2027-release-in-five-languages",
+      "title": "Devi Sri Prasad’s 'Yellamma' Locked for March 5, 2027 Release in Five Languages",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/yellamma-releasedate-oct2026.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "is-a-wedding-on-the-cards-for-mega-hero-sai-dharam-tej",
+      "title": "Is a Wedding on the Cards for Mega Hero Sai Dharam Tej?",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/12/Sai-Dharam-Tej.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "industry-buzz-hints-at-potential-collaboration-between-aamir-khan-and-atlee",
+      "title": "Industry Buzz Hints at Potential Collaboration Between Aamir Khan and Atlee",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Aamir-Khan-and-Atlee-Film.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "venkatesh-starrer-aadarsha-kutumbam-gear-up-for-trailer-and-pre-release-events",
+      "title": "Venkatesh Starrer Aadarsha Kutumbam Gear Up For Trailer And Pre-Release Events",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Aadarsha-Kutumbam.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "examining-the-financial-risks-of-high-budgets-for-tier-2-telugu-cinema-heroes",
+      "title": "Examining The Financial Risks Of High Budgets For Tier 2 Telugu Cinema Heroes",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/why-career-best-numbers-aren-t-enough-for-tier-2-heroes-1792497945838-1792497945679.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -82,7 +199,7 @@
     },
     {
       "id": "mythri-movie-makers-schedules-paid-premieres-for-horror-feature-418",
-      "title": "Mythri Movie Makers Schedules Paid Premieres for Horror Feature '418'",
+      "title": "Mythri Movie Makers Schedules Paid Premieres For Horror Feature '418'",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/418-3.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -94,8 +211,8 @@
       }
     },
     {
-      "id": "devi-sri-prasad-s-lead-acting-debut-yellamma-sets-release-date",
-      "title": "Devi Sri Prasad's Lead Acting Debut 'Yellamma' Sets Release Date",
+      "id": "devi-sri-prasad-locks-release-date-for-lead-actor-debut-in-yellamma",
+      "title": "Devi Sri Prasad Locks Release Date For Lead Actor Debut In 'Yellamma'",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Yellamma.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,8 +224,8 @@
       }
     },
     {
-      "id": "rumours-surface-regarding-teja-sajja-s-potential-december-wedding",
-      "title": "Rumours Surface Regarding Teja Sajja's Potential December Wedding",
+      "id": "teja-sajja-rumored-to-tie-the-knot-with-techie-in-december",
+      "title": "Teja Sajja Rumored to Tie the Knot with Techie in December",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/teja-sajja-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -120,8 +237,60 @@
       }
     },
     {
-      "id": "nithiin-and-aafiya-sayed-team-up-for-upcoming-song-alias-rukmini",
-      "title": "Nithiin and Aafiya Sayed Team Up for Upcoming Song 'Alias Rukmini'",
+      "id": "ak-47-confirmed-for-a-challenging-box-office-clash",
+      "title": "AK 47 Confirmed for a Challenging Box Office Clash",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/AK-47-oct-30.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "dsp-s-yellamma-secures-an-ideal-release-slot",
+      "title": "DSP’s Yellamma Secures an Ideal Release Slot",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/01/dsp-yellamma.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "aadi-saikumar-s-ambitious-pan-indian-project-titled-aadi-rudrra",
+      "title": "Aadi Saikumar's Ambitious Pan-Indian Project Titled Aadi Rudrra",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Rudrra.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "venky-faces-off-against-small-films-on-october-30th",
+      "title": "Venky Faces Off Against Small Films on October 30th",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Aadarsha-Kutumbam.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "nithiin-and-aafiya-sayed-s-first-song-from-alias-rukmini-set-for-release",
+      "title": "Nithiin and Aafiya Sayed’s First Song from Alias Rukmini Set for Release",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/aliasrukmini-oct20226.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -133,8 +302,21 @@
       }
     },
     {
-      "id": "aadarsha-kutumbam-locks-october-30-release-after-previous-delays",
-      "title": "'Aadarsha Kutumbam' Locks October 30 Release After Previous Delays",
+      "id": "reports-surface-that-producer-rejected-shankar-s-25-day-shoot-request-for-indian-3",
+      "title": "Reports Surface That Producer Rejected Shankar’s 25-Day Shoot Request for Indian 3",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Indian-3-shoot.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "aadarsha-kutumbam-confirms-october-30-release-date-following-multiple-postponements",
+      "title": "Aadarsha Kutumbam Confirms October 30 Release Date Following Multiple Postponements",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/aadarshakutumbam-releasedate-oct2026.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,8 +328,8 @@
       }
     },
     {
-      "id": "bhogi-annayya-paanamlo-celebrated-as-a-standout-family-song",
-      "title": "'Bhogi Annayya Paanamlo' Celebrated as a Standout Family Song",
+      "id": "celebrating-family-ties-through-bhogi-annayya-paanamlo",
+      "title": "Celebrating Family Ties Through 'Bhogi Annayya Paanamlo'",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Bhogi-Annayya-Paanamlo-song.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -159,8 +341,8 @@
       }
     },
     {
-      "id": "celebrating-sibling-bonds-with-annayya-from-bhogi",
-      "title": "Celebrating Sibling Bonds With Annayya From Bhogi",
+      "id": "exploring-sibling-bonds-in-annayya-from-bhogi",
+      "title": "Exploring Sibling Bonds in 'Annayya From Bhogi'",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/bhogi-song-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,191 +354,9 @@
       }
     },
     {
-      "id": "kiran-abbavaram-and-reality-family-spread-festive-joy",
-      "title": "Kiran Abbavaram And Reality Family Spread Festive Joy",
+      "id": "kiran-abbavaram-brings-festive-spirit-to-the-screen",
+      "title": "Kiran Abbavaram Brings Festive Spirit to the Screen",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/reality-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "vijay-deverakonda-faces-fan-backlash-online",
-      "title": "Vijay Deverakonda Faces Fan Backlash Online",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/fans-furious-with-vijay-devarakonda-1792478353882-1792478354465.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sumanth-prabhas-babloo-xxl-first-look-released-for-dussehra",
-      "title": "Sumanth Prabhas' Babloo XXL First Look Released For Dussehra",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/XXL.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "dhanush-s-latest-musical-release-sparks-excitement-among-allu-arjun-supporters",
-      "title": "Dhanush’s Latest Musical Release Sparks Excitement Among Allu Arjun Supporters",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/raaka-sai-abhyankar-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "naga-chaitanya-sports-an-intense-avatar-in-vrushakarma-dussehra-poster",
-      "title": "Naga Chaitanya Sports an Intense Avatar in Vrushakarma Dussehra Poster",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Vrushakarma.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "clarification-issued-regarding-vijay-deverakonda-s-next-move",
-      "title": "Clarification Issued Regarding Vijay Deverakonda's Next Move",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Ranabaali-3.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "rashmika-mandanna-starrer-mysaa-eyes-potential-release-date-shift",
-      "title": "Rashmika Mandanna Starrer Mysaa Eyes Potential Release Date Shift",
-      "img": "https://telugucinema.com/wp-content/uploads/2025/12/rashmika-mysaa.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "ss-rajamouli-discusses-varanasi-production-challenges-and-shares-updates",
-      "title": "SS Rajamouli Discusses Varanasi Production Challenges and Shares Updates",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rajamouli-shares-varanasi-difficulties-and-updates-1792472084812-1792472085640.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "vijay-deverakonda-set-to-explore-a-feel-good-love-story",
-      "title": "Vijay Deverakonda Set to Explore a Feel-Good Love Story",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-plans-a-feel-good-love-story-1792468037470-1792468037945.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "rajinikanth-achieves-another-massive-milestone-with-a-500-crore-box-office-hit",
-      "title": "Rajinikanth Achieves Another Massive Milestone with a 500 Crore Box Office Hit",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/jailer-2-500-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "only-10-days-of-shooting-remaining-for-varanasi-confirms-ss-rajamouli",
-      "title": "Only 10 Days of Shooting Remaining for Varanasi, Confirms SS Rajamouli",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/01/Varanasi-1.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "major-star-s-upcoming-movie-reportedly-recovers-full-production-cost-from-ott-rights",
-      "title": "Major Star's Upcoming Movie Reportedly Recovers Full Production Cost From OTT Rights",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Aakasamlo-Oka-Tara.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "trailer-for-418-sets-the-stage-for-an-engaging-horror-mystery",
-      "title": "Trailer for 418 Sets the Stage for an Engaging Horror Mystery",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/418-movie.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "tumbbad-actor-expresses-high-anticipation-for-ss-rajamouli-s-varanasi",
-      "title": "Tumbbad Actor Expresses High Anticipation for SS Rajamouli's Varanasi",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Varanasi.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "yash-speaks-out-in-support-of-ramayana-vfx-calls-for-industry-solidarity",
-      "title": "Yash Speaks Out in Support of Ramayana VFX, Calls for Industry Solidarity",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/yash-Ramayana-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-20T13:15:51.737Z",
+      "lastAttemptedAt": "2026-10-20T18:29:26.149Z",
       "items": [
         {
           "title": "Irumudi",
@@ -383,23 +383,28 @@
       "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "prime-video": {
-      "status": "stale",
-      "updatedAt": "2026-10-17T18:58:18.893Z",
-      "lastAttemptedAt": "2026-10-20T13:16:06.783Z",
+      "status": "ok",
+      "updatedAt": "2026-10-20T18:29:49.366Z",
+      "lastAttemptedAt": "2026-10-20T18:29:49.366Z",
       "items": [
         {
-          "title": "The Magic Faraway Tree",
-          "url": "https://www.primevideo.com/detail/0R7TLENVWVPGBL5Q281L6YDLE6?tr=is&jic=8%7CEgR0dm9k&ref_=atv_mv_hom_c_Bc7DtG_brws_2_6",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/f49b9861b0d47737e746ef84cf5c322a6f6078e7cdb4450956f555771acf1da0.jpg",
+          "title": "Mortal Kombat",
+          "url": "https://www.primevideo.com/detail/0J12INIL3DC3I7K55S31CTYWEQ?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OBfdbedd_brws_2_3",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/2ed7fabd3eba767998de5f1802fe0aee019ae432b5bc74cb11fadef5fbf426e5.jpg",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Encounter",
+          "url": "https://www.primevideo.com/detail/0RL0SWS5ONJO62SNXXA7V4RF3P?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OBfdbedd_brws_2_11",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/a69c7325be888d0f3daaabf9b2bbe256dc6ee4300b972b1d598ca1fd18064ed7.jpg",
           "languages": "Telugu"
         }
-      ],
-      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
+      ]
     },
     "aha": {
       "status": "ok",
-      "updatedAt": "2026-10-20T13:16:14.906Z",
-      "lastAttemptedAt": "2026-10-20T13:16:14.906Z",
+      "updatedAt": "2026-10-20T18:30:55.348Z",
+      "lastAttemptedAt": "2026-10-20T18:30:55.348Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +471,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-20T13:16:15.204Z",
+      "lastAttemptedAt": "2026-10-20T18:30:55.588Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-20T13:16:27.324Z",
-      "lastAttemptedAt": "2026-10-20T13:16:27.324Z",
+      "updatedAt": "2026-10-20T18:31:19.136Z",
+      "lastAttemptedAt": "2026-10-20T18:31:19.136Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,21 +509,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-20T13:16:29.065Z",
+      "lastAttemptedAt": "2026-10-20T18:31:21.025Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-20T13:16:30.205Z",
+      "lastAttemptedAt": "2026-10-20T18:31:22.164Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-20T13:16:35.075Z",
-      "lastAttemptedAt": "2026-10-20T13:16:35.075Z",
+      "updatedAt": "2026-10-20T18:31:27.412Z",
+      "lastAttemptedAt": "2026-10-20T18:31:27.412Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
