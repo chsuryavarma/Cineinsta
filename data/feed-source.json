@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-20T18:27:44.715Z",
+  "updatedAt": "2026-10-21T00:21:46.153Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.123telugu.com/mnews/suriya-holding-discussions-with-this-tollywood-director-prp.html",
+      "title": "Suriya holding discussions with this Tollywood director?",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Suriya holding discussions with this Tollywood...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/suriya-holding-discussions-with-this-tollywood-director-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Suriya.webp",
+      "publishedAt": "2026-10-20T20:30:36.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.gulte.com/movienews/437268/arr-misses-something-but-yash-nails-it-with-his-energy",
       "title": "ARR Misses Something, But Yash Nails It With His Energy",
@@ -320,20 +331,19 @@
       "publishedAt": "2026-10-20T04:59:15.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/varanasi-only-10-days-of-shooting-left-says-ss-rajamouli-hk.html",
-      "title": "Varanasi: Only 10 Days of Shooting Left, Says SS Rajamouli",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Varanasi: Only 10 Days of Shooting Left,...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/varanasi-only-10-days-of-shooting-left-says-ss-rajamouli-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/01/Varanasi-1.webp",
-      "publishedAt": "2026-10-20T01:30:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/deepika-padukone-ranveer-singh-announce-name-of-second-baby-as-devi-padukone-singh-drop-first-glimpse-in-a-family-portrait-on-dussehra-dua-kisses-her-baby-sister-pic-inside/articleshow/135069718.cms",
       "title": "Deepika Padukone, Ranveer Singh announce second baby's name as Devi Padukone Singh, drop FIRST glimpse in a family portrait on Dussehra, Dua kisses her baby sister - PIC inside",
@@ -352,16 +362,6 @@
       "img": "https://i.ytimg.com/vi/h3ElWvu31dc/hqdefault.jpg",
       "youtubeId": "h3ElWvu31dc",
       "publishedAt": "2026-10-17T13:33:35.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://indiaglitz.com/aakasamlo-oka-tara-teaser-dulquer-salmaan-backs-a-powerful-story-of-womens-empowerment",
-      "title": "Aakasamlo Oka Tara Teaser: Dulquer Salmaan Backs a Powerful Story of Women’s Empowerment",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/aakasamlo-oka-tara-teaser-dulquer-salmaan-backs-a-powerful-story-of-womens-empowerment",
-      "img": "https://i.ytimg.com/vi/h3ElWvu31dc/hqdefault.jpg",
-      "youtubeId": "h3ElWvu31dc",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
       "language": "Telugu"
     },
     {
