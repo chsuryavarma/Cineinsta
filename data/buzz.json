@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T12:30:54.001Z",
+  "updatedAt": "2026-10-21T13:18:33.224Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "aha",
       "name": "Aha",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "id": "jiohotstar",
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-21T12:28:40.420Z",
+      "lastAttemptedAt": "2026-10-21T13:17:52.475Z",
       "items": [
         {
           "title": "Irumudi",
@@ -385,7 +385,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-20T18:29:49.366Z",
-      "lastAttemptedAt": "2026-10-21T12:29:01.081Z",
+      "lastAttemptedAt": "2026-10-21T13:18:13.192Z",
       "items": [
         {
           "title": "Mortal Kombat",
@@ -403,9 +403,9 @@
       "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "aha": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-21T12:30:35.570Z",
+      "lastAttemptedAt": "2026-10-21T13:18:14.034Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -467,19 +467,20 @@
           "img": "https://image-resizer-cloud-api-ahacms.akamaized.net/image/E9B92DEE-9107-4A6B-9E3A-4BD01968B819/0-16x9.jpg?width=1920&updatedTime=2026-07-16T04:38:00Z&dt=Web",
           "languages": "Telugu"
         }
-      ]
+      ],
+      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-21T12:30:35.808Z",
+      "lastAttemptedAt": "2026-10-21T13:18:14.209Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-21T12:30:47.624Z",
-      "lastAttemptedAt": "2026-10-21T12:30:47.624Z",
+      "updatedAt": "2026-10-21T13:18:25.193Z",
+      "lastAttemptedAt": "2026-10-21T13:18:25.193Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -510,21 +511,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-21T12:30:49.615Z",
+      "lastAttemptedAt": "2026-10-21T13:18:26.894Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-21T12:30:50.981Z",
+      "lastAttemptedAt": "2026-10-21T13:18:28.230Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-21T12:30:53.999Z",
-      "lastAttemptedAt": "2026-10-21T12:30:53.999Z",
+      "updatedAt": "2026-10-21T13:18:33.222Z",
+      "lastAttemptedAt": "2026-10-21T13:18:33.222Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
