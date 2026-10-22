@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T00:23:42.035Z",
+  "updatedAt": "2026-10-22T01:12:12.810Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-22T00:23:02.808Z",
+      "lastAttemptedAt": "2026-10-22T01:11:37.848Z",
       "items": [
         {
           "title": "Irumudi",
@@ -384,8 +384,8 @@
     },
     "prime-video": {
       "status": "ok",
-      "updatedAt": "2026-10-22T00:23:21.861Z",
-      "lastAttemptedAt": "2026-10-22T00:23:21.861Z",
+      "updatedAt": "2026-10-22T01:11:55.121Z",
+      "lastAttemptedAt": "2026-10-22T01:11:55.121Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -398,7 +398,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-22T00:23:23.626Z",
+      "lastAttemptedAt": "2026-10-22T01:11:56.585Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-22T00:23:24.504Z",
+      "lastAttemptedAt": "2026-10-22T01:11:56.802Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-22T00:23:33.486Z",
-      "lastAttemptedAt": "2026-10-22T00:23:33.486Z",
+      "updatedAt": "2026-10-22T01:12:06.620Z",
+      "lastAttemptedAt": "2026-10-22T01:12:06.620Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,21 +504,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-22T00:23:35.468Z",
+      "lastAttemptedAt": "2026-10-22T01:12:08.685Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-22T00:23:36.812Z",
+      "lastAttemptedAt": "2026-10-22T01:12:10.322Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-22T00:23:42.033Z",
-      "lastAttemptedAt": "2026-10-22T00:23:42.033Z",
+      "updatedAt": "2026-10-22T01:12:12.808Z",
+      "lastAttemptedAt": "2026-10-22T01:12:12.808Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
