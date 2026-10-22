@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T01:12:12.810Z",
+  "updatedAt": "2026-10-22T06:31:00.510Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-22T01:11:37.848Z",
+      "lastAttemptedAt": "2026-10-22T06:30:22.421Z",
       "items": [
         {
           "title": "Irumudi",
@@ -384,13 +384,13 @@
     },
     "prime-video": {
       "status": "ok",
-      "updatedAt": "2026-10-22T01:11:55.121Z",
-      "lastAttemptedAt": "2026-10-22T01:11:55.121Z",
+      "updatedAt": "2026-10-22T06:30:41.267Z",
+      "lastAttemptedAt": "2026-10-22T06:30:41.267Z",
       "items": [
         {
-          "title": "Rocky Balboa: The Ultimate Director's Cut",
-          "url": "https://www.primevideo.com/detail/0R3DUR4EC1OIR32BB5D2PS4VYO?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_5crrHZ_brws_3_4",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/030d015fb01635b0b94b732272d459d7fec4712e64ee0166f58f8e71dd317adf.jpg",
+          "title": "Soorarai Pottru (Tamil)",
+          "url": "https://www.primevideo.com/detail/0RIGXSH2D86B5V2RNHQOZVRGAD?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_5crrHZ_brws_3_7",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/5477c845aff1cfa4c7e50babecf3179af3a7ad43a63dfb549d62d284ffced92f.jpg",
           "languages": "Telugu"
         }
       ]
@@ -398,7 +398,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-22T01:11:56.585Z",
+      "lastAttemptedAt": "2026-10-22T06:30:42.479Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-22T01:11:56.802Z",
+      "lastAttemptedAt": "2026-10-22T06:30:42.713Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-22T01:12:06.620Z",
-      "lastAttemptedAt": "2026-10-22T01:12:06.620Z",
+      "updatedAt": "2026-10-22T06:30:54.603Z",
+      "lastAttemptedAt": "2026-10-22T06:30:54.603Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,32 +504,26 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-22T01:12:08.685Z",
+      "lastAttemptedAt": "2026-10-22T06:30:56.516Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-22T01:12:10.322Z",
+      "lastAttemptedAt": "2026-10-22T06:30:57.846Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-22T01:12:12.808Z",
-      "lastAttemptedAt": "2026-10-22T01:12:12.808Z",
+      "updatedAt": "2026-10-22T06:31:00.508Z",
+      "lastAttemptedAt": "2026-10-22T06:31:00.508Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
           "url": "https://www.sonyliv.com/movies/dc-1590016690",
           "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000026043/1791476990957783_DC_Landscape_Thumb.jpg?w=200&q=high",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Watch Hastinapur Ke Veer - Dussehra Special Full HD Movie Online - Sony LIV",
-          "url": "https://www.sonyliv.com/movies/hastinapur-ke-veer-dussehra-special-1590016713",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000026747/1792476694229767_HKV_Movie_landscape_thumb.jpg?w=200&q=high",
           "languages": "Telugu"
         }
       ]
