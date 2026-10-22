@@ -1,11 +1,273 @@
 {
-  "updatedAt": "2026-10-22T06:30:09.533Z",
+  "updatedAt": "2026-10-22T12:29:19.060Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.123telugu.com/mnews/allu-arjun-reviews-jailer-2-only-rajini-can-hit-500-crores-without-getting-his-shirt-wrinkled-prp.html",
+      "title": "Allu Arjun Praises Rajinikanth's Box Office Pull Following Jailer 2 Review",
+      "summary": "Actor Allu Arjun recently shared his thoughts on Jailer 2, highlighting Rajinikanth's massive box office milestone. His comments spotlight the legendary star's unmatched screen presence and commercial reach.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/allu-arjun-reviews-jailer-2-only-rajini-can-hit-500-crores-without-getting-his-shirt-wrinkled-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/jailer2-3.webp",
+      "publishedAt": "2026-10-22T11:33:20.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a recent industry discussion, prominent actor Allu Arjun shared his perspective on Jailer 2, focusing heavily on lead star Rajinikanth's incredible box office capabilities. The remarks quickly caught the attention of film enthusiasts across the Indian cinema circuit.",
+        "According to the commentary, Allu Arjun noted that Rajinikanth stands alone in his ability to cross the massive 500-crore mark effortlessly. He humorously pointed out the superstar's signature style, emphasizing how he achieves these milestones while maintaining a completely composed demeanor.",
+        "Such high praise from a contemporary leading man underscores the immense respect Rajinikanth commands within the fraternity. Industry observers continue to follow these actor interactions as a testament to pan-Indian cinematic camaraderie."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/vishwak-sen-three-films-in-three-months/",
+      "title": "Vishwak Sen Sets Ambitious Pace With Three Films in Three Months",
+      "summary": "Tollywood actor Vishwak Sen has grabbed attention with an aggressive cinematic lineup, scheduling three movie releases within a span of three months. This rapid-fire release strategy marks a notable phase in the actor's career.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/vishwak-sen-three-films-in-three-months/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/CULT-ENE-Repeat-Legacy-movies.jpg",
+      "publishedAt": "2026-10-22T10:57:24.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Tollywood actor Vishwak Sen is generating significant buzz with an intensive upcoming release schedule. Reports indicate that the energetic performer has lined up three distinct feature films to hit the big screen consecutively over a three-month period.",
+        "This rapid deployment strategy showcases the actor's prolific work ethic and commitment to keeping audiences engaged with diverse content. Juggling multiple projects in such a tight timeframe requires immense coordination and production dedication.",
+        "As details regarding these upcoming titles emerge, fans and industry trackers are watching closely to see how this ambitious lineup impacts the box office landscape and strengthens Vishwak Sen's market presence."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130763/allu-arjun-reviews-jailer-2-praises-rajinikanth-screen-presence.html",
+      "title": "Allu Arjun Appreciates Rajinikanth's Screen Presence in Jailer 2",
+      "summary": "Telugu star Allu Arjun has expressed admiration for Rajinikanth following a screening of Jailer 2. His review draws special attention to the legendary actor's iconic screen presence and effortless stardom.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130763/allu-arjun-reviews-jailer-2-praises-rajinikanth-screen-presence.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/allu-arjun-reviews-jailer-2-praises-rajinikanth-screen-presence-1792666232446-1792666232796.jpg",
+      "publishedAt": "2026-10-22T10:50:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Allu Arjun has shared his appreciation for the recent film Jailer 2, specifically spotlighting the legendary screen presence of Rajinikanth. The remarks highlight the unique aura that the veteran actor brings to commercial cinema.",
+        "During his review of the project, Allu Arjun emphasized that Rajinikanth possesses a rare caliber of stardom capable of driving massive box office numbers. He famously noted the effortless nature of the superstar's achievements in the industry.",
+        "Interactions and acknowledgments of this scale between major stars reflect the mutual admiration prevalent in contemporary Indian cinema, keeping excitement high among fans of both actors."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/gen-z-romance-romeo-juliet-locks-release-date/",
+      "title": "Gen-Z Romance 'Romeo Juliet' Finalizes Its Theatrical Release Schedule",
+      "summary": "The upcoming Gen-Z romance film titled Romeo Juliet has officially locked in its theatrical release date, drawing anticipation from audiences eager for contemporary romantic dramas.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/gen-z-romance-romeo-juliet-locks-release-date/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Romeo-Juliet.jpg",
+      "publishedAt": "2026-10-22T10:40:40.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The upcoming romantic drama titled Romeo Juliet has officially locked its release date. Pitched as a Gen-Z romance, the movie aims to bring a modern, youth-centric love story to the big screen.",
+        "As the project moves closer to its scheduled arrival, anticipation builds among moviegoers interested in contemporary storytelling. Further details regarding the exact theatrical schedule will be anticipated by fans tracking the film's progress."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/varun-sandeshs-naa-wife-missing-ott-movie-review-and-rating.html",
+      "title": "Varun Sandesh Starrer 'Naa Wife Missing' Receives OTT Release Treatment on Aha",
+      "summary": "Varun Sandesh's Telugu film Naa Wife Missing has arrived on the digital streaming platform Aha, drawing attention from fans and digital film reviewers alike.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/varun-sandeshs-naa-wife-missing-ott-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Naa-Wife-Missing-2.webp",
+      "publishedAt": "2026-10-22T10:25:07.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Varun Sandesh's Telugu project, Naa Wife Missing, has made its way onto the digital space. The movie is currently available for streaming on the popular OTT platform Aha.",
+        "The direct-to-digital availability on Aha brings the film straight to audiences at home, allowing fans of Varun Sandesh to watch the feature online and share reviews across various entertainment portals."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/salman-khan-increases-security-at-vamshi-paidipallys-film-shoot",
+      "title": "Salman Khan Steps Up Security Measures on the Set of Vamshi Paidipally’s Movie",
+      "summary": "Bollywood star Salman Khan has reportedly enhanced security protocols during the ongoing production of Vamshi Paidipally’s film shoot, ensuring a secure working environment.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/salman-khan-increases-security-at-vamshi-paidipallys-film-shoot",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/salmankhan-vamshipaidipally-oct2226.jpg",
+      "publishedAt": "2026-10-22T09:34:39.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Bollywood star Salman Khan has taken steps to ramp up security measures at the filming location of Vamshi Paidipally’s upcoming project. The increased precautions are designed to maintain privacy and safety on set during production.",
+        "This update highlights the careful management surrounding the high-profile collaboration, keeping details under wraps as the shoot progresses under tighter watch."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/fans-pin-big-hopes-on-fauzi-teaser-will-it-deliver-avd.html",
+      "title": "High Expectations Surround Upcoming 'Fauzi' Teaser Release",
+      "summary": "Fans are harboring major expectations for the upcoming teaser of Fauzi, leaving audiences eager to see if the promotional material will live up to the hype.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/fans-pin-big-hopes-on-fauzi-teaser-will-it-deliver-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Fauzi.webp",
+      "publishedAt": "2026-10-22T09:33:39.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Anticipation is running high among movie enthusiasts as they await the official teaser for Fauzi. Followers of the project have pinned major hopes on this upcoming promotional preview.",
+        "As discussions build around what the teaser might reveal, viewers are keen to see whether the forthcoming footage will meet expectations and generate strong momentum for the film."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/dheeraj-mogilineni-takes-a-dig-at-naga-vamsi-over-release-date-changes",
+      "title": "Dheeraj Mogilineni Criticizes Naga Vamsi Over Release Date Shifts",
+      "summary": "Filmmaker Dheeraj Mogilineni has publicly addressed release date changes, taking a direct dig at fellow industry personality Naga Vamsi. The exchange highlights ongoing discussions within the Telugu film community regarding scheduling strategies.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/dheeraj-mogilineni-takes-a-dig-at-naga-vamsi-over-release-date-changes",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/nagavamsi-dheeraj-oct2226.jpg",
+      "publishedAt": "2026-10-22T09:19:45.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a recent industry development, Dheeraj Mogilineni has voiced criticism directed at Naga Vamsi concerning frequent changes to movie release schedules. Such adjustments often trigger conversations among filmmakers and audiences alike about coordination within the regional entertainment sector.",
+        "Release calendar management remains a critical aspect of film distribution, where timing can significantly influence audience reach. Mogilineni's remarks bring renewed focus to how scheduling decisions are handled and perceived by peers within the Telugu cinema landscape."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/437469/sree-vishnu-a-producers-delight",
+      "title": "Actor Sree Vishnu Earns Praise as a Producer's Delight",
+      "summary": "Tollywood actor Sree Vishnu has garnered positive attention and appreciation, widely being regarded as a producer's delight within the industry. This recognition highlights his professional standing and collaborative approach to filmmaking.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/437469/sree-vishnu-a-producers-delight",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/sree-Vishnu-comrade-kalyan.jpg",
+      "publishedAt": "2026-10-22T08:43:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Sree Vishnu has established a strong reputation among industry insiders, earning accolades as a producer's delight. In the Telugu film sector, maintaining positive working relationships with production teams is a notable asset for any leading talent.",
+        "Such industry standing often reflects a collaborative mindset and dedication to project execution. Sree Vishnu's recognition in this regard underscores his valued presence in contemporary cinema projects."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/two-small-films-postponed/",
+      "title": "Two Upcoming Small-Budget Films Face Schedule Postponements",
+      "summary": "Two independent or small-scale films have officially announced delays in their theatrical arrival. The postponements alter the near-term release calendar for regional cinema enthusiasts.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/two-small-films-postponed/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Itlu-Arjuna-and-Summer-Holidays-movies-postponed.jpg",
+      "publishedAt": "2026-10-22T08:42:17.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The landscape for upcoming releases has shifted with the news that two small films have postponed their scheduled debuts. Such adjustments are frequently made by independent makers to secure optimal windows or complete final post-production requirements.",
+        "While scheduling changes can alter anticipated viewing timelines, they remain a common occurrence in the dynamic film exhibition sector. Further updates are expected regarding the revised premiere timelines for these projects."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/donga-naa-koduku-actor-moulis-response-to-trolls-wins-hearts-all-over-avd.html",
+      "title": "Donga Naa Koduku Actor Mouli Wins Praise for Handling Trolls",
+      "summary": "Actor Mouli, known for his work in Donga Naa Koduku, has drawn widespread appreciation for his gracious response to online criticism. His mature handling of negative commentary has resonated positively with fans and moviegoers.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/donga-naa-koduku-actor-moulis-response-to-trolls-wins-hearts-all-over-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Donga-Naa-Koduku-1.webp",
+      "publishedAt": "2026-10-22T07:30:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Navigating public scrutiny is a constant challenge for performers, but Donga Naa Koduku actor Mouli recently handled online negativity in a manner that won hearts everywhere. His thoughtful reaction to trolls has been met with considerable praise across social platforms.",
+        "The positive public reception highlights how artists can effectively manage digital negativity with poise. Mouli's measured approach has strengthened his connection with audiences following the release of his work."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/437460/sreeleela-serves-another-traditional-look-this-season",
+      "title": "Sreeleela Charms Fans with a Brand New Traditional Look",
+      "summary": "Actor Sreeleela has once again captured the attention of cinema enthusiasts and followers by showcasing another striking traditional look this season, blending elegance and style effortlessly.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/437460/sreeleela-serves-another-traditional-look-this-season",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Sreeleela-2-1.jpg",
+      "publishedAt": "2026-10-22T07:30:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Popular actor Sreeleela has once again captured the spotlight by showcasing a fresh traditional look that is currently making waves among fans and followers this season.",
+        "Known for her impressive screen presence and sartorial choices, the actor's latest appearance highlights her distinct flair for traditional styling.",
+        "As updates regarding her public appearances and styling continue to trend across entertainment circles, fans eagerly anticipate her upcoming cinematic projects."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/pawan-kalyans-office-denies-resignation-rumours-warns-of-action-against-fake-channel",
+      "title": "Pawan Kalyan’s Office Slams Resignation Rumours and Warns Fake Channels",
+      "summary": "The office of prominent film personality and leader Pawan Kalyan has officially dismissed recent rumors regarding a resignation, issuing a stern warning of strict action against malicious channels spreading false information.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/pawan-kalyans-office-denies-resignation-rumours-warns-of-action-against-fake-channel",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/05/pawankalyan-may1426.jpg",
+      "publishedAt": "2026-10-22T07:18:55.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The official office of Pawan Kalyan has stepped forward to categorically deny widespread speculations and rumors regarding a resignation.",
+        "Addressing the fabricated reports circulating across various platforms, the team issued a clear warning indicating that strict legal action will be pursued against fake channels responsible for propagating misinformation.",
+        "The swift clarification aims to put an end to speculative discussions and reassure well-wishers and followers by setting the record straight."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130758/ramayana-movie-gets-u-certificate-runtime-confirmed.html",
+      "title": "Ramayana Secures U Censor Certificate Along with Runtime Confirmation",
+      "summary": "The upcoming film Ramayana has successfully completed its censor formalities, securing an official U certificate and confirming its theatrical runtime for audiences.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130758/ramayana-movie-gets-u-certificate-runtime-confirmed.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ramayana-movie-gets-u-certificate-runtime-confirmed-1792652391599-1792652392269.jpg",
+      "publishedAt": "2026-10-22T06:59:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The highly anticipated cinematic project Ramayana has officially cleared its censor board formalities, securing a clean U certificate for its theatrical release.",
+        "Alongside the censor certification, the film's official runtime has also been confirmed, giving viewers a clear idea of what to expect from the upcoming cinematic presentation.",
+        "With censor hurdles successfully crossed, the film moves closer to its scheduled release, generating steady anticipation among moviegoers and trade analysts alike."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/437457/will-pay-per-view-work-out-for-ramayana",
+      "title": "Industry Debates the Viability of Pay-Per-View for Ramayana",
+      "summary": "As discussions around modern distribution models grow, industry circles are actively debating whether a pay-per-view release strategy will prove successful for the upcoming epic Ramayana.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/437457/will-pay-per-view-work-out-for-ramayana",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/08/ramayana-release-date-.jpg",
+      "publishedAt": "2026-10-22T06:43:07.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "As digital distribution models continue to evolve within the entertainment industry, discussions have sparked regarding whether a pay-per-view release strategy will be effective for the upcoming film Ramayana.",
+        "Industry analysts and trade observers are weighing the potential pros and cons of utilizing a pay-per-view model for such a high-profile project.",
+        "While digital monetization strategies are increasingly explored for major cinematic releases, the ultimate outcome of applying this approach to Ramayana remains a key point of interest for trade experts."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
       "id": "https://www.123telugu.com/mnews/ott-nanis-the-paradise-gets-these-changes-in-netflix-version-hk.html",
-      "title": "Nani's The Paradise Implements Changes For Netflix Streaming Version",
-      "summary": "Nani's film The Paradise has undergone specific alterations for its digital release on the Netflix platform. Fans and followers are noting the adjustments made to the project as it transitions to the streaming service.",
+      "title": "Nani's The Paradise Encounters Modifications for Netflix Release",
+      "summary": "Nani's cinematic project The Paradise has officially undergone specific changes for its digital streaming version on Netflix. Viewers tuning into the platform can look forward to these newly introduced modifications.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ott-nanis-the-paradise-gets-these-changes-in-netflix-version-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-2-2.webp",
@@ -13,15 +275,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The digital premiere of Nani's cinematic venture, The Paradise, has brought forth notable updates. Viewers streaming the movie on Netflix will encounter specific changes implemented in this version of the project.",
-        "As titles move from theatrical runs to digital platforms, adjustments are frequently made for various reasons. The exact nature of these alterations in The Paradise has drawn attention from audiences following the movie's journey onto Netflix."
+        "The digital streaming version of Nani's project, The Paradise, has experienced distinct changes ahead of its premiere on Netflix. Audiences following the film's post-theatrical journey on the streaming platform will notice these updates.",
+        "Such digital alterations are part of the evolving distribution landscape for contemporary films. Fans of the actor and the project can now stream the modified version directly on Netflix.",
+        "The updates highlight how streaming adaptations can sometimes vary from initial presentations. Further details regarding the precise nature of these changes remain tied to the platform's release of The Paradise."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/437446/dil-raju-plays-it-safe-with-ramayana",
-      "title": "Producer Dil Raju Adopts A Cautious Approach Towards Ramayana",
-      "summary": "Renowned producer Dil Raju is reportedly adopting a cautious and calculated strategy regarding the epic project Ramayana. Industry observers are keeping a close watch on how this careful planning shapes the production.",
+      "title": "Dil Raju Adopts a Cautious Strategy for Ramayana",
+      "summary": "Renowned film personality Dil Raju is reportedly taking a careful and secure approach regarding the much-discussed project Ramayana. This measured methodology points to calculated planning behind the scenes.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/437446/dil-raju-plays-it-safe-with-ramayana",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/ramayana-dil-raju.jpg",
@@ -29,15 +293,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Producer Dil Raju is taking a measured and safe approach toward the handling of the epic Ramayana project. Given the immense scale and cultural significance of such a theme, careful consideration is vital for industry stakeholders.",
-        "This strategic decision highlights the careful planning required when mounting large-scale traditional narratives in contemporary cinema. Dil Raju's methodology reflects a desire to balance creative ambition with prudent project management."
+        "Producer Dil Raju is adopting a safe and measured strategy concerning the upcoming project Ramayana. By choosing a cautious path, the production approach reflects a calculated effort in managing the cinematic undertaking.",
+        "Such strategic decisions are common in major filmmaking ventures, where producers balance scope and risk carefully. This approach ensures that the production navigates its planning phases securely.",
+        "As developments continue to unfold around Ramayana, the industry will closely watch how this careful planning shapes the final outcome of the project."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://telugucinema.com/news/allu-arjuns-raaka-to-release-one-year-countdown-poster-shortly",
-      "title": "Allu Arjun's Raaka Prepares For One-Year Countdown Poster Release",
-      "summary": "Allu Arjun's upcoming movie Raaka is gearing up to unveil a one-year countdown poster in the near future. This promotional move will officially kick off the long-term buildup for the highly anticipated cinematic release.",
+      "title": "Allu Arjun’s Raaka Prepares for One-Year Countdown Poster Unveil",
+      "summary": "Allu Arjun's film Raaka is gearing up to reveal a one-year countdown poster in the near future. Fans can anticipate this promotional update as part of the ongoing campaign.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/allu-arjuns-raaka-to-release-one-year-countdown-poster-shortly",
       "img": "https://telugucinema.com/wp-content/uploads/2026/04/raaka-firstlook-apr826.jpg",
@@ -45,15 +311,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Promotional momentum is building for Allu Arjun's project titled Raaka. The team is getting ready to launch a one-year countdown poster shortly, marking a significant milestone in the film's promotional campaign.",
-        "Countdown materials of this nature help establish early anticipation among fans and followers. The upcoming release of the poster will give audiences a fresh marker as production and promotional timelines progress."
+        "The promotional campaign for Allu Arjun's project Raaka is moving forward with an upcoming one-year countdown poster. This marketing material is scheduled to drop shortly, building anticipation among followers.",
+        "Countdown materials serve as a key promotional tool to engage audiences well in advance of a project's scheduled milestones. The upcoming poster will mark a significant timeline marker for the venture.",
+        "Further updates concerning Raaka are expected to accompany the countdown reveal as the campaign gathers momentum."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/437443/ranbir-kapoors-home-under-scanner-in-tiger-shroff-firing-case",
-      "title": "Ranbir Kapoor's Residence Comes Under Scrutiny In Tiger Shroff Firing Incident Investigation",
-      "summary": "Actor Ranbir Kapoor's home has reportedly come under the scanner as part of an ongoing investigation surrounding a firing case involving Tiger Shroff. Authorities are examining various angles as inquiries into the incident proceed.",
+      "title": "Ranbir Kapoor's Residence Comes Under Scrutiny in Tiger Shroff Firing Investigation",
+      "summary": "Actor Ranbir Kapoor's home has reportedly come under the scanner in connection with an ongoing firing case involving Tiger Shroff. Authorities are examining the situation as part of their inquiries.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/437443/ranbir-kapoors-home-under-scanner-in-tiger-shroff-firing-case",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/ranbir-kapoor-Bishnoi.jpeg",
@@ -61,15 +329,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In a surprising development, the residence of actor Ranbir Kapoor has drawn scrutiny amid investigations into a firing case involving Tiger Shroff. Law enforcement agencies are looking into multiple facets of the situation.",
-        "As investigations continue, the involvement or connection of high-profile properties under the scanner remains a focal point of public and media attention. Further details are anticipated as authorities progress with their official inquiries."
+        "Recent developments in the firing case involving Tiger Shroff have brought Ranbir Kapoor's residence under police scanner. Investigators are looking into various aspects surrounding the incident.",
+        "The unexpected connection has drawn significant media attention, linking prominent industry figures to the ongoing legal and security investigation.",
+        "Authorities are expected to release further official updates as the probe into the firing case progresses."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/ramayana-sai-pallavi-urges-audiences-to-watch-the-film-in-3d-hk.html",
       "title": "Sai Pallavi Recommends Experiencing Ramayana in 3D Format",
-      "summary": "Actor Sai Pallavi has appealed to moviegoers to watch the upcoming project Ramayana in 3D. The recommendation highlights the cinematic immersion planned for the big-screen release.",
+      "summary": "Actor Sai Pallavi has publicly encouraged moviegoers to experience the upcoming cinematic project Ramayana in the 3D format for an enhanced visual presentation.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/ramayana-sai-pallavi-urges-audiences-to-watch-the-film-in-3d-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ramayana-part-1.webp",
@@ -77,33 +347,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Sai Pallavi has shared her perspective regarding the cinematic presentation of the much-discussed project Ramayana. In a recent update, she actively encouraged audiences to experience the feature in the 3D format.",
-        "The appeal centers on giving viewers an enhanced visual and immersive experience when watching the film in theaters. By urging fans to choose the 3D version, the team points toward a larger-than-life presentation designed for the big screen.",
-        "Such recommendations from lead cast members often generate additional anticipation among fans awaiting theatrical updates. As production details continue to circulate, audiences remain eager for further announcements regarding the release."
+        "Actor Sai Pallavi has shared her perspective on how audiences should experience the upcoming cinematic adaptation Ramayana. According to the updates, she has urged viewers to watch the feature in the 3D format when it releases.",
+        "The recommendation highlights the production's focus on immersive viewing elements for the big screen. By advocating for the 3D version, the team aims to draw audiences toward a theatrical presentation that maximizes the scale of the visual narrative.",
+        "As anticipation builds around Ramayana, such recommendations from the primary cast provide insight into the cinematic scale planned for the project. Fans and movie enthusiasts now have a specific viewing format suggested directly by the cast to look forward to."
       ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130751/vijay-deverakonda-calls-allu-arjun-on-koffee-with-karan-wins-fans-hearts.html",
-      "title": "Vijay Deverakonda Wins Praise for Calling Allu Arjun on Koffee With Karan",
-      "summary": "Vijay Deverakonda has won the hearts of fans following a notable phone call made to Allu Arjun during an appearance on the talk show Koffee With Karan.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130751/vijay-deverakonda-calls-allu-arjun-on-koffee-with-karan-wins-fans-hearts.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-calls-allu-arjun-on-koffee-with-karan-wins-fans-hearts-1792643243471-1792643243988.jpg",
-      "publishedAt": "2026-10-22T04:27:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Vijay Deverakonda recently captured the attention of film enthusiasts with a memorable moment during his appearance on the popular television talk show Koffee With Karan.",
-        "During the programme, Deverakonda placed a phone call to fellow star Allu Arjun. This gesture quickly resonated with audiences and admirers across social platforms, winning widespread praise from fans of both actors.",
-        "Interactions of this nature between prominent figures in the film industry often highlight camaraderie and mutual respect, further engaging their respective follower bases."
-      ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.telugu360.com/rashmika-opens-up-on-skin-show/",
-      "title": "Rashmika Mandanna Addresses Discussions Around Skin Show",
-      "summary": "Actor Rashmika Mandanna has recently spoken out and opened up about discussions surrounding skin show in her cinematic career.",
+      "title": "Rashmika Mandanna Addresses Discussions Around Skin Show in Cinema",
+      "summary": "Actor Rashmika Mandanna has recently opened up in discussions regarding skin show and glamour roles within the film industry, sparking conversation among fans.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/rashmika-opens-up-on-skin-show/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Rashmika-Mandanna-4.jpg",
@@ -111,16 +365,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular actor Rashmika Mandanna has addressed public discussions and queries regarding skin show choices in her acting projects.",
-        "As a prominent face across multiple film industries, actors frequently encounter public commentary regarding their onscreen wardrobe and artistic choices. Mandanna's recent comments offer her personal perspective on these ongoing conversations.",
-        "Discussions of this nature highlight the continuous scrutiny and public interest that leading actors face regarding their professional decisions and onscreen appearances."
+        "Prominent actor Rashmika Mandanna has recently shared her thoughts regarding skin show and glamour expectations in the entertainment industry. Her remarks have drawn attention across film circles and digital platforms.",
+        "Conversations around glamour and personal choices remain a frequent topic of discussion for actors navigating major film industries. By addressing the subject openly, Mandanna contributes her perspective on the choices actors make regarding their on-screen appearances.",
+        "Discussions of this nature offer fans a deeper look into the personal and professional viewpoints of leading actors as they balance diverse scripts, character demands, and public perception."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.gulte.com/movienews/437341/hyderabad-city-gets-a-second-imax-screen",
-      "title": "Discussion Arises Over Hyderabad Getting Its Second IMAX Screen",
-      "summary": "Speculation and discussions have emerged regarding whether Hyderabad, widely regarded as a major cinema capital, is preparing to welcome its second IMAX screen.",
+      "title": "Is Hyderabad Preparing to Welcome Its Second IMAX Screen?",
+      "summary": "Reports and discussions suggest that Hyderabad, widely regarded as a major cinema capital, may soon add a second IMAX screen to its entertainment infrastructure.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/437341/hyderabad-city-gets-a-second-imax-screen",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/06/imax-hyd-.jpeg",
@@ -128,50 +383,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent discussions in film circles have raised questions about whether Hyderabad, known as a major hub for cinema, is set to add a second IMAX screen to its entertainment landscape.",
-        "As exhibition technologies continue to evolve, premium large-format screens remain a major draw for moviegoers seeking high-end theatrical experiences. The potential addition of a new IMAX facility would mark a notable development for the city's exhibition sector.",
-        "Further official updates are awaited by trade analysts and local film enthusiasts to confirm any concrete plans regarding the rumored cinema infrastructure upgrade."
+        "Hyderabad, recognized as a primary hub for Indian cinema and moviegoers, is currently drawing attention regarding a potential addition to its theatrical infrastructure. Speculation and reports indicate that the city could be set to welcome its second IMAX screen.",
+        "The introduction of an additional IMAX format screen would mark a notable development for local film enthusiasts and major releases. Hyderabad audiences have historically shown strong support for large-format and premium cinematic experiences.",
+        "As discussions continue, film fans await official confirmations regarding the launch and location of the potential new screen, which would further bolster the region's prominent position in the exhibition sector."
       ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/437412/producer-reveals-reason-behind-delay-of-suriya-vetri-film",
-      "title": "Producer Sheds Light on Suriya and Vetri Project Postponement",
-      "summary": "The reasons behind the delay in the highly anticipated collaboration between actor Suriya and director Vetri have finally been addressed by the producer, offering clarity to eager fans waiting for updates on the production timeline.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/437412/producer-reveals-reason-behind-delay-of-suriya-vetri-film",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/05/Vaadivasal-vetrriman.jpeg",
-      "publishedAt": "2026-10-21T17:51:03.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Fans tracking the upcoming collaboration between actor Suriya and director Vetri have a clearer picture regarding the production timeline. The producer has officially spoken out to reveal the underlying factors responsible for the delay of the movie.",
-        "Delays in major cinematic projects often invite speculation among cinephiles, making official announcements from production houses crucial. By addressing the pause directly, the makers have provided much-needed context to the audience regarding the status of the film.",
-        "As developments unfold, movie enthusiasts continue to monitor updates surrounding Suriya and Vetri's creative partnership. The eventual arrival of the film remains a notable project within the industry."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/437383/rashmika-and-vijays-take-on-janhvis-peddi-episode",
-      "title": "Rashmika Mandanna and Vijay Devarakonda React to Janhvi Kapoor's Peddi Episode",
-      "summary": "Actors Rashmika Mandanna and Vijay Devarakonda have shared their perspectives regarding Janhvi Kapoor's Peddi episode, drawing attention across entertainment circles as fans react to their commentary.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/437383/rashmika-and-vijays-take-on-janhvis-peddi-episode",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/janhvi-Kapoor-peddi-rashmika-vijay.jpg",
-      "publishedAt": "2026-10-21T17:04:32.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Popular actors Rashmika Mandanna and Vijay Devarakonda have recently expressed their viewpoints concerning Janhvi Kapoor's Peddi episode. Their remarks have quickly circulated among entertainment followers and industry watchers.",
-        "Public commentary and reactions between notable film personalities frequently capture the interest of cinema fans. This latest interaction highlights the ongoing engagement and discussions happening among prominent contemporary actors.",
-        "As more details and reactions emerge, followers of the respective stars continue to discuss their perspectives on the matter within the broader entertainment landscape."
-      ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/the-vvaan-ott-release-tamannaahs-folklore-to-premiere-with-a-catch-hk.html",
-      "title": "Tamannaah's Folklore Project 'The Vvaan' Eyes OTT Release With Special Conditions",
-      "summary": "Tamannaah's folklore project titled The Vvaan is heading toward an OTT premiere, though reports indicate there might be a specific catch associated with the digital release format.",
+      "title": "Tamannaah Bhatia's Folklore Project 'The Vvaan' Eyes OTT Premiere",
+      "summary": "Tamannaah Bhatia's folklore-themed project titled The Vvaan is heading toward an OTT premiere, though reports hint at specific conditions or catches involved.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/the-vvaan-ott-release-tamannaahs-folklore-to-premiere-with-a-catch-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Vvaan.webp",
@@ -179,16 +401,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The digital premiere path for Tamannaah's folklore project, titled The Vvaan, has become a subject of discussion among OTT followers. Industry updates suggest that the upcoming release on streaming platforms comes with a distinct catch.",
-        "As streaming services continue to shape how audiences consume diverse genres like folklore, release strategies often involve unique conditions. This development for The Vvaan highlights the evolving nature of digital distribution for regional and national content.",
-        "Further announcements from the streaming platform or production team are expected to clarify the precise nature of the catch surrounding the premiere."
+        "The digital streaming landscape is set to welcome a new folklore-themed project titled The Vvaan, featuring actor Tamannaah Bhatia. Industry updates indicate that the feature is preparing for an OTT premiere.",
+        "Reports surrounding the digital release suggest there might be a specific catch or unique condition tied to the streaming premiere. Details regarding the exact nature of this release structure continue to generate curiosity among digital subscribers.",
+        "As hybrid and direct-to-digital models evolve, projects like The Vvaan highlight the ongoing experimentation with how folklore and regional stories are packaged and delivered to home audiences."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/emo-emo-idi-roshan-meka-and-sailesh-kolanus-romantic-film-postponed-prp.html",
-      "title": "Roshan Meka and Sailesh Kolanu's Romantic Project 'Emo Emo Idi' Postponed",
-      "summary": "The romantic film Emo Emo Idi, starring Roshan Meka and directed by Sailesh Kolanu, has officially been postponed, pushing back its anticipated arrival for moviegoers.",
+      "title": "Roshan Meka and Sailesh Kolanu's Romantic Project 'Emo Emo Idi' Delayed",
+      "summary": "The romantic cinema project 'Emo Emo Idi', starring Roshan Meka and directed by Sailesh Kolanu, has officially been postponed. Fans waiting for updates on this collaboration will have to wait a little longer as the makers push the release timeline.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/emo-emo-idi-roshan-meka-and-sailesh-kolanus-romantic-film-postponed-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Emo-Emo-Idi.webp",
@@ -196,16 +419,53 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The romantic film Emo Emo Idi, featuring Roshan Meka under the direction of Sailesh Kolanu, has hit a scheduling roadblock. It has been officially confirmed that the project's release schedule has been postponed.",
-        "Such scheduling shifts are common in the film industry as directors and producers fine-tune their projects to ensure optimal delivery. Fans eagerly anticipating the romantic feature will have to wait a bit longer for a revised timeline.",
-        "The creative team is expected to announce a new schedule in due course as production and distribution plans are finalized."
+        "The romantic film Emo Emo Idi, featuring actor Roshan Meka and helmed by director Sailesh Kolanu, has encountered a delay. Production and release updates regarding this upcoming cinematic venture have confirmed the postponement of the movie.",
+        "The collaboration between Roshan Meka and Sailesh Kolanu generated significant curiosity among movie enthusiasts looking forward to a fresh romantic drama. However, with this recent update, audiences must exercise patience as the team reworks their schedule.",
+        "Further announcements from the makers are expected to clarify the revised timeline for Emo Emo Idi. As developments unfold, film followers remain eager to learn more about the updated schedule for this romantic feature."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/ram-charan-continues-to-grow-long-hair-for-rc17",
+      "title": "Ram Charan Keeps Long Hair Look Specifically for RC17",
+      "summary": "Star actor Ram Charan is maintaining a long hair look as preparation and styling continues for his highly anticipated upcoming film, temporarily titled RC17. This deliberate choice highlights the actor's commitment to his character's distinct appearance in the project.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/ram-charan-continues-to-grow-long-hair-for-rc17",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/ramcharan-rc17sit-oct2126.jpg",
+      "publishedAt": "2026-10-21T14:40:19.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Ram Charan is maintaining his long hair hairstyle as work moves forward on his upcoming film, which is currently known as RC17. The distinct look is part of his styling and preparation for the role.",
+        "Character styling often demands specific physical transformations from leading actors. By keeping his hair long, Ram Charan aligns his visual appearance with the requirements of the character he will portray in RC17.",
+        "Fans and film enthusiasts are closely following every detail emerging from the production of RC17. This update regarding his hair styling offers a glimpse into the ongoing preparations for the venture."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/big-test-for-dasara-releases/",
+      "title": "Dasara Festival Releases Face Major Box Office Test",
+      "summary": "The festival season brings a significant box office challenge as upcoming Dasara releases prepare to hit the big screen. Industry observers are closely watching how these films perform under high-stakes competitive conditions during the festive period.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/big-test-for-dasara-releases/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Big-Test-for-Dasara-Releases.jpg",
+      "publishedAt": "2026-10-21T14:36:06.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The upcoming Dasara festival season is setting the stage for a critical box office test. With multiple films lining up for festive viewings, competition among releases is expected to be intense.",
+        "Festival periods are traditionally crucial for the film industry, offering lucrative opportunities for box office success. However, sharing screens and capturing audience attention during Dasara presents a major hurdle for all participating titles.",
+        "Industry analysts and moviegoers alike are monitoring how these Dasara contenders fare upon their theatrical arrival. The performance of these films will provide clear indicators of audience preferences during major holiday windows."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/418-heres-why-the-horror-film-isnt-being-promoted-prp.html",
-      "title": "The Strategic Silence Behind Horror Film 418's Promotion",
-      "summary": "Discover the reasons behind the unique promotional silence surrounding the horror movie 418. Industry discussions have shed light on why the makers chose a distinct strategy for the project.",
+      "title": "Makers Reveal Reasons Behind Lack of Promotion for Horror Film '418'",
+      "summary": "The horror movie titled '418' has seen a notable absence of promotional activities, and the reasons behind this quiet strategy have now come to light. Audiences and industry trackers curious about the film's silent rollout can understand the specific factors guiding the promotional approach.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/418-heres-why-the-horror-film-isnt-being-promoted-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/418-3.webp",
@@ -213,31 +473,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The makers of the upcoming horror film 418 have adopted an unconventional promotional strategy, keeping publicity low-profile as the project approaches its release. Questions have been raised within film circles regarding the absence of heavy marketing campaigns typically associated with genre releases.",
-        "As details surrounding the strategic decision continue to emerge, industry followers remain attentive to how this unconventional rollout will impact audience reception. The lack of standard promotional material has unexpectedly sparked curiosity among moviegoers anticipating the horror title."
+        "The upcoming horror film titled 418 has maintained a relatively low profile, leaving many wondering about the lack of promotional campaigns. Recent updates have shed light on why the makers chose not to actively push promotional material for the project.",
+        "In the film industry, promotional strategies vary widely depending on production circumstances, distribution plans, or specific choices made by the creative team. The subdued campaign for 418 highlights a different approach to bringing a horror feature to the audience's attention.",
+        "As details regarding the reasoning behind the minimal promotion circulate, movie enthusiasts continue to discuss how this affects the visibility of the horror project. Observers await further updates on the film's eventual presentation."
       ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/437363/moulis-responsible-approach-saves-the-producer-%e2%82%b912-lakhs",
-      "title": "How Mouli's Resourceful Decisions Saved ₹12 Lakhs for the Producer",
-      "summary": "Mouli has demonstrated commendable financial responsibility on set, successfully saving the producer a notable sum of ₹12 lakhs. This mindful approach highlights efficient resource management in film production.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/437363/moulis-responsible-approach-saves-the-producer-%e2%82%b912-lakhs",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/mouli-.jpg",
-      "publishedAt": "2026-10-21T13:18:11.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Demonstrating exceptional awareness of production overheads, Mouli recently implemented resourceful measures that successfully saved the producer ₹12 lakhs. Such conscientious decisions on set are vital for maintaining disciplined budgets during film production.",
-        "This responsible handling of resources highlights the positive impact that mindful planning can have on a project's financial health. Industry observers frequently appreciate when cast and crew members actively assist in managing production expenditures efficiently."
-      ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/rc17-ravi-shankar-reveals-ram-charan-sukumar-films-launch-plans-prp.html",
-      "title": "Ravi Shankar Shares Launch Details for Ram Charan and Sukumar's RC17",
-      "summary": "Ravi Shankar has provided exciting updates regarding the official launch plans for the highly anticipated RC17, bringing together star Ram Charan and director Sukumar.",
+      "title": "RC17 Launch Details Out: Ravi Shankar Teases Ram Charan and Sukumar's Upcoming Project",
+      "summary": "Excitement is building for RC17 as Ravi Shankar sheds light on the upcoming launch plans for the highly anticipated collaboration between star Ram Charan and director Sukumar.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/rc17-ravi-shankar-reveals-ram-charan-sukumar-films-launch-plans-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/11/rc17.webp",
@@ -245,31 +491,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Anticipation surrounding the upcoming collaborative project RC17 has received a fresh boost as Ravi Shankar reveals details regarding the film's launch plans. The project brings together the powerhouse combination of actor Ram Charan and director Sukumar.",
-        "Fans and industry trackers are closely following these developments as preparations for the official commencement of the film move forward. Further announcements regarding the schedule and complete cast details are eagerly awaited by followers of Telugu cinema."
+        "The buzz surrounding the tentative project RC17 has grown stronger following recent updates from Ravi Shankar, who has provided details regarding the launch plans for the film.",
+        "The upcoming venture brings together leading actor Ram Charan and acclaimed director Sukumar, generating substantial interest among movie enthusiasts and industry trackers alike.",
+        "As preparations for the project move forward, further announcements regarding the official launch events and production timelines are eagerly awaited by fans."
       ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130744/fauzi-introduction-video-with-418-the-film.html",
-      "title": "Prabhas's Fauzi Introduction Video Planned Alongside Horror Film 418",
-      "summary": "An introduction video for Prabhas's Fauzi is reportedly set to arrive alongside the horror film 418, with a special glimpse update scheduled for October 23.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130744/fauzi-introduction-video-with-418-the-film.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/fauzi-introduction-video-with-418-the-film-1792583910250-1792583911328.jpg",
-      "publishedAt": "2026-10-21T11:58:42.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Exciting updates have emerged regarding a special promotional video for the Prabhas project Fauzi. Reports indicate that an introduction video for Fauzi is tied to the release of the horror film 418.",
-        "Fans have been given a specific timeline for the update, with the special glimpse slated to arrive on October 23. This strategic alignment has created considerable buzz among admirers tracking major star announcements."
-      ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
       "id": "https://telugucinema.com/news/priyanka-chopra-exits-bollywood-film-owing-to-hollywood-commitments",
-      "title": "Priyanka Chopra Steps Away From Bollywood Project Due to Hollywood Schedule",
-      "summary": "Priyanka Chopra has chosen to withdraw from an upcoming Bollywood film project. Her departure is attributed to her ongoing international commitments in Hollywood.",
+      "title": "Priyanka Chopra Steps Away from Bollywood Project Due to Hollywood Schedules",
+      "summary": "Actor Priyanka Chopra has reportedly stepped down from an upcoming Bollywood film due to overlapping commitments with her ongoing Hollywood projects.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/priyanka-chopra-exits-bollywood-film-owing-to-hollywood-commitments",
       "img": "https://telugucinema.com/wp-content/uploads/2026/07/priyankachopra-july1526.jpg",
@@ -277,108 +509,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Global star Priyanka Chopra has reportedly stepped back from a planned Bollywood movie assignment. The decision comes as a result of her heavy pipeline of Hollywood projects and international professional engagements.",
-        "While details regarding the specific film remain limited, the actor's scheduling conflicts have necessitated her exit from the venture. Chopra continues to balance multiple international obligations across different entertainment industries."
+        "Renowned actor Priyanka Chopra has made the decision to exit a planned Bollywood film, choosing instead to focus on her existing Hollywood professional commitments.",
+        "The scheduling conflict has necessitated her departure from the Hindi film project, shifting her immediate attention toward international cinematic engagements.",
+        "Further updates regarding the casting replacement and the production's path forward are expected to be announced in due course."
       ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/latest-sensation-aneet-padda-in-talks-for-ram-charan-sukumars-film-prp.html",
-      "title": "Is Aneet Padda Joining the Cast of Ram Charan and Sukumar's Upcoming Movie?",
-      "summary": "Recent reports suggest that rising talent Aneet Padda is currently in discussions for a prominent role in the upcoming collaboration between actor Ram Charan and director Sukumar.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/latest-sensation-aneet-padda-in-talks-for-ram-charan-sukumars-film-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/rc17-5.webp",
-      "publishedAt": "2026-10-21T10:58:23.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Industry circles indicate that actor Aneet Padda might soon share screen space in a major project. Discussions are reportedly underway regarding her potential casting in the upcoming film headlined by Ram Charan and directed by Sukumar.",
-        "As anticipation builds around this high-profile creative team, the possible inclusion of the latest sensation has drawn significant attention from film enthusiasts. Official confirmations from the makers are awaited regarding the final cast lineup."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/senior-heroes-shine-at-the-box-office-in-2026-avd.html",
-      "title": "Box Office Trends Highlight Strong Performance by Senior Heroes in 2026",
-      "summary": "The box office landscape in 2026 is witnessing impressive commercial performances from veteran film stars. Senior heroes continue to command strong audience support and drive ticket sales.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/senior-heroes-shine-at-the-box-office-in-2026-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/irumudi.webp",
-      "publishedAt": "2026-10-21T10:31:41.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The box office statistics for 2026 point toward a notable trend where veteran actors are successfully drawing crowds to cinema halls. Their enduring popularity and star power have proven vital for commercial success.",
-        "Industry observers note that these seasoned performers maintain a formidable presence at the box office. Their ability to deliver strong numbers demonstrates the continued relevance and pulling power of established cinematic icons."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://telugucinema.com/news/prabhas-fauji-birthday-video-to-offer-a-glimpse-into-its-world",
-      "title": "Prabhas' Fauji Birthday Video Set to Introduce the Film's Cinematic Universe",
-      "summary": "Fans of Prabhas can look forward to a special birthday video for his upcoming film Fauji. The upcoming promotional clip aims to give audiences an early glimpse into the world crafted for the project.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/prabhas-fauji-birthday-video-to-offer-a-glimpse-into-its-world",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/fauji-oct2126.jpg",
-      "publishedAt": "2026-10-21T10:09:18.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A special promotional video for actor Prabhas' upcoming film titled Fauji is scheduled to be released to coincide with his birthday. This upcoming release is designed to provide fans and moviegoers with an official look into the setting and universe of the project.",
-        "As anticipation builds around the project, the birthday video serves as a key promotional milestone for the film. It offers the first major visual preview of what audiences can expect from the cinematic venture.",
-        "In terms of film updates, character or world-building reveals like this help set the tone for forthcoming promotional campaigns. Followers of the actor will be watching closely to see what details the birthday glimpse unveils about the production."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/donga-naa-koduku-teaser-moulis-comedy-show-begins-prp.html",
-      "title": "Mouli Steps Into Comedy with the Donga Naa Koduku Teaser",
-      "summary": "The official teaser for Donga Naa Koduku has been released, signaling the start of Mouli's upcoming comedy show. The new preview introduces audiences to the comedic tone and style of the project.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/donga-naa-koduku-teaser-moulis-comedy-show-begins-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/dongana.webp",
-      "publishedAt": "2026-10-21T09:39:52.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The entertainment circuit has a fresh comedy entry with the release of the official teaser for Donga Naa Koduku. The newly launched preview officially kicks off Mouli's upcoming comedy show, giving viewers an early taste of the humor and narrative tone.",
-        "Teasers of this nature are crucial for setting audience expectations ahead of a project's full release. By highlighting the comedic elements early on, the project aims to capture the attention of comedy enthusiasts.",
-        "Further updates on the show's schedule and platform details are expected to follow as the promotional rollout continues. Fans of Mouli can now experience the first official look at the comedic presentation."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ramayana-ticket-prices-trigger-debate-among-moviegoers-will-they-dent-box-office-collections-hk.html",
-      "title": "Ramayana Ticket Pricing Sparks Discussion Over Potential Box-Office Impact",
-      "summary": "Recent discussions regarding ticket pricing for the upcoming project Ramayana have ignited lively debates among film enthusiasts. Moviegoers are actively questioning whether these pricing structures will ultimately influence box-office performance.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ramayana-ticket-prices-trigger-debate-among-moviegoers-will-they-dent-box-office-collections-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/ramayana-3.webp",
-      "publishedAt": "2026-10-21T07:31:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A fresh conversation has emerged across cinematic circles concerning the ticket pricing for Ramayana. As moviegoers engage in ongoing debates about the rates, questions are being raised regarding how these costs might influence overall box-office collections.",
-        "The discussion highlights the delicate balance between ticket costs and audience turnout in the modern cinematic landscape. Observers and fans alike continue to monitor how these pricing strategies could shape the commercial trajectory of the film upon its eventual release."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.telugu360.com/mammootty-to-clash-with-his-son-dulquer-salmaan/",
-      "title": "Mammootty and Dulquer Salmaan Headed for a Box-Office Face-Off",
-      "summary": "Renowned Malayalam cinema star Mammootty is reportedly set for an upcoming box-office clash with his son, actor Dulquer Salmaan. This anticipated showdown between the father-son duo has drawn significant attention from film enthusiasts.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/mammootty-to-clash-with-his-son-dulquer-salmaan/",
-      "img": "",
-      "publishedAt": "2026-10-21T07:11:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "An exciting cinematic clash is on the horizon as veteran actor Mammootty prepares to face off against his son, actor Dulquer Salmaan, at the box office. The prospect of these two prominent stars competing for audience attention has generated considerable buzz.",
-        "Both actors command strong individual followings and critical acclaim within the film community. Their upcoming professional overlap promises an engaging period for movie enthusiasts tracking major release schedules."
-      ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     }
   ],
   "trailers": [
@@ -504,6 +640,50 @@
     }
   ],
   "reviews": [
+    {
+      "t": "Naa Wife Missing",
+      "l": "Telugu",
+      "releaseDate": "2026-10-22",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Naa-Wife-Missing-2.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/varun-sandeshs-naa-wife-missing-ott-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/varun-sandeshs-naa-wife-missing-ott-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
     {
       "t": "Garividi Lakshmi",
       "l": "Telugu",
@@ -1168,12 +1348,12 @@
       "t": "The Paradise",
       "l": "Telugu",
       "releaseDate": "2026-09-24",
-      "rating": "2.17/5",
+      "rating": "1.88/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/the-paradise-movie-review-disappointing-narrative/",
       "aggregator": {
-        "average": 2.17,
+        "average": 1.88,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1201,9 +1381,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/nani-the-paradise-telugu-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
@@ -1956,5 +2136,7 @@
         ]
       }
     }
-  ]
+  ],
+  "generatedAt": "2026-10-22T12:29:19.070Z",
+  "reviewStatus": "auto-approved"
 }
