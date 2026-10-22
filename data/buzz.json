@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T19:11:55.725Z",
+  "updatedAt": "2026-10-22T00:23:42.035Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "stale"
+      "status": "ok"
     },
     {
       "id": "aha",
@@ -371,7 +371,7 @@
     "netflix": {
       "status": "stale",
       "updatedAt": "2026-10-17T13:03:38.156Z",
-      "lastAttemptedAt": "2026-10-21T19:11:16.142Z",
+      "lastAttemptedAt": "2026-10-22T00:23:02.808Z",
       "items": [
         {
           "title": "Irumudi",
@@ -383,29 +383,22 @@
       "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "prime-video": {
-      "status": "stale",
-      "updatedAt": "2026-10-20T18:29:49.366Z",
-      "lastAttemptedAt": "2026-10-21T19:11:33.213Z",
+      "status": "ok",
+      "updatedAt": "2026-10-22T00:23:21.861Z",
+      "lastAttemptedAt": "2026-10-22T00:23:21.861Z",
       "items": [
         {
-          "title": "Mortal Kombat",
-          "url": "https://www.primevideo.com/detail/0J12INIL3DC3I7K55S31CTYWEQ?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OBfdbedd_brws_2_3",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/2ed7fabd3eba767998de5f1802fe0aee019ae432b5bc74cb11fadef5fbf426e5.jpg",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Encounter",
-          "url": "https://www.primevideo.com/detail/0RL0SWS5ONJO62SNXXA7V4RF3P?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_OBfdbedd_brws_2_11",
-          "img": "https://m.media-amazon.com/images/S/pv-target-images/a69c7325be888d0f3daaabf9b2bbe256dc6ee4300b972b1d598ca1fd18064ed7.jpg",
+          "title": "Rocky Balboa: The Ultimate Director's Cut",
+          "url": "https://www.primevideo.com/detail/0R3DUR4EC1OIR32BB5D2PS4VYO?tr=is&jic=8%7CEgRzdm9k&ref_=atv_mv_hom_c_5crrHZ_brws_3_4",
+          "img": "https://m.media-amazon.com/images/S/pv-target-images/030d015fb01635b0b94b732272d459d7fec4712e64ee0166f58f8e71dd317adf.jpg",
           "languages": "Telugu"
         }
-      ],
-      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
+      ]
     },
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-21T19:11:34.490Z",
+      "lastAttemptedAt": "2026-10-22T00:23:23.626Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -473,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-21T19:11:35.153Z",
+      "lastAttemptedAt": "2026-10-22T00:23:24.504Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-21T19:11:46.393Z",
-      "lastAttemptedAt": "2026-10-21T19:11:46.393Z",
+      "updatedAt": "2026-10-22T00:23:33.486Z",
+      "lastAttemptedAt": "2026-10-22T00:23:33.486Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -511,21 +504,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-21T19:11:49.078Z",
+      "lastAttemptedAt": "2026-10-22T00:23:35.468Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-21T19:11:50.361Z",
+      "lastAttemptedAt": "2026-10-22T00:23:36.812Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-21T19:11:55.723Z",
-      "lastAttemptedAt": "2026-10-21T19:11:55.723Z",
+      "updatedAt": "2026-10-22T00:23:42.033Z",
+      "lastAttemptedAt": "2026-10-22T00:23:42.033Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
