@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T11:58:40.771Z",
+  "updatedAt": "2026-10-23T16:24:17.592Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,27 +370,21 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-23T11:58:09.082Z",
-      "lastAttemptedAt": "2026-10-23T11:58:09.082Z",
+      "updatedAt": "2026-10-23T16:23:40.695Z",
+      "lastAttemptedAt": "2026-10-23T16:23:40.695Z",
       "items": [
         {
           "title": "The Paradise",
           "url": "https://www.netflix.com/title/82134615",
           "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
           "languages": "Telugu"
-        },
-        {
-          "title": "Dorothy",
-          "url": "https://www.netflix.com/title/83238479",
-          "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
-          "languages": "Telugu"
         }
       ]
     },
     "prime-video": {
       "status": "ok",
-      "updatedAt": "2026-10-23T11:58:22.390Z",
-      "lastAttemptedAt": "2026-10-23T11:58:22.390Z",
+      "updatedAt": "2026-10-23T16:23:59.251Z",
+      "lastAttemptedAt": "2026-10-23T16:23:59.251Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -403,7 +397,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-23T11:58:23.679Z",
+      "lastAttemptedAt": "2026-10-23T16:24:00.719Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -471,37 +465,37 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-23T11:58:23.843Z",
+      "lastAttemptedAt": "2026-10-23T16:24:01.117Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-23T11:58:35.021Z",
-      "lastAttemptedAt": "2026-10-23T11:58:35.021Z",
+      "updatedAt": "2026-10-23T16:24:11.286Z",
+      "lastAttemptedAt": "2026-10-23T16:24:11.286Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
           "url": "https://www.zee5.com/movies/year",
-          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.0",
+          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.1",
           "languages": "Telugu"
         },
         {
           "title": "Watch New Movies Online - Latest Film Releases on Zee 5",
           "url": "https://www.zee5.com/movies/new-movies",
-          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.0",
+          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.1",
           "languages": "Telugu"
         },
         {
           "title": "Bollywood Movies - Watch Bollywood Movies Online in HD only on Zee 5",
           "url": "https://www.zee5.com/movies/bollywood",
-          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.0",
+          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.1",
           "languages": "Telugu"
         },
         {
           "title": "South Movies - Watch New Released South Movies in HD on Zee 5",
           "url": "https://www.zee5.com/movies/south",
-          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.0",
+          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.1",
           "languages": "Telugu"
         }
       ]
@@ -509,21 +503,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-23T11:58:37.066Z",
+      "lastAttemptedAt": "2026-10-23T16:24:13.262Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-23T11:58:38.283Z",
+      "lastAttemptedAt": "2026-10-23T16:24:14.669Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-23T11:58:40.769Z",
-      "lastAttemptedAt": "2026-10-23T11:58:40.769Z",
+      "updatedAt": "2026-10-23T16:24:17.591Z",
+      "lastAttemptedAt": "2026-10-23T16:24:17.591Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
