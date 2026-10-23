@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T16:24:17.592Z",
+  "updatedAt": "2026-10-23T17:23:15.264Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "prime-video",
       "name": "Prime Video",
-      "status": "ok"
+      "status": "stale"
     },
     {
       "id": "aha",
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-23T16:23:40.695Z",
-      "lastAttemptedAt": "2026-10-23T16:23:40.695Z",
+      "updatedAt": "2026-10-23T17:22:38.882Z",
+      "lastAttemptedAt": "2026-10-23T17:22:38.882Z",
       "items": [
         {
           "title": "The Paradise",
@@ -382,9 +382,9 @@
       ]
     },
     "prime-video": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-10-23T16:23:59.251Z",
+      "lastAttemptedAt": "2026-10-23T17:22:54.681Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -392,12 +392,13 @@
           "img": "https://m.media-amazon.com/images/S/pv-target-images/030d015fb01635b0b94b732272d459d7fec4712e64ee0166f58f8e71dd317adf.jpg",
           "languages": "Telugu"
         }
-      ]
+      ],
+      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     },
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-23T16:24:00.719Z",
+      "lastAttemptedAt": "2026-10-23T17:22:55.652Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -465,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-23T16:24:01.117Z",
+      "lastAttemptedAt": "2026-10-23T17:22:56.010Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-23T16:24:11.286Z",
-      "lastAttemptedAt": "2026-10-23T16:24:11.286Z",
+      "updatedAt": "2026-10-23T17:23:08.023Z",
+      "lastAttemptedAt": "2026-10-23T17:23:08.023Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -503,21 +504,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-23T16:24:13.262Z",
+      "lastAttemptedAt": "2026-10-23T17:23:09.866Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-23T16:24:14.669Z",
+      "lastAttemptedAt": "2026-10-23T17:23:11.342Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-23T16:24:17.591Z",
-      "lastAttemptedAt": "2026-10-23T16:24:17.591Z",
+      "updatedAt": "2026-10-23T17:23:15.262Z",
+      "lastAttemptedAt": "2026-10-23T17:23:15.262Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
