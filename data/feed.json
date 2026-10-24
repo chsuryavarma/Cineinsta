@@ -1,555 +1,664 @@
 {
-  "updatedAt": "2026-10-23T10:59:41.265Z",
+  "updatedAt": "2026-10-24T10:12:58.361Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://www.123telugu.com/reviews/418-telugu-movie-review-and-rating.html",
-      "title": "Cineinsta Review: 418 The Film Delivers a Spooky Setting with Limited Thrills",
-      "summary": "Our latest review of the Telugu feature '418 The Film' explores its eerie backdrop and examines how the cinematic experience unfolds despite offering limited thrills.",
+      "id": "https://www.123telugu.com/mnews/ott-nanis-the-paradise-creates-a-storm-on-netflix-prp.html",
+      "title": "Nani's The Paradise Makes Waves on Netflix",
+      "summary": "Actor Nani's film The Paradise is generating significant buzz and creating a major storm on the streaming platform Netflix, capturing the attention of digital audiences.",
       "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/418-telugu-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/418-1.webp",
-      "publishedAt": "2026-10-23T10:33:07.000Z",
+      "url": "https://www.123telugu.com/mnews/ott-nanis-the-paradise-creates-a-storm-on-netflix-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-6.webp",
+      "publishedAt": "2026-10-24T09:50:26.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Audiences exploring recent Telugu releases have turned their attention toward '418 The Film'. The movie steps into the genre with a distinctively spooky setting, establishing an atmospheric tone right from the start.",
-        "However, as the narrative progresses, critical evaluations indicate that the feature struggles to maintain consistent engagement. Despite the promising eerie backdrop, the overall cinematic experience encounters limited thrills, leaving viewers looking for more intense moments.",
-        "As discussions surrounding the film continue among movie enthusiasts, '418 The Film' remains a notable entry in the latest round of Telugu film releases and critical assessments."
+        "Actor Nani's project, titled The Paradise, has captured significant digital attention by creating a notable storm upon its arrival on Netflix. The digital premiere has drawn considerable traction from viewers tuning in online.",
+        "As streaming platforms continue to serve as major hubs for film accessibility, this strong performance on Netflix highlights the ongoing reach of Nani's cinematic work among digital audiences."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Our latest review of the Telugu feature '418 The Film' explores its eerie backdrop and examines how the cinematic experience unfolds despite offering limited thrills.",
+      "dek": "Actor Nani's film The Paradise is generating significant buzz and creating a major storm on the streaming platform Netflix, capturing the attention of digital audiences.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "123telugu"
       ],
-      "originalUrl": "https://www.123telugu.com/reviews/418-telugu-movie-review-and-rating.html"
+      "originalUrl": "https://www.123telugu.com/mnews/ott-nanis-the-paradise-creates-a-storm-on-netflix-prp.html"
     },
     {
-      "id": "https://www.123telugu.com/reviews/sridevi-apalla-haiku-movie-review-and-rating.html",
-      "title": "Cineinsta Review: Sridevi Apalla's Haiku Emerges as a Disappointing Romantic Drama",
-      "summary": "A closer look at Sridevi Apalla's romantic drama 'Haiku', which has recently received reviews pointing to a disappointing cinematic outing.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/sridevi-apalla-haiku-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Haiku.webp",
-      "publishedAt": "2026-10-23T10:32:50.000Z",
+      "id": "https://www.gulte.com/movienews/437895/varanasi-is-five-times-bigger-than-rrr-in-every-aspect",
+      "title": "Varanasi Described As Five Times Bigger Than RRR",
+      "summary": "Recent discussions surrounding the cinematic project Varanasi have sparked immense curiosity, with descriptions highlighting it as significantly larger in scale compared to RRR.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/437895/varanasi-is-five-times-bigger-than-rrr-in-every-aspect",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/varanasi-rrr.jpg",
+      "publishedAt": "2026-10-24T09:49:58.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Romantic dramas form a significant part of the regional release calendar, and Sridevi Apalla's 'Haiku' recently came under the critical lens. The project brought expectations for a compelling romantic narrative.",
-        "According to recent reviews and ratings, the film ultimately stands as a disappointing romantic drama. The execution failed to fully connect with reviewers, indicating areas where the storytelling fell short of its dramatic potential.",
-        "For followers of contemporary romantic cinema, the reception of 'Haiku' highlights the ongoing challenges filmmakers face in delivering resonant love stories on screen."
+        "The cinematic landscape is buzzing with discussions surrounding Varanasi, a project that has drawn bold comparisons to previous blockbusters. According to recent reports, Varanasi has been described as vastly exceeding the scale of RRR across every aspect.",
+        "Such massive comparisons elevate audience expectations regarding the production scope, grandeur, and overall ambition behind the making of Varanasi."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "A closer look at Sridevi Apalla's romantic drama 'Haiku', which has recently received reviews pointing to a disappointing cinematic outing.",
+      "dek": "Recent discussions surrounding the cinematic project Varanasi have sparked immense curiosity, with descriptions highlighting it as significantly larger in scale compared to RRR.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/437895/varanasi-is-five-times-bigger-than-rrr-in-every-aspect"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/437889/suma-never-got-support-from-us-rajeev-gets-emotional",
+      "title": "Rajeev Gets Emotional Over Suma's Career Journey",
+      "summary": "In a recent emotional revelation, Rajeev discussed Suma's career, stating that she never received professional support from their side.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/437889/suma-never-got-support-from-us-rajeev-gets-emotional",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Suma.jpeg",
+      "publishedAt": "2026-10-24T09:29:09.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a recent emotional interaction, Rajeev opened up about Suma's professional journey in the entertainment industry. He expressed emotion while noting that Suma never received any backing or support from their side throughout her career.",
+        "The candid remarks offer a personal glimpse into the dynamics behind the scenes, highlighting the independent path navigated by the popular television personality."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "In a recent emotional revelation, Rajeev discussed Suma's career, stating that she never received professional support from their side.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/437889/suma-never-got-support-from-us-rajeev-gets-emotional"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/437893/ranbir-kapoor-behind-spirits-new-release-date",
+      "title": "Is Ranbir Kapoor Influencing the New Release Date of Spirit?",
+      "summary": "Recent discussions in the industry explore whether actor Ranbir Kapoor has influenced the updated release schedule for the upcoming film Spirit. Cineinsta looks into the speculation surrounding the project's timeline and what it means for the cinematic landscape.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/437893/ranbir-kapoor-behind-spirits-new-release-date",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/04/Sandeep-vanga-ranbir-animal-park-.jpg",
+      "publishedAt": "2026-10-24T09:15:45.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Recent speculation in the entertainment circles has linked actor Ranbir Kapoor to adjustments in the release schedule of the upcoming movie Spirit. Industry watchers and fans have begun discussing how scheduling shifts could impact the film's eventual arrival in cinemas.",
+        "While details remain centered on the rumored connection between the actor and the altered timeline, specific official announcements regarding the exact scheduling motivations are yet to be fully detailed. Such updates are closely monitored by movie enthusiasts looking forward to the project.",
+        "For cinema followers, shifts in release dates often generate considerable discussion regarding cast commitments and strategic planning. Cineinsta will continue to track further developments concerning Spirit and its upcoming release trajectory."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Recent discussions in the industry explore whether actor Ranbir Kapoor has influenced the updated release schedule for the upcoming film Spirit. Cineinsta looks into the speculation surrounding the project's timeline and what it means for the cinematic landscape.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/437893/ranbir-kapoor-behind-spirits-new-release-date"
+    },
+    {
+      "id": "https://www.telugu360.com/nanis-the-paradise-finds-a-new-wave-of-appreciation/",
+      "title": "Nani’s The Paradise Gains Fresh Appreciation",
+      "summary": "Actor Nani's film The Paradise is experiencing a new wave of recognition and appreciation from audiences. Cineinsta explores the ongoing reception surrounding the project as viewers continue to engage with it.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/nanis-the-paradise-finds-a-new-wave-of-appreciation/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/The-Paradise-2.jpg",
+      "publishedAt": "2026-10-24T08:46:42.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The film The Paradise, starring Nani, has recently drawn a fresh wave of appreciation from audiences. Viewers and movie enthusiasts are revisiting the project, highlighting its impact and continuing appeal within the regional cinema space.",
+        "Such renewed attention demonstrates the lasting connection certain films forge with their audiences long after their initial release milestones. This ongoing appreciation reflects positively on the overall reception of the project.",
+        "Cineinsta follows how films like The Paradise maintain their presence in public discussions and continue to resonate with movie lovers across different platforms."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Nani's film The Paradise is experiencing a new wave of recognition and appreciation from audiences. Cineinsta explores the ongoing reception surrounding the project as viewers continue to engage with it.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/nanis-the-paradise-finds-a-new-wave-of-appreciation/"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/437885/nanis-the-paradise-takes-over-netflix-trends-worldwide",
+      "title": "Nani’s The Paradise Climbs Netflix Charts Worldwide",
+      "summary": "The movie The Paradise, starring Nani, has captured a massive digital audience by trending globally on Netflix. Cineinsta reviews its digital success and expanding international reach.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/437885/nanis-the-paradise-takes-over-netflix-trends-worldwide",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-24-at-14.11.41.jpeg",
+      "publishedAt": "2026-10-24T08:44:39.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Nani's film The Paradise has successfully captured a wide digital audience, making waves by trending globally on Netflix. The digital streaming performance highlights the project's expanding reach beyond traditional theatrical boundaries.",
+        "As streaming platforms continue to amplify the global footprint of Indian cinema, titles like The Paradise find new opportunities to connect with international viewers. This worldwide trend underscores the growing appetite for diverse cinematic content online.",
+        "Cineinsta tracks how streaming milestones allow successful theatrical projects to extend their momentum and reach broader audiences across the globe."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The movie The Paradise, starring Nani, has captured a massive digital audience by trending globally on Netflix. Cineinsta reviews its digital success and expanding international reach.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/437885/nanis-the-paradise-takes-over-netflix-trends-worldwide"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130810/people-blast-fauzi-makers-for-this-aspect-in-the-glimpse.html",
+      "title": "Audience Criticism Surfaces Over Fauzi Glimpse",
+      "summary": "Makers of the upcoming project Fauzi have faced public criticism from viewers regarding specific elements shown in its recent promotional glimpse. Cineinsta looks at the reactions from fans following the teaser release.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130810/people-blast-fauzi-makers-for-this-aspect-in-the-glimpse.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/people-blast-fauzi-makers-for-this-aspect-in-the-glimpse-1792829460980-1792829461768.jpg",
+      "publishedAt": "2026-10-24T08:11:01.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The recent promotional glimpse for the upcoming film Fauzi has sparked significant discussion, with people voicing criticism over specific aspects presented in the teaser. Viewers took to sharing their thoughts on the preview elements shortly after its debut.",
+        "Public reactions to promotional material often set the tone for pre-release expectations, and the feedback regarding Fauzi highlights how closely audiences examine every detail shared by the makers. Constructive or critical responses help shape the ongoing conversation around the film.",
+        "Cineinsta will keep an eye on how the creative team responds to the initial audience reception and whether upcoming promotional materials address these viewer observations."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Makers of the upcoming project Fauzi have faced public criticism from viewers regarding specific elements shown in its recent promotional glimpse. Cineinsta looks at the reactions from fans following the teaser release.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130810/people-blast-fauzi-makers-for-this-aspect-in-the-glimpse.html"
+    },
+    {
+      "id": "https://telugucinema.com/news/radhika-apte-says-only-alia-deepika-can-pull-off-women-led-films-at-box-office",
+      "title": "Radhika Apte Opines Only Alia and Deepika Can Sustain Women-Centric Box Office Hits",
+      "summary": "Actor Radhika Apte recently shared her perspective on the commercial viability of female-led films in Indian cinema. According to her, prominent stars Alia Bhatt and Deepika Padukone are uniquely positioned to successfully carry women-driven projects at the box office.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/radhika-apte-says-only-alia-deepika-can-pull-off-women-led-films-at-box-office",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/deepikapadukone-aliabhatt-oct2426.jpg",
+      "publishedAt": "2026-10-24T08:10:08.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a recent discussion regarding the dynamics of the film industry, actor Radhika Apte offered candid insights into the current state of women-led cinema and box office performance.",
+        "Apte pointed out that within the industry, only top-tier names such as Alia Bhatt and Deepika Padukone currently possess the star power required to successfully pull off female-centric films at the commercial box office.",
+        "This perspective sheds light on the ongoing industry conversations surrounding commercial viability, star status, and the hurdles faced by women-led narratives in reaching mainstream audiences."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Radhika Apte recently shared her perspective on the commercial viability of female-led films in Indian cinema. According to her, prominent stars Alia Bhatt and Deepika Padukone are uniquely positioned to successfully carry women-driven projects at the box office.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "TeluguCinema"
+      ],
+      "originalUrl": "https://telugucinema.com/news/radhika-apte-says-only-alia-deepika-can-pull-off-women-led-films-at-box-office"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130809/vijay-antony-nanna-kutti-song-nannala-lokamulo-highlights.html",
+      "title": "Vijay Antony's 'Nanna Kutti' First Single 'Nannala Lokamulo' Highlights Emotional Depth",
+      "summary": "The first single from Vijay Antony's project 'Nanna Kutti', titled 'Nannala Lokamulo', has drawn attention for its emotional resonance. The musical release highlights poignant themes, offering fans a glimpse into the emotional core of the film.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130809/vijay-antony-nanna-kutti-song-nannala-lokamulo-highlights.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-antony-nanna-kutti-song-nannala-lokamulo-highlights-1792829256218-1792829256777.jpg",
+      "publishedAt": "2026-10-24T08:07:41.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Music and cinema enthusiasts have turned their attention toward the newly released first single from Vijay Antony's upcoming work, 'Nanna Kutti'.",
+        "Titled 'Nannala Lokamulo', the track has been noted for being high on emotions, setting a distinct tone for the project's musical landscape.",
+        "As promotional material for 'Nanna Kutti', the single serves to build anticipation among audiences who follow Vijay Antony's creative endeavors closely."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The first single from Vijay Antony's project 'Nanna Kutti', titled 'Nannala Lokamulo', has drawn attention for its emotional resonance. The musical release highlights poignant themes, offering fans a glimpse into the emotional core of the film.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130809/vijay-antony-nanna-kutti-song-nannala-lokamulo-highlights.html"
+    },
+    {
+      "id": "https://www.telugu360.com/fresh-trolling-on-nanis-the-paradise/",
+      "title": "Nani's 'The Paradise' Faces Fresh Wave of Trolling Online",
+      "summary": "Actor Nani's upcoming cinematic venture, 'The Paradise', has recently encountered fresh trolling across digital platforms. The online reactions highlight the intense public scrutiny and continuous social media chatter surrounding high-profile film projects.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/fresh-trolling-on-nanis-the-paradise/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/02/Nani-The-Paradise-2.jpg",
+      "publishedAt": "2026-10-24T07:47:49.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Digital discussions surrounding Nani's film project 'The Paradise' have taken a contentious turn following a fresh wave of online trolling directed at the venture.",
+        "In the digital age, prominent film projects frequently become targets of intense social media scrutiny, impacting public perception long before theatrical rollouts.",
+        "While details surrounding the exact nature of the reactions remain tied to ongoing social media trends, the development underscores the volatile relationship between upcoming cinema and online discourse."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Nani's upcoming cinematic venture, 'The Paradise', has recently encountered fresh trolling across digital platforms. The online reactions highlight the intense public scrutiny and continuous social media chatter surrounding high-profile film projects.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/fresh-trolling-on-nanis-the-paradise/"
+    },
+    {
+      "id": "https://telugucinema.com/box-office/vijay-deverakondas-ranabaali-turns-profitable-in-rayalaseema",
+      "title": "Vijay Deverakonda Starrer Ranabaali Achieves Profitability in Rayalaseema",
+      "summary": "Vijay Deverakonda's film Ranabaali has successfully turned a profit in the Rayalaseema region, marking a positive development for the project's regional box office run.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/box-office/vijay-deverakondas-ranabaali-turns-profitable-in-rayalaseema",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/vijaydeverakonda-ranabaali-oct2426.jpg",
+      "publishedAt": "2026-10-24T07:46:45.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The regional commercial performance of Vijay Deverakonda's project Ranabaali has reached a notable milestone. According to the latest updates, the movie has officially turned profitable within the Rayalaseema territory.",
+        "This financial milestone in Rayalaseema highlights the strong local pull of the star-led venture. Commercial success in key markets like this is vital for establishing the film's overall theatrical standing.",
+        "As Ranabaali continues its theatrical journey, achieving profitability in a prominent region like Rayalaseema offers an encouraging signal for everyone involved with the feature."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Vijay Deverakonda's film Ranabaali has successfully turned a profit in the Rayalaseema region, marking a positive development for the project's regional box office run.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "TeluguCinema"
+      ],
+      "originalUrl": "https://telugucinema.com/box-office/vijay-deverakondas-ranabaali-turns-profitable-in-rayalaseema"
+    },
+    {
+      "id": "https://telugucinema.com/box-office/rajinikanths-jailer-2-becomes-second-highest-grossing-tamil-film",
+      "title": "Rajinikanth Starrer Jailer 2 Claims Second-Highest-Grossing Tamil Film Spot",
+      "summary": "Rajinikanth's Jailer 2 has achieved a massive box office milestone by becoming the second-highest-grossing Tamil film of all time.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/box-office/rajinikanths-jailer-2-becomes-second-highest-grossing-tamil-film",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/jailer2-oct226.jpg",
+      "publishedAt": "2026-10-24T07:36:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Superstar Rajinikanth has added another major achievement to his illustrious career as Jailer 2 officially climbs the box office ladder. The action entertainer has emerged as the second-highest-grossing Tamil film to date.",
+        "The milestone underscores the enduring box office pull of Rajinikanth and the massive commercial demand for the sequel. Such high grossing figures place the film among elite company in contemporary Kollywood history.",
+        "Fans and industry watchers alike are celebrating the remarkable theatrical run of Jailer 2, which continues to solidify its legacy as a massive commercial success."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Rajinikanth's Jailer 2 has achieved a massive box office milestone by becoming the second-highest-grossing Tamil film of all time.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "TeluguCinema"
+      ],
+      "originalUrl": "https://telugucinema.com/box-office/rajinikanths-jailer-2-becomes-second-highest-grossing-tamil-film"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/prabhas-takes-a-short-break-after-fauzi-teaser-launch-avd.html",
+      "title": "Prabhas Steps Back for a Brief Break Following Fauzi Teaser Launch",
+      "summary": "Following the much-anticipated teaser launch of his upcoming project Fauzi, leading actor Prabhas has opted to take a short break.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/prabhas-takes-a-short-break-after-fauzi-teaser-launch-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/02/prabhas-1.webp",
+      "publishedAt": "2026-10-24T07:30:27.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Following the much-anticipated teaser launch of his upcoming project Fauzi, leading actor Prabhas has opted to take a short break.",
+        "The promotional event for Fauzi recently drew considerable attention from fans and media alike. With the teaser now successfully unveiled, the star has decided to step away temporarily to rest before resuming his packed cinematic commitments.",
+        "Further updates regarding Prabhas's upcoming shooting schedules and the progress of Fauzi are expected to follow once his brief break concludes."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Following the much-anticipated teaser launch of his upcoming project Fauzi, leading actor Prabhas has opted to take a short break.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "123telugu"
       ],
-      "originalUrl": "https://www.123telugu.com/reviews/sridevi-apalla-haiku-movie-review-and-rating.html"
+      "originalUrl": "https://www.123telugu.com/mnews/prabhas-takes-a-short-break-after-fauzi-teaser-launch-avd.html"
     },
     {
-      "id": "https://www.123telugu.com/mnews/idupu-kayitham-priyadarshis-film-that-sparked-debate-locks-release-date-prp.html",
-      "title": "Priyadarshi's Much-Discussed 'Idupu Kayitham' Officially Locks Release Date",
-      "summary": "Priyadarshi's upcoming film 'Idupu Kayitham', which previously sparked considerable debate, has officially locked its release date.",
+      "id": "https://www.cinejosh.com/news/1/130807/salaar-2-shooting-to-begin-in-june-2027.html",
+      "title": "Salaar 2 Shouryaangaparvam Scheduled to Begin Filming in June 2027",
+      "summary": "The filming schedule for Salaar 2 has been officially slated to commence in June 2027, giving fans an official timeline for the sequel's production.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130807/salaar-2-shooting-to-begin-in-june-2027.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/salaar-2-shooting-to-begin-in-june-2027-1792825900858-1792825903695.jpg",
+      "publishedAt": "2026-10-24T07:11:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Anticipation for the continuation of the action saga has received a concrete update. Production on Salaar 2 is officially scheduled to roll cameras starting in June 2027.",
+        "Fans eagerly awaiting the next chapter in the franchise now have a tentative timeline for when the cast and crew will reunite on set. The long lead-up to the filming date suggests extensive preparation is underway for the sequel.",
+        "Further details concerning the cast, crew, and production milestones for the upcoming schedule will be shared as June 2027 approaches."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The filming schedule for Salaar 2 has been officially slated to commence in June 2027, giving fans an official timeline for the sequel's production.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130807/salaar-2-shooting-to-begin-in-june-2027.html"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/singa-gopichands-new-poster-looks-powerful-fifty-percent-shoot-done-prp.html",
+      "title": "Gopichand's 'Singa' Unveils Powerful New Poster As Production Hits Halfway Mark",
+      "summary": "The makers of Gopichand's upcoming film Singa have released a striking new poster to mark a major production milestone, confirming that half of the total shooting has officially been wrapped up.",
       "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/idupu-kayitham-priyadarshis-film-that-sparked-debate-locks-release-date-prp.html",
+      "url": "https://www.123telugu.com/mnews/singa-gopichands-new-poster-looks-powerful-fifty-percent-shoot-done-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/sin.jpg",
+      "publishedAt": "2026-10-24T06:31:55.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Telugu cinema star Gopichand is back in the headlines as his upcoming project, titled Singa, reaches an important production milestone. The makers have officially announced that fifty percent of the film's shooting schedule has been successfully completed, keeping the production moving forward at a steady pace.",
+        "Along with this exciting update regarding the shoot progress, the team also unveiled a brand-new poster for the movie. The newly released promotional material features Gopichand in a rugged and powerful avatar, instantly grabbing the attention of moviegoers and setting the tone for the action-packed entertainer.",
+        "As Singa crosses the halfway mark in its filming journey, fans eagerly await further updates from the sets. With fifty percent of the shoot now in the books, the team is expected to ramp up the remaining schedules in the coming days."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The makers of Gopichand's upcoming film Singa have released a striking new poster to mark a major production milestone, confirming that half of the total shooting has officially been wrapped up.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/singa-gopichands-new-poster-looks-powerful-fifty-percent-shoot-done-prp.html"
+    },
+    {
+      "id": "https://www.telugu360.com/prabhas-off-to-italy/",
+      "title": "Pan-India Star Prabhas Heads To Italy",
+      "summary": "Leading Telugu cinema star Prabhas has traveled out of the country, with reports confirming that the actor has jetted off to Italy for a brief schedule or personal trip.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/prabhas-off-to-italy/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Prabhas.jpg",
+      "publishedAt": "2026-10-24T06:22:30.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Leading Telugu film star Prabhas has captured the attention of fans and the media once again as he heads out for an international destination. The actor was recently spotted traveling abroad, with confirmed reports indicating that his current destination is Italy.",
+        "Prabhas, known for headlining massive pan-Indian cinematic blockbusters, maintains a heavily packed schedule with multiple high-profile projects in various stages of production. His latest journey to Italy has quickly become a talking point among cinephiles tracking his movements.",
+        "Further details regarding whether the trip is strictly personal or related to an upcoming shooting schedule are yet to be officially elaborated. For now, followers of the star continue to buzz over his latest international transit."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Leading Telugu cinema star Prabhas has traveled out of the country, with reports confirming that the actor has jetted off to Italy for a brief schedule or personal trip.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/prabhas-off-to-italy/"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130803/singa-completes-50-percent-of-shooting.html",
+      "title": "Gopichand Starrer 'Singa' Wraps Up Half Its Shooting Schedule",
+      "summary": "Gopichand's upcoming movie Singa has achieved a key production milestone, with the core team confirming that fifty percent of the total filming has now been completed.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130803/singa-completes-50-percent-of-shooting.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/singa-completes-50-percent-of-shooting-1792821115586-1792821116119.jpg",
+      "publishedAt": "2026-10-24T05:52:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The production of Gopichand's upcoming cinematic venture, Singa, is proceeding at a steady pace. According to the latest updates from the production team, the movie has officially wrapped up fifty percent of its shooting schedule.",
+        "This progress marks a vital phase for the action film, which features Gopichand taking on the central character. With half of the filming successfully finished, the project is steadily moving closer toward its eventual completion and post-production phases.",
+        "Further announcements regarding upcoming shooting schedules and additional cast members are expected to follow as the team advances past the halfway mark of production."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Gopichand's upcoming movie Singa has achieved a key production milestone, with the core team confirming that fifty percent of the total filming has now been completed.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130803/singa-completes-50-percent-of-shooting.html"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/437795/sukumar-hints-ap-heroine-for-ram-charan",
+      "title": "Director Sukumar Drops Hints About Ram Charan's Leading Lady",
+      "summary": "Filmmaker Sukumar has sparked discussions across cinema circles after hinting at casting an Andhra Pradesh native as the heroine for his upcoming project with Ram Charan.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/437795/sukumar-hints-ap-heroine-for-ram-charan",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Charan-aneet-padda-.jpg",
+      "publishedAt": "2026-10-24T05:32:07.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Director Sukumar has generated significant buzz among cinema enthusiasts regarding his highly anticipated collaboration with star actor Ram Charan. According to recent updates, the filmmaker has dropped interesting hints indicating that the leading lady for the movie might be picked from Andhra Pradesh.",
+        "While official announcements regarding the complete cast are still awaited, Sukumar's hints have set off intense speculation among fans tracking updates about the upcoming cinematic venture. The pairing of Ram Charan with a fresh or regional face has added considerable intrigue to the project's pre-production phase.",
+        "As developments continue to unfold around the film, audiences and movie trade circles remain eager for formal confirmations from the makers regarding the female lead and other pivotal casting choices."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Filmmaker Sukumar has sparked discussions across cinema circles after hinting at casting an Andhra Pradesh native as the heroine for his upcoming project with Ram Charan.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/437795/sukumar-hints-ap-heroine-for-ram-charan"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/idupu-kayitham-finds-itself-in-yet-another-controversy-avd.html",
+      "title": "Idupu Kayitham Faces Fresh Controversies",
+      "summary": "The film Idupu Kayitham has once again landed in trouble, drawing fresh controversies surrounding its ongoing release and public trajectory.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/idupu-kayitham-finds-itself-in-yet-another-controversy-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Idupu-Kayitham.webp",
-      "publishedAt": "2026-10-23T10:30:05.000Z",
+      "publishedAt": "2026-10-24T05:30:13.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Priyadarshi's upcoming cinematic venture, 'Idupu Kayitham', has been a subject of discussion among moviegoers. The project previously sparked notable debate across various circles prior to its official updates.",
-        "In the latest development, the makers have officially locked a release date for the film. This announcement brings clarity to fans eagerly waiting to see how the much-discussed project presents itself on the big screen.",
-        "As preparations for the release move forward, attention now shifts toward how audiences will receive the feature upon its arrival in theaters."
+        "The cinema project Idupu Kayitham has found itself entangled in a fresh wave of controversy. Discussions surrounding the film's latest hurdles have grabbed attention within regional film circles.",
+        "Details regarding the exact nature of the dispute remain tied to the developing situation around the title. Such controversies often impact how a movie is perceived by audiences prior to or during its theatrical and digital run.",
+        "Industry observers continue to monitor the situation as stakeholders navigate the latest troubles facing Idupu Kayitham."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Priyadarshi's upcoming film 'Idupu Kayitham', which previously sparked considerable debate, has officially locked its release date.",
+      "dek": "The film Idupu Kayitham has once again landed in trouble, drawing fresh controversies surrounding its ongoing release and public trajectory.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "123telugu"
       ],
-      "originalUrl": "https://www.123telugu.com/mnews/idupu-kayitham-priyadarshis-film-that-sparked-debate-locks-release-date-prp.html"
+      "originalUrl": "https://www.123telugu.com/mnews/idupu-kayitham-finds-itself-in-yet-another-controversy-avd.html"
     },
     {
-      "id": "https://www.gulte.com/movienews/437660/telugu-director-replaces-tamil-director",
-      "title": "Director Shift: Telugu Filmmaker Steps in to Replace Tamil Director",
-      "summary": "A notable behind-the-scenes change has taken place in the industry as a Telugu director steps in to replace a Tamil director on a project.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/437660/telugu-director-replaces-tamil-director",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/ashwath-tarun.jpg",
-      "publishedAt": "2026-10-23T09:55:59.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Behind-the-scenes adjustments often shape the journey of a cinematic production. A recent development highlights a notable creative shift within the industry as a Telugu director formally replaces a Tamil director.",
-        "Such directorial transitions can influence the overall vision, execution, and cultural nuance of a film. While details regarding the specific project remain framed within this transition, the swap marks an interesting cross-industry shift.",
-        "Cineinsta will continue to follow updates regarding how this directorial replacement impacts the ongoing production and eventual release schedule."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "A notable behind-the-scenes change has taken place in the industry as a Telugu director steps in to replace a Tamil director on a project.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/437660/telugu-director-replaces-tamil-director"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/varun-sandeshs-naa-wife-missing-ott-movie-review-and-rating.html",
-      "title": "Varun Sandesh Starrer Naa Wife Missing Drops on Aha",
-      "summary": "Varun Sandesh's Telugu film titled Naa Wife Missing has made its way to the digital streaming platform Aha, drawing attention from digital audiences. The project features the actor in a prominent role and is now accessible for streaming.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/varun-sandeshs-naa-wife-missing-ott-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Naa-Wife-Missing-2.webp",
-      "publishedAt": "2026-10-23T09:31:07.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The Telugu film Naa Wife Missing, starring actor Varun Sandesh, has officially arrived on the popular streaming platform Aha. This digital release brings the feature directly to fans of the actor and regional cinema enthusiasts who prefer watching new releases from home.",
-        "As an Aha offering, the project joins a growing catalog of Telugu language titles available on the digital service. Viewers can now stream the movie directly on the platform as it makes its rounds across the digital space."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Varun Sandesh's Telugu film titled Naa Wife Missing has made its way to the digital streaming platform Aha, drawing attention from digital audiences. The project features the actor in a prominent role and is now accessible for streaming.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/reviews/varun-sandeshs-naa-wife-missing-ott-movie-review-and-rating.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/makers-reaffirm-prabhas-salaar-2-heres-when-neel-will-begin-work-on-the-sequel-hk.html",
-      "title": "Makers Confirm Prabhas' Salaar 2 and Outline Director Neel's Schedule",
-      "summary": "The creators of the Prabhas-starrer Salaar 2 have officially reaffirmed the upcoming sequel. Updates also clarify when director Prashanth Neel will commence active work on the much-anticipated follow-up project.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/makers-reaffirm-prabhas-salaar-2-heres-when-neel-will-begin-work-on-the-sequel-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/salaar.webp",
-      "publishedAt": "2026-10-23T09:31:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Anticipation for the action sequel Salaar 2 continues to build as the film's makers have reaffirmed that the project is officially moving forward. Fans of lead actor Prabhas have been awaiting official updates regarding the timeline of the film.",
-        "Additionally, updates have shed light on the schedule for director Prashanth Neel, outlining precisely when he will begin intensive work on the sequel. This confirmation provides clarity on the production trajectory for one of the major upcoming ventures in regional and national cinema."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The creators of the Prabhas-starrer Salaar 2 have officially reaffirmed the upcoming sequel. Updates also clarify when director Prashanth Neel will commence active work on the much-anticipated follow-up project.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/makers-reaffirm-prabhas-salaar-2-heres-when-neel-will-begin-work-on-the-sequel-hk.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130788/ramayana-leads-the-festive-diwali-2026-box-office-clash.html",
-      "title": "Ramayana Positions Itself at the Forefront of the Diwali 2026 Box Office Clash",
-      "summary": "The upcoming cinematic project Ramayana has emerged as a major contender for the festive Diwali 2026 box office period. The film is leading discussions surrounding what promises to be a competitive holiday release window.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130788/ramayana-leads-the-festive-diwali-2026-box-office-clash.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ramayana-leads-the-festive-diwali-2026-box-office-clash-1792746792013-1792746792586.jpg",
-      "publishedAt": "2026-10-23T09:13:18.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The festive season of Diwali 2026 is already shaping up to be a heavily contested period at the box office. Among the major contenders, the high-profile project Ramayana has clearly positioned itself as a leading attraction for moviegoers during the holiday frame.",
-        "As preparation and planning continue for the festive season releases, industry watchers are keeping a close eye on how this major title anchors the holiday box office clash. The prominence of Ramayana highlights the scale of cinematic offerings planned for the festive window."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The upcoming cinematic project Ramayana has emerged as a major contender for the festive Diwali 2026 box office period. The film is leading discussions surrounding what promises to be a competitive holiday release window.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130788/ramayana-leads-the-festive-diwali-2026-box-office-clash.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/aadarsha-kutumbam-all-it-needs-is-a-perfect-trailer-to-reignite-the-buzz-hk.html",
-      "title": "Aadarsha Kutumbam Awaits Strategic Trailer Launch to Revive Public Buzz",
-      "summary": "Industry discussions surrounding Aadarsha Kutumbam suggest that an engaging and well-crafted trailer is all that is required to reignite widespread public interest. Anticipation remains steady as supporters look forward to upcoming promotional materials.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/aadarsha-kutumbam-all-it-needs-is-a-perfect-trailer-to-reignite-the-buzz-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ak47.jpg",
-      "publishedAt": "2026-10-23T08:30:19.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "As promotional campaigns for upcoming films take shape, Aadarsha Kutumbam is currently viewed as a project that stands to benefit immensely from a compelling promotional rollout. Observers note that the release of a perfectly cut trailer could effectively reignite public buzz and conversation.",
-        "With audience engagement heavily reliant on impactful marketing assets, the next promotional phase for Aadarsha Kutumbam will be crucial. Fans and industry trackers alike are waiting for official glimpses to elevate the excitement surrounding the title."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Industry discussions surrounding Aadarsha Kutumbam suggest that an engaging and well-crafted trailer is all that is required to reignite widespread public interest. Anticipation remains steady as supporters look forward to upcoming promotional materials.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/aadarsha-kutumbam-all-it-needs-is-a-perfect-trailer-to-reignite-the-buzz-hk.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130785/jailer-2-eight-days-worldwide-box-office-collection.html",
-      "title": "Jailer 2 Crosses Rs 600 Crore Worldwide in Eight Days",
-      "summary": "The box office run for Jailer 2 continues to impress as the film officially crosses the Rs 600 crore mark globally within its first eight days. This milestone highlights the massive international appeal and strong ticket sales the sequel is commanding.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130785/jailer-2-eight-days-worldwide-box-office-collection.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/jailer-2-eight-days-worldwide-box-office-collection-1792743327697-1792743328276.jpg",
-      "publishedAt": "2026-10-23T08:15:28.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The box office momentum for Jailer 2 remains exceptionally strong, crossing a major financial milestone within its first week of release. According to the latest updates, the film has officially surpassed the Rs 600 crore mark at the worldwide box office after just eight days in theaters.",
-        "This rapid accumulation of numbers underscores the high level of anticipation and audience turnout surrounding the sequel. Ticket windows have seen steady numbers as fans continue to flock to cinemas globally to catch the latest installment.",
-        "Surpassing Rs 600 crore in under ten days firmly establishes the commercial viability and widespread appeal of the project. As the film moves further into its theatrical run, industry watchers will be keeping a close eye on how much higher these global figures can climb."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The box office run for Jailer 2 continues to impress as the film officially crosses the Rs 600 crore mark globally within its first eight days. This milestone highlights the massive international appeal and strong ticket sales the sequel is commanding.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130785/jailer-2-eight-days-worldwide-box-office-collection.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130783/salaar-team-wishes-prabhas.html",
-      "title": "Salaar Team Extends Wishes to Prabhas",
-      "summary": "The creative team behind Salaar has shared official wishes for actor Prabhas. The gesture highlights the ongoing camaraderie and collaborative spirit within the film's core unit.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130783/salaar-team-wishes-prabhas.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/salaar-team-wishes-prabhas-1792741688929-1792741689346.jpg",
-      "publishedAt": "2026-10-23T07:48:12.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The cast and crew behind the upcoming cinematic venture Salaar have publicly shared their warm wishes for leading man Prabhas. Such messages from the core production team offer fans a glimpse into the collaborative environment surrounding the film.",
-        "Gestures like these frequently surface during special occasions or milestones related to the cast members, further strengthening the connection between the production team and the audience. The association with Prabhas remains a central talking point for followers of the project.",
-        "As anticipation continues to build around Salaar and its upcoming promises, updates celebrating the principal cast members keep enthusiasm high across entertainment platforms."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The creative team behind Salaar has shared official wishes for actor Prabhas. The gesture highlights the ongoing camaraderie and collaborative spirit within the film's core unit.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130783/salaar-team-wishes-prabhas.html"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/437630/watch-vishwak-sen-opens-up-about-project-x-influence-on-cult",
-      "title": "Vishwak Sen Discusses Project X and Its Influence on Cult",
-      "summary": "Actor Vishwak Sen recently spoke about the influence of Project X on the film Cult. His insights provide a look behind the creative connections driving his ongoing cinematic choices.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/437630/watch-vishwak-sen-opens-up-about-project-x-influence-on-cult",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vishwak-sen-cult-.jpg",
-      "publishedAt": "2026-10-23T06:52:44.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Vishwak Sen has opened up in a recent discussion regarding the creative impact of Project X on his film Cult. The remarks give audiences a clearer understanding of the artistic motivations and inspirations behind the project.",
-        "Conversations centered around how specific works influence newer titles help fans appreciate the depth of modern filmmaking and storytelling choices. Vishwak Sen's commentary sheds light on the trajectory of his current cinematic endeavors.",
-        "As details regarding the connection between Project X and Cult circulate, followers gain a better perspective on the actor's approach to his roles and the broader creative influences shaping the industry."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Vishwak Sen recently spoke about the influence of Project X on the film Cult. His insights provide a look behind the creative connections driving his ongoing cinematic choices.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/437630/watch-vishwak-sen-opens-up-about-project-x-influence-on-cult"
-    },
-    {
-      "id": "https://telugucinema.com/news/rukmini-vasanth-teams-up-with-oke-oka-jeevitham-director",
-      "title": "Rukmini Vasanth Joins Hands with 'Oke Oka Jeevitham' Director",
-      "summary": "Actor Rukmini Vasanth has officially signed on for a new collaboration with the director of 'Oke Oka Jeevitham'. This exciting pairing brings together fresh talent and acclaimed filmmaking vision for an upcoming project.",
+      "id": "https://telugucinema.com/news/singa-gopichands-actioner-completes-50-percent-of-shooting",
+      "title": "Gopichand’s Actioner Singa Wraps Up Half Its Shoot",
+      "summary": "Actor Gopichand's upcoming action-packed feature Singa has achieved a major production milestone by completing 50 percent of its filming schedule.",
       "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/rukmini-vasanth-teams-up-with-oke-oka-jeevitham-director",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/rukmini-friends-oct2326.jpg",
-      "publishedAt": "2026-10-23T06:49:35.000Z",
+      "url": "https://telugucinema.com/news/singa-gopichands-actioner-completes-50-percent-of-shooting",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/singa-oct2426.jpg",
+      "publishedAt": "2026-10-24T05:08:13.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In an exciting development for cinema enthusiasts, actor Rukmini Vasanth has teamed up with the acclaimed director of 'Oke Oka Jeevitham'. This upcoming collaboration brings together notable creative forces to craft a fresh cinematic experience.",
-        "Given the distinct storytelling style established in previous works by the director, this partnership is expected to draw considerable interest from moviegoers. Rukmini Vasanth's inclusion adds further appeal to the upcoming venture.",
-        "Further announcements regarding the project are expected as production progresses, marking an important addition to the actor's growing slate of films."
+        "Actor Gopichand is currently busy with his upcoming action film titled Singa, which has officially hit a notable production milestone. The team has successfully wrapped up 50 percent of its total shooting schedule.",
+        "The project is billed as an actioner, keeping in line with the lead actor's popular onscreen persona. Reaching the halfway mark in production indicates steady progress for the film crew as they move ahead with subsequent shooting phases.",
+        "Fans of Gopichand have been following updates on Singa closely as more details regarding the action sequences and full cast emerge from the production camp."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Rukmini Vasanth has officially signed on for a new collaboration with the director of 'Oke Oka Jeevitham'. This exciting pairing brings together fresh talent and acclaimed filmmaking vision for an upcoming project.",
+      "dek": "Actor Gopichand's upcoming action-packed feature Singa has achieved a major production milestone by completing 50 percent of its filming schedule.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "TeluguCinema"
       ],
-      "originalUrl": "https://telugucinema.com/news/rukmini-vasanth-teams-up-with-oke-oka-jeevitham-director"
+      "originalUrl": "https://telugucinema.com/news/singa-gopichands-actioner-completes-50-percent-of-shooting"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130782/418-movie-review.html",
-      "title": "Cineinsta Review: 418 Telugu Horror Movie Explored",
-      "summary": "Discover the latest insights on the 2026 Telugu horror release 418. Rambabu shares a comprehensive review exploring what lies behind the horror of this cinematic project.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130782/418-movie-review.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/418-movie-review-1792738170968-1792738172067.jpg",
-      "publishedAt": "2026-10-23T06:49:35.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The Telugu film landscape has welcomed a brand-new horror entry titled 418. Reviewed by Rambabu, the 2026 feature film brings chilling cinematic experiences directly to regional audiences.",
-        "As horror enthusiasts look for fresh scares, 418 steps into the spotlight to test the waters of the genre. The evaluation provides cinema lovers with an early look at what drives the narrative and scares behind this production.",
-        "With horror features continuing to draw attention in the industry, releases like 418 keep fans engaged. The review highlights the core elements awaiting viewers as they explore the spooky feature."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Discover the latest insights on the 2026 Telugu horror release 418. Rambabu shares a comprehensive review exploring what lies behind the horror of this cinematic project.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130782/418-movie-review.html"
-    },
-    {
-      "id": "https://telugucinema.com/news/kalki-2898-ad-sequel-prabhas-returns-as-bhairava-in-bts-glimpse",
-      "title": "Prabhas Reprises Bhairava in Behind-The-Scenes Glimpse of Kalki 2898 AD Sequel",
-      "summary": "Lead star Prabhas is back in action as Bhairava in an exciting behind-the-scenes preview for the much-anticipated Kalki 2898 AD sequel. Fans get a special peek into the ongoing production process of this massive Telugu cinema franchise.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/kalki-2898-ad-sequel-prabhas-returns-as-bhairava-in-bts-glimpse",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/prabhas-kalki2-oct2326.jpg",
-      "publishedAt": "2026-10-23T06:42:11.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Excitement for the Kalki 2898 AD sequel has taken a major leap forward as the makers revealed a behind-the-scenes glimpse of the upcoming project. The special preview focuses on lead star Prabhas, who officially returns to the screen as Bhairava.",
-        "This latest production peek offers cinema fans an exclusive look at the ongoing creative efforts behind the ambitious franchise. Returning as Bhairava, Prabhas continues to build momentum for the sequel, which remains one of the most closely watched properties in Telugu entertainment.",
-        "Behind-the-scenes reveals of this scale play a crucial role in maintaining audience anticipation. As production moves forward, glimpses into the world of the Kalki 2898 AD sequel help fuel discussions across the Indian cinema community."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Lead star Prabhas is back in action as Bhairava in an exciting behind-the-scenes preview for the much-anticipated Kalki 2898 AD sequel. Fans get a special peek into the ongoing production process of this massive Telugu cinema franchise.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "TeluguCinema"
-      ],
-      "originalUrl": "https://telugucinema.com/news/kalki-2898-ad-sequel-prabhas-returns-as-bhairava-in-bts-glimpse"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/rukmini-vasanth-joins-hands-with-oke-oka-jeevitham-director-for-new-film-hk.html",
-      "title": "Rukmini Vasanth Signs New Project with 'Oke Oka Jeevitham' Director",
-      "summary": "Actor Rukmini Vasanth has officially teamed up with the director of Oke Oka Jeevitham for an upcoming film. This new cinematic collaboration brings together fresh creative talent for movie enthusiasts to anticipate.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/rukmini-vasanth-joins-hands-with-oke-oka-jeevitham-director-for-new-film-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Oke-Oka-Jeevitham.webp",
-      "publishedAt": "2026-10-23T06:30:56.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "In a notable development for regional cinema, actor Rukmini Vasanth has locked in a new film project. She will be joining forces with the director behind the acclaimed film Oke Oka Jeevitham.",
-        "This new collaboration marks an exciting career chapter for Rukmini Vasanth as she teams up with a filmmaker known for resonant storytelling. Fans of both the actor and the director can look forward to fresh cinematic updates as production gets underway.",
-        "Announcements tying notable actors with celebrated directors often generate strong industry interest. This upcoming project stands out as a promising venture within the current landscape of Indian movie productions."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Rukmini Vasanth has officially teamed up with the director of Oke Oka Jeevitham for an upcoming film. This new cinematic collaboration brings together fresh creative talent for movie enthusiasts to anticipate.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/rukmini-vasanth-joins-hands-with-oke-oka-jeevitham-director-for-new-film-hk.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130781/fauzi-makers-tease-fans-on-prabhas-b-day.html",
-      "title": "Fauzi Makers Celebrate Prabhas's Birthday with Vintage Military Look Tease",
-      "summary": "The makers of Fauzi treated fans to a special preview featuring Prabhas as a vintage military soldier in honor of his birthday. This exciting update gives moviegoers a glimpse of the actor's distinct periodic avatar.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130781/fauzi-makers-tease-fans-on-prabhas-b-day.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/fauzi-makers-tease-fans-on-prabhas-b-day-1792736620128-1792736622254.jpg",
-      "publishedAt": "2026-10-23T06:23:48.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Birthday celebrations for star Prabhas brought an exciting treat for cinema lovers as the creators of Fauzi unveiled a special promotional tease. The newly shared material offers a clear look at the actor stepping into a distinct character role.",
-        "In Fauzi, Prabhas is showcased as a vintage military soldier, giving audiences a glimpse into a period-based narrative. The birthday special reveal successfully drove fan engagement across film circles, highlighting the actor's versatile lineup.",
-        "Character teases released on special occasions like birthdays serve as a powerful tool for building immediate buzz. The vintage military soldier aesthetic for Fauzi establishes an intriguing visual tone for the upcoming feature."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The makers of Fauzi treated fans to a special preview featuring Prabhas as a vintage military soldier in honor of his birthday. This exciting update gives moviegoers a glimpse of the actor's distinct periodic avatar.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130781/fauzi-makers-tease-fans-on-prabhas-b-day.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130780/ranabaali-first-week-box-office-collection-reaches-65-crores.html",
-      "title": "Ranabaali Reaches 65 Crores in First Week Box Office Earnings",
-      "summary": "The film Ranabaali has achieved a notable box office milestone, pulling in a strong collection during its opening week in theaters.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130780/ranabaali-first-week-box-office-collection-reaches-65-crores.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ranabaali-first-week-box-office-collection-reaches-65-crores-1792734764733-1792734765645.jpg",
-      "publishedAt": "2026-10-23T05:52:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The theatrical run of Ranabaali has marked a strong beginning at the box office. According to recent updates, the film successfully crossed a significant collection milestone during its first week in cinemas.",
-        "With earnings reaching 65 crores in its opening week, the movie has demonstrated solid commercial performance. This early box office figure reflects the audience turnout and attention the feature has gathered since its release.",
-        "As the film moves forward in its theatrical run, these initial numbers set a strong benchmark for its overall performance. Further updates will reveal how the feature sustains its momentum in the coming weeks."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The film Ranabaali has achieved a notable box office milestone, pulling in a strong collection during its opening week in theaters.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130780/ranabaali-first-week-box-office-collection-reaches-65-crores.html"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/437628/a-redemption-birthday-for-pan-india-superstar-prabhas",
-      "title": "Marking a Redemption Birthday for Pan India Star Prabhas",
-      "summary": "Pan India superstar Prabhas celebrates a notable birthday as industry followers and movie enthusiasts mark the occasion with special attention to his cinematic journey.",
+      "id": "https://www.gulte.com/movienews/437794/singa-gopichand-in-dense-forest-ornate-weapon",
+      "title": "Gopichand Spotted With Ornate Weapon In Dense Forest For Singa",
+      "summary": "Makers of Gopichand's Singa have offered an intriguing visual glimpse featuring the actor situated in a dense forest holding an ornate weapon.",
       "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/437628/a-redemption-birthday-for-pan-india-superstar-prabhas",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/12/prabhas-raja-sasb.jpg",
-      "publishedAt": "2026-10-23T05:36:30.000Z",
+      "url": "https://www.gulte.com/movienews/437794/singa-gopichand-in-dense-forest-ornate-weapon",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Singa-movie-poster-scaled.jpeg",
+      "publishedAt": "2026-10-24T05:05:08.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Pan India superstar Prabhas has reached another personal and professional milestone with his latest birthday celebration. The occasion has drawn significant attention from fans and followers across the entertainment landscape.",
-        "Known for his massive footprint in pan-Indian cinema, the actor continues to remain a prominent figure in movie news headlines. This particular birthday has been characterized in reports as a redemption occasion for the leading star.",
-        "As supporters celebrate the day, the focus remains on his ongoing and upcoming cinematic endeavors. The enduring popularity of the star highlights his strong connection with audiences across different regions."
+        "The makers of the upcoming actioner Singa have given fans a striking visual tease featuring lead actor Gopichand. In the latest promotional glimpse, the actor is seen positioned within a dense forest setting while carrying an ornate weapon.",
+        "The rugged environment combined with the detailed weapon suggests that the film will feature high-octane action sequences set against atmospheric backdrops. Such glimpses are designed to heighten anticipation for the actor's commercial cinema outings.",
+        "Further updates concerning the teaser rollout and release timelines for Singa are anticipated as production moves past its halfway mark."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Pan India superstar Prabhas celebrates a notable birthday as industry followers and movie enthusiasts mark the occasion with special attention to his cinematic journey.",
+      "dek": "Makers of Gopichand's Singa have offered an intriguing visual glimpse featuring the actor situated in a dense forest holding an ornate weapon.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "Gulte"
       ],
-      "originalUrl": "https://www.gulte.com/movienews/437628/a-redemption-birthday-for-pan-india-superstar-prabhas"
+      "originalUrl": "https://www.gulte.com/movienews/437794/singa-gopichand-in-dense-forest-ornate-weapon"
     },
     {
-      "id": "https://www.123telugu.com/mnews/despite-criticism-nanis-the-paradise-climbs-to-no-1-on-netflix-hk.html",
-      "title": "Nani's The Paradise Claims No. 1 Spot on Netflix Despite Mixed Criticism",
-      "summary": "Nani’s film The Paradise has successfully climbed to the number one position on Netflix, demonstrating strong streaming viewership despite earlier critical reception.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/despite-criticism-nanis-the-paradise-climbs-to-no-1-on-netflix-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/theparadise.webp",
-      "publishedAt": "2026-10-23T05:32:55.000Z",
+      "id": "https://telugucinema.com/news/fans-are-now-hyping-prabhas-fauji-after-the-video-glimpse",
+      "title": "Prabhas' Fauji Generates Massive Buzz Among Fans Following Video Glimpse",
+      "summary": "Enthusiastic cinema fans are eagerly hyping up the upcoming film Fauji starring Prabhas, following the release of a new video glimpse that has sparked significant excitement across the audience.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/fans-are-now-hyping-prabhas-fauji-after-the-video-glimpse",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/fauji-glimpse-oct2426.jpg",
+      "publishedAt": "2026-10-24T05:00:39.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Nani’s cinematic project, The Paradise, has achieved a major streaming milestone by securing the top spot on Netflix. The achievement comes despite the film facing criticism during its initial release phase.",
-        "Streaming platforms continue to offer a secondary window for films to find large audiences, and this project has capitalized on that reach. Claiming the number one position on the platform indicates strong viewer engagement and interest from home audiences.",
-        "This development highlights the shifting dynamics between theatrical criticism and digital viewership. Even with mixed reviews, the feature has managed to attract significant numbers on the streaming service."
+        "The anticipation surrounding the upcoming Telugu cinema project Fauji has grown considerably following the unveiling of its latest promotional video. Fans of star actor Prabhas have taken to expressing high levels of excitement and hype across platforms after getting a visual preview of the project.",
+        "Video glimpses often serve as vital promotional tools in the film industry, allowing creators to establish the mood and visual style of a production. In this case, the newly released footage has successfully captured audience attention and generated substantial online discussion regarding what to expect from the feature.",
+        "As excitement continues to build among followers, attention remains focused on how the makers of Fauji will capitalize on this momentum. Further updates on the project are anticipated by eager fans tracking its progress."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Nani’s film The Paradise has successfully climbed to the number one position on Netflix, demonstrating strong streaming viewership despite earlier critical reception.",
+      "dek": "Enthusiastic cinema fans are eagerly hyping up the upcoming film Fauji starring Prabhas, following the release of a new video glimpse that has sparked significant excitement across the audience.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "123telugu"
+        "TeluguCinema"
       ],
-      "originalUrl": "https://www.123telugu.com/mnews/despite-criticism-nanis-the-paradise-climbs-to-no-1-on-netflix-hk.html"
+      "originalUrl": "https://telugucinema.com/news/fans-are-now-hyping-prabhas-fauji-after-the-video-glimpse"
     },
     {
-      "id": "https://www.telugu360.com/prabhas-and-prashanth-neel-promise-a-dino-mite-reunion/",
-      "title": "Prabhas and Prashanth Neel Hint at an Exciting New Collaboration",
-      "summary": "Actor Prabhas and director Prashanth Neel have generated fresh excitement among fans by teasing a potential new collaboration, promising a unique cinematic reunion.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/prabhas-and-prashanth-neel-promise-a-dino-mite-reunion/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Prabhas-Prashanth-Neel.jpg",
-      "publishedAt": "2026-10-23T04:50:14.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The creative partnership between leading star Prabhas and acclaimed director Prashanth Neel has captured the attention of movie enthusiasts following recent hints about a future project together.",
-        "Known for their prominent presence in the pan-Indian film landscape, the actor-director duo's potential reunion has become a major talking point within the cinema community, setting high expectations for what they might create next.",
-        "As further official updates regarding this promising collaboration emerge, fans and industry observers eagerly await to see how this upcoming venture will shape up."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Prabhas and director Prashanth Neel have generated fresh excitement among fans by teasing a potential new collaboration, promising a unique cinematic reunion.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://www.telugu360.com/prabhas-and-prashanth-neel-promise-a-dino-mite-reunion/"
-    },
-    {
-      "id": "https://www.telugu360.com/418-movie-review/",
-      "title": "Supernatural Horror Thriller '418' Evaluated as Average",
-      "summary": "The supernatural horror thriller film titled '418' has been reviewed, with critical consensus categorizing the movie as an average entry within its genre.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/418-movie-review/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/418-movie-review.jpg",
-      "publishedAt": "2026-10-23T04:26:15.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The supernatural horror thriller titled '418' has recently drawn attention with its theatrical release, prompting evaluations from reviewers regarding its overall execution and impact.",
-        "According to initial critical assessments, the film delivers a mixed experience, ultimately landing as an average offering in the competitive landscape of supernatural horror cinema.",
-        "Such reviews offer moviegoers a measured perspective on what to expect from the project's storytelling and genre elements."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The supernatural horror thriller film titled '418' has been reviewed, with critical consensus categorizing the movie as an average entry within its genre.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://www.telugu360.com/418-movie-review/"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130779/prabhas-the-pan-india-superstar-birthday-special.html",
-      "title": "Celebrating Pan-India Superstar Prabhas on His Birthday",
-      "summary": "Fans and industry insiders celebrate the birthday of Rebel Star Prabhas, acknowledging his monumental status as a leading pan-Indian cinema superstar.",
+      "id": "https://www.cinejosh.com/news/1/130800/renowned-actor-plays-subhash-chandra-bose-in-fauzi.html",
+      "title": "Renowned Actor Cast as Subhash Chandra Bose in Prabhas' Fauji",
+      "summary": "Exciting casting details have emerged for the upcoming film Fauji, revealing that a renowned actor will portray the historical figure Subhash Chandra Bose within the narrative.",
       "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130779/prabhas-the-pan-india-superstar-birthday-special.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-the-pan-india-superstar-birthday-special-1792729161241-1792729161759.jpg",
-      "publishedAt": "2026-10-23T04:19:25.000Z",
+      "url": "https://www.cinejosh.com/news/1/130800/renowned-actor-plays-subhash-chandra-bose-in-fauzi.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/renowned-actor-plays-subhash-chandra-bose-in-fauzi-1792817455779-1792817456136.jpg",
+      "publishedAt": "2026-10-24T04:51:02.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The Indian film fraternity and millions of fans are celebrating the birthday of actor Prabhas, widely recognized as a prominent pan-India superstar.",
-        "Affectionately known as the Rebel Star, Prabhas has cemented his legacy through major cinematic projects that command massive box-office attention across different language markets in the country.",
-        "On this special occasion, tributes and celebrations highlight his significant ongoing impact on contemporary Indian cinema and his enduring popularity among audiences."
+        "The upcoming cinematic venture Fauji has added a notable casting element to its production, with reports confirming that a renowned actor has been chosen to essay the role of Subhash Chandra Bose.",
+        "Historical character portrayals demand significant skill from performers, particularly when bringing iconic national figures like Subhash Chandra Bose to the silver screen. This casting choice introduces a compelling dramatic angle to the production.",
+        "Further announcements regarding the full cast and character dynamics are expected to follow as production on Fauji moves forward, adding to the growing curiosity surrounding the film."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Fans and industry insiders celebrate the birthday of Rebel Star Prabhas, acknowledging his monumental status as a leading pan-Indian cinema superstar.",
+      "dek": "Exciting casting details have emerged for the upcoming film Fauji, revealing that a renowned actor will portray the historical figure Subhash Chandra Bose within the narrative.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "CineJosh"
       ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130779/prabhas-the-pan-india-superstar-birthday-special.html"
+      "originalUrl": "https://www.cinejosh.com/news/1/130800/renowned-actor-plays-subhash-chandra-bose-in-fauzi.html"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/jailer-2-heres-why-sun-pictures-isnt-sharing-collection-posters-regularly-prp.html",
+      "title": "The Reason Behind Sun Pictures Not Sharing Regular Collection Posters for Jailer 2",
+      "summary": "Industry followers have noted a distinct strategy regarding the promotional rollout for Jailer 2, specifically why production banner Sun Pictures is not consistently sharing box office collection posters.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/jailer-2-heres-why-sun-pictures-isnt-sharing-collection-posters-regularly-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/jailer-2.webp",
+      "publishedAt": "2026-10-24T03:30:04.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "For major film releases, production houses typically maintain steady marketing campaigns that include regular updates on box-office figures. However, recent observations surrounding the rollout of Jailer 2 indicate a different approach by the production banner Sun Pictures regarding regular collection posters.",
+        "While promotional strategies vary across the industry, the decision to withhold or limit daily collection graphics can stem from a variety of strategic distribution or marketing choices. Such shifts in promotional behavior often draw attention from industry trackers and movie enthusiasts alike.",
+        "As the film continues its theatrical run, discussions regarding its commercial performance and promotional tactics remain a point of interest for followers of mainstream cinema developments."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Industry followers have noted a distinct strategy regarding the promotional rollout for Jailer 2, specifically why production banner Sun Pictures is not consistently sharing box office collection posters.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/jailer-2-heres-why-sun-pictures-isnt-sharing-collection-posters-regularly-prp.html"
+    },
+    {
+      "id": "https://www.telugu360.com/trivikrams-update-on-god-of-war/",
+      "title": "Trivikram Shares News Regarding God of War",
+      "summary": "Filmmaker Trivikram has shared an update regarding God of War, sparking interest among movie enthusiasts following the latest announcements.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/trivikrams-update-on-god-of-war/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Trivikram-2.jpg",
+      "publishedAt": "2026-10-24T03:01:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Filmmaker Trivikram has come forward with an update concerning God of War, capturing the attention of followers and cinema enthusiasts alike. As anticipation builds around ongoing cinematic projects, announcements from prominent creators always hold significant weight within the industry.",
+        "While specific details regarding the project remain limited based on the initial announcements, the update provides a glimpse into the progress surrounding God of War. Fans and industry trackers are keeping a close eye on further developments from the director as work continues."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Filmmaker Trivikram has shared an update regarding God of War, sparking interest among movie enthusiasts following the latest announcements.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/trivikrams-update-on-god-of-war/"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/fauzi-glimpse-this-aspect-draws-criticism-from-netizens-prp.html",
+      "title": "Netizens React to Aspects of the Fauzi Glimpse",
+      "summary": "The newly released glimpse of Fauzi has drawn specific criticisms from netizens across social media platforms, sparking discussions among film enthusiasts.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/fauzi-glimpse-this-aspect-draws-criticism-from-netizens-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Fauzi-1.webp",
+      "publishedAt": "2026-10-24T01:30:12.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The recent promotional glimpse of Fauzi has quickly become a talking point online, drawing varying reactions and specific criticisms from netizens. Social media discussions have highlighted certain aspects of the promotional material, bringing mixed responses from the audience.",
+        "As promotional content continues to shape early impressions of upcoming films, audience reactions play a critical role in how a project is perceived prior to its release. Observers are watching to see how these initial online discussions impact the broader reception of Fauzi."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The newly released glimpse of Fauzi has drawn specific criticisms from netizens across social media platforms, sparking discussions among film enthusiasts.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/fauzi-glimpse-this-aspect-draws-criticism-from-netizens-prp.html"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/fauzi-teaser-out-netizens-react-to-prabhas-rebel-avatar-hanu-raghavapudis-film-sets-march-19-2027-release/articleshow/135159376.cms",
+      "title": "'Fauzi' teaser OUT: Netizens react to Prabhas' rebel avatar; Hanu Raghavapudi's film sets March 19, 2027 release",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/fauzi-teaser-out-netizens-react-to-prabhas-rebel-avatar-hanu-raghavapudis-film-sets-march-19-2027-release/articleshow/135159376.cms",
+      "img": "https://static.toiimg.com/thumb/msid-135159420,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2027-03-19T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://indiaglitz.com/prabhas-birthday-photo-goes-viral-fauzi-glimpse-set-to-drop-today",
       "title": "Prabhas Birthday Photo Goes Viral; Fauzi Glimpse Set to Drop Today",
@@ -568,16 +677,6 @@
       "img": "https://i.ytimg.com/vi/eauy_w3N7dE/hqdefault.jpg",
       "youtubeId": "eauy_w3N7dE",
       "publishedAt": "2026-10-21T14:13:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://telugu.indiaglitz.com/movie-news/ramayana-international-trailer-ranbir-as-rama-and-yash-as-ravana-are-outstanding",
-      "title": "‘రామాయణం’ ఇంటర్నేషనల్ ట్రైలర్.. రాముడిగా రణబీర్, రావణుడిగా యష్ అదుర్స్!",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://telugu.indiaglitz.com/movie-news/ramayana-international-trailer-ranbir-as-rama-and-yash-as-ravana-are-outstanding",
-      "img": "https://i.ytimg.com/vi/Wo3__JUisj8/hqdefault.jpg",
-      "youtubeId": "Wo3__JUisj8",
-      "publishedAt": "2026-10-16T13:29:49.000Z",
       "language": "Telugu"
     },
     {
@@ -824,6 +923,50 @@
             "rating": 2.75,
             "ratingText": "2.75/5",
             "url": "https://www.123telugu.com/reviews/418-telugu-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "The Traitors Telugu (Episodes 4–6) - Shravya Shines, Rahat’s Mind Games & a Big Win for Innocents",
+      "l": "Telugu",
+      "releaseDate": "2026-10-23",
+      "rating": "3.25/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/The-Traitors-Telugu.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/the-traitors-telugu-ott-review-and-rating.html",
+      "aggregator": {
+        "average": 3.25,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 3.25,
+            "ratingText": "3.25/5",
+            "url": "https://www.123telugu.com/reviews/the-traitors-telugu-ott-review-and-rating.html"
           }
         ]
       }
@@ -1484,50 +1627,6 @@
             "rating": 2.75,
             "ratingText": "2.75/5",
             "url": "https://www.123telugu.com/reviews/thella-kaagitham-movie-review-and-rating.html"
-          }
-        ]
-      }
-    },
-    {
-      "t": "Dorothy",
-      "l": "Telugu",
-      "releaseDate": "2026-10-02",
-      "rating": "2.5/5",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html",
-      "aggregator": {
-        "average": 2.5,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.123telugu.com/reviews/keerthy-suresh-dorothy-movie-review-and-rating.html"
           }
         ]
       }
