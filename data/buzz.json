@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T21:06:39.975Z",
+  "updatedAt": "2026-10-25T02:57:51.705Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -68,8 +68,47 @@
       }
     },
     {
-      "id": "salman-khan-steps-away-from-bigg-boss-hosting-duties-for-the-week",
-      "title": "Salman Khan Steps Away From Bigg Boss Hosting Duties for the Week",
+      "id": "radhika-apte-shares-perspectives-on-actresses-and-male-led-projects",
+      "title": "Radhika Apte Shares Perspectives on Actresses and Male-Led Projects",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/radhika-apte-on-why-actresses-are-doing-male-lead-films-1792894101913-1792894102574.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "srinidhi-to-rukmini-high-hopes-and-major-films-await-in-tollywood",
+      "title": "Srinidhi to Rukmini: High Hopes and Major Films Await in Tollywood",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/srinidhi-to-rukmini-big-films-bigger-hopes-1792892105524-1792892105858.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "dil-raju-secures-key-telugu-distribution-rights-for-rashmika-s-mysaa",
+      "title": "Dil Raju Secures Key Telugu Distribution Rights for Rashmika's Mysaa",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/mysa.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "star-director-steps-in-as-salman-khan-skips-bigg-boss-this-week",
+      "title": "Star Director Steps In as Salman Khan Skips Bigg Boss This Week",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Salman-Khan-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -81,8 +120,8 @@
       }
     },
     {
-      "id": "radhika-apte-opens-up-about-commercial-hurdles-facing-female-led-films",
-      "title": "Radhika Apte Opens Up About Commercial Hurdles Facing Female-Led Films",
+      "id": "radhika-apte-opens-up-about-commercial-realities-facing-female-led-cinema",
+      "title": "Radhika Apte Opens Up About Commercial Realities Facing Female-Led Cinema",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/radhika.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -94,8 +133,8 @@
       }
     },
     {
-      "id": "pan-india-star-prabhas-takes-a-temporary-break",
-      "title": "Pan-India Star Prabhas Takes a Temporary Break",
+      "id": "pan-india-star-prabhas-steps-back-for-a-short-break",
+      "title": "Pan-India Star Prabhas Steps Back for a Short Break",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-goes-on-a-break-1792861373513-1792861375286.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,8 +146,34 @@
       }
     },
     {
-      "id": "casting-shift-kayadu-lohar-reportedly-steps-in-for-sreeleela",
-      "title": "Casting Shift: Kayadu Lohar Reportedly Steps In for Sreeleela",
+      "id": "ram-gopal-varma-shares-perspective-on-tiger-shroff-s-action-shooting-style",
+      "title": "Ram Gopal Varma Shares Perspective on Tiger Shroff's Action Shooting Style",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ram-gopal-varma-take-on-tiger-shroff-shooting-1792861191999-1792861193769.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "is-director-hanu-raghavapudi-facing-caution-for-future-projects",
+      "title": "Is Director Hanu Raghavapudi Facing Caution for Future Projects?",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/fauzi-date-.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "kayadu-lohar-reportedly-steps-in-for-sreeleela-in-upcoming-senior-hero-project",
+      "title": "Kayadu Lohar Reportedly Steps In for Sreeleela in Upcoming Senior Hero Project",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Kayadu-Lohar-And-Sreeleela.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -120,21 +185,8 @@
       }
     },
     {
-      "id": "exploring-the-global-netflix-success-of-rrr",
-      "title": "Exploring the Global Netflix Success of RRR",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/rrr-Rajamouli-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "star-hero-release-date-reshuffling-creates-hurdles-for-independent-productions",
-      "title": "Star Hero Release Date Reshuffling Creates Hurdles for Independent Productions",
+      "id": "release-date-shuffling-by-star-heroes-creates-confusion-for-small-films",
+      "title": "Release Date Shuffling by Star Heroes Creates Confusion for Small Films",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/star-heroes-release-date-shuffling-confusing-small-films-1792852677162-1792852678480.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,8 +198,8 @@
       }
     },
     {
-      "id": "harsh-roshan-s-romantic-drama-thella-kaagitham-sets-ott-premiere",
-      "title": "Harsh Roshan's Romantic Drama Thella Kaagitham Sets OTT Premiere",
+      "id": "harsh-roshan-s-romantic-drama-thella-kaagitham-locks-ott-release-date",
+      "title": "Harsh Roshan's Romantic Drama Thella Kaagitham Locks OTT Release Date",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Thella-Kaagitham.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,8 +224,8 @@
       }
     },
     {
-      "id": "box-office-update-418-capitalizes-on-strong-weekend-advantage",
-      "title": "Box Office Update: 418 Capitalizes on Strong Weekend Advantage",
+      "id": "box-office-weekend-advantage-boosts-418",
+      "title": "Box Office Weekend Advantage Boosts 418",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/418-box-office.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -185,8 +237,8 @@
       }
     },
     {
-      "id": "alias-rukmini-unveils-striking-poster-and-first-single-release-date",
-      "title": "Alias Rukmini Unveils Striking Poster and First Single Release Date",
+      "id": "alias-rukmini-gears-up-for-first-single-release-on-october-27",
+      "title": "Alias Rukmini Gears Up for First Single Release on October 27",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/alias-rukmini-first-single-announced-with-striking-poster-1792846851076-1792846852133.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -198,8 +250,8 @@
       }
     },
     {
-      "id": "vishwak-sen-launches-maa-ooru-rayavalasa-song-as-project-makes-times-square-debut",
-      "title": "Vishwak Sen Launches 'Maa Ooru Rayavalasa' Song as Project Makes Times Square Debut",
+      "id": "rayavalasa-reaches-new-york-as-vishwak-sen-launches-maa-ooru-rayavalasa-song",
+      "title": "Rayavalasa Reaches New York as Vishwak Sen Launches Maa Ooru Rayavalasa Song",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/rayavalasa-makes-a-splash-at-new-york-s-times-square-vishwak-sen-launches-maa-ooru-rayavalasa-song-1792846741605-1792846742673.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -211,8 +263,8 @@
       }
     },
     {
-      "id": "vishwadev-signs-new-venture-with-sri-tulasi-creative-works",
-      "title": "Vishwadev Signs New Venture with Sri Tulasi Creative Works",
+      "id": "vishwadev-signs-new-venture-with-sri-tulasi-creative-works-production-no-1",
+      "title": "Vishwadev Signs New Venture with Sri Tulasi Creative Works Production No. 1",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Vishwadev.jpeg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -224,8 +276,34 @@
       }
     },
     {
-      "id": "nani-s-the-paradise-encounters-renewed-cinematic-appreciation",
-      "title": "Nani's The Paradise Encounters Renewed Cinematic Appreciation",
+      "id": "vishwadev-commences-new-film-following-35-ckk",
+      "title": "Vishwadev Commences New Film Following 35 CKK",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/After-35-CKK-Vishwadevs-New-Film-begins.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "nani-s-the-paradise-makes-waves-on-netflix",
+      "title": "Nani's The Paradise Makes Waves on Netflix",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/The-Paradise-6.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "fresh-wave-of-appreciation-follows-nani-s-the-paradise",
+      "title": "Fresh Wave of Appreciation Follows Nani's The Paradise",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/The-Paradise-2.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -237,8 +315,8 @@
       }
     },
     {
-      "id": "fresh-trolling-emerges-around-nani-s-the-paradise",
-      "title": "Fresh Trolling Emerges Around Nani's The Paradise",
+      "id": "nani-s-the-paradise-faces-fresh-round-of-online-trolling",
+      "title": "Nani's The Paradise Faces Fresh Round of Online Trolling",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/02/Nani-The-Paradise-2.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -250,8 +328,8 @@
       }
     },
     {
-      "id": "vijay-deverakonda-s-ranabaali-achieves-profitability-in-rayalaseema",
-      "title": "Vijay Deverakonda's Ranabaali Achieves Profitability in Rayalaseema",
+      "id": "vijay-deverakonda-starrer-ranabaali-achieves-profitable-status-in-rayalaseema",
+      "title": "Vijay Deverakonda Starrer Ranabaali Achieves Profitable Status in Rayalaseema",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/vijaydeverakonda-ranabaali-oct2426.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -263,8 +341,8 @@
       }
     },
     {
-      "id": "rajinikanth-s-jailer-2-claims-position-as-second-highest-grossing-tamil-film",
-      "title": "Rajinikanth's Jailer 2 Claims Position as Second-Highest-Grossing Tamil Film",
+      "id": "rajinikanth-s-jailer-2-climbs-to-second-highest-grossing-tamil-film-spot",
+      "title": "Rajinikanth's Jailer 2 Climbs to Second-Highest-Grossing Tamil Film Spot",
       "img": "https://telugucinema.com/wp-content/uploads/2026/09/jailer2-oct226.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -287,91 +365,13 @@
         "reviews": 0,
         "trailers": 0
       }
-    },
-    {
-      "id": "gopichand-s-singa-unveils-striking-new-poster-as-production-hits-halfway-mark",
-      "title": "Gopichand's Singa Unveils Striking New Poster as Production Hits Halfway Mark",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/sin.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "prabhas-travels-to-italy-following-recent-professional-commitments",
-      "title": "Prabhas Travels to Italy Following Recent Professional Commitments",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Prabhas.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "idupu-kayitham-enmeshes-itself-in-fresh-controversy",
-      "title": "Idupu Kayitham Enmeshes Itself in Fresh Controversy",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Idupu-Kayitham.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "gopichand-s-upcoming-action-project-singa-achieves-major-production-milestone",
-      "title": "Gopichand's Upcoming Action Project 'Singa' Achieves Major Production Milestone",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/singa-oct2426.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "prabhas-fans-express-high-enthusiasm-following-fauji-video-glimpse",
-      "title": "Prabhas Fans Express High Enthusiasm Following 'Fauji' Video Glimpse",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/fauji-glimpse-oct2426.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "the-traitors-telugu-episodes-4-6-shravya-shines-rahat-s-mind-games-a-big-win-for-innocents",
-      "title": "The Traitors Telugu (Episodes 4–6) - Shravya Shines, Rahat’s Mind Games & a Big Win for Innocents",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/The-Traitors-Telugu.webp",
-      "language": "Telugu",
-      "buzzScore": 25,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0
-      }
     }
   ],
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-24T21:06:06.236Z",
-      "lastAttemptedAt": "2026-10-24T21:06:06.236Z",
+      "updatedAt": "2026-10-25T02:57:15.865Z",
+      "lastAttemptedAt": "2026-10-25T02:57:15.865Z",
       "items": [
         {
           "title": "The Paradise",
@@ -384,7 +384,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-10-24T21:06:21.391Z",
+      "lastAttemptedAt": "2026-10-25T02:57:34.628Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -398,7 +398,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-24T21:06:22.706Z",
+      "lastAttemptedAt": "2026-10-25T02:57:36.102Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-24T21:06:22.893Z",
+      "lastAttemptedAt": "2026-10-25T02:57:36.550Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-24T21:06:33.292Z",
-      "lastAttemptedAt": "2026-10-24T21:06:33.292Z",
+      "updatedAt": "2026-10-25T02:57:46.137Z",
+      "lastAttemptedAt": "2026-10-25T02:57:46.137Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,21 +504,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-24T21:06:35.283Z",
+      "lastAttemptedAt": "2026-10-25T02:57:48.182Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-24T21:06:36.582Z",
+      "lastAttemptedAt": "2026-10-25T02:57:49.545Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-24T21:06:39.972Z",
-      "lastAttemptedAt": "2026-10-24T21:06:39.972Z",
+      "updatedAt": "2026-10-25T02:57:51.703Z",
+      "lastAttemptedAt": "2026-10-25T02:57:51.703Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
