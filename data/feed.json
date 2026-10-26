@@ -1,11 +1,455 @@
 {
-  "updatedAt": "2026-10-26T02:55:45.642Z",
+  "updatedAt": "2026-10-26T12:12:41.614Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.cinejosh.com/news/1/130877/rashmika-hits-back-at-trolls-over-marriage-with-vijay-deverakonda.html",
+      "title": "Rashmika Mandanna Addresses Online Trolls Regarding Vijay Deverakonda Marriage",
+      "summary": "Actor Rashmika Mandanna has responded strongly to internet trolls concerning her reported marriage with Vijay Deverakonda. Expressing her feelings, the actor declared that she is happier than ever.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130877/rashmika-hits-back-at-trolls-over-marriage-with-vijay-deverakonda.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rashmika-hits-back-at-trolls-over-marriage-with-vijay-deverakonda-1793013672375-1793013672604.jpg",
+      "publishedAt": "2026-10-26T11:21:15.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Popular actor Rashmika Mandanna has hit back at online critics who targeted her over speculation surrounding her marriage with fellow actor Vijay Deverakonda. Addressing the negativity directly, the actor made it clear that social media commentary has not dampened her spirits.",
+        "In her response, Mandanna asserted that she is currently happier than ever, brushing aside the persistent trolling. Her statements offer a direct answer to the ongoing rumors and unverified discussions circulating across digital platforms regarding her personal life."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Rashmika Mandanna has responded strongly to internet trolls concerning her reported marriage with Vijay Deverakonda. Expressing her feelings, the actor declared that she is happier than ever.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130877/rashmika-hits-back-at-trolls-over-marriage-with-vijay-deverakonda.html"
+    },
+    {
+      "id": "https://www.telugu360.com/why-did-pawan-kalyans-wife-deactivate-instagram/",
+      "title": "Questions Raised After Pawan Kalyan's Wife Deactivates Instagram Account",
+      "summary": "Actor and politician Pawan Kalyan's wife has recently deactivated her official Instagram account. The sudden removal has sparked curiosity and discussion among followers and movie enthusiasts alike.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/why-did-pawan-kalyans-wife-deactivate-instagram/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Anna-Konidela.jpg",
+      "publishedAt": "2026-10-26T10:07:54.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The online presence of prominent film personalities often draws intense public interest, and a recent development involving Pawan Kalyan's family has caught the attention of fans. His wife's decision to deactivate her Instagram account has quickly become a topic of discussion.",
+        "While details regarding the sudden deactivation remain limited, the action has triggered considerable curiosity across social media platforms. Observers and cinema followers continue to track updates surrounding the family's social media activities."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor and politician Pawan Kalyan's wife has recently deactivated her official Instagram account. The sudden removal has sparked curiosity and discussion among followers and movie enthusiasts alike.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/why-did-pawan-kalyans-wife-deactivate-instagram/"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/rashmika-vijay-deverakonda-marriage-trolls-actress-slams-hypocritical-feminists-prp.html",
+      "title": "Rashmika Mandanna Slams Hypocritical Feminists Amid Marriage Trolls",
+      "summary": "Actor Rashmika Mandanna has addressed online backlash regarding her marriage rumors with Vijay Deverakonda. During her response, she notably criticized hypocritical feminists among the trolls.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/rashmika-vijay-deverakonda-marriage-trolls-actress-slams-hypocritical-feminists-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/05/Vijay-Deverakonda-%E2%80%93-Rashmik.webp",
+      "publishedAt": "2026-10-26T09:32:27.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Rashmika Mandanna has taken a firm stand against internet trolls who targeted her over ongoing rumors concerning her marriage to Vijay Deverakonda. Beyond addressing the standard online commentary, the actor specifically slammed hypocritical feminists among the critics.",
+        "Mandanna's strong reaction highlights the growing frustration film stars face regarding targeted online abuse and unsolicited opinions about their personal lives. Despite the negativity, the actor maintained a firm stance against her detractors."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Rashmika Mandanna has addressed online backlash regarding her marriage rumors with Vijay Deverakonda. During her response, she notably criticized hypocritical feminists among the trolls.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/rashmika-vijay-deverakonda-marriage-trolls-actress-slams-hypocritical-feminists-prp.html"
+    },
+    {
+      "id": "https://www.telugu360.com/rashmikas-post-sweet-gesture-and-perfect-answer-for-trolls/",
+      "title": "Rashmika Mandanna Delivers Perfect Reply to Trolls With Recent Post",
+      "summary": "Actor Rashmika Mandanna has answered online critics with a well-received social media post. Her latest response combines a sweet gesture with a firm answer to ongoing marriage trolls.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/rashmikas-post-sweet-gesture-and-perfect-answer-for-trolls/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/rashmika-clarity-over-negativity-in-social-media.jpg",
+      "publishedAt": "2026-10-26T09:27:16.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Rashmika Mandanna has addressed social media trolls through a measured and effective online post. Amid chatter regarding her personal life and rumored marriage to Vijay Deverakonda, the actor chose to respond directly.",
+        "Her latest update has been widely discussed by fans, who viewed it as a sweet gesture that simultaneously serves as a perfect reply to unwarranted criticism. Mandanna continues to handle online speculation on her own terms."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Actor Rashmika Mandanna has answered online critics with a well-received social media post. Her latest response combines a sweet gesture with a firm answer to ongoing marriage trolls.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/rashmikas-post-sweet-gesture-and-perfect-answer-for-trolls/"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130869/what-does-vijay-deverakonda-zero-following-count.html",
+      "title": "Vijay Deverakonda's Instagram Activity Sparks Social Media Buzz",
+      "summary": "Recent social media activity surrounding actor Vijay Deverakonda has caught the attention of fans and followers. Observers are currently discussing buzz regarding the actor's Instagram following count alongside Rashmika activity.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130869/what-does-vijay-deverakonda-zero-following-count.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/what-does-vijay-deverakonda-zero-following-count-1793006443881-1793006449885.jpg",
+      "publishedAt": "2026-10-26T09:20:56.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Recent social media updates involving actor Vijay Deverakonda have become a point of discussion online. Observers have noted specific activity concerning his Instagram following count.",
+        "The digital buzz also draws attention to online activity linking Vijay Deverakonda and Rashmika. Fans and followers continue to track these developments across social media platforms.",
+        "As online speculation grows regarding the actor's profile statistics, followers await further updates or clarity on the matter."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Recent social media activity surrounding actor Vijay Deverakonda has caught the attention of fans and followers. Observers are currently discussing buzz regarding the actor's Instagram following count alongside Rashmika activity.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130869/what-does-vijay-deverakonda-zero-following-count.html"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130868/kamal-haasan-three-film-ott-deal-with-jiohotstar.html",
+      "title": "Kamal Haasan Locks Major Three-Film OTT Agreement With JioHotstar",
+      "summary": "Veteran actor Kamal Haasan has secured a significant digital streaming arrangement. The multi-film agreement involves three upcoming projects partnered with JioHotstar.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130868/kamal-haasan-three-film-ott-deal-with-jiohotstar.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/kamal-haasan-three-film-ott-deal-with-jiohotstar-1793004410414-1793004411607.jpg",
+      "publishedAt": "2026-10-26T08:46:53.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Renowned actor Kamal Haasan has entered into a major digital streaming agreement. Reports indicate a record-breaking OTT deal involving three films.",
+        "The multi-picture pact has been finalized with JioHotstar. This development highlights the growing strategic importance of major digital platforms in securing prominent cinematic content.",
+        "Further details regarding the specific titles and timeline for these three projects under the JioHotstar agreement are anticipated as production moves forward."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Veteran actor Kamal Haasan has secured a significant digital streaming arrangement. The multi-film agreement involves three upcoming projects partnered with JioHotstar.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130868/kamal-haasan-three-film-ott-deal-with-jiohotstar.html"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/yrfs-romantic-action-drama-titled-beparwah-release-date-locked-hk.html",
+      "title": "YRF Announces Title and Release Date for New Romantic Action Drama Beparwah",
+      "summary": "Yash Raj Films has officially revealed the title of its upcoming romantic action drama. The project is titled Beparwah, and the makers have locked its release date.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/yrfs-romantic-action-drama-titled-beparwah-release-date-locked-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Untitled-8.webp",
+      "publishedAt": "2026-10-26T08:35:52.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Yash Raj Films has announced the official title for its upcoming cinematic venture. The project, classified as a romantic action drama, will be released under the title Beparwah.",
+        "Alongside the title reveal, the studio has locked in a confirmed release date for the film, signaling clear progression in its rollout plans.",
+        "As anticipation builds for this romantic action drama from YRF, fans and industry trackers look forward to more promotional updates concerning Beparwah."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Yash Raj Films has officially revealed the title of its upcoming romantic action drama. The project is titled Beparwah, and the makers have locked its release date.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/yrfs-romantic-action-drama-titled-beparwah-release-date-locked-hk.html"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/fauzi-controversy-subhas-chandra-boses-family-seeks-apology-from-makers-hk.html",
+      "title": "Family of Subhas Chandra Bose Demands Apology Over Fauzi Controversy",
+      "summary": "The family of Netaji Subhas Chandra Bose has raised objections regarding the project Fauzi. Family members are seeking an official apology from the makers of the film.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/fauzi-controversy-subhas-chandra-boses-family-seeks-apology-from-makers-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Fauzi-1.webp",
+      "publishedAt": "2026-10-26T07:34:19.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "A fresh controversy has emerged surrounding the project titled Fauzi. The family of Netaji Subhas Chandra Bose has stepped forward to voice their concerns.",
+        "In response to the issues raised, the Bose family is actively seeking a formal apology from the creators and makers of the film.",
+        "As discussions surrounding the controversy unfold, industry observers are tracking how the makers of Fauzi will address the demands put forward by the family."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The family of Netaji Subhas Chandra Bose has raised objections regarding the project Fauzi. Family members are seeking an official apology from the makers of the film.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/fauzi-controversy-subhas-chandra-boses-family-seeks-apology-from-makers-hk.html"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130866/rp-patnaik-reacts-to-garividi-lakshmi-controversial-content.html",
+      "title": "RP Patnaik Responds to the Garividi Lakshmi Controversy",
+      "summary": "Music director and filmmaker RP Patnaik has officially responded regarding the controversial content associated with Garividi Lakshmi, drawing attention across the industry.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130866/rp-patnaik-reacts-to-garividi-lakshmi-controversial-content.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/rp-patnaik-reacts-to-garividi-lakshmi-controversial-content-1792998657390-1792998657829.jpg",
+      "publishedAt": "2026-10-26T07:11:01.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In recent developments concerning the film industry, prominent personality RP Patnaik has addressed the ongoing discussions regarding controversial content involving Garividi Lakshmi.",
+        "As the topic continues to circulate among movie circles and audiences, Patnaik's public reaction brings an official perspective to the unfolding discussions.",
+        "The response highlights the ongoing scrutiny and public attention that controversial media elements often attract within the regional cinema landscape."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Music director and filmmaker RP Patnaik has officially responded regarding the controversial content associated with Garividi Lakshmi, drawing attention across the industry.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/130866/rp-patnaik-reacts-to-garividi-lakshmi-controversial-content.html"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/438231/netajis-family-questions-prabhas-elevations-in-fauzi",
+      "title": "Netaji Family Raises Questions Over Prabhas's Elevations in Fauzi",
+      "summary": "The family of Netaji has raised questions regarding the heroic elevations of actor Prabhas in the upcoming film Fauzi, sparking discussions online.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/438231/netajis-family-questions-prabhas-elevations-in-fauzi",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/fauzi-subhash-chandra-bose.jpg",
+      "publishedAt": "2026-10-26T07:03:45.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The upcoming cinematic project Fauzi, featuring star Prabhas, has recently encountered an unexpected query regarding its narrative presentation.",
+        "Reports indicate that the family members of Netaji have raised questions concerning the specific character elevations designed for Prabhas within the movie.",
+        "Such queries from notable families regarding historical or patriotic cinematic representations often invite widespread debate across cinema circles."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The family of Netaji has raised questions regarding the heroic elevations of actor Prabhas in the upcoming film Fauzi, sparking discussions online.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/438231/netajis-family-questions-prabhas-elevations-in-fauzi"
+    },
+    {
+      "id": "https://www.telugu360.com/vijay-deverakonda-is-he-enjoying-the-online-negativity/",
+      "title": "Addressing the Buzz Around Vijay Deverakonda and Online Negativity",
+      "summary": "Popular Telugu actor Vijay Deverakonda finds himself at the center of discussions examining online negativity and public reactions directed at him.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/vijay-deverakonda-is-he-enjoying-the-online-negativity/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/vijay-deverakonda.jpg",
+      "publishedAt": "2026-10-26T06:32:13.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In the realm of modern celebrity culture, public figures frequently navigate waves of digital discourse and social media reactions.",
+        "Actor Vijay Deverakonda has recently become a focal point of discussions centered around online negativity and how public personalities process such digital attention.",
+        "The ongoing conversations reflect the complex relationship between film stars, their public image, and the continuous commentary found across digital platforms."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Popular Telugu actor Vijay Deverakonda finds himself at the center of discussions examining online negativity and public reactions directed at him.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/vijay-deverakonda-is-he-enjoying-the-online-negativity/"
+    },
+    {
+      "id": "https://www.gulte.com/ott/438212/ott-recommendation-first-night-in-a-time-loop",
+      "title": "OTT Streaming Spotlight: First Night In A Time Loop",
+      "summary": "Explore the latest digital streaming recommendation with 'First Night In A Time Loop', bringing unique narrative concepts directly to home screens.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/ott/438212/ott-recommendation-first-night-in-a-time-loop",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/OTT-Recommendation-dhoomakethu.jpg",
+      "publishedAt": "2026-10-26T06:27:39.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "For audiences looking for fresh digital viewing options, 'First Night In A Time Loop' has emerged as a notable recommendation in the OTT space.",
+        "Streaming platforms continue to offer diverse and experimental storytelling formats to cater to evolving viewer preferences.",
+        "This recommendation highlights titles currently catching the attention of digital streaming enthusiasts looking for engaging content."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Explore the latest digital streaming recommendation with 'First Night In A Time Loop', bringing unique narrative concepts directly to home screens.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/ott/438212/ott-recommendation-first-night-in-a-time-loop"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/130865/did-fauzi-s-glimpse-put-prabhas-on-alert.html",
+      "title": "Prabhas Reportedly Cautious Following Fauzi Glimpse",
+      "summary": "Recent industry gossip suggests that actor Prabhas has grown cautious following the release of a glimpse from the project Fauzi. Speculation surrounds how the star is evaluating his upcoming moves in light of these developments.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/130865/did-fauzi-s-glimpse-put-prabhas-on-alert.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/did-fauzi-s-glimpse-put-prabhas-on-alert-1792995963553-1792995966795.jpg",
+      "publishedAt": "2026-10-26T06:26:09.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Recent gossip circulating within the film industry suggests that leading actor Prabhas has become more cautious following the release of a glimpse for the project titled Fauzi. Industry watchers have been discussing whether the promotional material has prompted the actor to re-evaluate his strategic choices moving forward.",
+        "While details remain scarce regarding official reactions or direct statements from the actor's camp, the rumors highlight the constant scrutiny stars face as early promotional assets for upcoming films are unveiled to the public.",
+        "As developments continue to unfold around Fauzi and Prabhas's reaction, audiences and fans await clearer official updates regarding how this project and its promotional rollout will shape the star's upcoming cinematic journey."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Recent industry gossip suggests that actor Prabhas has grown cautious following the release of a glimpse from the project Fauzi. Speculation surrounds how the star is evaluating his upcoming moves in light of these developments.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/3/130865/did-fauzi-s-glimpse-put-prabhas-on-alert.html"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/viral-pics-allu-arjuns-wife-sneha-reddy-attends-shilpa-ravis-birthday-with-kids-hk.html",
+      "title": "Allu Arjun’s Wife Sneha Reddy Spotted at Shilpa Ravi’s Birthday Celebration",
+      "summary": "Sneha Reddy, wife of actor Allu Arjun, recently attended Shilpa Ravi's birthday celebration accompanied by her children. Photographs from the gathering quickly spread across social media platforms, capturing public attention.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/viral-pics-allu-arjuns-wife-sneha-reddy-attends-shilpa-ravis-birthday-with-kids-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Allu-1.webp",
+      "publishedAt": "2026-10-26T06:13:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Sneha Reddy, the wife of prominent Telugu cinema star Allu Arjun, recently made headlines after attending the birthday celebration of Shilpa Ravi along with her children. Visuals from the event quickly circulated online, capturing significant interest from fans and media observers alike.",
+        "The viral photographs highlight personal celebrations involving prominent film families and their social circles, drawing widespread attention across various digital platforms.",
+        "Such social appearances frequently capture public curiosity, offering fans a glimpse into the personal lives and connections of prominent film personalities outside of their active movie schedules."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Sneha Reddy, wife of actor Allu Arjun, recently attended Shilpa Ravi's birthday celebration accompanied by her children. Photographs from the gathering quickly spread across social media platforms, capturing public attention.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/viral-pics-allu-arjuns-wife-sneha-reddy-attends-shilpa-ravis-birthday-with-kids-hk.html"
+    },
+    {
+      "id": "https://telugucinema.com/news/javed-akhtar-defends-rashmika-mandanna-but-gets-her-identity-wrong",
+      "title": "Javed Akhtar Defends Rashmika Mandanna While Making an Identity Mix-Up",
+      "summary": "Renowned lyricist and writer Javed Akhtar recently spoke in defense of actor Rashmika Mandanna, though reports note he accidentally got her identity wrong during the remarks.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/javed-akhtar-defends-rashmika-mandanna-but-gets-her-identity-wrong",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/rashmikamandanna-sep2326.jpg",
+      "publishedAt": "2026-10-26T05:39:33.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Veteran lyricist and writer Javed Akhtar recently made news by stepping forward to defend actor Rashmika Mandanna during a public discussion or appearance. However, reports indicated that despite his supportive stance, he mistakenly got her identity mixed up during the commentary.",
+        "The incident has drawn considerable attention from cinema enthusiasts and media outlets, highlighting the slip-up while noting his overall defense of the prominent actor.",
+        "Public statements by veteran industry figures often spark wide discussion, particularly when minor errors in names or identities accompany well-intended commentary about contemporary film stars."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Renowned lyricist and writer Javed Akhtar recently spoke in defense of actor Rashmika Mandanna, though reports note he accidentally got her identity wrong during the remarks.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "TeluguCinema"
+      ],
+      "originalUrl": "https://telugucinema.com/news/javed-akhtar-defends-rashmika-mandanna-but-gets-her-identity-wrong"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/kangana-ranaut-and-ravi-babu-team-up-for-a-horror-film-hk.html",
+      "title": "Speculation Rises Over Potential Collaboration Between Kangana Ranaut and Ravi Babu",
+      "summary": "Reports have sparked curiosity surrounding a potential collaboration between actor Kangana Ranaut and filmmaker Ravi Babu for an upcoming horror film project.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/kangana-ranaut-and-ravi-babu-team-up-for-a-horror-film-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ravi-babu.webp",
+      "publishedAt": "2026-10-26T04:29:53.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Whispers of a potential cinematic collaboration have begun circulating, suggesting that actor Kangana Ranaut and filmmaker Ravi Babu might team up for a horror film. The rumored pairing has drawn the interest of movie enthusiasts tracking new casting and directorial combinations.",
+        "As of now, further details regarding confirmation, production timelines, or official announcements about the project remain unverified by official sources.",
+        "Genre-specific projects involving established actors and distinct directors naturally create anticipation among fans eager to see unique creative partnerships on the silver screen."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Reports have sparked curiosity surrounding a potential collaboration between actor Kangana Ranaut and filmmaker Ravi Babu for an upcoming horror film project.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/kangana-ranaut-and-ravi-babu-team-up-for-a-horror-film-hk.html"
+    },
+    {
+      "id": "https://www.telugu360.com/prabhas-fauzi-lands-into-a-controversy/",
+      "title": "Controversy Surrounds Prabhas's Project Fauzi",
+      "summary": "Telugu cinema star Prabhas finds his upcoming film Fauzi embroiled in an unexpected controversy, according to recent reports.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/prabhas-fauzi-lands-into-a-controversy/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Fauzi-2.jpg",
+      "publishedAt": "2026-10-26T04:10:09.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The upcoming film Fauzi, starring prominent Telugu cinema actor Prabhas, has recently landed in a controversy. Details surrounding the exact nature of the dispute remain tied to initial industry reports.",
+        "As developments unfold regarding Fauzi, fans and film observers are closely watching how this situation might impact the project's progression. Further updates are expected as more verified information becomes available."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Telugu cinema star Prabhas finds his upcoming film Fauzi embroiled in an unexpected controversy, according to recent reports.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/prabhas-fauzi-lands-into-a-controversy/"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/no-one-has-fully-explored-prabhas-humour-says-trivikram-hk.html",
+      "title": "Trivikram Highlights Prabhas's Unexplored Humour",
+      "summary": "Filmmaker Trivikram has shared his perspective on actor Prabhas, noting that the star's humorous side has not yet been fully explored on screen.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/no-one-has-fully-explored-prabhas-humour-says-trivikram-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/prabhas-and-Trivikram.webp",
+      "publishedAt": "2026-10-26T03:30:27.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Renowned filmmaker Trivikram recently discussed actor Prabhas, offering a fresh perspective on the star's capabilities. According to Trivikram, no one has fully explored or captured Prabhas's innate sense of humour in cinema yet.",
+        "This commentary sheds light on the lesser-seen comedic facets of a major box-office hero known largely for action and epic dramas. Such insights from prominent industry directors often spark discussions among fans about potential future casting and genre shifts."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Filmmaker Trivikram has shared his perspective on actor Prabhas, noting that the star's humorous side has not yet been fully explored on screen.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/no-one-has-fully-explored-prabhas-humour-says-trivikram-hk.html"
+    },
+    {
       "id": "https://www.cinejosh.com/news/3/130858/will-ram-charan-fulfill-this-daring-role-for-fans.html",
-      "title": "Ram Charan Faces Speculation Over Daring Potential Role",
-      "summary": "Rumors and discussions are circulating regarding whether actor Ram Charan will take on a daring new character for his devoted fanbase. Industry chatter highlights questions about his upcoming career choices as fans eagerly anticipate his next big cinematic move.",
+      "title": "Will Ram Charan Take On a Daring Role for Fans?",
+      "summary": "Rumours and discussions are circulating within Tollywood circles regarding whether star Ram Charan will take on a daring role to thrill his fanbase.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/3/130858/will-ram-charan-fulfill-this-daring-role-for-fans.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/will-ram-charan-fulfill-this-daring-role-for-fans-1792982322911-1792982323256.jpg",
@@ -13,12 +457,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Discussion has sparked across the film community regarding actor Ram Charan and whether he will step into a daring role for his fans. Observers are closely following updates to see if the prominent star will embrace a challenging character in his upcoming cinematic endeavors.",
-        "As anticipation builds among admirers, questions remain regarding how such a bold creative choice might shape his future trajectory in the film industry. Fans continue to discuss the possibilities as they await official announcements about his forthcoming projects."
+        "Popular Telugu cinema star Ram Charan is the subject of fresh industry chatter regarding his upcoming character choices. Discussions have surfaced asking whether the actor will step into a daring role that appeals directly to his dedicated followers.",
+        "As conversations continue among movie enthusiasts, fans await official announcements regarding his future cinematic endeavors and how he might push his creative boundaries on screen."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Rumors and discussions are circulating regarding whether actor Ram Charan will take on a daring new character for his devoted fanbase. Industry chatter highlights questions about his upcoming career choices as fans eagerly anticipate his next big cinematic move.",
+      "dek": "Rumours and discussions are circulating within Tollywood circles regarding whether star Ram Charan will take on a daring role to thrill his fanbase.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -27,33 +471,9 @@
       "originalUrl": "https://www.cinejosh.com/news/3/130858/will-ram-charan-fulfill-this-daring-role-for-fans.html"
     },
     {
-      "id": "https://www.gulte.com/movienews/438159/star-star-superstars",
-      "title": "Spotlight on Superstars: The Latest Industry Trends",
-      "summary": "Recent entertainment updates shine a spotlight on major superstars, capturing ongoing developments, media trends, and star-driven cinema news. The latest buzz highlights the continuous fascination surrounding top-tier actors in the entertainment landscape.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438159/star-star-superstars",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/0b9cff3f-a4e2-4028-89ee-42c2c3a6ce4e.jpeg",
-      "publishedAt": "2026-10-26T01:44:21.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The latest industry updates bring major superstars back into focus, tracking the continuous excitement surrounding prominent leading figures in cinema. Observers and followers are keeping a close eye on the ongoing trends shaping the entertainment world.",
-        "With multiple projects and media visibility keeping these top-tier actors in the headlines, the focus remains firmly on their impact across the movie landscape. Industry followers continue to track how these star-driven updates unfold."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Recent entertainment updates shine a spotlight on major superstars, capturing ongoing developments, media trends, and star-driven cinema news. The latest buzz highlights the continuous fascination surrounding top-tier actors in the entertainment landscape.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/438159/star-star-superstars"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/aadarsha-kutumbam-confusion-over-pre-release-event-venue-hk.html",
       "title": "Venue Confusion Surrounds Aadarsha Kutumbam Pre-Release Event",
-      "summary": "Uncertainty has arisen regarding the location for the upcoming pre-release event of the film Aadarsha Kutumbam. Organizers and fans are awaiting clarity as discussions continue over the final venue selection.",
+      "summary": "Uncertainty has arisen regarding the location for the upcoming pre-release event of Aadarsha Kutumbam. Fans and film followers are awaiting official updates as discussions regarding the final venue continue.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/aadarsha-kutumbam-confusion-over-pre-release-event-venue-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Aadarsha-Kutumbam.webp",
@@ -61,12 +481,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Preparations for the upcoming pre-release event of Aadarsha Kutumbam have encountered some confusion regarding the final venue choice. Organizers are currently sorting out the logistics as anticipation builds among those connected to the movie.",
-        "Pre-release events play an essential role in building momentum and generating buzz prior to a film's theatrical debut. Attendees and followers are looking forward to a prompt resolution regarding the official location."
+        "Preparations for the upcoming cinematic project Aadarsha Kutumbam have encountered a brief hurdle regarding logistical planning. Specifically, confusion has emerged concerning the final venue for the film's pre-release event.",
+        "Pre-release events serve as a key promotional platform for upcoming movie releases, allowing cast and crew to connect directly with audiences. As details regarding the venue remain unsettled, followers of the project are looking forward to a clear announcement from the team.",
+        "Further updates are expected to clarify the exact location where the pre-release gathering for Aadarsha Kutumbam will ultimately take place."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Uncertainty has arisen regarding the location for the upcoming pre-release event of the film Aadarsha Kutumbam. Organizers and fans are awaiting clarity as discussions continue over the final venue selection.",
+      "dek": "Uncertainty has arisen regarding the location for the upcoming pre-release event of Aadarsha Kutumbam. Fans and film followers are awaiting official updates as discussions regarding the final venue continue.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -75,57 +496,33 @@
       "originalUrl": "https://www.123telugu.com/mnews/aadarsha-kutumbam-confusion-over-pre-release-event-venue-hk.html"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130857/vijay-devarakonda-should-introspect-immediately.html",
-      "title": "Calls for Introspection Arrive for Vijay Devarakonda",
-      "summary": "Actor Vijay Devarakonda is facing calls for immediate introspection following recent discussions in the entertainment sphere. Observers are weighing in on what lies ahead for the actor as his career path comes under scrutiny.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130857/vijay-devarakonda-should-introspect-immediately.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-devarakonda-should-introspect-immediately-1792978224475-1792978224349.jpg",
-      "publishedAt": "2026-10-26T01:30:28.000Z",
+      "id": "https://www.gulte.com/movienews/438125/tamil-cinemas-1000-crore-remains-dream",
+      "title": "The Journey Toward Tamil Cinema's 1000-Crore Milestone",
+      "summary": "The discussion around Tamil cinema reaching a collective milestone box office figure of 1000 crore continues to capture attention. Industry watchers analyze the evolving financial landscape and milestones for regional releases.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/438125/tamil-cinemas-1000-crore-remains-dream",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Kollywood-1000-crore-dream.jpg",
+      "publishedAt": "2026-10-25T21:27:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Vijay Devarakonda has drawn commentary suggesting that a period of immediate introspection may be beneficial. Industry discussions are focusing on his upcoming choices and the path ahead in his cinematic career.",
-        "Evaluations of a star's career trajectory frequently prompt public dialogue among commentators and movie enthusiasts. Observers will be watching closely to see how these discussions influence his future selections."
+        "The conversation regarding Tamil cinema achieving a cumulative 1000-crore box office landmark remains a major point of discussion within the industry. Observers and trade analysts frequently evaluate the commercial potential of upcoming regional blockbusters.",
+        "Reaching such substantial financial milestones requires consistent box office performance across multiple major releases and territories. Industry followers continue to monitor how upcoming slates and box office collections will shape the future trajectory of Tamil film revenues."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Devarakonda is facing calls for immediate introspection following recent discussions in the entertainment sphere. Observers are weighing in on what lies ahead for the actor as his career path comes under scrutiny.",
+      "dek": "The discussion around Tamil cinema reaching a collective milestone box office figure of 1000 crore continues to capture attention. Industry watchers analyze the evolving financial landscape and milestones for regional releases.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
-        "CineJosh"
+        "Gulte"
       ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130857/vijay-devarakonda-should-introspect-immediately.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130852/nikhil-confirms-swayambhu-release.html",
-      "title": "Nikhil Confirms Upcoming Release Details For Swayambhu",
-      "summary": "Actor Nikhil has officially confirmed the release status of his upcoming film Swayambhu. The latest update offers clarity to fans eagerly awaiting news about the project.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130852/nikhil-confirms-swayambhu-release.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/nikhil-confirms-swayambhu-release-1792943980031-1792943981090.jpg",
-      "publishedAt": "2026-10-25T15:59:45.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Nikhil has officially provided confirmation regarding the release of his much-anticipated project, Swayambhu. The announcement sheds light on the timeline of the film, giving cinema enthusiasts clear expectations about when to look forward to the movie.",
-        "Updates concerning prominent film releases are always a major point of discussion among moviegoers. With Nikhil stepping forward to confirm the release details for Swayambhu, followers of the project now have official word straight from the team regarding its arrival."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Nikhil has officially confirmed the release status of his upcoming film Swayambhu. The latest update offers clarity to fans eagerly awaiting news about the project.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130852/nikhil-confirms-swayambhu-release.html"
+      "originalUrl": "https://www.gulte.com/movienews/438125/tamil-cinemas-1000-crore-remains-dream"
     },
     {
       "id": "https://www.gulte.com/movienews/438079/vishwaksen-issues-apology-to-fans",
-      "title": "Vishwaksen Issues Apology To Fans Following Recent Developments",
-      "summary": "Tollywood actor Vishwaksen has officially issued an apology to his supporters. The gesture comes amidst ongoing discussions surrounding the actor's recent activities and public engagements.",
+      "title": "Actor Vishwaksen Delivers Public Apology to Supporters",
+      "summary": "Actor Vishwaksen has officially issued an apology addressing his supporters. The development has drawn attention from fans and followers across the film community.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/438079/vishwaksen-issues-apology-to-fans",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Vishwaksen.jpeg",
@@ -133,12 +530,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Popular actor Vishwaksen has officially issued an apology directed to his fans. The statement addresses his supporters directly, reflecting a notable moment of communication between the actor and his audience.",
-        "For followers of the entertainment industry, public statements and apologies by leading stars often draw considerable attention. Vishwaksen's latest message marks a significant update regarding his recent interactions with admirers."
+        "Actor Vishwaksen has recently issued an official apology directed to his fans. The statement has drawn considerable notice within the film community and among his supporters.",
+        "Public communications of this nature highlight the close relationship between film personalities and their fan bases. Followers have taken note of the actor's message as discussions continue across social platforms."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Tollywood actor Vishwaksen has officially issued an apology to his supporters. The gesture comes amidst ongoing discussions surrounding the actor's recent activities and public engagements.",
+      "dek": "Actor Vishwaksen has officially issued an apology addressing his supporters. The development has drawn attention from fans and followers across the film community.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -148,8 +545,8 @@
     },
     {
       "id": "https://telugucinema.com/news/swayambhu-after-a-long-gap-nikhil-siddhartha-updates-on-vfx-work",
-      "title": "Nikhil Siddhartha Shares Fresh Updates on Swayambhu VFX Progress",
-      "summary": "Actor Nikhil Siddhartha has finally provided a much-awaited update regarding the visual effects progress for his upcoming project, Swayambhu, after a noticeable gap.",
+      "title": "Nikhil Siddhartha Shares Fresh Updates on Swayambhu VFX",
+      "summary": "Actor Nikhil Siddhartha has broken a long gap to provide an update regarding the visual effects progress for his upcoming film Swayambhu.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/swayambhu-after-a-long-gap-nikhil-siddhartha-updates-on-vfx-work",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/swayambhu-vfx-oct2526.jpg",
@@ -157,13 +554,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Tollywood actor Nikhil Siddhartha has brought fresh excitement to his fans by sharing an update on the visual effects for his upcoming cinematic venture, Swayambhu. The project, which has generated considerable anticipation among moviegoers, has been under intensive post-production work.",
-        "Following a significant gap in communication regarding the film's technical progress, the latest update sheds light on the ongoing VFX efforts. As visual effects play a crucial role in modern cinematic spectacles, this development keeps followers informed about the painstaking work happening behind the scenes.",
-        "Swayambhu continues to be one of the notable titles on the horizon for Nikhil Siddhartha. As the team focuses on perfecting the visual elements, fans eagerly look forward to further announcements concerning the film's production milestones."
+        "Actor Nikhil Siddhartha has provided a new update regarding the visual effects (VFX) work for his upcoming cinematic project, Swayambhu. Following a prolonged period of silence regarding the film's production status, the latest development sheds light on how the movie is progressing behind the scenes.",
+        "Swayambhu has been generating steady interest among movie enthusiasts. With Nikhil Siddhartha sharing details about the ongoing VFX tasks, fans and industry observers gain a clearer picture of the technical efforts currently underway to shape the visual presentation of the feature.",
+        "As the production continues to move through its technical stages, further announcements regarding the schedule and overall progress are expected. The latest update from the lead actor marks an active step forward for the project's journey toward completion."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Nikhil Siddhartha has finally provided a much-awaited update regarding the visual effects progress for his upcoming project, Swayambhu, after a noticeable gap.",
+      "dek": "Actor Nikhil Siddhartha has broken a long gap to provide an update regarding the visual effects progress for his upcoming film Swayambhu.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -173,8 +570,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/godzilla-minus-zero-may-avoid-a-box-office-clash-with-ramayana-in-india-hk.html",
-      "title": "Godzilla Minus Zero Could Steer Clear of Ramayana Indian Box Office Clash",
-      "summary": "Reports indicate that Godzilla Minus Zero might dodge a direct box office collision with Ramayana in India, potentially easing the theatrical competition.",
+      "title": "Godzilla Minus Zero Could Steer Clear of Ramayana Clash in India",
+      "summary": "Reports indicate that Godzilla Minus Zero may sidestep a direct box office showdown with the high-profile project Ramayana within the Indian market.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/godzilla-minus-zero-may-avoid-a-box-office-clash-with-ramayana-in-india-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ramayana-9.webp",
@@ -182,13 +579,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The Indian box office landscape may witness a smoother scheduling strategy as discussions emerge around potential release overlaps. Speculation suggests that Godzilla Minus Zero is likely to avoid a direct box office clash with the high-profile project Ramayana within the Indian market.",
-        "Avoiding simultaneous theatrical arrivals often benefits major cinematic releases by allowing each film to capture undivided audience attention and screen space. Such strategic scheduling decisions are critical for maximizing box office performance across domestic circuits.",
-        "As details continue to unfold regarding both titles, film enthusiasts and trade analysts will be keeping a close eye on official release dates. The potential adjustment highlights the careful planning studios undertake when navigating crowded theatrical calendars in India."
+        "There are indications that Godzilla Minus Zero might avoid a competitive box office clash with Ramayana in India. Scheduling adjustments of this nature are frequently evaluated to maximize theatrical reach and audience turnout for major cinematic releases in the region.",
+        "Avoid overlapping schedules allows high-profile films to secure optimal screen counts and box office returns without dividing the attention of theatergoers. Both titles command distinct audience segments and high anticipation across domestic markets.",
+        "As release strategies continue to evolve, further official confirmations will clarify the exact theatrical calendar for both Godzilla Minus Zero and Ramayana in the Indian market."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Reports indicate that Godzilla Minus Zero might dodge a direct box office collision with Ramayana in India, potentially easing the theatrical competition.",
+      "dek": "Reports indicate that Godzilla Minus Zero may sidestep a direct box office showdown with the high-profile project Ramayana within the Indian market.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -197,84 +594,9 @@
       "originalUrl": "https://www.123telugu.com/mnews/godzilla-minus-zero-may-avoid-a-box-office-clash-with-ramayana-in-india-hk.html"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130848/keerthy-suresh-acclaimed-film-dorothy-winning-praises-in-ott-too.html",
-      "title": "Keerthy Suresh Starrer Dorothy Continues Winning Praise on OTT",
-      "summary": "The acclaimed Tamil film Dorothy, starring Keerthy Suresh and backed by Karthik Subbaraj, is currently streaming on Netflix and earning appreciation from digital audiences.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130848/keerthy-suresh-acclaimed-film-dorothy-winning-praises-in-ott-too.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/keerthy-suresh-acclaimed-film-dorothy-winning-praises-in-ott-too-1792934833081-1792934833990.jpg",
-      "publishedAt": "2026-10-25T13:27:15.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The acclaimed Tamil film Dorothy, featuring Keerthy Suresh in a prominent role and associated with filmmaker Karthik Subbaraj, is finding success on digital streaming platforms. Following its initial reception, the movie is now streaming on Netflix, where it continues to receive widespread appreciation.",
-        "Digital releases have become a vital extension for cinema, allowing celebrated movies to reach a wider demographic of viewers. Dorothy's transition to the streaming space has clearly resonated with home audiences, adding to its growing list of accolades.",
-        "The positive response on OTT highlights the ongoing appeal of strong performances and compelling regional content. Fans who missed theatrical runs or wish to rewatch the film can now stream it conveniently on Netflix."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The acclaimed Tamil film Dorothy, starring Keerthy Suresh and backed by Karthik Subbaraj, is currently streaming on Netflix and earning appreciation from digital audiences.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130848/keerthy-suresh-acclaimed-film-dorothy-winning-praises-in-ott-too.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/3/130847/vijay-sethupathi-film-baththa-to-stream-on-netflix.html",
-      "title": "Acclaimed Vijay Sethupathi Starrer Baththa Heading to Netflix",
-      "summary": "The acclaimed Vijay Sethupathi film Baththa has been confirmed for an upcoming OTT release on Netflix, bringing the celebrated actor's work to digital screens.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/3/130847/vijay-sethupathi-film-baththa-to-stream-on-netflix.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-sethupathi-film-baththa-to-stream-on-netflix-1792934720100-1792934721028.jpg",
-      "publishedAt": "2026-10-25T13:25:23.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The acclaimed Vijay Sethupathi film titled Baththa is set to expand its reach with an upcoming digital premiere. According to recent details, the movie has locked in its streaming destination and will soon be available for audiences on Netflix.",
-        "Vijay Sethupathi has consistently garnered attention for his diverse film choices, and the acquisition of Baththa by a major streaming giant underscores the anticipation surrounding his projects. Digital releases allow acclaimed regional films to connect with a broader global audience.",
-        "Fans and film enthusiasts awaiting the digital debut of Baththa can look forward to streaming it on Netflix. Further announcements are expected to outline the exact premiere timeline for the platform."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The acclaimed Vijay Sethupathi film Baththa has been confirmed for an upcoming OTT release on Netflix, bringing the celebrated actor's work to digital screens.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/3/130847/vijay-sethupathi-film-baththa-to-stream-on-netflix.html"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438083/dont-underestimate-trivikrams-lowest-buzz-movie",
-      "title": "Why Trivikram's Lowest-Buzz Project Demands Attention",
-      "summary": "Director Trivikram's lowest-buzz film is generating discussion among cinema followers, proving that lesser pre-release hype should not discount a project's potential.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438083/dont-underestimate-trivikrams-lowest-buzz-movie",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/aadarsha-Kutumbam-movie-buzz.jpg",
-      "publishedAt": "2026-10-25T13:02:25.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "In the dynamic landscape of film production, anticipation usually peaks with aggressive promotional campaigns and heavy early buzz. However, attention has now turned toward filmmaker Trivikram's lowest-buzz movie, prompting industry observers to reassess how pre-release momentum translates to overall project reception.",
-        "While higher-profile ventures often dominate daily headlines, lower-buzz films frequently surprise audiences upon arrival. This particular project helmed by Trivikram reminds movie enthusiasts that initial public conversation is not always an indicator of creative execution or audience connection.",
-        "As developments unfold for this under-the-radar title, cinema fans and analysts will be keeping a close watch. The trajectory of the film highlights how anticipation can shift dramatically as official materials and release milestones draw closer."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Director Trivikram's lowest-buzz film is generating discussion among cinema followers, proving that lesser pre-release hype should not discount a project's potential.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/438083/dont-underestimate-trivikrams-lowest-buzz-movie"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/swayambhu-to-release-in-december-2026-confirms-nikhil-hk.html",
       "title": "Nikhil Confirms December 2026 Release Date for Swayambhu",
-      "summary": "Actor Nikhil has provided a definitive update regarding his upcoming cinematic venture, Swayambhu. The star confirmed that the film is slated for an official theatrical rollout in December 2026.",
+      "summary": "Actor Nikhil has officially confirmed that his upcoming film Swayambhu is scheduled to hit the big screen in December 2026.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/swayambhu-to-release-in-december-2026-confirms-nikhil-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Swayambhu-1.webp",
@@ -282,13 +604,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Nikhil has provided a definitive update regarding his upcoming cinematic venture, Swayambhu. The star confirmed that the film is slated for an official theatrical rollout in December 2026.",
-        "This announcement gives fans a clear timeline for the project's arrival on the big screen. As production and post-production milestones progress toward the December 2026 window, further updates regarding the film are anticipated.",
-        "Swayambhu stands as a notable entry in Nikhil's upcoming slate, with the confirmed release timeframe allowing followers and industry trackers to mark their calendars for late 2026."
+        "Actor Nikhil has officially announced the targeted theatrical release window for his upcoming project, Swayambhu. According to the confirmation, the film is slated to arrive in cinemas in December 2026.",
+        "This release date gives the production team ample time to finalize all phases of filmmaking, including the extensive visual effects work currently in progress. Setting a definitive timeline helps structure the remaining schedule and promotional plans.",
+        "Fans looking forward to Swayambhu now have a clear marker for when the feature will debut on the big screen, cementing December 2026 as a major release period for the actor."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Nikhil has provided a definitive update regarding his upcoming cinematic venture, Swayambhu. The star confirmed that the film is slated for an official theatrical rollout in December 2026.",
+      "dek": "Actor Nikhil has officially confirmed that his upcoming film Swayambhu is scheduled to hit the big screen in December 2026.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -297,84 +619,9 @@
       "originalUrl": "https://www.123telugu.com/mnews/swayambhu-to-release-in-december-2026-confirms-nikhil-hk.html"
     },
     {
-      "id": "https://www.gulte.com/movienews/438075/javed-akhtar-defends-rashmika-with-a-wrong-identity",
-      "title": "Javed Akhtar Steps Up to Defend Rashmika Amid Mistaken Identity",
-      "summary": "Renowned personality Javed Akhtar recently found himself at the center of discussion after speaking out in defense of actor Rashmika.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438075/javed-akhtar-defends-rashmika-with-a-wrong-identity",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/rashmika-javed.jpg",
-      "publishedAt": "2026-10-25T12:14:27.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Renowned personality Javed Akhtar recently found himself at the center of discussion after speaking out in defense of actor Rashmika. However, the commentary took a notable turn due to an issue involving a wrong identity.",
-        "The incident highlights the complexities of public discourse surrounding film personalities on digital platforms, where mistaken identities can occasionally intertwine with high-profile celebrity statements and defenses.",
-        "While the specifics of the mix-up generated considerable conversation among followers, Akhtar's intervention underscores the ongoing public attention directed toward prominent figures like Rashmika."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Renowned personality Javed Akhtar recently found himself at the center of discussion after speaking out in defense of actor Rashmika.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Gulte"
-      ],
-      "originalUrl": "https://www.gulte.com/movienews/438075/javed-akhtar-defends-rashmika-with-a-wrong-identity"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130846/gautam-rating-for-nani-the-paradise-stuns-all.html",
-      "title": "Gautam's Rating for Nani's The Paradise Surprises Many",
-      "summary": "The cinematic circle has been caught by surprise following a rating delivered by Gautam concerning Nani's film, The Paradise.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130846/gautam-rating-for-nani-the-paradise-stuns-all.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/gautam-rating-for-nani-the-paradise-stuns-all-1792930328770-1792930329320.jpg",
-      "publishedAt": "2026-10-25T12:12:11.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The cinematic circle has been caught by surprise following a rating delivered by Gautam concerning Nani's film, The Paradise. The unexpected assessment has quickly drawn the attention of movie enthusiasts and industry trackers alike.",
-        "As Nani's projects consistently command high expectations, any commentary or rating from notable figures associated with industry families adds an extra layer of intrigue. The remark regarding The Paradise has sparked considerable curiosity about what the film will ultimately deliver.",
-        "With updates continuing to circulate, the buzz surrounding Nani's venture remains high as audiences anticipate further official details about the project."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The cinematic circle has been caught by surprise following a rating delivered by Gautam concerning Nani's film, The Paradise.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130846/gautam-rating-for-nani-the-paradise-stuns-all.html"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130845/thella-kaagitham-ott-streaming-details.html",
-      "title": "Thella Kaagitham OTT Streaming Update: Teen Love Story Heads to Digital Platforms",
-      "summary": "The much-talked-about teen love story Thella Kaagitham has officially made its way to digital streaming. Cinephiles looking to catch the romantic drama can now stream the film online following its recent OTT premiere details announcement.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130845/thella-kaagitham-ott-streaming-details.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/thella-kaagitham-ott-streaming-details-1792927124104-1792927124673.jpg",
-      "publishedAt": "2026-10-25T11:18:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The much-talked-about teen love story Thella Kaagitham has officially transitioned to digital streaming, grabbing the attention of romance genre enthusiasts. Industry updates have confirmed the streaming details for the feature, allowing fans to enjoy the film from the comfort of their homes.",
-        "Centered around teenage romance, the film generated considerable buzz prior to its digital release. Viewers tracking contemporary romantic dramas can now explore the streaming platforms hosting the title.",
-        "The arrival of Thella Kaagitham on OTT underscores the ongoing trend of romantic entertainers finding wider audiences through digital mediums. Fans of the genre can now catch all the on-screen drama online."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The much-talked-about teen love story Thella Kaagitham has officially made its way to digital streaming. Cinephiles looking to catch the romantic drama can now stream the film online following its recent OTT premiere details announcement.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130845/thella-kaagitham-ott-streaming-details.html"
-    },
-    {
       "id": "https://telugucinema.com/news/is-kayadu-lohar-replacing-sreeleela-in-a-big-budgeted-tamil-film",
-      "title": "Is Kayadu Lohar Stepping In for Sreeleela in a Major Tamil Project?",
-      "summary": "Rumors are swirling within the industry regarding a potential casting change in a high-profile Tamil film. Speculation suggests that Kayadu Lohar might be stepping in to replace Sreeleela for the big-budget venture.",
+      "title": "Rumours Swirl Around Kayadu Lohar and Sreeleela in Tamil Project",
+      "summary": "Speculation has emerged in the industry regarding whether actor Kayadu Lohar is stepping in to replace Sreeleela for a major Tamil film.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/is-kayadu-lohar-replacing-sreeleela-in-a-big-budgeted-tamil-film",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/kayadulohar-oct2626.jpg",
@@ -382,13 +629,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent industry whispers have sparked discussions surrounding the leading cast of an upcoming high-budget Tamil cinematic venture. Speculation is rife that actor Kayadu Lohar is in line to replace Sreeleela for the prominent role in the large-scale project.",
-        "While casting shifts often generate significant chatter among movie enthusiasts, official confirmations regarding this potential replacement are yet to be finalized. Both actors enjoy substantial following across film industries, making this casting rumor a major talking point.",
-        "As developments unfold surrounding this big-budget Tamil production, trade analysts and fans alike are keeping a close eye on official announcements from the core production team to verify the final leading cast."
+        "Industry circles are currently discussing potential casting changes for a high-profile, big-budget Tamil cinematic venture. Speculation has surfaced questioning if actor Kayadu Lohar is set to take over a prominent role previously linked to Sreeleela.",
+        "While casting rumors frequently circulate around major film productions, official confirmations from the makers remain essential to verify such replacements. Both actors hold notable presence in the regional entertainment space.",
+        "Further announcements from the production team are anticipated to clarify the official leading cast lineup for this large-scale Tamil project as filming and pre-production progress."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Rumors are swirling within the industry regarding a potential casting change in a high-profile Tamil film. Speculation suggests that Kayadu Lohar might be stepping in to replace Sreeleela for the big-budget venture.",
+      "dek": "Speculation has emerged in the industry regarding whether actor Kayadu Lohar is stepping in to replace Sreeleela for a major Tamil film.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -398,8 +645,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/last-chance-for-ranabaali-to-make-merry-at-the-box-office-avd.html",
-      "title": "Ranabaali Faces Critical Box Office Window for Theatrical Returns",
-      "summary": "The theatrical run of Ranabaali has entered a crucial phase as the film faces its final window to maximize box office collections. Industry trackers are closely observing its performance during this decisive period.",
+      "title": "Ranabaali Faces Its Finalatrical Window at the Box Office",
+      "summary": "The film Ranabaali has reached a critical juncture at the box office, facing its final opportunity to attract audiences and maximize theatrical earnings before its run concludes.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/last-chance-for-ranabaali-to-make-merry-at-the-box-office-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-7.webp",
@@ -407,13 +654,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The theatrical journey of Ranabaali has reached a critical juncture, presenting a final opportunity for the film to capitalize on box office numbers. Trade pundits are closely monitoring the movie's ticket-window traction during this crucial stretch.",
-        "As competing releases and shifting audience preferences shape theatrical landscapes, films in their concluding box office legs must make the most of remaining screenings to secure strong commercial standing.",
-        "The performance of Ranabaali during this decisive phase will ultimately dictate its overall box office outcome, capturing the attention of industry analysts observing current theatrical trends."
+        "The theatrical journey of the film Ranabaali has arrived at a crucial juncture. Industry updates indicate that the movie is now facing its final opportunity to pull audiences into cinema halls and maximize its box office earnings.",
+        "As the theatrical run nears its concluding phase, all eyes are on how the title performs during this remaining window. Commercial outcomes at this stage are vital for determining the overall theatrical footprint of the release.",
+        "The coming days will officially establish the final box office numbers for Ranabaali as it wraps up its exhibition run in theaters."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The theatrical run of Ranabaali has entered a crucial phase as the film faces its final window to maximize box office collections. Industry trackers are closely observing its performance during this decisive period.",
+      "dek": "The film Ranabaali has reached a critical juncture at the box office, facing its final opportunity to attract audiences and maximize theatrical earnings before its run concludes.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -424,7 +671,7 @@
     {
       "id": "https://telugucinema.com/news/post-birthday-prabhas-begins-a-week-long-vacation-in-europe",
       "title": "Prabhas Heads to Europe for a Week-Long Vacation Following Birthday",
-      "summary": "Tollywood star Prabhas has embarked on a week-long getaway to Europe following his recent birthday celebrations. The actor took time off from his hectic schedule to unwind abroad.",
+      "summary": "Leading Telugu cinema star Prabhas has embarked on a week-long vacation to Europe immediately following his birthday celebrations. The actor took time off for the brief getaway.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/post-birthday-prabhas-begins-a-week-long-vacation-in-europe",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/prabhas47birthdayf.jpg",
@@ -432,269 +679,18 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Leading Telugu cinema star Prabhas has flown to Europe for a well-deserved break following his recent birthday celebrations. The actor has planned a week-long getaway to unwind and recharge away from his intensive filming commitments.",
-        "Known for his packed schedule involving multiple high-profile pan-Indian projects, this brief European holiday offers a rare window of relaxation for the actor before he returns to active production sets.",
-        "Fans and media outlets have tracked the star's travel plans closely, anticipating his return and subsequent updates regarding his upcoming cinematic endeavors."
+        "Renowned Telugu cinema star Prabhas has officially commenced a week-long vacation in Europe. The getaway comes right after the actor's recent birthday celebrations.",
+        "Known for his massive cinematic projects, the actor has taken a brief break from his busy schedule to travel abroad. The European trip will last for approximately one week before he returns to professional commitments."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Tollywood star Prabhas has embarked on a week-long getaway to Europe following his recent birthday celebrations. The actor took time off from his hectic schedule to unwind abroad.",
+      "dek": "Leading Telugu cinema star Prabhas has embarked on a week-long vacation to Europe immediately following his birthday celebrations. The actor took time off for the brief getaway.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "TeluguCinema"
       ],
       "originalUrl": "https://telugucinema.com/news/post-birthday-prabhas-begins-a-week-long-vacation-in-europe"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130843/trisha-krishnan-coimbatore-roadshow-sparks-political-entry-rumours.html",
-      "title": "Trisha Krishnan's Coimbatore Roadshow Ignites Political Rumours",
-      "summary": "Popular actor Trisha Krishnan recently participated in a roadshow in Coimbatore, sparking intense speculation across film and political circles regarding a potential entry into politics.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130843/trisha-krishnan-coimbatore-roadshow-sparks-political-entry-rumours.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/trisha-krishnan-coimbatore-roadshow-sparks-political-entry-rumours-1792919413749-1792919414071.jpg",
-      "publishedAt": "2026-10-25T09:10:18.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Renowned actor Trisha Krishnan has found herself at the centre of intense speculation following a recent appearance in Coimbatore. The actor participated in a public roadshow in the city, an event that quickly drew significant attention from fans and observers alike.",
-        "The public outing has led to widespread rumours concerning a possible transition into the political arena. While the actor has not officially addressed these claims, the roadshow appearance has amplified discussions about her future endeavours beyond the silver screen.",
-        "For cinema enthusiasts and followers of regional film industries, public figures moving into political spheres remains a subject of high interest. As discussions continue to unfold, audiences await any official clarification regarding whether this roadshow hints at a broader career shift for the prominent star."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Popular actor Trisha Krishnan recently participated in a roadshow in Coimbatore, sparking intense speculation across film and political circles regarding a potential entry into politics.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/130843/trisha-krishnan-coimbatore-roadshow-sparks-political-entry-rumours.html"
-    },
-    {
-      "id": "https://telugucinema.com/news/megaverse-chiranjeevis-debut-ott-show-gets-a-title",
-      "title": "Chiranjeevi's Debut OTT Project Receives Official Title",
-      "summary": "Megastar Chiranjeevi's much-anticipated maiden venture into the digital streaming space has officially secured a title under the name Megaverse.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/megaverse-chiranjeevis-debut-ott-show-gets-a-title",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/08/megastarchiranjeevi-aug1526.jpg",
-      "publishedAt": "2026-10-25T08:59:55.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Prominent Telugu cinema icon Chiranjeevi is officially expanding his illustrious career into the digital entertainment space. The actor's debut OTT project has now received an official title, building anticipation among his vast fan base.",
-        "Titled 'Megaverse', this upcoming digital series marks a significant milestone for the veteran actor as he transitions into streaming content. Given his legendary status in feature films, his entry into the OTT medium is considered a major development for the industry.",
-        "Further details regarding the plot, streaming platform, and release timeline are expected to be unveiled as production progresses. The project highlights the ongoing shift of mainstream cinematic stars embracing digital platforms to reach broader audiences."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Megastar Chiranjeevi's much-anticipated maiden venture into the digital streaming space has officially secured a title under the name Megaverse.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "TeluguCinema"
-      ],
-      "originalUrl": "https://telugucinema.com/news/megaverse-chiranjeevis-debut-ott-show-gets-a-title"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/3/130842/mahesh-does-risky-stunts-for-varanasi.html",
-      "title": "Mahesh Undertakes Daring Action Sequences for Varanasi",
-      "summary": "Actor Mahesh has reportedly taken on high-risk action stunts for the upcoming cinematic project tentatively titled 'Varanasi', throwing caution to the wind during production.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/3/130842/mahesh-does-risky-stunts-for-varanasi.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/mahesh-does-risky-stunts-for-varanasi-1792918499507-1792918499822.jpg",
-      "publishedAt": "2026-10-25T08:55:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Tollywood star Mahesh is reportedly pushing his physical limits for his upcoming cinematic venture. According to recent updates, the actor has been performing risky and intense action stunts for the film titled 'Varanasi'.",
-        "Commitment to high-octane sequences is a hallmark of major action dramas, and this project appears to be no exception. By opting to perform demanding physical feats, the actor is aiming to deliver a compelling cinematic experience for viewers.",
-        "While specific details about the narrative and action choreography remain under wraps, the news of these daring sequences has heightened expectations. Fans and film enthusiasts eagerly anticipate seeing how these high-risk moments translate on the big screen."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Mahesh has reportedly taken on high-risk action stunts for the upcoming cinematic project tentatively titled 'Varanasi', throwing caution to the wind during production.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/3/130842/mahesh-does-risky-stunts-for-varanasi.html"
-    },
-    {
-      "id": "https://telugucinema.com/news/rc17-ram-charan-and-sukumars-film-to-be-launched-on-november-1",
-      "title": "Ram Charan and Sukumar Collaboration 'RC17' Scheduled for November 1 Launch",
-      "summary": "The highly anticipated Telugu film pairing actor Ram Charan and director Sukumar, provisionally titled RC17, has locked in its official launch date for November 1.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/rc17-ram-charan-and-sukumars-film-to-be-launched-on-november-1",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/02/ramcharan-sukumar-feb072026.jpg",
-      "publishedAt": "2026-10-25T08:37:09.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The collaborative project bringing together star Ram Charan and acclaimed director Sukumar has reached a significant production milestone. Officially referred to as 'RC17', the upcoming film has locked in an official launch date for November 1.",
-        "This teaming up of a major leading man and a prominent director has generated immense excitement within the Telugu film fraternity. Anticipation is high as the creative duo prepares to formally kick off production following their earlier successful collaborations.",
-        "Further announcements regarding the cast, crew, and principal photography schedule are expected to follow the official launch event. The project stands as one of the most talked-about upcoming ventures in regional cinema."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The highly anticipated Telugu film pairing actor Ram Charan and director Sukumar, provisionally titled RC17, has locked in its official launch date for November 1.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "TeluguCinema"
-      ],
-      "originalUrl": "https://telugucinema.com/news/rc17-ram-charan-and-sukumars-film-to-be-launched-on-november-1"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/jailer-2-nizam-collections-heres-the-latest-box-office-update-hk.html",
-      "title": "Jailer 2 Nizam Box Office Updates Emerge",
-      "summary": "The latest box office updates regarding Jailer 2 in the Nizam region have been drawing attention among film enthusiasts. Cinephiles are keeping a close eye on the performance metrics as figures surrounding the project make rounds.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/jailer-2-nizam-collections-heres-the-latest-box-office-update-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Jailer-2-1-2.webp",
-      "publishedAt": "2026-10-25T08:30:08.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "New updates concerning the Nizam box office collections for Jailer 2 have captured the interest of moviegoers and industry trackers alike. As tracking continues for the project, details regarding its theatrical run in the region have begun to circulate widely.",
-        "Box office reports are a vital gauge of a movie's commercial footprint, and the updates from the Nizam area offer a glimpse into how the film is faring among regional audiences. Enthusiasts continue to monitor these developments for a clearer picture of its theatrical performance.",
-        "Such updates remain essential for following the broader commercial trajectory of major releases. Further figures and assessments are anticipated as the theatrical run progresses."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The latest box office updates regarding Jailer 2 in the Nizam region have been drawing attention among film enthusiasts. Cinephiles are keeping a close eye on the performance metrics as figures surrounding the project make rounds.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/jailer-2-nizam-collections-heres-the-latest-box-office-update-hk.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/mahesh-babus-sons-one-star-rating-for-nanis-the-paradise-goes-viral-hk.html",
-      "title": "Social Media Buzz Surrounds Mahesh Babu's Son's Rating for Nani's The Paradise",
-      "summary": "A viral social media moment has sparked online discussions after Mahesh Babu's son reportedly gave a one-star rating to Nani's film, The Paradise. The rating quickly caught the attention of film fans across digital platforms.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/mahesh-babus-sons-one-star-rating-for-nanis-the-paradise-goes-viral-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/theparadise.webp",
-      "publishedAt": "2026-10-25T07:30:26.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Digital platforms have been buzzing following a viral online update involving Mahesh Babu's son and Nani's upcoming or recent project, The Paradise. According to reports, a one-star rating given by him has drawn significant notice across the internet.",
-        "Such viral moments often ignite discussions among fans and followers of both actors, demonstrating how quickly opinions and online activities can capture public interest. The rating has become a talking point within digital cinema circles.",
-        "As the story continues to circulate online, it highlights the rapid spread of entertainment-related chatter and its visibility across social networks."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "A viral social media moment has sparked online discussions after Mahesh Babu's son reportedly gave a one-star rating to Nani's film, The Paradise. The rating quickly caught the attention of film fans across digital platforms.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/mahesh-babus-sons-one-star-rating-for-nanis-the-paradise-goes-viral-hk.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/baththa-gets-ott-release-date-vijay-sethupathis-film-to-stream-in-five-languages-hk.html",
-      "title": "Vijay Sethupathi's Baththa Announces OTT Release Across Five Languages",
-      "summary": "Vijay Sethupathi's film Baththa has officially locked its digital streaming release date. The project is set to reach audiences across five different languages on OTT platforms.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/baththa-gets-ott-release-date-vijay-sethupathis-film-to-stream-in-five-languages-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/bathta.jpg",
-      "publishedAt": "2026-10-25T05:30:49.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Vijay Sethupathi's film Baththa has made headlines with the announcement of its official OTT release date. The upcoming digital premiere aims to cater to a broad linguistic audience by making the movie available in five different languages.",
-        "The multi-language OTT rollout highlights the expanding reach of regional cinema onto digital streaming platforms, allowing fans from diverse linguistic backgrounds to experience the project from home.",
-        "With an official release date now set, audiences eagerly await the digital debut of Vijay Sethupathi's starring venture."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Vijay Sethupathi's film Baththa has officially locked its digital streaming release date. The project is set to reach audiences across five different languages on OTT platforms.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/baththa-gets-ott-release-date-vijay-sethupathis-film-to-stream-in-five-languages-hk.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/what-is-stopping-maruthi-from-announcing-his-next-film-avd.html",
-      "title": "What Lies Ahead: Director Maruthi's Next Film Announcement Awaited",
-      "summary": "Director Maruthi's next cinematic venture has yet to be officially announced, leaving fans curious about the delay. Discussions continue as followers await official word regarding his upcoming project.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/what-is-stopping-maruthi-from-announcing-his-next-film-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/01/Maruthi.webp",
-      "publishedAt": "2026-10-25T04:30:05.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Filmmaker Maruthi's upcoming project has been a subject of discussion among followers who are eager for an official announcement. Questions have been raised regarding what might be causing the delay in revealing his next venture.",
-        "In the film industry, official announcements are often timed carefully based on pre-production milestones, casting confirmations, and scripting phases. Fans and cinephiles remain on standby for a formal update from the director.",
-        "As anticipation builds, the industry continues to look out for concrete details concerning Maruthi's next creative undertaking."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Director Maruthi's next cinematic venture has yet to be officially announced, leaving fans curious about the delay. Discussions continue as followers await official word regarding his upcoming project.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/what-is-stopping-maruthi-from-announcing-his-next-film-avd.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ramayanas-rangulu-ranguley-song-offers-a-glimpse-of-rama-and-sitas-wedding-hk.html",
-      "title": "Ramayana Song 'Rangulu Ranguley' Spotlights Rama and Sita's Wedding",
-      "summary": "The musical track 'Rangulu Ranguley' from the upcoming project Ramayana has been unveiled, giving audiences a special look at the wedding celebrations of Rama and Sita. This release offers fans a vibrant visual and auditory preview of the divine union featured in the production.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ramayanas-rangulu-ranguley-song-offers-a-glimpse-of-rama-and-sitas-wedding-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ramayanas.webp",
-      "publishedAt": "2026-10-25T04:00:17.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A fresh musical offering from the upcoming cinematic adaptation Ramayana has officially been released to the public. Titled 'Rangulu Ranguley', the newly launched track centers around the auspicious and celebratory wedding ceremony of Rama and Sita.",
-        "Listeners and viewers are treated to a distinct visual glimpse of the divine marriage through this track. The song captures the festive elements and traditional atmosphere surrounding the momentous union within the narrative of the film.",
-        "The unveiling of 'Rangulu Ranguley' adds to the ongoing promotional journey for the project, drawing attention to its grand scale and cultural detailing. As details about the music and visuals continue to emerge, anticipation builds among audiences looking forward to the cinematic portrayal of this epic tale."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The musical track 'Rangulu Ranguley' from the upcoming project Ramayana has been unveiled, giving audiences a special look at the wedding celebrations of Rama and Sita. This release offers fans a vibrant visual and auditory preview of the divine union featured in the production.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/ramayanas-rangulu-ranguley-song-offers-a-glimpse-of-rama-and-sitas-wedding-hk.html"
-    },
-    {
-      "id": "https://www.telugu360.com/prabhas-fauzi-big-task-for-hanu-raghavapudi/",
-      "title": "Director Hanu Raghavapudi Faces a Major Challenge with Prabhas' Fauzi",
-      "summary": "Director Hanu Raghavapudi has a substantial responsibility ahead of him as he takes on the upcoming cinematic venture Fauzi, starring prominent actor Prabhas. This ambitious project brings together a major star and a distinctive creative vision, setting up a significant task for the filmmaker.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/prabhas-fauzi-big-task-for-hanu-raghavapudi/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/09/Fauzi-1.jpg",
-      "publishedAt": "2026-10-25T03:54:11.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Filmmaker Hanu Raghavapudi has stepped into a major assignment with his upcoming cinematic collaboration alongside leading star Prabhas. The project, titled Fauzi, brings high expectations and notable responsibilities for the director.",
-        "Directing a high-profile actor like Prabhas involves managing significant creative and logistical demands. For Raghavapudi, delivering a compelling vision that meets the scale of the star's massive following presents a distinct professional hurdle.",
-        "As development on Fauzi continues, the industry and fans alike are watching closely to see how the director handles the scale and expectations tied to this notable film partnership."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Director Hanu Raghavapudi has a substantial responsibility ahead of him as he takes on the upcoming cinematic venture Fauzi, starring prominent actor Prabhas. This ambitious project brings together a major star and a distinctive creative vision, setting up a significant task for the filmmaker.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "Telugu360"
-      ],
-      "originalUrl": "https://www.telugu360.com/prabhas-fauzi-big-task-for-hanu-raghavapudi/"
     }
   ],
   "trailers": [
@@ -719,6 +715,16 @@
       "language": "Telugu"
     },
     {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/fauzi-official-teaser/videoshow/135169923.cms",
+      "title": "Fauzi - Official Teaser​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/fauzi-official-teaser/videoshow/135169923.cms",
+      "img": "https://static.toiimg.com/thumb/msid-135169923,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
       "id": "https://indiaglitz.com/akka-trailer-keerthy-suresh-radhika-apte-face-off-in-netflixs-intense-gangster-drama",
       "title": "Akka Trailer: Keerthy Suresh, Radhika Apte Face Off in Netflix’s Intense Gangster Drama",
       "source": "IndiaGlitz Telugu",
@@ -735,6 +741,16 @@
       "url": "https://indiaglitz.com/aadarsha-kutumbam-trailer-trivikrams-unexpected-violent-turn-leaves-venkatesh-fans-curious",
       "img": "https://i.ytimg.com/vi/u0yUYgZ0s30/hqdefault.jpg",
       "youtubeId": "u0yUYgZ0s30",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://indiaglitz.com/prabhas-fauzi-glimpse-rebel-star-unleashes-a-fierce-avatar-release-date-locked",
+      "title": "Prabhas’ Fauzi Glimpse: Rebel Star Unleashes a Fierce Avatar; Release Date Locked",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/prabhas-fauzi-glimpse-rebel-star-unleashes-a-fierce-avatar-release-date-locked",
+      "img": "https://i.ytimg.com/vi/Ra09pAJN9LI/hqdefault.jpg",
+      "youtubeId": "Ra09pAJN9LI",
       "publishedAt": "2026-10-24T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -796,26 +812,6 @@
       "img": "https://static.toiimg.com/thumb/msid-134829707,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/telugu/ranabaali-official-telugu-trailer/videoshow/134792569.cms",
-      "title": "Ranabaali - Official Telugu Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/regional/telugu/ranabaali-official-telugu-trailer/videoshow/134792569.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134792569,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tu-hai-meri-kiran-official-trailer/videoshow/134734376.cms",
-      "title": "Tu Hai Meri Kiran - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tu-hai-meri-kiran-official-trailer/videoshow/134734376.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134734376,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
