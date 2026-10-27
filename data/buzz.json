@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T11:33:28.369Z",
+  "updatedAt": "2026-10-27T12:36:00.005Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-27T11:32:56.756Z",
-      "lastAttemptedAt": "2026-10-27T11:32:56.756Z",
+      "updatedAt": "2026-10-27T12:35:32.196Z",
+      "lastAttemptedAt": "2026-10-27T12:35:32.196Z",
       "items": [
         {
           "title": "The Paradise",
@@ -390,7 +390,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-10-27T11:33:12.177Z",
+      "lastAttemptedAt": "2026-10-27T12:35:40.233Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -404,7 +404,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-27T11:33:13.415Z",
+      "lastAttemptedAt": "2026-10-27T12:35:41.574Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -472,37 +472,37 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-27T11:33:13.750Z",
+      "lastAttemptedAt": "2026-10-27T12:35:41.778Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-27T11:33:23.952Z",
-      "lastAttemptedAt": "2026-10-27T11:33:23.952Z",
+      "updatedAt": "2026-10-27T12:35:52.081Z",
+      "lastAttemptedAt": "2026-10-27T12:35:52.081Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
           "url": "https://www.zee5.com/movies/year",
-          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.1",
+          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.2",
           "languages": "Telugu"
         },
         {
           "title": "Watch New Movies Online - Latest Film Releases on Zee 5",
           "url": "https://www.zee5.com/movies/new-movies",
-          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.1",
+          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.2",
           "languages": "Telugu"
         },
         {
           "title": "Bollywood Movies - Watch Bollywood Movies Online in HD only on Zee 5",
           "url": "https://www.zee5.com/movies/bollywood",
-          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.1",
+          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.2",
           "languages": "Telugu"
         },
         {
           "title": "South Movies - Watch New Released South Movies in HD on Zee 5",
           "url": "https://www.zee5.com/movies/south",
-          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.1",
+          "img": "https://www.zee5.com/images/ZEE5_logo.svg?ver=7.2.2",
           "languages": "Telugu"
         }
       ]
@@ -510,21 +510,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-27T11:33:25.654Z",
+      "lastAttemptedAt": "2026-10-27T12:35:54.269Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-27T11:33:27.017Z",
+      "lastAttemptedAt": "2026-10-27T12:35:55.854Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-27T11:33:28.367Z",
-      "lastAttemptedAt": "2026-10-27T11:33:28.367Z",
+      "updatedAt": "2026-10-27T12:36:00.003Z",
+      "lastAttemptedAt": "2026-10-27T12:36:00.003Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
