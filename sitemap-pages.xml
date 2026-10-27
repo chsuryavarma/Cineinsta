@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cineinsta.com/</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/news</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/buzz</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/box-office-battle.html</loc>
@@ -107,6 +107,10 @@
     <lastmod>2026-10-02T00:00:00.000Z</lastmod>
   </url>
   <url>
+    <loc>https://www.cineinsta.com/reviews/dorothy</loc>
+    <lastmod>2026-10-02T00:00:00.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.cineinsta.com/reviews/anumana-pakshi</loc>
     <lastmod>2026-09-25T00:00:00.000Z</lastmod>
   </url>
@@ -148,35 +152,35 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/drishyam-the-conclusion</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/hanuman-ansh</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/thella-kagitham</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/secret-soldier</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/mandaadi</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/reviews/chakkora</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/</loc>
-    <lastmod>2026-10-27T03:30:02.942Z</lastmod>
+    <lastmod>2026-10-27T11:32:45.420Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/fauzi-teaser-out-netizens-react-to-prabhas-rebel-avatar-hanu-raghavapudi-s-film-sets-march-19-2027-release</loc>
     <lastmod>2027-03-19T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/latest-trailers-entertainment-videos-times-of-india</loc>
+    <lastmod>2026-10-28T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/prabhas-starrer-fauzi-faces-historical-controversy-as-netaji-s-grandnephew-chandrakumar-bose-questions-glimpse-featuring-subhas-chandra-bose-and-adolf-hitler-demands-apology-from-hanu-raghavapudi</loc>
@@ -217,9 +221,5 @@
   <url>
     <loc>https://www.cineinsta.com/trailers/sathyavan-savithiri-official-tamil-teaser</loc>
     <lastmod>2026-10-14T00:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/udta-teer-official-trailer</loc>
-    <lastmod>2026-10-13T00:00:00.000Z</lastmod>
   </url>
 </urlset>
