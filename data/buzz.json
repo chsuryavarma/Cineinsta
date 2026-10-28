@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T13:25:56.063Z",
+  "updatedAt": "2026-10-28T18:20:43.598Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -50,7 +50,7 @@
     {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "ok"
+      "status": "stale"
     }
   ],
   "movies": [
@@ -370,13 +370,19 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-28T13:25:16.705Z",
-      "lastAttemptedAt": "2026-10-28T13:25:16.705Z",
+      "updatedAt": "2026-10-28T18:20:07.499Z",
+      "lastAttemptedAt": "2026-10-28T18:20:07.499Z",
       "items": [
         {
           "title": "Dorothy",
           "url": "https://www.netflix.com/title/83238479",
           "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Dorothy.webp",
+          "languages": "Telugu"
+        },
+        {
+          "title": "The Paradise",
+          "url": "https://www.netflix.com/title/82134615",
+          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
           "languages": "Telugu"
         }
       ]
@@ -384,7 +390,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-10-28T13:25:32.516Z",
+      "lastAttemptedAt": "2026-10-28T18:20:26.062Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -398,7 +404,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-28T13:25:33.875Z",
+      "lastAttemptedAt": "2026-10-28T18:20:27.473Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +472,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-28T13:25:34.232Z",
+      "lastAttemptedAt": "2026-10-28T18:20:27.818Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-28T13:25:48.373Z",
-      "lastAttemptedAt": "2026-10-28T13:25:48.373Z",
+      "updatedAt": "2026-10-28T18:20:37.977Z",
+      "lastAttemptedAt": "2026-10-28T18:20:37.977Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,21 +510,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-28T13:25:50.657Z",
+      "lastAttemptedAt": "2026-10-28T18:20:39.887Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-28T13:25:51.962Z",
+      "lastAttemptedAt": "2026-10-28T18:20:41.258Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
-      "status": "ok",
+      "status": "stale",
       "updatedAt": "2026-10-28T13:25:56.062Z",
-      "lastAttemptedAt": "2026-10-28T13:25:56.062Z",
+      "lastAttemptedAt": "2026-10-28T18:20:43.596Z",
       "items": [
         {
           "title": "Watch DC Full HD Movie Online - Sony LIV",
@@ -526,7 +532,8 @@
           "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000026043/1791476990957783_DC_Landscape_Thumb.jpg?w=200&q=high",
           "languages": "Telugu"
         }
-      ]
+      ],
+      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
     }
   },
   "methodology": "OTT tabs are collected independently from each platform public catalogue or movie surface. Netflix and ZEE5 use Telugu catalogue pages. Prime Video and other platforms verify Telugu evidence from listing/detail pages where required. No hard-coded movie list is used. A temporary source failure never replaces the last successful OTT dataset with zero items."
