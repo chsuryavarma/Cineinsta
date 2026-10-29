@@ -1,11 +1,239 @@
 {
-  "updatedAt": "2026-10-29T12:13:26.218Z",
+  "updatedAt": "2026-10-29T22:26:13.084Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.123telugu.com/mnews/jason-sanjays-acting-debut-to-be-helmed-by-dude-director-prp.html",
+      "title": "Is Jason Sanjay Set to Make His Acting Debut Under the Direction of the Dude Filmmaker?",
+      "summary": "Speculation is swirling in the film industry regarding Jason Sanjay's anticipated acting debut. Reports suggest that the project might be directed by the filmmaker behind Dude.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/jason-sanjays-acting-debut-to-be-helmed-by-dude-director-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/12/Jason-Sanjay.webp",
+      "publishedAt": "2026-10-29T20:30:09.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Industry discussions have recently focused on Jason Sanjay and his potential step into full-fledged acting. While details remain sparse, reports indicate that his debut film could possibly be helmed by the director of Dude.",
+        "As conversations surrounding this casting and directorial pairing continue to circulate among movie enthusiasts, fans eagerly await official announcements regarding the project's production timeline and cast confirmation."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/post-jailer-2s-success-rajinikanth-busy-shooting-comedy-scenes-for-dharman-avd.html",
+      "title": "Rajinikanth Focuses on Comedy Sequences for Dharman Following Jailer 2 Success",
+      "summary": "Following the success of Jailer 2, superstar Rajinikanth is reportedly occupied with filming comedic scenes for his upcoming project, Dharman.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/post-jailer-2s-success-rajinikanth-busy-shooting-comedy-scenes-for-dharman-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/06/Dharman-3.webp",
+      "publishedAt": "2026-10-29T19:30:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Superstar Rajinikanth is currently busy with his film commitments following the success of Jailer 2. According to recent updates, the actor is actively shooting comedy sequences for his upcoming movie titled Dharman.",
+        "The shift towards comedic sequences adds an interesting layer to the production of Dharman, keeping fans enthusiastic about what the veteran actor brings to the screen in this upcoming venture."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/megastars-megaverse-pawan-kalyan-and-ram-charan-to-be-seen-in-a-special-episode-prp.html",
+      "title": "Pawan Kalyan and Ram Charan Spark Speculation Over a Special On-Screen Episode",
+      "summary": "Excitement is brewing among Telugu cinema fans as reports circulate about a potential special episode featuring prominent stars Pawan Kalyan and Ram Charan. Cinephiles are closely following updates surrounding the Megastar's Megaverse concept and what it could mean for the actors.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/megastars-megaverse-pawan-kalyan-and-ram-charan-to-be-seen-in-a-special-episode-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/og-34.webp",
+      "publishedAt": "2026-10-29T17:34:41.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Discussion has sparked across the film community regarding a possible special episode featuring Tollywood stars Pawan Kalyan and Ram Charan. The duo's potential appearance together has captured the attention of movie enthusiasts anticipating major cinematic developments.",
+        "While specific narrative details remain under wraps, the prospect of seeing the two actors together has generated considerable buzz. Fans continue to monitor further announcements regarding how this special segment will unfold within the Megastar's Megaverse framework."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/130968/buzz-about-dil-raju-planning-film-with-pawan-kalyan.html",
+      "title": "Producer Dil Raju Rumored to Collaborate with Pawan Kalyan for Upcoming Project",
+      "summary": "Industry circles are abuzz with speculation that notable producer Dil Raju is planning a brand-new feature film starring actor Pawan Kalyan. While formal announcements are still awaited, the rumor has quickly become a major talking point among cinema followers.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/130968/buzz-about-dil-raju-planning-film-with-pawan-kalyan.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/buzz-about-dil-raju-planning-film-with-pawan-kalyan-1793293434207-1793293435574.jpg",
+      "publishedAt": "2026-10-29T17:03:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Fresh industry gossip suggests that prominent producer Dil Raju might be teaming up with actor Pawan Kalyan for an upcoming cinematic venture. The circulating reports have triggered widespread excitement and discussion among regional film enthusiasts.",
+        "As discussions continue to circulate online, audiences await official confirmation from the production side regarding this rumored collaboration. Such high-profile pairings invariably draw significant attention within the Telugu film industry."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130965/ram-charan-look-test-for-rc17-completed.html",
+      "title": "Ram Charan Wraps Up Look Test for Highly Anticipated Project RC17",
+      "summary": "Actor Ram Charan has reportedly completed his official look test for his upcoming film temporarily titled RC17. This crucial development marks a steady step forward in the pre-production phase of the much-awaited movie.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130965/ram-charan-look-test-for-rc17-completed.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ram-charan-look-test-for-rc17-completed-1793288656677-1793288657984.jpg",
+      "publishedAt": "2026-10-29T15:44:26.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Pre-production work for Ram Charan's upcoming film, widely known as RC17, has achieved a notable milestone with the completion of the actor's look test. Fans and industry trackers have welcomed the update as a positive sign of the film's progress.",
+        "With the look test successfully wrapped up, anticipation continues to build regarding further announcements on the cast, crew, and shooting schedules. The project remains one of the closely watched ventures in Telugu cinema."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130963/netizens-troll-janhvi-kapoor-for-her-comments-on-south-filmmakers.html",
+      "title": "Janhvi Kapoor Faces Social Media Backlash Following Remarks on South Filmmakers",
+      "summary": "Actor Janhvi Kapoor has drawn criticism from internet users following recent comments she made concerning South filmmakers. The remarks quickly sparked online reactions across social media platforms within the cinema community.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130963/netizens-troll-janhvi-kapoor-for-her-comments-on-south-filmmakers.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/netizens-troll-janhvi-kapoor-for-her-comments-on-south-filmmakers-1793287987761-1793287989064.jpg",
+      "publishedAt": "2026-10-29T15:33:11.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Janhvi Kapoor found herself targeted by internet trolls after expressing certain viewpoints regarding South filmmakers. The comments generated swift reactions and digital discussions among movie fans online.",
+        "Public figures navigating cross-industry remarks often face rapid scrutiny on social media networks. As opinions continue to trend online, the incident highlights the sensitivity surrounding regional cinema discussions."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/ott-8-movies-and-series-to-watch-on-netflix-this-week-hk.html",
+      "title": "Fresh OTT Releases: Eight Movies and Series Hit Netflix This Week",
+      "summary": "Streaming enthusiasts have a fresh batch of content to explore as Netflix lines up a selection of eight movies and series for release this week. Viewers can look forward to updating their watchlists with these newly available digital titles.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/ott-8-movies-and-series-to-watch-on-netflix-this-week-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ott-moive.webp",
+      "publishedAt": "2026-10-29T15:30:52.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Streaming enthusiasts have a fresh batch of content to explore as Netflix lines up a selection of eight movies and series for release this week.",
+        "The latest lineup brings a mix of cinematic features and episodic series to the digital platform, offering audiences various entertainment choices for their weekend viewing.",
+        "Viewers can check the platform's current schedule to explore the complete roster of these newly available digital titles."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/438714/will-vishwak-sens-big-bet-on-violence-pay-off",
+      "title": "Analyzing Vishwak Sen’s Bold Choice of Action and Violence",
+      "summary": "Actor Vishwak Sen is drawing attention for his heavy reliance on violence in his projects, sparking industry discussions about whether this intense creative direction will resonate with audiences. Observers are weighing the risks and rewards of this prominent tonal shift.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/438714/will-vishwak-sens-big-bet-on-violence-pay-off",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vishwaksen-cult-blood.jpg",
+      "publishedAt": "2026-10-29T15:23:54.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Vishwak Sen is drawing industry attention for his notable creative choices involving high levels of violence in his cinematic projects.",
+        "This bold direction raises questions about audience reception and whether such intense action-heavy content will successfully connect at the box office.",
+        "As discussions continue regarding this strategic shift, supporters and critics alike wait to see how viewers respond to the actor's latest cinematic bets."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/aadarsha-kutumbam-set-for-release-venkatesh-wraps-up-promotions",
+      "title": "Venkatesh Concludes Promotional Campaign as Aadarsha Kutumbam Prepares for Release",
+      "summary": "The promotional tour for Aadarsha Kutumbam has officially wrapped up, with actor Venkatesh completing all promotional commitments ahead of the film's theatrical arrival. Fans and moviegoers can now anticipate the upcoming release of the project.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/aadarsha-kutumbam-set-for-release-venkatesh-wraps-up-promotions",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/venkatesh-aadarshakutumbam-oct2926.jpg",
+      "publishedAt": "2026-10-29T15:00:14.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The promotional tour for Aadarsha Kutumbam has officially wrapped up, marking the final stretch before the film reaches the big screen.",
+        "Actor Venkatesh has successfully finished all of his promotional commitments and interviews for the project, setting the stage for its theatrical debut.",
+        "With promotional duties fully completed, attention now shifts entirely to the upcoming release and how audiences will receive the film."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/south-indian-filmmakers-ignore-radhika-aptes-statements",
+      "title": "South Indian Filmmakers Maintain Silence on Radhika Apte's Remarks",
+      "summary": "Radhika Apte's recent statements have drawn notable reactions, with South Indian filmmakers choosing to ignore her comments entirely. The industry response highlights a distinct lack of engagement regarding the actor's public remarks.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/south-indian-filmmakers-ignore-radhika-aptes-statements",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/radhikaapte-oct2926.jpg",
+      "publishedAt": "2026-10-29T14:36:02.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Recent statements made by actor Radhika Apte have captured attention within the entertainment sphere, leading to a notable industry response. Rather than addressing or countering her remarks, South Indian filmmakers have opted to completely ignore the statements.",
+        "The decision by regional directors and producers to remain silent underscores a growing trend of bypassing controversies. By choosing not to engage, the filmmakers have kept the focus entirely away from the discourse initiated by Apte's comments.",
+        "As the situation stands, no official statements or retaliatory remarks have been issued from the regional filmmaking community. This calculated silence allows the industry to move forward without fueling further public debate over the issue."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/aadarsha-kutumbam-worldwide-breakeven-target-for-venkateshs-film-is-here-prp.html",
+      "title": "Aadarsha Kutumbam: Venkatesh Film's Worldwide Breakeven Target Revealed",
+      "summary": "The worldwide breakeven target for Venkatesh's upcoming film Aadarsha Kutumbam has officially been detailed. This financial milestone marks a crucial step in tracking the commercial performance and box-office expectations for the project.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/aadarsha-kutumbam-worldwide-breakeven-target-for-venkateshs-film-is-here-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Aadarsha-Kutumbam.webp",
+      "publishedAt": "2026-10-29T14:31:02.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Anticipation surrounding actor Venkatesh's film Aadarsha Kutumbam has reached a new phase with the revelation of its worldwide breakeven target. Understanding this financial goal is essential for evaluating the commercial journey of the movie across global markets.",
+        "As preparations continue for the project, tracking the breakeven figure provides clear insight into the stakes involved for the distributors and makers. Financial benchmarks of this nature are closely watched by trade analysts and fans alike.",
+        "With the target now out in the open, all eyes turn to how Aadarsha Kutumbam will perform internationally and domestically. Achieving this milestone will dictate the ultimate commercial success of the Venkatesh-starrer."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/438752/radhe-radhe-from-dulquers-aot-a-haunting-melody",
+      "title": "Radhe Radhe from Dulquer's AOT Described as a Haunting Melody",
+      "summary": "A new musical piece titled Radhe Radhe from Dulquer Salmaan's AOT has been unveiled, drawing attention for its haunting melody. The track adds a distinct musical layer to the ongoing promotional material for the project.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/438752/radhe-radhe-from-dulquers-aot-a-haunting-melody",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Dulquer-aakasam-lo-oka-tara.jpg",
+      "publishedAt": "2026-10-29T13:37:11.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Music plays a vital role in setting the tone for cinematic projects, and the latest release from Dulquer Salmaan's AOT is no exception. Titled Radhe Radhe, the track has been described as a haunting melody that stands out within the film's musical landscape.",
+        "The introduction of this piece offers audiences a fresh sonic preview of what to expect from the feature. Melodic releases ahead of a film's premiere often serve to build anticipation and deepen emotional engagement with the narrative.",
+        "As listeners experience the haunting tones of Radhe Radhe, attention naturally turns toward how the track will be integrated into the main feature. The song continues to generate discussion among followers of the actor's upcoming work."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/438740/exclusive-chiru-pawan-ram-charan-in-megaverse",
+      "title": "Chiranjeevi, Pawan Kalyan, and Ram Charan Linked to Megaverse",
+      "summary": "Exciting reports have surfaced connecting prominent cinema figures Chiranjeevi, Pawan Kalyan, and Ram Charan to a concept termed Megaverse. This development brings together major family names in Indian cinema under a unified spotlight.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/438740/exclusive-chiru-pawan-ram-charan-in-megaverse",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/chiru-pawan-charan-megaverse.jpg",
+      "publishedAt": "2026-10-29T13:22:49.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "A major talking point has emerged for film enthusiasts following reports linking Chiranjeevi, Pawan Kalyan, and Ram Charan to the concept of a Megaverse. The association of these prominent stars brings significant excitement to the followers of Telugu cinema.",
+        "While specific structural details of the Megaverse concept continue to be discussed, the mere inclusion of these stellar names elevates anticipation. Each of these actors holds a massive following and commands immense box-office presence.",
+        "The potential tying together of these iconic figures highlights the evolving scale of modern cinematic planning. Fans eagerly await further clarity on how this multi-star association will take shape in the future."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
       "id": "https://www.123telugu.com/reviews/vijay-sethupathis-baththa-movie-review-and-rating.html",
-      "title": "Vijay Sethupathi's Baththa Arrives on Netflix in Telugu-Dubbed Format",
-      "summary": "Vijay Sethupathi stars in Baththa, a Tamil film that has now made its way to Netflix with a Telugu-dubbed version. Fans of the actor can stream the project on the digital platform.",
+      "title": "Vijay Sethupathi Starrer Baththa Arrives on Netflix in Telugu",
+      "summary": "Actor Vijay Sethupathi's Tamil film Baththa is now accessible to streaming audiences as a Telugu-dubbed version on Netflix, drawing attention from digital movie fans.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/vijay-sethupathis-baththa-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Baththa.webp",
@@ -13,16 +241,16 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Vijay Sethupathi's cinematic venture Baththa has arrived on the digital space, offering audiences a chance to stream the project on Netflix. Originally a Tamil production, the movie is now accessible to a wider audience through its newly available Telugu-dubbed version.",
-        "The release of Baththa on the popular OTT platform highlights the growing trend of cross-language digital accessibility for South Indian cinema. Viewers interested in catching Vijay Sethupathi's latest work can now stream the film directly online."
+        "The digital streaming landscape has expanded its regional offerings with the arrival of Vijay Sethupathi's Baththa on Netflix. Originally a Tamil production, the film has now been made available for streaming enthusiasts in a Telugu-dubbed version.",
+        "As digital platforms continue to bridge language gaps across Indian cinema, the release allows a wider audience to explore the project. Viewers looking for recent OTT additions can now stream the title directly on the platform."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/dhanush-mammoottys-om-no-connection-between-part-1-and-part-2-prp.html",
-      "title": "Dhanush and Mammootty's Om: Clarifying the Connection Between Installments",
-      "summary": "Dhanush and Mammootty's film Om has clarified its narrative structure, confirming that there is no direct connection between Part 1 and Part 2.",
+      "title": "Dhanush and Mammootty Project Om Clarified to Have No Sequel Links",
+      "summary": "Recent details surrounding the Dhanush and Mammootty project Om have confirmed that there is no narrative connection between Part 1 and Part 2.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/dhanush-mammoottys-om-no-connection-between-part-1-and-part-2-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/OM-2.webp",
@@ -30,16 +258,16 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The cinematic project Om, featuring Dhanush and Mammootty, has drawn attention regarding its narrative continuity. Confirmed details indicate that there is no narrative connection between Part 1 and Part 2 of the title.",
-        "This update clarifies how audiences can approach the installments, ensuring viewers understand the structural relationship between the first and second parts of the Om project."
+        "Upcoming cinematic updates for the project featuring Dhanush and Mammootty, titled Om, have clarified its structural format. Official details indicate that there is no narrative connection linking Part 1 and Part 2 of the venture.",
+        "This update provides clear context for followers tracking the development of the film. Both prominent actors are associated with the venture, which stands as separate installments rather than a continuous serialized storyline."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.telugu360.com/cult-will-be-a-cult-film-in-indian-cinema-vishwak-sen/",
-      "title": "Vishwak Sen Predicts Cult Status for Upcoming Project Cult",
-      "summary": "Actor Vishwak Sen has shared his bold prediction regarding his upcoming project Cult, stating that it will emerge as a defining film within Indian cinema.",
+      "title": "Vishwak Sen Predicts Major Impact for Cult in Indian Cinema",
+      "summary": "Actor Vishwak Sen has shared high expectations for the upcoming film Cult, asserting that it will leave a significant mark on the Indian cinema landscape.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/cult-will-be-a-cult-film-in-indian-cinema-vishwak-sen/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Vishwak-Sen.jpg",
@@ -47,50 +275,69 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Vishwak Sen has generated buzz around his upcoming cinematic venture titled Cult. According to the actor, the movie is poised to make a massive impact and will stand out as a definitive entry in Indian cinema.",
-        "As anticipation builds for Cult, Vishwak Sen's strong endorsement highlights the high expectations surrounding the project. Fans and industry followers are keeping a close eye on further updates regarding the film's release and progress."
+        "Actor Vishwak Sen has expressed strong confidence in the cinematic impact of the upcoming movie titled Cult. According to his remarks, the project is anticipated to stand out remarkably within the broader scope of Indian cinema.",
+        "As anticipation builds around the title, such statements from industry figures highlight the growing interest in the project. Further details regarding the feature are awaited by cinema enthusiasts."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.123telugu.com/mnews/megaverse-netflix-officially-announces-megastar-chiranjeevis-talk-show-prp.html",
-      "title": "Netflix Announces New Talk Show Featuring Megastar Chiranjeevi Called Megaverse",
-      "summary": "Streaming platform Netflix has officially confirmed a brand-new talk show featuring Megastar Chiranjeevi, titled Megaverse. The exciting announcement brings the iconic actor to the streaming space for an engaging conversational format.",
+      "id": "https://telugucinema.com/news/nani-vacations-in-portugal-to-begin-bloody-romeo-in-november",
+      "title": "Nani Enjoys Portugal Vacation Ahead of Bloody Romeo November Schedule",
+      "summary": "Actor Nani is currently holidaying in Portugal and is scheduled to commence work on his upcoming film Bloody Romeo starting this November.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/nani-vacations-in-portugal-to-begin-bloody-romeo-in-november",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/nani-theparadise-sep2026.jpg",
+      "publishedAt": "2026-10-29T09:56:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Nani has taken a break to vacation in Portugal, making the most of his downtime before heading back to active film production. The actor's schedule is set to pick up pace following his return.",
+        "Production plans indicate that Nani will begin working on his upcoming venture titled Bloody Romeo in November. Fans and followers are tracking this timeline as preparation for the project gets underway."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/rowdy-janardhana-vijay-deverakondas-next-to-arrive-in-two-parts-prp.html",
+      "title": "Is Vijay Deverakonda's Rowdy Janardhana Planned as a Two-Part Film?",
+      "summary": "Speculation surrounds actor Vijay Deverakonda's upcoming project Rowdy Janardhana, with emerging reports suggesting the film could be planned for a two-part release. Fans and movie enthusiasts are closely following updates regarding this potential multi-part strategy for the star's upcoming cinematic venture.",
       "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/megaverse-netflix-officially-announces-megastar-chiranjeevis-talk-show-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Megastar.webp",
-      "publishedAt": "2026-10-29T10:18:31.000Z",
+      "url": "https://www.123telugu.com/mnews/rowdy-janardhana-vijay-deverakondas-next-to-arrive-in-two-parts-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/03/Rowdy-Janardhana.webp",
+      "publishedAt": "2026-10-29T09:30:04.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Streaming giant Netflix has officially announced a new talk show titled Megaverse, featuring Megastar Chiranjeevi. This development marks an exciting venture for the legendary actor as he steps into the streaming talk show space.",
-        "While specific premiere dates and format details are yet to be widely detailed, the official announcement has already generated significant excitement among fans and cinema enthusiasts eagerly awaiting Chiranjeevi's digital debut in this format."
+        "Actor Vijay Deverakonda's forthcoming movie, tentatively titled Rowdy Janardhana, is currently generating significant buzz within the film community. Recent reports suggest that the makers might be considering a two-part release format for the project.",
+        "While official confirmations are yet to be made by the production team, the prospect of a split narrative has sparked discussions among followers and cinema enthusiasts. Multi-part structures have increasingly become a prominent trend for major film productions.",
+        "As developments unfold, audiences await formal announcements from the cast and crew to clarify whether Rowdy Janardhana will indeed unfold across two distinct cinematic installments."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.gulte.com/movienews/438706/atlee-dude-director-for-jason-sanjays-acting-debut",
-      "title": "Atlee and Dude Director Reportedly Linked to Jason Sanjay's Acting Debut",
-      "summary": "Industry buzz surrounds Jason Sanjay's anticipated acting debut, with reports linking filmmaker Atlee and the director of Dude to the project. Speculation continues to grow regarding who will helm the star kid's maiden film venture.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438706/atlee-dude-director-for-jason-sanjays-acting-debut",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Atlee-jason-sanjay-keerti-swaran.jpg",
-      "publishedAt": "2026-10-29T09:38:18.000Z",
+      "id": "https://telugucinema.com/news/megaverse-chiranjeevi-turns-busy-shooting-for-netflix-talk-show",
+      "title": "Chiranjeevi Engaged in Shooting for Netflix Talk Show",
+      "summary": "Megastar Chiranjeevi has reportedly been busy shooting for an upcoming talk show on the streaming platform Netflix. The project adds an exciting new dimension to the veteran actor's busy schedule as he explores digital platforms.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/megaverse-chiranjeevi-turns-busy-shooting-for-netflix-talk-show",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/megastarchiranjeevi-sep2026.jpg",
+      "publishedAt": "2026-10-29T09:13:18.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Speculation is mounting regarding the acting debut of Jason Sanjay, with new reports pointing towards notable names like filmmaker Atlee and the director of Dude being associated with the project.",
-        "As discussions and preparations for his entry into the film industry continue to draw attention, fans await formal confirmations about the director and production team guiding his maiden venture."
+        "Renowned actor Chiranjeevi has expanded his creative footprint by participating in a new talk show for the streaming giant Netflix. The star has been heavily occupied with production duties for the upcoming digital series.",
+        "This venture marks an engaging collaboration between the iconic actor and the streaming service, offering fans a fresh format to experience his presence outside of traditional theatrical releases.",
+        "Further details regarding the show's format and premiere date are anticipated as production progresses."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://telugucinema.com/news/adipurush-was-a-bad-film-but-its-songs-were-devotional-says-lyricist",
-      "title": "Lyricist Reflects on Adipurush, Calling Film Flawed Yet Its Music Devotional",
-      "summary": "Lyricist opens up about the cinematic reception of Adipurush, acknowledging that while the overall movie fell short, its musical compositions maintained a devotional essence.",
+      "title": "Adipurush Described as a Flawed Film with Devotional Music by Lyricist",
+      "summary": "A lyricist has openly characterized the feature film Adipurush as a weak cinematic effort, while specifically praising its musical numbers as deeply devotional. The candid remarks offer a unique perspective on the controversial movie's creative components.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/adipurush-was-a-bad-film-but-its-songs-were-devotional-says-lyricist",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/adipurush-songs-oct2926.jpg",
@@ -98,121 +345,17 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In a recent commentary surrounding the high-profile feature Adipurush, a notable perspective has emerged from within the creative team. The lyricist behind the project candidly addressed the film's reception, freely admitting that the cinematic output as a whole turned out to be a bad film.",
-        "Despite the heavy criticism directed at the movie's execution, the lyricist stood firm on the quality of its musical work. According to the statements, the songs crafted for the feature retained a powerful devotional quality, connecting with the spiritual themes intended by the creators regardless of the overarching cinematic flaws.",
-        "This frank assessment offers a unique look at how artists sometimes view projects that face harsh public and critical backlashes. While the film struggled to find approval among audiences, the musical contributions continue to be viewed through the lens of their devotional intent."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438702/cult-release-trailer-vishwaksen-turns-up-violence",
-      "title": "Vishwaksen Amps Up the Action in the CULT Release Trailer",
-      "summary": "Actor Vishwaksen brings a heavy wave of high-octane action and intense violence in the newly dropped trailer for CULT, generating fresh buzz among movie enthusiasts.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438702/cult-release-trailer-vishwaksen-turns-up-violence",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/IMG-20261029-WA0028.jpg",
-      "publishedAt": "2026-10-29T08:23:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The excitement surrounding upcoming cinema has kicked up a notch with the release of the official trailer for CULT. Headlined by actor Vishwaksen, the promotional preview showcases a distinct shift toward heavy action and heightened aggression.",
-        "In this latest look at the project, Vishwaksen turns up the violence significantly, offering audiences a gritty and intense cinematic experience. The trailer puts the actor's fierce screen presence front and center, signaling a raw and hard-hitting tone for the feature.",
-        "As promotional material continues to roll out, this action-heavy trailer provides a clear glimpse into what fans can expect from the project. The emphasis on high-stakes violence highlights the aggressive trajectory chosen for Vishwaksen's character in CULT."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438699/dhanush-entering-politics-no-time-soon",
-      "title": "Reports Indicate No Immediate Political Entry for Dhanush",
-      "summary": "Popular actor Dhanush is reportedly not planning to transition into the political arena anytime soon, keeping his primary focus centered squarely on his film career.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438699/dhanush-entering-politics-no-time-soon",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/dhanush-Politics.jpg",
-      "publishedAt": "2026-10-29T07:40:55.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Amid ongoing speculation regarding actors making the leap into the political sphere, recent updates suggest that prominent film star Dhanush has no plans to enter politics in the near future.",
-        "The clarification comes as a point of interest for cinema followers and fans who frequently track the intersection of prominent South Indian actors and public office. For now, the acclaimed performer is keeping his professional commitments locked firmly within the entertainment industry.",
-        "With no political campaign on the horizon, Dhanush continues to dedicate his time and energy entirely to his ongoing and upcoming cinematic endeavors, keeping his career trajectory focused strictly on the silver screen."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130950/radhika-apte-shooting-experience-in-innerwear.html",
-      "title": "Radhika Apte Opens Up About Filming Experience in Innerwear",
-      "summary": "Acclaimed actor Radhika Apte has shared insights regarding her professional experiences while filming in innerwear. The disclosure highlights the unique circumstances actors sometimes encounter during movie productions.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130950/radhika-apte-shooting-experience-in-innerwear.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/radhika-apte-shooting-experience-in-innerwear-1793258425378-1793258425679.jpg",
-      "publishedAt": "2026-10-29T07:20:29.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Radhika Apte has recently drawn attention by discussing her filming experiences involving innerwear. The commentary offers a glimpse into the various physical and creative demands placed on performers during motion picture shoots.",
-        "While specific details regarding the project remain limited within the initial reports, Apte's statements touch upon the realities of working on set. Such behind-the-scenes accounts often shed light on the personal perspectives of actors navigating diverse cinematic roles."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/cult-release-trailer-promises-bloodshed-and-brutality-hk.html",
-      "title": "#Cult Release Trailer Teases Intense Action and Violence",
-      "summary": "The newly unveiled release trailer for #Cult indicates a heavy focus on bloodshed and brutality. The promotional footage sets a gritty tone for the upcoming cinematic project.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/cult-release-trailer-promises-bloodshed-and-brutality-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Cult-4.webp",
-      "publishedAt": "2026-10-29T06:42:07.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The promotional campaign for the film #Cult has officially heated up with the launch of its release trailer. According to the initial previews, audiences can expect a gritty narrative defined by heavy bloodshed and intense brutality.",
-        "Trailers of this nature are designed to build anticipation among moviegoers looking for high-octane drama. As the release approaches, this latest preview offers a clear look at the tone and visual style driving the project."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.telugu360.com/cult-release-trailer-vishwak-sens-vishwaroopam/",
-      "title": "Vishwak Sen Shines in the Cult Release Trailer",
-      "summary": "The release trailer for Cult has arrived, showcasing lead actor Vishwak Sen in a striking presentation. The preview highlights key aspects of the project, generating buzz among fans.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/cult-release-trailer-vishwak-sens-vishwaroopam/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/5cd5a41c-5a44-41c2-aaec-e7a57844118a.jpeg",
-      "publishedAt": "2026-10-29T06:21:39.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The promotional trailer for Cult has captured widespread attention, putting the spotlight on actor Vishwak Sen. Often associated with striking cinematic presentations, Sen's presence in the trailer anchors the preview's core appeal.",
-        "As anticipation builds for the project, this newly released promotional video serves as a major talking point for followers of the actor and the film alike. The trailer successfully sets the stage for what is to come upon the movie's release."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130948/sai-pallavi-ravana-comments-create-huge-controversy.html",
-      "title": "Sai Pallavi Faces Major Backlash Over Ravana Remarks",
-      "summary": "Actor Sai Pallavi has sparked a significant controversy following her recent comments concerning the character of Ravana. The discussion has drawn considerable attention across entertainment circles.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130948/sai-pallavi-ravana-comments-create-huge-controversy.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sai-pallavi-ravana-comments-create-huge-controversy-1793254783350-1793254783519.jpg",
-      "publishedAt": "2026-10-29T06:19:46.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Sai Pallavi has found herself at the center of a major public controversy following recent remarks about Ravana. The statements have ignited intense discussions and debate across various media platforms.",
-        "Given the cultural significance and widespread interest surrounding mythological adaptations, comments of this nature frequently draw sharp reactions. The ongoing discourse highlights the intense scrutiny public figures face when discussing iconic characters."
+        "The theatrical feature Adipurush has drawn candid remarks from its creative contributors, with a lyricist openly describing the movie as a poor film during discussions about the project.",
+        "Despite the critical view of the film overall, the lyricist drew a distinct line regarding the soundtrack, emphasizing that the songs composed for the project maintained a strongly devotional quality.",
+        "Such reflections provide a candid look at the creation of high-profile cinematic projects that experience mixed public and critical receptions."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://telugucinema.com/news/janhvi-kapoors-peddi-admission-could-haunt-director-buchi-babu",
-      "title": "Janhvi Kapoor's Peddi Comments Create Waves for Director Buchi Babu",
-      "summary": "A recent admission made by Janhvi Kapoor regarding the film Peddi has drawn significant attention, raising potential concerns for director Buchi Babu. Cineinsta explores the early industry buzz surrounding this development.",
+      "title": "Janhvi Kapoor's Recent Remarks on Peddi Raise Questions for Director Buchi Babu",
+      "summary": "Recent comments made by actor Janhvi Kapoor regarding the project Peddi have sparked discussions and potential concerns for filmmaker Buchi Babu within the Telugu cinema industry.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/janhvi-kapoors-peddi-admission-could-haunt-director-buchi-babu",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/buchibabu-janhvikapoor-oct22926.jpg",
@@ -220,53 +363,16 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "A recent statement by actor Janhvi Kapoor concerning the project Peddi has sparked discussions within the film community. The admission, tied to the much-discussed production, has quickly become a talking point for followers of Telugu cinema.",
-        "The situation places director Buchi Babu under the industry spotlight as observers weigh the implications of Kapoor's remarks on the film's trajectory. As developments continue to unfold, stakeholders are watching closely to see how this impacts the creative path of Peddi.",
-        "Such admissions often shape audience expectations and industry perceptions in significant ways. Cineinsta will continue to track further updates regarding Janhvi Kapoor and Buchi Babu's collaborative journey."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130947/saira-banu-is-bereft-of-any-controversy.html",
-      "title": "Reflecting on Saira Banu's Controversy-Free Legacy in Cinema",
-      "summary": "Veteran cinema figure Saira Banu remains celebrated for maintaining a career entirely bereft of controversy. Recent insights shared by Aadi highlight the enduring grace of the legendary personality.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130947/saira-banu-is-bereft-of-any-controversy.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/saira-banu-is-bereft-of-any-controversy-1793252549274-1793252549618.jpg",
-      "publishedAt": "2026-10-29T05:42:34.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "In the dynamic world of entertainment, maintaining a career devoid of controversy is a rare achievement. Veteran personality Saira Banu has long stood out for cultivating a legacy defined by dignity and a clean public standing.",
-        "Recent insights shared by Aadi have shed additional light on the lesser-known aspects of her journey, reminding audiences of her admirable path. These reflections emphasize why Saira Banu continues to command immense respect among peers and film enthusiasts alike.",
-        "As stories and secrets from the industry's past come to light, the cinematic community continues to honor figures who built their reputations purely on talent and decorum. Her spotless record remains a gold standard for public life in the arts."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://telugucinema.com/news/cyclone-arnab-effect-aadarsha-kutumbam-and-cult-face-box-office-impact",
-      "title": "Cyclone Arnab Disrupts Box Office Runs for Aadarsha Kutumbam and Cult",
-      "summary": "The theatrical performances of regional releases Aadarsha Kutumbam and Cult have faced disruptions due to the impact of Cyclone Arnab. Box office collections for both titles experienced notable effects from the adverse weather.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/cyclone-arnab-effect-aadarsha-kutumbam-and-cult-face-box-office-impact",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/aadarshakutumbam-cult-oct2926.jpg",
-      "publishedAt": "2026-10-29T05:08:53.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Natural weather disruptions continue to pose challenges for theatrical releases, with Cyclone Arnab recently altering the box office landscape for Telugu cinema. Films currently running in theaters, including Aadarsha Kutumbam and Cult, have felt the immediate impact of the adverse conditions.",
-        "With audiences staying indoors for safety, box office numbers for both movies experienced a noticeable slowdown. Such weather-related interruptions frequently alter the expected opening and running trajectories of prominent releases.",
-        "Industry analysts are closely monitoring how titles like Aadarsha Kutumbam and Cult will recover once conditions normalize and regular theatrical footfall resumes."
+        "Actor Janhvi Kapoor has recently made statements concerning the film Peddi that have drawn attention across the entertainment landscape. These admissions regarding the project have introduced new talking points surrounding its production and planning.",
+        "The remarks specifically point toward potential implications for director Buchi Babu as he moves forward with the film. While details remain limited, industry followers are analyzing what these admissions could mean for the collaborative direction of the upcoming cinematic venture."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
       "id": "https://www.123telugu.com/mnews/vrushakarma-first-single-update-is-here-hk.html",
-      "title": "First Single Update Announced for Vrushakarma",
-      "summary": "Makers of the upcoming project Vrushakarma have officially rolled out an update regarding their much-anticipated first single. Music enthusiasts and fans can now look forward to the upcoming promotional track.",
+      "title": "Makers Announce First Single Update for Vrushakarma",
+      "summary": "The creative team behind the upcoming film Vrushakarma has officially released a fresh update regarding the launch of their movie's very first single, generating excitement among fans.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/vrushakarma-first-single-update-is-here-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Vrushakarma.webp",
@@ -274,168 +380,8 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Anticipation is building for the upcoming film Vrushakarma as the production team officially releases a fresh update concerning the project's first single. Musical promotions play a crucial role in setting the tone for new releases, and this announcement has generated considerable excitement among followers.",
-        "Further details regarding the launch of the track are expected to follow as the makers ramp up promotional activities. Fans of the film have taken to social media to celebrate the latest development.",
-        "Cineinsta will keep readers updated on all further musical drops and promotional milestones for Vrushakarma as they are officially announced."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/diwali-2026-releases-screen-battle-heats-up-in-tamil-nadu-prp.html",
-      "title": "Tamil Nadu Screen Battle Heats Up For Diwali 2026",
-      "summary": "The competition for screen space in Tamil Nadu during the Diwali 2026 festive season is already intensifying. Industry tracking points to an anticipated high-stakes box office showdown as multiple films eye the lucrative holiday window.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/diwali-2026-releases-screen-battle-heats-up-in-tamil-nadu-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/scene-5.webp",
-      "publishedAt": "2026-10-28T19:30:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The theatrical landscape in Tamil Nadu is gearing up for a competitive festive season as preparations for Diwali 2026 releases begin to take shape. Industry discussions highlight an intensifying screen battle as filmmakers and distributors eye optimal positioning for the major holiday period.",
-        "Festive stews traditionally drive massive theatrical footfall in the region, making Diwali one of the most coveted release windows of the year. With multiple cinematic projects locking in their sights on the 2026 celebration, stakeholders are anticipating high demand for screens across the state.",
-        "As the timeline moves forward, further announcements regarding official release slates and screen distribution strategies are expected to unfold. The evolving lineup underscores the perennial significance of holiday box-office clashes in regional cinema."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/janhvi-kapoor-finally-reacts-to-peddi-controversy-says-she-takes-responsibility-for-her-part-prp.html",
-      "title": "Janhvi Kapoor Addresses Peddi Controversy and Takes Responsibility",
-      "summary": "Actor Janhvi Kapoor has spoken out regarding the Peddi controversy, explicitly stating that she takes responsibility for her part in the matter. Her comments mark a direct response to ongoing discussions surrounding the project.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/janhvi-kapoor-finally-reacts-to-peddi-controversy-says-she-takes-responsibility-for-her-part-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/peddi.webp",
-      "publishedAt": "2026-10-28T19:05:36.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Janhvi Kapoor has finally addressed the controversy surrounding Peddi, offering her perspective on the situation. In her recent statements, the actor openly acknowledged her involvement and stated that she takes full responsibility for her part.",
-        "The discussion surrounding Peddi has drawn significant attention from followers and industry observers alike. By stepping forward to address the issue directly, Kapoor has provided clarity on her standpoint amidst the ongoing discourse.",
-        "As developments continue to be monitored by fans and media, this reaction puts a spotlight on accountability within the entertainment industry. Further updates on the project and the aftermath of the controversy remain anticipated."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ramayana-king-can-they-challenge-dhurandhar-2-at-the-box-office-avd.html",
-      "title": "Box Office Showdown: Can Ramayana and King Challenge Dhurandhar 2?",
-      "summary": "Industry circles are buzzing with box-office comparisons as questions arise over whether upcoming big-ticket projects Ramayana and King can challenge Dhurandhar 2. The prospective matchups have sparked intense debate regarding future theatrical supremacy.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ramayana-king-can-they-challenge-dhurandhar-2-at-the-box-office-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ramayana-12.webp",
-      "publishedAt": "2026-10-28T18:31:03.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The Indian cinema box office landscape is prompting major discussions regarding upcoming competitive clashes. Specifically, industry observers are questioning whether high-profile cinematic ventures like Ramayana and King will be able to challenge the box office footing of Dhurandhar 2.",
-        "Such comparisons highlight the massive scale and anticipated commercial stakes associated with these major titles. Each project carries significant weight as studios look toward dominant theatrical runs and audience reception.",
-        "While exact box-office outcomes remain to be seen upon release, the anticipation surrounding these potential clashes demonstrates the high expectations placed on upcoming event films in the Indian film market."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438654/jailer-in-black-and-white-an-experiment-not-for-everyone",
-      "title": "Jailer In Black And White: Examining A Bold Experimental Release",
-      "summary": "The decision to present Jailer in a black-and-white format has sparked conversations about whether such a unique presentation is an experiment suited for all audiences. The distinct stylistic choice offers a fresh perspective on a familiar title.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438654/jailer-in-black-and-white-an-experiment-not-for-everyone",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/jailer-black-and-white-.jpg",
-      "publishedAt": "2026-10-28T18:07:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The stylistic presentation of Jailer in black and white has emerged as a notable talking point, raising questions about audience reception to such creative choices. Experimental formats in mainstream cinema often provoke diverse reactions from viewers and critics alike.",
-        "By stripping away color, this version alters the visual tone and aesthetic experience of the feature. Such artistic departures are rarely mainstream, making it a compelling subject of discussion for cinephiles interested in unconventional presentation styles.",
-        "Whether this distinct experiment finds a broad appreciative audience or remains a niche offering depends heavily on viewer preferences. Nevertheless, exploring alternative formats for established titles keeps creative discourse active within the industry."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438641/janhvi-kapoors-first-public-reaction-to-peddi-controversy",
-      "title": "Janhvi Kapoor Breaks Silence on the Peddi Controversy",
-      "summary": "Actor Janhvi Kapoor has shared her initial public reaction regarding the ongoing controversy surrounding Peddi. The developments have captured significant attention across the entertainment landscape.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438641/janhvi-kapoors-first-public-reaction-to-peddi-controversy",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/janhvi-Kapoor-peddi-.jpg",
-      "publishedAt": "2026-10-28T17:27:37.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Janhvi Kapoor has officially addressed the discussions surrounding the Peddi controversy, offering her first public reaction to the matter. The ongoing situation has sparked considerable interest and discussion among cinema enthusiasts and followers alike.",
-        "As the situation continues to unfold, Kapoor's comments mark a notable development in the timeline of the controversy. Observers and fans are closely following how these events will impact the broader cinematic discourse moving forward."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438634/niharikas-pocket-rockets-ambition-meets-dangerous-gamble",
-      "title": "Niharika's Pocket Rockets Explores Ambition and Risk",
-      "summary": "Niharika's Pocket Rockets has emerged as a topic of discussion, highlighting a bold intersection of high ambition and significant cinematic risk.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438634/niharikas-pocket-rockets-ambition-meets-dangerous-gamble",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/IMG-20261028-WA0062.jpg",
-      "publishedAt": "2026-10-28T16:42:19.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The project Niharika's Pocket Rockets has drawn attention for its intriguing approach, described as a meeting point between immense ambition and a dangerous gamble. Creative endeavors that push boundaries often ignite discussions regarding their potential risks and rewards.",
-        "Industry observers continue to monitor how these ambitious narrative choices will resonate within the evolving landscape of cinema. Such high-stakes ventures remain a focal point for audiences interested in bold storytelling experiments."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438612/distributor-dil-raju-is-back-in-the-game",
-      "title": "Prominent Distributor Dil Raju Returns to Active Action",
-      "summary": "Well-known distributor Dil Raju is back in the game, signaling a major update for upcoming trade and distribution circles.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438612/distributor-dil-raju-is-back-in-the-game",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Dil-raju-distribution.jpg",
-      "publishedAt": "2026-10-28T16:06:41.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Noted distributor Dil Raju has made a prominent return to active involvement, marking a notable update for the film trade ecosystem. Industry participants frequently look to established distributors to gauge upcoming theatrical schedules and market dynamics.",
-        "This return brings fresh momentum to distribution circles, where his strategic involvement has historically influenced film releases. Observers anticipate further updates regarding his upcoming slate and business engagements."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438609/sai-pallavis-ravana-remark-a-misstep-before-ramayanas-release",
-      "title": "Examining Sai Pallavi's Past Comments on Ravana Ahead of Ramayana",
-      "summary": "As the release of the upcoming film Ramayana approaches, discussions have resurfaced surrounding actor Sai Pallavi and a past remark she made concerning the character of Ravana.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438609/sai-pallavis-ravana-remark-a-misstep-before-ramayanas-release",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Sai-pallavi-ravana-.jpg",
-      "publishedAt": "2026-10-28T15:55:45.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "As anticipation builds around the upcoming cinematic project Ramayana, attention has once again turned toward actor Sai Pallavi and a controversial remark she previously made regarding the character of Ravana.",
-        "The discussion highlights how older statements by prominent actors can resurface and draw public scrutiny as they take on major roles in high-profile mythological productions.",
-        "While the focus remains on the creative trajectory of the film and its casting choices, discussions and debates continue to circulate among film enthusiasts regarding these remarks leading up to the release."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/3/130939/pretty-actresses-turning-powerful-cops.html",
-      "title": "The Trend of Telugu Actresses Stepping into Powerful Police Roles",
-      "summary": "A growing trend highlights prominent Telugu actresses transitioning from conventional roles to portraying powerful police officers on screen, drawing fresh interest from moviegoers.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/3/130939/pretty-actresses-turning-powerful-cops.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/pretty-actresses-turning-powerful-cops-1793189888187-1793189889052.jpg",
-      "publishedAt": "2026-10-28T14:28:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A notable shift is currently drawing attention within the Telugu film industry as well-known actresses take on powerful law enforcement roles. This casting trend highlights the versatility of performers who are increasingly stepping into authority figures and action-oriented characters.",
-        "Portraying police officers allows these actors to showcase a different dimension of their on-screen presence, moving away from traditional character dynamics. The evolution reflects changing patterns in regional cinema storytelling and character development.",
-        "As more performers embrace these commanding personas, audiences continue to respond positively to depictions of strong women upholding justice on the silver screen."
+        "Anticipation is building for the upcoming movie Vrushakarma as the production team rolls out promotional updates. Listeners and film enthusiasts have been waiting for musical content from the feature.",
+        "An official update regarding the release of the film's first single has now been announced. This musical teaser marks a notable step in the promotional campaign for Vrushakarma, giving audiences their first taste of the soundtrack."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
@@ -443,13 +389,23 @@
   ],
   "trailers": [
     {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
+      "id": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/prabhas-starrer-fauzi-faces-historical-controversy-as-netajis-grandnephew-chandrakumar-bose-questions-glimpse-featuring-subhas-chandra-bose-and-adolf-hitler-demands-apology-from-hanu-raghavapudi/articleshow/135211927.cms",
+      "title": "Prabhas starrer ‘Fauzi’ faces historical controversy as Netaji’s grandnephew Chandrakumar Bose questions glimpse featuring Subhas Chandra Bose and Adolf Hitler, demands apology from Hanu Raghavapudi",
       "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/prabhas-starrer-fauzi-faces-historical-controversy-as-netajis-grandnephew-chandrakumar-bose-questions-glimpse-featuring-subhas-chandra-bose-and-adolf-hitler-demands-apology-from-hanu-raghavapudi/articleshow/135211927.cms",
+      "img": "https://static.toiimg.com/thumb/msid-135211949,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://telugu.indiaglitz.com/movie-news/husharu-2-teaser-youngsters-impress-with-action-and-comedy-r-narayana-murthy-makes-a-powerful-entry",
+      "title": "హుషారు 2 టీజర్: యాక్షన్, కామెడీతో అదరగొట్టిన కుర్రాళ్లు.. పవర్‌ఫుల్ ఎంట్రీ ఇచ్చిన ఆర్. నారాయణమూర్తి!",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://telugu.indiaglitz.com/movie-news/husharu-2-teaser-youngsters-impress-with-action-and-comedy-r-narayana-murthy-makes-a-powerful-entry",
+      "img": "https://i.ytimg.com/vi/a7ehEhQnALE/hqdefault.jpg",
+      "youtubeId": "a7ehEhQnALE",
+      "publishedAt": "2026-10-28T03:41:26.000Z",
       "language": "Telugu"
     },
     {
@@ -483,26 +439,6 @@
       "language": "Telugu"
     },
     {
-      "id": "https://indiaglitz.com/husharu-2-teaser-cult-boys-tequila-dream-turns-into-a-wild-adventure",
-      "title": "Husharu 2 Teaser: Cult Boys’ Tequila Dream Turns Into a Wild Adventure",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/husharu-2-teaser-cult-boys-tequila-dream-turns-into-a-wild-adventure",
-      "img": "https://i.ytimg.com/vi/a7ehEhQnALE/hqdefault.jpg",
-      "youtubeId": "a7ehEhQnALE",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/prabhas-starrer-fauzi-faces-historical-controversy-as-netajis-grandnephew-chandrakumar-bose-questions-glimpse-featuring-subhas-chandra-bose-and-adolf-hitler-demands-apology-from-hanu-raghavapudi/articleshow/135211927.cms",
-      "title": "Prabhas starrer ‘Fauzi’ faces historical controversy as Netaji’s grandnephew Chandrakumar Bose questions glimpse featuring Subhas Chandra Bose and Adolf Hitler, demands apology from Hanu Raghavapudi",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/prabhas-starrer-fauzi-faces-historical-controversy-as-netajis-grandnephew-chandrakumar-bose-questions-glimpse-featuring-subhas-chandra-bose-and-adolf-hitler-demands-apology-from-hanu-raghavapudi/articleshow/135211927.cms",
-      "img": "https://static.toiimg.com/thumb/msid-135211949,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/pratap-official-trailer/videoshow/135211475.cms",
       "title": "Pratap - Official Trailer​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
       "source": "ETimes Telugu",
@@ -510,16 +446,6 @@
       "img": "https://static.toiimg.com/thumb/msid-135211475,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-10-26T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://telugu.indiaglitz.com/movie-news/adarsha-kutumbam-trailer-an-unexpected-action-treat-from-trivikram",
-      "title": "ఆదర్శ కుటుంబం ట్రైలర్‌.. త్రివిక్రమ్ నుంచి ఊహించని యాక్షన్ ట్రీట్!",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://telugu.indiaglitz.com/movie-news/adarsha-kutumbam-trailer-an-unexpected-action-treat-from-trivikram",
-      "img": "https://i.ytimg.com/vi/u0yUYgZ0s30/hqdefault.jpg",
-      "youtubeId": "u0yUYgZ0s30",
-      "publishedAt": "2026-10-24T04:26:45.000Z",
       "language": "Telugu"
     },
     {
@@ -560,6 +486,26 @@
       "img": "https://static.toiimg.com/thumb/msid-134959415,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-10-15T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/sathyavan-savithiri-official-tamil-teaser/videoshow/134942302.cms",
+      "title": "Sathyavan Savithiri - Official Tamil Teaser",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/regional/tamil/sathyavan-savithiri-official-tamil-teaser/videoshow/134942302.cms",
+      "img": "https://static.toiimg.com/thumb/msid-134942302,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134914336.cms",
+      "title": "Udta Teer - Official Trailer",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/udta-teer-official-trailer/videoshow/134914336.cms",
+      "img": "https://static.toiimg.com/thumb/msid-134914336,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
@@ -1885,6 +1831,50 @@
       }
     },
     {
+      "t": "Aadarsha Kutumbam (AK 47)",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "Not available",
+      "img": "",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.m9.news/reviews/aadarsha-kutumbam-ak-47-movie-review/",
+      "aggregator": {
+        "average": null,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": "https://www.m9.news/reviews/aadarsha-kutumbam-ak-47-movie-review/"
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
       "t": "Thella Kagitham",
       "l": "Telugu",
       "releaseDate": null,
@@ -1973,50 +1963,6 @@
       }
     },
     {
-      "t": "Mandaadi",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/mandaadi-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/mandaadi-movie-review-rating/"
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
       "t": "సమీక్ష : బా బా బ్లాక్ షీప్ - అక్కడక్కడా మెప్పించే కామెడీ డ్రామా",
       "l": "Telugu",
       "releaseDate": null,
@@ -2061,6 +2007,6 @@
       }
     }
   ],
-  "generatedAt": "2026-10-29T12:13:26.227Z",
+  "generatedAt": "2026-10-29T22:26:13.092Z",
   "reviewStatus": "auto-approved"
 }

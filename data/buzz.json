@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T13:34:17.153Z",
+  "updatedAt": "2026-10-29T22:27:02.804Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -50,7 +50,7 @@
     {
       "id": "sonyliv",
       "name": "SonyLIV",
-      "status": "stale"
+      "status": "ok"
     }
   ],
   "movies": [
@@ -68,8 +68,177 @@
       }
     },
     {
-      "id": "vijay-sethupathi-s-baththa-arrives-on-netflix-in-telugu-dubbed-format",
-      "title": "Vijay Sethupathi's Baththa Arrives on Netflix in Telugu-Dubbed Format",
+      "id": "is-jason-sanjay-set-to-make-his-acting-debut-under-the-direction-of-the-dude-filmmaker",
+      "title": "Is Jason Sanjay Set to Make His Acting Debut Under the Direction of the Dude Filmmaker?",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/12/Jason-Sanjay.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "rajinikanth-focuses-on-comedy-sequences-for-dharman-following-jailer-2-success",
+      "title": "Rajinikanth Focuses on Comedy Sequences for Dharman Following Jailer 2 Success",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/06/Dharman-3.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "pawan-kalyan-and-ram-charan-spark-speculation-over-a-special-on-screen-episode",
+      "title": "Pawan Kalyan and Ram Charan Spark Speculation Over a Special On-Screen Episode",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/og-34.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "producer-dil-raju-rumored-to-collaborate-with-pawan-kalyan-for-upcoming-project",
+      "title": "Producer Dil Raju Rumored to Collaborate with Pawan Kalyan for Upcoming Project",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/buzz-about-dil-raju-planning-film-with-pawan-kalyan-1793293434207-1793293435574.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "ram-charan-wraps-up-look-test-for-highly-anticipated-project-rc17",
+      "title": "Ram Charan Wraps Up Look Test for Highly Anticipated Project RC17",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ram-charan-look-test-for-rc17-completed-1793288656677-1793288657984.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "janhvi-kapoor-faces-social-media-backlash-following-remarks-on-south-filmmakers",
+      "title": "Janhvi Kapoor Faces Social Media Backlash Following Remarks on South Filmmakers",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/netizens-troll-janhvi-kapoor-for-her-comments-on-south-filmmakers-1793287987761-1793287989064.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "fresh-ott-releases-eight-movies-and-series-hit-netflix-this-week",
+      "title": "Fresh OTT Releases: Eight Movies and Series Hit Netflix This Week",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ott-moive.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "analyzing-vishwak-sen-s-bold-choice-of-action-and-violence",
+      "title": "Analyzing Vishwak Sen’s Bold Choice of Action and Violence",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/vishwaksen-cult-blood.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "venkatesh-concludes-promotional-campaign-as-aadarsha-kutumbam-prepares-for-release",
+      "title": "Venkatesh Concludes Promotional Campaign as Aadarsha Kutumbam Prepares for Release",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/venkatesh-aadarshakutumbam-oct2926.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "south-indian-filmmakers-maintain-silence-on-radhika-apte-s-remarks",
+      "title": "South Indian Filmmakers Maintain Silence on Radhika Apte's Remarks",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/radhikaapte-oct2926.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "aadarsha-kutumbam-venkatesh-film-s-worldwide-breakeven-target-revealed",
+      "title": "Aadarsha Kutumbam: Venkatesh Film's Worldwide Breakeven Target Revealed",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Aadarsha-Kutumbam.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "radhe-radhe-from-dulquer-s-aot-described-as-a-haunting-melody",
+      "title": "Radhe Radhe from Dulquer's AOT Described as a Haunting Melody",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Dulquer-aakasam-lo-oka-tara.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "chiranjeevi-pawan-kalyan-and-ram-charan-linked-to-megaverse",
+      "title": "Chiranjeevi, Pawan Kalyan, and Ram Charan Linked to Megaverse",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/chiru-pawan-charan-megaverse.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "vijay-sethupathi-starrer-baththa-arrives-on-netflix-in-telugu",
+      "title": "Vijay Sethupathi Starrer Baththa Arrives on Netflix in Telugu",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Baththa.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -81,8 +250,8 @@
       }
     },
     {
-      "id": "dhanush-and-mammootty-s-om-clarifying-the-connection-between-installments",
-      "title": "Dhanush and Mammootty's Om: Clarifying the Connection Between Installments",
+      "id": "dhanush-and-mammootty-project-om-clarified-to-have-no-sequel-links",
+      "title": "Dhanush and Mammootty Project Om Clarified to Have No Sequel Links",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/OM-2.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -94,8 +263,8 @@
       }
     },
     {
-      "id": "vishwak-sen-predicts-cult-status-for-upcoming-project-cult",
-      "title": "Vishwak Sen Predicts Cult Status for Upcoming Project Cult",
+      "id": "vishwak-sen-predicts-major-impact-for-cult-in-indian-cinema",
+      "title": "Vishwak Sen Predicts Major Impact for Cult in Indian Cinema",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Vishwak-Sen.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,9 +276,9 @@
       }
     },
     {
-      "id": "netflix-announces-new-talk-show-featuring-megastar-chiranjeevi-called-megaverse",
-      "title": "Netflix Announces New Talk Show Featuring Megastar Chiranjeevi Called Megaverse",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Megastar.webp",
+      "id": "nani-enjoys-portugal-vacation-ahead-of-bloody-romeo-november-schedule",
+      "title": "Nani Enjoys Portugal Vacation Ahead of Bloody Romeo November Schedule",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/nani-theparadise-sep2026.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -120,9 +289,9 @@
       }
     },
     {
-      "id": "atlee-and-dude-director-reportedly-linked-to-jason-sanjay-s-acting-debut",
-      "title": "Atlee and Dude Director Reportedly Linked to Jason Sanjay's Acting Debut",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Atlee-jason-sanjay-keerti-swaran.jpg",
+      "id": "is-vijay-deverakonda-s-rowdy-janardhana-planned-as-a-two-part-film",
+      "title": "Is Vijay Deverakonda's Rowdy Janardhana Planned as a Two-Part Film?",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/03/Rowdy-Janardhana.webp",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -133,8 +302,21 @@
       }
     },
     {
-      "id": "lyricist-reflects-on-adipurush-calling-film-flawed-yet-its-music-devotional",
-      "title": "Lyricist Reflects on Adipurush, Calling Film Flawed Yet Its Music Devotional",
+      "id": "chiranjeevi-engaged-in-shooting-for-netflix-talk-show",
+      "title": "Chiranjeevi Engaged in Shooting for Netflix Talk Show",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/09/megastarchiranjeevi-sep2026.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "adipurush-described-as-a-flawed-film-with-devotional-music-by-lyricist",
+      "title": "Adipurush Described as a Flawed Film with Devotional Music by Lyricist",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/adipurush-songs-oct2926.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,86 +328,8 @@
       }
     },
     {
-      "id": "vishwaksen-amps-up-the-action-in-the-cult-release-trailer",
-      "title": "Vishwaksen Amps Up the Action in the CULT Release Trailer",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/IMG-20261029-WA0028.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "reports-indicate-no-immediate-political-entry-for-dhanush",
-      "title": "Reports Indicate No Immediate Political Entry for Dhanush",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/dhanush-Politics.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "radhika-apte-opens-up-about-filming-experience-in-innerwear",
-      "title": "Radhika Apte Opens Up About Filming Experience in Innerwear",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/radhika-apte-shooting-experience-in-innerwear-1793258425378-1793258425679.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "cult-release-trailer-teases-intense-action-and-violence",
-      "title": "#Cult Release Trailer Teases Intense Action and Violence",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Cult-4.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "vishwak-sen-shines-in-the-cult-release-trailer",
-      "title": "Vishwak Sen Shines in the Cult Release Trailer",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/5cd5a41c-5a44-41c2-aaec-e7a57844118a.jpeg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "sai-pallavi-faces-major-backlash-over-ravana-remarks",
-      "title": "Sai Pallavi Faces Major Backlash Over Ravana Remarks",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sai-pallavi-ravana-comments-create-huge-controversy-1793254783350-1793254783519.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "janhvi-kapoor-s-peddi-comments-create-waves-for-director-buchi-babu",
-      "title": "Janhvi Kapoor's Peddi Comments Create Waves for Director Buchi Babu",
+      "id": "janhvi-kapoor-s-recent-remarks-on-peddi-raise-questions-for-director-buchi-babu",
+      "title": "Janhvi Kapoor's Recent Remarks on Peddi Raise Questions for Director Buchi Babu",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/buchibabu-janhvikapoor-oct22926.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -237,34 +341,8 @@
       }
     },
     {
-      "id": "reflecting-on-saira-banu-s-controversy-free-legacy-in-cinema",
-      "title": "Reflecting on Saira Banu's Controversy-Free Legacy in Cinema",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/saira-banu-is-bereft-of-any-controversy-1793252549274-1793252549618.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "cyclone-arnab-disrupts-box-office-runs-for-aadarsha-kutumbam-and-cult",
-      "title": "Cyclone Arnab Disrupts Box Office Runs for Aadarsha Kutumbam and Cult",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/aadarshakutumbam-cult-oct2926.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "first-single-update-announced-for-vrushakarma",
-      "title": "First Single Update Announced for Vrushakarma",
+      "id": "makers-announce-first-single-update-for-vrushakarma",
+      "title": "Makers Announce First Single Update for Vrushakarma",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Vrushakarma.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -276,93 +354,15 @@
       }
     },
     {
-      "id": "tamil-nadu-screen-battle-heats-up-for-diwali-2026",
-      "title": "Tamil Nadu Screen Battle Heats Up For Diwali 2026",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/scene-5.webp",
+      "id": "baththa",
+      "title": "Baththa",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Baththa.webp",
       "language": "Telugu",
-      "buzzScore": 27,
+      "buzzScore": 25,
       "status": "COOLING",
       "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "janhvi-kapoor-addresses-peddi-controversy-and-takes-responsibility",
-      "title": "Janhvi Kapoor Addresses Peddi Controversy and Takes Responsibility",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/peddi.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "box-office-showdown-can-ramayana-and-king-challenge-dhurandhar-2",
-      "title": "Box Office Showdown: Can Ramayana and King Challenge Dhurandhar 2?",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ramayana-12.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "jailer-in-black-and-white-examining-a-bold-experimental-release",
-      "title": "Jailer In Black And White: Examining A Bold Experimental Release",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/jailer-black-and-white-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "janhvi-kapoor-breaks-silence-on-the-peddi-controversy",
-      "title": "Janhvi Kapoor Breaks Silence on the Peddi Controversy",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/janhvi-Kapoor-peddi-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "niharika-s-pocket-rockets-explores-ambition-and-risk",
-      "title": "Niharika's Pocket Rockets Explores Ambition and Risk",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/IMG-20261028-WA0062.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "prominent-distributor-dil-raju-returns-to-active-action",
-      "title": "Prominent Distributor Dil Raju Returns to Active Action",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Dil-raju-distribution.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
+        "news": 0,
+        "reviews": 1,
         "trailers": 0
       }
     }
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-29T13:33:45.204Z",
-      "lastAttemptedAt": "2026-10-29T13:33:45.204Z",
+      "updatedAt": "2026-10-29T22:26:25.823Z",
+      "lastAttemptedAt": "2026-10-29T22:26:25.823Z",
       "items": [
         {
           "title": "The Paradise",
@@ -384,7 +384,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-10-29T13:34:00.056Z",
+      "lastAttemptedAt": "2026-10-29T22:26:44.793Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -398,7 +398,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-29T13:34:01.414Z",
+      "lastAttemptedAt": "2026-10-29T22:26:46.109Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +466,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-29T13:34:01.653Z",
+      "lastAttemptedAt": "2026-10-29T22:26:46.429Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-29T13:34:12.166Z",
-      "lastAttemptedAt": "2026-10-29T13:34:12.166Z",
+      "updatedAt": "2026-10-29T22:26:57.763Z",
+      "lastAttemptedAt": "2026-10-29T22:26:57.763Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,30 +504,29 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-29T13:34:14.125Z",
+      "lastAttemptedAt": "2026-10-29T22:26:59.463Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-29T13:34:15.283Z",
+      "lastAttemptedAt": "2026-10-29T22:27:00.787Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
-      "status": "stale",
-      "updatedAt": "2026-10-28T13:25:56.062Z",
-      "lastAttemptedAt": "2026-10-29T13:34:17.150Z",
+      "status": "ok",
+      "updatedAt": "2026-10-29T22:27:02.802Z",
+      "lastAttemptedAt": "2026-10-29T22:27:02.802Z",
       "items": [
         {
-          "title": "Watch DC Full HD Movie Online - Sony LIV",
-          "url": "https://www.sonyliv.com/movies/dc-1590016690",
-          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000026043/1791476990957783_DC_Landscape_Thumb.jpg?w=200&q=high",
+          "title": "Watch Immortal Full HD Movie Online - Sony LIV",
+          "url": "https://www.sonyliv.com/movies/immortal-1590016747",
+          "img": "https://images.slivcdn.com/videoasset_images/manage_file/1000027078/1792688940000536_IMMORTAL_Landscape_Thumb.jpg?w=200&q=high",
           "languages": "Telugu"
         }
-      ],
-      "note": "Fresh extraction failed or returned no validated titles; the last successful dataset was preserved."
+      ]
     }
   },
   "methodology": "OTT tabs are collected independently from each platform public catalogue or movie surface. Netflix and ZEE5 use Telugu catalogue pages. Prime Video and other platforms verify Telugu evidence from listing/detail pages where required. No hard-coded movie list is used. A temporary source failure never replaces the last successful OTT dataset with zero items."
