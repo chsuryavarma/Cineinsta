@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:27:02.804Z",
+  "updatedAt": "2026-10-29T22:55:52.035Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,13 +370,79 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-10-29T22:26:25.823Z",
-      "lastAttemptedAt": "2026-10-29T22:26:25.823Z",
+      "updatedAt": "2026-10-29T22:55:15.098Z",
+      "lastAttemptedAt": "2026-10-29T22:55:15.098Z",
       "items": [
         {
-          "title": "The Paradise",
+          "title": "Watch Dorothy | Netflix",
+          "url": "https://www.netflix.com/title/83238479",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTiEeCqXK0iy6bwDA-s5hYONsXz1NpxiY2gKD4AyF45o7wLqjrVwjTpHB1TrISWEgoV1vmUgQohuPw6XmHoSaQJQmeLpq2aedVMI.jpg?r=5c2",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Gajab Raat | Netflix Official Site",
+          "url": "https://www.netflix.com/title/81987289",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQ-UIPrUbMBjkk2KH_ykJkDZbSb5w0i-e5wH_NdEAvrL42qwWaIzLBz0nY9aZ8xMoyoD_xAt2TWJ_EslOe91iFh1Apx8oRRBV5KS.jpg?r=1b3",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch The Paradise | Netflix",
           "url": "https://www.netflix.com/title/82134615",
-          "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/paradise8.jpg",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSFCgxVsXBj3DFIc59rq8ddWDfU7a5quWhErEPhni5yQ1aHPhV3ieexy9oxNGnfQmjMoEVpgcPq6rhbQEagnX_dKnnbOCp1I5Spk.jpg?r=05d",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Vishwanath & Sons | Netflix",
+          "url": "https://www.netflix.com/title/82034837",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaGpoOfcAlPb2yLOkkjH59ekrZoLnHCwfOUx4JVdUlYuA7SmTUEjUY51RCf2v83FnwVACq92LHPtK2Bnm_TUAYDhwn82e1-Zw6ee.jpg?r=4d5",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Dhoomakethu | Netflix",
+          "url": "https://www.netflix.com/title/83206696",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUtYPOMaFsAComSzPG1E6K_0kK5Op29UPw7XAhi3x2xp3_XbVyNxa5Cekvk7M0BjAlmA1xadTbRKc9mI_7n4TlZE_1j51pCDWTDr.jpg?r=9fe",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Mandaadi | Netflix",
+          "url": "https://www.netflix.com/title/82787383",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSadHY_axWcpvC1a4eLhSChmKn_jCLlEYrieSZAOI8c7XWULiYC-8p0cZBjFan32AEnH2uWcqpl5vNwOjESlqxKVQsrZ3wrOQx7Y.jpg?r=1df",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Epic | Netflix",
+          "url": "https://www.netflix.com/title/82673568",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVleznlanl7yzUKcTilGEy1kCGG487OuVItHJQ1Vi0AArlAnCWI2vVZqZaRtAIcmq9w30dB714vVnMqJbaJC1-bala4ZGRwfkhAf.jpg?r=17f",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Modha Rathri | Netflix",
+          "url": "https://www.netflix.com/title/82811466",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaybAF6e1i362T1v-lvnVlRaum3W0VMaeRj-8Rya5faYK-0DjiFksUwW2VaSMa3KuG-4afmZr5ruVUZB1axgqC4wH3KYLpLZJvWt.jpg?r=efd",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Irumudi | Netflix",
+          "url": "https://www.netflix.com/title/83001420",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS58fWfMQQ2yc0DEXQpiB4EDh-2HJ4bPjQTUaOS-YTKWhqj2YbJl7LJhAFAC6B3Le8wDR7G1HcF4fGcwuj3gfL1FayrBdHh04ekk.jpg?r=c83",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Pradhama Drishtiya Kuttakkar | Netflix",
+          "url": "https://www.netflix.com/title/83197640",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbJY_1PSUsknBs7D4fye0ZNVuXxGARnIKz5RF-mJ1RjFaH5NOx_ERfwfa6zy2b9TxE2mFdXuNuu6uVqDAzeyCmP4npzmiotQv4Z7.jpg?r=bdf",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Sub-Inspector Yugandhar | Netflix",
+          "url": "https://www.netflix.com/title/83001320",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfw-T3nmwVo0liW-P0lgErhuaoC7IMtw0nEGCLpHqWkjnl8FT_yDCNYXIwPBGQIDjSd6QJVpPO6GgVhFJX1eN4udRRko3fkiCBS5.jpg?r=dc5",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch GDN | Netflix",
+          "url": "https://www.netflix.com/title/82853382",
+          "img": "https://occ-0-3012-1007.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXjhDtsWv4HVJ2i5TJYwKos6Gp4bPY3JHtPF7-9u3ErK15O8bP6FvIDhbIPrlC3Fgla_ymrFWZizudUPGKAAGAo14IkM9NDAkx90.jpg?r=e48",
           "languages": "Telugu"
         }
       ]
@@ -384,7 +450,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-10-29T22:26:44.793Z",
+      "lastAttemptedAt": "2026-10-29T22:55:34.161Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -398,7 +464,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-10-29T22:26:46.109Z",
+      "lastAttemptedAt": "2026-10-29T22:55:35.381Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -466,14 +532,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-29T22:26:46.429Z",
+      "lastAttemptedAt": "2026-10-29T22:55:35.596Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-10-29T22:26:57.763Z",
-      "lastAttemptedAt": "2026-10-29T22:26:57.763Z",
+      "updatedAt": "2026-10-29T22:55:46.724Z",
+      "lastAttemptedAt": "2026-10-29T22:55:46.724Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -504,21 +570,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-29T22:26:59.463Z",
+      "lastAttemptedAt": "2026-10-29T22:55:48.677Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-10-29T22:27:00.787Z",
+      "lastAttemptedAt": "2026-10-29T22:55:49.992Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-10-29T22:27:02.802Z",
-      "lastAttemptedAt": "2026-10-29T22:27:02.802Z",
+      "updatedAt": "2026-10-29T22:55:52.033Z",
+      "lastAttemptedAt": "2026-10-29T22:55:52.033Z",
       "items": [
         {
           "title": "Watch Immortal Full HD Movie Online - Sony LIV",
