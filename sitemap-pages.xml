@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cineinsta.com/</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/news</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/buzz</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/box-office-battle.html</loc>
@@ -44,6 +44,14 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/aadarsha-kutumbam</loc>
+    <lastmod>2026-10-30T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/keerthy-suresh-s-akka-telugu-dubbed-series-on-netflix</loc>
+    <lastmod>2026-10-30T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/varam-episodes-3and4-telugu-web-series-on-jiohotstar</loc>
     <lastmod>2026-10-30T00:00:00.000Z</lastmod>
   </url>
   <url>
@@ -148,31 +156,23 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/drishyam-the-conclusion</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/hanuman-ansh</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/thella-kagitham</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/secret-soldier</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/</loc>
-    <lastmod>2026-10-30T21:56:32.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/latest-trailers-entertainment-videos-times-of-india</loc>
-    <lastmod>2026-10-31T00:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/shraddha-kapoor-gets-emotional-at-eetha-trailer-launch-says-my-grandmother-would-be-very-proud-of-me-for-being-a-part-of-this-film</loc>
-    <lastmod>2026-10-30T00:00:00.000Z</lastmod>
+    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/eetha-official-trailer</loc>
@@ -199,10 +199,6 @@
     <lastmod>2026-10-24T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/trailers/prabhas-fauzi-glimpse</loc>
-    <lastmod>2026-10-23T17:45:13.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.cineinsta.com/trailers/ramayana-rise-of-a-legend-official-hindi-trailer</loc>
     <lastmod>2026-10-16T00:00:00.000Z</lastmod>
   </url>
@@ -213,5 +209,17 @@
   <url>
     <loc>https://www.cineinsta.com/trailers/sathyavan-savithiri-official-tamil-teaser</loc>
     <lastmod>2026-10-14T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/udta-teer-official-trailer</loc>
+    <lastmod>2026-10-13T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/tum-mere-ho-official-trailer</loc>
+    <lastmod>2026-10-09T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/ranabaali-official-telugu-trailer</loc>
+    <lastmod>2026-10-08T00:00:00.000Z</lastmod>
   </url>
 </urlset>
