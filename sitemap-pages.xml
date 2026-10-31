@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cineinsta.com/</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/news</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/buzz</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/box-office-battle.html</loc>
@@ -156,23 +156,27 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/drishyam-the-conclusion</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/hanuman-ansh</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/thella-kagitham</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/secret-soldier</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/</loc>
-    <lastmod>2026-10-31T16:46:50.790Z</lastmod>
+    <lastmod>2026-10-31T20:57:46.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/latest-trailers-entertainment-videos-times-of-india</loc>
+    <lastmod>2026-11-01T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/eetha-official-trailer</loc>
@@ -217,9 +221,5 @@
   <url>
     <loc>https://www.cineinsta.com/trailers/tum-mere-ho-official-trailer</loc>
     <lastmod>2026-10-09T00:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/ranabaali-official-telugu-trailer</loc>
-    <lastmod>2026-10-08T00:00:00.000Z</lastmod>
   </url>
 </urlset>
