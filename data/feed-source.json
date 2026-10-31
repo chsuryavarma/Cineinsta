@@ -1,7 +1,150 @@
 {
-  "updatedAt": "2026-10-31T03:50:19.044Z",
+  "updatedAt": "2026-10-31T11:38:25.060Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.gulte.com/movienews/439023/gv-calls-aot-the-film-of-the-year",
+      "title": "GV Calls AOT the Film of the Year",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/439023/gv-calls-aot-the-film-of-the-year",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Dulquer-aakasam-lo-oka-tara.jpg",
+      "publishedAt": "2026-10-31T10:53:29.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131010/ee-nagaraniki-emaindi-2-trailer-release-date-and-time-announced.html",
+      "title": "Ee Nagaraniki Emaindi 2 Trailer Release Date and Time Announced",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Date Fixed For ENE Repeat Trailer Ee Nagaraniki Emaindi 2 Trailer Release Date and Time Announced By Rambabu Updated at:...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131010/ee-nagaraniki-emaindi-2-trailer-release-date-and-time-announced.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ee-nagaraniki-emaindi-2-trailer-release-date-and-time-announced-1793443752183-1793443751980.jpg",
+      "publishedAt": "2026-10-31T10:49:15.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/keerthy-suresh-akka-series-review-and-rating.html",
+      "title": "OTT Review: Keerthy Suresh's Akka - Telugu-Dubbed Series on Netflix",
+      "summary": "Keerthy Suresh 's Akka Series Review and Rating Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/keerthy-suresh-akka-series-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Akka-2.webp",
+      "publishedAt": "2026-10-31T10:45:16.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131008/sonu-sood-and-mla-t-prakash-goud-launch-oh-na-siddayya-song.html",
+      "title": "Sonu Sood and MLA T. Prakash Goud Launch Oh Na Siddayya Song",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Oh Na Siddayya Song Launch Sonu Sood and MLA T.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131008/sonu-sood-and-mla-t-prakash-goud-launch-oh-na-siddayya-song.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sonu-sood-and-mla-t-prakash-goud-launch-oh-na-siddayya-song-1793440264133-1793440264797.jpg",
+      "publishedAt": "2026-10-31T09:51:17.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/im-game-ott-release-dulquer-salmaans-flop-film-locks-streaming-date-prp.html",
+      "title": "I'm Game OTT release: Dulquer Salmaan's flop film locks streaming date",
+      "summary": "I’m Game OTT release: Dulquer Salmaan’s flop film locks streaming date Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/im-game-ott-release-dulquer-salmaans-flop-film-locks-streaming-date-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/im-game.webp",
+      "publishedAt": "2026-10-31T09:39:49.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/3/131003/shah-rukh-khan-king-first-song-on-his-birthday.html",
+      "title": "Shah Rukh Khan King First Song on His Birthday",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Gossips &gt;&gt; SRK King First Single Details Shah Rukh Khan King First Song on His Birthday By Rambabu Updated at: 2026-10-31 08:50:22 AM IST Shah...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/3/131003/shah-rukh-khan-king-first-song-on-his-birthday.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/shah-rukh-khan-king-first-song-on-his-birthday-1793436619120-1793436619633.jpg",
+      "publishedAt": "2026-10-31T08:50:22.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/rc17-sukumars-wife-shares-an-interesting-post-ram-charan-fans-thrilled-prp.html",
+      "title": "RC17: Sukumar's wife shares an interesting post, Ram Charan fans thrilled",
+      "summary": "RC17: Sukumar’s wife shares an interesting post, Ram Charan fans thrilled Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/rc17-sukumars-wife-shares-an-interesting-post-ram-charan-fans-thrilled-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/11/rc17.webp",
+      "publishedAt": "2026-10-31T08:16:20.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://telugucinema.com/news/director-sanjay-guptas-death-shocks-bollywood",
+      "title": "Director Sanjay Gupta’s death shocks Bollywood",
+      "summary": "--> --> Director Sanjay Gupta’s death shocks Bollywood - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News Movie Reviews Interviews...",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/director-sanjay-guptas-death-shocks-bollywood",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/10/sanjaygupta-oct3126.jpg",
+      "publishedAt": "2026-10-31T08:14:53.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/new-heroine-next-big-thing/",
+      "title": "New Heroine, Next Big Thing?",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News New Heroine, Next Big...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/new-heroine-next-big-thing/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Satvika-Veeravalli.jpg",
+      "publishedAt": "2026-10-31T08:09:25.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/dhurandhar-fame-sashwat-sachdev-in-talks-for-ntrs-dragon-avd.html",
+      "title": "Dhurandhar fame Sashwat Sachdev in talks for NTR’s Dragon?",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Dhurandhar fame Sashwat Sachdev in talks for NTR’s...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/dhurandhar-fame-sashwat-sachdev-in-talks-for-ntrs-dragon-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/dragon-1.webp",
+      "publishedAt": "2026-10-31T07:29:39.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/130999/sobhita-vettuvam-locks-its-release.html",
+      "title": "Sobhita Vettuvam locks its release",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Sobhita Vettuvam set for Pongal strike Sobhita Vettuvam locks its release By Rambabu Updated at: 2026-10-31 07:18:42 AM IST Sobhita Vettuvam locks its...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/130999/sobhita-vettuvam-locks-its-release.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sobhita-vettuvam-locks-its-release-1793431117898-1793431118189.jpg",
+      "publishedAt": "2026-10-31T07:18:42.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/sankranthi-2027-veterans-vs-young-actors/",
+      "title": "Sankranthi 2027: Veterans Vs Young Actors",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/sankranthi-2027-veterans-vs-young-actors/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sankranthi-2027-Veterans-Vs-Young-Actors.jpg",
+      "publishedAt": "2026-10-31T07:12:58.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/big-story-will-mahesh-wait-till-varanasi-release/",
+      "title": "Big Story: Will Mahesh wait till Varanasi Release?",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/big-story-will-mahesh-wait-till-varanasi-release/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/07/Mahesh-Babu-7.jpg",
+      "publishedAt": "2026-10-31T05:08:43.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.telugu360.com/friday-releases-off-to-a-poor-start/",
       "title": "Friday Releases off to a Poor Start",
@@ -10,28 +153,6 @@
       "url": "https://www.telugu360.com/friday-releases-off-to-a-poor-start/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/AK47-and-Cult-Big-Talk-Needed.jpg",
       "publishedAt": "2026-10-31T02:55:37.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130992/ramayana-sai-pallavi-and-rakul-face-controversy.html",
-      "title": "Ramayana: Sai Pallavi and Rakul Face Controversy",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Ramayana Promotions: When Words Backfire Ramayana: Sai Pallavi and Rakul Face Controversy By Rambabu Updated at: 2026-10-31...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130992/ramayana-sai-pallavi-and-rakul-face-controversy.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ramayana-sai-pallavi-and-rakul-face-controversy-1793415200346-1793415200851.jpg",
-      "publishedAt": "2026-10-31T02:53:24.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/rc17-buzz-telugu-girl-likely-to-play-the-female-lead-in-ram-charan-starrer-prp.html",
-      "title": "RC17 buzz: Telugu girl likely to play the female lead in Ram Charan starrer",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు RC17 buzz: Telugu girl likely to play the...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/rc17-buzz-telugu-girl-likely-to-play-the-female-lead-in-ram-charan-starrer-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ram-Charan.webp",
-      "publishedAt": "2026-10-31T02:30:49.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -80,6 +201,17 @@
       "category": "Telugu Cinema"
     },
     {
+      "id": "https://www.gulte.com/movienews/438961/gow-is-trivikrams-next-but-thaman-dreams-of-ramayana",
+      "title": "GOW Is Trivikram's Next, But Thaman Dreams Of Ramayana!",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/438961/gow-is-trivikrams-next-but-thaman-dreams-of-ramayana",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/thaman-trivikram-ramayana-.jpg",
+      "publishedAt": "2026-10-30T19:32:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
       "id": "https://www.gulte.com/movienews/438932/ak-47-finally-gets-relief-from-blast-zone-comparisons",
       "title": "AK 47 Finally Gets Relief From Blast Zone Comparisons?",
       "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
@@ -109,17 +241,6 @@
       "url": "https://www.gulte.com/movienews/438958/is-bollywood-bringing-back-its-romantic-era",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/aditya-chopra-bollywood.jpg",
       "publishedAt": "2026-10-30T17:05:05.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/130991/why-big-hits-put-more-pressure-on-telugu-heroes.html",
-      "title": "Why Big Hits Put More Pressure on Telugu Heroes",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; The Bigger the Hit, the Harder the Next for a Hero Why Big Hits Put More Pressure on Telugu Heroes By Rambabu Updated at:...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130991/why-big-hits-put-more-pressure-on-telugu-heroes.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/why-big-hits-put-more-pressure-on-telugu-heroes-1793378961099-1793378962106.jpg",
-      "publishedAt": "2026-10-30T16:49:26.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -157,17 +278,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130984/cult-movie-review.html",
-      "title": "Cult Movie Review",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Cult Review Cult Movie Review By Rambabu Updated at: 2026-10-30 11:34:03 AM IST Cult(2026) Movie: What's Behind Mass Ka Das...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130984/cult-movie-review.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/cult-movie-review-1793360041210-1793360042066.jpg",
-      "publishedAt": "2026-10-30T11:34:03.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.gulte.com/movienews/438872/anirudh-exits-srks-king-for-south-commitments",
       "title": "Anirudh Exits SRK’s King For South Commitments?",
       "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
@@ -201,17 +311,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/130982/tamil-nadu-plans-to-bring-back-6-am-movie-shows-big-relief-for-kollywood.html",
-      "title": "Tamil Nadu Plans to Bring Back 6 AM Movie Shows Big Relief for Kollywood",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Early Morning Shows Are Back For Tamil Films Tamil Nadu Plans to Bring Back 6 AM Movie Shows Big Relief for Kollywood By Rambabu...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/130982/tamil-nadu-plans-to-bring-back-6-am-movie-shows-big-relief-for-kollywood.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/tamil-nadu-plans-to-bring-back-6-am-movie-shows-big-relief-for-kollywood-1793355499380-1793355499866.jpg",
-      "publishedAt": "2026-10-30T10:18:22.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.gulte.com/movienews/438866/the-traitors-telugu-is-rgvs-neice-shravya-the-mastermind",
       "title": "The Traitors Telugu: Is RGV’s neice Shravya the Mastermind?",
       "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
@@ -232,108 +331,19 @@
       "publishedAt": "2026-10-30T10:05:36.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438850/can-filmmakers-work-with-rgv-without-producers-approval",
-      "title": "Can Filmmakers Work With RGV Without Producer's Approval?",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438850/can-filmmakers-work-with-rgv-without-producers-approval",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2025/12/RGV-bollywood.jpg",
-      "publishedAt": "2026-10-30T10:02:48.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/king100-makers-plan-a-special-update-on-tabus-birthday-hk.html",
-      "title": "King100: Makers Plan a Special Update on Tabu's Birthday?",
-      "summary": "King100: Makers Plan a Special Update on Tabu’s Birthday? Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/king100-makers-plan-a-special-update-on-tabus-birthday-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/King100.webp",
-      "publishedAt": "2026-10-30T09:51:17.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/mirzapur-the-movie-arrives-on-ott-bringing-a-surprise-and-disappointment-for-fans-hk.html",
-      "title": "Mirzapur The Movie Arrives on OTT, Bringing a Surprise and Disappointment for Fans",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Mirzapur The Movie Arrives on OTT, Bringing...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/mirzapur-the-movie-arrives-on-ott-bringing-a-surprise-and-disappointment-for-fans-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/Mirzapur-The-Movie.webp",
-      "publishedAt": "2026-10-30T07:35:19.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438766/baththa-is-getting-the-love-it-deserves",
-      "title": "Baththa Is Getting the Love It Deserves",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438766/baththa-is-getting-the-love-it-deserves",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/baththa-collections.jpg",
-      "publishedAt": "2026-10-30T07:03:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/interesting-news-on-suriyas-49th-film/",
-      "title": "Interesting News on Suriya's 49th Film?",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News Interesting News on Suriya's 49th...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/interesting-news-on-suriyas-49th-film/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/08/Suriya-3.jpg",
-      "publishedAt": "2026-10-30T04:53:48.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/aadarsha-kutumbam-movie-review/",
-      "title": "Aadarsha Kutumbam Movie Review: Venky and Trivikram Deliver a Breezy Family Entertainer",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/aadarsha-kutumbam-movie-review/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Aadarsha-Kutumbam-Movie-Review.jpg",
-      "publishedAt": "2026-10-30T03:06:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/comrade-kalyan-ott-release-sree-vishnus-film-starts-streaming-in-5-languages-hk.html",
-      "title": "Comrade Kalyan OTT Release: Sree Vishnu's Film Starts Streaming in 5 Languages",
-      "summary": "Comrade Kalyan OTT Release: Sree Vishnu’s Film Starts Streaming in 5 Languages Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/comrade-kalyan-ott-release-sree-vishnus-film-starts-streaming-in-5-languages-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Comrade-Kalyan-2.webp",
-      "publishedAt": "2026-10-30T02:47:55.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/438817/husharu-2-tequila-business-turns-into-a-wild-adventure",
-      "title": "Husharu 2: Tequila Business Turns Into a Wild Adventure!",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/438817/husharu-2-tequila-business-turns-into-a-wild-adventure",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/husharu-2-trailer-.jpg",
-      "publishedAt": "2026-10-30T02:22:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/jason-sanjays-acting-debut-to-be-helmed-by-dude-director-prp.html",
-      "title": "Jason Sanjay's acting debut to be helmed by Dude director?",
-      "summary": "Jason Sanjay’s acting debut to be helmed by Dude director? Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/jason-sanjays-acting-debut-to-be-helmed-by-dude-director-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/12/Jason-Sanjay.webp",
-      "publishedAt": "2026-10-29T20:30:09.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/eetha-official-trailer/videoshow/135355772.cms",
       "title": "Eetha - Official Trailer",
@@ -443,16 +453,6 @@
       "youtubeId": "",
       "publishedAt": "2026-10-09T00:00:00.000Z",
       "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/telugu/ranabaali-official-telugu-trailer/videoshow/134792569.cms",
-      "title": "Ranabaali - Official Telugu Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/regional/telugu/ranabaali-official-telugu-trailer/videoshow/134792569.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134792569,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "language": "Telugu"
     }
   ],
   "reviews": [
@@ -540,6 +540,94 @@
             "rating": 3,
             "ratingText": "3/5",
             "url": "https://www.123telugu.com/reviews/venkatesh-aadarsha-kutumbam-telugu-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Keerthy Suresh's Akka - Telugu-Dubbed Series on Netflix",
+      "l": "Telugu",
+      "releaseDate": "2026-10-30",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Akka-2.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/keerthy-suresh-akka-series-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/keerthy-suresh-akka-series-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Varam (Episodes 3&4) – Telugu Web Series on JioHotstar",
+      "l": "Telugu",
+      "releaseDate": "2026-10-30",
+      "rating": "2.75/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Varam-1.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/varam-telugu-ott-review-and-rating.html",
+      "aggregator": {
+        "average": 2.75,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.75,
+            "ratingText": "2.75/5",
+            "url": "https://www.123telugu.com/reviews/varam-telugu-ott-review-and-rating.html"
           }
         ]
       }
@@ -1164,12 +1252,12 @@
       "t": "Sigma",
       "l": "Telugu",
       "releaseDate": "2026-10-02",
-      "rating": "1.75/5",
+      "rating": "1.5/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/05/sigma3.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/sigma-movie-review-tests-patience/",
       "aggregator": {
-        "average": 1.75,
+        "average": 1.5,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1197,9 +1285,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.25,
-            "ratingText": "2.25/5",
-            "url": "https://www.123telugu.com/reviews/sundeep-kishan-sigma-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
@@ -1252,12 +1340,12 @@
       "t": "Don’t Trouble The Trouble",
       "l": "Telugu",
       "releaseDate": "2026-10-02",
-      "rating": "2.31/5",
+      "rating": "2.17/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/07/donttroublethetrouble.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/dont-trouble-the-trouble-review-troublesome/",
       "aggregator": {
-        "average": 2.31,
+        "average": 2.17,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1285,9 +1373,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/fahadh-faasils-dont-trouble-the-trouble-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
