@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:41:37.128Z",
+  "updatedAt": "2026-11-01T22:16:48.004Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-11-01T21:41:04.120Z",
-      "lastAttemptedAt": "2026-11-01T21:41:04.120Z",
+      "updatedAt": "2026-11-01T22:16:15.346Z",
+      "lastAttemptedAt": "2026-11-01T22:16:15.346Z",
       "items": [
         {
           "title": "Watch Baththa | Netflix",
@@ -450,7 +450,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-11-01T21:41:19.645Z",
+      "lastAttemptedAt": "2026-11-01T22:16:30.889Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -464,7 +464,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-11-01T21:41:20.767Z",
+      "lastAttemptedAt": "2026-11-01T22:16:32.290Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -532,14 +532,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-01T21:41:20.925Z",
+      "lastAttemptedAt": "2026-11-01T22:16:32.516Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-11-01T21:41:30.899Z",
-      "lastAttemptedAt": "2026-11-01T21:41:30.899Z",
+      "updatedAt": "2026-11-01T22:16:42.228Z",
+      "lastAttemptedAt": "2026-11-01T22:16:42.228Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -570,21 +570,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-01T21:41:32.672Z",
+      "lastAttemptedAt": "2026-11-01T22:16:44.060Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-01T21:41:33.819Z",
+      "lastAttemptedAt": "2026-11-01T22:16:45.272Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-11-01T21:41:37.125Z",
-      "lastAttemptedAt": "2026-11-01T21:41:37.125Z",
+      "updatedAt": "2026-11-01T22:16:48.002Z",
+      "lastAttemptedAt": "2026-11-01T22:16:48.002Z",
       "items": [
         {
           "title": "Watch Immortal, a Romantic Horror Movie Online - Sony LIV",
