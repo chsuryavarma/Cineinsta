@@ -1,11 +1,61 @@
 {
-  "updatedAt": "2026-10-31T20:57:46.062Z",
+  "updatedAt": "2026-11-01T04:00:03.012Z",
   "language": "Telugu",
   "news": [
     {
+      "id": "https://www.123telugu.com/mnews/ramayana-crosses-1-million-in-us-advance-bookings-ahead-of-release-hk.html",
+      "title": "Ramayana Crosses $1 Million Milestone in US Advance Bookings",
+      "summary": "Ahead of its official release, the upcoming cinematic venture Ramayana has achieved a major milestone by surpassing $1 million in advance ticket bookings within the United States. This strong early ticket sales figure indicates high anticipation among overseas audiences for the upcoming release.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/ramayana-crosses-1-million-in-us-advance-bookings-ahead-of-release-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/RAMAYANA-2-3.webp",
+      "publishedAt": "2026-11-01T02:30:33.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The upcoming cinematic project Ramayana has generated strong early momentum in overseas markets, officially crossing the $1 million threshold in advance ticket sales within the United States ahead of its theatrical premiere.",
+        "This strong showing in US advance bookings highlights the significant anticipation surrounding the project among international viewers and fans of Indian cinema.",
+        "As the release date approaches, these robust pre-sales numbers reflect positive early engagement from audiences overseas."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Ahead of its official release, the upcoming cinematic venture Ramayana has achieved a major milestone by surpassing $1 million in advance ticket bookings within the United States. This strong early ticket sales figure indicates high anticipation among overseas audiences for the upcoming release.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "123telugu"
+      ],
+      "originalUrl": "https://www.123telugu.com/mnews/ramayana-crosses-1-million-in-us-advance-bookings-ahead-of-release-hk.html"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131022/prabhas-not-doing-romantic-entertainer.html",
+      "title": "Prabhas Not Doing a Romantic Entertainer, Clarifies Reports",
+      "summary": "Recent speculations regarding actor Prabhas starring in a romantic entertainer have been addressed, with updates clarifying that he is not turning into a loverboy for such a project. Fans tracking the Telugu star's upcoming lineup can note that this particular genre shift is not currently on the cards.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131022/prabhas-not-doing-romantic-entertainer.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/prabhas-not-doing-romantic-entertainer-1793498233550-1793498233244.jpg",
+      "publishedAt": "2026-11-01T01:57:21.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Recent speculation circulating about actor Prabhas has been addressed, clarifying that the prominent star is not taking on a romantic entertainer or shifting into a loverboy role as rumored.",
+        "Followers and movie enthusiasts tracking the actor's upcoming career choices can take note of this update regarding his future project selections.",
+        "As details continue to emerge about his actual lineup, this clarification puts to rest the ongoing rumors surrounding a potential romantic film."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Recent speculations regarding actor Prabhas starring in a romantic entertainer have been addressed, with updates clarifying that he is not turning into a loverboy for such a project. Fans tracking the Telugu star's upcoming lineup can note that this particular genre shift is not currently on the cards.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "CineJosh"
+      ],
+      "originalUrl": "https://www.cinejosh.com/news/1/131022/prabhas-not-doing-romantic-entertainer.html"
+    },
+    {
       "id": "https://www.123telugu.com/reviews/keerthy-suresh-akka-series-review-and-rating.html",
       "title": "Keerthy Suresh Stars in Netflix's Telugu-Dubbed Series Akka",
-      "summary": "Keerthy Suresh takes the lead role in the Telugu-dubbed series Akka, which has arrived for streaming on Netflix. Fans of the actor can now catch the project on the popular digital platform.",
+      "summary": "Keerthy Suresh leads the newly reviewed streaming project Akka, which is available on Netflix as a Telugu-dubbed series. Discover what critics and audiences are discussing regarding this digital release.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/keerthy-suresh-akka-series-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Akka-2.webp",
@@ -13,12 +63,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Keerthy Suresh headlines the streaming project titled Akka, which has recently made its way to Netflix as a Telugu-dubbed series. The release brings another prominent digital offering for followers of the talented performer.",
-        "As audiences look for fresh streaming content, the arrival of Akka on Netflix provides viewers with a new option to watch Keerthy Suresh in a series format. The digital release allows fans to stream the Telugu-dubbed version directly from home."
+        "Actor Keerthy Suresh headlines the streaming project titled Akka, which has made its way to audiences through Netflix. The release is accessible for viewers in a Telugu-dubbed format, broadening its reach among regional digital content consumers.",
+        "As discussions and reviews surrounding the series circulate, followers of the actor and streaming enthusiasts have turned their attention to her performance and the overall presentation of the show. Netflix continues to expand its catalog with diverse regional offerings, bringing high-profile performers into the digital episodic space.",
+        "The arrival of Akka on the platform highlights the ongoing trend of prominent stars engaging with multi-language streaming content. Viewers looking to explore the series can now stream the Telugu version directly on the platform."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Keerthy Suresh takes the lead role in the Telugu-dubbed series Akka, which has arrived for streaming on Netflix. Fans of the actor can now catch the project on the popular digital platform.",
+      "dek": "Keerthy Suresh leads the newly reviewed streaming project Akka, which is available on Netflix as a Telugu-dubbed series. Discover what critics and audiences are discussing regarding this digital release.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -28,8 +79,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/pathaan-and-dhurandhar-with-heroines-kriti-sanon-makes-a-bold-pitch-avd.html",
-      "title": "Kriti Sanon Makes Bold Pitch Regarding Pathaan and Dhurandhar",
-      "summary": "Actor Kriti Sanon has shared a bold pitch concerning action-oriented projects like Pathaan and Dhurandhar featuring heroines. Her remarks spark interesting conversations regarding female-led dynamics in major cinematic ventures.",
+      "title": "Kriti Sanon Pitches Heroine-Led Inclusion in Action Franchises Like Pathaan and Dhurandhar",
+      "summary": "Actor Kriti Sanon has put forward a bold proposition regarding major action films. Her recent remarks spark conversations about the visibility of female leads in prominent cinematic action universes.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/pathaan-and-dhurandhar-with-heroines-kriti-sanon-makes-a-bold-pitch-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/06/Kriti-Sanon-2-1.webp",
@@ -37,12 +88,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Kriti Sanon has put forward a bold pitch involving prominent cinematic titles like Pathaan and Dhurandhar with heroines at the forefront. Her comments focus on expanding the scope for leading women in high-profile action cinema.",
-        "Discussions around casting and character choices in major films continue to evolve as actors voice their perspectives on representation. Kriti Sanon's recent pitch highlights ongoing conversations within the industry about heroines taking center stage in blockbusters."
+        "Actor Kriti Sanon has sparked industry discussions following a bold public pitch regarding prominent action titles. Specifically, her commentary touched upon the inclusion of heroines in major action properties like Pathaan and Dhurandhar.",
+        "The remarks bring attention to the changing expectations surrounding female characters in high-budget Indian cinema, particularly within action-heavy franchises traditionally dominated by male leads. Such statements encourage broader conversations among fans and industry insiders about representation in tentpole films.",
+        "As major studios continue to build expansive cinematic worlds, actor commentary regarding role distribution and gender parity remains a frequent topic of interest across the entertainment landscape."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Kriti Sanon has shared a bold pitch concerning action-oriented projects like Pathaan and Dhurandhar featuring heroines. Her remarks spark interesting conversations regarding female-led dynamics in major cinematic ventures.",
+      "dek": "Actor Kriti Sanon has put forward a bold proposition regarding major action films. Her recent remarks spark conversations about the visibility of female leads in prominent cinematic action universes.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -52,8 +104,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/3/131021/vijay-deverakonda-should-take-important-career-decision.html",
-      "title": "Discussion Surrounds Important Career Choices for Vijay Deverakonda",
-      "summary": "Actor Vijay Deverakonda faces discussions regarding his professional pathway as industry observers suggest important career decisions lie ahead for him. Fans and analysts continue to track his upcoming moves closely.",
+      "title": "Discussion Surrounds Important Upcoming Career Choices for Vijay Deverakonda",
+      "summary": "Actor Vijay Deverakonda faces critical discussions regarding his future professional moves. Industry observers note that strategic project choices will be essential for his upcoming cinematic path.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/3/131021/vijay-deverakonda-should-take-important-career-decision.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-should-take-important-career-decision-1793462941004-1793462941671.jpg",
@@ -61,12 +113,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Actor Vijay Deverakonda is currently the subject of discussion regarding significant professional choices for his career. Observers and well-wishers note that making a strong decision at this juncture could shape his future trajectory in the film industry.",
-        "As a prominent name in Indian cinema, Vijay Deverakonda's career steps are closely monitored by followers and trade circles alike. These conversations highlight the importance of strategic project selection for established actors."
+        "Actor Vijay Deverakonda is currently the subject of industry discussion regarding his upcoming professional trajectory. Observers and commentators suggest that making strategic career decisions is crucial for the actor at this juncture.",
+        "As fans anticipate announcements about his future undertakings, the importance of selecting the right scripts and roles is highlighted. Career planning remains a vital aspect for leading stars navigating the evolving demands of the film industry.",
+        "Further developments regarding his upcoming line-up and official project choices are expected to shape his course in the coming period."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Actor Vijay Deverakonda faces discussions regarding his professional pathway as industry observers suggest important career decisions lie ahead for him. Fans and analysts continue to track his upcoming moves closely.",
+      "dek": "Actor Vijay Deverakonda faces critical discussions regarding his future professional moves. Industry observers note that strategic project choices will be essential for his upcoming cinematic path.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -76,8 +129,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/439058/labour-department-issue-notice-to-irumudi-makers",
-      "title": "Labour Department Issues Official Notice to Makers of Irumudi",
-      "summary": "The makers of the film Irumudi have landed in legal updates after receiving an official notice from the Labour Department. Further details regarding the matter are awaited as developments unfold.",
+      "title": "Labour Department Issues Official Notice to the Makers of Irumudi",
+      "summary": "The makers of the film Irumudi have recently received a notice from the Labour Department. This development brings regulatory attention to the production team behind the project.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/439058/labour-department-issue-notice-to-irumudi-makers",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/08/irumudi-baby-nakshatra-.jpg",
@@ -85,12 +138,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The makers of the film Irumudi have been issued a notice by the Labour Department. This development brings regulatory attention to the production team behind the project.",
-        "As the situation progresses, industry watchers await further information on the specifics of the notice and how the production team will address the regulatory action taken by the department."
+        "The production team behind the film Irumudi has encountered a regulatory hurdle after receiving an official notice from the Labour Department. Details regarding the specific reasons behind the administrative action have drawn industry attention.",
+        "Such notices underline the importance of compliance with labor regulations and employment standards within the film production sector. Studios and filmmakers are increasingly held accountable to established workplace guidelines during their shooting schedules.",
+        "As the situation develops, further updates will clarify how the makers of Irumudi respond to the notice and address the concerns raised by the department."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The makers of the film Irumudi have landed in legal updates after receiving an official notice from the Labour Department. Further details regarding the matter are awaited as developments unfold.",
+      "dek": "The makers of the film Irumudi have recently received a notice from the Labour Department. This development brings regulatory attention to the production team behind the project.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -100,8 +154,8 @@
     },
     {
       "id": "https://telugucinema.com/news/rc17-pooja-ceremony-time-fixed-announcement-poster-released",
-      "title": "RC17 Pooja Ceremony and Announcement Poster Officially Scheduled",
-      "summary": "The much-anticipated film temporarily titled RC17 has officially locked its upcoming pooja ceremony schedule alongside the release of a brand new announcement poster for moviegoers.",
+      "title": "RC17 Official Pooja Ceremony Schedule Announced With New Poster",
+      "summary": "The much-awaited project tentatively titled RC17 is moving forward with an official pooja ceremony. Makers have locked the timing for the launch event and released a brand new announcement poster.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/rc17-pooja-ceremony-time-fixed-announcement-poster-released",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/rc17poster-oct3126.jpg",
@@ -109,13 +163,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Excitement continues to build around the upcoming Telugu film widely recognized as RC17. Recent updates confirm that the timing for the project's traditional pooja ceremony has now been officially locked, giving fans a clear timeline to look forward to.",
-        "Alongside the confirmation of the launch event schedule, an official announcement poster for RC17 has also been unveiled. This promotional material marks another step forward for the highly anticipated cinematic venture.",
-        "As preparations for the pooja ceremony move forward, audiences and industry followers alike await further details concerning the cast, crew, and overarching production schedule for RC17."
+        "The collaborative project known as RC17 has reached a major milestone as the makers finalize preparations for its official launch. Anticipation surrounding the film has steadily grown among moviegoers following the latest production updates.",
+        "To mark the occasion, the creative team has officially fixed the time for the upcoming pooja ceremony. Alongside this schedule update, a brand new announcement poster has been unveiled to heighten excitement for the venture.",
+        "As the team prepares for the grand launch event, further details regarding the cast and crew are expected to follow. Cineinsta will continue to track all upcoming developments related to this high-profile Telugu cinema venture."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The much-anticipated film temporarily titled RC17 has officially locked its upcoming pooja ceremony schedule alongside the release of a brand new announcement poster for moviegoers.",
+      "dek": "The much-awaited project tentatively titled RC17 is moving forward with an official pooja ceremony. Makers have locked the timing for the launch event and released a brand new announcement poster.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -125,8 +179,8 @@
     },
     {
       "id": "https://www.telugu360.com/ram-charan-and-sukumars-sensational-rc17-grand-launch-tomorrow/",
-      "title": "Grand Launch Scheduled Tomorrow for Ram Charan and Sukumar's RC17",
-      "summary": "The upcoming collaboration between actor Ram Charan and director Sukumar, provisionally titled RC17, is set for a grand launch event tomorrow, generating major excitement across Telugu cinema circles.",
+      "title": "Ram Charan and Sukumar's RC17 Gears Up for Grand Launch Tomorrow",
+      "summary": "The highly anticipated collaboration between actor Ram Charan and filmmaker Sukumar, temporarily titled RC17, is scheduled for a grand official launch tomorrow. Fans and film enthusiasts eagerly await further details from this sensational upcoming project.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/ram-charan-and-sukumars-sensational-rc17-grand-launch-tomorrow/",
       "img": "https://www.telugu360.com/wp-content/uploads/2022/11/ram-charan-and-sukumar.jpg",
@@ -134,13 +188,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The much-talked-about cinematic collaboration between prominent actor Ram Charan and acclaimed director Sukumar, widely known as RC17, is gearing up for a grand official launch tomorrow. This upcoming event marks a significant milestone for the anticipated project.",
-        "Industry circles and movie enthusiasts have expressed high excitement for the upcoming launch. The coming together of this actor-director duo has consistently drawn strong attention within the entertainment sphere.",
-        "Tomorrow's grand launch event is expected to set the stage for the formal commencement of production activities for RC17, with further updates regarding the project anticipated as the rollout progresses."
+        "The film industry is buzzing as the sensational cinematic pairing of actor Ram Charan and director Sukumar prepares for a major milestone. Their upcoming project, widely known as RC17, is set to host its grand launch event tomorrow.",
+        "Expectation levels have surged following news of the impending inauguration. The collaboration brings together two prominent figures of the industry, making the upcoming launch a significant talking point among cinephiles.",
+        "Further official announcements regarding the complete cast, crew, and production schedule are anticipated following tomorrow's event. Cineinsta will keep track of all major updates surrounding this high-profile cinematic venture."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The upcoming collaboration between actor Ram Charan and director Sukumar, provisionally titled RC17, is set for a grand launch event tomorrow, generating major excitement across Telugu cinema circles.",
+      "dek": "The highly anticipated collaboration between actor Ram Charan and filmmaker Sukumar, temporarily titled RC17, is scheduled for a grand official launch tomorrow. Fans and film enthusiasts eagerly await further details from this sensational upcoming project.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -150,8 +204,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/439049/rangasthalam-combo-set-for-a-massive-opening",
-      "title": "Anticipation Builds for Rangasthalam Duo's Major Opening",
-      "summary": "The renowned creative combination behind Rangasthalam is generating immense buzz as they prepare for a massive opening. Cinephiles and trade analysts are closely tracking the project as it gears up for its theatrical arrival.",
+      "title": "Anticipation Builds As Rangasthalam Combo Prepares For Strong Box Office Arrival",
+      "summary": "The renowned Rangasthalam creative partnership is gearing up for a powerful box office opening. Cinephiles and trade analysts are closely following the massive momentum surrounding this upcoming release.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/439049/rangasthalam-combo-set-for-a-massive-opening",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/RC-17-.jpg",
@@ -159,13 +213,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The celebrated creative partnership that previously delivered the acclaimed film Rangasthalam is back in the spotlight. Industry observers are anticipating a massive commercial opening for their upcoming collaboration, building on the strong reputation established by their earlier work.",
-        "As anticipation continues to build across the film industry, details regarding the project's box office potential are drawing significant attention. The combination has proven its box office strength in the past, setting high expectations for this latest venture.",
-        "Further updates on the release strategy and promotional events are expected as the premiere date approaches. Fans of the actor-director duo eagerly await official announcements regarding the massive opening."
+        "The celebrated combination behind the blockbuster Rangasthalam is back in the spotlight, gearing up for what is anticipated to be a massive opening at the box office. Fans and industry trackers are eagerly anticipating the project, given the monumental reputation and success of the original collaboration.",
+        "As anticipation continues to build, the upcoming release is positioned to make a significant impact upon arrival. The strong combination has consistently generated high expectations among moviegoers eager to see what the creative team brings to the screen next.",
+        "Further updates regarding the project's exact arrival and promotional events are expected to follow as the premiere draws closer. The substantial early buzz underlines the ongoing appeal and strong market demand for this prominent team."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The renowned creative combination behind Rangasthalam is generating immense buzz as they prepare for a massive opening. Cinephiles and trade analysts are closely tracking the project as it gears up for its theatrical arrival.",
+      "dek": "The renowned Rangasthalam creative partnership is gearing up for a powerful box office opening. Cinephiles and trade analysts are closely following the massive momentum surrounding this upcoming release.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -175,8 +229,8 @@
     },
     {
       "id": "https://telugucinema.com/news/itlu-arjuna-after-multiple-postponements-film-locks-new-release-date",
-      "title": "Itlu Arjuna Confirms Fresh Release Date Following Delays",
-      "summary": "After enduring a series of postponements, the Telugu film Itlu Arjuna has officially locked a new release date. The announcement brings clarity to the film's theatrical journey as the team prepares to present the project to audiences.",
+      "title": "Itlu Arjuna Locks Fresh Release Schedule After Previous Delays",
+      "summary": "Following multiple postponements, the upcoming Telugu film Itlu Arjuna has officially secured a brand new theatrical release date. The announcement offers clarity to eager fans who have been awaiting updates on the project's premiere.",
       "source": "TeluguCinema",
       "url": "https://telugucinema.com/news/itlu-arjuna-after-multiple-postponements-film-locks-new-release-date",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/itluarjuna-oct3126.jpg",
@@ -184,13 +238,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The upcoming Telugu feature Itlu Arjuna has finally secured a definitive path to the big screen. Following a succession of earlier postponements that kept moviegoers waiting, the film's makers have locked a fresh release date.",
-        "Delays in the release schedule had previously left fans speculating about the film's theatrical arrival. With this latest scheduling update, the project is firmly back on track for its exhibition in cinemas.",
-        "Additional details concerning promotional events and screening schedules are anticipated shortly. The confirmed release date marks a major milestone for the team behind Itlu Arjuna."
+        "The makers of the upcoming Telugu film Itlu Arjuna have officially finalized a new release date following a series of previous postponements. The announcement brings welcome clarity to supporters who have been tracking the project's theatrical journey through various scheduling shifts.",
+        "With the fresh date now locked in place, the team can refocus promotional efforts toward bringing the feature to the big screen. The resolution of these scheduling hurdles marks an important step for the film's distribution plans.",
+        "Audiences and industry observers will be watching closely as the new release window approaches, eager to see how the title performs in theaters following the earlier delays."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "After enduring a series of postponements, the Telugu film Itlu Arjuna has officially locked a new release date. The announcement brings clarity to the film's theatrical journey as the team prepares to present the project to audiences.",
+      "dek": "Following multiple postponements, the upcoming Telugu film Itlu Arjuna has officially secured a brand new theatrical release date. The announcement offers clarity to eager fans who have been awaiting updates on the project's premiere.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -200,8 +254,8 @@
     },
     {
       "id": "https://www.gulte.com/movienews/439044/itlu-arjuna-finds-a-perfect-slot-for-its-release",
-      "title": "Itlu Arjuna Locks Ideal Window for Theatrical Arrival",
-      "summary": "The makers of Itlu Arjuna have successfully secured a well-suited release slot for the film. This strategic scheduling decision comes after a period of waiting, positioning the movie for an optimal run in theaters.",
+      "title": "Itlu Arjuna Secures Ideal Theatrical Slot For Upcoming Run",
+      "summary": "The upcoming feature Itlu Arjuna has officially secured a well-suited release slot for its theatrical debut. This strategic scheduling decision aims to give the film an optimal platform upon its arrival.",
       "source": "Gulte",
       "url": "https://www.gulte.com/movienews/439044/itlu-arjuna-finds-a-perfect-slot-for-its-release",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/itlu-arjuna.jpg",
@@ -209,13 +263,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The upcoming Telugu project Itlu Arjuna has identified a prime scheduling slot for its long-awaited theatrical exhibition. Finding the right window is essential for maximizing visibility and audience turnout in today's competitive cinematic landscape.",
-        "This latest development follows earlier schedule adjustments that had delayed the film's premiere. With a suitable slot now locked, the creative team can focus entirely on bringing the movie to the big screen.",
-        "Further announcements from the makers regarding promotional campaigns and advanced bookings are expected to follow. The chosen release window offers a fresh opportunity for the film to connect with viewers."
+        "The theatrical release strategy for Itlu Arjuna has taken a decisive step forward, with the film successfully securing a fitting window for its premiere. Finding the ideal slot is a crucial part of ensuring a smooth theatrical run and maximizing audience reach.",
+        "With the release timing now settled, anticipation surrounding the feature continues to grow among followers of Telugu cinema. The chosen slot provides a stable foundation for the upcoming distribution and marketing rollout.",
+        "Further details concerning the exact arrival date and promotional schedules are anticipated as the premiere draws near, keeping fans informed of the latest developments."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The makers of Itlu Arjuna have successfully secured a well-suited release slot for the film. This strategic scheduling decision comes after a period of waiting, positioning the movie for an optimal run in theaters.",
+      "dek": "The upcoming feature Itlu Arjuna has officially secured a well-suited release slot for its theatrical debut. This strategic scheduling decision aims to give the film an optimal platform upon its arrival.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -225,8 +279,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/rumors-about-prabhas-doing-a-romantic-drama-are-untrue-deets-inside-avd.html",
-      "title": "Clarification Issued Regarding Prabhas's Rumored Romantic Drama",
-      "summary": "Recent speculations circulating about star actor Prabhas headlining a romantic drama have been officially dismissed as untrue. Industry insiders have cleared the air regarding the baseless rumors surrounding the actor's upcoming projects.",
+      "title": "Clarification Issued Regarding Prabhas Starring In Romantic Drama",
+      "summary": "Recent reports suggesting that prominent actor Prabhas will headline an upcoming romantic drama have been clarified. Sources have confirmed that these circulating rumors regarding the project are entirely untrue.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/rumors-about-prabhas-doing-a-romantic-drama-are-untrue-deets-inside-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/02/prabhas-1.webp",
@@ -234,13 +288,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Recent reports and social media speculation suggesting that popular star Prabhas has signed on for a romantic drama have been confirmed as completely false. The rumors had gained traction among fans before being firmly debunked.",
-        "Prabhas remains one of the most sought-after actors in Indian cinema, making his lineup a frequent subject of unverified reports. Sources close to the developments have urged audiences to rely solely on official announcements regarding his future cinematic commitments.",
-        "Fans looking for concrete updates on the actor's verified slate of films will need to wait for official press notes from production houses. The clarification puts an end to the ongoing online chatter."
+        "Recent speculation surrounding actor Prabhas taking on a romantic drama project has been officially addressed. Industry sources have confirmed that the rumors circulating about this specific cinematic venture are completely unfounded.",
+        "While celebrity project rumors frequently circulate across entertainment circles, this particular report does not hold factual weight. Fans looking for confirmed updates on the actor's upcoming lineup are advised to rely on official announcements from authorized production teams.",
+        "As the star continues to manage his active filming schedule, official announcements regarding his forthcoming roles will provide accurate details on his future cinematic commitments."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Recent speculations circulating about star actor Prabhas headlining a romantic drama have been officially dismissed as untrue. Industry insiders have cleared the air regarding the baseless rumors surrounding the actor's upcoming projects.",
+      "dek": "Recent reports suggesting that prominent actor Prabhas will headline an upcoming romantic drama have been clarified. Sources have confirmed that these circulating rumors regarding the project are entirely untrue.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -251,7 +305,7 @@
     {
       "id": "https://www.cinejosh.com/news/1/131015/makers-unveil-korivi-title-and-glimpse-on-director-sridhar-gade-s-birthday.html",
       "title": "Director Sridhar Gade Celebrates Birthday as Makers Reveal Korivi Title and Glimpse",
-      "summary": "Makers of the upcoming film Korivi have released the official title and a special glimpse to mark director Sridhar Gade's birthday. This announcement gives fans an exciting first look into the project.",
+      "summary": "The creative team behind the upcoming project Korivi has officially announced the film's title and released a special visual glimpse. This exciting update was shared to mark director Sridhar Gade's birthday celebration.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/131015/makers-unveil-korivi-title-and-glimpse-on-director-sridhar-gade-s-birthday.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/makers-unveil-korivi-title-and-glimpse-on-director-sridhar-gade-s-birthday-1793454242198-1793454243004.jpg",
@@ -259,12 +313,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The creative team behind the upcoming movie Korivi chose a special occasion to share major project updates. On the occasion of director Sridhar Gade's birthday, the makers officially unveiled the film's title along with an introductory glimpse.",
-        "The newly released promotional material provides audiences with an early preview of what to expect from the director's latest cinematic venture. As the film moves forward in production, the official title reveal and video glimpse aim to build early anticipation among moviegoers."
+        "The makers of the upcoming cinematic project Korivi have officially revealed the film's title alongside an introductory visual glimpse. This major update was brought to light to coincide with the birthday of director Sridhar Gade.",
+        "While details surrounding the plot and full cast remain limited, the unveiling of the title and the glimpse offer fans an early look into the filmmaker's latest venture. Such celebratory reveals are a popular way to build early anticipation among moviegoers.",
+        "As production and promotional activities continue under Sridhar Gade's direction, further announcements regarding the cast and release schedule are expected in the future."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Makers of the upcoming film Korivi have released the official title and a special glimpse to mark director Sridhar Gade's birthday. This announcement gives fans an exciting first look into the project.",
+      "dek": "The creative team behind the upcoming project Korivi has officially announced the film's title and released a special visual glimpse. This exciting update was shared to mark director Sridhar Gade's birthday celebration.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -274,8 +329,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/131014/dhurandhar-composer-for-ntr-dragon.html",
-      "title": "Dhurandhar Composer Boarded for NTR Dragon",
-      "summary": "The musical team for NTR's upcoming project Dragon has expanded with the addition of the Dhurandhar composer. This collaboration brings together notable talents to power the film's audio landscape.",
+      "title": "Dhurandhar Music Composer Boarded for NTR Dragon",
+      "summary": "The musical team for the highly anticipated NTR Dragon has expanded with the addition of the composer behind Dhurandhar. This key technical addition brings fresh creative energy to the upcoming feature starring NTR.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/131014/dhurandhar-composer-for-ntr-dragon.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/dhurandhar-composer-for-ntr-dragon-1793454138479-1793454138974.jpg",
@@ -283,12 +338,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Exciting updates have emerged regarding the musical lineup for the highly anticipated NTR project, Dragon. Reports confirm that the composer behind Dhurandhar has officially been brought on board to score the music for the film.",
-        "This musical collaboration is expected to bring a fresh and dynamic sound to NTR Dragon. Fans and industry followers eagerly await further announcements regarding the soundtrack and musical direction of the project."
+        "Exciting updates are emerging surrounding the musical landscape of the upcoming film NTR Dragon. The project has officially brought on board the composer known for Dhurandhar to helm the soundtrack and background score.",
+        "Music plays a pivotal role in major commercial ventures, and securing this composer adds significant weight to the film's technical profile. Fans and industry followers are anticipating a powerful audio experience for the venture.",
+        "Further details regarding the music tracks and promotional singles are expected to be unveiled by the production team as development progresses."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The musical team for NTR's upcoming project Dragon has expanded with the addition of the Dhurandhar composer. This collaboration brings together notable talents to power the film's audio landscape.",
+      "dek": "The musical team for the highly anticipated NTR Dragon has expanded with the addition of the composer behind Dhurandhar. This key technical addition brings fresh creative energy to the upcoming feature starring NTR.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -298,8 +354,8 @@
     },
     {
       "id": "https://www.telugu360.com/too-many-speculations-on-rc17-heroine/",
-      "title": "Growing Speculation Surrounds the Heroine Casting for RC17",
-      "summary": "As production details for RC17 continue to develop, numerous speculations have surfaced regarding who will star as the female lead. Cinephiles and followers are closely monitoring updates for official word on the casting.",
+      "title": "Surrounding Speculations Grow Over RC17 Heroine Casting",
+      "summary": "Talk and speculation regarding the leading lady for the high-profile project RC17 continue to circulate widely among film enthusiasts. As discussions grow on social platforms, audiences await official clarity from the production team.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/too-many-speculations-on-rc17-heroine/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Bhagyashree-Borse-and-Sara-Arjun.jpg",
@@ -307,12 +363,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Anticipation surrounding the upcoming film RC17 has led to widespread discussions across various platforms. Specifically, a large number of speculations have emerged concerning the choice of the heroine for the movie.",
-        "While rumors continue to circulate widely among film enthusiasts, official confirmation regarding the leading lady is yet to be established. Fans remain attentive to production updates as the team gradually finalizes the complete cast."
+        "Interest surrounding the casting choices for the upcoming project RC17 remains high, with numerous reports and rumors circulating regarding the film's leading actress. As the film prepares to move forward, speculation continues to dominate discussions among cinema followers.",
+        "In the film industry, high-profile projects naturally attract significant curiosity regarding star pairings and key technical crew members. However, until an official announcement is made by the makers, these reports remain unconfirmed rumors.",
+        "Movie enthusiasts and fans eagerly await an official update from the production house to put an end to the ongoing speculations regarding the RC17 heroine."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "As production details for RC17 continue to develop, numerous speculations have surfaced regarding who will star as the female lead. Cinephiles and followers are closely monitoring updates for official word on the casting.",
+      "dek": "Talk and speculation regarding the leading lady for the high-profile project RC17 continue to circulate widely among film enthusiasts. As discussions grow on social platforms, audiences await official clarity from the production team.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -322,8 +379,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/gv-prakash-kumar-hypes-dulquer-salmaans-aakasamlo-oka-tara-as-the-film-of-the-year-prp.html",
-      "title": "GV Prakash Kumar Calls Dulquer Salmaan's Aakasamlo Oka Tara the Film of the Year",
-      "summary": "Music director and actor GV Prakash Kumar has generated significant buzz for Dulquer Salmaan's Aakasamlo Oka Tara, praising it as the film of the year. His enthusiastic remarks have heightened excitement for the upcoming release.",
+      "title": "GV Prakash Kumar Applauds Dulquer Salmaan's Aakasamlo Oka Tara as Film of the Year",
+      "summary": "Composer and actor GV Prakash Kumar has heaped high praise on Dulquer Salmaan's upcoming project Aakasamlo Oka Tara. He has enthusiastically described the feature as the standout film of the year.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/gv-prakash-kumar-hypes-dulquer-salmaans-aakasamlo-oka-tara-as-the-film-of-the-year-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/aksam.webp",
@@ -331,12 +388,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Expectations for Dulquer Salmaan's upcoming movie Aakasamlo Oka Tara received a major boost following high praise from GV Prakash Kumar. The notable artist has publicly hyped the project, describing it as the standout film of the year.",
-        "Such strong endorsements from industry insiders often amplify audience interest and anticipation. As preparations continue for Aakasamlo Oka Tara, these positive remarks set a high bar for what viewers can expect from the project."
+        "Anticipation for Dulquer Salmaan's Aakasamlo Oka Tara received a strong boost after composer and actor GV Prakash Kumar shared high praise for the project. He enthusiastically singled out the venture as the definitive film of the year.",
+        "Such endorsements from industry peers carry significant weight, drawing heightened attention to the creative direction and emotional depth of the movie. It builds positive momentum among cinephiles looking forward to its release.",
+        "As discussions surrounding Aakasamlo Oka Tara continue to grow, the team behind the project looks poised to capitalize on the enthusiastic early backing from fellow artists."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Music director and actor GV Prakash Kumar has generated significant buzz for Dulquer Salmaan's Aakasamlo Oka Tara, praising it as the film of the year. His enthusiastic remarks have heightened excitement for the upcoming release.",
+      "dek": "Composer and actor GV Prakash Kumar has heaped high praise on Dulquer Salmaan's upcoming project Aakasamlo Oka Tara. He has enthusiastically described the feature as the standout film of the year.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -346,8 +404,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/itllu-arjuna-new-release-date-announced-for-aniesh-anaswara-rajans-romantic-drama-prp.html",
-      "title": "Fresh Release Date Confirmed for Aniesh and Anaswara Rajan's Itllu Arjuna",
-      "summary": "The romantic drama Itllu Arjuna, starring Aniesh and Anaswara Rajan, has locked a brand-new release date. Fans eagerly awaiting this cinematic venture can now look forward to its arrival in theaters based on the latest update.",
+      "title": "Aniesh and Anaswara Rajan's Itllu Arjuna Gets a Fresh Release Date",
+      "summary": "The romantic drama Itllu Arjuna, starring Aniesh and Anaswara Rajan, has locked a new release date. Fans looking forward to this upcoming cinematic release can now mark their calendars for the updated premiere timeline.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/itllu-arjuna-new-release-date-announced-for-aniesh-anaswara-rajans-romantic-drama-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/itllu.jpg",
@@ -355,13 +413,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The romantic drama titled Itllu Arjuna has officially secured a fresh release date, bringing new updates for cinema enthusiasts. The film features lead performances by Aniesh and Anaswara Rajan.",
-        "As a romantic drama project, Itllu Arjuna has drawn attention for its pairing of Aniesh and Anaswara Rajan. With the announcement of the revised release schedule, audiences and followers of the project can anticipate further promotional developments leading up to the premiere.",
-        "Further details concerning the exact arrival of the film are expected to be unveiled as the scheduled date approaches, maintaining interest in the romantic project."
+        "The makers of the upcoming romantic drama Itllu Arjuna have officially announced a revised release date for the film. The movie features lead performances by Aniesh and Anaswara Rajan.",
+        "As anticipation builds around this romantic feature, the update on the arrival schedule provides audiences with clear expectations regarding its theatrical or platform rollout. Fans of the lead pair and the genre have been closely following updates on the project.",
+        "Further details regarding promotional events and related updates are expected to follow as the newly announced release date approaches."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The romantic drama Itllu Arjuna, starring Aniesh and Anaswara Rajan, has locked a brand-new release date. Fans eagerly awaiting this cinematic venture can now look forward to its arrival in theaters based on the latest update.",
+      "dek": "The romantic drama Itllu Arjuna, starring Aniesh and Anaswara Rajan, has locked a new release date. Fans looking forward to this upcoming cinematic release can now mark their calendars for the updated premiere timeline.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -371,8 +429,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/balakrishna-charging-huge-remuneration-for-his-film-with-koratala-siva-prp.html",
-      "title": "Reports Surface Regarding Balakrishna's Remuneration for Upcoming Koratala Siva Project",
-      "summary": "Rumors and reports have emerged regarding the substantial remuneration actor Balakrishna is allegedly charging for his upcoming film collaboration with director Koratala Siva. The discussion highlights the financial aspects surrounding high-profile cinematic pairings in the industry.",
+      "title": "Reports Surface Regarding Balakrishna's Remuneration for Koratala Siva Project",
+      "summary": "Actor Balakrishna is reportedly commanding a substantial remuneration for his upcoming cinematic collaboration with director Koratala Siva. Industry discussions are focusing on the financial aspects of this high-profile partnership.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/balakrishna-charging-huge-remuneration-for-his-film-with-koratala-siva-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Balakrishna-1.webp",
@@ -380,13 +438,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Speculation has surrounded the financial side of a major upcoming collaboration in the film industry, with reports focusing on actor Balakrishna's remuneration.",
-        "The project in question pairs Balakrishna with director Koratala Siva, generating significant chatter across movie circles regarding the scale of the production and associated costs.",
-        "While specific figures remain part of ongoing industry discussions, the reports underline the high commercial value attached to star-studded combinations."
+        "Speculation and reports have emerged concerning the remuneration actor Balakrishna is charging for his upcoming project directed by Koratala Siva. The collaboration between the prominent actor and the well-known filmmaker has generated considerable industry interest.",
+        "While specific figures remain unconfirmed in the general reports, discussions around high-profile actor compensations often highlight the scale and market value associated with major star-director pairings in cinema.",
+        "Further official announcements regarding the film's production and financial arrangements are awaited by fans and industry observers alike."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Rumors and reports have emerged regarding the substantial remuneration actor Balakrishna is allegedly charging for his upcoming film collaboration with director Koratala Siva. The discussion highlights the financial aspects surrounding high-profile cinematic pairings in the industry.",
+      "dek": "Actor Balakrishna is reportedly commanding a substantial remuneration for his upcoming cinematic collaboration with director Koratala Siva. Industry discussions are focusing on the financial aspects of this high-profile partnership.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -396,8 +454,8 @@
     },
     {
       "id": "https://www.cinejosh.com/news/1/131010/ee-nagaraniki-emaindi-2-trailer-release-date-and-time-announced.html",
-      "title": "Release Date and Time Officially Set for Ee Nagaraniki Emaindi 2 Trailer",
-      "summary": "The trailer release schedule for Ee Nagaraniki Emaindi 2 has been officially announced, specifying both the exact date and time for its unveiling. Fans and followers are now gearing up for the promotional preview of the sequel.",
+      "title": "Release Date and Time Confirmed for Ee Nagaraniki Emaindi 2 Trailer",
+      "summary": "The official trailer release date and time have been announced for Ee Nagaraniki Emaindi 2. Followers of the franchise can expect the promotional asset to drop precisely on schedule as promotional campaigns ramp up.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/1/131010/ee-nagaraniki-emaindi-2-trailer-release-date-and-time-announced.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ee-nagaraniki-emaindi-2-trailer-release-date-and-time-announced-1793443752183-1793443751980.jpg",
@@ -405,13 +463,13 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The much-anticipated trailer release date and time for Ee Nagaraniki Emaindi 2 have been officially revealed, giving moviegoers a confirmed timeline for the upcoming promotional material.",
-        "The announcement provides clarity for supporters waiting to catch a glimpse of the sequel, setting clear expectations for when the trailer will be available to the public.",
-        "As the scheduled time approaches, the trailer launch marks an important milestone in the promotional campaign for Ee Nagaraniki Emaindi 2."
+        "The team behind Ee Nagaraniki Emaindi 2 has officially announced the exact release date and time for its upcoming trailer. This announcement has heightened enthusiasm among fans eagerly awaiting a fresh look at the sequel.",
+        "Trailer release announcements serve as a vital milestone in modern cinematic marketing, allowing supporters to coordinate and build momentum ahead of the actual footage premiere.",
+        "With the schedule now set, audiences are preparing to catch the official preview as soon as it becomes available."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "The trailer release schedule for Ee Nagaraniki Emaindi 2 has been officially announced, specifying both the exact date and time for its unveiling. Fans and followers are now gearing up for the promotional preview of the sequel.",
+      "dek": "The official trailer release date and time have been announced for Ee Nagaraniki Emaindi 2. Followers of the franchise can expect the promotional asset to drop precisely on schedule as promotional campaigns ramp up.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -420,33 +478,9 @@
       "originalUrl": "https://www.cinejosh.com/news/1/131010/ee-nagaraniki-emaindi-2-trailer-release-date-and-time-announced.html"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/131008/sonu-sood-and-mla-t-prakash-goud-launch-oh-na-siddayya-song.html",
-      "title": "Sonu Sood and MLA T. Prakash Goud Unveil the 'Oh Na Siddayya' Song",
-      "summary": "Actor Sonu Sood and MLA T. Prakash Goud have officially launched the 'Oh Na Siddayya' track. The musical launch event brought together prominent personalities to introduce the new song to audiences.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/131008/sonu-sood-and-mla-t-prakash-goud-launch-oh-na-siddayya-song.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/sonu-sood-and-mla-t-prakash-goud-launch-oh-na-siddayya-song-1793440264133-1793440264797.jpg",
-      "publishedAt": "2026-10-31T09:51:17.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A fresh musical offering has arrived as actor Sonu Sood and MLA T. Prakash Goud teamed up to launch the 'Oh Na Siddayya' song. The launch event marked an important milestone for the track, bringing together notable figures to present the musical work to the public.",
-        "The collaboration between prominent film personalities and public figures during such promotional events often generates significant buzz among movie enthusiasts. With Sonu Sood and T. Prakash Goud stepping in to unveil the track, 'Oh Na Siddayya' has caught the attention of fans looking forward to new cinema-related audio releases."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Actor Sonu Sood and MLA T. Prakash Goud have officially launched the 'Oh Na Siddayya' track. The musical launch event brought together prominent personalities to introduce the new song to audiences.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "CineJosh"
-      ],
-      "originalUrl": "https://www.cinejosh.com/news/1/131008/sonu-sood-and-mla-t-prakash-goud-launch-oh-na-siddayya-song.html"
-    },
-    {
       "id": "https://www.cinejosh.com/news/3/131003/shah-rukh-khan-king-first-song-on-his-birthday.html",
-      "title": "Shah Rukh Khan's 'King' Anticipates First Single Launch on His Birthday",
-      "summary": "Excitement is building around Shah Rukh Khan's upcoming project King, with reports pointing toward the release of the film's first song on the superstar's birthday. Fans eagerly await further official updates regarding the much-discussed musical single.",
+      "title": "Shah Rukh Khan's 'King' Eyes Birthday Treat with First Song Release",
+      "summary": "Excitement is building among fans as reports indicate that the first single from Shah Rukh Khan's upcoming film King is slated for release on his birthday. The development brings fresh buzz to the highly anticipated project starring the Bollywood icon.",
       "source": "CineJosh",
       "url": "https://www.cinejosh.com/news/3/131003/shah-rukh-khan-king-first-song-on-his-birthday.html",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/shah-rukh-khan-king-first-song-on-his-birthday-1793436619120-1793436619633.jpg",
@@ -454,12 +488,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Anticipation is reaching new heights for Shah Rukh Khan's upcoming movie King, as new details regarding the project begin to emerge. Speculation and updates have centered around the potential release of the film's first single on the actor's birthday.",
-        "For followers of major Bollywood releases, star-studded birthday updates serve as major promotional moments. The reported timing of the first song launch adds an extra layer of excitement for supporters tracking the progress of King."
+        "Bollywood superstar Shah Rukh Khan's upcoming movie King is already generating significant discussion among followers and cinema enthusiasts alike. According to recent updates, the project is preparing to share its very first musical track with audiences on the actor's special day.",
+        "The strategy to unveil the opening single on his birthday serves as a major treat for supporters tracking the progress of King. As anticipation continues to mount around the venture, this upcoming musical drop marks an important milestone for the film's promotional journey."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Excitement is building around Shah Rukh Khan's upcoming project King, with reports pointing toward the release of the film's first song on the superstar's birthday. Fans eagerly await further official updates regarding the much-discussed musical single.",
+      "dek": "Excitement is building among fans as reports indicate that the first single from Shah Rukh Khan's upcoming film King is slated for release on his birthday. The development brings fresh buzz to the highly anticipated project starring the Bollywood icon.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -469,8 +503,8 @@
     },
     {
       "id": "https://www.123telugu.com/mnews/rc17-sukumars-wife-shares-an-interesting-post-ram-charan-fans-thrilled-prp.html",
-      "title": "Ram Charan's RC17 Generates Buzz Following Social Media Post by Sukumar's Wife",
-      "summary": "Fans of actor Ram Charan are expressing excitement following a recent social media update shared by the wife of director Sukumar regarding the highly anticipated project RC17. The intriguing post has quickly caught the attention of movie enthusiasts tracking the film's development.",
+      "title": "Ram Charan Fans Thrilled Over Social Media Post Linked to RC17",
+      "summary": "Followers of Ram Charan have found fresh reason to celebrate following an engaging social media post shared by director Sukumar's wife. The update has immediately stoked excitement regarding the actor's upcoming collaborative project known temporarily as RC17.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/rc17-sukumars-wife-shares-an-interesting-post-ram-charan-fans-thrilled-prp.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/11/rc17.webp",
@@ -478,12 +512,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The collaborative project RC17, starring Ram Charan and directed by Sukumar, continues to stay in the spotlight. Recently, excitement among fans surged after Sukumar's wife shared an interesting post related to the film on social media.",
-        "In the realm of modern cinema, subtle hints and social media updates from near circles often amplify fan engagement. This latest post has successfully fueled discussions among supporters eagerly waiting for official production updates on RC17."
+        "The collaborative project RC17 has caught the attention of enthusiastic moviegoers after a recent social media update shared by the director Sukumar's wife. The development has successfully ignited conversations and excitement among the dedicated fan base of Ram Charan.",
+        "While specific details about the film continue to be closely watched, social media hints from figures close to the production frequently amplify audience anticipation. For supporters of the star, any emerging teaser or hint regarding RC17 keeps momentum high as the film develops."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Fans of actor Ram Charan are expressing excitement following a recent social media update shared by the wife of director Sukumar regarding the highly anticipated project RC17. The intriguing post has quickly caught the attention of movie enthusiasts tracking the film's development.",
+      "dek": "Followers of Ram Charan have found fresh reason to celebrate following an engaging social media post shared by director Sukumar's wife. The update has immediately stoked excitement regarding the actor's upcoming collaborative project known temporarily as RC17.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -493,8 +527,8 @@
     },
     {
       "id": "https://www.telugu360.com/new-heroine-next-big-thing/",
-      "title": "Is a New Heroine Set to Be Tollywood's Next Big Star?",
-      "summary": "Discussion is brewing in the industry regarding a fresh face entering the cinema scene. Movie enthusiasts and followers are beginning to wonder if this new heroine is poised to become the next big thing in entertainment.",
+      "title": "Fresh Face Sparks Industry Curiosity as the Next Big Heroine",
+      "summary": "The Telugu film industry is buzzing with anticipation over a fresh female lead who is quickly drawing attention as a potential breakout star. Industry followers are closely watching her upcoming moves as she positions herself as a major name to watch.",
       "source": "Telugu360",
       "url": "https://www.telugu360.com/new-heroine-next-big-thing/",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Satvika-Veeravalli.jpg",
@@ -502,12 +536,12 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The cinema world is always on the lookout for fresh talent, and a new heroine has recently become the subject of industry discussions. Observers and fans are currently weighing whether this newcomer will make a substantial impact on the big screen.",
-        "The introduction of fresh faces often revitalizes casting trends in major film industries. As updates and conversations unfold, audiences remain watchful to see how this emerging actor's career path develops."
+        "The cinematic landscape is constantly searching for fresh talent, and a new heroine has recently captured the spotlight within the industry. Discussions are circulating regarding her potential to become the next prominent face in upcoming film projects.",
+        "As curiosity builds around her casting and future ventures, audiences and industry trackers alike are eager to see how her career unfolds. The introduction of promising new faces always injects renewed energy into regional cinema."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Discussion is brewing in the industry regarding a fresh face entering the cinema scene. Movie enthusiasts and followers are beginning to wonder if this new heroine is poised to become the next big thing in entertainment.",
+      "dek": "The Telugu film industry is buzzing with anticipation over a fresh female lead who is quickly drawing attention as a potential breakout star. Industry followers are closely watching her upcoming moves as she positions herself as a major name to watch.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
@@ -516,9 +550,57 @@
       "originalUrl": "https://www.telugu360.com/new-heroine-next-big-thing/"
     },
     {
+      "id": "https://www.gulte.com/movienews/438997/dhurandhar-composer-for-ntr-neels-dragon",
+      "title": "Rumors Link Dhurandhar Composer to NTR and Prashanth Neel's Dragon",
+      "summary": "Speculation is swirling in film circles regarding the musical composition for the highly anticipated collaboration between actor NTR and director Prashanth Neel, provisionally titled Dragon. Reports suggest that the composer behind Dhurandhar might be attached to the project.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/438997/dhurandhar-composer-for-ntr-neels-dragon",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/dragon-shashwat.jpg",
+      "publishedAt": "2026-10-31T07:44:03.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The collaboration between leading actor NTR and director Prashanth Neel, widely discussed under the working title Dragon, continues to attract significant media attention. The latest wave of speculation points toward the music department, with rumors linking the composer of Dhurandhar to the venture.",
+        "While official confirmations are awaited, the prospect of this musical pairing has further amplified expectations for the film. High-profile combinations of top-tier directors, actors, and composers always command intense interest across the entertainment sector."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "Speculation is swirling in film circles regarding the musical composition for the highly anticipated collaboration between actor NTR and director Prashanth Neel, provisionally titled Dragon. Reports suggest that the composer behind Dhurandhar might be attached to the project.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Gulte"
+      ],
+      "originalUrl": "https://www.gulte.com/movienews/438997/dhurandhar-composer-for-ntr-neels-dragon"
+    },
+    {
+      "id": "https://www.telugu360.com/sankranthi-2027-veterans-vs-young-actors/",
+      "title": "Sankranthi 2027 Box Office Shaping Up: Veterans Take on Young Stars",
+      "summary": "The Sankranthi 2027 cinematic lineup is drawing attention as veteran performers prepare to face off against the industry's younger generation of actors at the box office. This upcoming festive clash highlights an exciting generational dynamic within Tollywood.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/sankranthi-2027-veterans-vs-young-actors/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/10/Sankranthi-2027-Veterans-Vs-Young-Actors.jpg",
+      "publishedAt": "2026-10-31T07:12:58.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The festive Sankranthi season for 2027 is already generating significant discussion within the film community, pointing toward a compelling box-office battle. Industry projections and early planning indicate a high-profile showdown pitting veteran actors against the rising young generation of talent.",
+        "Such generational clashes during major festival windows always draw intense interest from moviegoers and trade analysts alike. As both established veterans and younger stars ready their projects for the lucrative holiday period, the competitive landscape of Telugu cinema continues to evolve."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved",
+      "dek": "The Sankranthi 2027 cinematic lineup is drawing attention as veteran performers prepare to face off against the industry's younger generation of actors at the box office. This upcoming festive clash highlights an exciting generational dynamic within Tollywood.",
+      "keyFacts": [],
+      "cineinstaContext": "",
+      "sources": [
+        "Telugu360"
+      ],
+      "originalUrl": "https://www.telugu360.com/sankranthi-2027-veterans-vs-young-actors/"
+    },
+    {
       "id": "https://www.123telugu.com/mnews/kaante-kabil-director-sanjay-gupta-passes-away-at-59-avd.html",
-      "title": "Filmmaker Sanjay Gupta Passes Away at 59",
-      "summary": "Filmmaker Sanjay Gupta, known for directing movies like Kaante and Kaabil, has passed away at the age of 59. The industry mourns the loss of the veteran director.",
+      "title": "Filmmaker Sanjay Gupta, Director of Kaante and Kabil, Passes Away at 59",
+      "summary": "Filmmaker Sanjay Gupta, known for directing notable Hindi films such as Kaante and Kabil, has passed away at the age of 59. The industry mourns the loss of the director, whose career left a notable mark on popular action and drama cinema.",
       "source": "123telugu",
       "url": "https://www.123telugu.com/mnews/kaante-kabil-director-sanjay-gupta-passes-away-at-59-avd.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/sanj.webp",
@@ -526,72 +608,31 @@
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Filmmaker Sanjay Gupta, widely recognized for his work in Hindi cinema including directing films such as Kaante and Kaabil, has passed away at the age of 59.",
-        "Gupta's contributions to the film industry left a noticeable mark through his distinct style of action and thriller filmmaking over the years.",
-        "Colleagues and fans within the cinematic community have expressed their grief following the news of his demise at age 59."
+        "Filmmaker Sanjay Gupta, celebrated for helming notable cinematic projects including Kaante and Kabil, has passed away at the age of 59. His passing marks a somber moment for the film fraternity and admirers of his distinctive directorial style.",
+        "Throughout his career, Gupta made a distinct impact through his stylish filmmaking choices and commercial ventures. The news of his demise at 59 has prompted condolences and tributes from across the entertainment industry."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved",
-      "dek": "Filmmaker Sanjay Gupta, known for directing movies like Kaante and Kaabil, has passed away at the age of 59. The industry mourns the loss of the veteran director.",
+      "dek": "Filmmaker Sanjay Gupta, known for directing notable Hindi films such as Kaante and Kabil, has passed away at the age of 59. The industry mourns the loss of the director, whose career left a notable mark on popular action and drama cinema.",
       "keyFacts": [],
       "cineinstaContext": "",
       "sources": [
         "123telugu"
       ],
       "originalUrl": "https://www.123telugu.com/mnews/kaante-kabil-director-sanjay-gupta-passes-away-at-59-avd.html"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/shah-rukh-khans-king-reportedly-secures-the-biggest-ever-overseas-deal-for-an-indian-film-prp.html",
-      "title": "Shah Rukh Khan's Upcoming Project 'King' Lands Record-Breaking International Agreement",
-      "summary": "Bollywood icon Shah Rukh Khan's highly anticipated film King has reportedly locked in the largest international distribution agreement ever recorded for an Indian motion picture, setting a new benchmark for global business in domestic cinema.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/shah-rukh-khans-king-reportedly-secures-the-biggest-ever-overseas-deal-for-an-indian-film-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/09/KING-1.webp",
-      "publishedAt": "2026-10-31T01:32:01.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Bollywood superstar Shah Rukh Khan continues to make massive waves globally, with his upcoming movie King reportedly securing the biggest-ever overseas deal for an Indian film. Industry circles are buzzing about the sheer scale of the international agreement, which highlights the actor's unparalleled global market reach.",
-        "While specific financial figures and studio partners have yet to be officially detailed, this monumental overseas acquisition underscores the escalating commercial value of Indian cinema abroad. Shah Rukh Khan's enduring international superstardom remains a primary driver behind such unprecedented pre-release business milestones.",
-        "As anticipation builds for King, this record-setting development sets a high bar for upcoming major productions. Fans and industry analysts alike will be watching closely as further official updates regarding the film's global rollout are unveiled."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "Bollywood icon Shah Rukh Khan's highly anticipated film King has reportedly locked in the largest international distribution agreement ever recorded for an Indian motion picture, setting a new benchmark for global business in domestic cinema.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/mnews/shah-rukh-khans-king-reportedly-secures-the-biggest-ever-overseas-deal-for-an-indian-film-prp.html"
-    },
-    {
-      "id": "https://www.123telugu.com/reviews/venkatesh-aadarsha-kutumbam-telugu-movie-review-and-rating.html",
-      "title": "Aadarsha Kutumbam Movie Review: A Quality Family Entertainer Starring Venkatesh",
-      "summary": "The Telugu film Aadarsha Kutumbam, starring Venkatesh, has been met with a positive reception as a decent family entertainer. The recent review highlights its appeal to audiences looking for wholesome cinematic entertainment.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/reviews/venkatesh-aadarsha-kutumbam-telugu-movie-review-and-rating.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Aadarsha-Kutumbam-5.webp",
-      "publishedAt": "2026-10-30T20:32:32.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Telugu cinema audiences have a fresh option in the family entertainment genre with Aadarsha Kutumbam, starring the acclaimed actor Venkatesh. Early reviews and critical assessments point to the film delivering an engaging experience tailored for family viewers.",
-        "The movie focuses on relatable domestic themes and emotional beats, anchored by Venkatesh's reliable screen presence. Such projects traditionally rely on strong word-of-mouth and broad audience appeal to sustain their run at the box office.",
-        "For fans of the leading man and lovers of traditional family dramas, Aadarsha Kutumbam offers a worthwhile theatrical viewing experience. The positive initial reception marks another solid addition to the actor's filmography."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved",
-      "dek": "The Telugu film Aadarsha Kutumbam, starring Venkatesh, has been met with a positive reception as a decent family entertainer. The recent review highlights its appeal to audiences looking for wholesome cinematic entertainment.",
-      "keyFacts": [],
-      "cineinstaContext": "",
-      "sources": [
-        "123telugu"
-      ],
-      "originalUrl": "https://www.123telugu.com/reviews/venkatesh-aadarsha-kutumbam-telugu-movie-review-and-rating.html"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/scene-trailer-suriya-plays-a-rebellious-cop-in-jithu-madhavans-action-comedy-thalapathy-vijay-gets-an-indirect-political-reference-watch/articleshow/135415434.cms",
+      "title": "'Scene' trailer: Suriya plays a rebellious cop in Jithu Madhavan's action comedy; Thalapathy Vijay gets an indirect political reference - WATCH",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/scene-trailer-suriya-plays-a-rebellious-cop-in-jithu-madhavans-action-comedy-thalapathy-vijay-gets-an-indirect-political-reference-watch/articleshow/135415434.cms",
+      "img": "https://static.toiimg.com/thumb/msid-135415441,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
       "title": "Latest trailers entertainment Videos | Times of India",
@@ -700,16 +741,6 @@
       "img": "https://static.toiimg.com/thumb/msid-134914336,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tum-mere-ho-official-trailer/videoshow/134829707.cms",
-      "title": "Tum Mere Ho - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/tum-mere-ho-official-trailer/videoshow/134829707.cms",
-      "img": "https://static.toiimg.com/thumb/msid-134829707,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
