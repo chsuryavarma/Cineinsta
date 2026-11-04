@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T22:52:07.535Z",
+  "updatedAt": "2026-11-04T04:38:58.723Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,13 +370,19 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-11-03T22:51:30.868Z",
-      "lastAttemptedAt": "2026-11-03T22:51:30.868Z",
+      "updatedAt": "2026-11-04T04:38:22.290Z",
+      "lastAttemptedAt": "2026-11-04T04:38:22.290Z",
       "items": [
         {
           "title": "Watch Baththa | Netflix",
           "url": "https://www.netflix.com/title/83064751",
           "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcxH8w2-qDx9AvZR4iM4pQP4cpIu_pDV-IaIwTbDG2x41zFAUcXs5mvE-YgkaUD4__gDh6XDmilO0nWFtGNwzWNLhS_qEhVEjcAg.jpg?r=e7e",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Vishwanath & Sons | Netflix",
+          "url": "https://www.netflix.com/title/82034837",
+          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaGpoOfcAlPb2yLOkkjH59ekrZoLnHCwfOUx4JVdUlYuA7SmTUEjUY51RCf2v83FnwVACq92LHPtK2Bnm_TUAYDhwn82e1-Zw6ee.jpg?r=4d5",
           "languages": "Telugu"
         },
         {
@@ -386,9 +392,9 @@
           "languages": "Telugu"
         },
         {
-          "title": "Watch Vishwanath & Sons | Netflix",
-          "url": "https://www.netflix.com/title/82034837",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaGpoOfcAlPb2yLOkkjH59ekrZoLnHCwfOUx4JVdUlYuA7SmTUEjUY51RCf2v83FnwVACq92LHPtK2Bnm_TUAYDhwn82e1-Zw6ee.jpg?r=4d5",
+          "title": "Watch Dorothy | Netflix",
+          "url": "https://www.netflix.com/title/83238479",
+          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTiEeCqXK0iy6bwDA-s5hYONsXz1NpxiY2gKD4AyF45o7wLqjrVwjTpHB1TrISWEgoV1vmUgQohuPw6XmHoSaQJQmeLpq2aedVMI.jpg?r=5c2",
           "languages": "Telugu"
         },
         {
@@ -404,12 +410,6 @@
           "languages": "Telugu"
         },
         {
-          "title": "Watch Dorothy | Netflix",
-          "url": "https://www.netflix.com/title/83238479",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTiEeCqXK0iy6bwDA-s5hYONsXz1NpxiY2gKD4AyF45o7wLqjrVwjTpHB1TrISWEgoV1vmUgQohuPw6XmHoSaQJQmeLpq2aedVMI.jpg?r=5c2",
-          "languages": "Telugu"
-        },
-        {
           "title": "Watch Mandaadi | Netflix",
           "url": "https://www.netflix.com/title/82787383",
           "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSadHY_axWcpvC1a4eLhSChmKn_jCLlEYrieSZAOI8c7XWULiYC-8p0cZBjFan32AEnH2uWcqpl5vNwOjESlqxKVQsrZ3wrOQx7Y.jpg?r=1df",
@@ -422,27 +422,27 @@
           "languages": "Telugu"
         },
         {
-          "title": "Watch Dhurandhar The Revenge (Raw & Undekha) | Netflix",
-          "url": "https://www.netflix.com/title/82813021",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaoGiZmucCRw8W54iHIvlFN430rh-_waKYdkLgHXVMleM0bw_b-_g3lYXad5e0l2OGrRmZYJsoQ6sGh3ur82VBO6CGefii6vrCRM.jpg?r=0d8",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Watch Dhamaal 4 | Netflix",
-          "url": "https://www.netflix.com/title/81950460",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSY-XTugQdQc6cb5fId4GmXUQqGSHJxj4AKL0stTUVycalFS6sW1Q9-jHhgwvoIKQXiLabz0b1XtkxtmEgCSx3ujGBPMk8PwcnYz.jpg?r=045",
-          "languages": "Telugu"
-        },
-        {
           "title": "Watch Irumudi | Netflix",
           "url": "https://www.netflix.com/title/83001420",
           "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS58fWfMQQ2yc0DEXQpiB4EDh-2HJ4bPjQTUaOS-YTKWhqj2YbJl7LJhAFAC6B3Le8wDR7G1HcF4fGcwuj3gfL1FayrBdHh04ekk.jpg?r=c83",
           "languages": "Telugu"
         },
         {
-          "title": "Watch Sigma | Netflix",
-          "url": "https://www.netflix.com/title/82775969",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSien9aE_x_ZmdKL5-xooVZwg5PyJU0w74eLnXSN7k1GaOa4SqdJAWJLcks1STW_JdWETF0x-8H3gpsnU14uhD2DTPcJ0sYNSt6S.jpg?r=b2b",
+          "title": "Watch Dhurandhar The Revenge (Raw & Undekha) | Netflix",
+          "url": "https://www.netflix.com/title/82813021",
+          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaoGiZmucCRw8W54iHIvlFN430rh-_waKYdkLgHXVMleM0bw_b-_g3lYXad5e0l2OGrRmZYJsoQ6sGh3ur82VBO6CGefii6vrCRM.jpg?r=0d8",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Raid 2 | Netflix",
+          "url": "https://www.netflix.com/title/81760050",
+          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdJC3ODRBRgALu0OIuFzfaYrQJpOoAq8ifv2LHPvAzlnIybZxYVlvtJ_sPJWDcPN3dig1wgrRviGASOy-eRwKCB1c4_-jCIaPATl.jpg?r=c39",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Dhurandhar | Netflix",
+          "url": "https://www.netflix.com/title/82156122",
+          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQSpyGF5vVvn0CHkaK29kxqUmAZb2nEIYs1uezqtwSnNp7qg7ykmnN0_tt6cr6GY0oXMwEvTJsiTmv3s0Eu5Zom9I-PJI_o8nXvE.jpg?r=db9",
           "languages": "Telugu"
         }
       ]
@@ -450,7 +450,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-11-03T22:51:47.411Z",
+      "lastAttemptedAt": "2026-11-04T04:38:38.800Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -464,7 +464,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-11-03T22:51:48.689Z",
+      "lastAttemptedAt": "2026-11-04T04:38:40.191Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -532,14 +532,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-03T22:51:50.382Z",
+      "lastAttemptedAt": "2026-11-04T04:38:40.379Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-11-03T22:51:59.144Z",
-      "lastAttemptedAt": "2026-11-03T22:51:59.144Z",
+      "updatedAt": "2026-11-04T04:38:53.142Z",
+      "lastAttemptedAt": "2026-11-04T04:38:53.142Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -570,21 +570,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-03T22:52:01.268Z",
+      "lastAttemptedAt": "2026-11-04T04:38:55.193Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-03T22:52:02.635Z",
+      "lastAttemptedAt": "2026-11-04T04:38:56.730Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-11-03T22:52:07.532Z",
-      "lastAttemptedAt": "2026-11-03T22:52:07.532Z",
+      "updatedAt": "2026-11-04T04:38:58.721Z",
+      "lastAttemptedAt": "2026-11-04T04:38:58.721Z",
       "items": [
         {
           "title": "Watch Immortal, a Romantic Horror Movie Online - Sony LIV",
