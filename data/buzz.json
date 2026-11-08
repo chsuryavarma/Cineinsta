@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T22:13:56.722Z",
+  "updatedAt": "2026-11-08T04:04:33.624Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -55,9 +55,9 @@
   ],
   "movies": [
     {
-      "id": "janhvi-kapoor-faces-troll-backlash-following-recent-south-industry-interview",
-      "title": "Janhvi Kapoor Faces Troll Backlash Following Recent South Industry Interview",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/janhvi-Kapoor-south.jpg",
+      "id": "kamal-haasan-s-dasavathaaram-set-for-a-theatrical-re-release-on-november-28",
+      "title": "Kamal Haasan's Dasavathaaram Set For A Theatrical Re-Release On November 28",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/dasavathaaram-re-release-on-november-28-1794108924660-1794108924931.jpg",
       "language": "Telugu",
       "buzzScore": 27,
       "status": "COOLING",
@@ -68,8 +68,73 @@
       }
     },
     {
-      "id": "prabhas-fans-reference-adipurush-amid-ramayana-day-1-collections",
-      "title": "Prabhas Fans Reference Adipurush Amid Ramayana Day 1 Collections",
+      "id": "vijay-deverakonda-and-rashmika-mandanna-s-airport-appearance-sparks-viral-buzz",
+      "title": "Vijay Deverakonda and Rashmika Mandanna's Airport Appearance Sparks Viral Buzz",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/vijay-deverakonda-and-rashmika-airport-appearance-grabs-attention-1794103495242-1794103495190.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "ntr-applauds-aniesh-s-work-in-itlu-arjuna-reveals-venky-kudumula",
+      "title": "NTR Applauds Aniesh's Work in Itlu Arjuna, Reveals Venky Kudumula",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/11/ntr-aneish-itluarjuna-nov726.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "naga-chaitanya-s-vrushakarma-unveils-first-single-swag-of-arjun",
+      "title": "Naga Chaitanya's Vrushakarma Unveils First Single 'Swag of Arjun'",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/11/swagofarjun-nov0726.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "a-look-at-the-bond-between-ram-pothineni-and-riteish-deshmukh",
+      "title": "A Look at the Bond Between Ram Pothineni and Riteish Deshmukh",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/11/ram-genelia-nov726.jpg",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "mammootty-reflects-on-om-as-a-milestone-project",
+      "title": "Mammootty Reflects on OM as a Milestone Project",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/OM-Mammootty.webp",
+      "language": "Telugu",
+      "buzzScore": 27,
+      "status": "COOLING",
+      "sourceSignals": {
+        "news": 1,
+        "reviews": 0,
+        "trailers": 0
+      }
+    },
+    {
+      "id": "prabhas-fans-react-following-ramayana-day-1-collections-and-adipurush-comparisons",
+      "title": "Prabhas Fans React Following Ramayana Day 1 Collections and Adipurush Comparisons",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ramayana-day1-prabhas-fans-pull-adipurush-1794057873189-1794057873347.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -81,8 +146,8 @@
       }
     },
     {
-      "id": "suriya-s-upcoming-project-eyes-summer-release-window",
-      "title": "Suriya's Upcoming Project Eyes Summer Release Window",
+      "id": "suriya-eyes-summer-window-for-upcoming-project",
+      "title": "Suriya Eyes Summer Window for Upcoming Project",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/08/Suriya-3.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -94,8 +159,8 @@
       }
     },
     {
-      "id": "exhibiting-royal-swag-arjun-s-look-unveiled-from-vrushakarma",
-      "title": "Exhibiting Royal Swag: Arjun's Look Unveiled From Vrushakarma",
+      "id": "unveiling-the-swag-of-arjun-from-vrushakarma",
+      "title": "Unveiling the Swag of Arjun from Vrushakarma",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/swag-of-arjun-vrushakarma-scaled.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -107,8 +172,8 @@
       }
     },
     {
-      "id": "ranbir-kapoor-expresses-strong-aspiration-to-direct",
-      "title": "Ranbir Kapoor Expresses Strong Aspiration to Direct",
+      "id": "ranbir-kapoor-sets-sights-on-directorial-debut",
+      "title": "Ranbir Kapoor Sets Sights on Directorial Debut",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/ranbir-kapoor-Bishnoi.jpeg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -120,8 +185,8 @@
       }
     },
     {
-      "id": "ranbir-kapoor-sets-sights-on-directorial-debut-in-the-coming-years",
-      "title": "Ranbir Kapoor Sets Sights on Directorial Debut in the Coming Years",
+      "id": "ranbir-kapoor-targets-directorial-debut-within-next-couple-of-years",
+      "title": "Ranbir Kapoor Targets Directorial Debut Within Next Couple of Years",
       "img": "https://www.cinejosh.com/newsimg/newsmainimg/ranbir-kapoor-plans-his-directorial-debut-in-the-next-couple-of-years-1794050014507-1794050013873.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -133,8 +198,8 @@
       }
     },
     {
-      "id": "nithiin-channels-a-decade-younger-look-for-alias-rukmini",
-      "title": "Nithiin Channels a Decade-Younger Look for Alias Rukmini",
+      "id": "nithiin-looks-like-he-rolled-back-time-for-alias-rukmini",
+      "title": "Nithiin Looks Like He Rolled Back Time For Alias Rukmini",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/IMG-20261107-WA0020-scaled.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -146,8 +211,8 @@
       }
     },
     {
-      "id": "ar-rahman-and-hans-zimmer-collaboration-touted-as-major-asset-for-ramayana",
-      "title": "AR Rahman and Hans Zimmer Collaboration Touted as Major Asset for Ramayana",
+      "id": "ar-rahman-and-hans-zimmer-collaboration-touted-as-ramayana-s-greatest-asset",
+      "title": "AR Rahman And Hans Zimmer Collaboration Touted As Ramayana's Greatest Asset",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/Hans-Zimmer-ar-Rahman-ramayana-.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -159,8 +224,8 @@
       }
     },
     {
-      "id": "ranbir-kapoor-puts-retirement-rumors-to-rest-confirms-directorial-ambitions",
-      "title": "Ranbir Kapoor Puts Retirement Rumors to Rest, Confirms Directorial Ambitions",
+      "id": "ranbir-kapoor-clears-the-air-on-retirement-rumors-and-directorial-ambitions",
+      "title": "Ranbir Kapoor Clears The Air On Retirement Rumors And Directorial Ambitions",
       "img": "https://telugucinema.com/wp-content/uploads/2026/10/ramayana-ranbir-oct1826.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -172,8 +237,8 @@
       }
     },
     {
-      "id": "new-developments-emerge-in-legal-case-involving-mathu-vadalara-actress-athulya-chandra",
-      "title": "New Developments Emerge in Legal Case Involving 'Mathu Vadalara' Actress Athulya Chandra",
+      "id": "new-developments-emerge-in-legal-situation-involving-actress-athulya-chandra",
+      "title": "New Developments Emerge in Legal Situation Involving Actress Athulya Chandra",
       "img": "https://telugucinema.com/wp-content/uploads/2026/11/athulyachandra-nov0726.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -185,8 +250,8 @@
       }
     },
     {
-      "id": "namit-malhotra-s-ramayana-surprises-trade-pundits-with-strong-performance-in-kerala",
-      "title": "Namit Malhotra’s 'Ramayana' Surprises Trade Pundits with Strong Performance in Kerala",
+      "id": "namit-malhotra-s-ramayana-surprises-trade-pundits-with-strong-kerala-response",
+      "title": "Namit Malhotra's 'Ramayana' Surprises Trade Pundits with Strong Kerala Response",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/RAMAYANA-2-3.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -198,8 +263,8 @@
       }
     },
     {
-      "id": "rashmika-mandanna-s-latest-checked-mini-outfit-sets-fashion-goals",
-      "title": "Rashmika Mandanna’s Latest Checked Mini Outfit Sets Fashion Goals",
+      "id": "rashmika-mandanna-s-latest-checkered-mini-look-captivates-fans",
+      "title": "Rashmika Mandanna's Latest Checkered Mini Look Captivates Fans",
       "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/Rashmika-2-scaled.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -211,21 +276,8 @@
       }
     },
     {
-      "id": "industry-debate-sparks-over-attention-given-to-tamil-versus-telugu-cinema",
-      "title": "Industry Debate Sparks Over Attention Given to Tamil Versus Telugu Cinema",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/summer-holidays-press.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "priyanka-chopra-officially-announces-new-indian-film-project",
-      "title": "Priyanka Chopra Officially Announces New Indian Film Project",
+      "id": "priyanka-chopra-officially-announces-her-return-to-indian-cinema",
+      "title": "Priyanka Chopra Officially Announces Her Return to Indian Cinema",
       "img": "https://www.telugu360.com/wp-content/uploads/2025/03/Priyanka-Chopra.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -237,21 +289,8 @@
       }
     },
     {
-      "id": "hanuman-ansh-confirms-ott-streaming-details",
-      "title": "Hanuman Ansh Confirms OTT Streaming Details",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/hanuman-ansh-ott-release-date-1794041040172-1794041040497.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "annapurna-studios-takes-charge-of-itllu-arjuna-release-in-ap",
-      "title": "Annapurna Studios Takes Charge of Itllu Arjuna Release in AP",
+      "id": "annapurna-studios-takes-charge-of-ap-release-for-itllu-arjuna",
+      "title": "Annapurna Studios Takes Charge of AP Release for Itllu Arjuna",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/Itllu-Arjuna1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -263,8 +302,8 @@
       }
     },
     {
-      "id": "actress-surekha-vani-issues-legal-warning-following-viral-private-video",
-      "title": "Actress Surekha Vani Issues Legal Warning Following Viral Private Video",
+      "id": "actress-surekha-vani-warns-of-legal-action-after-private-video-spreads-online",
+      "title": "Actress Surekha Vani Warns of Legal Action After Private Video Spreads Online",
       "img": "https://telugucinema.com/wp-content/uploads/2026/11/surekhavani-insta-nov726.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -276,21 +315,8 @@
       }
     },
     {
-      "id": "director-dedicates-six-years-of-hard-work-to-a-single-sequence",
-      "title": "Director Dedicates Six Years of Hard Work to a Single Sequence",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/jatayuv-ramayana-.jpg",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "actress-surekha-vani-speaks-out-against-social-media-misuse",
-      "title": "Actress Surekha Vani Speaks Out Against Social Media Misuse",
+      "id": "surekha-vani-responds-firmly-to-social-media-misuse-and-viral-video",
+      "title": "Surekha Vani Responds Firmly to Social Media Misuse and Viral Video",
       "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Actress-Surekha-Vani.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -302,8 +328,8 @@
       }
     },
     {
-      "id": "actor-vijay-sethupathi-clarifies-stance-on-release-schedules",
-      "title": "Actor Vijay Sethupathi Clarifies Stance on Release Schedules",
+      "id": "vijay-sethupathi-clarifies-stance-on-release-planning",
+      "title": "Vijay Sethupathi Clarifies Stance on Release Planning",
       "img": "https://www.telugu360.com/wp-content/uploads/2024/08/vijay-sethupathi.jpeg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -315,8 +341,8 @@
       }
     },
     {
-      "id": "siddhu-jonnalagadda-puts-two-projects-on-hold-focuses-on-lungiman",
-      "title": "Siddhu Jonnalagadda Puts Two Projects on Hold, Focuses on 'Lungiman'",
+      "id": "siddhu-jonnalagadda-puts-two-projects-aside-to-focus-on-lungiman",
+      "title": "Siddhu Jonnalagadda Puts Two Projects Aside to Focus on 'Lungiman'",
       "img": "https://telugucinema.com/wp-content/uploads/2026/07/siddhu-july1126.jpg",
       "language": "Telugu",
       "buzzScore": 27,
@@ -328,8 +354,8 @@
       }
     },
     {
-      "id": "diwali-box-office-shock-big-budget-film-opens-to-just-3-crore-against-100-crore-cost",
-      "title": "Diwali Box Office Shock: Big Budget Film Opens to Just 3 Crore Against 100 Crore Cost",
+      "id": "diwali-release-struggles-with-modest-3-crore-opening-against-massive-100-crore-budget",
+      "title": "Diwali Release Struggles with Modest 3 Crore Opening Against Massive 100 Crore Budget",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/Mahasakthi-1.webp",
       "language": "Telugu",
       "buzzScore": 27,
@@ -339,110 +365,78 @@
         "reviews": 0,
         "trailers": 0
       }
-    },
-    {
-      "id": "is-shah-rukh-khan-starrer-king-headed-for-a-telugu-release",
-      "title": "Is Shah Rukh Khan Starrer King Headed for a Telugu Release?",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/King-1.webp",
-      "language": "Telugu",
-      "buzzScore": 27,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 1,
-        "reviews": 0,
-        "trailers": 0
-      }
-    },
-    {
-      "id": "scene",
-      "title": "Scene",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/Scene-review-.jpeg",
-      "language": "Telugu",
-      "buzzScore": 25,
-      "status": "COOLING",
-      "sourceSignals": {
-        "news": 0,
-        "reviews": 1,
-        "trailers": 0
-      }
     }
   ],
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-11-07T22:13:19.821Z",
-      "lastAttemptedAt": "2026-11-07T22:13:19.821Z",
+      "updatedAt": "2026-11-08T04:03:57.413Z",
+      "lastAttemptedAt": "2026-11-08T04:03:57.413Z",
       "items": [
         {
           "title": "Watch Baththa | Netflix",
           "url": "https://www.netflix.com/title/83064751",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcxH8w2-qDx9AvZR4iM4pQP4cpIu_pDV-IaIwTbDG2x41zFAUcXs5mvE-YgkaUD4__gDh6XDmilO0nWFtGNwzWNLhS_qEhVEjcAg.jpg?r=e7e",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcxH8w2-qDx9AvZR4iM4pQP4cpIu_pDV-IaIwTbDG2x41zFAUcXs5mvE-YgkaUD4__gDh6XDmilO0nWFtGNwzWNLhS_qEhVEjcAg.jpg?r=e7e",
           "languages": "Telugu"
         },
         {
           "title": "Watch Don't Trouble the Trouble | Netflix",
           "url": "https://www.netflix.com/title/83074919",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfOgkg1nQaeeoQiHcJStc7yXvV3CdUHnaOMLwbLFEzP7wHlIk4aH90-Nwl6hjE_Imvqba1Kh4Pk4g_ZVzfNbn6l1U6NUogHVGI4D.jpg?r=76f",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfOgkg1nQaeeoQiHcJStc7yXvV3CdUHnaOMLwbLFEzP7wHlIk4aH90-Nwl6hjE_Imvqba1Kh4Pk4g_ZVzfNbn6l1U6NUogHVGI4D.jpg?r=76f",
           "languages": "Telugu"
         },
         {
           "title": "Watch Vishwanath & Sons | Netflix",
           "url": "https://www.netflix.com/title/82034837",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaGpoOfcAlPb2yLOkkjH59ekrZoLnHCwfOUx4JVdUlYuA7SmTUEjUY51RCf2v83FnwVACq92LHPtK2Bnm_TUAYDhwn82e1-Zw6ee.jpg?r=4d5",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Watch Dorothy | Netflix",
-          "url": "https://www.netflix.com/title/83238479",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTiEeCqXK0iy6bwDA-s5hYONsXz1NpxiY2gKD4AyF45o7wLqjrVwjTpHB1TrISWEgoV1vmUgQohuPw6XmHoSaQJQmeLpq2aedVMI.jpg?r=5c2",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaGpoOfcAlPb2yLOkkjH59ekrZoLnHCwfOUx4JVdUlYuA7SmTUEjUY51RCf2v83FnwVACq92LHPtK2Bnm_TUAYDhwn82e1-Zw6ee.jpg?r=4d5",
           "languages": "Telugu"
         },
         {
           "title": "Watch Mandaadi | Netflix",
           "url": "https://www.netflix.com/title/82787383",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSadHY_axWcpvC1a4eLhSChmKn_jCLlEYrieSZAOI8c7XWULiYC-8p0cZBjFan32AEnH2uWcqpl5vNwOjESlqxKVQsrZ3wrOQx7Y.jpg?r=1df",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSadHY_axWcpvC1a4eLhSChmKn_jCLlEYrieSZAOI8c7XWULiYC-8p0cZBjFan32AEnH2uWcqpl5vNwOjESlqxKVQsrZ3wrOQx7Y.jpg?r=1df",
           "languages": "Telugu"
         },
         {
           "title": "Watch The Paradise | Netflix",
           "url": "https://www.netflix.com/title/82134615",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSFCgxVsXBj3DFIc59rq8ddWDfU7a5quWhErEPhni5yQ1aHPhV3ieexy9oxNGnfQmjMoEVpgcPq6rhbQEagnX_dKnnbOCp1I5Spk.jpg?r=05d",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSFCgxVsXBj3DFIc59rq8ddWDfU7a5quWhErEPhni5yQ1aHPhV3ieexy9oxNGnfQmjMoEVpgcPq6rhbQEagnX_dKnnbOCp1I5Spk.jpg?r=05d",
           "languages": "Telugu"
         },
         {
           "title": "Watch Gajab Raat | Netflix Official Site",
           "url": "https://www.netflix.com/title/81987289",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQ-UIPrUbMBjkk2KH_ykJkDZbSb5w0i-e5wH_NdEAvrL42qwWaIzLBz0nY9aZ8xMoyoD_xAt2TWJ_EslOe91iFh1Apx8oRRBV5KS.jpg?r=1b3",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQ-UIPrUbMBjkk2KH_ykJkDZbSb5w0i-e5wH_NdEAvrL42qwWaIzLBz0nY9aZ8xMoyoD_xAt2TWJ_EslOe91iFh1Apx8oRRBV5KS.jpg?r=1b3",
           "languages": "Telugu"
         },
         {
           "title": "Watch Modha Rathri | Netflix",
           "url": "https://www.netflix.com/title/82811466",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaybAF6e1i362T1v-lvnVlRaum3W0VMaeRj-8Rya5faYK-0DjiFksUwW2VaSMa3KuG-4afmZr5ruVUZB1axgqC4wH3KYLpLZJvWt.jpg?r=efd",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaybAF6e1i362T1v-lvnVlRaum3W0VMaeRj-8Rya5faYK-0DjiFksUwW2VaSMa3KuG-4afmZr5ruVUZB1axgqC4wH3KYLpLZJvWt.jpg?r=efd",
           "languages": "Telugu"
         },
         {
           "title": "Watch Avarachan & Sons | Netflix",
           "url": "https://www.netflix.com/title/83238513",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABX5GPsbBDd3YGjI0p9ARJ_Jp4yaulQnUcZJ1qFgWSCjKrNslmwFbQMgyy8EFbEqrhc6z5g7L3z25aAfCngmjcrKDkz_bRz_4-Hec.jpg?r=469",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABX5GPsbBDd3YGjI0p9ARJ_Jp4yaulQnUcZJ1qFgWSCjKrNslmwFbQMgyy8EFbEqrhc6z5g7L3z25aAfCngmjcrKDkz_bRz_4-Hec.jpg?r=469",
           "languages": "Telugu"
         },
         {
           "title": "Watch Irumudi | Netflix",
           "url": "https://www.netflix.com/title/83001420",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS58fWfMQQ2yc0DEXQpiB4EDh-2HJ4bPjQTUaOS-YTKWhqj2YbJl7LJhAFAC6B3Le8wDR7G1HcF4fGcwuj3gfL1FayrBdHh04ekk.jpg?r=c83",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS58fWfMQQ2yc0DEXQpiB4EDh-2HJ4bPjQTUaOS-YTKWhqj2YbJl7LJhAFAC6B3Le8wDR7G1HcF4fGcwuj3gfL1FayrBdHh04ekk.jpg?r=c83",
           "languages": "Telugu"
         },
         {
           "title": "Watch Dhamaal 4 | Netflix",
           "url": "https://www.netflix.com/title/81950460",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSY-XTugQdQc6cb5fId4GmXUQqGSHJxj4AKL0stTUVycalFS6sW1Q9-jHhgwvoIKQXiLabz0b1XtkxtmEgCSx3ujGBPMk8PwcnYz.jpg?r=045",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSY-XTugQdQc6cb5fId4GmXUQqGSHJxj4AKL0stTUVycalFS6sW1Q9-jHhgwvoIKQXiLabz0b1XtkxtmEgCSx3ujGBPMk8PwcnYz.jpg?r=045",
           "languages": "Telugu"
         },
         {
           "title": "Watch Sigma | Netflix",
           "url": "https://www.netflix.com/title/82775969",
-          "img": "https://occ-0-3012-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSien9aE_x_ZmdKL5-xooVZwg5PyJU0w74eLnXSN7k1GaOa4SqdJAWJLcks1STW_JdWETF0x-8H3gpsnU14uhD2DTPcJ0sYNSt6S.jpg?r=b2b",
+          "img": "https://occ-0-3012-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSien9aE_x_ZmdKL5-xooVZwg5PyJU0w74eLnXSN7k1GaOa4SqdJAWJLcks1STW_JdWETF0x-8H3gpsnU14uhD2DTPcJ0sYNSt6S.jpg?r=b2b",
           "languages": "Telugu"
         }
       ]
@@ -450,7 +444,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-11-07T22:13:35.384Z",
+      "lastAttemptedAt": "2026-11-08T04:04:16.899Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -464,7 +458,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-10-21T12:30:35.570Z",
-      "lastAttemptedAt": "2026-11-07T22:13:36.682Z",
+      "lastAttemptedAt": "2026-11-08T04:04:18.483Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -532,14 +526,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-07T22:13:36.905Z",
+      "lastAttemptedAt": "2026-11-08T04:04:18.635Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-11-07T22:13:48.998Z",
-      "lastAttemptedAt": "2026-11-07T22:13:48.998Z",
+      "updatedAt": "2026-11-08T04:04:25.943Z",
+      "lastAttemptedAt": "2026-11-08T04:04:25.943Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -570,21 +564,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-07T22:13:50.913Z",
+      "lastAttemptedAt": "2026-11-08T04:04:27.723Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-07T22:13:52.268Z",
+      "lastAttemptedAt": "2026-11-08T04:04:29.097Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-11-07T22:13:56.720Z",
-      "lastAttemptedAt": "2026-11-07T22:13:56.720Z",
+      "updatedAt": "2026-11-08T04:04:33.621Z",
+      "lastAttemptedAt": "2026-11-08T04:04:33.621Z",
       "items": [
         {
           "title": "Watch Meesaya Murukku 2 Full HD Movie Online - Sony LIV",
