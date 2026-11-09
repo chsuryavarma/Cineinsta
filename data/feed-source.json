@@ -1,7 +1,84 @@
 {
-  "updatedAt": "2026-11-08T21:39:44.358Z",
+  "updatedAt": "2026-11-09T04:19:34.813Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.gulte.com/movienews/440635/i-am-closely-watching-politics-but-suriya",
+      "title": "\"I Am Closely Watching Politics, But..\" - Suriya",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/440635/i-am-closely-watching-politics-but-suriya",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2025/10/suriya-craze-telugu-states.jpg",
+      "publishedAt": "2026-11-09T03:59:44.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/ene-repeat-impressive-ott-deal/",
+      "title": "ENE Repeat: Impressive OTT Deal",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/ene-repeat-impressive-ott-deal/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/ENE-2.jpg",
+      "publishedAt": "2026-11-09T03:41:17.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131204/janhvi-kapoor-genuine-south-love-or-damage-control.html",
+      "title": "Janhvi Kapoor: Genuine South Love or Damage Control?",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Janhvi's Sudden South Love: What Changed?",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131204/janhvi-kapoor-genuine-south-love-or-damage-control.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/janhvi-kapoor-genuine-south-love-or-damage-control-1794193651417-1794193651716.jpg",
+      "publishedAt": "2026-11-09T03:07:35.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/suriyas-scene-stands-firm-amid-ramayanas-box-office-storm-hk.html",
+      "title": "Suriya’s Scene Stands Firm Amid Ramayana’s Box Office Storm",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Suriya’s Scene Stands Firm Amid Ramayana’s...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/suriyas-scene-stands-firm-amid-ramayanas-box-office-storm-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/scene-1.webp",
+      "publishedAt": "2026-11-09T02:30:32.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/ramayana-set-to-make-box-office-history-after-huge-opening-weekend-hk.html",
+      "title": "Ramayana Set to Make Box Office History After Huge Opening Weekend",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Ramayana Set to Make Box Office History...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/ramayana-set-to-make-box-office-history-after-huge-opening-weekend-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/RAMAYANA-2-3.webp",
+      "publishedAt": "2026-11-09T01:30:48.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131203/nayanthara-s-mookuthi-amman-2-faces-a-box-office-crisis.html",
+      "title": "Nayanthara's Mookuthi Amman 2 Faces a Box Office Crisis",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Rs 100 Crore Investment, No Clear Path to Recovery Nayanthara's Mookuthi Amman 2 Faces a Box Office Crisis By Rambabu Updated at:...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131203/nayanthara-s-mookuthi-amman-2-faces-a-box-office-crisis.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/nayanthara-s-mookuthi-amman-2-faces-a-box-office-crisis-1794186196811-1794186196458.jpg",
+      "publishedAt": "2026-11-09T01:03:23.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/440632/does-an-actress-really-need-plastic-surgery",
+      "title": "Does an Actress Really Need Plastic Surgery?",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/440632/does-an-actress-really-need-plastic-surgery",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/06/janhvi-kapoor-tollywood-.jpg",
+      "publishedAt": "2026-11-08T20:51:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/revealed-the-harsh-reality-of-ott-deals-behind-mid-range-telugu-films-avd.html",
       "title": "Revealed: The harsh reality of OTT deals behind mid-range Telugu films",
@@ -245,17 +322,6 @@
       "category": "Telugu Cinema"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/131191/ashok-selvan-first-look-from-king-100-out.html",
-      "title": "Ashok Selvan First Look from King 100 out",
-      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; King 100: Ashok Selvan as Fierce Karna Ashok Selvan First Look from King 100 out By Rambabu Updated at: 2026-11-08 08:37:30 AM IST Ashok Selvan FL from King 100...",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/131191/ashok-selvan-first-look-from-king-100-out.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ashok-selvan-first-look-from-king-100-out-1794127044199-1794127045005.jpg",
-      "publishedAt": "2026-11-08T08:37:30.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
       "id": "https://www.123telugu.com/mnews/chiranjeevis-kaaka-unveils-intense-diwali-poster-release-set-for-jan-13-hk.html",
       "title": "Chiranjeevi's Kaaka Unveils Intense Diwali Poster, Release Set for Jan 13",
       "summary": "Chiranjeevi’s Kaaka Unveils Intense Diwali Poster, Release Set for Jan 13 Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు...",
@@ -263,72 +329,6 @@
       "url": "https://www.123telugu.com/mnews/chiranjeevis-kaaka-unveils-intense-diwali-poster-release-set-for-jan-13-hk.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/kaka.jpg",
       "publishedAt": "2026-11-08T08:30:08.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/babloo-xxl-sumanth-prabhass-new-love-story-first-glimpse-released",
-      "title": "Babloo XXL: Sumanth Prabhas's new love story first glimpse released",
-      "summary": "--> --> Babloo XXL: Sumanth Prabhas's new love story first glimpse released - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News...",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/babloo-xxl-sumanth-prabhass-new-love-story-first-glimpse-released",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/11/bablooxxl-firstspark-nov826.jpg",
-      "publishedAt": "2026-11-08T08:06:56.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/440476/king-100-fl-ashok-selvan-brings-madness-as-karna",
-      "title": "King 100 FL: Ashok Selvan Brings Madness As Karna",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/440476/king-100-fl-ashok-selvan-brings-madness-as-karna",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/King-100.jpeg",
-      "publishedAt": "2026-11-08T07:45:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/nbks-enegertic-chartbuster-dada-dhamakha-release-locked/",
-      "title": "NBK's Enegertic Chartbuster Dada Dhamakha release locked",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/nbks-enegertic-chartbuster-dada-dhamakha-release-locked/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/DADA-2.jpg",
-      "publishedAt": "2026-11-08T07:09:08.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/ramayana-day-3-box-office-film-sees-a-big-jump-on-saturday-collections-revealed-hk.html",
-      "title": "Ramayana Day 3 Box Office: Film Sees a Big Jump on Saturday; Collections Revealed",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Ramayana Day 3 Box Office: Film Sees a Big...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/ramayana-day-3-box-office-film-sees-a-big-jump-on-saturday-collections-revealed-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/ramayana-3.webp",
-      "publishedAt": "2026-11-08T06:40:50.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/dada-dhamaka-song-balakrishas-dada-gets-release-date-hk.html",
-      "title": "‘Dada Dhamaka’ Song From Balakrishna’s Dada Gets a Release Date",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు ‘Dada Dhamaka’ Song From Balakrishna’s Dada...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/dada-dhamaka-song-balakrishas-dada-gets-release-date-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/dad.jpg",
-      "publishedAt": "2026-11-08T06:24:44.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/sumanth-prabhas-gives-a-diwali-treat-with-babloo-xxl-first-spark-hk.html",
-      "title": "Sumanth Prabhas Gives a Diwali Treat With Babloo XXL First Spark",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Sumanth Prabhas Gives a Diwali Treat With...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/sumanth-prabhas-gives-a-diwali-treat-with-babloo-xxl-first-spark-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/babloo.webp",
-      "publishedAt": "2026-11-08T06:10:56.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     }
