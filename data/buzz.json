@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T00:02:08.362Z",
+  "updatedAt": "2026-11-12T06:21:44.451Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-11-12T00:01:28.654Z",
-      "lastAttemptedAt": "2026-11-12T00:01:28.654Z",
+      "updatedAt": "2026-11-12T06:21:00.021Z",
+      "lastAttemptedAt": "2026-11-12T06:21:00.021Z",
       "items": [
         {
           "title": "Watch Baththa | Netflix",
@@ -450,7 +450,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-11-12T00:01:44.908Z",
+      "lastAttemptedAt": "2026-11-12T06:21:16.520Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -464,7 +464,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-11-11T06:58:44.684Z",
-      "lastAttemptedAt": "2026-11-12T00:01:46.143Z",
+      "lastAttemptedAt": "2026-11-12T06:21:18.073Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -478,14 +478,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-12T00:01:46.284Z",
+      "lastAttemptedAt": "2026-11-12T06:21:18.306Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-11-12T00:01:58.084Z",
-      "lastAttemptedAt": "2026-11-12T00:01:58.084Z",
+      "updatedAt": "2026-11-12T06:21:38.360Z",
+      "lastAttemptedAt": "2026-11-12T06:21:38.360Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -516,21 +516,21 @@
     "sun-nxt": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-12T00:01:59.763Z",
+      "lastAttemptedAt": "2026-11-12T06:21:40.289Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-12T00:02:01.044Z",
+      "lastAttemptedAt": "2026-11-12T06:21:41.349Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-11-12T00:02:08.360Z",
-      "lastAttemptedAt": "2026-11-12T00:02:08.360Z",
+      "updatedAt": "2026-11-12T06:21:44.449Z",
+      "lastAttemptedAt": "2026-11-12T06:21:44.449Z",
       "items": [
         {
           "title": "Watch Meesaya Murukku 2 Full HD Movie Online - Sony LIV",
