@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cineinsta.com/</loc>
-    <lastmod>2026-11-12T00:01:16.575Z</lastmod>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/news</loc>
-    <lastmod>2026-11-12T00:01:16.575Z</lastmod>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews</loc>
-    <lastmod>2026-11-12T00:01:16.575Z</lastmod>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers</loc>
-    <lastmod>2026-11-12T00:01:16.575Z</lastmod>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/buzz</loc>
-    <lastmod>2026-11-12T00:01:16.575Z</lastmod>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/box-office-battle.html</loc>
@@ -37,6 +37,18 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/disclaimer.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/dnk</loc>
+    <lastmod>2026-11-13T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/itllu-arjuna</loc>
+    <lastmod>2026-11-13T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/goat</loc>
+    <lastmod>2026-11-12T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/the-traitors-telugu-review-all-episodes-mind-games-betrayals-and-high-stakes-drama</loc>
@@ -160,18 +172,26 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/mookuthi-amman-2-maha-sakthi</loc>
-    <lastmod>2026-11-12T00:01:16.575Z</lastmod>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/drishyam-the-conclusion</loc>
-    <lastmod>2026-11-12T00:01:16.575Z</lastmod>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/reviews/thella-kagitham</loc>
-    <lastmod>2026-11-12T00:01:16.575Z</lastmod>
+    <loc>https://www.cineinsta.com/reviews/donga-naa-koduku</loc>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/trailers/latest-trailers-entertainment-videos-times-of-india</loc>
+    <loc>https://www.cineinsta.com/reviews/g-o-a-t</loc>
+    <lastmod>2026-11-13T04:48:15.603Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/idupu-kayitham-teaser-vamsi-reddy-dondapati-s-family-drama-stars-priyadarshi-and-naga-durga-film-set-for-december-11-release</loc>
+    <lastmod>2026-11-12T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/halka-don-teaser-pramod-unveils-a-powerful-mass-avatar-in-first-cut-teaser</loc>
     <lastmod>2026-11-12T00:00:00.000Z</lastmod>
   </url>
   <url>
@@ -188,10 +208,6 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/maatrubhumi-may-war-rest-in-peace-official-trailer</loc>
-    <lastmod>2026-11-10T00:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/arjun-sarja-makes-a-powerful-entry-as-viraavi-in-polimera-3-diwali-glimpse-raises-expectations</loc>
     <lastmod>2026-11-10T00:00:00.000Z</lastmod>
   </url>
   <url>
@@ -213,5 +229,9 @@
   <url>
     <loc>https://www.cineinsta.com/trailers/pratap-official-trailer</loc>
     <lastmod>2026-10-26T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/fauzi-official-teaser</loc>
+    <lastmod>2026-10-24T00:00:00.000Z</lastmod>
   </url>
 </urlset>

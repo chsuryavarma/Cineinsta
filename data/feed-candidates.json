@@ -1,351 +1,420 @@
 {
-  "updatedAt": "2026-11-12T00:01:16.522Z",
+  "updatedAt": "2026-11-13T04:48:15.559Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://www.123telugu.com/mnews/january-12-vidudala-nears-completion-latest-shoot-update-avd.html",
-      "title": "January 12 Vidudala Nears Completion Amid New Shoot Updates",
-      "summary": "Production on Vidudala is nearing its completion phase as the project moves forward with its latest scheduled shoot updates. Fans eagerly tracking the film's progress can look forward to more production milestones as filming nears wrap.",
+      "id": "https://www.123telugu.com/reviews/donga-naa-koduku-telugu-movie-review-and-rating.html",
+      "title": "Cineinsta Review: DNK (Donga Naa Koduku) Fails to Deliver as a Crime Comedy",
+      "summary": "The Telugu crime comedy film DNK (Donga Naa Koduku) has arrived in cinemas, but initial critical reception indicates that the project struggles to land its comedic moments and lacks narrative punch.",
       "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/january-12-vidudala-nears-completion-latest-shoot-update-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/jan12.webp",
-      "publishedAt": "2026-11-11T20:01:16.000Z",
+      "url": "https://www.123telugu.com/reviews/donga-naa-koduku-telugu-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Donga-Naa-Koduku-1.webp",
+      "publishedAt": "2026-11-13T04:15:04.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The production journey for Vidudala continues to press forward, with the project now nearing its final completion stages. Recent updates from the set indicate that the shooting schedules are progressing steadily according to plan.",
-        "As the team works to wrap up remaining portions, anticipation builds among moviegoers following the film's regular updates. Further announcements regarding the complete wrap of the shoot are expected soon as the production nears the finish line."
+        "The newly released Telugu feature DNK (Donga Naa Koduku) has entered the cinematic landscape as a crime comedy. However, early reviews point toward a challenging theatrical run for the project due to its overall lack of comedic impact.",
+        "As a genre piece attempting to blend criminal elements with humor, the film ultimately misses the mark for reviewers looking for sharp writing and engaging execution. The production now stands among the recent entries facing critical scrutiny in the Telugu film sector."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/131269/roshan-to-turn-superhero.html",
-      "title": "Roshan Gears Up To Play Superhero In New Film Launch",
-      "summary": "Actor Roshan, family of Srikanth, is set to step into the superhero genre with a newly launched film project. The official launch marks an exciting shift for the actor as he prepares to take on a larger-than-life superhero character.",
+      "id": "https://www.123telugu.com/reviews/itllu-arjuna-telugu-movie-review-and-rating.html",
+      "title": "Cineinsta Review: Itllu Arjuna Proves an Enjoyable Outing for Audiences",
+      "summary": "Starring Aniesh and Anaswara Rajan, the Telugu film Itllu Arjuna has drawn a positive initial response from reviewers, offering a thoroughly enjoyable cinematic experience for moviegoers.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/itllu-arjuna-telugu-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/itlu-2.webp",
+      "publishedAt": "2026-11-13T03:20:58.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Telugu film Itllu Arjuna has made its way to the big screen, featuring performances by cast members Aniesh and Anaswara Rajan. Early critical feedback has been favorable, categorizing the cinematic outing as an enjoyable experience for viewers.",
+        "Such positive notices serve as a beneficial boost for the film's theatrical run, highlighting its appeal within the regional cinema space and drawing favorable attention to its lead actors."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/donga-naa-koduku-movie-review-dnk/",
+      "title": "DNK Faces Harsh Reception in Fresh Telugu Movie Review",
+      "summary": "The Telugu cinema release DNK has received a severe critical backlash, with reviewers describing the feature as loud, irritating, and painfully unfunny.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/donga-naa-koduku-movie-review-dnk/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Donga-Naa-Koduku-Movie-Review.jpg",
+      "publishedAt": "2026-11-13T02:44:53.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The newly evaluated Telugu film DNK has encountered a sharp critical response following its release. According to reviews, the movie leans heavily into loud presentation styles that failed to resonate positively with critics.",
+        "Described explicitly as irritating and painfully unfunny, the project faces a steep hill to climb in terms of audience reception and word-of-mouth engagement within the current theatrical landscape."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/not-rrr-or-rangasthalam-upasana-reveals-her-favourite-ram-charan-film-hk.html",
+      "title": "Upasana Reveals Her Absolute Favorite Ram Charan Film — And It's Not RRR",
+      "summary": "In a recent revelation, Upasana has shared her top choice among Ram Charan's cinematic catalog, clarifying that neither the global blockbuster RRR nor the acclaimed Rangasthalam takes the top spot.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/not-rrr-or-rangasthalam-upasana-reveals-her-favourite-ram-charan-film-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/02/Ram-Charan-and-Upasana.webp",
+      "publishedAt": "2026-11-13T02:34:48.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "When it comes to Ram Charan's extensive filmography, fans often point to massive blockbusters like RRR or critically acclaimed dramas like Rangasthalam as standout achievements. However, Upasana has revealed a different personal favorite from his career.",
+        "While major titles frequently dominate discussions regarding the actor's best work, this unexpected choice brings a fresh perspective to how close family members view his cinematic journey and contributions to the industry."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131290/evaraina-from-haindava-released.html",
+      "title": "Evaraina Track from Haindava Officially Released",
+      "summary": "The musical track Evaraina from the upcoming film Haindava has officially been released to the public. This latest update from the production brings fresh content for fans tracking the movie's progress.",
       "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/131269/roshan-to-turn-superhero.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/roshan-to-turn-superhero-1794419410032-1794419409068.jpg",
-      "publishedAt": "2026-11-11T17:50:16.000Z",
+      "url": "https://www.cinejosh.com/news/1/131290/evaraina-from-haindava-released.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/evaraina-from-haindava-rele-1794536321762-1794536322131.jpg",
+      "publishedAt": "2026-11-13T02:19:08.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "A brand new cinematic project featuring actor Roshan has officially been launched, showcasing him in an exciting superhero avatar. The announcement brings fresh anticipation for fans of the actor as he embraces this unique genre.",
-        "With the film's launch now official, further details regarding the production and cast are awaited. This superhero venture marks an important development in the actor's growing filmography."
+        "The creative team behind Haindava has rolled out a brand-new musical offering for cinema enthusiasts. Titled Evaraina, the newly released track aims to captivate audiences and build anticipation for the movie.",
+        "As promotional efforts continue to unfold, releases like Evaraina play a crucial role in keeping the audience engaged. The track offers a glimpse into the audio landscape of Haindava, adding to the ongoing updates surrounding the project."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.gulte.com/movienews/441213/laughed-continuously-for-36-hrs-hope-dnk-achieves-it-sree-vishnu",
-      "title": "Sree Vishnu Shares High Hopes for DNK After Remarkable Comedy Experience",
-      "summary": "Actor Sree Vishnu expresses strong confidence in his upcoming project, DNK, humorously recounting how he laughed continuously for 36 hours while engaging with the material.",
+      "id": "https://www.telugu360.com/itlu-arjuna-movie-review/",
+      "title": "Itlu Arjuna Movie Review and Critical Reception",
+      "summary": "Itlu Arjuna has drawn attention with its recent release, sparking reviews and discussions among moviegoers. Critical assessments provide audiences with insights into what the Telugu film has to offer.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/itlu-arjuna-movie-review/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Itlu-Arjuna-Movie-Review.jpg",
+      "publishedAt": "2026-11-13T02:17:04.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Telugu release Itlu Arjuna has become a topic of discussion among film critics and general audiences alike. Reviews evaluating the cinematic venture are currently circulating across entertainment platforms.",
+        "For cinephiles deciding their watch list, these evaluations offer a perspective on the film's execution and overall reception. Itlu Arjuna continues to capture the attention of regional movie enthusiasts as reviews unfold."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/ranabaali-ott-release-vijay-deverakonda-rashmikas-film-starts-streaming-on-netflix-hk.html",
+      "title": "Vijay Deverakonda and Rashmika's Ranabaali Debuts on Netflix",
+      "summary": "Ranabaali, starring Vijay Deverakonda and Rashmika, has officially begun its digital streaming journey on Netflix. This OTT premiere allows fans to enjoy the feature film directly from home.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/ranabaali-ott-release-vijay-deverakonda-rashmikas-film-starts-streaming-on-netflix-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
+      "publishedAt": "2026-11-13T01:30:32.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Vijay Deverakonda and Rashmika's cinematic collaboration, Ranabaali, has made its way to the digital space. The feature film has officially commenced streaming on Netflix, expanding its reach beyond traditional theater screens.",
+        "This OTT release provides a convenient viewing option for fans who have been waiting to watch the pair together on screen. The transition to streaming highlights the growing trend of major film releases finding secondary audiences on digital platforms."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/sudheers-goat-telugu-movie-review-and-rating.html",
+      "title": "Sudheer's GOAT Reviewed: A Mediocre Outing with Limited Laughter",
+      "summary": "Sudheer's film GOAT has been met with a lukewarm critical response, characterized as a mediocre venture with only a few comedic moments. Divya Bharathi is also associated with the project as reviews evaluate its entertainment value.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/sudheers-goat-telugu-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/GOAT-Movie.webp",
+      "publishedAt": "2026-11-12T19:34:12.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The cinematic release GOAT, starring Sudheer and featuring Divya Bharathi, has faced mixed to underwhelming assessments from reviewers. Early evaluations describe the feature as a mediocre film that manages to deliver only sporadic moments of laughter.",
+        "While performances and comedic elements are part of any cinematic evaluation, this particular project has found itself navigating subdued critical feedback. Such reviews give viewers a transparent look at what to expect from the viewing experience."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/mad-3-threequel-of-the-hit-franchise-to-release-during-sankranthi-prp.html",
+      "title": "Mad 3: Hit Franchise Threequel Eyed for Sankranthi Release",
+      "summary": "Talk surrounding the film industry points toward a potential Sankranthi release for Mad 3, the upcoming threequel in the popular Mad franchise. Fans of the hit series are keeping a close watch on updates regarding the movie's theatrical arrival during the festive season.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/mad-3-threequel-of-the-hit-franchise-to-release-during-sankranthi-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/10/Naga-Vamsi.webp",
+      "publishedAt": "2026-11-12T16:32:40.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The popular film franchise known as Mad is heading toward a third installment, with discussions emerging about its theatrical launch timing. Industry buzz suggests that Mad 3, the upcoming threequel, is being eyed for a release during the festive Sankranthi season.",
+        "As a continuation of a previously successful film series, the prospective Sankranthi release has generated considerable interest among moviegoers and trade circles alike. Festive windows like Sankranthi are traditionally viewed as prime slots for major cinematic releases in regional cinema.",
+        "Further details regarding the official schedule and production updates for Mad 3 are anticipated as the rollout progresses. The choice of a Sankranthi release window underscores the franchise's prominent standing following the success of its earlier entries."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/nara-lokesh-calls-out-casual-sexism-in-telugu-films-says-respect-for-women-must-begin-at-home/",
+      "title": "Nara Lokesh Critiques Casual Sexism in Telugu Cinema and Emphasizes Respect",
+      "summary": "Nara Lokesh has publicly addressed casual sexism within Telugu films, emphasizing that genuine respect for women must begin at home. His remarks bring attention to the depiction of women in regional cinema and the cultural values that influence on-screen storytelling.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/nara-lokesh-calls-out-casual-sexism-in-telugu-films-says-respect-for-women-must-begin-at-home/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Nara-Lokesh-Calls-Out-Casual-Sexism-in-Telugu-Films.jpg",
+      "publishedAt": "2026-11-12T16:23:29.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In recent public discourse regarding regional cinema, Nara Lokesh has called out instances of casual sexism present in Telugu films. Highlighting the portrayal of women on the silver screen, the commentary stresses that a meaningful shift in perspective requires foundational changes in attitudes towards women starting right at home.",
+        "The discussion surrounding casual sexism in movies touches upon how popular media reflects and shapes societal norms. By bringing attention to these on-screen elements, the remarks spark conversations among audiences and industry participants concerning responsible representation.",
+        "Addressing these creative choices is viewed as an important step toward fostering more respectful and progressive narratives in Telugu cinema. Observers note that dialogues addressing sexism in films can encourage creators to reevaluate how female characters are written and presented."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/441480/itllu-arjuna-grand-overseas-premieres-today",
+      "title": "Itllu Arjuna Gears Up for Grand Overseas Premieres",
+      "summary": "The overseas theatrical journey for Itllu Arjuna officially kicks off today with grand premiere screenings. Film enthusiasts and audiences abroad can now catch the latest cinematic release on the big screen.",
       "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441213/laughed-continuously-for-36-hrs-hope-dnk-achieves-it-sree-vishnu",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-23.08.05.jpeg",
-      "publishedAt": "2026-11-11T16:14:00.000Z",
+      "url": "https://www.gulte.com/movienews/441480/itllu-arjuna-grand-overseas-premieres-today",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/IndianClicks_Itllu_Arjuna_1000x600_11122026_11.jpg",
+      "publishedAt": "2026-11-12T16:08:04.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Tollywood actor Sree Vishnu has shared an enthusiastic update regarding his upcoming film, tentatively referred to as DNK. The actor made a striking remark about the project, stating that he laughed continuously for 36 hours while experiencing it.",
-        "This lighthearted yet bold statement has sparked considerable curiosity among moviegoers and fans eagerly anticipating fresh updates about the film. Sree Vishnu expressed his sincere hope that the audience will experience that exact same wave of continuous laughter and entertainment when the movie ultimately reaches the big screen.",
-        "As anticipation builds around DNK, such creative remarks from the lead actor highlight the comedic tone and entertainment value makers aim to deliver. Cineinsta will continue to track further developments and promotional reveals regarding this project."
+        "The theatrical rollout for Itllu Arjuna reaches a major milestone today with the staging of its grand overseas premieres. Fans and cinema-goers living abroad now have the opportunity to experience the movie on the international big screen as screenings officially commence.",
+        "With premiere shows opening today, audience reactions and early responses are expected to set the tone for its overseas run. The special screening schedule gives international fans a chance to view the film right as it steps into the global market."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://telugucinema.com/news/venky-atluri-wishes-don-bosko-a-big-success-at-teaser-launch",
-      "title": "Venky Atluri Extends Warm Wishes at 'Don Bosko' Teaser Launch",
-      "summary": "Filmmaker Venky Atluri recently lent his support to the film 'Don Bosko', stepping in to wish the team massive success during the official teaser launch event.",
+      "id": "https://www.123telugu.com/mnews/vishwambhara-trailer-ready-release-date-to-be-announced-soon-avd.html",
+      "title": "Vishwambhara Trailer Prepared, Release Date Awaits Announcement",
+      "summary": "Makers of Vishwambhara have completed the film's trailer, with an official release date expected to be announced soon. Anticipation continues to build among fans eagerly waiting for further updates on the project.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/vishwambhara-trailer-ready-release-date-to-be-announced-soon-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/08/vishwambhara.webp",
+      "publishedAt": "2026-11-12T15:30:32.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The promotional campaign for Vishwambhara is moving forward as the film's trailer is officially ready for launch. While the preview material has been finalized, the team behind the project will soon reveal the official release date to the public.",
+        "As anticipation builds, followers of the movie look forward to the upcoming schedule announcements and the official trailer debut. Further updates regarding the theatrical arrival are expected to follow shortly."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/441492/evaraina-from-haindava-a-pure-musical-bliss",
+      "title": "Evaraina From Haindava Described as Pure Musical Bliss",
+      "summary": "Music enthusiasts are taking note of Evaraina from Haindava, which is being highlighted as a pure musical experience. The track brings a fresh wave of melody for listeners following the film's updates.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/441492/evaraina-from-haindava-a-pure-musical-bliss",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-19.46.13.jpeg",
+      "publishedAt": "2026-11-12T14:49:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The musical side of cinema continues to draw attention with Evaraina from Haindava stepping into the spotlight. The composition is being celebrated as a pure musical experience for listeners who appreciate strong cinematic audio tracks.",
+        "Songs often play a pivotal role in setting the atmosphere for a film project, and this particular track delivers a distinct auditory appeal. Fans of the film's soundtrack can enjoy the composition as part of the unfolding promotional journey."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/interviews/interview-rakesh-varre-maya-lady-is-a-romantic-family-film-with-a-thrilling-point-prp.html",
+      "title": "Rakesh Varre Discusses Maya Lady as a Romantic Family Film with a Thrilling Edge",
+      "summary": "In a recent discussion, Rakesh Varre shed light on Maya Lady, describing it as a romantic family entertainer interwoven with a thrilling point. The project brings a distinct genre blend for moviegoers to look forward to.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/interviews/interview-rakesh-varre-maya-lady-is-a-romantic-family-film-with-a-thrilling-point-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/Rakesh-Varre.webp",
+      "publishedAt": "2026-11-12T14:30:30.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Rakesh Varre has shared insights into his project Maya Lady, highlighting its unique thematic blend. According to the details, the feature is structured as a romantic family film that incorporates a thrilling narrative element.",
+        "By combining family dynamics and romance with a suspenseful plot point, the movie aims to offer a multi-layered viewing experience. Such creative choices often expand the emotional and engaging scope of a cinematic story."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131284/inji-vellam-release-date-locked.html",
+      "title": "Mani Ratnam's Inji Vellam Locks January Release Date",
+      "summary": "The release schedule for Mani Ratnam's upcoming cinematic project, Inji Vellam, has officially been locked. Fans and film enthusiasts can anticipate the flavor of this highly anticipated feature when it arrives in January.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131284/inji-vellam-release-date-locked.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/inji-vellam-release-date-locked-1794490483291-1794490483755.jpg",
+      "publishedAt": "2026-11-12T13:34:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The release date for the upcoming film Inji Vellam has been officially locked, bringing clarity to its theatrical arrival. Directed and guided by the acclaimed filmmaker Mani Ratnam, whose cinematic projects consistently generate immense excitement among audiences, the project is slated to release in January.",
+        "Mani Ratnam's directorial ventures always manage to create substantial buzz within the entertainment industry, and Inji Vellam is no exception. With its release window now confirmed for January, moviegoers and fans eagerly await further promotional updates as the premiere approaches."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/ene-repeat-team-launches-bathukamma-song-with-vocals-by-shreya-ghoshal",
+      "title": "ENE Repeat Team Unveils Bathukamma Song Sung by Shreya Ghoshal",
+      "summary": "The team behind ENE Repeat has officially launched a new Bathukamma song for the project. The track features enchanting vocals performed by renowned playback singer Shreya Ghoshal.",
       "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/venky-atluri-wishes-don-bosko-a-big-success-at-teaser-launch",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/11/donbosko-teaser-nov1126.jpg",
-      "publishedAt": "2026-11-11T16:01:38.000Z",
+      "url": "https://telugucinema.com/news/ene-repeat-team-launches-bathukamma-song-with-vocals-by-shreya-ghoshal",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/11/enerepeat-bathukamma-nov1226.jpg",
+      "publishedAt": "2026-11-12T12:52:41.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Director Venky Atluri recently made a notable appearance to support the team of the upcoming film 'Don Bosko'. During the official teaser launch event, Atluri shared his good wishes for the project.",
-        "The backing of prominent industry names during promotional milestones like teaser launches helps elevate visibility for emerging films and specialized projects. Atluri's presence underscored industry camaraderie as the 'Don Bosko' team unveiled their promotional teaser to the public.",
-        "With the teaser now officially out, the makers are looking forward to building steady momentum ahead of the film's release. Cineinsta will keep readers updated on further developments from the project."
+        "The creative team behind ENE Repeat has expanded their musical offerings with the launch of a brand new Bathukamma song. This latest musical addition brings a distinct cultural flavor to the project, capturing the attention of music lovers across the industry.",
+        "Adding to the appeal of the newly released track, the song features mesmerizing vocals rendered by acclaimed playback singer Shreya Ghoshal. The collaboration highlights the musical direction being pursued for ENE Repeat as the team continues to roll out promotional content."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.gulte.com/movienews/441175/debut-hero-looks-confident-with-early-premieres",
-      "title": "Newcomer Hero Demonstrates Boldness with Early Screenings",
-      "summary": "An upcoming debut hero is showcasing strong self-assurance by arranging early premieres for their maiden feature film, building significant anticipation.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441175/debut-hero-looks-confident-with-early-premieres",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/Itllu-Arjuna.jpg",
-      "publishedAt": "2026-11-11T15:30:18.000Z",
+      "id": "https://www.telugu360.com/ramayana-part-2-shoot-updates/",
+      "title": "Production Updates Emerge for Ramayana: Part 2",
+      "summary": "New production updates have surfaced regarding the much-anticipated cinematic venture Ramayana: Part 2. The latest reports offer a glimpse into the ongoing shooting progress for this major film project.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/ramayana-part-2-shoot-updates/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/07/Ramayana-2.jpg",
+      "publishedAt": "2026-11-12T12:37:34.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Stepping into the film industry for the first time is always a monumental challenge, but a debut hero is choosing a remarkably confident path. The newcomer has opted to showcase early premieres for their upcoming movie.",
-        "Arranging early screenings indicates a high level of self-assurance in the final product's quality and audience appeal. Such bold marketing and release strategies often help generate strong word-of-mouth chatter well ahead of the official theatrical rollout.",
-        "As the industry watches closely to see how this strategy unfolds, fans and film enthusiasts await the public and critical reception of the early shows. Cineinsta will continue monitoring developments surrounding this bold cinematic debut."
+        "Fresh production updates have emerged regarding the ongoing shoot of Ramayana: Part 2. As one of the most high-profile cinematic endeavors currently in development, details regarding its filming progress are closely monitored by followers of the industry.",
+        "The latest updates concerning the shooting schedule provide a status report on how production is moving forward. Fans and trade circles continue to look out for further developments as the large-scale project advances through its filming phases."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.gulte.com/movienews/441149/its-official-anirudh-and-kavya-maran-tie-the-knot",
-      "title": "Anirudh and Kavya Maran Reportedly Tie the Knot in Official Ceremony",
-      "summary": "Reports have emerged confirming that prominent music composer Anirudh and Kavya Maran have officially tied the knot, drawing massive attention from entertainment circles.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441149/its-official-anirudh-and-kavya-maran-tie-the-knot",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/anirudh-wedding-kavya-.jpg",
-      "publishedAt": "2026-11-11T14:43:59.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Major news has surfaced within the entertainment community regarding renowned music composer Anirudh and Kavya Maran. According to official reports, the two have officially tied the knot.",
-        "The pairing has generated widespread interest across various entertainment portals and social media platforms, given their respective prominent profiles in the South Indian film and business sectors.",
-        "Fans and well-wishers have flooded digital spaces with congratulatory messages following the official confirmation of the marriage. Cineinsta extends its best wishes to the couple on this new chapter."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/nizam-box-office-ramayana-continues-its-domination-scene-is-steady-prp.html",
-      "title": "Ramayana Maintains Steady Box Office Grip in Nizam Region",
-      "summary": "The film Ramayana continues to show strong and steady box office performance in the Nizam region, maintaining its dominance according to latest updates.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/nizam-box-office-ramayana-continues-its-domination-scene-is-steady-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/scene-1.webp",
-      "publishedAt": "2026-11-11T14:30:31.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The theatrical run of Ramayana is continuing to showcase impressive momentum at the box office. Reports from the Nizam region indicate that the movie is holding its ground firmly, maintaining a steady performance.",
-        "As the film moves forward in its exhibition cycle, its ability to sustain audience turnout highlights its ongoing appeal. The steady numbers reflect consistent traction among regional moviegoers.",
-        "This box office stability reinforces the film's strong presence in the market. Industry trackers continue to monitor its steady run as it commands attention in the Nizam territory."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/3/131267/bollywood-heroines-should-be-careful-with-their-comments.html",
-      "title": "Bollywood Actresses Advised to Exercise Caution Regarding Public Remarks",
-      "summary": "Recent discussions surrounding Bollywood heroines highlight the importance of exercising care and caution when making public statements and comments.",
+      "id": "https://www.cinejosh.com/news/1/131282/exciting-update-on-og3.html",
+      "title": "Fresh Development Emerges Regarding Pawan Kalyan's Action Project OG 3",
+      "summary": "An exciting update has surfaced regarding the much-anticipated action entertainer OG 3, starring Power Star Pawan Kalyan. Followers of the star can look forward to new developments concerning this stylish cinematic venture.",
       "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/3/131267/bollywood-heroines-should-be-careful-with-their-comments.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/bollywood-heroines-should-be-careful-with-their-comments-1794406680931-1794406682286.jpg",
-      "publishedAt": "2026-11-11T14:18:07.000Z",
+      "url": "https://www.cinejosh.com/news/1/131282/exciting-update-on-og3.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/exciting-update-on-og3-1794486453586-1794486453372.jpg",
+      "publishedAt": "2026-11-12T12:27:36.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Public scrutiny in the film industry often places prominent personalities under the spotlight, particularly regarding their public statements. Recent discussions have emphasized that Bollywood heroines need to exercise heightened caution with their comments.",
-        "In the fast-paced environment of cinema media, casual remarks can quickly draw intense attention. Industry observers note that maintaining discretion helps avoid unintended controversies.",
-        "Navigating public discourse carefully remains an important aspect of managing a prominent public profile in the entertainment sector."
+        "Followers of Power Star Pawan Kalyan have received a fresh update concerning the stylish action entertainer OG 3. The project, which has generated significant excitement among movie buffs, continues to stay in the news as new details emerge for the star's eager audience.",
+        "While specific plot points and full cast details remain closely guarded, updates regarding the progression of OG 3 are always met with immense enthusiasm within Indian cinema circles. Pawan Kalyan's distinct screen presence in action-oriented roles has consistently drawn heavy attention from admirers of commercial cinema.",
+        "As production and promotional developments continue to unfold, cinema enthusiasts eagerly track every new piece of information regarding OG 3. Further announcements are expected to shed more light on the trajectory of this major film."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.telugu360.com/actors-turn-singers-a-winning-formula-or-just-a-promotional-gimmick/",
-      "title": "Actors Transitioning to Singers: Strategy or Promotion?",
-      "summary": "An analysis explores the trend of film actors stepping behind the microphone to sing, questioning whether it is a genuine winning formula or merely a promotional tactic.",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/actors-turn-singers-a-winning-formula-or-just-a-promotional-gimmick/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/07/Balakrishna-7.jpg",
-      "publishedAt": "2026-11-11T14:12:49.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The recurring trend of actors turning into playback singers has sparked ongoing debate within the film industry. Cinephiles and trade analysts frequently question whether this practice is a successful creative formula or simply a promotional gimmick.",
-        "When leading stars lend their voices to film soundtracks, it often generates immediate buzz and curiosity among fans. This strategy can significantly amplify pre-release marketing campaigns.",
-        "However, the artistic impact of actors stepping into the recording booth varies. While some tracks become massive hits, others are viewed primarily as marketing tools designed to boost audience engagement."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/babu-mohan-takes-a-dig-at-nanis-the-paradise-avd.html",
-      "title": "Babu Mohan Makes Critical Remarks About Nani's The Paradise",
-      "summary": "Actor and personality Babu Mohan has recently drawn attention by taking a critical dig at actor Nani's upcoming or ongoing film project, The Paradise.",
+      "id": "https://www.123telugu.com/mnews/dhanushs-om-chapter-1-trailer-to-be-released-tomorrow-prp.html",
+      "title": "Trailer for Dhanush's Om Chapter 1 Set for Release Tomorrow",
+      "summary": "The official trailer for Dhanush's upcoming film Om Chapter 1 is scheduled to drop tomorrow. Fans and cinema lovers can look forward to catching the first major promotional video very soon.",
       "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/babu-mohan-takes-a-dig-at-nanis-the-paradise-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/Babu-Mohan.webp",
-      "publishedAt": "2026-11-11T14:04:34.000Z",
+      "url": "https://www.123telugu.com/mnews/dhanushs-om-chapter-1-trailer-to-be-released-tomorrow-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/OM-2.webp",
+      "publishedAt": "2026-11-12T11:29:23.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In recent developments concerning Tollywood film discussions, Babu Mohan made headlines by taking a critical dig at Nani's film, The Paradise. Such remarks from industry veterans often attract considerable notice from fans and media circles.",
-        "Comments directed at high-profile projects usually spark widespread debate across entertainment platforms. The exchange highlights how opinions from familiar industry figures are closely followed by the public.",
-        "As discussions surrounding The Paradise continue to unfold, reactions from various personalities add to the ongoing discourse within the film community."
+        "The promotional campaign for Dhanush's upcoming cinematic project, Om Chapter 1, is gearing up for a major milestone with the trailer release scheduled for tomorrow. Anticipation has been building among admirers of the versatile actor as the rollout for the film begins.",
+        "Trailer releases serve as a crucial window into the visual tone, narrative premise, and overall style of a movie. With the Om Chapter 1 trailer arriving tomorrow, audiences will get their first concrete look at what Dhanush and the creative team have prepared.",
+        "As the release date approaches, this upcoming trailer is expected to ramp up discussions and build momentum across entertainment circles. Fans can mark their calendars for tomorrow's big premiere."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.telugu360.com/mani-ratnam-announces-release-plan-on-inji-vellam/",
-      "title": "Mani Ratnam Reveals Release Strategy for Inji Vellam",
-      "summary": "Renowned filmmaker Mani Ratnam has officially announced the release plans for the project titled Inji Vellam. The update outlines the upcoming theatrical schedule for the film, drawing attention from cinephiles across the industry.",
+      "id": "https://www.cinejosh.com/news/1/131281/maya-lady-is-a-refreshing-musical-and-family-entertainer-hero-rakesh-varre.html",
+      "title": "Rakesh Varre Praises Maya Lady As a Refreshing Family and Musical Entertainer",
+      "summary": "Hero Rakesh Varre has shared high praise for Maya Lady, describing the production as a refreshing family entertainer featuring strong musical elements. The project has drawn attention for its engaging blend of family themes and melodies.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131281/maya-lady-is-a-refreshing-musical-and-family-entertainer-hero-rakesh-varre.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/maya-lady-is-a-refreshing-musical-and-family-entertainer-hero-rakesh-varre-1794480832672-1794480832678.jpg",
+      "publishedAt": "2026-11-12T10:53:57.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Rakesh Varre has come forward to express appreciation for the upcoming cinematic project Maya Lady, characterizing the venture as a captivating family and musical entertainer. The film has been highlighted for offering a refreshing viewing experience tailored for audiences of all backgrounds.",
+        "With Rakesh Varre vocalizing his support, interest surrounding the project continues to build. The combination of family-oriented storytelling and musical components is expected to be a major highlight for moviegoers anticipating the release.",
+        "As details regarding Maya Lady circulate among film enthusiasts, the emphasis on its family values and musical score sets a positive tone. The creative direction aims to resonate strongly with viewers looking for wholesome entertainment."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/allu-aravinds-special-care-for-aakasam-lo-oka-tara/",
+      "title": "Allu Aravind Extends Special Attention to Aakasam Lo Oka Tara",
+      "summary": "Renowned personality Allu Aravind is reportedly taking special care of the upcoming film Aakasam Lo Oka Tara. This hands-on involvement highlights the high expectations and strategic focus surrounding the movie's development.",
       "source": "Telugu360",
-      "url": "https://www.telugu360.com/mani-ratnam-announces-release-plan-on-inji-vellam/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Mani-Ratnam-Announces-Release-Plan-on-Inji-Vellam.jpg",
-      "publishedAt": "2026-11-11T13:33:51.000Z",
+      "url": "https://www.telugu360.com/allu-aravinds-special-care-for-aakasam-lo-oka-tara/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Aakasam-Lo-Oka-Tara.jpg",
+      "publishedAt": "2026-11-12T09:57:47.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Renowned filmmaker Mani Ratnam has officially announced the release plans for his upcoming cinematic venture titled Inji Vellam. The development outlines the projected rollout for the film, providing clarity to audiences and industry trackers alike.",
-        "As discussions surrounding the film's distribution and arrival in cinemas continue to circulate, Mani Ratnam's latest update marks a significant milestone for the project. Fans of the acclaimed director are closely monitoring the official timeline as it paves the way for its eventual premiere on the big screen."
+        "Prominent industry figure Allu Aravind has drawn notice for taking special care of the film Aakasam Lo Oka Tara. His dedicated oversight underscores the importance and potential seen in the production.",
+        "In the film industry, direct involvement from seasoned veterans like Allu Aravind often signals careful planning and quality control during the filmmaking process. Fans and trade watchers are keeping a close eye on updates regarding this venture.",
+        "As Aakasam Lo Oka Tara continues to progress with this specialized attention, anticipation grows for how the final product will shape up upon its eventual release."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.gulte.com/movienews/441144/will-maya-lady-bring-the-spotlight-on-this-baahubali-actor",
-      "title": "Could Maya Lady Illuminate This Baahubali Star's Career Path?",
-      "summary": "Speculation builds around a prominent actor known for Baahubali as talks center on the project Maya Lady. Observers are evaluating how this upcoming venture might influence the star's career trajectory.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441144/will-maya-lady-bring-the-spotlight-on-this-baahubali-actor",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/maya-lady-hero-.jpg",
-      "publishedAt": "2026-11-11T13:14:02.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The cinematic landscape is buzzing with discussions surrounding a notable actor recognized for their work in Baahubali and an upcoming project titled Maya Lady. Observers and fans alike are evaluating how this new venture could influence the star's career trajectory.",
-        "While specific narrative details remain limited, the association with Maya Lady has sparked widespread curiosity. Industry followers continue to track how the project will position the performer in the current entertainment circuit."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.telugu360.com/don-bosko-teaser-rowdy-swag-absolute-fun/",
-      "title": "Don Bosko Teaser Showcases Rowdy Swag and Entertainment",
-      "summary": "The newly unveiled teaser for Don Bosko highlights an entertaining blend of rowdy swagger and lively fun. The promotional clip offers a glimpse into the vibrant tone set for the upcoming film.",
+      "id": "https://www.telugu360.com/suriya-scripts-history-with-three-%e2%82%b9200-crore-films-in-a-single-year/",
+      "title": "Actor Suriya Achieves Milestone With Three ₹200 Crore Films in One Year",
+      "summary": "Acclaimed actor Suriya has marked a historic milestone by delivering three films that crossed the ₹200 crore mark within a single year. This remarkable achievement cements his powerful box-office dominance and widespread cinematic appeal.",
       "source": "Telugu360",
-      "url": "https://www.telugu360.com/don-bosko-teaser-rowdy-swag-absolute-fun/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Don-Bosko-Teaser.jpg",
-      "publishedAt": "2026-11-11T12:40:02.000Z",
+      "url": "https://www.telugu360.com/suriya-scripts-history-with-three-%e2%82%b9200-crore-films-in-a-single-year/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Karuppu-Vishwanath-Sons-and-Scene.jpg",
+      "publishedAt": "2026-11-12T09:51:17.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The newly unveiled teaser for the upcoming film Don Bosko has officially arrived, highlighting an entertaining blend of rowdy swagger and lively fun. The promotional video introduces viewers to the distinct character attitude and energetic tone established by the makers.",
-        "With its emphasis on fun and dynamic screen presence, the teaser aims to build early momentum for the project. Audiences are given a brief yet engaging look at what to expect when the full feature eventually arrives."
+        "Star actor Suriya has etched his name in cinema history by accomplishing a rare box-office feat. The versatile performer has achieved the remarkable milestone of having three films reach the ₹200 crore club within a single year.",
+        "This unprecedented run underscores Suriya's massive star power and the broad, cross-market appeal of his cinematic projects. Achieving this milestone highlights consistent audience engagement and strong commercial traction across multiple releases.",
+        "Film enthusiasts and industry analysts view this accomplishment as a testament to his careful project selection and enduring popularity. It marks a significant high point in his illustrious acting career."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.123telugu.com/mnews/irumudi-heroine-priya-bhavani-shankar-ties-the-knot-prp.html",
-      "title": "Irumudi Star Priya Bhavani Shankar Gets Married",
-      "summary": "Actress Priya Bhavani Shankar, recognized for her role in Irumudi, has officially tied the knot. The wedding news has drawn warm wishes from fans and followers across the entertainment community.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/irumudi-heroine-priya-bhavani-shankar-ties-the-knot-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/priya-4.webp",
-      "publishedAt": "2026-11-11T12:35:17.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Priya Bhavani Shankar, recognized for her appearance in Irumudi, has officially tied the knot. The wedding marks a significant personal milestone for the popular actress as she embarks on this new chapter in her life.",
-        "Following the announcement of her marriage, well-wishes and congratulatory messages have been pouring in from fans, well-wishers, and colleagues within the cinematic community."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/441134/don-bosko-teaser-promises-non-stop-comedy",
-      "title": "Don Bosko Teaser Unveils A Heavy Dose Of Comedy",
-      "summary": "The newly released teaser for Don Bosko has officially arrived, offering audiences a distinct look at a project promising non-stop comedy. Fans of lighthearted cinema now have an early preview of the laughs to come.",
+      "id": "https://www.gulte.com/movienews/441401/not-fully-satisfied-with-ramayana-will-om-fulfill-it",
+      "title": "Will OM Live Up to Expectations After Reminiscences of Ramayana?",
+      "summary": "As discussions surrounding epic cinematic adaptations continue, questions arise regarding whether OM can fulfill expectations where previous interpretations of the Ramayana fell short. Cinephiles are eagerly awaiting how this upcoming project will handle such legendary material.",
       "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441134/don-bosko-teaser-promises-non-stop-comedy",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/5sH2ay60GZ4_maxres.jpg",
-      "publishedAt": "2026-11-11T12:30:10.000Z",
+      "url": "https://www.gulte.com/movienews/441401/not-fully-satisfied-with-ramayana-will-om-fulfill-it",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/Sai-pallavi-ramayana-om.jpg",
+      "publishedAt": "2026-11-12T09:38:28.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The entertainment circuit is buzzing with the release of the official Don Bosko teaser. Promising an energetic ride, the newly unveiled footage focuses heavily on delivering continuous humor.",
-        "As the industry looks toward upcoming releases, comedic projects like this one capture the attention of viewers seeking pure entertainment. The teaser sets expectations high for a lighthearted theatrical experience."
+        "With audiences expressing mixed or incomplete satisfaction regarding previous cinematic attempts at the Ramayana, attention has turned toward how future projects might address these creative gaps. Specifically, discussions are brewing over whether the project titled OM can successfully fulfill these storytelling ambitions.",
+        "Tackling epic mythological narratives always presents a massive challenge for filmmakers, as audience expectations remain exceptionally high. The comparison to legendary epics places considerable scrutiny on how OM will approach its narrative and execution.",
+        "As more details about OM emerge, cinema lovers will be watching closely to see if it delivers a deeply satisfying rendition that overcomes past shortcomings in mythological adaptations."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
     },
     {
-      "id": "https://www.gulte.com/movienews/441116/pics-trolls-ignored-vijay-and-rashmika-chill-abroad",
-      "title": "Vijay And Rashmika Enjoy International Trip Away From Online Trolls",
-      "summary": "Actors Vijay and Rashmika have been spotted chilling abroad, choosing to completely ignore online trolls. Fresh photographs capturing their international getaway have surfaced, drawing the attention of movie fans.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441116/pics-trolls-ignored-vijay-and-rashmika-chill-abroad",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/Vijay-devarakonda-2.jpg",
-      "publishedAt": "2026-11-11T11:42:36.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Popular film personalities Vijay and Rashmika have made headlines by heading abroad for a relaxing getaway. Newly surfaced pictures show the actors enjoying their time away while paying no heed to online trolling.",
-        "Public figures often navigate intense online scrutiny, and choosing to focus on personal time away from the noise remains a common approach. Fans have been closely following updates regarding their international travels."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://telugucinema.com/news/karan-johar-hits-back-at-trolls-targeting-vijay-deverakonda-and-rashmika-mandanna",
-      "title": "Karan Johar Speaks Out Against Trolls Targeting Vijay Deverakonda And Rashmika Mandanna",
-      "summary": "Filmmaker Karan Johar has publicly hit back at social media trolls who targeted actors Vijay Deverakonda and Rashmika Mandanna. His strong response addresses the negativity directed toward the two popular stars.",
+      "id": "https://telugucinema.com/news/pawan-kalyan-attends-vizag-cii-summit-three-days-after-divorce-announcement",
+      "title": "Pawan Kalyan Steps Out for Vizag CII Summit Following Divorce Announcement",
+      "summary": "Actor-politician Pawan Kalyan made a public appearance at the Vizag CII summit just days after a recent divorce announcement. The notable event brought him back into the public eye amidst ongoing personal developments.",
       "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/karan-johar-hits-back-at-trolls-targeting-vijay-deverakonda-and-rashmika-mandanna",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/11/karanjohar-vijayrashmika-nov1126.jpg",
-      "publishedAt": "2026-11-11T11:36:34.000Z",
+      "url": "https://telugucinema.com/news/pawan-kalyan-attends-vizag-cii-summit-three-days-after-divorce-announcement",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/11/pawankalyan-vizag-nov1226.jpg",
+      "publishedAt": "2026-11-12T07:55:50.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Prominent filmmaker Karan Johar has stepped forward to address online negativity directed at actors Vijay Deverakonda and Rashmika Mandanna. Johar's decision to hit back at the trolls highlights ongoing discussions about toxic social media behavior within the film community.",
-        "Support from industry heavyweights often brings broader attention to the issue of targeted harassment online. The comments emphasize the need to protect artists from unwarranted online backlash."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/roshan-meka-joins-hands-with-mohana-krishna-indraganti-for-a-superhero-film-prp.html",
-      "title": "Roshan Meka Teams Up With Director Mohana Krishna Indraganti For Superhero Project",
-      "summary": "Actor Roshan Meka has officially joined forces with filmmaker Mohana Krishna Indraganti. The exciting actor-director collaboration is set to bring a brand new superhero film to the silver screen.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/roshan-meka-joins-hands-with-mohana-krishna-indraganti-for-a-superhero-film-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/Roshan.webp",
-      "publishedAt": "2026-11-11T11:30:16.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "In an exciting development for regional cinema, Roshan Meka has partnered with director Mohana Krishna Indraganti. The creative duo is teaming up for an upcoming superhero film that promises fresh entertainment for moviegoers.",
-        "Collaborations involving distinct directorial visions and rising acting talent often generate significant buzz. Fans and industry trackers are looking forward to seeing how this unique superhero project takes shape under Indraganti's direction."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/441095/siddhu-x-sukumar-x-bunny-vas-no-jokes-this-time",
-      "title": "Siddhu, Sukumar, and Bunny Vas Join Forces for New Project",
-      "summary": "Actor Siddhu has teamed up with director Sukumar and producer Bunny Vas for a brand new cinematic venture. The collaboration brings together notable talents from the industry for this upcoming project.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441095/siddhu-x-sukumar-x-bunny-vas-no-jokes-this-time",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.57.30-scaled.jpeg",
-      "publishedAt": "2026-11-11T09:04:19.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A major new collaboration has officially been announced in the film community, bringing together actor Siddhu, director Sukumar, and producer Bunny Vas. This partnership unites prominent creative and production forces for an upcoming venture.",
-        "While specific plot details and release timelines remain under wraps, the involvement of Sukumar and Bunny Vas alongside Siddhu has generated considerable curiosity. Fans and industry observers are eager to see what this dynamic team will deliver on the big screen."
-      ],
-      "editorial": "Cineinsta",
-      "reviewStatus": "approved"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/131262/actress-priya-bhavani-shankar-marries-raj-vel.html",
-      "title": "Actress Priya Bhavani Shankar Ties the Knot with Raj Vel",
-      "summary": "Popular actress Priya Bhavani Shankar has officially entered into wedlock with Raj Vel. Fans and well-wishers have been sharing congratulatory messages for the newly married couple following the joyous update.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/131262/actress-priya-bhavani-shankar-marries-raj-vel.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/actress-priya-bhavani-shankar-marries-raj-vel-1794387495137-1794387495482.jpg",
-      "publishedAt": "2026-11-11T08:58:20.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actress Priya Bhavani Shankar has embarked on a new chapter in her personal life by marrying Raj Vel. The wedding marks a significant milestone for the popular star.",
-        "As news of the ceremony circulates, supporters and peers from the entertainment industry have extended their warm wishes to Priya Bhavani Shankar and Raj Vel for their future together."
+        "Actor and political figure Pawan Kalyan was recently spotted attending the Vizag CII summit. This public appearance occurred just three days after an official announcement regarding his divorce.",
+        "The timing of the summit appearance drew attention from followers and observers alike. Despite the personal news circulating in the media, Kalyan proceeded with his scheduled professional and public commitments.",
+        "Such high-profile public engagements continue to keep the prominent personality in the headlines. Observers and fans closely follow these developments as they balance his personal life events with his ongoing public responsibilities."
       ],
       "editorial": "Cineinsta",
       "reviewStatus": "approved"
@@ -353,12 +422,22 @@
   ],
   "trailers": [
     {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
+      "id": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/idupu-kayitham-teaser-vamsi-reddy-dondapatis-family-drama-stars-priyadarshi-and-naga-durga-film-set-for-december-11-release/articleshow/135775316.cms",
+      "title": "‘Idupu Kayitham’ teaser: Vamsi Reddy Dondapati’s family drama stars Priyadarshi and Naga Durga; film set for December 11 release",
       "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/idupu-kayitham-teaser-vamsi-reddy-dondapatis-family-drama-stars-priyadarshi-and-naga-durga-film-set-for-december-11-release/articleshow/135775316.cms",
+      "img": "https://static.toiimg.com/thumb/msid-135775353,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://indiaglitz.com/halka-don-teaser-pramod-unveils-a-powerful-mass-avatar-in-first-cut-teaser",
+      "title": "Halka Don Teaser: Pramod Unveils a Powerful Mass Avatar in First Cut Teaser",
+      "source": "IndiaGlitz Telugu",
+      "url": "https://indiaglitz.com/halka-don-teaser-pramod-unveils-a-powerful-mass-avatar-in-first-cut-teaser",
+      "img": "https://i.ytimg.com/vi/S2DlHYbpcH4/hqdefault.jpg",
+      "youtubeId": "S2DlHYbpcH4",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "language": "Telugu"
     },
@@ -403,16 +482,6 @@
       "language": "Telugu"
     },
     {
-      "id": "https://indiaglitz.com/arjun-sarja-makes-a-powerful-entry-as-viraavi-in-polimera-3-diwali-glimpse-raises-expectations",
-      "title": "Arjun Sarja Makes a Powerful Entry as Viraavi in ‘Polimera 3’ – Diwali Glimpse Raises Expectations!",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://indiaglitz.com/arjun-sarja-makes-a-powerful-entry-as-viraavi-in-polimera-3-diwali-glimpse-raises-expectations",
-      "img": "https://i0.wp.com/indiaglitz.com/wp-content/uploads/2026/11/arjun-sarja-in-polimera-3.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
       "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/others/godzilla-minus-zero-official-trailer/videoshow/135632975.cms",
       "title": "Godzilla Minus Zero - Official Trailer",
       "source": "ETimes Telugu",
@@ -420,16 +489,6 @@
       "img": "https://static.toiimg.com/thumb/msid-135632975,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-11-07T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://telugu.indiaglitz.com/movie-news/suriyas-scene-trailer-is-fantasticthe-star-hero-appears-in-a-brand-new-avatar-as-a-dsp",
-      "title": "సూర్య ‘సీన్’ ట్రైలర్ అదిరింది.. డీఎస్పీగా సరికొత్త అవతారంలో స్టార్ హీరో!",
-      "source": "IndiaGlitz Telugu",
-      "url": "https://telugu.indiaglitz.com/movie-news/suriyas-scene-trailer-is-fantasticthe-star-hero-appears-in-a-brand-new-avatar-as-a-dsp",
-      "img": "https://i.ytimg.com/vi/ho4ACWs1hwc/hqdefault.jpg",
-      "youtubeId": "ho4ACWs1hwc",
-      "publishedAt": "2026-11-02T02:48:14.000Z",
       "language": "Telugu"
     },
     {
@@ -471,9 +530,151 @@
       "youtubeId": "",
       "publishedAt": "2026-10-26T00:00:00.000Z",
       "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/fauzi-official-teaser/videoshow/135169923.cms",
+      "title": "Fauzi - Official Teaser​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/fauzi-official-teaser/videoshow/135169923.cms",
+      "img": "https://static.toiimg.com/thumb/msid-135169923,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "language": "Telugu"
     }
   ],
   "reviews": [
+    {
+      "t": "DNK",
+      "l": "Telugu",
+      "releaseDate": "2026-11-13",
+      "rating": "2.38/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/dnk-review.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/moviereviews/441511/dnk-movie-review",
+      "aggregator": {
+        "average": 2.38,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.gulte.com/moviereviews/441511/dnk-movie-review"
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/reviews/donga-naa-koduku-telugu-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Itllu Arjuna",
+      "l": "Telugu",
+      "releaseDate": "2026-11-13",
+      "rating": "3.25/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/itlu-2.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/itllu-arjuna-telugu-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 3.25,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 3.25,
+            "ratingText": "3.25/5",
+            "url": "https://www.123telugu.com/reviews/itllu-arjuna-telugu-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "GOAT",
+      "l": "Telugu",
+      "releaseDate": "2026-11-12",
+      "rating": "2.5/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/GOAT-Movie.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/sudheers-goat-telugu-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 2.5,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/reviews/sudheers-goat-telugu-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
     {
       "t": "The Traitors Telugu Review (All Episodes): Mind Games, Betrayals, and High-Stakes Drama",
       "l": "Telugu",
@@ -1226,12 +1427,12 @@
       "t": "Garividi Lakshmi",
       "l": "Telugu",
       "releaseDate": "2026-10-17",
-      "rating": "2.42/5",
+      "rating": "2.25/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/garividi-1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/garividi-lakshmi-review-good-intentions-dull-execution/",
       "aggregator": {
-        "average": 2.42,
+        "average": 2.25,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1259,9 +1460,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
@@ -1270,12 +1471,12 @@
       "t": "Crazy Kalyanam",
       "l": "Telugu",
       "releaseDate": "2026-10-16",
-      "rating": "2.38/5",
+      "rating": "2/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/CrazyKalyanam3.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/crazy-kalyanam-review-uneven-fun-sensible-message/",
       "aggregator": {
-        "average": 2.38,
+        "average": 2,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1303,9 +1504,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/crazy-kalyanam-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
@@ -1314,12 +1515,12 @@
       "t": "Ranabaali",
       "l": "Telugu",
       "releaseDate": "2026-10-16",
-      "rating": "2.38/5",
+      "rating": "2.25/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/ranabaali1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/ranabaali-review-sincere-but-too-slow-and-tedious/",
       "aggregator": {
-        "average": 2.38,
+        "average": 2.25,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1347,9 +1548,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
@@ -1417,9 +1618,9 @@
           },
           {
             "source": "Gulte",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.gulte.com/moviereviews/435694/comrade-kalyan-review"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           },
           {
             "source": "M9.news",
@@ -1601,7 +1802,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/anumana-pakshi-telugu-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1883,13 +2084,13 @@
       }
     },
     {
-      "t": "Thella Kagitham",
+      "t": "Donga Naa Koduku",
       "l": "Telugu",
       "releaseDate": null,
       "rating": "Not available",
       "img": "",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/thella-kaagitham-movie-review-rating/",
+      "u": "https://www.m9.news/reviews/donga-naa-koduku-movie-review-rating/",
       "aggregator": {
         "average": null,
         "sources": [
@@ -1909,7 +2110,51 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/thella-kaagitham-movie-review-rating/"
+            "url": "https://www.m9.news/reviews/donga-naa-koduku-movie-review-rating/"
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "t": "G.O.A.T",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "Not available",
+      "img": "",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.m9.news/reviews/goat-2026-telugu-movie-review-rating/",
+      "aggregator": {
+        "average": null,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": "https://www.m9.news/reviews/goat-2026-telugu-movie-review-rating/"
           },
           {
             "source": "Telugu360",
@@ -1927,6 +2172,6 @@
       }
     }
   ],
-  "generatedAt": "2026-11-12T00:01:16.529Z",
+  "generatedAt": "2026-11-13T04:48:15.566Z",
   "reviewStatus": "auto-approved"
 }

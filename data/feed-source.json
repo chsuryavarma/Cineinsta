@@ -1,15 +1,81 @@
 {
-  "updatedAt": "2026-11-12T19:30:26.037Z",
+  "updatedAt": "2026-11-13T04:47:47.611Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://www.gulte.com/movienews/441502/not-every-hit-needs-a-sequel-scene-director-sets-an-example",
-      "title": "\"Not Every Hit Needs a Sequel\", Scene Director Sets an Example",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441502/not-every-hit-needs-a-sequel-scene-director-sets-an-example",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/jithu-madhavan-.jpg",
-      "publishedAt": "2026-11-12T18:36:00.000Z",
+      "id": "https://www.123telugu.com/reviews/donga-naa-koduku-telugu-movie-review-and-rating.html",
+      "title": "Review: DNK (Donga Naa Koduku) – A Crime Comedy That Lacks Punch",
+      "summary": "Donga Naa Koduku Telugu Movie Review And Rating | Mouli Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/donga-naa-koduku-telugu-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Donga-Naa-Koduku-1.webp",
+      "publishedAt": "2026-11-13T04:15:04.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/reviews/itllu-arjuna-telugu-movie-review-and-rating.html",
+      "title": "Review: Itllu Arjuna - An Enjoyable Outing",
+      "summary": "Itllu Arjuna Telugu Movie Review and Rating | Aniesh, Anaswara Rajan Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/reviews/itllu-arjuna-telugu-movie-review-and-rating.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/itlu-2.webp",
+      "publishedAt": "2026-11-13T03:20:58.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/donga-naa-koduku-movie-review-dnk/",
+      "title": "DNK Movie Review: Loud, Irritating and Painfully Unfunny!",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/donga-naa-koduku-movie-review-dnk/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Donga-Naa-Koduku-Movie-Review.jpg",
+      "publishedAt": "2026-11-13T02:44:53.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/not-rrr-or-rangasthalam-upasana-reveals-her-favourite-ram-charan-film-hk.html",
+      "title": "Not RRR or Rangasthalam: Upasana Reveals Her Favourite Ram Charan Film",
+      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Not RRR or Rangasthalam: Upasana Reveals...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/not-rrr-or-rangasthalam-upasana-reveals-her-favourite-ram-charan-film-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/02/Ram-Charan-and-Upasana.webp",
+      "publishedAt": "2026-11-13T02:34:48.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131290/evaraina-from-haindava-released.html",
+      "title": "Evaraina from Haindava released",
+      "summary": "| cinejosh.com Home News Gallery Videos Reviews తెలుగు Home &gt;&gt; Movie News &gt;&gt; Haindava: Evaraina enchants Evaraina from Haindava released By Rambabu Updated at: 2026-11-13 02:19:08 AM IST Evaraina from Haindava...",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131290/evaraina-from-haindava-released.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/evaraina-from-haindava-rele-1794536321762-1794536322131.jpg",
+      "publishedAt": "2026-11-13T02:19:08.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.telugu360.com/itlu-arjuna-movie-review/",
+      "title": "Itlu Arjuna Movie Review",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/itlu-arjuna-movie-review/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Itlu-Arjuna-Movie-Review.jpg",
+      "publishedAt": "2026-11-13T02:17:04.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/ranabaali-ott-release-vijay-deverakonda-rashmikas-film-starts-streaming-on-netflix-hk.html",
+      "title": "Ranabaali OTT Release: Vijay Deverakonda-Rashmika's Film Starts Streaming on Netflix",
+      "summary": "Ranabaali OTT Release: Vijay Deverakonda-Rashmika’s Film Starts Streaming on Netflix Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos...",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/ranabaali-ott-release-vijay-deverakonda-rashmikas-film-starts-streaming-on-netflix-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Ranabaali-9.webp",
+      "publishedAt": "2026-11-13T01:30:32.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -20,7 +86,18 @@
       "source": "123telugu",
       "url": "https://www.123telugu.com/reviews/sudheers-goat-telugu-movie-review-and-rating.html",
       "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/GOAT-Movie.webp",
-      "publishedAt": "2026-11-12T18:32:12.000Z",
+      "publishedAt": "2026-11-12T19:34:12.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/441502/not-every-hit-needs-a-sequel-scene-director-sets-an-example",
+      "title": "\"Not Every Hit Needs a Sequel\", Scene Director Sets an Example",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/441502/not-every-hit-needs-a-sequel-scene-director-sets-an-example",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/jithu-madhavan-.jpg",
+      "publishedAt": "2026-11-12T18:36:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
     },
@@ -254,83 +331,6 @@
       "publishedAt": "2026-11-12T07:55:50.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/idupu-kayitham-teaser-promises-a-delightful-family-entertainer-prp.html",
-      "title": "Idupu Kayitham teaser promises a delightful family entertainer",
-      "summary": "Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News Photos OTT తెలుగు Idupu Kayitham teaser promises a delightful...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/idupu-kayitham-teaser-promises-a-delightful-family-entertainer-prp.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/idupu.webp",
-      "publishedAt": "2026-11-12T07:30:46.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/alcohol-a-crazy-film-from-sithara-allari-naresh-coming-on-dec-18/",
-      "title": "Alcohol: A crazy film from Sithara & Allari Naresh coming on Dec 18",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/alcohol-a-crazy-film-from-sithara-allari-naresh-coming-on-dec-18/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Alcohol-1.jpg",
-      "publishedAt": "2026-11-12T07:11:25.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/441354/kiara-advani-avoided-the-mistake-made-by-janhvi-radhika",
-      "title": "Kiara Advani Avoided the Mistake Made by Janhvi & Radhika",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441354/kiara-advani-avoided-the-mistake-made-by-janhvi-radhika",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/03/toxic-song-.jpg",
-      "publishedAt": "2026-11-12T06:45:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/allari-nareshs-alcohol-locks-release-date-deets-inside-avd.html",
-      "title": "Allari Naresh's Alcohol locks release date; deets inside",
-      "summary": "Allari Naresh’s Alcohol locks release date; deets inside Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/allari-nareshs-alcohol-locks-release-date-deets-inside-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/Alcohol.webp",
-      "publishedAt": "2026-11-12T06:27:43.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.telugu360.com/karan-johar-frustrated-over-bollywood-actors/",
-      "title": "Karan Johar Frustrated over Bollywood Actors",
-      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
-      "source": "Telugu360",
-      "url": "https://www.telugu360.com/karan-johar-frustrated-over-bollywood-actors/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2024/09/Karan-Johar.jpg",
-      "publishedAt": "2026-11-12T05:59:34.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/chiranjeevis-kaaka-asian-cinemas-bags-nizam-rights-for-rs-35-cr",
-      "title": "Chiranjeevi’s Kaaka: Asian Cinemas bags Nizam rights for Rs 35 Cr",
-      "summary": "--> --> Chiranjeevi’s Kaaka: Asian Cinemas bags Nizam rights for Rs 35 Cr - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News Movie...",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/chiranjeevis-kaaka-asian-cinemas-bags-nizam-rights-for-rs-35-cr",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/11/kaaka-nov0826.jpg",
-      "publishedAt": "2026-11-12T04:44:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/nanis-bloody-romeo-this-is-when-the-next-schedule-begins-hk.html",
-      "title": "Nani's Bloody Romeo: This Is When the Next Schedule Begins",
-      "summary": "Nani’s Bloody Romeo: This Is When the Next Schedule Begins Home Movie News Reviews OTT News Gallery Interviews Videos తెలుగు వెర్షన్ Home OTT News Movie News Reviews Gallery Interviews Videos తెలుగు వెర్షన్ Home News...",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/nanis-bloody-romeo-this-is-when-the-next-schedule-begins-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Bloody-Romeo.webp",
-      "publishedAt": "2026-11-12T04:31:23.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
@@ -456,6 +456,94 @@
     }
   ],
   "reviews": [
+    {
+      "t": "DNK",
+      "l": "Telugu",
+      "releaseDate": "2026-11-13",
+      "rating": "2.38/5",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/dnk-review.jpg",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.gulte.com/moviereviews/441511/dnk-movie-review",
+      "aggregator": {
+        "average": 2.38,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": 2.25,
+            "ratingText": "2.25/5",
+            "url": "https://www.gulte.com/moviereviews/441511/dnk-movie-review"
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 2.5,
+            "ratingText": "2.5/5",
+            "url": "https://www.123telugu.com/reviews/donga-naa-koduku-telugu-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
+    {
+      "t": "Itllu Arjuna",
+      "l": "Telugu",
+      "releaseDate": "2026-11-13",
+      "rating": "3.25/5",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/itlu-2.webp",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.123telugu.com/reviews/itllu-arjuna-telugu-movie-review-and-rating.html",
+      "aggregator": {
+        "average": 3.25,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": 3.25,
+            "ratingText": "3.25/5",
+            "url": "https://www.123telugu.com/reviews/itllu-arjuna-telugu-movie-review-and-rating.html"
+          }
+        ]
+      }
+    },
     {
       "t": "GOAT",
       "l": "Telugu",
@@ -1252,12 +1340,12 @@
       "t": "Garividi Lakshmi",
       "l": "Telugu",
       "releaseDate": "2026-10-17",
-      "rating": "2.42/5",
+      "rating": "2.25/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/garividi-1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/garividi-lakshmi-review-good-intentions-dull-execution/",
       "aggregator": {
-        "average": 2.42,
+        "average": 2.25,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1285,9 +1373,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/garividi-lakshmi-telugu-movie-review-and-rating.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
@@ -1340,12 +1428,12 @@
       "t": "Ranabaali",
       "l": "Telugu",
       "releaseDate": "2026-10-16",
-      "rating": "2.38/5",
+      "rating": "2.25/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/ranabaali1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/ranabaali-review-sincere-but-too-slow-and-tedious/",
       "aggregator": {
-        "average": 2.38,
+        "average": 2.25,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1373,9 +1461,9 @@
           },
           {
             "source": "123telugu",
-            "rating": 2.75,
-            "ratingText": "2.75/5",
-            "url": "https://www.123telugu.com/reviews/vijay-deverakondas-ranabaali-telugu-movie-review.html"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           }
         ]
       }
@@ -1443,9 +1531,9 @@
           },
           {
             "source": "Gulte",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.gulte.com/moviereviews/435694/comrade-kalyan-review"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           },
           {
             "source": "M9.news",
@@ -1909,6 +1997,50 @@
       }
     },
     {
+      "t": "Donga Naa Koduku",
+      "l": "Telugu",
+      "releaseDate": null,
+      "rating": "Not available",
+      "img": "",
+      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
+      "u": "https://www.m9.news/reviews/donga-naa-koduku-movie-review-rating/",
+      "aggregator": {
+        "average": null,
+        "sources": [
+          {
+            "source": "GreatAndhra",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "Gulte",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "M9.news",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": "https://www.m9.news/reviews/donga-naa-koduku-movie-review-rating/"
+          },
+          {
+            "source": "Telugu360",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          },
+          {
+            "source": "123telugu",
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
       "t": "G.O.A.T",
       "l": "Telugu",
       "releaseDate": null,
@@ -1936,50 +2068,6 @@
             "rating": null,
             "ratingText": "Not available",
             "url": "https://www.m9.news/reviews/goat-2026-telugu-movie-review-rating/"
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
-      "t": "Thella Kagitham",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/thella-kaagitham-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/thella-kaagitham-movie-review-rating/"
           },
           {
             "source": "Telugu360",
