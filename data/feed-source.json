@@ -1,7 +1,29 @@
 {
-  "updatedAt": "2026-11-14T21:58:22.690Z",
+  "updatedAt": "2026-11-15T04:30:19.714Z",
   "language": "Telugu",
   "news": [
+    {
+      "id": "https://www.telugu360.com/ntr-takes-a-smart-decision/",
+      "title": "NTR takes a Smart Decision",
+      "summary": "- Telugu360 Skip to main content --> --> &times; Home Politics Movie News Movie Reviews Videos Galleries Home Politics Movie News Movie Reviews Videos Galleries తెలుగు TE Search for: Switch to: తెలుగు Home > Movie News...",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/ntr-takes-a-smart-decision/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/NTR-Anil-Ravipudi.jpg",
+      "publishedAt": "2026-11-15T04:26:20.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
+    {
+      "id": "https://www.gulte.com/featured/442082/exclusive-allu-arjuns-mythological-debute-with-boyapati",
+      "title": "Exclusive: Allu Arjun's Mythological Debut With Boyapati!",
+      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/featured/442082/exclusive-allu-arjuns-mythological-debute-with-boyapati",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/boyapati-allu-Arjun.jpg",
+      "publishedAt": "2026-11-15T01:39:08.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema"
+    },
     {
       "id": "https://www.123telugu.com/mnews/noted-actress-to-appear-in-kaakas-special-song-prp.html",
       "title": "Noted actress to appear in Kaaka's special song?",
@@ -309,41 +331,9 @@
       "publishedAt": "2026-11-14T09:07:51.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/441852/kajal-aggarwal-dated-someone-else-before-marrying-gautam",
-      "title": "Kajal Aggarwal Dated Someone Else Before Marrying Gautam",
-      "summary": "- × Gulte Movie News And Politics --> Home Shorts Movie News Political News Reviews Movie Reviews OTT Reviews Photos Videos Interviews OTT More Trends Paparazzi Pics Overseas Press Release Life Style Movie-Schedule...",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/441852/kajal-aggarwal-dated-someone-else-before-marrying-gautam",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/kajal-dating-.jpg",
-      "publishedAt": "2026-11-14T08:00:14.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
-    },
-    {
-      "id": "https://telugucinema.com/news/visa-date-locked-sithara-entertainments-clears-its-backlog-of-films",
-      "title": "Visa date locked: Sithara Entertainments clears its backlog of films",
-      "summary": "--> --> Visa date locked: Sithara Entertainments clears its backlog of films - Telugu Cinema | News, Reviews & Daily Entertainment Home News Movie Reviews Interviews Box Office Nostalgia Video Photos తెలుగు Home News...",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/visa-date-locked-sithara-entertainments-clears-its-backlog-of-films",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/11/visa-release-date-nov1426.jpg",
-      "publishedAt": "2026-11-14T07:53:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema"
     }
   ],
   "trailers": [
-    {
-      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "title": "Latest trailers entertainment Videos | Times of India",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
-      "img": "https://static.toiimg.com/photo/59770138.cms",
-      "youtubeId": "",
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "language": "Telugu"
-    },
     {
       "id": "https://indiaglitz.com/dhanush-mammoottys-o-m-chapter-1-trailer-raises-the-bar-for-pan-india-action-cinema",
       "title": "Dhanush-Mammootty's O.M: Chapter 1 Trailer Raises the Bar for Pan-India Action Cinema",
@@ -452,6 +442,16 @@
       "img": "https://static.toiimg.com/thumb/msid-134983727,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "youtubeId": "",
       "publishedAt": "2026-10-16T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/narnia-the-magicians-nephew-official-hindi-trailer/videoshow/134959415.cms",
+      "title": "Narnia: The Magician's Nephew - Official Hindi Trailer​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/narnia-the-magicians-nephew-official-hindi-trailer/videoshow/134959415.cms",
+      "img": "https://static.toiimg.com/thumb/msid-134959415,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
@@ -571,7 +571,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/itllu-arjuna-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -791,7 +791,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/scene-2026-telugu-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -835,7 +835,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/summer-holidays-2026-telugu-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -923,7 +923,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/ramayana-part-1-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1011,7 +1011,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/cult-2026-telugu-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1032,12 +1032,12 @@
       "t": "Aadarsha Kutumbam",
       "l": "Telugu",
       "releaseDate": "2026-10-30",
-      "rating": "2.63/5",
+      "rating": "2.67/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/09/adarshakutumbam1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/aadarsha-kutumbam-review-crime-drama-works-in-parts/",
       "aggregator": {
-        "average": 2.63,
+        "average": 2.67,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1053,9 +1053,9 @@
           },
           {
             "source": "M9.news",
-            "rating": 2.5,
-            "ratingText": "2.5/5",
-            "url": "https://www.m9.news/reviews/aadarsha-kutumbam-ak-47-movie-review/"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1275,7 +1275,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/418-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1407,7 +1407,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/garividi-lakshmi-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1472,12 +1472,12 @@
       "t": "Ranabaali",
       "l": "Telugu",
       "releaseDate": "2026-10-16",
-      "rating": "2.25/5",
+      "rating": "2.38/5",
       "img": "https://www-greatandhra-com.imagibyte.sortdcdn.net/wp-content/uploads/2026/08/ranabaali1.jpg",
       "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
       "u": "https://www.greatandhra.com/movies/reviews/ranabaali-review-sincere-but-too-slow-and-tedious/",
       "aggregator": {
-        "average": 2.25,
+        "average": 2.38,
         "sources": [
           {
             "source": "GreatAndhra",
@@ -1493,9 +1493,9 @@
           },
           {
             "source": "M9.news",
-            "rating": 2,
-            "ratingText": "2/5",
-            "url": "https://www.m9.news/reviews/ranabaali-movie-review-rating/"
+            "rating": null,
+            "ratingText": "Not available",
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1539,7 +1539,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/jailer-2-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1583,7 +1583,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/comrade-kalyan-movie-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1627,7 +1627,7 @@
             "source": "M9.news",
             "rating": null,
             "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/sigma-movie-telugu-review-rating/"
+            "url": ""
           },
           {
             "source": "Telugu360",
@@ -1892,138 +1892,6 @@
             "rating": null,
             "ratingText": "Not available",
             "url": ""
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
-      "t": "Donga Naa Koduku",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/donga-naa-koduku-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/donga-naa-koduku-movie-review-rating/"
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
-      "t": "G.O.A.T",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/goat-2026-telugu-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/goat-2026-telugu-movie-review-rating/"
-          },
-          {
-            "source": "Telugu360",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "123telugu",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          }
-        ]
-      }
-    },
-    {
-      "t": "Drishyam: The Conclusion",
-      "l": "Telugu",
-      "releaseDate": null,
-      "rating": "Not available",
-      "img": "",
-      "source": "GreatAndhra • Gulte • M9.news • Telugu360 • 123telugu",
-      "u": "https://www.m9.news/reviews/drishyam-the-conclusion-hindi-movie-review-rating/",
-      "aggregator": {
-        "average": null,
-        "sources": [
-          {
-            "source": "GreatAndhra",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "Gulte",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": ""
-          },
-          {
-            "source": "M9.news",
-            "rating": null,
-            "ratingText": "Not available",
-            "url": "https://www.m9.news/reviews/drishyam-the-conclusion-hindi-movie-review-rating/"
           },
           {
             "source": "Telugu360",
