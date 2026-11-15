@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T13:23:55.575Z",
+  "updatedAt": "2026-11-15T19:03:24.670Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,79 +370,79 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-11-15T13:23:31.918Z",
-      "lastAttemptedAt": "2026-11-15T13:23:31.918Z",
+      "updatedAt": "2026-11-15T19:02:45.587Z",
+      "lastAttemptedAt": "2026-11-15T19:02:45.587Z",
       "items": [
         {
-          "title": "Watch The Paradise | Netflix",
-          "url": "https://www.netflix.com/title/82134615",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSFCgxVsXBj3DFIc59rq8ddWDfU7a5quWhErEPhni5yQ1aHPhV3ieexy9oxNGnfQmjMoEVpgcPq6rhbQEagnX_dKnnbOCp1I5Spk.jpg?r=05d",
+          "title": "Watch Baththa | Netflix",
+          "url": "https://www.netflix.com/title/83064751",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcxH8w2-qDx9AvZR4iM4pQP4cpIu_pDV-IaIwTbDG2x41zFAUcXs5mvE-YgkaUD4__gDh6XDmilO0nWFtGNwzWNLhS_qEhVEjcAg.jpg?r=e7e",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Vishwanath & Sons | Netflix",
+          "url": "https://www.netflix.com/title/82034837",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaGpoOfcAlPb2yLOkkjH59ekrZoLnHCwfOUx4JVdUlYuA7SmTUEjUY51RCf2v83FnwVACq92LHPtK2Bnm_TUAYDhwn82e1-Zw6ee.jpg?r=4d5",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Mandaadi | Netflix",
+          "url": "https://www.netflix.com/title/82787383",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSadHY_axWcpvC1a4eLhSChmKn_jCLlEYrieSZAOI8c7XWULiYC-8p0cZBjFan32AEnH2uWcqpl5vNwOjESlqxKVQsrZ3wrOQx7Y.jpg?r=1df",
           "languages": "Telugu"
         },
         {
           "title": "Watch Ranabaali | Netflix",
           "url": "https://www.netflix.com/title/81900289",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABV7nOWsqZaDpa99rW93_2yrCRO7L2sGraLl_ac_tUa7gphPvyIgctcFr2EGvGn-DUI2iV1LWVnGOg0MlHYoqxrhM4niwp-OArbHh.jpg?r=b1e",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABV7nOWsqZaDpa99rW93_2yrCRO7L2sGraLl_ac_tUa7gphPvyIgctcFr2EGvGn-DUI2iV1LWVnGOg0MlHYoqxrhM4niwp-OArbHh.jpg?r=b1e",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Dorothy | Netflix",
+          "url": "https://www.netflix.com/title/83238479",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTiEeCqXK0iy6bwDA-s5hYONsXz1NpxiY2gKD4AyF45o7wLqjrVwjTpHB1TrISWEgoV1vmUgQohuPw6XmHoSaQJQmeLpq2aedVMI.jpg?r=5c2",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch The Paradise | Netflix",
+          "url": "https://www.netflix.com/title/82134615",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSFCgxVsXBj3DFIc59rq8ddWDfU7a5quWhErEPhni5yQ1aHPhV3ieexy9oxNGnfQmjMoEVpgcPq6rhbQEagnX_dKnnbOCp1I5Spk.jpg?r=05d",
+          "languages": "Telugu"
+        },
+        {
+          "title": "Watch Dhamaal 4 | Netflix",
+          "url": "https://www.netflix.com/title/81950460",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSY-XTugQdQc6cb5fId4GmXUQqGSHJxj4AKL0stTUVycalFS6sW1Q9-jHhgwvoIKQXiLabz0b1XtkxtmEgCSx3ujGBPMk8PwcnYz.jpg?r=045",
           "languages": "Telugu"
         },
         {
           "title": "Watch Irumudi | Netflix",
           "url": "https://www.netflix.com/title/83001420",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS58fWfMQQ2yc0DEXQpiB4EDh-2HJ4bPjQTUaOS-YTKWhqj2YbJl7LJhAFAC6B3Le8wDR7G1HcF4fGcwuj3gfL1FayrBdHh04ekk.jpg?r=c83",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS58fWfMQQ2yc0DEXQpiB4EDh-2HJ4bPjQTUaOS-YTKWhqj2YbJl7LJhAFAC6B3Le8wDR7G1HcF4fGcwuj3gfL1FayrBdHh04ekk.jpg?r=c83",
           "languages": "Telugu"
         },
         {
-          "title": "Watch Don't Trouble the Trouble | Netflix",
-          "url": "https://www.netflix.com/title/83074919",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfOgkg1nQaeeoQiHcJStc7yXvV3CdUHnaOMLwbLFEzP7wHlIk4aH90-Nwl6hjE_Imvqba1Kh4Pk4g_ZVzfNbn6l1U6NUogHVGI4D.jpg?r=76f",
+          "title": "Watch Bhooth Bangla | Netflix",
+          "url": "https://www.netflix.com/title/82008494",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABR2bxsxjB03fTiXVxpAUyAc2Dvo9lSf5VAw7tyusRyOug52kMDqpGmsR05Cw6inOdaBZnhtfSctXnw9aUPbBdN8MJOUpGpi87E5w.jpg?r=431",
           "languages": "Telugu"
         },
         {
-          "title": "Watch Epic | Netflix",
-          "url": "https://www.netflix.com/title/82673568",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVleznlanl7yzUKcTilGEy1kCGG487OuVItHJQ1Vi0AArlAnCWI2vVZqZaRtAIcmq9w30dB714vVnMqJbaJC1-bala4ZGRwfkhAf.jpg?r=17f",
+          "title": "Watch Pradhama Drishtiya Kuttakkar | Netflix",
+          "url": "https://www.netflix.com/title/83197640",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbJY_1PSUsknBs7D4fye0ZNVuXxGARnIKz5RF-mJ1RjFaH5NOx_ERfwfa6zy2b9TxE2mFdXuNuu6uVqDAzeyCmP4npzmiotQv4Z7.jpg?r=bdf",
           "languages": "Telugu"
         },
         {
-          "title": "Watch Newton's 3rd Law | Netflix",
-          "url": "https://www.netflix.com/title/83001645",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTYFo2BDg7_MYd9xLaQ74BBPZ2FWpF47kIWt04KE4IqOHTQVY3Tgh7WEq97nEXXE1WDVMB_Eola4hHFyUYBVamv-RfNEnAZaUr5d.jpg?r=46d",
+          "title": "Watch GDN | Netflix",
+          "url": "https://www.netflix.com/title/82853382",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXjhDtsWv4HVJ2i5TJYwKos6Gp4bPY3JHtPF7-9u3ErK15O8bP6FvIDhbIPrlC3Fgla_ymrFWZizudUPGKAAGAo14IkM9NDAkx90.jpg?r=e48",
           "languages": "Telugu"
         },
         {
-          "title": "Watch Korean Kanakaraju | Netflix",
-          "url": "https://www.netflix.com/title/82995870",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABewOoRR5tHSTl_xfMw71c6sBBQaTnKbQtrhR-RwgN4EiRhHyCxIWvCnbxJQ5bqMp9dws5Z_6fctZbSSCCunguKz-1PF5BbPbSPJb.jpg?r=e18",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Watch Peddi | Netflix",
-          "url": "https://www.netflix.com/title/83075036",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABa3o-gNw-LN8TJOAOlDx6nJBd9QKgM7kKHuOx_1zTXAZa8rxfogKdQsqzjyGTkqNJis5XgRKui6FolD4a7df5RfFJZDV2XKDcQR-.jpg?r=189",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Watch Ustaad Bhagat Singh | Netflix",
-          "url": "https://www.netflix.com/title/82180524",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZqQoRf2DIbmEP6bffC_SZwN5ImPpcwabDjrqzFZqVAWcOUCtmN0_kfbi9ydk76NAkZ5dCZjHU0oh4XZo71syAoVWoH0nevzjEL2.jpg?r=85c",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Watch Pushpa 2: The Rule (Reloaded Version) | Netflix",
-          "url": "https://www.netflix.com/title/82006666",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeAqLXSTMARl9OBPlFM0yAMzPOe3GXWrjfHPCWU9FhXCojEbDpNbdzcAtWyMocBq2_qGJYDPdQ1P8aJl9NGcUuh3HKiAHohKUuxY.jpg?r=4b6",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Watch Lucky Baskhar | Netflix",
-          "url": "https://www.netflix.com/title/81902035",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSofMsbaYZjaJXD9ZjPdx356GUEoLypAmWcf21l6AoAeEBP_2Tu4gb9jvWhkF3OXie0mpP-cK9J-6pRY9wbYbFfiY90H5nkSX3sW.jpg?r=856",
-          "languages": "Telugu"
-        },
-        {
-          "title": "Watch Biker | Netflix",
-          "url": "https://www.netflix.com/title/82109243",
-          "img": "https://occ-0-3012-2433.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTm5zVDMLtiZ_yTxIFk-gdbq27gqy5AXrARQVtXw03mWZpNOxC11qhPRT4YGx-6fKII4jUahFDUTgHVLk7gGTTooGdeTlXfkIMYj.jpg?r=2fe",
+          "title": "Watch Dhurandhar | Netflix",
+          "url": "https://www.netflix.com/title/82156122",
+          "img": "https://occ-0-3012-37.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQSpyGF5vVvn0CHkaK29kxqUmAZb2nEIYs1uezqtwSnNp7qg7ykmnN0_tt6cr6GY0oXMwEvTJsiTmv3s0Eu5Zom9I-PJI_o8nXvE.jpg?r=db9",
           "languages": "Telugu"
         }
       ]
@@ -450,7 +450,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-11-15T13:23:38.542Z",
+      "lastAttemptedAt": "2026-11-15T19:03:04.888Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -464,7 +464,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-11-11T06:58:44.684Z",
-      "lastAttemptedAt": "2026-11-15T13:23:39.777Z",
+      "lastAttemptedAt": "2026-11-15T19:03:06.183Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -478,14 +478,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-15T13:23:40.082Z",
+      "lastAttemptedAt": "2026-11-15T19:03:07.740Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-11-15T13:23:50.449Z",
-      "lastAttemptedAt": "2026-11-15T13:23:50.449Z",
+      "updatedAt": "2026-11-15T19:03:16.870Z",
+      "lastAttemptedAt": "2026-11-15T19:03:16.870Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -516,7 +516,7 @@
     "sun-nxt": {
       "status": "stale",
       "updatedAt": "2026-11-15T04:31:22.658Z",
-      "lastAttemptedAt": "2026-11-15T13:23:52.092Z",
+      "lastAttemptedAt": "2026-11-15T19:03:18.829Z",
       "items": [
         {
           "title": "Telugu Dubbed Movies",
@@ -530,14 +530,14 @@
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-15T13:23:53.226Z",
+      "lastAttemptedAt": "2026-11-15T19:03:20.253Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-11-15T13:23:55.572Z",
-      "lastAttemptedAt": "2026-11-15T13:23:55.572Z",
+      "updatedAt": "2026-11-15T19:03:24.667Z",
+      "lastAttemptedAt": "2026-11-15T19:03:24.667Z",
       "items": [
         {
           "title": "Watch Parivarik ManuRanjan Full HD Movie Online - Sony LIV",
