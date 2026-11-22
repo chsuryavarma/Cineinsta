@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T07:19:13.058Z",
+  "updatedAt": "2026-11-22T14:00:59.505Z",
   "language": "Telugu",
   "tabs": [
     {
@@ -370,8 +370,8 @@
   "ottTrending": {
     "netflix": {
       "status": "ok",
-      "updatedAt": "2026-11-22T07:18:42.510Z",
-      "lastAttemptedAt": "2026-11-22T07:18:42.510Z",
+      "updatedAt": "2026-11-22T14:00:23.626Z",
+      "lastAttemptedAt": "2026-11-22T14:00:23.626Z",
       "items": [
         {
           "title": "Watch Ranabaali | Netflix",
@@ -450,7 +450,7 @@
     "prime-video": {
       "status": "stale",
       "updatedAt": "2026-10-23T16:23:59.251Z",
-      "lastAttemptedAt": "2026-11-22T07:18:55.604Z",
+      "lastAttemptedAt": "2026-11-22T14:00:38.469Z",
       "items": [
         {
           "title": "Rocky Balboa: The Ultimate Director's Cut",
@@ -464,7 +464,7 @@
     "aha": {
       "status": "stale",
       "updatedAt": "2026-11-11T06:58:44.684Z",
-      "lastAttemptedAt": "2026-11-22T07:18:56.731Z",
+      "lastAttemptedAt": "2026-11-22T14:00:39.948Z",
       "items": [
         {
           "title": "Arha media and Broadcasting Pvt Ltd",
@@ -478,14 +478,14 @@
     "jiohotstar": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-22T07:18:56.984Z",
+      "lastAttemptedAt": "2026-11-22T14:00:40.206Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "zee5": {
       "status": "ok",
-      "updatedAt": "2026-11-22T07:19:07.295Z",
-      "lastAttemptedAt": "2026-11-22T07:19:07.295Z",
+      "updatedAt": "2026-11-22T14:00:51.180Z",
+      "lastAttemptedAt": "2026-11-22T14:00:51.180Z",
       "items": [
         {
           "title": "Movies by Year - Explore the list of Movies Released every year",
@@ -516,7 +516,7 @@
     "sun-nxt": {
       "status": "stale",
       "updatedAt": "2026-11-18T23:51:41.150Z",
-      "lastAttemptedAt": "2026-11-22T07:19:09.202Z",
+      "lastAttemptedAt": "2026-11-22T14:00:53.179Z",
       "items": [
         {
           "title": "Telugu Dubbed Movies",
@@ -530,14 +530,14 @@
     "etv-win": {
       "status": "unavailable",
       "updatedAt": null,
-      "lastAttemptedAt": "2026-11-22T07:19:10.139Z",
+      "lastAttemptedAt": "2026-11-22T14:00:54.386Z",
       "items": [],
       "note": "No validated titles were obtained from the platform public catalogue during this run."
     },
     "sonyliv": {
       "status": "ok",
-      "updatedAt": "2026-11-22T07:19:13.056Z",
-      "lastAttemptedAt": "2026-11-22T07:19:13.056Z",
+      "updatedAt": "2026-11-22T14:00:59.503Z",
+      "lastAttemptedAt": "2026-11-22T14:00:59.503Z",
       "items": [
         {
           "title": "Watch Parivarik ManuRanjan Full HD Movie Online - Sony LIV",
