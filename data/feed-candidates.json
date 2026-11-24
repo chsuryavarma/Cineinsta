@@ -1,374 +1,507 @@
 {
-  "updatedAt": "2026-11-23T05:26:55.410Z",
+  "updatedAt": "2026-11-24T03:47:30.409Z",
   "language": "Telugu",
   "news": [
     {
-      "id": "https://telugucinema.com/news/weekend-box-office-ene-repeat-emerges-a-hit-aakasamlo-oka-tara-settles-for-average",
-      "title": "Weekend Box Office: ENE Repeat Hits the Mark While Aakasamlo Oka Tara Settles for Average Returns",
-      "summary": "The weekend box office results are in, showcasing mixed fortunes for current releases. ENE Repeat has successfully emerged as a hit with audiences, whereas Aakasamlo Oka Tara has settled for average box office returns.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/weekend-box-office-ene-repeat-emerges-a-hit-aakasamlo-oka-tara-settles-for-average",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/11/enerepeat-aakasamlookatara-nov2326.jpg",
-      "publishedAt": "2026-11-23T04:47:35.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The latest weekend box office figures highlight a varied performance among current cinematic releases. Film tracking indicates that ENE Repeat has managed to strike a chord with moviegoers, successfully emerging as a hit over the weekend.",
-        "On the other hand, Aakasamlo Oka Tara experienced a more modest run at the ticket counters. Current assessments place its performance as average, reflecting a steady but less explosive response from the audience compared to its contemporary release.",
-        "These weekend trends offer a clear look at how both titles are currently performing in theaters. Observers will be watching closely to see how these trajectories hold up as the films move further into their theatrical runs."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/131494/nikhil-updates-on-swayambhu.html",
-      "title": "Nikhil Drops Fresh Updates Regarding the Progress of Swayambhu",
-      "summary": "Actor Nikhil has shared new updates concerning his upcoming film project Swayambhu. The latest announcements give fans a clear look at how the production is currently moving forward.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/131494/nikhil-updates-on-swayambhu.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/nikhil-updates-on-swayambhu-1795408290852-1795408291272.jpg",
-      "publishedAt": "2026-11-23T04:32:02.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Nikhil has recently provided fresh updates regarding his upcoming cinematic venture, Swayambhu. Fans and followers of the actor have been keenly awaiting news on the film's production status.",
-        "With these recent updates, audiences gain insight into the ongoing progress of Swayambhu. The project continues to draw significant attention within the industry as production moves ahead."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/443762/pics-dhoni-ajith-rajini-at-anirudhs-reception-day-2",
-      "title": "Star-Studded Gathering: Dhoni, Ajith, and Rajini Spotted at Anirudh's Reception Day 2",
-      "summary": "Day two of Anirudh's reception witnessed a star-studded gathering with prominent personalities including Dhoni, Ajith, and Rajini in attendance. Photographs capturing the notable figures quickly circulated among fans.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/443762/pics-dhoni-ajith-rajini-at-anirudhs-reception-day-2",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/anirudh-kavya-reception-dhoni-Ajith-rajini-33.jpg",
-      "publishedAt": "2026-11-23T04:10:57.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The second day of Anirudh's reception brought together a host of prominent names from the sports and entertainment worlds. Among the notable attendees spotted at the venue were MS Dhoni, Ajith Kumar, and Rajinikanth.",
-        "Photographs from the event quickly made their way across platforms, capturing the high-profile gathering. The presence of these iconic personalities added immense star power to the celebrations."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/131493/chiranjeevi-to-wrap-up-dubbing-for-his-role-in-kaka.html",
-      "title": "Megastar Chiranjeevi Set to Complete Dubbing for Kaka",
-      "summary": "Megastar Chiranjeevi is gearing up to wrap up his dubbing work for his role in the upcoming movie Kaka. This development marks an important milestone as the film progresses closer to completion.",
-      "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/131493/chiranjeevi-to-wrap-up-dubbing-for-his-role-in-kaka.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/chiranjeevi-to-wrap-up-dubbing-for-his-role-in-kaka-1795406502936-1795406503625.jpg",
-      "publishedAt": "2026-11-23T04:01:47.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Megastar Chiranjeevi is currently focused on finishing up his dubbing commitments for the film Kaka. The actor is set to complete this specific task for his role in the project.",
-        "This progress in the dubbing studio signifies a crucial phase in the movie's post-production schedule. Fans of the megastar are closely following updates as the film edges nearer to its final stages."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/viral-pic-vijay-and-rashmika-with-mr-mrs-anirudh-hk.html",
-      "title": "Viral Photograph Features Vijay and Rashmika Alongside Mr. and Mrs. Anirudh",
-      "summary": "A new photograph featuring Vijay and Rashmika alongside Mr. and Mrs. Anirudh has gone viral online. The snapshot captures the actors sharing a frame during the celebrations.",
+      "id": "https://www.123telugu.com/mnews/shah-rukh-khans-king-kareena-kapoors-special-song-to-be-reportedly-out-tomorrow-prp.html",
+      "title": "Kareena Kapoor's Special Track for Shah Rukh Khan's King Reportedly Releasing Tomorrow",
+      "summary": "Excitement surrounds Shah Rukh Khan's upcoming project King, with reports indicating that a special song featuring Kareena Kapoor will be released tomorrow. Cinephiles are eagerly anticipating the unveiling of this high-profile musical number.",
       "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/viral-pic-vijay-and-rashmika-with-mr-mrs-anirudh-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/viajy-and-rasmika.webp",
-      "publishedAt": "2026-11-23T03:32:15.000Z",
+      "url": "https://www.123telugu.com/mnews/shah-rukh-khans-king-kareena-kapoors-special-song-to-be-reportedly-out-tomorrow-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/KING.webp",
+      "publishedAt": "2026-11-24T03:30:59.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "A fresh photograph featuring prominent actors Vijay and Rashmika alongside Mr. and Mrs. Anirudh has surfaced online and quickly gone viral. The image highlights the stars posing together during the celebrations.",
-        "The viral picture has drawn considerable attention from cinema enthusiasts across social media platforms. Such candid moments involving top stars frequently become major talking points online."
+        "Anticipation is building around Shah Rukh Khan's upcoming movie King, as reports suggest that a special song featuring Kareena Kapoor is slated for release tomorrow. The inclusion of Kareena Kapoor in a special track has generated considerable buzz among moviegoers and fans alike.",
+        "As details continue to surface regarding King, the reported imminent release of this special song adds a fresh wave of excitement for the project. Fans of both Shah Rukh Khan and Kareena Kapoor are looking forward to the official premiere of the track tomorrow.",
+        "While further specifics about the song remain under wraps, its expected debut tomorrow marks a significant promotional milestone for the film. Cineinsta will keep track of further updates as the project progresses."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
-      "id": "https://www.gulte.com/movienews/443755/sharwa-deserves-national-award-for-bhogi",
-      "title": "Sharwa Praised as Deserving a National Award for Bhogi",
-      "summary": "Sharwa has drawn high praise for his stellar work in Bhogi, with discussions suggesting his performance is worthy of a National Award.",
+      "id": "https://www.123telugu.com/mnews/interesting-heroine-pens-her-own-dialogues-for-her-cameo-prp.html",
+      "title": "Heroine Takes Charge of Her Own Dialogues for Special Cameo Appearance",
+      "summary": "In an interesting update from the film world, a leading heroine has reportedly written her own dialogues for an upcoming cameo appearance. This creative control adds a personal touch to her performance on screen.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/interesting-heroine-pens-her-own-dialogues-for-her-cameo-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/Ruhani-Sharma.webp",
+      "publishedAt": "2026-11-24T02:31:23.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "A fascinating creative development has emerged regarding an upcoming cinematic cameo, where the heroine has taken the initiative to write her own dialogues. This hands-on approach allows the actor to infuse a unique personal voice into her brief yet notable screen appearance.",
+        "Writing one's own lines highlights a deep creative engagement with the character and the narrative context of the scene. Such personal touches often enhance the authenticity and impact of cameo performances in contemporary films.",
+        "As audiences await the release to witness this creative choice in action, industry observers continue to follow how actors shape their special appearances. This update showcases the collaborative and sometimes individually driven nature of modern filmmaking."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/aakasamlo-oka-tara-day-4-day-1-for-dulquer-salmaans-film-prp.html",
+      "title": "Dulquer Salmaan's Aakasamlo Oka Tara Witnesses Strong Growth as Day 4 Surpasses Day 1",
+      "summary": "Dulquer Salmaan's film Aakasamlo Oka Tara has achieved a notable box office milestone, with its collections on the fourth day surpassing those of its opening day. This positive trajectory points to strong audience reception and growing momentum.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/aakasamlo-oka-tara-day-4-day-1-for-dulquer-salmaans-film-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/AOT-6.webp",
+      "publishedAt": "2026-11-24T01:30:47.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Dulquer Salmaan's starring vehicle Aakasamlo Oka Tara has demonstrated impressive momentum at the box office, evidenced by its performance on the fourth day. Reports indicate that the film's Day 4 earnings have successfully surpassed its Day 1 collections.",
+        "Such a growth pattern indicates favorable word-of-mouth and sustained audience interest following the initial release. For a project led by Dulquer Salmaan, outperforming opening day numbers on a weekday highlights a strong connection with moviegoers.",
+        "As Aakasamlo Oka Tara continues its theatrical run, this upward trend provides a positive signal for its ongoing box office journey. Observers will be watching to see how the film maintains this momentum in the coming days."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/nanis-sky-high-confidence-in-nithiins-alias-rukmini-brings-court-memories-prp.html",
+      "title": "Nani's Confidence in Nithiin's Alias Rukmini Evokes Memories of Court",
+      "summary": "Nani has expressed tremendous confidence in Nithiin's upcoming project Alias Rukmini, drawing nostalgic comparisons to Court. This strong endorsement from a fellow industry star has heightened expectations among fans.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/nanis-sky-high-confidence-in-nithiins-alias-rukmini-brings-court-memories-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/aliasrukmini.webp",
+      "publishedAt": "2026-11-23T20:29:27.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The upcoming film Alias Rukmini, starring Nithiin, has received a major vote of confidence from actor Nani. Nani's high praise and sky-high belief in the project have drawn notable parallels to memories associated with Court.",
+        "Endorsements of this nature from prominent industry peers often elevate anticipation levels and shape audience expectations prior to a film's release. Nani's vocal support highlights a spirit of camaraderie and shared optimism within the film community.",
+        "As excitement builds around Alias Rukmini, fans and industry followers are looking forward to seeing how the film unfolds on screen. Nani's strong confidence serves as an encouraging sign for Nithiin's project."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/444037/war-2-director-gives-ntr-neels-film-the-title-dragon",
+      "title": "Title Update: War 2 Director Links With NTR-Neel Project As Dragon",
+      "summary": "Recent developments reveal that the director of War 2 has given the title Dragon to the anticipated film featuring NTR and Neel.",
       "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/443755/sharwa-deserves-national-award-for-bhogi",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/IMG-20261123-WA0003.jpg",
-      "publishedAt": "2026-11-23T03:31:54.000Z",
+      "url": "https://www.gulte.com/movienews/444037/war-2-director-gives-ntr-neels-film-the-title-dragon",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/05/dragon-glimpse-.jpg",
+      "publishedAt": "2026-11-23T19:52:00.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "The cinematic project Bhogi has recently captured significant attention, specifically regarding the standout performance of lead actor Sharwa. Industry discussions and accolades have placed a spotlight on his compelling portrayal in the movie.",
-        "Such high-level appreciation highlights the profound impact of Sharwa's acting choices within the feature. Discussions regarding potential National Award recognition underline the exceptional standard of performance delivered for this project.",
-        "As the film continues to garner notable commentary across cinematic platforms, Sharwa's involvement remains a central talking point for enthusiasts and followers of the movie."
+        "In a notable development for upcoming cinematic projects, the director of War 2 has reportedly assigned the title Dragon to the collaborative venture involving NTR and Neel.",
+        "This title disclosure has sparked fresh conversations among film enthusiasts following the progress of the NTR-Neel venture. As details continue to emerge regarding the project, the confirmed naming gives the collaborative feature a distinct identity moving forward.",
+        "Industry observers are keeping a close eye on both the War 2 production and the newly titled Dragon as production updates unfold."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
-      "id": "https://www.telugu360.com/photos-bhogi-movie-pre-release-event/",
-      "title": "A Look Back at the Bhogi Movie Pre-Release Event Gallery",
-      "summary": "Photographs capturing the pre-release event for the upcoming movie Bhogi have been released, offering a visual glimpse into the promotional festivities.",
+      "id": "https://www.gulte.com/movienews/444033/monday-stories-aot-ene-repeat-heading-towards-hit-status",
+      "title": "Box Office Tracking: AOT and ENE Repeat Screenings Eye Hit Status",
+      "summary": "Recent box office updates for Monday indicate strong momentum for repeat screenings of AOT and ENE, with both titles tracking steadily toward hit status.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/444033/monday-stories-aot-ene-repeat-heading-towards-hit-status",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/Monday-stories-ene.jpg",
+      "publishedAt": "2026-11-23T17:48:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Recent box office updates for Monday indicate strong momentum for repeat screenings of AOT and ENE, with both titles tracking steadily toward hit status.",
+        "The performance of these repeat screenings highlights ongoing audience interest and steady traction at the box office. Such patterns demonstrate the staying power of specific titles during their continued theatrical runs.",
+        "Industry analysts continue to monitor the progress of AOT and ENE as they solidify their commercial standing in current cinematic markets."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/444026/if-you-are-a-trivikram-fan-dont-watch-this-song",
+      "title": "Trivikram Followers Advised Caution Regarding Specific Song Release",
+      "summary": "A newly released song has sparked discussions among followers of filmmaker Trivikram, with specific advisories circulating about the track.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/444026/if-you-are-a-trivikram-fan-dont-watch-this-song",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Venkatesh-ak-47-maala.jpg",
+      "publishedAt": "2026-11-23T17:38:48.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "A particular musical track has caught the attention of Trivikram followers, prompting discussions and specific advisories regarding whether fans of the filmmaker should watch the song.",
+        "As discussions surrounding the track circulate within film circles, audiences familiar with Trivikram's work are reacting to the stylistic choices and presentation of the newly released song.",
+        "Such fan reactions highlight the engaged nature of followers tracking content tied to prominent names in the industry."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/shruti-haasan-opens-up-about-peddis-song-controversy-avd.html",
+      "title": "Shruti Haasan Addresses Recent Controversy Surrounding Peddi Song",
+      "summary": "Actor Shruti Haasan has spoken out regarding the recent controversy associated with a musical track from Peddi, addressing the situation directly.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/shruti-haasan-opens-up-about-peddis-song-controversy-avd.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/05/Peddi-Movie.webp",
+      "publishedAt": "2026-11-23T17:01:01.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Shruti Haasan has spoken out regarding the recent controversy associated with a musical track from Peddi, addressing the situation directly.",
+        "The song controversy had previously drawn attention across entertainment circles, prompting public discussion about the project. By addressing the matter openly, Haasan has provided clarity on the ongoing discourse.",
+        "Developments surrounding Peddi continue to garner interest from followers and industry trackers alike as production and promotional phases progress."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/443981/fahadh-faasils-new-year-surprise-asareeri",
+      "title": "Fahadh Faasil Unveils New Project Titled Asareeri",
+      "summary": "Actor Fahadh Faasil has delighted fans with a special New Year announcement, revealing an upcoming project titled Asareeri. The exciting update brings fresh anticipation for followers of the talented star.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/443981/fahadh-faasils-new-year-surprise-asareeri",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/Asareeri.jpg",
+      "publishedAt": "2026-11-23T15:38:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Renowned actor Fahadh Faasil has given his admirers a special treat to mark the New Year by announcing an upcoming project titled Asareeri. The sudden update has quickly captured the attention of film enthusiasts across the industry.",
+        "Asareeri adds to the actor's diverse and engaging filmography, promising another distinctive cinematic experience. Fans and followers are eagerly awaiting further details regarding the cast, crew, and plot of this newly revealed venture.",
+        "While specific release dates and production timelines remain under wraps for now, the initial announcement alone has successfully built significant buzz. Fahadh Faasil's latest undertaking continues to highlight his active presence in contemporary cinema."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/443961/will-vrushakarma-hold-audience-attention-for-3-hours",
+      "title": "Runtime Discussion Arises Around Vrushakarma",
+      "summary": "Conversations have emerged regarding Vrushakarma and whether its substantial three-hour runtime will successfully sustain audience attention. Viewers and critics are weighing in on how the film's length will impact the overall viewing experience.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/443961/will-vrushakarma-hold-audience-attention-for-3-hours",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/vrushakarma-.jpg",
+      "publishedAt": "2026-11-23T14:22:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "As discussions continue around Vrushakarma, a key talking point has emerged regarding its duration. Observers are actively questioning whether the film will be able to hold viewer attention throughout its three-hour length.",
+        "Managing a runtime of this magnitude demands strong pacing, compelling storytelling, and engaging performances to keep audiences invested from start to finish. The ability of Vrushakarma to maintain engagement over three hours remains a central point of interest for moviegoers.",
+        "As anticipation builds, the final verdict will rest on how effectively the narrative utilizes its duration on the big screen."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/443976/aot-witnesses-solid-sunday-monday-looks-encouraging",
+      "title": "AOT Records Strong Sunday Numbers as Monday Shows Promise",
+      "summary": "AOT recently experienced a solid Sunday at the box office, setting a positive tone for its theatrical run. Early indications suggest that Monday's figures are also looking encouraging for the film.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/443976/aot-witnesses-solid-sunday-monday-looks-encouraging",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/Dulquer-aakasam-lo-oka-tara.jpg",
+      "publishedAt": "2026-11-23T13:55:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The film AOT recently enjoyed a robust Sunday performance, drawing strong numbers that boosted its theatrical standing. This healthy weekend momentum is crucial for sustaining a strong presence in theaters.",
+        "Following the solid weekend results, early indicators point toward an encouraging Monday turnout. Maintaining steady weekday numbers is often a strong sign of sustained audience interest and positive word of mouth.",
+        "As AOT continues its box office journey, these favorable early trends highlight a positive trajectory for the release among moviegoers."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/443955/janhvi-vs-shruti-haasan-two-different-opinions-on-peddi-controversy",
+      "title": "Janhvi Kapoor and Shruti Haasan Express Divergent Views on Peddi Controversy",
+      "summary": "Actors Janhvi Kapoor and Shruti Haasan have shared contrasting perspectives regarding the ongoing Peddi controversy. Their differing stances have drawn attention as the film discussion continues to unfold in the industry.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/443955/janhvi-vs-shruti-haasan-two-different-opinions-on-peddi-controversy",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2026/04/peddi-Shruthi-.jpg",
+      "publishedAt": "2026-11-23T13:50:46.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The Peddi controversy has drawn public commentary from prominent actors Janhvi Kapoor and Shruti Haasan. Both performers have stepped forward to share distinct viewpoints on the matter, reflecting individual takes on the ongoing discussion.",
+        "As the situation surrounding Peddi continues to develop within film circles, opinions from major figures like Kapoor and Haasan provide notable industry commentary. The contrasting perspectives highlight how different artists approach notable cinematic disputes."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.cinejosh.com/news/1/131509/mythri-movie-makers-3500-crore-big-move.html",
+      "title": "Mythri Movie Makers Makes Significant 3500 Crore Strategic Move",
+      "summary": "Prominent production banner Mythri Movie Makers has undertaken a major financial step with a reported 3500 crore move involving IPO plans. This substantial corporate development marks a notable expansion for the established film company.",
+      "source": "CineJosh",
+      "url": "https://www.cinejosh.com/news/1/131509/mythri-movie-makers-3500-crore-big-move.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/mythri-movie-makers-3500-crore-big-move-1795441281779-1795441281068.jpg",
+      "publishedAt": "2026-11-23T13:41:26.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Production house Mythri Movie Makers has initiated a major business development involving planned IPO activities valued at 3500 crores. This corporate milestone represents a substantial financial maneuver for the prominent film production banner.",
+        "Such large-scale financial actions underscore the growing scale of corporate structures within the Indian film industry. As production entities increasingly explore major market moves, developments of this magnitude highlight shifting economic dynamics in cinema."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/ntrs-devara-satellite-rights-finally-acquired-by-this-new-channel-prp.html",
+      "title": "Satellite Rights for NTR's Devara Reportedly Secured by New Channel",
+      "summary": "The television satellite rights for the Jr. NTR starrer Devara have reportedly been acquired by a new broadcasting channel. This development finalizes an important post-theatrical broadcast home for the high-profile film.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/ntrs-devara-satellite-rights-finally-acquired-by-this-new-channel-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/10/devara.webp",
+      "publishedAt": "2026-11-23T13:35:05.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The satellite broadcasting rights for Jr. NTR's prominent film Devara have reportedly found a home with a new channel. Securing these rights marks a key milestone in the film's post-release lifecycle and television distribution strategy.",
+        "For fans and industry observers, satellite deals are a crucial part of a major movie's commercial footprint. This acquisition ensures that the feature will reach television audiences through the newly associated network."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/teaser-of-sree-vishnus-family-pack-promises-a-neat-entertainer-prp.html",
+      "title": "Sree Vishnu's Family Pack Teaser Offers a Look at a Neat Entertainer",
+      "summary": "The recently released teaser for Sree Vishnu's Family Pack sets up expectations for a clean cinematic entertainer. The promotional video introduces audiences to the tone and premise of the upcoming project.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/teaser-of-sree-vishnus-family-pack-promises-a-neat-entertainer-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/familypack.webp",
+      "publishedAt": "2026-11-23T12:58:09.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "The teaser for Sree Vishnu's upcoming project Family Pack has officially debuted, presenting a neat and engaging cinematic preview. The promotional cut gives viewers a glimpse into the tone and style of the entertainer.",
+        "Sree Vishnu continues to select projects that appeal to audiences looking for lighthearted and structured storytelling. The fresh teaser builds anticipation for the film's eventual release by highlighting its comedic and entertaining elements."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/alias-rukmini-trailer-update-revealed-by-nani-in-a-hilarious-style-prp.html",
+      "title": "Nani Delivers a Hilarious Update on the Alias Rukmini Trailer",
+      "summary": "Actor Nani has shared a humorous update regarding the upcoming trailer for Alias Rukmini. The announcement has caught the attention of film enthusiasts following the project's promotional campaign.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/alias-rukmini-trailer-update-revealed-by-nani-in-a-hilarious-style-prp.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/aliasrukmini.webp",
+      "publishedAt": "2026-11-23T12:30:09.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Nani has delivered a fresh update regarding the trailer for the upcoming project Alias Rukmini. Known for his engaging public presence, Nani chose a particularly humorous style to share the news with fans and followers.",
+        "The lighthearted announcement has added to the ongoing anticipation surrounding the film. As updates continue to emerge, audiences and moviegoers are keeping a close watch on further promotional announcements for Alias Rukmini."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.gulte.com/movienews/443919/exclusive-finally-devara-locks-its-satellite-tv-rights-deal",
+      "title": "Devara Secures Its Official Satellite TV Rights",
+      "summary": "The highly discussed feature Devara has officially finalized its satellite television broadcasting rights agreement. This major development marks another milestone for the film's pre-release business dealings.",
+      "source": "Gulte",
+      "url": "https://www.gulte.com/movienews/443919/exclusive-finally-devara-locks-its-satellite-tv-rights-deal",
+      "img": "https://cdn.gulte.com/wp-content/uploads/2024/09/devara-movie-review-4.jpg",
+      "publishedAt": "2026-11-23T10:55:24.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Makers of the prominent feature Devara have officially locked their satellite television rights deal. Securing a satellite partner is a crucial step in the commercial lifecycle of a major film project.",
+        "With this television broadcasting agreement now finalized, the project continues to strengthen its commercial footprint across entertainment platforms ahead of its broader release rollout."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/ramayana-part-1-becomes-the-all-time-no-1-indian-film-in-north-america",
+      "title": "Ramayana Part 1 Claims Top Spot as All-Time No. 1 Indian Film in North America",
+      "summary": "Ramayana Part 1 has achieved a historic box office milestone by becoming the all-time number one Indian film in North America. The accomplishment highlights the growing international reach and commercial strength of Indian cinema.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/ramayana-part-1-becomes-the-all-time-no-1-indian-film-in-north-america",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/11/ramayana-nov1326.jpg",
+      "publishedAt": "2026-11-23T10:25:00.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Ramayana Part 1 has officially rewritten box office history in North America by claiming the title of the all-time number one Indian film in the region. This milestone underscores the expanding audience base and box office potential for major Indian cinematic releases overseas.",
+        "The landmark achievement places the production at the forefront of international theatrical milestones. Industry observers continue to monitor its historic theatrical run as it sets new benchmarks for Indian cinema in North American markets."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/2026-releases-pressure-from-censor-board/",
+      "title": "Censor Board Scrutiny Mounts Ahead of 2026 Film Releases",
+      "summary": "Upcoming cinema releases slated for the year 2026 are reportedly facing increased pressure from the Censor Board. Filmmakers and industry stakeholders are navigating stricter regulatory evaluations as production schedules progress.",
       "source": "Telugu360",
-      "url": "https://www.telugu360.com/photos-bhogi-movie-pre-release-event/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Bhogi15.jpg",
-      "publishedAt": "2026-11-23T01:53:07.000Z",
+      "url": "https://www.telugu360.com/2026-releases-pressure-from-censor-board/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2024/02/tollywood.jpg",
+      "publishedAt": "2026-11-23T09:54:18.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Promotional events for upcoming cinema often generate excitement among moviegoers, and the pre-release gathering for Bhogi is no exception. A fresh collection of photographs documenting the occasion has been made available.",
-        "These visual galleries provide fans and followers with a closer look at the build-up surrounding the feature. Pre-release gatherings serve as key milestones for films as they approach their official public debut.",
-        "The newly shared images capture moments from the promotional function, keeping audiences engaged as the release timeline moves forward."
+        "As the industry looks ahead to upcoming theatrical slates, films scheduled for 2026 releases are encountering notable pressure from the Censor Board. Regulatory scrutiny is a pivotal phase for any motion picture heading toward public exhibition.",
+        "The unfolding situation highlights the complex hurdles creators face during the certification process. Industry participants are closely observing how these compliance challenges will influence upcoming promotional timelines and release calendars."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
-      "id": "https://www.123telugu.com/mnews/bhogi-director-publicly-apologises-to-dimple-hayathi-heres-why-hk.html",
-      "title": "Bhogi Director Issues Public Apology to Dimple Hayathi",
-      "summary": "The director of the upcoming film Bhogi has issued a public apology directed at actor Dimple Hayathi, drawing considerable interest from followers.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/bhogi-director-publicly-apologises-to-dimple-hayathi-heres-why-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/Dimple-H.webp",
-      "publishedAt": "2026-11-23T01:31:56.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "In a notable development surrounding the film Bhogi, the director has stepped forward to publicly apologize to actor Dimple Hayathi. This public statement has sparked curiosity and discussion among cinema followers tracking the project.",
-        "Public apologies from filmmakers involving cast members are relatively rare and quickly attract attention within the entertainment sphere. While specific background details remain tied to the director's public message, the acknowledgment marks a notable moment for the team.",
-        "As the film continues its journey toward release, interactions and statements from key creative personnel like the director continue to shape the public narrative around Bhogi."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/443831/why-many-bollywood-stars-choose-to-remain-silent",
-      "title": "Examining Why Numerous Bollywood Stars Often Choose Silence",
-      "summary": "A closer look at the Hindi film industry explores the reasons behind why many prominent Bollywood stars frequently choose to remain silent on various matters.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/443831/why-many-bollywood-stars-choose-to-remain-silent",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/10/manoj-bajpayee.jpg",
-      "publishedAt": "2026-11-22T22:42:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The Hindi film industry has long operated under unique pressures, leading many prominent actors and Bollywood stars to carefully manage their public stances. A recurring topic of discussion centers on why numerous celebrities often choose to maintain silence on various issues.",
-        "Navigating public scrutiny, maintaining brand image, and avoiding potential controversies are factors that frequently influence how major stars approach public commentary. In an era of intense digital observation, withholding public statements is often viewed as a strategic choice.",
-        "This calculated approach to public relations highlights the complex realities faced by high-profile personalities within the entertainment business as they balance personal expression with professional longevity."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.gulte.com/movienews/443743/dont-watch-bhogi-as-sampath-nandi-film",
-      "title": "Clarification Issued Regarding Bhogi and Sampath Nandi",
-      "summary": "Audiences have been advised regarding how to approach Bhogi in relation to filmmaker Sampath Nandi, sparking discussion among movie followers.",
-      "source": "Gulte",
-      "url": "https://www.gulte.com/movienews/443743/dont-watch-bhogi-as-sampath-nandi-film",
-      "img": "https://cdn.gulte.com/wp-content/uploads/2026/11/sampath-nandi-bhogi-.jpg",
-      "publishedAt": "2026-11-22T19:13:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Recent updates surrounding the project Bhogi have caught the attention of cinema followers, particularly regarding its association with filmmaker Sampath Nandi. Viewers and fans have been specifically advised not to view the project strictly as a Sampath Nandi film.",
-        "As discussions continue to circulate within film circles, this clarification helps set expectations for audiences tracking upcoming cinematic ventures."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/nikhil-siddhartha-shares-key-update-on-swayambhu-hk.html",
-      "title": "Nikhil Siddhartha Drops Fresh Updates on Swayambhu",
-      "summary": "Actor Nikhil Siddhartha has shared important updates concerning his upcoming cinematic venture Swayambhu, keeping fans engaged with production progress.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/nikhil-siddhartha-shares-key-update-on-swayambhu-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2025/11/Swayambhu-2.webp",
-      "publishedAt": "2026-11-22T18:30:01.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Actor Nikhil Siddhartha has come forward with key information regarding his much-anticipated project, Swayambhu. The update provides followers with a fresh glimpse into the progress of the film.",
-        "As anticipation builds for Swayambhu, such announcements play a vital role in maintaining audience interest and keeping fans informed about the star's ongoing professional commitments."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/videos/polls/poll-whats-your-take-on-sharwanands-bhogi-trailer.html",
-      "title": "Audience Poll Gauges Reaction to Sharwanand’s Upcoming ‘Bhogi’ Trailer",
-      "summary": "Movie enthusiasts and fans are weighing in through a new poll focused on Sharwanand's upcoming cinematic project, 'Bhogi'. The online survey invites viewers to share their thoughts and opinions regarding the newly launched promotional trailer.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/videos/polls/poll-whats-your-take-on-sharwanands-bhogi-trailer.html",
-      "img": "",
-      "publishedAt": "2026-11-22T16:10:25.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A fresh interactive poll has been launched to gauge audience reactions to the promotional trailer for Sharwanand's upcoming film, 'Bhogi'. Cinephiles and fans of the Telugu film industry are participating to register their verdict on the newly released preview.",
-        "Such promotional polls provide a direct window into public sentiment as major movie campaigns roll out. The reception of the 'Bhogi' trailer by viewers helps highlight expectations surrounding Sharwanand's latest project.",
-        "As discussions continue across various entertainment platforms, audience responses to the trailer remain a key talking point. Further updates regarding the project are anticipated as the promotional campaign progresses."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/manchu-vishnu-prabhu-deva-film-to-be-announced-soon-avd.html",
-      "title": "Manchu Vishnu and Prabhu Deva to Team Up for an Upcoming Cinematic Venture",
-      "summary": "An exciting new collaboration is on the horizon in the film industry as Manchu Vishnu and Prabhu Deva are set to team up. An official announcement regarding this upcoming project is expected to be made soon.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/manchu-vishnu-prabhu-deva-film-to-be-announced-soon-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/manchuvishnu.webp",
-      "publishedAt": "2026-11-22T15:30:04.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "A fresh cinematic collaboration is in the works, bringing together Manchu Vishnu and Prabhu Deva for an upcoming film project. Industry followers are awaiting the official announcement, which is slated to arrive shortly.",
-        "While specific plot details and crew members are yet to be officially detailed, the pairing of Manchu Vishnu and Prabhu Deva has already generated considerable interest. Collaborations involving seasoned names always attract attention across regional cinema circles.",
-        "Further details concerning the venture will be revealed when the formal announcement is made. Fans and trade analysts alike look forward to learning more about the scope and genre of this upcoming movie."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/vrushakarma-december-4-release-still-on-track-avd.html",
-      "title": "Vrushakarma Confirms December 4 Release Date",
-      "summary": "The upcoming film Vrushakarma remains on schedule for its planned December 4 release date, with updates continuing to confirm the timeline. Cineinsta brings you the latest tracking details on this cinematic arrival.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/vrushakarma-december-4-release-still-on-track-avd.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/vrushakarma-3.webp",
-      "publishedAt": "2026-11-22T14:30:07.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The theatrical schedule for Vrushakarma remains firmly locked in place. Recent updates confirm that the movie's December 4 release date is still very much on track.",
-        "As anticipation builds for the scheduled arrival, film enthusiasts and industry trackers can look forward to seeing how the rollout progresses. Further announcements regarding the project are expected as the launch date approaches."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.cinejosh.com/news/1/131485/why-tamil-hindi-songs-preferred-to-telugu-songs-for-national-awards.html",
-      "title": "National Awards Music Discussion: Tamil and Hindi Tracks Versus Telugu Songs",
-      "summary": "A discussion has emerged regarding the preference for Tamil and Hindi songs over Telugu compositions at the National Awards. This conversation touches on regional music representation and recognition within the Indian film industry.",
+      "id": "https://www.cinejosh.com/news/1/131504/aadarsha-kutumbam-drishyam-3-and-more-on-ott.html",
+      "title": "Aadarsha Kutumbam and Drishyam 3 Lead the Latest OTT Lineup",
+      "summary": "Movie enthusiasts look forward to the newest digital streaming premieres, featuring titles like Aadarsha Kutumbam and Drishyam 3 arriving on platforms this week.",
       "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/131485/why-tamil-hindi-songs-preferred-to-telugu-songs-for-national-awards.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/why-tamil-hindi-songs-preferred-to-telugu-songs-for-national-awards-1795352176521-1795352176444.jpg",
-      "publishedAt": "2026-11-22T12:56:21.000Z",
+      "url": "https://www.cinejosh.com/news/1/131504/aadarsha-kutumbam-drishyam-3-and-more-on-ott.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/aadarsha-kutumbam-drishyam-3-and-more-on-ott-1795425868586-1795425868862.jpg",
+      "publishedAt": "2026-11-23T09:24:33.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Conversations within the cinematic community have turned toward the recognition of regional music at the National Awards. Specifically, discussions examine why Tamil and Hindi tracks frequently receive preference over Telugu songs.",
-        "Such conversations highlight broader perspectives on how musical works from different linguistic industries are evaluated on national platforms. Observers continue to analyze these trends within the scope of pan-Indian cinema recognition."
+        "Digital streaming platforms are bringing fresh content to screens with a lineup that includes notable titles like Aadarsha Kutumbam and Drishyam 3. Viewers looking for the latest OTT releases this week have several options to explore from the comfort of their homes.",
+        "As digital premieres continue to shape viewing habits, the arrival of titles such as Aadarsha Kutumbam and Drishyam 3 highlights the ongoing demand for home entertainment options across various platforms."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
-      "id": "https://www.cinejosh.com/news/1/131484/union-minister-kishan-reddy-meets-prabhas-for-a-cause.html",
-      "title": "Union Minister Kishan Reddy Meets Prabhas for a Cause",
-      "summary": "Union Minister Kishan Reddy recently held a meeting with pan-India star Prabhas for a specific cause. The interaction brings together political leadership and prominent cinema talent for a notable initiative.",
+      "id": "https://www.cinejosh.com/news/1/131502/ene-repeat-four-days-worldwide-box-office-collection.html",
+      "title": "ENE Repeat Nears Rs 50 Crore Mark in Four Days Worldwide",
+      "summary": "The film ENE Repeat has posted impressive figures, approaching the Rs 50 crore milestone in its worldwide box office collections over its first four days.",
       "source": "CineJosh",
-      "url": "https://www.cinejosh.com/news/1/131484/union-minister-kishan-reddy-meets-prabhas-for-a-cause.html",
-      "img": "https://www.cinejosh.com/newsimg/newsmainimg/union-minister-kishan-reddy-meets-prabhas-for-a-cause-1795350596728-1795350596780.jpg",
-      "publishedAt": "2026-11-22T12:30:08.000Z",
+      "url": "https://www.cinejosh.com/news/1/131502/ene-repeat-four-days-worldwide-box-office-collection.html",
+      "img": "https://www.cinejosh.com/newsimg/newsmainimg/ene-repeat-four-days-worldwide-box-office-collection-1795424923339-1795424923665.jpg",
+      "publishedAt": "2026-11-23T09:08:48.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "In a notable development, Union Minister Kishan Reddy met with prominent pan-India actor Prabhas. The meeting took place for a specific cause, drawing attention from both political and entertainment circles.",
-        "Encounters of this nature often bridge the gap between public service initiatives and influential cultural personalities, highlighting the broader societal roles that major cinema stars can undertake."
+        "The theatrical run of ENE Repeat has captured significant attention as it nears the Rs 50 crore milestone globally. In its first four days at the worldwide box office, the film has demonstrated strong performance numbers.",
+        "This box office traction underscores the strong commercial pull of ENE Repeat during its initial opening window, drawing audiences in large numbers across territories."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     },
     {
-      "id": "https://www.123telugu.com/mnews/netflix-plans-grand-launch-event-for-chiranjeevis-megaverse-deets-inside-hk.html",
-      "title": "Netflix Prepares Major Launch Event for Chiranjeevi's Megaverse",
-      "summary": "Streaming giant Netflix is reportedly organizing a grand launch event for Chiranjeevi’s Megaverse. Further details regarding the upcoming project and the planned festivities are expected to be revealed soon.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/netflix-plans-grand-launch-event-for-chiranjeevis-megaverse-deets-inside-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/mega.webp",
-      "publishedAt": "2026-11-22T11:31:58.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Streaming platform Netflix is gearing up for a major promotional rollout concerning Chiranjeevi’s Megaverse. Plans are underway for a grand launch event to introduce the venture to audiences.",
-        "While specific details regarding the event remain under wraps, the collaboration with a leading streaming service signals significant anticipation. Fans of the renowned actor are eagerly waiting for official announcements concerning the launch schedule and event particulars.",
-        "As preparations continue, this upcoming showcase marks another prominent development in digital entertainment platforms embracing major Indian cinematic universes and stars."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://telugucinema.com/news/sharwanand-gets-lucky-as-two-films-exit-bhogis-release-date",
-      "title": "Sharwanand Benefits as Two Films Clear Bhogi Release Window",
-      "summary": "Actor Sharwanand finds himself in an advantageous position for the upcoming festive window. Two competing films have stepped away from the Bhogi release date, clearing a less crowded path.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/sharwanand-gets-lucky-as-two-films-exit-bhogis-release-date",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/10/bhogi-song-oct2026.jpg",
-      "publishedAt": "2026-11-22T10:45:01.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The competitive landscape for the festive season has shifted in favor of actor Sharwanand. Two other films have officially exited the Bhogi release slot, altering the holiday box office lineup.",
-        "With multiple competitors clearing the date, Sharwanand's upcoming project faces reduced competition for screens and audience attention during the festive celebrations. Such scheduling changes often play a crucial role in maximizing theatrical reach and early box office returns.",
-        "Industry observers continue to monitor how this shift in the release calendar will impact overall holiday moviegoing trends in Telugu cinema."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/alias-rukmini-trailer-likely-to-drop-tomorrow-hk.html",
-      "title": "Alias Rukmini Trailer Anticipated to Release Tomorrow",
-      "summary": "The official trailer for Alias Rukmini is expected to drop tomorrow, according to recent updates. Cinephiles and followers of the project are eagerly waiting for the promotional video.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/alias-rukmini-trailer-likely-to-drop-tomorrow-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/08/Alias-Rukmini-1.webp",
-      "publishedAt": "2026-11-22T10:29:32.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "The promotional campaign for Alias Rukmini is picking up pace with reports indicating an impending trailer release. The much-anticipated preview is likely to be unveiled tomorrow.",
-        "As one of the upcoming titles generating discussion, the trailer is expected to provide a closer look at the film's premise and tone. Audiences will soon get a clearer picture of what the project has to offer.",
-        "Further updates on the exact timing and platform for the trailer launch are expected to follow shortly."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.123telugu.com/mnews/aadarsha-kutumbam-ott-release-venkateshs-film-likely-to-stream-on-this-date-hk.html",
-      "title": "Venkatesh Starrer Aadarsha Kutumbam Eyes Upcoming OTT Streaming Date",
-      "summary": "Venkatesh’s film Aadarsha Kutumbam is reportedly gearing up for its digital premiere. Speculation surrounds the expected streaming date as fans await official confirmation from the makers.",
-      "source": "123telugu",
-      "url": "https://www.123telugu.com/mnews/aadarsha-kutumbam-ott-release-venkateshs-film-likely-to-stream-on-this-date-hk.html",
-      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/10/Aadarsha-Kutumbam-5.webp",
-      "publishedAt": "2026-11-22T09:35:13.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Venkatesh’s film Aadarsha Kutumbam is making headlines regarding its digital streaming debut. Reports suggest that the movie is likely to land on an OTT platform soon.",
-        "While exact streaming dates are yet to be officially locked and announced, digital premiere speculations have heightened interest among fans who missed the theatrical run or prefer home viewing.",
-        "Official announcements detailing the streaming partner and release schedule are anticipated in the near future."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://telugucinema.com/news/allu-arjun-likes-boyapatis-idea-but-asks-him-to-work-on-the-script-for-a-year",
-      "title": "Allu Arjun Approves Boyapati's Concept, Requests One-Year Script Development",
-      "summary": "Tollywood star Allu Arjun has shown interest in a conceptual idea pitched by director Boyapati. However, the actor has advised the filmmaker to spend the next year further developing and refining the complete script before taking the project forward.",
-      "source": "TeluguCinema",
-      "url": "https://telugucinema.com/news/allu-arjun-likes-boyapatis-idea-but-asks-him-to-work-on-the-script-for-a-year",
-      "img": "https://telugucinema.com/wp-content/uploads/2026/08/alluarjun-vizag-aug0926.jpg",
-      "publishedAt": "2026-11-22T08:40:00.000Z",
-      "language": "Telugu",
-      "category": "Telugu Cinema",
-      "body": [
-        "Tollywood actor Allu Arjun has given a positive nod to a conceptual outline presented by filmmaker Boyapati Srinu. While the initial premise has caught the actor's attention, the project is still in its early developmental stage rather than an immediate greenlight.",
-        "Rather than rushing into production, Allu Arjun has asked the director to dedicate a full year to working on the script. This time will be used to flesh out the narrative and ensure the story meets expectations before any formal shooting plans are laid out.",
-        "Such preparatory phases are common in major Telugu cinema collaborations, where actors and directors prefer thorough script refinement. Fans of both the star and the director will need to wait as the writing process progresses over the coming months."
-      ],
-      "editorial": "Cineinsta"
-    },
-    {
-      "id": "https://www.telugu360.com/chays-eagerly-awaited-vrushakarma-trailer-date-locked/",
-      "title": "Trailer Release Date Locked for Naga Chaitanya's Vrushakarma",
-      "summary": "The official trailer release date for Naga Chaitanya's eagerly anticipated project, Vrushakarma, has officially been locked. Cinephiles and fans can look forward to getting their first major look at the film very soon.",
+      "id": "https://www.telugu360.com/kiran-abbavarams-record-sparks-curiosity-with-unique-poster/",
+      "title": "Kiran Abbavaram’s RECORD Unveils Unique Poster to Build Curiosity",
+      "summary": "Actor Kiran Abbavaram's upcoming project RECORD has released a distinctive new poster, generating fresh intrigue and excitement among moviegoers.",
       "source": "Telugu360",
-      "url": "https://www.telugu360.com/chays-eagerly-awaited-vrushakarma-trailer-date-locked/",
-      "img": "https://www.telugu360.com/wp-content/uploads/2026/03/Vrushakarma-1.jpg",
-      "publishedAt": "2026-11-22T07:29:38.000Z",
+      "url": "https://www.telugu360.com/kiran-abbavarams-record-sparks-curiosity-with-unique-poster/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2026/11/Kiran-Abbavarams-RECORD-Sparks-Curiosity-with-Unique-Poster.jpg",
+      "publishedAt": "2026-11-23T08:52:30.000Z",
       "language": "Telugu",
       "category": "Telugu Cinema",
       "body": [
-        "Anticipation is building for Naga Chaitanya's upcoming cinematic venture, Vrushakarma, as the makers have officially locked the date for its trailer release. The announcement has heightened expectations among followers of the Telugu star.",
-        "As details surrounding the upcoming promotional video are finalized, audiences are gearing up for the official unveiling. The trailer is expected to offer a comprehensive look into the tone and world of the movie.",
-        "Stay tuned for the official trailer release as the promotional campaign for Vrushakarma officially kicks into gear."
+        "Actor Kiran Abbavaram has grabbed the attention of film enthusiasts with the release of a unique promotional poster for his upcoming project, RECORD. The newly revealed promotional material has successfully sparked curiosity across social and entertainment circles.",
+        "As promotional campaigns continue to build momentum, this latest poster release for RECORD gives audiences a fresh look at what to expect from the actor's upcoming cinematic venture."
       ],
-      "editorial": "Cineinsta"
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.123telugu.com/mnews/vrushakarma-naga-chaitanya-looks-fierce-in-new-birthday-poster-hk.html",
+      "title": "Naga Chaitanya Sports a Fierce Look in Vrushakarma Birthday Poster",
+      "summary": "To celebrate his birthday, actor Naga Chaitanya has been revealed in a fierce new look for his upcoming project Vrushakarma via a special poster.",
+      "source": "123telugu",
+      "url": "https://www.123telugu.com/mnews/vrushakarma-naga-chaitanya-looks-fierce-in-new-birthday-poster-hk.html",
+      "img": "https://cdn.123telugu.com/content/wp-content/uploads/2026/11/vrus.webp",
+      "publishedAt": "2026-11-23T08:00:26.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Actor Naga Chaitanya is in the spotlight following the release of a striking birthday poster for his project Vrushakarma. The newly unveiled promotional material features the actor sporting a fierce and intense look.",
+        "The birthday poster has quickly generated excitement among fans and followers, offering an early glimpse into the tone and aesthetic of Vrushakarma."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://www.telugu360.com/allu-arjuns-film-long-wait-for-boyapati/",
+      "title": "Allu Arjun and Boyapati Srinu Project Faces a Prolonged Delay",
+      "summary": "Fans eagerly awaiting the collaboration between Allu Arjun and director Boyapati Srinu will have to exercise patience. The much-talked-about Telugu film project is facing a notably long wait before going into full production.",
+      "source": "Telugu360",
+      "url": "https://www.telugu360.com/allu-arjuns-film-long-wait-for-boyapati/",
+      "img": "https://www.telugu360.com/wp-content/uploads/2025/04/Boyapati.jpg",
+      "publishedAt": "2026-11-23T05:44:37.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "Followers of Telugu cinema looking forward to the upcoming collaboration between actor Allu Arjun and director Boyapati Srinu are encountering a significant delay. According to recent updates, the anticipated film project is facing a notably long wait before hitting the floors.",
+        "While details surrounding the exact reasons or official timelines remain sparse, the extended gap has become a prominent talking point among movie enthusiasts. Both the actor and the director command massive followings in the industry, making any potential union a major subject of interest.",
+        "As the wait continues, audiences and trade analysts alike remain watchful for any official announcements regarding when production might finally commence for this high-profile Telugu cinematic endeavor."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "https://telugucinema.com/news/chiranjeevi-brings-ravi-teja-and-nani-together-for-megaverse",
+      "title": "Chiranjeevi Unites Ravi Teja and Nani for Megaverse",
+      "summary": "Megastar Chiranjeevi has successfully brought together fellow actors Ravi Teja and Nani for a project termed 'Megaverse'. This notable coming together of prominent Telugu cinema stars has generated considerable excitement among fans.",
+      "source": "TeluguCinema",
+      "url": "https://telugucinema.com/news/chiranjeevi-brings-ravi-teja-and-nani-together-for-megaverse",
+      "img": "https://telugucinema.com/wp-content/uploads/2026/11/raviteja-nani-nov2326.jpg",
+      "publishedAt": "2026-11-23T05:33:21.000Z",
+      "language": "Telugu",
+      "category": "Telugu Cinema",
+      "body": [
+        "In a thrilling development for Tollywood enthusiasts, Megastar Chiranjeevi has reportedly brought together notable actors Ravi Teja and Nani for an initiative titled 'Megaverse'. This creative alignment unites distinct generations of star power under one umbrella.",
+        "The coming together of these major names marks a notable moment in the regional film industry, capturing the attention of moviegoers and fans across the board. Specific details regarding the exact nature of the 'Megaverse' project continue to unfold.",
+        "As developments emerge, the collaboration highlights the strong camaraderie among leading Telugu cinema personalities, further fueling anticipation for what this unique union holds for the audience."
+      ],
+      "editorial": "Cineinsta",
+      "reviewStatus": "approved"
     }
   ],
   "trailers": [
+    {
+      "id": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/avengers-doomsday-final-trailer-fans-root-for-team-doom-after-steve-rogers-backstory-reveal-say-tony-stark-natasha-romanoff-died-for-nothing-watch/articleshow/136117446.cms",
+      "title": "‘Avengers: Doomsday’ final trailer: Fans root for 'Team Doom' after Steve Rogers' backstory reveal; say 'Tony Stark, Natasha Romanoff died for nothing' – WATCH",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/avengers-doomsday-final-trailer-fans-root-for-team-doom-after-steve-rogers-backstory-reveal-say-tony-stark-natasha-romanoff-died-for-nothing-watch/articleshow/136117446.cms",
+      "img": "https://static.toiimg.com/thumb/msid-136117741,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/entertainment/english/music/news/damian-hurley-shares-glimpses-of-miley-cyrus-and-maxx-morandos-wedding-alongside-mother-elizabeth-hurley-and-billy-ray-cyrus-so-much-love/articleshow/136117047.cms",
+      "title": "Damian Hurley shares glimpses of Miley Cyrus and Maxx Morando’s wedding alongside mother Elizabeth Hurley and Billy Ray Cyrus: ‘So much love'",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/entertainment/english/music/news/damian-hurley-shares-glimpses-of-miley-cyrus-and-maxx-morandos-wedding-alongside-mother-elizabeth-hurley-and-billy-ray-cyrus-so-much-love/articleshow/136117047.cms",
+      "img": "https://static.toiimg.com/thumb/msid-136117111,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/justin-timberlake-unveils-documentary-teaser-clip-hints-at-rocky-patch-with-wife-jessica-biel-watch/articleshow/136117009.cms",
+      "title": "Justin Timberlake unveils documentary teaser; clip hints at rocky patch with wife Jessica Biel - WATCH",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/justin-timberlake-unveils-documentary-teaser-clip-hints-at-rocky-patch-with-wife-jessica-biel-watch/articleshow/136117009.cms",
+      "img": "https://static.toiimg.com/thumb/msid-136117040,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "title": "Latest trailers entertainment Videos | Times of India",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/ettrailerfeatured.cms",
+      "img": "https://static.toiimg.com/photo/59770138.cms",
+      "youtubeId": "",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/panchayat-season-5-trailer-out-phulera-gets-a-new-pradhan-jitendra-kumars-abhishek-faces-a-tougher-road-with-banrakas-backing-the-new-leadership/articleshow/136109586.cms",
+      "title": "'Panchayat Season 5' trailer out: Phulera gets a new Pradhan; Jitendra Kumar's Abhishek faces a tougher road with Banrakas backing the new leadership",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/panchayat-season-5-trailer-out-phulera-gets-a-new-pradhan-jitendra-kumars-abhishek-faces-a-tougher-road-with-banrakas-backing-the-new-leadership/articleshow/136109586.cms",
+      "img": "https://static.toiimg.com/thumb/msid-136109770,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "language": "Telugu"
+    },
+    {
+      "id": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/avengers-doomsday-final-trailer-out-robert-downey-jrs-doctor-doom-targets-steve-rogers-family-fantastic-four-launch-rescue-mission-x-men-cross-over-into-main-mcu-timeline-as-multiversal-incursions-threaten-earth/articleshow/136107279.cms",
+      "title": "'Avengers: Doomsday' final trailer out: Robert Downey Jr's Doctor Doom targets Steve Rogers' family, Fantastic Four launch rescue mission, X-Men cross over into main MCU timeline as multiversal Incursions threaten Earth",
+      "source": "ETimes Telugu",
+      "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/avengers-doomsday-final-trailer-out-robert-downey-jrs-doctor-doom-targets-steve-rogers-family-fantastic-four-launch-rescue-mission-x-men-cross-over-into-main-mcu-timeline-as-multiversal-incursions-threaten-earth/articleshow/136107279.cms",
+      "img": "https://static.toiimg.com/thumb/msid-136107551,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "youtubeId": "",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "language": "Telugu"
+    },
     {
       "id": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/samantha-ruth-prabhu-raj-nidimoru-blessed-with-a-baby-boy-announce-his-name-with-an-adorable-first-glimpse-pic-inside/articleshow/136019192.cms",
       "title": "Samantha Ruth Prabhu, Raj Nidimoru blessed with a baby boy, announce his name with an adorable first glimpse - PIC inside",
@@ -427,66 +560,6 @@
       "img": "https://i0.wp.com/telugu.indiaglitz.com/wp-content/uploads/2026/11/arjun-sarja-in-polimera-3.jpg",
       "youtubeId": "",
       "publishedAt": "2026-11-10T13:21:34.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/maatrubhumi-may-war-rest-in-peace-official-trailer/videoshow/135717656.cms",
-      "title": "Maatrubhumi: May War Rest In Peace - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/maatrubhumi-may-war-rest-in-peace-official-trailer/videoshow/135717656.cms",
-      "img": "https://static.toiimg.com/thumb/msid-135717656,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/regional/others/godzilla-minus-zero-official-trailer/videoshow/135632975.cms",
-      "title": "Godzilla Minus Zero - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/regional/others/godzilla-minus-zero-official-trailer/videoshow/135632975.cms",
-      "img": "https://static.toiimg.com/thumb/msid-135632975,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/eetha-official-trailer/videoshow/135355772.cms",
-      "title": "Eetha - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/eetha-official-trailer/videoshow/135355772.cms",
-      "img": "https://static.toiimg.com/thumb/msid-135355772,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/jumanji-open-world-official-trailer/videoshow/135267781.cms",
-      "title": "Jumanji: Open World - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/jumanji-open-world-official-trailer/videoshow/135267781.cms",
-      "img": "https://static.toiimg.com/thumb/msid-135267781,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/english/dune-part-three-official-trailer/videoshow/135252424.cms",
-      "title": "Dune: Part Three - Official Trailer",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/dune-part-three-official-trailer/videoshow/135252424.cms",
-      "img": "https://static.toiimg.com/thumb/msid-135252424,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "language": "Telugu"
-    },
-    {
-      "id": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/pratap-official-trailer/videoshow/135211475.cms",
-      "title": "Pratap - Official Trailer​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
-      "source": "ETimes Telugu",
-      "url": "https://timesofindia.indiatimes.com/videos/entertainment/hindi/pratap-official-trailer/videoshow/135211475.cms",
-      "img": "https://static.toiimg.com/thumb/msid-135211475,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "youtubeId": "",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
       "language": "Telugu"
     }
   ],
@@ -1987,5 +2060,7 @@
         ]
       }
     }
-  ]
+  ],
+  "generatedAt": "2026-11-24T03:47:30.418Z",
+  "reviewStatus": "auto-approved"
 }
