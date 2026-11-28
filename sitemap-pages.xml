@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.cineinsta.com/</loc>
-    <lastmod>2026-11-26T01:32:09.199Z</lastmod>
+    <lastmod>2026-11-28T01:01:40.508Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/news</loc>
-    <lastmod>2026-11-26T01:32:09.199Z</lastmod>
+    <lastmod>2026-11-28T01:01:40.508Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews</loc>
-    <lastmod>2026-11-26T01:32:09.199Z</lastmod>
+    <lastmod>2026-11-28T01:01:40.508Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers</loc>
-    <lastmod>2026-11-26T01:32:09.199Z</lastmod>
+    <lastmod>2026-11-28T01:01:40.508Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/buzz</loc>
-    <lastmod>2026-11-26T01:32:09.199Z</lastmod>
+    <lastmod>2026-11-28T01:01:40.508Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/box-office-battle.html</loc>
@@ -37,6 +37,14 @@
   </url>
   <url>
     <loc>https://www.cineinsta.com/disclaimer.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/bhogi</loc>
+    <lastmod>2026-11-27T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/reviews/nanna-kutty</loc>
+    <lastmod>2026-11-27T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/o-m-operation-mole</loc>
@@ -123,10 +131,6 @@
     <lastmod>2026-10-30T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/reviews/baththa</loc>
-    <lastmod>2026-10-29T00:00:00.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.cineinsta.com/reviews/418</loc>
     <lastmod>2026-10-23T00:00:00.000Z</lastmod>
   </url>
@@ -159,23 +163,23 @@
     <lastmod>2026-10-02T00:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.cineinsta.com/reviews/don-t-trouble-the-trouble</loc>
-    <lastmod>2026-10-02T00:00:00.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.cineinsta.com/reviews/mookuthi-amman-2-maha-sakthi</loc>
-    <lastmod>2026-11-26T01:32:09.199Z</lastmod>
+    <lastmod>2026-11-28T01:01:40.508Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/donga-naa-koduku</loc>
-    <lastmod>2026-11-26T01:32:09.199Z</lastmod>
+    <lastmod>2026-11-28T01:01:40.508Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/reviews/g-o-a-t</loc>
-    <lastmod>2026-11-26T01:32:09.199Z</lastmod>
+    <lastmod>2026-11-28T01:01:40.508Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/latest-trailers-entertainment-videos-times-of-india</loc>
+    <lastmod>2026-11-28T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.cineinsta.com/trailers/vrushakarma-trailer-the-naga-chaitanya-starrer-amd-karthik-varma-dandu-directorial-set-to-take-the-audience-into-mysterious-world-of-ancient-secrets-and-supernatural-mysteries</loc>
     <lastmod>2026-11-26T00:00:00.000Z</lastmod>
   </url>
   <url>
@@ -189,10 +193,6 @@
   <url>
     <loc>https://www.cineinsta.com/trailers/eetha-official-musical-trailer</loc>
     <lastmod>2026-11-25T00:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.cineinsta.com/trailers/family-pack-teaser-sree-vishnu-s-quirky-cop-avatar-promises-a-laughter-ride-this-sankranthi</loc>
-    <lastmod>2026-11-24T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.cineinsta.com/trailers/samantha-ruth-prabhu-raj-nidimoru-blessed-with-a-baby-boy-announce-his-name-with-an-adorable-first-glimpse-pic-inside</loc>
